@@ -1,0 +1,144 @@
+{
+  "checker": "finite_bracketed_tree_cover_rule_v1",
+  "counterexamples": [],
+  "move_class_invariants": {
+    "contract_minimal_bracket": "strictly decreases tree edge count by contracting a minimal bracket; target bracketing remains valid when nonempty",
+    "delete_bracket": "preserves tree edge count; decreases bracketing cardinality by one"
+  },
+  "source_anchors": [
+    "COSMO_COMB_2026: Definition 2.1 Matryoshka poset by containment with maximum element",
+    "COSMO_COMB_2026: Lemma 2.10 Matryoshka <-> bracketed-tree bijection",
+    "COSMO_COMB_2026: Corollary 2.12 cosmohedral fan cones are bracketed-tree cones",
+    "COSMO_COMB_2026: Definition/paragraph after Corollary 2.12 defining deletion and contraction of bracketings",
+    "COSMO_COMB_2026: Proposition 2.13 cover relations have delete-bracket and contract-minimal-bracket classes"
+  ],
+  "source_rule_scope": "Finite implementation of the source-stated bracketed-tree cover rules: delete a bracket, or contract a minimal bracket. This checks the move-class split on selected small tree fixtures; it does not prove the full cosmohedron face lattice.",
+  "status": "PASS_PARTIAL",
+  "status_boundary": "PARTIAL finite move-class check for the cosmohedron/bracketed-tree baseline. It supports the existence and distinction of the two source-stated cover move classes on finite fixtures, but it is not the full CHK-COSMO-MOVE-CLASSES target against A/M1 and not a theorem for all n.",
+  "target_id": "CHK-COSMO-MOVE-CLASSES",
+  "total_bracketings": 129,
+  "total_contraction_moves": 143,
+  "total_deletion_moves": 247,
+  "tree_fixtures": [
+    {
+      "bracketing_count": 3,
+      "contract_minimal_bracket_example": {
+        "edge_count_delta": -1,
+        "minimal_bracket": [0],
+        "source_bracketing": [[0], [0, 1]],
+        "source_edges": [[0, 1], [1, 2]],
+        "target_bracketing": [[0]],
+        "target_edges": [[0, 1]]
+      },
+      "contraction_move_count": 2,
+      "delete_bracket_example": {
+        "bracket_count_delta": -1,
+        "edge_count_preserved": 2,
+        "source_bracketing": [[0], [0, 1]],
+        "target_bracketing": [[0, 1]]
+      },
+      "deletion_move_count": 2,
+      "edge_count": 2,
+      "edges": [[0, 1], [1, 2]],
+      "has_contract_minimal_bracket_moves": true,
+      "has_delete_bracket_moves": true,
+      "tree": "path_2_edges"
+    },
+    {
+      "bracketing_count": 11,
+      "contract_minimal_bracket_example": {
+        "edge_count_delta": -1,
+        "minimal_bracket": [0],
+        "source_bracketing": [[0], [0, 1, 2]],
+        "source_edges": [[0, 1], [1, 2], [2, 3]],
+        "target_bracketing": [[0, 1]],
+        "target_edges": [[0, 1], [1, 2]]
+      },
+      "contraction_move_count": 11,
+      "delete_bracket_example": {
+        "bracket_count_delta": -1,
+        "edge_count_preserved": 3,
+        "source_bracketing": [[0], [0, 1, 2]],
+        "target_bracketing": [[0, 1, 2]]
+      },
+      "deletion_move_count": 15,
+      "edge_count": 3,
+      "edges": [[0, 1], [1, 2], [2, 3]],
+      "has_contract_minimal_bracket_moves": true,
+      "has_delete_bracket_moves": true,
+      "tree": "path_3_edges"
+    },
+    {
+      "bracketing_count": 45,
+      "contract_minimal_bracket_example": {
+        "edge_count_delta": -1,
+        "minimal_bracket": [0],
+        "source_bracketing": [[0], [0, 1, 2, 3]],
+        "source_edges": [[0, 1], [1, 2], [2, 3], [3, 4]],
+        "target_bracketing": [[0, 1, 2]],
+        "target_edges": [[0, 1], [1, 2], [2, 3]]
+      },
+      "contraction_move_count": 55,
+      "delete_bracket_example": {
+        "bracket_count_delta": -1,
+        "edge_count_preserved": 4,
+        "source_bracketing": [[0], [0, 1, 2, 3]],
+        "target_bracketing": [[0, 1, 2, 3]]
+      },
+      "deletion_move_count": 93,
+      "edge_count": 4,
+      "edges": [[0, 1], [1, 2], [2, 3], [3, 4]],
+      "has_contract_minimal_bracket_moves": true,
+      "has_delete_bracket_moves": true,
+      "tree": "path_4_edges"
+    },
+    {
+      "bracketing_count": 13,
+      "contract_minimal_bracket_example": {
+        "edge_count_delta": -1,
+        "minimal_bracket": [0],
+        "source_bracketing": [[0], [0, 1, 2]],
+        "source_edges": [[0, 1], [0, 2], [0, 3]],
+        "target_bracketing": [[0, 1]],
+        "target_edges": [[0, 1], [0, 2]]
+      },
+      "contraction_move_count": 12,
+      "delete_bracket_example": {
+        "bracket_count_delta": -1,
+        "edge_count_preserved": 3,
+        "source_bracketing": [[0], [0, 1, 2]],
+        "target_bracketing": [[0, 1, 2]]
+      },
+      "deletion_move_count": 18,
+      "edge_count": 3,
+      "edges": [[0, 1], [0, 2], [0, 3]],
+      "has_contract_minimal_bracket_moves": true,
+      "has_delete_bracket_moves": true,
+      "tree": "claw_3_edges"
+    },
+    {
+      "bracketing_count": 57,
+      "contract_minimal_bracket_example": {
+        "edge_count_delta": -1,
+        "minimal_bracket": [0],
+        "source_bracketing": [[0], [0, 1, 2, 3]],
+        "source_edges": [[0, 1], [1, 2], [1, 3], [3, 4]],
+        "target_bracketing": [[0, 1, 2]],
+        "target_edges": [[0, 1], [0, 2], [2, 3]]
+      },
+      "contraction_move_count": 63,
+      "delete_bracket_example": {
+        "bracket_count_delta": -1,
+        "edge_count_preserved": 4,
+        "source_bracketing": [[0], [0, 1, 2, 3]],
+        "target_bracketing": [[0, 1, 2, 3]]
+      },
+      "deletion_move_count": 119,
+      "edge_count": 4,
+      "edges": [[0, 1], [1, 2], [1, 3], [3, 4]],
+      "has_contract_minimal_bracket_moves": true,
+      "has_delete_bracket_moves": true,
+      "tree": "fork_4_edges"
+    }
+  ]
+}
