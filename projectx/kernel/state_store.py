@@ -18,6 +18,7 @@ def load_state(path: Path) -> dict[str, Any]:
             "updated_at": utc_now(),
             "runs": [],
             "authority_imports": [],
+            "comparison_runs": [],
             "continuity": {
                 "outer_kernel": "projectx",
                 "inner_pipeline": "pg_pipeline",
@@ -25,7 +26,20 @@ def load_state(path: Path) -> dict[str, Any]:
             },
             "blockers": [],
         }
-    return json.loads(path.read_text(encoding="utf-8"))
+    state = json.loads(path.read_text(encoding="utf-8"))
+    state.setdefault("runs", [])
+    state.setdefault("authority_imports", [])
+    state.setdefault("comparison_runs", [])
+    state.setdefault("blockers", [])
+    state.setdefault(
+        "continuity",
+        {
+            "outer_kernel": "projectx",
+            "inner_pipeline": "pg_pipeline",
+            "authority_pack": "exact_work",
+        },
+    )
+    return state
 
 
 def save_state(path: Path, state: dict[str, Any]) -> None:
@@ -67,6 +81,29 @@ def append_authority_import(path: Path, authority_summary: dict[str, Any], outpu
         }
     )
     state["authority_imports"] = imports
+    save_state(path, state)
+    return state
+
+
+def append_comparison_run(path: Path, comparison_summary: dict[str, Any], output_dir: str) -> dict[str, Any]:
+    """Record a supervised realization-class comparison run in ProjectX continuity state."""
+    state = load_state(path)
+    comparisons = list(state.get("comparison_runs", []))
+    comparisons.append(
+        {
+            "run_id": comparison_summary["run_id"],
+            "status": comparison_summary["status"],
+            "family": comparison_summary["family"],
+            "comparison_id": comparison_summary["comparison_id"],
+            "check_id": comparison_summary["check_id"],
+            "relation": comparison_summary["relation"],
+            "verdict": comparison_summary["verdict"],
+            "authority_record_count": comparison_summary["authority_record_count"],
+            "output_dir": output_dir,
+            "recorded_at": utc_now(),
+        }
+    )
+    state["comparison_runs"] = comparisons
     save_state(path, state)
     return state
 
