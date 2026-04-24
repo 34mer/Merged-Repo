@@ -1,13 +1,13 @@
 {
   "schema": "projectx_formal_check_results_v1",
   "purpose": "Formal check result registry. This records actual result status separately from source extraction and check-target definition.",
-  "result_status_vocab": ["PASS_LEDGER_VALIDATION", "DEFINED_NOT_RUN", "NOT_IMPLEMENTED", "OPEN", "FAILED"],
+  "result_status_vocab": ["PASS_LEDGER_VALIDATION", "PASS_PARTIAL_FINITE_CHECK", "DEFINED_NOT_RUN", "NOT_IMPLEMENTED", "OPEN", "FAILED"],
   "results": [
     {
       "target_id": "CHK-COSMO-NESTING-POSSET",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but no finite Matryoshka/face-poset checker has been implemented yet.",
-      "artifact": null
+      "result_status": "PASS_PARTIAL_FINITE_CHECK",
+      "result_summary": "Implemented finite pre-bracketing/bracketed-tree consistency checker on selected small tree fixtures. The checker verifies that source-stated delete-bracket and contract-minimal-bracket covers generate an acyclic finite poset with antisymmetric transitive closure. This is partial finite evidence only; it does not prove the full Matryoshka face-lattice anti-isomorphism and is not an all-n theorem.",
+      "artifact": "formal_handoff/results/CHK-COSMO-NESTING-POSSET.json"
     },
     {
       "target_id": "CHK-COSMO-MOVE-CLASSES",
@@ -22,6 +22,7 @@
       "artifact": null
     },
     {
+      "id": "CHK-R13-EQUALITY-LAYER",
       "target_id": "CHK-R13-EQUALITY-LAYER",
       "result_status": "DEFINED_NOT_RUN",
       "result_summary": "Check target is defined but intrinsic-vs-degenerative equality predicate has not been formally encoded yet.",
@@ -76,5 +77,5 @@
       "artifact": "scripts/validate_source_extraction.py"
     }
   ],
-  "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row. DEFINED_NOT_RUN is not evidence for the mathematical claim."
+  "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status."
 }
