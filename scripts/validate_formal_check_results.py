@@ -25,9 +25,20 @@ def main() -> None:
         assert result["target_id"]
         assert result["result_status"] in vocab
         assert result["result_summary"]
+        if result["result_status"] == "PASS_PARTIAL_FINITE_CHECK":
+            assert result["artifact"], result["target_id"]
+            artifact_path = ROOT / result["artifact"]
+            assert artifact_path.exists(), result["artifact"]
+            artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
+            assert artifact["target_id"] == result["target_id"]
+            assert artifact["status"] == "PASS_PARTIAL"
+            assert artifact.get("counterexamples") == []
+            assert "not" in artifact["status_boundary"].lower()
 
     assert any(result["result_status"] == "PASS_LEDGER_VALIDATION" for result in results["results"])
+    assert any(result["result_status"] == "PASS_PARTIAL_FINITE_CHECK" for result in results["results"])
     assert "DEFINED_NOT_RUN is not evidence" in results["non_promotion_rule"]
+    assert "not theorem status" in results["non_promotion_rule"]
     print("formal check result validation passed")
 
 
