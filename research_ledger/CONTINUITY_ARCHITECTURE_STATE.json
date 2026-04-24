@@ -1,6 +1,6 @@
 {
   "schema": "projectx_continuity_architecture_state_v2",
-  "purpose": "Machine-readable state for research continuity, source extraction, and formal-check target packages around the R1-R14 ledger.",
+  "purpose": "Machine-readable state for research continuity, source extraction, formal-check target packages, and comparator packages around the R1-R14 ledger.",
   "status_vocab": ["SOURCE_BACKED", "SOURCE_EXTRACTED", "CHECKED", "THREAD_SUPPORTED", "GENERATED", "OPEN", "DEFICIT", "FAILED", "PARTIAL", "PRESENT", "MISSING", "STARTED", "UNDERREPRESENTED"],
   "required_files": [
     "research_ledger/R1_R14_DISCRIMINATOR_LEDGER.md",
@@ -22,9 +22,12 @@
     "research_ledger/SOURCE_EXTRACTED_CLAIMS.json",
     "research_ledger/FORMAL_CHECK_TARGETS.json",
     "research_ledger/FORMAL_CHECK_RESULTS.json",
+    "research_ledger/COMPARATOR_CHECK_TARGETS.json",
+    "research_ledger/COMPARATOR_CHECK_RESULTS.json",
     "scripts/validate_research_continuity.py",
     "scripts/validate_source_extraction.py",
-    "scripts/validate_formal_check_results.py"
+    "scripts/validate_formal_check_results.py",
+    "scripts/validate_comparator_check_results.py"
   ],
   "paper_source_records": [
     {"id":"AMP_2013","title":"The Amplituhedron","families":["M1"],"roles":["positive_geometry_baseline","canonical_form","locality_unitarity_from_positivity"],"status":"STARTED"},
@@ -51,6 +54,8 @@
     {"package":"source_extracted_claims","status":"STARTED","next":"expand first extraction set into exact source-range claims"},
     {"package":"formal_check_targets","status":"STARTED","next":"implement finite/SMT/Lean checkers"},
     {"package":"formal_check_results","status":"STARTED","next":"add actual checker outputs beyond ledger validation"},
+    {"package":"comparator_check_targets","status":"STARTED","next":"expand comparator targets beyond A/C local move burden"},
+    {"package":"comparator_check_results","status":"STARTED","next":"consume checker artifacts into bounded realization-discriminator evidence"},
     {"package":"row_catalog","status":"PRESENT","next":"type row predicates and bind sources"},
     {"package":"coverage_matrix","status":"STARTED","next":"complete row x family coverage"},
     {"package":"surfaceology_comparator","status":"STARTED","next":"extract u-variable and curve-matrix rows"},
@@ -63,15 +68,16 @@
     "R13 cannot be treated as CHECKED until the intrinsic-vs-degenerate equality predicate is formalized and source-bound.",
     "SOURCE_EXTRACTED is not CHECKED.",
     "DEFINED_NOT_RUN is not evidence for the mathematical claim.",
+    "PASS_PARTIAL_COMPARATOR is bounded finite discriminator evidence only, not theorem status.",
     "A pipeline run is not a proof.",
     "A symbolic scaffold is not a derivation.",
     "A PDF being present in repo is source availability, not a checked mathematical extraction."
   ],
   "next_actions": [
     {"priority":1,"id":"NA1","action":"Replace broad source anchors with exact source-range extractions using SOURCE_PDF_BINDINGS."},
-    {"priority":2,"id":"NA2","action":"Implement finite checkers for associahedron, cosmohedron, and sign-family baselines."},
+    {"priority":2,"id":"NA2","action":"Implement M1 sign-family finite descent checker."},
     {"priority":3,"id":"NA3","action":"Implement SMT/Python predicate for R13 equality-layer status."},
     {"priority":4,"id":"NA4","action":"Populate surfaceology comparator from curve-integral and scaffolding papers."},
-    {"priority":5,"id":"NA5","action":"Add actual PASS/FAIL formal check results as checker artifacts become available."}
+    {"priority":5,"id":"NA5","action":"Expand A/C comparator from local move burden toward equality-layer and nesting-history burden."}
   ]
 }
