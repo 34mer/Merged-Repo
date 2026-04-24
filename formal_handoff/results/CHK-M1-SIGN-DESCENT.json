@@ -1,0 +1,24 @@
+{
+  "checker": "finite_global_sign_normalized_sign_flip_poset_v1",
+  "counterexamples": [],
+  "cover_relation": "lower < upper when upper is obtained from lower by adding exactly one adjacent sign-change edge",
+  "grading": "rank(sign_flip_set)=number_of_adjacent_sign_changes",
+  "model_scope": "Finite binary sign-flip stratum model: sign words are global-sign normalized by fixing the first sign to +1 and encoded by adjacent sign-change subsets. Covers add exactly one adjacent sign-change edge. This checks the declared sign-flip descent spine only, not the full amplituhedron geometry.",
+  "n_range": [3, 4, 5, 6, 7, 8, 9],
+  "per_n": [
+    {"all_covers_unit_flip_delta": true, "cover_count": 4, "edge_count": 2, "expected_cover_count": 4, "expected_max_rank": 2, "expected_state_count": 4, "global_sign_normalized_word_bijection": true, "max_rank": 2, "n": 3, "state_count": 4},
+    {"all_covers_unit_flip_delta": true, "cover_count": 12, "edge_count": 3, "expected_cover_count": 12, "expected_max_rank": 3, "expected_state_count": 8, "global_sign_normalized_word_bijection": true, "max_rank": 3, "n": 4, "state_count": 8},
+    {"all_covers_unit_flip_delta": true, "cover_count": 32, "edge_count": 4, "expected_cover_count": 32, "expected_max_rank": 4, "expected_state_count": 16, "global_sign_normalized_word_bijection": true, "max_rank": 4, "n": 5, "state_count": 16},
+    {"all_covers_unit_flip_delta": true, "cover_count": 80, "edge_count": 5, "expected_cover_count": 80, "expected_max_rank": 5, "expected_state_count": 32, "global_sign_normalized_word_bijection": true, "max_rank": 5, "n": 6, "state_count": 32},
+    {"all_covers_unit_flip_delta": true, "cover_count": 192, "edge_count": 6, "expected_cover_count": 192, "expected_max_rank": 6, "expected_state_count": 64, "global_sign_normalized_word_bijection": true, "max_rank": 6, "n": 7, "state_count": 64},
+    {"all_covers_unit_flip_delta": true, "cover_count": 448, "edge_count": 7, "expected_cover_count": 448, "expected_max_rank": 7, "expected_state_count": 128, "global_sign_normalized_word_bijection": true, "max_rank": 7, "n": 8, "state_count": 128},
+    {"all_covers_unit_flip_delta": true, "cover_count": 1024, "edge_count": 8, "expected_cover_count": 1024, "expected_max_rank": 8, "expected_state_count": 256, "global_sign_normalized_word_bijection": true, "max_rank": 8, "n": 9, "state_count": 256}
+  ],
+  "source_anchors": [
+    "AMP_2013 / BINARY_AMP_2017: amplituhedron sign-flip/binary characterization is carried as source motivation for a finite sign-vector descent model",
+    "FORMAL_CHECK_TARGETS.json: CHK-M1-SIGN-DESCENT predicate and failure condition"
+  ],
+  "status": "PASS_PARTIAL",
+  "status_boundary": "PASS_PARTIAL finite sign-vector check only. This validates the internal unit-descent behavior of the declared binary sign-flip model; it is not a full amplituhedron theorem, not an all-geometry proof, and not a C/M1 comparator result.",
+  "target_id": "CHK-M1-SIGN-DESCENT"
+}
