@@ -48,10 +48,57 @@ def dense_edges(edges: Iterable[Edge]) -> list[Edge]:
         for vertex in (left, right):
             if vertex not in vertex_map:
                 vertex_map[vertex] = len(vertex_map)
-        a = vertex_map[left]
-        b = vertex_map[right]
-        dense.add(tuple(sorted((a, b))))
+        dense.add(tuple(sorted((vertex_map[left], vertex_map[right]))))
     return sorted(dense)
+
+
+def contract_edges(edges: list[Edge], contracted: Bracket) -> tuple[list[Edge], dict[int, int | None]]:
+    """Contract selected edge indices and return canonical quotient edges plus old->new edge map."""
+    vertices = {vertex for edge in edges for vertex in edge}
+    parent = {vertex: vertex for vertex in vertices}
+
+    def find(vertex: int) -> int:
+        while parent[vertex] != vertex:
+            parent[vertex] = parent[parent[vertex]]
+            vertex = parent[vertex]
+        return vertex
+
+    def union(left: int, right: int) -> None:
+        root_left = find(left)
+        root_right = find(right)
+        if root_left != root_right:
+            parent[root_right] = root_left
+
+    for edge_index in contracted:
+        left, right = edges[edge_index]
+        union(left, right)
+
+    old_to_key: dict[int, Edge | None] = {}
+    quotient_keys: set[Edge] = set()
+    for edge_index, (left, right) in enumerate(edges):
+        root_left = find(left)
+        root_right = find(right)
+        if root_left == root_right:
+            old_to_key[edge_index] = None
+        else:
+            key = tuple(sorted((root_left, root_right)))
+            old_to_key[edge_index] = key
+            quotient_keys.add(key)
+
+    vertex_map: dict[int, int] = {}
+    dense_key_lookup: dict[Edge, Edge] = {}
+    for left, right in sorted(quotient_keys):
+        for vertex in (left, right):
+            if vertex not in vertex_map:
+                vertex_map[vertex] = len(vertex_map)
+        dense_key_lookup[(left, right)] = tuple(sorted((vertex_map[left], vertex_map[right])))
+
+    contracted_dense = dense_edges(dense_key_lookup.values())
+    dense_index = {edge: index for index, edge in enumerate(contracted_dense)}
+    old_to_new: dict[int, int | None] = {}
+    for edge_index, key in old_to_key.items():
+        old_to_new[edge_index] = None if key is None else dense_index[dense_key_lookup[key]]
+    return contracted_dense, old_to_new
 
 
 def bracket_vertices(edges: list[Edge], bracket: Bracket) -> set[int]:
@@ -73,12 +120,12 @@ def is_connected_edge_subset(edges: list[Edge], subset: Iterable[int]) -> bool:
     while changed:
         changed = False
         for edge_index in bracket:
-            a, b = edges[edge_index]
-            if a in seen and b not in seen:
-                seen.add(b)
+            left, right = edges[edge_index]
+            if left in seen and right not in seen:
+                seen.add(right)
                 changed = True
-            if b in seen and a not in seen:
-                seen.add(a)
+            if right in seen and left not in seen:
+                seen.add(left)
                 changed = True
     return seen == vertices
 
@@ -104,9 +151,8 @@ def is_valid_bracketing(edges: list[Edge], bracketing: Bracketing) -> bool:
     full = frozenset(range(len(edges)))
     if full not in bracketing:
         return False
-    for bracket in bracketing:
-        if not is_connected_edge_subset(edges, bracket):
-            return False
+    if not all(is_connected_edge_subset(edges, bracket) for bracket in bracketing):
+        return False
     return all(
         brackets_compatible(edges, left, right)
         for left, right in combinations(bracketing, 2)
@@ -118,67 +164,17 @@ def enumerate_bracketings(edges: list[Edge]) -> list[Bracketing]:
         return [frozenset()]
     full = frozenset(range(len(edges)))
     non_full_brackets = [bracket for bracket in connected_brackets(edges) if bracket != full]
-    out: list[Bracketing] = []
+    bracketings: list[Bracketing] = []
     for size in range(len(non_full_brackets) + 1):
         for selected in combinations(non_full_brackets, size):
             bracketing = frozenset(set(selected) | {full})
             if is_valid_bracketing(edges, bracketing):
-                out.append(bracketing)
-    return out
+                bracketings.append(bracketing)
+    return bracketings
 
 
-def contract_edges(edges: list[Edge], contracted: Bracket) -> tuple[list[Edge], dict[int, int | None]]:
-    vertices = {vertex for edge in edges for vertex in edge}
-    parent = {vertex: vertex for vertex in vertices}
-
-    def find(vertex: int) -> int:
-        while parent[vertex] != vertex:
-            parent[vertex] = parent[parent[vertex]]
-            vertex = parent[vertex]
-        return vertex
-
-    def union(left: int, right: int) -> None:
-        root_left = find(left)
-        root_right = find(right)
-        if root_left != root_right:
-            parent[root_right] = root_left
-
-    for edge_index in contracted:
-        left, right = edges[edge_index]
-        union(left, right)
-
-    undense_edges: list[Edge] = []
-    old_to_key: dict[int, Edge | None] = {}
-    for edge_index, (left, right) in enumerate(edges):
-        root_left = find(left)
-        root_right = find(right)
-        if root_left == root_right:
-            old_to_key[edge_index] = None
-        else:
-            key = tuple(sorted((root_left, root_right)))
-            old_to_key[edge_index] = key
-            if key not in undense_edges:
-                undense_edges.append(key)
-
-    contracted_dense = dense_edges(undense_edges)
-    key_to_new_index = {key: index for index, key in enumerate(dense_edges(undense_edges))}
-
-    # Rebuild mapping using the dense relabeling induced by dense_edges order.
-    # The actual vertex labels do not matter; only canonical edge indices do.
-    old_to_new: dict[int, int | None] = {}
-    dense_key_lookup: dict[Edge, Edge] = {}
-    vertex_map: dict[int, int] = {}
-    for key in sorted(set(k for k in old_to_key.values() if k is not None)):
-        assert key is not None
-        left, right = key
-        for vertex in (left, right):
-            if vertex not in vertex_map:
-                vertex_map[vertex] = len(vertex_map)
-        dense_key_lookup[key] = tuple(sorted((vertex_map[left], vertex_map[right])))
-    dense_index = {edge: index for index, edge in enumerate(contracted_dense)}
-    for edge_index, key in old_to_key.items():
-        old_to_new[edge_index] = None if key is None else dense_index[dense_key_lookup[key]]
-    return contracted_dense, old_to_new
+def minimal_brackets(bracketing: Bracketing) -> list[Bracket]:
+    return [bracket for bracket in bracketing if not any(other < bracket for other in bracketing)]
 
 
 def image_bracket(bracket: Bracket, old_to_new: dict[int, int | None]) -> Bracket:
@@ -200,14 +196,10 @@ def contract_bracketing(edges: list[Edge], bracketing: Bracketing, minimal: Brac
     return contracted_edges, frozenset(image)
 
 
-def minimal_brackets(bracketing: Bracketing) -> list[Bracket]:
-    return [bracket for bracket in bracketing if not any(other < bracket for other in bracketing)]
-
-
 def state_key(edges: list[Edge], bracketing: Bracketing) -> StateKey:
     return (
         tuple(edges),
-        tuple(sorted((tuple(sorted(bracket)) for bracket in bracketing), key=lambda b: (len(b), b))),
+        tuple(sorted((tuple(sorted(bracket)) for bracket in bracketing), key=lambda item: (len(item), item))),
     )
 
 
@@ -218,19 +210,17 @@ def state_complexity(key: StateKey) -> int:
 
 def graph_contractions(edges: list[Edge]) -> list[list[Edge]]:
     contractions: dict[tuple[Edge, ...], list[Edge]] = {}
-    edge_indices = range(len(edges))
     for size in range(len(edges) + 1):
-        for contracted in combinations(edge_indices, size):
-            contracted_edges, _ = contract_edges(edges, frozenset(contracted))
-            contractions[tuple(contracted_edges)] = contracted_edges
+        for contracted in combinations(range(len(edges)), size):
+            contracted_edges, _old_to_new = contract_edges(edges, frozenset(contracted))
+            if contracted_edges:
+                contractions[tuple(contracted_edges)] = contracted_edges
     return list(contractions.values())
 
 
 def all_prebracketing_states(original_edges: list[Edge]) -> dict[StateKey, tuple[list[Edge], Bracketing]]:
     states: dict[StateKey, tuple[list[Edge], Bracketing]] = {}
     for edges in graph_contractions(original_edges):
-        if not edges:
-            continue
         for bracketing in enumerate_bracketings(edges):
             states[state_key(edges, bracketing)] = (edges, bracketing)
     return states
