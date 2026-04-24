@@ -1,0 +1,67 @@
+{
+  "checker": "finite_noncrossing_chord_poset_v1",
+  "counterexamples": [],
+  "cover_relation": "face < face_plus_one_diagonal by strict inclusion with exactly one added noncrossing diagonal",
+  "grading": "rank(face)=number_of_noncrossing_diagonals",
+  "n_range": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "per_n": [
+    {
+      "all_covers_unit_rank": true,
+      "cover_count": 2,
+      "diagonal_count": 2,
+      "expected_max_rank": 1,
+      "face_count": 3,
+      "has_triangulation_top_rank": true,
+      "max_rank": 1,
+      "n": 4
+    },
+    {
+      "all_covers_unit_rank": true,
+      "cover_count": 15,
+      "diagonal_count": 5,
+      "expected_max_rank": 2,
+      "face_count": 11,
+      "has_triangulation_top_rank": true,
+      "max_rank": 2,
+      "n": 5
+    },
+    {
+      "all_covers_unit_rank": true,
+      "cover_count": 93,
+      "diagonal_count": 9,
+      "expected_max_rank": 3,
+      "face_count": 45,
+      "has_triangulation_top_rank": true,
+      "max_rank": 3,
+      "n": 6
+    },
+    {
+      "all_covers_unit_rank": true,
+      "cover_count": 546,
+      "diagonal_count": 14,
+      "expected_max_rank": 4,
+      "face_count": 197,
+      "has_triangulation_top_rank": true,
+      "max_rank": 4,
+      "n": 7
+    },
+    {
+      "all_covers_unit_rank": true,
+      "cover_count": 3140,
+      "diagonal_count": 20,
+      "expected_max_rank": 5,
+      "face_count": 903,
+      "has_triangulation_top_rank": true,
+      "max_rank": 5,
+      "n": 8
+    }
+  ],
+  "status": "PASS",
+  "target_id": "CHK-ASSOCIAHEDRON-UNIT-DESCENT"
+}
