@@ -1,0 +1,43 @@
+schema: exact_work_authority_catalog_v1
+source_scope:
+  - research-ledger-v1-clean-main.zip
+  - handoff files
+  - Lean files under exact_work/lean/ProjectX
+families:
+  - id: exact_finite_grassmannian_A
+    label: Exact finite positive-Grassmannian A branch
+    source_type: lean_formalized
+    authority_files:
+      - exact_work/lean/ProjectX/Spine/FiniteClosure.lean
+      - exact_work/lean/ProjectX/Spine/Gr2AmbientGeometry.lean
+      - exact_work/lean/ProjectX/Spine/UnifiedExactFiniteResidue.lean
+    safe_claim: A branch is part of the currently safe exact finite closure.
+    pipeline_role: source_backed_authority_record
+  - id: exact_finite_grassmannian_D4
+    label: Exact finite positive-Grassmannian D4 branch
+    source_type: lean_formalized
+    authority_files:
+      - exact_work/lean/ProjectX/Spine/FiniteClosure.lean
+      - exact_work/lean/ProjectX/Spine/SolvedAmbientGeometry.lean
+      - exact_work/lean/ProjectX/Spine/ResidueRecursion.lean
+    safe_claim: D4 branch is part of the currently safe exact finite closure.
+    pipeline_role: source_backed_authority_record
+  - id: exact_finite_grassmannian_E6
+    label: Exact finite positive-Grassmannian E6 branch
+    source_type: lean_formalized
+    authority_files:
+      - exact_work/lean/ProjectX/Spine/FiniteClosure.lean
+      - exact_work/lean/ProjectX/Spine/SolvedAmbientGeometry.lean
+      - exact_work/lean/ProjectX/Spine/ParabolicRecursion.lean
+    safe_claim: E6 branch is part of the currently safe exact finite closure.
+    pipeline_role: source_backed_authority_record
+  - id: surfaceology_conservative_family
+    label: Surfaceology conservative extracted-family baseline
+    source_type: lean_formalized
+    authority_files:
+      - exact_work/lean/ProjectX/Surfaceology/ExtractedFamilyDatum.lean
+      - exact_work/lean/ProjectX/Surfaceology/ExtractedFamilyClassification.lean
+      - exact_work/lean/ProjectX/CrossFamily/ComparisonTheorems.lean
+    safe_claim: Surfaceology has a conservative extracted-family and cross-family comparison schema formalized.
+    pipeline_role: source_backed_authority_record
+

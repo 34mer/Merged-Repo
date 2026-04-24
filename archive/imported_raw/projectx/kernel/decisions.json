@@ -1,0 +1,1441 @@
+{
+  "decisions": [
+    {
+      "id": "D-001",
+      "statement": "The terminal object is continuity-preserving substrate migration, not generic mind simulation.",
+      "reason": "Preserves the project against downward substitution.",
+      "status": "active",
+      "timestamp": "2026-04-11",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-11",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-002",
+      "statement": "The first build target is a continuity-aligned control layer capable of overlap-oriented burden transfer research.",
+      "reason": "Avoids fake progress through copy logic or vague upload rhetoric.",
+      "status": "active",
+      "timestamp": "2026-04-11",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-11",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-003",
+      "statement": "V0 begins with memory burden rather than direct high-authority control.",
+      "reason": "Memory burden is continuity-relevant, measurable, and lower-risk for first live-loop integration.",
+      "status": "active",
+      "timestamp": "2026-04-11",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-11",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-004",
+      "statement": "V0 should stay marker-driven for state extraction until false state mutation is under control.",
+      "reason": "Added during session writeback.",
+      "status": "active",
+      "timestamp": "2026-04-12T02:48:43+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T02:48:43+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-005",
+      "statement": "Keep v0 conservative but no longer single-line-marker only.",
+      "reason": "Added during session writeback.",
+      "status": "active",
+      "timestamp": "2026-04-12T02:52:01+00:00",
+      "last_touched": "2026-04-12T03:14:00+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T02:52:01+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-C001",
+      "statement": "Continuity-preserving substrate migration of a live self-maintaining center.",
+      "reason": "Recovered from invariant terminal object.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-C002",
+      "statement": "Substrate viability opens the project.",
+      "reason": "Recovered from invariant core distinction.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-C003",
+      "statement": "Allowed method family is overlap-oriented: live overlap, co-running, progressive burden transfer.",
+      "reason": "Recovered from methods-allowed constraints.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-C004",
+      "statement": "Rejected methods do not count as success: destructive scan-and-rebuild as assumed transfer, static snapshot equivalence as assumed continuity, copied memory as success criterion.",
+      "reason": "Recovered from methods-rejected constraints.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-C005",
+      "statement": "The field is real but under-aimed; smaller institutional endpoints do not define the target.",
+      "reason": "Recovered from world-model constraints.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-RS001",
+      "statement": "Recovery and recovery-surgery governance are frozen complete enough on the authoritative surface and should only be reopened for an authoritative regression or a genuinely new causal failure mode.",
+      "reason": "The authoritative live surface, endogenous generation surface, feedback/interface harnesses, and continuity harness are all green under the agreed no-seed controls.",
+      "status": "active",
+      "timestamp": "2026-04-13T20:01:49Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T20:01:49Z",
+        "last_touched": "2026-04-13T20:01:49Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T20:01:49Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-RS002",
+      "statement": "Endogenous recovery/recovery-surgery proof is only valid when seed_path_used=false and direct_post_surgery_action_seed_detected=false under the canonical live inputs and allowed churn-only surface.",
+      "reason": "This preserves the distinction between seeded destructive capability and endogenous family generation / downstream actuation.",
+      "status": "active",
+      "timestamp": "2026-04-13T20:01:49Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T20:01:49Z",
+        "last_touched": "2026-04-13T20:01:49Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T20:01:49Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-W001",
+      "statement": "The next highest-leverage missing organ is a world-contact causal update loop that binds tool-mediated intervention to observed external effect and then updates WORLD_MODEL, SALIENCE, and action selection from causal evidence.",
+      "reason": "Current evidence and execution coupling surfaces are internal aftercare over review bundles and changed kernel targets, not real world-contact or causal observation.",
+      "status": "active",
+      "timestamp": "2026-04-13T20:01:49Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T20:01:49Z",
+        "last_touched": "2026-04-13T20:01:49Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T20:01:49Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-W002",
+      "statement": "The world_contact_causal_update_loop is frozen complete enough on the authoritative single-adapter surface and should only be reopened for an authoritative regression or a genuinely new causal failure mode.",
+      "reason": "The authoritative harness is green across negative boundary, confirmed attribution, blocked no-effect/ambiguous/contradicted cases, replay blocking, and fresh external revision while adjacent preview/review/rollback/coupling surfaces remain green.",
+      "status": "active",
+      "timestamp": "2026-04-13T22:27:22Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T22:27:22Z",
+        "last_touched": "2026-04-13T22:27:22Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T22:27:22Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-W003",
+      "statement": "Attributed world contact remains the only binding write path into WORLD_MODEL; internal review world-model approval is epistemically separate and nonbinding.",
+      "reason": "This preserves the no-fake-contact boundary and prevents internal review from contaminating binding world belief.",
+      "status": "active",
+      "timestamp": "2026-04-13T22:27:22Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T22:27:22Z",
+        "last_touched": "2026-04-13T22:27:22Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T22:27:22Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-W004",
+      "statement": "The next higher-leverage organ is causal world-belief / salience / bounded-next-action coupling over confirmed attributed contact, not broader tool infrastructure.",
+      "reason": "The current loop proves contact, attribution, replay blocking, and revision, but binding updates still land as flat notes, priorities, and generic tasks rather than structured causal belief and bounded action selection.",
+      "status": "active",
+      "timestamp": "2026-04-13T22:27:22Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T22:27:22Z",
+        "last_touched": "2026-04-13T22:27:22Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T22:27:22Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-W005",
+      "statement": "The single_target_operational_causal_loop on operational_targets/live_status.json is frozen complete enough and should only be reopened for an authoritative regression or a genuinely new causal failure mode.",
+      "reason": "The authoritative operational harness is green for negative boundary, repeated fresh revision on the same lineage, stale replay blocking, and stop-condition closure while adjacent world-contact, causal, preview, rollback, coupling, recovery, and continuity surfaces remain green.",
+      "status": "active",
+      "timestamp": "2026-04-14T00:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T00:20:00Z",
+        "last_touched": "2026-04-14T00:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T00:20:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-W006",
+      "statement": "The next higher-leverage organ is bounded multi-target prioritization / arbitration on top of the existing attributed causal belief/salience/action lane, not more single-target adapter variants.",
+      "reason": "The repo now proves one operational target can revise and stop cleanly under attributed contact, but it still lacks explicit selected/deferred/no_action arbitration, queueing, and source-separated prioritization when multiple operational targets are live at once.",
+      "status": "active",
+      "timestamp": "2026-04-14T00:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T00:20:00Z",
+        "last_touched": "2026-04-14T00:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T00:20:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S001",
+      "statement": "d:\\Project X\\extracted is the canonical bounded external harness/bridge line for the project.",
+      "reason": "It contains the load-bearing system, kernel, fixtures, runners, and frozen proof surfaces currently used as authoritative bounded evidence.",
+      "status": "active",
+      "timestamp": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S002",
+      "statement": "The extracted harness line is not the primary answer to native continuity or native continual adaptation.",
+      "reason": "Its current success establishes bounded external bridge/harness behavior and explicit carried lineage, but not intrinsic across-time adaptation independent of external scaffold support.",
+      "status": "active",
+      "timestamp": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S003",
+      "statement": "Repo hygiene is path-based and reversible: codex_tmp, kernel_zero_*, probe_*, caches, and generated run mass are non-canonical unless explicitly justified.",
+      "reason": "This prevents clone exhaust, caches, and historical artifacts from being mistaken for authoritative source or proof state.",
+      "status": "active",
+      "timestamp": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S004",
+      "statement": "The next missing organ is native_continual_adaptation_benchmark_first, not another bounded harness organ by default.",
+      "reason": "The leverage point is now to benchmark the difference between external prosthetic continuity and genuine native across-time adaptation before any new implementation broadening.",
+      "status": "active",
+      "timestamp": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S005",
+      "statement": "The native continual adaptation lane is benchmark-first: the negative boundary, scaffold-ablation protocol, and scoring rubric must be locked before fixture convenience or implementation decisions.",
+      "reason": "This prevents the benchmark from being redefined by whatever the current harness already makes easy to run.",
+      "status": "active",
+      "timestamp": "2026-04-14T19:05:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:05:00Z",
+        "last_touched": "2026-04-14T19:05:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:05:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S006",
+      "statement": "Existing examples and eval are insufficient for the locked native continual adaptation benchmark.",
+      "reason": "The inspected examples are historical harness inputs/outputs and the inspected eval modules score continuity/coherence/drift rather than paired prosthetic-vs-ablated retention, interleaving, overwrite resistance, or local generalization.",
+      "status": "active",
+      "timestamp": "2026-04-14T19:05:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:05:00Z",
+        "last_touched": "2026-04-14T19:05:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:05:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S007",
+      "statement": "If implementation becomes necessary for the native benchmark-first lane, the smallest justified enabling step is one minimal paired scaffold-ablation benchmark runner and nothing broader.",
+      "reason": "A single paired runner is enough to compare prosthetic vs ablated execution under the locked benchmark and scoring rules without broadening adapters, consumers, or architecture.",
+      "status": "active",
+      "timestamp": "2026-04-14T19:05:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:05:00Z",
+        "last_touched": "2026-04-14T19:05:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:05:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S008",
+      "statement": "The native benchmark-first lane now has one minimal paired scaffold-ablation runner with exactly two conditions and two initial tasks: retention and overwrite resistance.",
+      "reason": "This is the smallest implemented benchmark surface that can produce directly comparable prosthetic vs ablated artifacts without expanding adapters, consumers, or the frozen harness architecture.",
+      "status": "active",
+      "timestamp": "2026-04-14T19:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:20:00Z",
+        "last_touched": "2026-04-14T19:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:20:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S009",
+      "statement": "The only prerequisite discovered during runner implementation was allowlisting the dedicated benchmark target on the existing single filesystem adapter.",
+      "reason": "Without that one target-ref allowlist entry, the benchmark could not reach the attributed world-contact lane at all. No broader adapter expansion was needed.",
+      "status": "active",
+      "timestamp": "2026-04-14T19:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:20:00Z",
+        "last_touched": "2026-04-14T19:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:20:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S010",
+      "statement": "The paired native continual adaptation benchmark protocol and current results are frozen as authoritative: retention 3->0, overwrite resistance 3->0, interleaving 0->0, and local generalization 0->0 under scaffold ablation.",
+      "reason": "This is the current benchmark source of truth for the bounded harness line and should not be tuned away by wrapper or harness improvements.",
+      "status": "active",
+      "timestamp": "2026-04-14T19:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:35:00Z",
+        "last_touched": "2026-04-14T19:35:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:35:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S011",
+      "statement": "The next lane is benchmark-first internal candidate comparison, not further harness tuning or organ expansion on the external bridge line.",
+      "reason": "The benchmark is now good enough to judge whether any minimal internal candidate can outperform the ablated baseline, so more harness work would blur the comparison.",
+      "status": "active",
+      "timestamp": "2026-04-14T19:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:35:00Z",
+        "last_touched": "2026-04-14T19:35:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:35:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S012",
+      "statement": "If any internal candidate is built first, it should be the minimal persistent-state candidate.",
+      "reason": "It is the smallest legitimate internal move that could improve ablated retention and overwrite resistance without broadening adapters, consumers, or benchmark meaning.",
+      "status": "active",
+      "timestamp": "2026-04-14T19:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:35:00Z",
+        "last_touched": "2026-04-14T19:35:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:35:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S013",
+      "statement": "Project X now operates under a three-core doctrine: escort/canonical carrier, native continuity/continual adaptation lab, and neuro-migration/overlap path.",
+      "reason": "The external bridge line, the benchmark-first native adaptation lane, and any future migration path must remain conceptually separate so the bridge is not mistaken for the native organ.",
+      "status": "active",
+      "timestamp": "2026-04-14T20:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T20:20:00Z",
+        "last_touched": "2026-04-14T20:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T20:20:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S014",
+      "statement": "The current minimal_persistent_state_candidate belongs in the native-adaptation lab as a bounded probe, but it is not yet approved for further build as a clean native path.",
+      "reason": "Its candidate-owned state residence is acceptable, but the current update/read contract is still benchmark-shaped because normalized proposition content is written directly by the runner path and probe behavior branches on benchmark task_kind.",
+      "status": "active",
+      "timestamp": "2026-04-14T20:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T20:20:00Z",
+        "last_touched": "2026-04-14T20:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T20:20:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S015",
+      "statement": "The current minimal_persistent_state_candidate benchmark result is frozen as the first real internal nonzero signal under the stricter generic interface: retention 3->3, overwrite resistance 3->3, interleaving 3->3, and local generalization 0->0, with candidate-only survival and no external scaffold read.",
+      "reason": "The candidate now uses generic candidate-owned update/probe interfaces, the ablated condition still preserves only candidate-owned state, and the benchmark artifact shows the same nonzero ablated signal without external scaffold read.",
+      "status": "active",
+      "timestamp": "2026-04-14T21:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T21:00:00Z",
+        "last_touched": "2026-04-14T21:00:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:00:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S016",
+      "statement": "For the native continual adaptation benchmark artifact, locked dimension scores and explicit survival/leakage guards are the authoritative headline result; legacy passed flags are deprecated.",
+      "reason": "The legacy passed flags were bridge-dependence detectors and became misleading once internal candidates were judged by whether they produced legitimate nonzero ablated signal rather than ablated zero.",
+      "status": "active",
+      "timestamp": "2026-04-14T21:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T21:00:00Z",
+        "last_touched": "2026-04-14T21:00:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:00:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S017",
+      "statement": "The next comparison candidate should be the minimal_ssm_style_candidate, design-only for now.",
+      "reason": "The current slot-based candidate already shows nonzero ablated retention, overwrite resistance, and interleaving. The next bounded comparison should test whether a structured transition/state candidate can improve local generalization without broadening the harness line.",
+      "status": "active",
+      "timestamp": "2026-04-14T21:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T21:00:00Z",
+        "last_touched": "2026-04-14T21:00:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:00:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-S018",
+      "statement": "The minimal_hybrid_candidate is now frozen as the current best internal candidate under benchmark-v1, with authoritative scores 3->3 / 3->3 / 3->3 / 3->3, candidate-only survival, no external scaffold read, and a clean win over the frozen slot-based 3/3/3/0 and SSM-style 3/0/0/3 parents.",
+      "reason": "The paired benchmark artifact now shows the hybrid beating both frozen parent baselines under the ablation law without leakage, so the next bounded move is benchmark escalation rather than candidate broadening.",
+      "status": "active",
+      "timestamp": "2026-04-14T23:55:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T23:55:00Z",
+        "last_touched": "2026-04-14T23:55:00Z",
+        "trust": 0.8,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T23:55:00Z",
+        "evolution_reason": "minimal_hybrid_candidate_frozen_current_best_internal_candidate"
+      }
+    },
+    {
+      "id": "D-S019",
+      "statement": "The next step after the frozen hybrid benchmark-v1 win is a design-only benchmark-v2 with bounded harsher tasks and stricter ablation checks, not broader candidate architecture.",
+      "reason": "Benchmark-v1 is now saturated by the hybrid's 3/3/3/3 result, so the smallest legitimate escalation is to stress robustness through longer horizon, deeper overwrite pressure, denser interleaving, harder local generalization, and stricter hidden-carry checks.",
+      "status": "active",
+      "timestamp": "2026-04-14T23:55:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T23:55:00Z",
+        "last_touched": "2026-04-14T23:55:00Z",
+        "trust": 0.8,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T23:55:00Z",
+        "evolution_reason": "native_continual_adaptation_benchmark_v2_design_locked"
+      }
+    },
+    {
+      "id": "D-S020",
+      "statement": "Benchmark-v2 is now authoritative alongside benchmark-v1: the minimal_hybrid_candidate holds 3->3 across all bounded benchmark-v2 escalations, with candidate-only survival true, external_scaffold_read false, and strict ablation checks passed.",
+      "reason": "The existing paired benchmark runner was extended only by the bounded v2 tasks and stricter ablation assertions, and the hybrid remained robust under those escalations without leakage.",
+      "status": "active",
+      "timestamp": "2026-04-15T00:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:10:00Z",
+        "last_touched": "2026-04-15T00:10:00Z",
+        "trust": 0.81,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T00:10:00Z",
+        "evolution_reason": "native_continual_adaptation_benchmark_v2_frozen_authoritative"
+      }
+    },
+    {
+      "id": "D-S021",
+      "statement": "The next bounded move after freezing benchmark-v1 and benchmark-v2 is a design-only operational transfer test asking whether the minimal_hybrid_candidate can replace one narrow carried operational memory role inside the existing single-target operational loop.",
+      "reason": "Benchmark saturation means another benchmark extension is not the highest-leverage next question; the smallest honest next question is whether one real operational memory slice can transfer while Escort keeps provenance, attribution, gating, and adapter control.",
+      "status": "active",
+      "timestamp": "2026-04-15T00:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:10:00Z",
+        "last_touched": "2026-04-15T00:10:00Z",
+        "trust": 0.81,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T00:10:00Z",
+        "evolution_reason": "minimal_hybrid_operational_transfer_design_locked"
+      }
+    },
+    {
+      "id": "D-S022",
+      "statement": "The bounded hybrid operational transfer test is now authoritative: the minimal_hybrid_candidate carries the current/prior operational status content for operational_targets/live_status.json inside the existing operational loop, while benchmark-v1 and benchmark-v2 remain frozen at 3->3 / 3->3 / 3->3 / 3->3, candidate-only survival remains true, and external_scaffold_read remains false.",
+      "reason": "The approved smallest transfer surface was implemented without broadening adapters, consumers, or harness organs, and the resulting operational artifact shows success without provenance regression, replay-hygiene regression, or ablation-law violation.",
+      "status": "active",
+      "timestamp": "2026-04-15T00:40:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:40:00Z",
+        "last_touched": "2026-04-15T00:40:00Z",
+        "trust": 0.82,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T00:40:00Z",
+        "evolution_reason": "minimal_hybrid_operational_transfer_frozen_authoritative"
+      }
+    },
+    {
+      "id": "D-S023",
+      "statement": "The next operational-transfer move should not be a second independent Escort slice yet; it should be a multi-cycle stress test of the already-transferred current/prior operational status content slice, with any second slice deferred until that stress result holds cleanly.",
+      "reason": "The current transfer result is real and appears to belong to a bounded substitution class, but the smallest honest escalation is to test whether the same slice remains stable across repeated revise/stabilize/stop cycles before attempting a second slice that risks broader control smuggling.",
+      "status": "active",
+      "timestamp": "2026-04-15T00:40:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:40:00Z",
+        "last_touched": "2026-04-15T00:40:00Z",
+        "trust": 0.81,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T00:40:00Z",
+        "evolution_reason": "hybrid_operational_transfer_ladder_design_locked"
+      }
+    },
+    {
+      "id": "D-S024",
+      "statement": "The bounded hybrid operational transfer result is now robust across revise, stabilize, stop, and blocked replay cycles; if one second slice is tested next, it should be current/prior expected effect content for operational_targets/live_status.json.",
+      "reason": "The first transferred slice now holds cleanly under repeated-cycle pressure, making the closest sibling expected-effect content the lowest-risk / highest-leverage next substitution test while Escort continues to own provenance, replay blocking, stop enforcement, adapter control, and binding writes.",
+      "status": "active",
+      "timestamp": "2026-04-15T01:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T01:10:00Z",
+        "last_touched": "2026-04-15T01:10:00Z",
+        "trust": 0.82,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T01:10:00Z",
+        "evolution_reason": "hybrid_operational_second_slice_design_recommendation_locked"
+      }
+    },
+    {
+      "id": "D-S025",
+      "statement": "The harsher dual-slice operational transfer result is now authoritative: the minimal_hybrid_candidate carries both approved transferred slices for operational_targets/live_status.json across revise, blocked replay, second revise, stabilize, and stop; exactly one third slice is now honestly design-eligible, and the least-unsafe next slice is current/prior observed delta summary content.",
+      "reason": "The stronger dual-slice proof clears the earlier carry-depth blocker without weakening provenance, replay hygiene, or ablation discipline. The remaining observed-delta summary slice is still content-bearing and adjacent to the current substitution class, while the stop/no-thrash cue remains too close to control policy.",
+      "status": "active",
+      "timestamp": "2026-04-15T05:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T05:20:00Z",
+        "last_touched": "2026-04-15T05:20:00Z",
+        "trust": 0.83,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T05:20:00Z",
+        "evolution_reason": "harsher_dual_slice_freeze_and_third_slice_design_recommendation_locked"
+      }
+    },
+    {
+      "id": "D-S026",
+      "statement": "The robust triple-slice operational substitution result is now authoritative: the minimal_hybrid_candidate carries status content, expected-effect content, and observed-delta summary for operational_targets/live_status.json across revise, blocked replay, second revise, stabilize, and stop; the honest operational substitution boundary now stops at three slices because the remaining stop/no-thrash cue content is too control-adjacent to transfer without policy/control migration.",
+      "reason": "The triple-slice result saturates the bounded memory-like substitution class for this lane without hidden external carry, provenance weakening, replay-hygiene regression, or observation-interpretation/control smuggling. The remaining named slice would no longer be a memory-like carry test; it would risk moving stop-control semantics out of Escort.",
+      "status": "active",
+      "timestamp": "2026-04-15T06:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T06:20:00Z",
+        "last_touched": "2026-04-15T06:20:00Z",
+        "trust": 0.84,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T06:20:00Z",
+        "evolution_reason": "robust_triple_slice_freeze_and_fourth_slice_boundary_locked"
+      }
+    },
+    {
+      "id": "D-S027",
+      "statement": "The next highest-leverage frontier for Project X is not another frozen-branch expansion but a benchmark-v3 design lock. The current benchmark-v1/v2 and single-target operational substitution lane are saturated by the minimal_hybrid_candidate, so the main bottleneck is now evaluation strength rather than another candidate family, another operational target, or another transfer slice.",
+      "reason": "Benchmark-v1 and benchmark-v2 both hold at 3/3/3/3, and the operational substitution boundary now holds honestly at three memory-like slices. Continuing any already-frozen branch would broaden breadth or risk control migration before sharpening the discriminator. A stricter benchmark-v3 is the smallest honest next frontier.",
+      "status": "active",
+      "timestamp": "2026-04-15T06:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T06:35:00Z",
+        "last_touched": "2026-04-15T06:35:00Z",
+        "trust": 0.84,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T06:35:00Z",
+        "evolution_reason": "global_reevaluation_frontier_locked_to_benchmark_v3_design"
+      }
+    },
+    {
+      "id": "D-S028",
+      "statement": "Benchmark-v3 design is now sufficient and becomes the next authoritative frontier: benchmark-v1 and benchmark-v2 stay frozen as source of truth, while benchmark-v3 is defined to expose deeper carry-depth fragility, denser interference fragility, farther local-transfer fragility, deceptive distractor shortcuts, and hidden carry / wrapper leakage that v1/v2 no longer discriminate.",
+      "reason": "The hybrid saturates benchmark-v1 and benchmark-v2 at 3/3/3/3, so the unresolved bottleneck is no longer architecture breadth but whether the current success remains robust under a stricter discriminator. The smallest honest next move, if later approved, is one minimal extension to the existing paired benchmark runner to execute the locked benchmark-v3 tasks and anti-theater checks.",
+      "status": "active",
+      "timestamp": "2026-04-15T06:50:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T06:50:00Z",
+        "last_touched": "2026-04-15T06:50:00Z",
+        "trust": 0.84,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T06:50:00Z",
+        "evolution_reason": "benchmark_v3_design_locked_and_minimal_execution_gate_recorded"
+      }
+    },
+    {
+      "id": "D-S029",
+      "statement": "Benchmark-v3 is now authoritative: the frozen minimal_hybrid_candidate remains robust under benchmark-v1, benchmark-v2, and benchmark-v3 at 3/3/3/3 with anti-theater checks passing, and the current robust three-slice operational substitution on operational_targets/live_status.json remains the operational source of truth. No honest second operational target exists in the active repo yet, so second-target transfer is not justified under the current repo-grounded evidence.",
+      "reason": "The active repo contains one real operational artifact under operational_targets, live_status.json. The remaining JSON targets under world_contact_fixture are fixtures or benchmark artifacts, not operational targets. So a second-target implementation now would first require inventing or promoting a target, which would broaden the branch instead of honestly testing cross-target transfer on an already-present non-kernel operational artifact.",
+      "status": "active",
+      "timestamp": "2026-04-15T07:15:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T07:15:00Z",
+        "last_touched": "2026-04-15T07:15:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T07:15:00Z",
+        "evolution_reason": "benchmark_v3_frozen_and_second_operational_target_rejected_as_not_honest_yet"
+      }
+    },
+    {
+      "id": "D-S030",
+      "statement": "Given the authoritative no-second-operational-target stop condition, the next highest-leverage frontier is not benchmark-v4 or a new implementation branch. It is design-only definition of one real future operational artifact under operational_targets/. No second operational target should be implemented or invented now, and fixtures must not be promoted just to continue the branch.",
+      "reason": "Benchmark-v1, benchmark-v2, and benchmark-v3 are already saturated at 3/3/3/3, and the current operational substitution boundary is honestly frozen at three slices. The blocker is now absence of a real second operational artifact, not lack of pressure on the current target. So the smallest honest next move is definitional, not executable.",
+      "status": "active",
+      "timestamp": "2026-04-15T07:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T07:30:00Z",
+        "last_touched": "2026-04-15T07:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T07:30:00Z",
+        "evolution_reason": "frontier_reselected_to_design_only_future_operational_artifact_definition"
+      }
+    },
+    {
+      "id": "D-S031",
+      "statement": "The future second operational artifact is now design-locked as operational_targets/live_queue_snapshot.json, but only as a design contract. It is the least arbitrary future second-target candidate because queue-state content is a legitimate sibling to live_status.json in the same filesystem-backed operational lane. Even so, no implementation is justified yet because the artifact does not exist for an independent operational reason and creating it now would still be invented work.",
+      "reason": "The no-second-target stop condition means the project needs a real future operational artifact definition, not an executable target. The queue-snapshot role is different enough from live_status.json to test target-specific overfit while staying close enough to reuse the current transfer discipline, but it must remain design-only until a real operational need exists.",
+      "status": "active",
+      "timestamp": "2026-04-15T07:45:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T07:45:00Z",
+        "last_touched": "2026-04-15T07:45:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T07:45:00Z",
+        "evolution_reason": "future_second_operational_artifact_spec_locked_design_only"
+      }
+    },
+    {
+      "id": "D-S032",
+      "statement": "Given the sufficient-but-blocked future second operational artifact spec, the next highest-leverage frontier is not implementation. It is admission criteria for any future real operational artifact. No second operational target should be implemented, invented, or promoted from fixtures until a real operational need exists and the proposed artifact passes the admission gate.",
+      "reason": "The benchmark family and current operational substitution lane are already saturated and frozen. The blocker is now preventing invented work, not adding more execution. Admission criteria are the smallest honest next gate from this blocked state.",
+      "status": "active",
+      "timestamp": "2026-04-15T08:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T08:00:00Z",
+        "last_touched": "2026-04-15T08:00:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T08:00:00Z",
+        "evolution_reason": "blocked_future_artifact_state_reselected_to_admission_criteria_frontier"
+      }
+    },
+    {
+      "id": "D-S033",
+      "statement": "This branch is now paused, not abandoned. Benchmark-v1/v2/v3 remain frozen at 3/3/3/3, the current three-slice live_status.json substitution boundary remains authoritative, and no implementation is justified until a real re-entry condition occurs: a real operational artifact exists, an authoritative regression appears, or a new benchmark discriminator is designed and locked.",
+      "reason": "The project has reached a clean consolidation point: the benchmark family is saturated, the operational substitution boundary is honestly frozen, the future second-artifact path is sufficient but blocked, and the admission gate is now explicit. Continuing without a re-entry condition would require invented work or reinterpretation of settled results.",
+      "status": "active",
+      "timestamp": "2026-04-15T08:15:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T08:15:00Z",
+        "last_touched": "2026-04-15T08:15:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T08:15:00Z",
+        "evolution_reason": "active_frontiers_and_gates_branch_paused_pending_reentry"
+      }
+    },
+    {
+      "id": "D-S034",
+      "statement": "A new design-only line is now open: LEARNABLE_MINIMAL_HYBRID_SUBSTRATE. It does not reopen any paused branch. Its purpose is to test whether the fixed witness shape already demonstrated by the handcrafted hybrid can be learned inside the same bounded benchmark law. Implementation is not performed now, but the design is sharp enough that, if later explicitly approved, the exact smallest next move would be one tiny trainable candidate module, one narrow hook in the existing paired benchmark runner, and one artifact extension only.",
+      "reason": "Benchmark-v1/v2/v3 are saturated by the handcrafted hybrid witness at 3/3/3/3. The next highest-leverage frontier is not more bridge work, not a random new family, and not benchmark reinterpretation. It is the smallest trainable substrate that could, in principle, learn the same bounded shape without cheating.",
+      "status": "active",
+      "timestamp": "2026-04-15T08:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T08:30:00Z",
+        "last_touched": "2026-04-15T08:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T08:30:00Z",
+        "evolution_reason": "learnable_minimal_hybrid_substrate_design_frontier_opened"
+      }
+    },
+    {
+      "id": "D-S035",
+      "statement": "The learnable minimal hybrid substrate benchmark result is now frozen as authoritative: it matches the handcrafted hybrid on benchmark-v1, benchmark-v2, and benchmark-v3 at 3/3/3/3 under the same prosthetic-vs-ablated law and anti-theater checks. The next highest-leverage frontier for this line is design-only operational first-slice comparison on operational_targets/live_status.json, limited to current_prior_operational_status_content and explicitly reusing the handcrafted transfer discipline without reopening paused branches.",
+      "reason": "Benchmark-v1/v2/v3 no longer discriminate between the handcrafted hybrid and the learnable substrate. The smallest honest next discriminator is whether the learnable substrate can carry one real bounded operational memory slice under the same provenance, replay, and ablation law already proven by the handcrafted line. That is higher leverage than benchmark-v4, a new candidate family, or broader operational substitution.",
+      "status": "active",
+      "timestamp": "2026-04-15T16:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T16:30:00Z",
+        "last_touched": "2026-04-15T16:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T16:30:00Z",
+        "evolution_reason": "learnable_benchmark_result_frozen_and_operational_first_slice_design_frontier_opened"
+      }
+    },
+    {
+      "id": "D-S036",
+      "statement": "The learnable first-slice operational transfer is now frozen as authoritative: learnable_minimal_hybrid_substrate robustly carries current_prior_operational_status_content_for_operational_targets/live_status.json across revise, blocked replay, second revise, stabilize, and stop, with no hidden external carry path, no provenance weakening, no replay-hygiene regression, and benchmark-v1 / benchmark-v2 / benchmark-v3 still frozen at 3/3/3/3. The next design frontier for the learnable line is a decision on exactly one second slice: current_prior_expected_effect_content_for_operational_targets/live_status.json.",
+      "reason": "The learnable line has now cleared the same first operational memory boundary already proven by the handcrafted hybrid, including the harsher carry-depth pattern. The next smallest honest discriminator is not a new benchmark family, not a second operational target, and not immediate multi-slice learnable transfer. It is whether the learnable substrate can carry exactly one second memory-like slice in the same live_status lane without drifting into control or policy migration.",
+      "status": "active",
+      "timestamp": "2026-04-15T17:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T17:30:00Z",
+        "last_touched": "2026-04-15T17:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T17:30:00Z",
+        "evolution_reason": "learnable_first_slice_result_frozen_and_second_slice_decision_locked"
+      }
+    },
+    {
+      "id": "D-S037",
+      "statement": "The learnable dual-slice operational transfer is now frozen as authoritative: learnable_minimal_hybrid_substrate robustly carries current_prior_operational_status_content_for_operational_targets/live_status.json and current_prior_expected_effect_content_for_operational_targets/live_status.json together across revise, blocked replay, second revise, stabilize, and stop, with no hidden external carry path, no provenance weakening, no replay-hygiene regression, and benchmark-v1 / benchmark-v2 / benchmark-v3 still frozen at 3/3/3/3. The next design frontier for the learnable line is a decision on exactly one third slice: current_prior_observed_delta_summary_for_operational_targets/live_status.json.",
+      "reason": "The learnable line has now matched the handcrafted line across the first two operational memory-like slices and their bounded coexistence surface. The next smallest honest discriminator is not benchmark-v4, not a second operational target, and not broader operational expansion. It is whether the learnable substrate can carry exactly one observed-delta-summary slice without drifting into observation-interpretation or control smuggling.",
+      "status": "active",
+      "timestamp": "2026-04-15T18:15:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T18:15:00Z",
+        "last_touched": "2026-04-15T18:15:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T18:15:00Z",
+        "evolution_reason": "learnable_dual_slice_result_frozen_and_third_slice_decision_locked"
+      }
+    },
+    {
+      "id": "D-S038",
+      "statement": "Learnable/handcrafted parity is now frozen as authoritative: both minimal_hybrid_candidate and learnable_minimal_hybrid_substrate satisfy the current frozen honest discriminator family, namely benchmark-v1 / benchmark-v2 / benchmark-v3 at 3/3/3/3 plus robust three-slice operational substitution on operational_targets/live_status.json, under the same anti-theater / anti-leak law. The next highest-leverage frontier is not benchmark-v4 inside the same family, not a new operational test on the same saturated lane, and not a new candidate implementation branch. It is design-only definition of a new discriminator outside the current benchmark family.",
+      "reason": "The current honest discriminator family is now saturated by two differently produced candidates. Continuing on the same axes would mostly mine more of the same solved surface. The still-unexposed weakness is out-of-family robustness: whether current parity reflects genuine broader native competence or merely sufficiency for one solved benchmark family plus one solved operational lane.",
+      "status": "active",
+      "timestamp": "2026-04-15T19:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T19:00:00Z",
+        "last_touched": "2026-04-15T19:00:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T19:00:00Z",
+        "evolution_reason": "learnable_handcrafted_parity_frozen_and_frontier_reselected_to_out_of_family_discriminator_design"
+      }
+    },
+    {
+      "id": "D-S039",
+      "statement": "One out-of-family discriminator is now design-locked: schema-remapping transfer. Out-of-family here means preserving the same bounded carried structure across a changed representational contract, not merely under deeper carry, denser distractors, or heavier interference inside the same benchmark grammar. This discriminator is intended to expose surface-grammar dependence and separate handcrafted witness parity from genuinely transferable bounded internal structure. It keeps the same prosthetic-vs-ablated law and anti-theater / anti-leak rules, and if later approved it justifies only one minimal extension to the existing paired benchmark runner plus one bounded artifact extension.",
+      "reason": "The current honest discriminator family is saturated by both the handcrafted witness and the learnable substrate. The still-unexposed weakness is whether that parity survives a bounded representational remap. Schema-remapping transfer is the smallest specific discriminator that changes the question rather than simply increasing pressure on the same solved family.",
+      "status": "active",
+      "timestamp": "2026-04-15T19:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T19:20:00Z",
+        "last_touched": "2026-04-15T19:20:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T19:20:00Z",
+        "evolution_reason": "out_of_family_discriminator_1_design_locked_as_new_active_frontier"
+      }
+    },
+    {
+      "id": "D-S040",
+      "statement": "Out-of-family discriminator 1 is now frozen as authoritative: both minimal_hybrid_candidate and learnable_minimal_hybrid_substrate pass schema_remap_transfer under the same anti-theater / anti-leak law, so there is still no separation between the handcrafted witness and the learnable substrate on the current discriminator family. The next active design frontier is one bounded out-of-family discriminator only: cross_remap_accumulation_transfer.",
+      "reason": "Passing one isolated schema remap still does not expose whether either candidate accumulates reusable remap structure across distinct remap families. The next honest question is not another single remap or broader branch expansion. It is whether the learnable substrate stabilizes or improves across remap succession while the fixed witness plateaus or degrades on a held-out remap.",
+      "status": "active",
+      "timestamp": "2026-04-15T20:05:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T20:05:00Z",
+        "last_touched": "2026-04-15T20:05:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T20:05:00Z",
+        "evolution_reason": "out_of_family_discriminator_1_frozen_and_oof2_named_as_active_design_frontier"
+      }
+    },
+    {
+      "id": "D-S041",
+      "statement": "Project X is now authoritatively framed for external articulation as a bounded institutional operating substrate for pursuing continuity-preserving brain-to-silicon migration / Diamond Body, not as the terminal object itself. Under that exact framing, Project X is honest-to-God fundable now because it already has canonical state, doctrine, gates, benchmarked native-carry discrimination, anti-theater / anti-leak law, and narrow but real operational substitution; it is not fundable under any framing that claims autonomy, solved migration, or full institutional sovereignty.",
+      "reason": "The frozen benchmark-v1 / benchmark-v2 / benchmark-v3 surfaces, the frozen candidate ladder, the frozen out-of-family results, and the frozen three-slice operational boundary together justify a real but bounded external story. The articulation must preserve the difference between operating core and terminal object or it collapses into overclaiming.",
+      "status": "active",
+      "timestamp": "2026-04-15T21:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T21:30:00Z",
+        "last_touched": "2026-04-15T21:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T21:30:00Z",
+        "evolution_reason": "external_facing_articulation_layer_locked"
+      }
+    }
+  ]
+}

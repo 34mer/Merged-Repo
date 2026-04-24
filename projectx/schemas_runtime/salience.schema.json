@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Salience",
+  "type": "object",
+  "required": ["priority_order"],
+  "properties": {
+    "priority_order": {"type": "array", "items": {"type": "string"}},
+    "parked_items": {"type": "array", "items": {"type": "string"}},
+    "must_not_forget": {"type": "array", "items": {"type": "string"}},
+    "last_updated": {"type": "string"}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Decisions",
+  "type": "object",
+  "required": ["decisions"],
+  "properties": {
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "statement", "status"],
+        "properties": {
+          "id": {"type": "string"},
+          "statement": {"type": "string"},
+          "reason": {"type": "string"},
+          "status": {"type": "string", "enum": ["active", "superseded", "tentative"]},
+          "timestamp": {"type": "string"}
+        }
+      }
+    }
+  }
+}

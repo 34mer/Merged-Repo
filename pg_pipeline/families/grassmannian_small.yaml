@@ -1,0 +1,10 @@
+family: grassmannian_small
+object_type: small_combinatorial_boundary_proxy
+proposal_task: recurrence
+checks:
+  - symbolic
+  - combinatorial
+stress:
+  - heldout_large_n
+  - symmetry_break
+

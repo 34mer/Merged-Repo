@@ -1,0 +1,86 @@
+{
+  "authority_imports": [
+    {
+      "authority_records": 4,
+      "families": [
+        "exact_finite_grassmannian_A",
+        "exact_finite_grassmannian_D4",
+        "exact_finite_grassmannian_E6",
+        "surfaceology_conservative_family"
+      ],
+      "output_dir": "runs\\full_plan_supervised\\exact_authority",
+      "recorded_at": "2026-04-23T23:55:05+00:00",
+      "run_id": "projectx-20260423T235501Z-authority",
+      "status": "passed"
+    },
+    {
+      "authority_records": 4,
+      "families": [
+        "exact_finite_grassmannian_A",
+        "exact_finite_grassmannian_D4",
+        "exact_finite_grassmannian_E6",
+        "surfaceology_conservative_family"
+      ],
+      "output_dir": "runs\\full_plan_supervised_2\\exact_authority",
+      "recorded_at": "2026-04-23T23:55:22+00:00",
+      "run_id": "projectx-20260423T235518Z-authority",
+      "status": "passed"
+    }
+  ],
+  "blockers": [],
+  "continuity": {
+    "authority_pack": "exact_work",
+    "inner_pipeline": "pg_pipeline",
+    "outer_kernel": "projectx"
+  },
+  "created_at": "2026-04-23T16:49:00-07:00",
+  "runs": [
+    {
+      "family": "grassmannian_small",
+      "output_dir": "runs\\final_supervised",
+      "record_count": 4,
+      "recorded_at": "2026-04-23T16:49:00-07:00",
+      "run_id": "projectx-20260423T234858Z",
+      "status": "passed",
+      "substrate_schema_id": "substrate_schema_record:d4e38bf28058a8b6"
+    },
+    {
+      "family": "grassmannian_small",
+      "output_dir": "runs\\completion_supervised",
+      "record_count": 4,
+      "recorded_at": "2026-04-23T16:50:40-07:00",
+      "run_id": "projectx-20260423T235037Z",
+      "status": "passed",
+      "substrate_schema_id": "substrate_schema_record:d4e38bf28058a8b6"
+    },
+    {
+      "family": "grassmannian_small",
+      "output_dir": "runs\\scope_corrected",
+      "record_count": 4,
+      "recorded_at": "2026-04-23T23:52:37+00:00",
+      "run_id": "projectx-20260423T235235Z",
+      "status": "passed",
+      "substrate_schema_id": "substrate_schema_record:d4e38bf28058a8b6"
+    },
+    {
+      "family": "grassmannian_small",
+      "output_dir": "runs\\full_plan_supervised",
+      "record_count": 4,
+      "recorded_at": "2026-04-23T23:55:05+00:00",
+      "run_id": "projectx-20260423T235501Z",
+      "status": "passed",
+      "substrate_schema_id": "substrate_schema_record:d4e38bf28058a8b6"
+    },
+    {
+      "family": "grassmannian_small",
+      "output_dir": "runs\\full_plan_supervised_2",
+      "record_count": 4,
+      "recorded_at": "2026-04-23T23:55:22+00:00",
+      "run_id": "projectx-20260423T235518Z",
+      "status": "passed",
+      "substrate_schema_id": "substrate_schema_record:d4e38bf28058a8b6"
+    }
+  ],
+  "schema": "projectx_state_v1",
+  "updated_at": "2026-04-23T23:55:22+00:00"
+}

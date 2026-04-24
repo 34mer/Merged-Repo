@@ -1,0 +1,5 @@
+project_name: pg-pipeline
+default_family: grassmannian_small
+default_run_dir: runs/latest
+record_store: records.sqlite
+

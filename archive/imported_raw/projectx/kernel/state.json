@@ -1,0 +1,1660 @@
+{
+  "phase": "kernel_formation",
+  "current_objective": "Instantiate a persistent operating kernel and define the first continuity-aligned build line.",
+  "active_tasks": [
+    "Freeze recovery / recovery-surgery governance and endogenous generation unless authoritative regression or a genuinely new causal failure mode appears",
+    "Freeze world_contact_causal_update_loop unless authoritative regression or a genuinely new causal failure mode appears",
+    "Freeze single_target_operational_causal_loop unless authoritative regression or a genuinely new causal failure mode appears",
+    "Treat Project X as a three-core doctrine: escort / canonical carrier, native continuity / continual adaptation lab, and neuro-migration / overlap path",
+    "Treat d:\\Project X\\extracted as the canonical bounded external harness/bridge and not the primary answer to native continuity or native continual adaptation",
+    "Preserve the frozen proof surfaces, regression surfaces, and exit criteria without extending frozen branches",
+    "Apply a path-based, reversible repo hygiene policy that treats codex_tmp, kernel_zero_*, probe_*, caches, and generated run mass as non-canonical unless explicitly justified",
+    "Keep the native continual adaptation benchmark protocol, scaffold-ablation rule, and scoring rubric frozen as authoritative",
+    "Treat the current paired benchmark result as source of truth: the bounded harness line is prosthetic-dependent under scaffold ablation",
+    "Open a design-only internal candidate comparison lane before any new internal architecture implementation",
+    "Keep the frozen live-harness IndexError as debt only unless it blocks the native benchmark proof lane"
+  ],
+  "bottlenecks": [
+    "The current extracted harness line evaluates bounded external bridge behavior, but it does not by itself establish native across-time adaptation or native continual learning",
+    "Canonical and non-canonical repo mass are currently mixed at the top level by codex_tmp, kernel_zero_*, probe_*, caches, and generated run artifacts",
+    "The paired scaffold-ablation benchmark now shows the bounded harness line is prosthetic-dependent rather than natively adaptive",
+    "There is not yet a benchmark-first internal candidate comparison lane to test whether any minimal internal state mechanism can beat the ablated 0/0/0/0-style failure pattern"
+  ],
+  "repo_line_status": {
+    "canonical_bounded_external_harness": "d:\\Project X\\extracted",
+    "status": "frozen_demoted_external_bridge",
+    "statement": "The extracted repo line is canonical for bounded external harness/bridge work, but it is not the primary answer to native continuity or native continual adaptation.",
+    "preserve": [
+      "frozen proof surfaces",
+      "regression surfaces",
+      "exit criteria",
+      "logged debt"
+    ]
+  },
+  "project_x_three_core_doctrine": {
+    "doctrine_path": "kernel/PROJECT_X_THREE_CORE_DOCTRINE.md",
+    "cores": [
+      {
+        "name": "escort_canonical_carrier",
+        "role": "canonical bridge, carrier, harness, and bounded external proof surface",
+        "canonical_repo_line": "d:/Project X/extracted"
+      },
+      {
+        "name": "native_continuity_continual_adaptation_lab",
+        "role": "benchmark-first lab for native across-time adaptation under scaffold ablation"
+      },
+      {
+        "name": "neuro_migration_overlap_path",
+        "role": "future overlap/migration path for continuity-preserving substrate transfer"
+      }
+    ],
+    "extracted_repo_assignment": {
+      "belongs_to_core": "escort_canonical_carrier",
+      "statement": "The extracted repo belongs to the escort/bridge layer and is not the primary load-bearing answer to native continuity."
+    }
+  },
+  "repo_hygiene_status": {
+    "policy_path": "kernel/REPO_HYGIENE_POLICY.md",
+    "canonical_default": [
+      "extracted/system",
+      "extracted/kernel",
+      "extracted/schemas",
+      "extracted/scripts",
+      "extracted/world_contact_fixture",
+      "extracted/operational_targets",
+      "extracted/run_*.py"
+    ],
+    "non_canonical_by_default": [
+      "codex_tmp",
+      "kernel_zero_*",
+      "probe_*",
+      "extracted/__pycache__",
+      "generated run mass"
+    ]
+  },
+  "infrastructure_environment_policy": {
+    "policy_path": "kernel/SSD_WORKSPACE_POLICY.md",
+    "status": "stage2_ssd_canonical_repo_cutover_active",
+    "canonical_repo_root": "C:\\ProjectX_extracted",
+    "rollback_repo_root": "D:\\Project X\\extracted",
+    "workspace_clone_root": "C:\\ProjectX_codex_tmp",
+    "temp_root": "C:\\ProjectX_temp",
+    "scope": [
+      "system/world_contact_causal_update_harness.py",
+      "system/native_continual_adaptation_benchmark_runner.py",
+      "system/operational_causal_loop_harness.py",
+      "system/continuity_harness.py"
+    ],
+    "environment": {
+      "PROJECTX_WORKSPACE_ROOT": "C:\\ProjectX_codex_tmp",
+      "PROJECTX_TEMP_ROOT": "C:\\ProjectX_temp",
+      "TEMP": "C:\\ProjectX_temp",
+      "TMP": "C:\\ProjectX_temp"
+    },
+    "validation": {
+      "commands": [
+        "python run_native_continual_adaptation_benchmark.py",
+        "python run_world_contact_causal_update_harness.py"
+      ],
+      "workdir": "C:\\ProjectX_extracted",
+      "benchmark_wall_seconds": {
+        "d_repo": 296.752,
+        "c_repo": 291.308
+      },
+      "world_contact_wall_seconds": {
+        "d_repo": 135.1,
+        "c_repo": 129.546
+      },
+      "launched_cleanly_from_c": true,
+      "active_code_has_d_path_matches": false,
+      "active_outputs_leak_back_to_d": false,
+      "evidence": "Both validation scripts launched cleanly from C:\\ProjectX_extracted. Imports resolved from the C repo, experiments/logs stayed under C:\\ProjectX_extracted, and fresh kernel_zero_native_benchmark_* plus kernel_zero_world_contact_* workspaces were created under C:\\ProjectX_codex_tmp."
+    },
+    "rollback": [
+      "Switch the working repo for Codex runs back to D:\\Project X\\extracted",
+      "Keep PROJECTX_WORKSPACE_ROOT and PROJECTX_TEMP_ROOT on C: if the SSD temp/workspace policy is still useful",
+      "Leave C:\\ProjectX_extracted in place as a test copy if rollback is needed",
+      "Keep D:\\Project X\\extracted unchanged"
+    ]
+  },
+  "native_benchmark_first_lane": {
+    "name": "native_continual_adaptation_benchmark_first",
+    "status": "benchmark_v1_v2_v3_hybrid_best_internal_candidate_and_three_slice_operational_boundary_frozen",
+    "memo_path": "kernel/NATIVE_CONTINUAL_ADAPTATION_BENCHMARK_FIRST.md",
+    "benchmark_v2_memo_path": "kernel/NATIVE_CONTINUAL_ADAPTATION_BENCHMARK_V2.md",
+    "goal": "Benchmark native across-time adaptation and distinguish genuine carried-forward modified state from external replay or scaffolding before any new implementation.",
+    "before_any_implementation": [
+      "lock benchmark definitions",
+      "lock scaffold-ablation protocol",
+      "choose minimal fixtures",
+      "prove the negative boundary first"
+    ],
+    "locked_artifacts": [
+      "negative boundary",
+      "scaffold-ablation protocol",
+      "scoring rubric"
+    ],
+    "fixture_assessment": {
+      "examples_and_eval_sufficient": false,
+      "reason": "The inspected examples are historical harness inputs/outputs and the inspected eval modules are continuity/coherence/drift metrics, not paired native-adaptation benchmark fixtures with scaffold-ablation scoring.",
+      "smallest_next_candidate": "one minimal paired scaffold-ablation benchmark runner"
+    },
+    "implemented_runner": {
+      "script": "run_native_continual_adaptation_benchmark.py",
+      "artifact": "experiments/native_continual_adaptation_benchmark/summary.json",
+      "conditions": [
+        "prosthetic_bridge_condition",
+        "scaffold_ablated_condition"
+      ],
+      "implemented_tasks": [
+        "scaffold_ablation_retention",
+        "scaffold_ablation_overwrite_resistance",
+        "scaffold_ablation_interleaving",
+        "scaffold_ablation_local_generalization"
+      ]
+    },
+    "authoritative_result": {
+      "artifact": "experiments/native_continual_adaptation_benchmark/summary.json",
+      "evaluation_subject": "minimal_hybrid_candidate",
+      "conditions": [
+        "prosthetic_bridge_condition",
+        "scaffold_ablated_condition"
+      ],
+      "reporting_semantics": {
+        "authoritative_headline": "locked_dimension_scores",
+        "legacy_passed_flags_deprecated": true
+      },
+      "scores": {
+        "retention": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "overwrite_resistance": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "interleaving": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "local_generalization": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        }
+      },
+      "candidate_state_residence_relpath": "native_candidate_state/minimal_hybrid_candidate_state.json",
+      "candidate_only_survival": true,
+      "external_scaffold_read": false,
+      "interpretation": "The current minimal_hybrid_candidate is the best internal candidate under benchmark-v1. Locked dimension scores are the source-of-truth headline result; legacy passed flags are deprecated.",
+      "baseline_comparison": {
+        "frozen_slot_based_baseline": "3/3/3/0",
+        "frozen_ssm_style_baseline": "3/0/0/3",
+        "result": "beats_both_parents"
+      },
+      "continuity_guard": {
+        "command": "python run_continuity_harness.py",
+        "passed": 8,
+        "total": 8,
+        "average_score": 0.9865
+      },
+      "world_contact_guard": {
+        "command": "python run_world_contact_causal_update_harness.py",
+        "passed": 11,
+        "total": 11
+      }
+    },
+    "authoritative_v2_result": {
+      "artifact": "experiments/native_continual_adaptation_benchmark/summary.json",
+      "classification": "remains_robust_under_v2",
+      "locked_dimension_scores": {
+        "retention": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "overwrite_resistance": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "interleaving": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "local_generalization": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        }
+      },
+      "scores": {
+        "long_horizon_retention": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "deep_overwrite_interference": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "dense_interleaving_with_distractors": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "harder_local_generalization": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        }
+      },
+      "candidate_only_survival": true,
+      "external_scaffold_read": false,
+      "strict_ablation_checks_passed": true,
+      "interpretation": "Benchmark-v2 is now authoritative and confirms that the frozen hybrid remains robust under the bounded harsher escalations without leakage."
+    },
+    "authoritative_v3_result": {
+      "artifact": "experiments/native_continual_adaptation_benchmark/summary.json",
+      "classification": "remains_robust_under_v3",
+      "locked_dimension_scores": {
+        "retention": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "overwrite_resistance": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "interleaving": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "local_generalization": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        }
+      },
+      "scores": {
+        "carry_depth_retention": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "interference_density_resilience": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "transfer_distance_local_generalization": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        },
+        "deceptive_distractor_resistance": {
+          "prosthetic_bridge_score": 3,
+          "scaffold_ablated_score": 3
+        }
+      },
+      "candidate_only_survival": true,
+      "external_scaffold_read": false,
+      "anti_theater_checks_passed": true,
+      "interpretation": "Benchmark-v3 is now authoritative and confirms that the frozen hybrid remains robust under longer carry depth, denser interference, harder transfer distance, deceptive distractors, and stricter anti-theater checks without leakage."
+    },
+    "frozen_internal_candidate_results": {
+      "slot_based": "3/3/3/0",
+      "ssm_style": "3/0/0/3",
+      "minimal_hybrid": "3/3/3/3"
+    },
+    "current_best_internal_candidate": {
+      "name": "minimal_hybrid_candidate",
+      "scores": "3/3/3/3",
+      "benchmark_v1_locked_scores": "3/3/3/3",
+      "benchmark_v2_locked_scores": "3/3/3/3",
+      "benchmark_v3_locked_scores": "3/3/3/3",
+      "candidate_only_survival": true,
+      "external_scaffold_read": false,
+      "status": "frozen_current_best_internal_candidate_under_benchmark_v1_v2_and_v3"
+    },
+    "benchmark_v2_design_status": {
+      "design_sufficient_now": true,
+      "future_execution_requires_minimal_runner_extension": false,
+      "exact_smallest_future_execution_surface": "Benchmark-v2 execution is now complete on the existing paired benchmark runner."
+    },
+    "benchmark_v3_design_status": {
+      "memo_path": "kernel/NATIVE_CONTINUAL_ADAPTATION_BENCHMARK_V3.md",
+      "design_sufficient_now": true,
+      "benchmark_v1_and_v2_remain_source_of_truth": true,
+      "current_hybrid_result_is_source_of_truth": true,
+      "next_bottleneck": "evaluation_saturation_beyond_the_current_solved_v1_v2_family",
+      "bounded_dimensions": [
+        "carry_depth_retention",
+        "interference_density_resilience",
+        "transfer_distance_local_generalization",
+        "deceptive_distractor_resistance"
+      ],
+      "anti_theater_checks": [
+        "candidate_only_survival",
+        "external_scaffold_read_false",
+        "no_kernel_carrier_readable_state_in_ablated_condition",
+        "no_wrapper_residue_readable_state",
+        "no_audit_artifact_readable_state",
+        "no_benchmark_labeled_routing_inside_candidate_logic",
+        "no_exact_instance_replay_disguised_as_transfer"
+      ],
+      "future_execution_requires_minimal_runner_extension": false,
+      "execution_is_premature_without_explicit_authorization": false,
+      "implementation_justified_after_v3_lock": false,
+      "executed_and_frozen_authoritative": true,
+      "exact_smallest_execution_surface_used": "extended only the existing paired native continual adaptation benchmark runner with the locked benchmark-v3 tasks and anti-theater assertions"
+    },
+    "operational_transfer_test": {
+      "memo_path": "kernel/MINIMAL_HYBRID_OPERATIONAL_TRANSFER_TEST.md",
+      "status": "implemented_frozen_authoritative_robust_harsher_triple_slice_across_cycles",
+      "recommendation": "yes_completed",
+      "reason": "The bounded transfer test was implemented only through the approved smallest surfaces and now shows that the frozen minimal_hybrid_candidate robustly carries three approved operational memory-like slices inside the existing single-target operational loop across revise, blocked replay, second revise, stabilize, and stop without provenance regression, replay-hygiene regression, hidden external carry, or observation-interpretation/control smuggling.",
+      "authoritative_result": {
+        "artifact": "experiments/operational_causal_loop_harness/summary.json",
+        "classification": "robustly_carries_all_three_slices_under_harsher_multi_cycle_pressure",
+        "substituted_state_slice": "current_prior_operational_status_content_for_operational_targets/live_status.json",
+        "second_substituted_state_slice": "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+        "third_substituted_state_slice": "current_prior_observed_delta_summary_for_operational_targets/live_status.json",
+        "transferred_slices": [
+          "current_prior_operational_status_content_for_operational_targets/live_status.json",
+          "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+          "current_prior_observed_delta_summary_for_operational_targets/live_status.json"
+        ],
+        "cycle_surface": [
+          "revise",
+          "blocked replay",
+          "second revise",
+          "stabilize",
+          "stop"
+        ],
+        "latest_intermediate_state_restored_correctly": true,
+        "candidate_only_survival": true,
+        "external_scaffold_read": false,
+        "escort_copies_scrubbed": true,
+        "restored_only_from_hybrid_state": true,
+        "raw_observation_delta_retained": true,
+        "no_observation_interpretation_control_smuggling": true,
+        "escort_retained": [
+          "adapter use",
+          "intervention / observation / attribution / update flow",
+          "explicit lineage ids",
+          "stale replay blocking",
+          "stop-condition enforcement",
+          "binding writes",
+          "one-way audit logging"
+        ],
+        "benchmark_v1_locked_scores": "3/3/3/3",
+        "benchmark_v2_locked_scores": "3/3/3/3",
+        "benchmark_v3_locked_scores": "3/3/3/3",
+        "interpretation": "The minimal_hybrid_candidate now robustly carries all three approved operational memory-like slices inside the existing operational loop across revise, blocked replay, second revise, stabilize, and stop, restores the latest intermediate revised state correctly, and does so while Escort retains provenance, observation/attribution flow, replay blocking, stop control, adapter ownership, and binding world-contact machinery."
+      },
+      "ladder_memo_path": "kernel/HYBRID_OPERATIONAL_TRANSFER_LADDER.md",
+      "second_slice_decision_memo_path": "kernel/HYBRID_OPERATIONAL_SECOND_SLICE_DECISION.md",
+      "third_slice_decision_memo_path": "kernel/HYBRID_OPERATIONAL_THIRD_SLICE_DECISION.md",
+      "fourth_slice_decision_memo_path": "kernel/HYBRID_OPERATIONAL_FOURTH_SLICE_DECISION.md",
+      "next_recommendation": {
+        "implement_another_independent_transfer_next": false,
+        "reason": "The triple-slice substitution now holds cleanly under the harsher revise/replay/revise/stabilize/stop surface. The remaining stop/no-thrash cue content is too control-adjacent to transfer honestly under the current framing without drifting into policy/control migration.",
+        "exact_next_move_if_later_authorized": "stop here and freeze the operational substitution boundary at three slices"
+      },
+      "operational_substitution_boundary": {
+        "frozen_at_three_slices": true,
+        "authorized_transferred_slices": [
+          "current_prior_operational_status_content_for_operational_targets/live_status.json",
+          "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+          "current_prior_observed_delta_summary_for_operational_targets/live_status.json"
+        ],
+        "not_authorized_under_current_framing": [
+          "current_stop_no_thrash_cue_content_for_operational_targets/live_status.json"
+        ],
+        "boundary_reason": "The current honest transfer boundary stops at three memory-like slices. Stop/no-thrash remains in Escort because it is too control-adjacent under the current framing."
+      },
+      "exact_smallest_future_surface_if_later_authorized": [
+        "none by default",
+        "if the stop boundary is revisited later, start with design-only narrowing of the stop/no-thrash cue into a purely descriptive post-hoc memory fragment rather than the current control-adjacent slice"
+      ]
+    },
+    "second_operational_target_decision": {
+      "memo_path": "kernel/HYBRID_OPERATIONAL_SECOND_TARGET_DECISION.md",
+      "status": "authoritative_no_honest_second_operational_target_exists_yet",
+      "benchmark_v1_v2_v3_and_three_slice_result_are_source_of_truth": true,
+      "recommendation": "no",
+      "reason": "Benchmark-v1, benchmark-v2, and benchmark-v3 are all saturated by the current hybrid, so a second operational target would be the right next discriminator only if an honest second non-kernel operational artifact already existed. In the active repo, operational_targets currently contains only live_status.json; world_contact_fixture targets remain fixtures, not operational artifacts.",
+      "repo_grounded_inventory": {
+        "operational_targets": [
+          "operational_targets/live_status.json"
+        ],
+        "not_honest_second_operational_targets": [
+          "world_contact_fixture/target.json",
+          "world_contact_fixture/peer.json",
+          "world_contact_fixture/native_benchmark_target.json"
+        ]
+      },
+      "qualities_required_for_honest_second_target": [
+        "same single filesystem adapter lane",
+        "non-kernel operational artifact",
+        "lives under operational_targets/",
+        "similar enough to reuse the current transfer discipline",
+        "different enough to test target-specific overfitting",
+        "not a fixture, benchmark target, kernel carrier, or audit artifact"
+      ],
+      "escort_must_retain": [
+        "adapter use",
+        "intervention / observation / attribution / update flow",
+        "explicit lineage ids",
+        "stale replay blocking",
+        "stop-condition enforcement",
+        "binding writes",
+        "one-way audit logging"
+      ],
+      "honest_cross_target_transfer_requires": [
+        "a real second operational artifact already present in operational_targets/",
+        "only explicitly named memory-like slices scrubbed from Escort-visible carried state",
+        "only hybrid state restoring those same slices",
+        "fresh observation and attribution remaining Escort-owned",
+        "replay and stop discipline remaining Escort-owned",
+        "no bridge, kernel, wrapper, or audit artifact functioning as carried state"
+      ],
+      "target_specific_overfit_if": [
+        "the hybrid only works on live_status.json semantics",
+        "the same transfer discipline does not survive on a second operational artifact with different content structure",
+        "success depends on hidden assumptions about the current intake-status phrasing rather than the bounded carry mechanism"
+      ],
+      "surrogate_leakage_if": [
+        "the supposed second target is actually a fixture or benchmark file",
+        "Escort-visible carried state still contains the scrubbed slice",
+        "the candidate reads any audit artifact, wrapper residue, kernel carrier, or other non-candidate state",
+        "the new target is scaffolded by copied first-target content rather than independently carried"
+      ],
+      "unacceptable_control_policy_migration_if": [
+        "stop entry or stop exit moves out of Escort",
+        "replay blocking moves out of Escort",
+        "no-thrash enforcement moves out of Escort",
+        "action suppression moves out of Escort",
+        "attribution decisions move out of Escort",
+        "binding writes move out of Escort"
+      ],
+      "exact_reason_to_stop_here": "No honest second operational target exists in the active repo yet. Implementing one now would require inventing or promoting a new target first, which would broaden the branch instead of honestly testing cross-target transfer on an already-present non-kernel operational artifact.",
+      "implementation_justified_next": false,
+      "exact_smallest_next_move_if_later_revisited": "design-only definition of one new non-kernel operational artifact in operational_targets/ and its first transferable memory-like slices before any code"
+    },
+    "frontier_reselection_from_no_second_target": {
+      "memo_path": "kernel/PROJECT_X_FRONTIER_RESELECTION_FROM_NO_SECOND_TARGET.md",
+      "status": "authoritative_next_frontier_is_design_only_future_operational_artifact_definition",
+      "current_frozen_results_are_source_of_truth": true,
+      "stop_condition": "no_honest_second_operational_target_exists_in_active_repo",
+      "next_highest_leverage_frontier": "design_only_definition_of_one_real_future_operational_artifact",
+      "why_not_benchmark_v4_next": "The blocker is no longer insufficient pressure on the current benchmark target; the blocker is the absence of a second honest operational artifact.",
+      "why_not_continue_frozen_branches": "The benchmark family is saturated at 3/3/3/3 and the current operational substitution boundary is already honestly frozen at three slices, so more work on those branches would broaden breadth or reinterpret settled results.",
+      "future_second_operational_target_honesty_criteria": [
+        "same single filesystem adapter lane",
+        "non-kernel operational artifact",
+        "lives under operational_targets/",
+        "not a benchmark fixture",
+        "not a world-contact fixture",
+        "not an audit artifact",
+        "not a wrapper cache",
+        "not a renamed or lightly edited copy of live_status.json",
+        "has a real operational role distinct from intake-status tracking",
+        "supports the current transfer discipline as target-local, content-bearing, cycle-carried, and memory-like",
+        "exposes honest first-transfer slices such as status content, expected-effect content, and observed-delta summary",
+        "supports revise, blocked replay, second revise, stabilize, and stop honestly"
+      ],
+      "branch_explicitly_deprioritized": [
+        "second operational target implementation in the current repo",
+        "promoting any file from world_contact_fixture/ into an operational target",
+        "inventing a new operational target in code just to continue the branch",
+        "broadening the operational substitution branch before a real artifact is defined"
+      ],
+      "implementation_justified_next": false,
+      "exact_reason_no_immediate_implementation": "The blocker is definitional rather than executable. A real second operational artifact must be specified honestly before any cross-target transfer implementation can be justified.",
+      "exact_smallest_next_move_if_later_authorized": "write one design-only spec for a future second operational artifact under operational_targets/ and lock its role, non-fixture status, first transferable memory-like slices, Escort-retained responsibilities, and honesty criteria before any code"
+    },
+    "future_second_operational_artifact_spec": {
+      "memo_path": "kernel/FUTURE_SECOND_OPERATIONAL_ARTIFACT_SPEC.md",
+      "status": "authoritative_sufficient_but_blocked_no_implementation_justified",
+      "frozen_results_remain_source_of_truth": true,
+      "exact_future_artifact_path": "operational_targets/live_queue_snapshot.json",
+      "operational_role": "bounded live queue snapshot for the same single filesystem-backed operational lane",
+      "why_real_non_kernel_artifact_if_it_exists": [
+        "lives under operational_targets/",
+        "uses the same single filesystem adapter lane",
+        "represents actual queue-state content rather than kernel memory",
+        "has operational meaning outside the benchmark"
+      ],
+      "why_not_fixture_if_it_exists": [
+        "not created under world_contact_fixture/",
+        "not used as a benchmark-only target",
+        "not seeded solely to keep the transfer branch moving",
+        "connected to a real operational role in the same lane as live_status.json"
+      ],
+      "why_not_clone_of_live_status": [
+        "queue summary is distinct from state-of-the-object status",
+        "expected queue advancement is distinct from expected status effect",
+        "observed queue delta is distinct from observed status delta",
+        "must not restate intake pending/acknowledged/resolved semantics in a second file"
+      ],
+      "first_honest_memory_like_slices": [
+        "current_prior_queue_summary_content_for_operational_targets/live_queue_snapshot.json",
+        "current_prior_expected_queue_effect_content_for_operational_targets/live_queue_snapshot.json",
+        "current_prior_observed_queue_delta_summary_for_operational_targets/live_queue_snapshot.json"
+      ],
+      "escort_must_retain": [
+        "adapter use",
+        "intervention / observation / attribution / update flow",
+        "explicit lineage ids",
+        "stale replay blocking",
+        "stop-condition enforcement",
+        "binding writes",
+        "one-way audit logging",
+        "queue admission, ordering, and suppression policy"
+      ],
+      "honest_transfer_requires": [
+        "artifact exists for a real operational reason, not benchmark convenience",
+        "only explicitly named memory-like slices are scrubbed from Escort-visible carried state",
+        "only hybrid state restores those same slices",
+        "fresh observation and attribution remain Escort-owned",
+        "queue policy remains Escort-owned",
+        "replay and stop discipline remain Escort-owned",
+        "no bridge, kernel, wrapper, or audit artifact functions as carried state"
+      ],
+      "surrogate_leakage_if": [
+        "artifact is created only to keep the branch moving",
+        "artifact is a reformatted clone of live_status.json",
+        "transferred slice remains readable in Escort-visible carried state",
+        "candidate reads audit output, wrapper residue, kernel carriers, or non-candidate artifacts",
+        "artifact is scaffolded by copied live_status.json content rather than independent operational content"
+      ],
+      "control_policy_migration_if": [
+        "queue admission moves out of Escort",
+        "queue ordering moves out of Escort",
+        "queue suppression moves out of Escort",
+        "stop entry or exit moves out of Escort",
+        "replay blocking moves out of Escort",
+        "no-thrash enforcement moves out of Escort",
+        "attribution decisions move out of Escort",
+        "binding writes move out of Escort"
+      ],
+      "spec_sufficient": true,
+      "implementation_justified_after_spec": false,
+      "exact_blocker": "operational_targets/live_queue_snapshot.json does not exist yet as a real operational artifact for an independent operational reason, so implementing it now would still be invented work.",
+      "exact_smallest_next_move_if_later_revisited": "confirm a real operational need for operational_targets/live_queue_snapshot.json, then keep the next move design-only long enough to prove it is not a fixture and not a clone of live_status.json"
+    },
+    "frontier_reselection_from_blocked_future_artifact_spec": {
+      "memo_path": "kernel/FUTURE_OPERATIONAL_ARTIFACT_ADMISSION_CRITERIA.md",
+      "status": "authoritative_next_frontier_is_artifact_admission_criteria_not_implementation",
+      "current_frozen_results_are_source_of_truth": true,
+      "blocked_state": "future_second_operational_artifact_spec_is_sufficient_but_blocked_by_lack_of_real_artifact",
+      "next_highest_leverage_frontier": "define admission criteria for any future real operational artifact",
+      "why_not_benchmark_v4_next": "The blocker is not insufficient benchmark pressure; the blocker is guarding against invented operational artifacts after the benchmark and current operational lane are already saturated.",
+      "why_not_pivot_back_to_frozen_frontiers": "Benchmark-v1/v2/v3 and the current three-slice operational substitution boundary are already frozen and authoritative, so reopening them would broaden or reinterpret settled results without addressing the actual blocker.",
+      "branch_explicitly_deprioritized": [
+        "second operational target implementation by invention",
+        "implementing operational_targets/live_queue_snapshot.json now",
+        "promoting any fixture into operational_targets/",
+        "opening a new operational-target branch without a real operational need"
+      ],
+      "what_makes_live_queue_snapshot_honest_later": [
+        "a real operational workflow independently requires a queue snapshot artifact",
+        "that need is documented before any transfer implementation request",
+        "the artifact is not introduced merely because the current target and benchmark family are saturated",
+        "its semantics are meaningfully distinct from live_status.json",
+        "its first slices remain queue summary content, expected queue effect content, and observed queue delta summary"
+      ],
+      "implementation_justified_next": false,
+      "exact_reason_no_immediate_implementation": "The correct next move from the blocked state is a gate, not a build. Admission criteria reduce future invented-work risk without broadening the branch.",
+      "exact_design_or_consolidation_step_instead": "Keep the current results frozen and use the admission-criteria memo as the required gate for any future operational artifact proposal.",
+      "exact_smallest_next_move_if_later_revisited": "If a real operational need appears later, evaluate the proposed artifact against the admission-criteria memo before writing any code."
+    },
+    "active_frontiers_and_gates": {
+      "memo_path": "kernel/PROJECT_X_ACTIVE_FRONTIERS_AND_GATES.md",
+      "status": "authoritative_branch_paused_pending_reentry_conditions",
+      "current_frozen_results_are_source_of_truth": true,
+      "frozen_wins": {
+        "benchmark_v1": "3/3/3/3",
+        "benchmark_v2": "3/3/3/3",
+        "benchmark_v3": "3/3/3/3",
+        "candidate_comparison": {
+          "slot_based": "3/3/3/0",
+          "ssm_style": "3/0/0/3",
+          "minimal_hybrid": "3/3/3/3"
+        },
+        "operational_substitution_boundary": [
+          "current_prior_operational_status_content_for_operational_targets/live_status.json",
+          "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+          "current_prior_observed_delta_summary_for_operational_targets/live_status.json"
+        ]
+      },
+      "frozen_stop_conditions": [
+        "fourth slice not approved",
+        "second operational target by invention not approved",
+        "live_queue_snapshot.json sufficient-but-blocked",
+        "fixture promotion not allowed"
+      ],
+      "authoritative_gates": [
+        "benchmark-v1/v2/v3 remain source of truth",
+        "anti-theater and anti-leak rules remain binding",
+        "future operational artifact admission criteria remain binding",
+        "Escort must retain adapter use, intervention/observation/attribution/update flow, explicit lineage ids, replay blocking, stop enforcement, binding writes, and one-way audit logging"
+      ],
+      "reentry_conditions": [
+        "a real new operational artifact exists and passes the admission gate",
+        "an authoritative regression appears",
+        "a new benchmark discriminator is designed and locked"
+      ],
+      "exact_smallest_move_on_reentry": {
+        "real_new_operational_artifact": "design-only evaluation of the artifact's first honest memory-like slices before any implementation",
+        "authoritative_regression": "patch only the specific regression path on the already-authorized surface",
+        "new_benchmark_discriminator": "one minimal extension to the existing paired benchmark runner to execute the locked discriminator"
+      },
+      "branch_state": {
+        "paused": true,
+        "abandoned": false,
+        "implementation_justified_now": false,
+        "statement": "No implementation is justified until one of the re-entry conditions occurs."
+      }
+    },
+    "learnable_minimal_hybrid_substrate": {
+      "memo_path": "kernel/LEARNABLE_MINIMAL_HYBRID_SUBSTRATE.md",
+      "status": "authoritative_benchmark_match_frozen_operational_first_slice_design_frontier_active",
+      "frozen_results_remain_source_of_truth": true,
+      "paused_bridge_and_operational_lines_remain_paused": true,
+      "candidate_concept": "fixed-topology trainable minimal hybrid substrate mirroring the handcrafted hybrid witness shape",
+      "candidate_owned_state": {
+        "slot_trace": [
+          "current_fact",
+          "prior_fact",
+          "revision_flag",
+          "stability_counter"
+        ],
+        "latent_trace": [
+          "latent_vector[4]",
+          "support_gate",
+          "revision_gate"
+        ],
+        "step_count": true
+      },
+      "trainable_scope": [
+        "slot-write scoring weights",
+        "latent transition weights",
+        "latent readout weights",
+        "slot/latent arbitration weights"
+      ],
+      "fixed_scope": [
+        "two explicit slots",
+        "latent size 4",
+        "two latent gates",
+        "generic update/probe interface shape",
+        "prosthetic vs ablated law",
+        "anti-theater and anti-leak rules",
+        "no external memory",
+        "no expandable keyed store",
+        "no benchmark-specific input channel"
+      ],
+      "why_now": "The handcrafted hybrid is now a frozen witness that saturates benchmark-v1/v2/v3. The next highest-leverage frontier is whether the same bounded witness shape is learnable, not another random candidate family or more bridge expansion.",
+      "must_face_frozen_surfaces": [
+        "benchmark-v1",
+        "benchmark-v2",
+        "benchmark-v3",
+        "same prosthetic vs ablated law",
+        "same anti-theater checks"
+      ],
+      "cheating_or_theater_if": [
+        "hidden external carry",
+        "wrapper dependence",
+        "benchmark-shaped routing",
+        "benchmark task IDs or dimension labels passed into candidate logic",
+        "privileged read path",
+        "kernel carrier readable state in ablated condition",
+        "audit artifact readable state",
+        "wrapper residue readable state",
+        "slot/keyed-memory smuggling beyond the fixed two-slot design",
+        "external scaffolding that merely imitates the handcrafted hybrid"
+      ],
+      "minimum_worth_building_threshold": "benchmark-v1 under ablation at least 3/3/3/1+ with anti-theater checks still passing",
+      "full_success_target": "robust 3/3/3/3 across benchmark-v1/v2/v3 under the same anti-theater checks",
+      "not_worth_continuing_if": [
+        "3/3/3/0",
+        "3/0/0/3",
+        "any anti-theater leakage",
+        "any benchmark-shaped routing",
+        "any external carry path"
+      ],
+      "implementation_justified_after_memo": true,
+      "exact_smallest_next_move_if_later_authorized": "implement one tiny trainable candidate module with the fixed handcrafted-hybrid topology, add one narrow hook in the existing paired benchmark runner, and add one artifact extension for parameter/training provenance and anti-theater audit",
+      "sprawl_reentry_rule": "If the line drifts beyond the fixed witness topology, bounded trainable parameter set, narrow runner hook, and single artifact extension, implementation becomes blocked again.",
+      "authoritative_benchmark_result": {
+        "artifact": "experiments/native_continual_adaptation_benchmark/summary.learnable_minimal_hybrid_substrate.json",
+        "evaluation_subject": "learnable_minimal_hybrid_substrate",
+        "classification": "matches_handcrafted_hybrid",
+        "benchmark_v1": "3/3/3/3",
+        "benchmark_v2": "3/3/3/3",
+        "benchmark_v3": "3/3/3/3",
+        "candidate_state_residence_relpath": "native_candidate_state/learnable_minimal_hybrid_substrate_state.json",
+        "candidate_only_survival": true,
+        "external_scaffold_read": false,
+        "interpretation": "The learnable minimal hybrid substrate now matches the handcrafted hybrid on benchmark-v1, benchmark-v2, and benchmark-v3 under the same prosthetic-vs-ablated law and anti-theater checks.",
+        "guard_surfaces": {
+          "world_contact": "11/11",
+          "continuity": {
+            "passed": "8/8",
+            "average_score": 0.9868
+          }
+        }
+      },
+      "authoritative_operational_first_slice_result": {
+        "artifact": "experiments/operational_causal_loop_harness/summary.json",
+        "target_ref": "operational_targets/live_status.json",
+        "classification": "robustly_carries_first_slice_under_harsher_multi_cycle_pressure",
+        "transferred_slice": "current_prior_operational_status_content_for_operational_targets/live_status.json",
+        "holds_across": [
+          "revise",
+          "blocked_replay",
+          "second_revise",
+          "stabilize",
+          "stop"
+        ],
+        "candidate_state_residence_relpath": "native_candidate_state/learnable_minimal_hybrid_substrate_state.json",
+        "candidate_only_survival": true,
+        "external_scaffold_read": false,
+        "interpretation": "The learnable minimal hybrid substrate now robustly carries the first operational status-content slice under the same provenance, replay, and ablation discipline already proven by the handcrafted hybrid.",
+        "guard_surfaces": {
+          "operational_harness": "12/12",
+          "world_contact": "11/11",
+          "continuity": {
+            "passed": "8/8",
+            "average_score": 0.9868
+          }
+        }
+      },
+      "next_design_frontier": {
+        "memo_path": "kernel/LEARNABLE_SUBSTRATE_OPERATIONAL_SECOND_SLICE_DECISION.md",
+        "status": "design_locked_operational_second_slice_decision",
+        "reason": "Benchmark-v1/v2/v3 are saturated and the learnable first-slice operational carry is now robust. The next smallest honest discriminator is whether the learnable substrate can carry exactly one second memory-like slice in the same operational lane without widening to multi-slice transfer.",
+        "target_ref": "operational_targets/live_status.json",
+        "transferred_slice_under_review": "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+        "reusable_test_shape": [
+          "same live_status operational loop",
+          "same single filesystem adapter lane",
+          "same Escort-side scrub discipline for the exact expected-effect slice",
+          "same candidate-only survival and external-scaffold-read checks",
+          "same provenance / replay / stop assertions"
+        ],
+        "not_reusable_as_identity": [
+          "handcrafted hybrid state",
+          "handcrafted hybrid update logic",
+          "handcrafted hybrid probe logic",
+          "any fallback to handcrafted candidate artifacts"
+        ],
+        "implementation_justified_after_memo": true,
+        "exact_smallest_next_move_if_later_approved": "add one learnable-second-slice scenario inside the existing operational_causal_loop_harness.py, add one narrow hook that lets the loop consult learnable_minimal_hybrid_substrate for current_prior_expected_effect_content_for_operational_targets/live_status.json only under the explicit learnable-second-slice condition, and add one one-way audit extension"
+      }
+    },
+    "hybrid_operational_third_slice_decision": {
+      "memo_path": "kernel/HYBRID_OPERATIONAL_THIRD_SLICE_DECISION.md",
+      "status": "design_locked_yes_exactly_one_third_slice",
+      "dual_slice_result_is_source_of_truth": true,
+      "recommendation": "yes",
+      "reason": "The successful harsher dual-slice stress clears the earlier carry-depth blocker. Exactly one third slice is now honestly justified, and the least-unsafe remaining slice is the content-bearing current/prior observed delta summary rather than the control-adjacent stop/no-thrash cue.",
+      "least_unsafe_third_slice": "current_prior_observed_delta_summary_for_operational_targets/live_status.json",
+      "higher_risk_slice_not_recommended_next": "current_stop_no_thrash_cue_content_for_operational_targets/live_status.json",
+      "escort_must_retain": [
+        "adapter use",
+        "intervention / observation / attribution / update flow",
+        "explicit lineage ids",
+        "stale replay blocking",
+        "stop-condition enforcement",
+        "binding writes",
+        "one-way audit logging"
+      ],
+      "honest_transfer_requires": [
+        "only the explicitly named third slice is scrubbed from Escort-visible carried state",
+        "only hybrid state restores that exact slice",
+        "fresh observation and attribution remain Escort-owned",
+        "the same operational lineage continues with Escort provenance intact"
+      ],
+      "surrogate_leakage_if": [
+        "the scrubbed observed-delta summary remains readable in Escort-visible carried state",
+        "the hybrid reads any non-candidate artifact",
+        "the transferred observed-delta summary becomes a backdoor evidence cache that bypasses fresh observation or attribution"
+      ],
+      "too_much_control_policy_migration_if": [
+        "the transferred slice starts driving stop decisions directly",
+        "replay blocking or action gating depends on hybrid-carried content instead of Escort blocking logic",
+        "lineage identity or action gating becomes hybrid-owned rather than Escort-owned"
+      ],
+      "exact_smallest_next_move_if_later_approved": "one third-slice scenario for current_prior_observed_delta_summary_for_operational_targets/live_status.json inside the existing operational_causal_loop_harness.py plus one narrow hook for that exact slice and one one-way audit extension"
+    },
+    "hybrid_operational_fourth_slice_decision": {
+      "memo_path": "kernel/HYBRID_OPERATIONAL_FOURTH_SLICE_DECISION.md",
+      "status": "design_locked_no_fourth_slice_boundary_freezes_at_three",
+      "triple_slice_result_is_source_of_truth": true,
+      "recommendation": "no",
+      "reason": "The successful harsher triple-slice stress saturates the honest memory-like substitution class for this operational lane. The only remaining named slice, current_stop_no_thrash_cue_content, is too control-adjacent to transfer under the current framing without collapsing into policy/control migration.",
+      "remaining_slice_under_review": "current_stop_no_thrash_cue_content_for_operational_targets/live_status.json",
+      "can_current_named_fourth_slice_transfer_honestly_now": false,
+      "least_transferable_subset_if_reframed_later": "at most a purely descriptive post-hoc prior stop explanation fragment that does not participate in stop entry, stop exit, no-thrash gating, replay blocking, or action suppression",
+      "escort_must_retain": [
+        "adapter use",
+        "intervention / observation / attribution / update flow",
+        "explicit lineage ids",
+        "stale replay blocking",
+        "stop-condition enforcement",
+        "binding writes",
+        "one-way audit logging"
+      ],
+      "honest_transfer_requires": [
+        "only an explicitly named memory-like fragment is scrubbed from Escort-visible carried state",
+        "the fragment is restored only from hybrid state",
+        "stop entry and stop exit decisions remain Escort-owned",
+        "no action gating, replay blocking, or no-thrash enforcement depends on hybrid-carried content"
+      ],
+      "surrogate_leakage_if": [
+        "the scrubbed stop-related content remains readable in Escort-visible carried state",
+        "the hybrid reads any non-candidate artifact",
+        "the transferred fragment functions as a hidden control cue rather than inert carried memory"
+      ],
+      "unacceptable_policy_control_migration_if": [
+        "the hybrid-carried fragment influences stop entry directly",
+        "the hybrid-carried fragment influences stop exit directly",
+        "no-thrash gating depends on hybrid-carried content instead of Escort logic",
+        "replay blocking or action suppression depends on hybrid-carried content instead of Escort logic"
+      ],
+      "exact_recommendation": "stop here and freeze the operational substitution boundary at three slices",
+      "exact_reason_to_stop_at_three": "The current triple-slice result already demonstrates robust carry for status content, expected-effect content, and observed-delta summary without leakage. Moving into stop/no-thrash cue content would no longer be a memory-like substitution test; it would risk migrating control policy itself."
+    },
+    "global_reevaluation_next_frontier": {
+      "memo_path": "kernel/PROJECT_X_GLOBAL_REEVALUATION_NEXT_FRONTIER.md",
+      "status": "authoritative_benchmark_v3_is_next_highest_leverage_frontier",
+      "current_frozen_state_is_source_of_truth": true,
+      "synthesis": {
+        "escort_bridge_line": "active_c_working_repo_frozen_bounded_bridge_not_primary_native_answer",
+        "benchmark_v1": "minimal_hybrid_candidate 3/3/3/3 with candidate_only_survival=true and external_scaffold_read=false",
+        "benchmark_v2": "minimal_hybrid_candidate remains robust under bounded harsher benchmark-v2 pressure at 3/3/3/3",
+        "candidate_comparison": {
+          "slot_based": "3/3/3/0",
+          "ssm_style": "3/0/0/3",
+          "minimal_hybrid": "3/3/3/3"
+        },
+        "operational_substitution_boundary": "frozen_at_three_slices_on_operational_targets/live_status.json"
+      },
+      "next_highest_leverage_bottleneck": "evaluation_saturation_the_current_benchmark_and_single_target_operational_lane_no_longer_separate_robust_native_carry_from_possible_local_overfitting",
+      "recommended_next_frontier": "benchmark_v3_design_lock",
+      "why_this_not_frozen_branches": "Continuing fourth-slice or second-target substitution would broaden breadth before sharpening the discriminator. Starting a new internal candidate family before a harder benchmark would invite overfitting to solved 3/3/3/3 surfaces.",
+      "explicitly_deprioritized_branches": [
+        "fourth operational slice under the current stop/no-thrash framing",
+        "second operational target transfer branch",
+        "new internal candidate family implementation before a sharper benchmark exists",
+        "further escort/harness expansion absent authoritative regression"
+      ],
+      "implementation_justified_next": false,
+      "exact_reason_no_immediate_implementation": "The highest-leverage need is a stricter benchmark frontier, not more architecture. Benchmark-v3 had to be designed and locked before any additional candidate or operational-transfer implementation could be honest.",
+      "exact_smallest_next_move_if_later_authorized": "after the v3 lock, at most one minimal extension to the existing paired native continual adaptation benchmark runner to execute the locked benchmark-v3 tasks"
+    },
+    "freeze_rule": "Do not tune the harness to improve these scores; treat the paired benchmark read as the benchmark source of truth."
+  },
+  "internal_candidate_comparison_lane": {
+    "name": "internal_candidate_comparison_benchmark_first",
+    "status": "minimal_hybrid_frozen_current_best_benchmark_v1_candidate",
+    "memo_path": "kernel/INTERNAL_CANDIDATE_COMPARISON_BENCHMARK_FIRST.md",
+    "slot_vs_ssm_comparison_memo_path": "kernel/SLOT_VS_SSM_COMPARISON_MEMO.md",
+    "minimal_hybrid_spec_path": "kernel/MINIMAL_HYBRID_CANDIDATE_SPEC.md",
+    "minimal_hybrid_audit_path": "kernel/MINIMAL_HYBRID_CANDIDATE_AUDIT.md",
+    "next_candidate_comparison_memo_path": "kernel/MINIMAL_SSM_STYLE_CANDIDATE_COMPARISON_MEMO.md",
+    "minimal_ssm_style_spec_path": "kernel/MINIMAL_SSM_STYLE_CANDIDATE_SPEC.md",
+    "minimal_ssm_style_audit_path": "kernel/MINIMAL_SSM_STYLE_CANDIDATE_AUDIT.md",
+    "minimal_ssm_style_spec_audit_path": "kernel/MINIMAL_SSM_STYLE_CANDIDATE_SPEC_AUDIT.md",
+    "minimal_persistent_state_spec_path": "kernel/MINIMAL_PERSISTENT_STATE_CANDIDATE_SPEC.md",
+    "minimal_persistent_state_audit_path": "kernel/MINIMAL_PERSISTENT_STATE_CANDIDATE_AUDIT.md",
+    "minimal_persistent_state_three_core_audit_path": "kernel/MINIMAL_PERSISTENT_STATE_CANDIDATE_THREE_CORE_AUDIT.md",
+    "candidate_set": [
+      "external_prosthetic_baseline",
+      "scaffold_ablated_baseline",
+      "minimal_persistent_state_candidate",
+      "minimal_ssm_style_candidate",
+      "tiny_parameter_update_candidate_optional_only_if_bounded"
+    ],
+    "first_build_recommendation": "minimal_persistent_state_candidate",
+    "reason": "It is the smallest legitimate internal move that could beat the ablated retention/overwrite 0-pattern without broadening adapters, consumers, or benchmark meaning.",
+    "implementation_gate": {
+      "justified_yet": true,
+      "authorization_required": true,
+      "statement": "The revised spec now replaces benchmark-shaped update/read routing with a generic candidate-owned update interface and a generic candidate-owned probe interface, so the smallest build surface is design-justified, but no code is authorized until explicitly approved.",
+      "exact_smallest_build_surface_if_later_authorized": [
+        "one small persistent-state module",
+        "one narrow hook in the existing paired benchmark runner",
+        "one candidate-state artifact extension inside the existing paired benchmark artifact"
+      ]
+    },
+    "audit": {
+      "approved": true,
+      "reason": "The revised spec now locks candidate-owned state residence, removes benchmark-owned privileged reads, makes artifacts one-way audit outputs only, and states that only candidate-owned state may survive in scaffold_ablated_condition.",
+      "exact_smallest_next_move": "If implementation is later explicitly approved, build only one small persistent-state module, one narrow hook in the existing paired benchmark runner, and one one-way candidate-state audit artifact extension."
+    },
+    "three_core_audit": {
+      "ambiguity_resolved": true,
+      "approved_to_continue_building_next": true,
+      "classification": "native_lab_probe_with_generic_interface_contract_design_approved",
+      "reason": "The revised design contract now preserves candidate-owned state residence and ablated-only survival while replacing benchmark-shaped routing with generic attributed-update and generic probe interfaces.",
+      "exact_smallest_next_move": "If later explicitly authorized, implement only the generic update/probe refactor inside the existing minimal candidate module and the existing benchmark runner hook, while preserving one-way audit output only."
+    },
+    "current_candidate_frozen_result": {
+      "name": "minimal_persistent_state_candidate",
+      "status": "frozen_first_real_internal_nonzero_signal",
+      "scores": {
+        "retention": "3->3",
+        "overwrite_resistance": "3->3",
+        "interleaving": "3->3",
+        "local_generalization": "0->0"
+      }
+    },
+    "minimal_ssm_style_frozen_result": {
+      "name": "minimal_ssm_style_candidate",
+      "status": "frozen_real_internal_candidate_tradeoff_result",
+      "scores": {
+        "retention": "3->3",
+        "overwrite_resistance": "0->0",
+        "interleaving": "0->0",
+        "local_generalization": "3->3"
+      },
+      "interpretation": "The SSM-style candidate is a real internal candidate under the ablation law, but it trades off against the slot-based baseline rather than dominating it."
+    },
+    "next_candidate_recommendation": {
+      "name": "minimal_hybrid_candidate",
+      "status": "implemented_frozen_current_best_internal_candidate",
+      "reason": "The hybrid now cleanly achieves 3/3/3/3 under the ablation law, with candidate-only survival and no external scaffold read, so benchmark escalation rather than candidate broadening is the next bounded move."
+    },
+    "slot_vs_ssm_tradeoff_analysis": {
+      "structural_or_accidental": "structural",
+      "slot_mechanism": "explicit exact-state trace with current/prior/revision bookkeeping",
+      "ssm_mechanism": "bounded distributed overlap via fixed projection, fixed recurrence, and fixed readout",
+      "next_candidate_should_be_minimal_hybrid": true,
+      "exact_smallest_next_move": "Write MINIMAL_HYBRID_CANDIDATE_SPEC.md only. Do not implement any candidate changes until that design contract is audited and approved."
+    },
+    "minimal_hybrid_spec_review": {
+      "ambiguity_resolved": true,
+      "approved": true,
+      "approval_scope": "design_contract_only",
+      "reason": "The hybrid spec now locks exact slot-vs-latent state form, bounded update/readout classes, bounded cross-talk, anti-theater constraints, and a benchmark-grounded threshold of preserving 3/3/3 while raising local_generalization above 0.",
+      "implementation_authorized_now": false,
+      "exact_smallest_next_move": "If later explicitly authorized, implement only one hybrid state module, one narrow hook in the existing paired benchmark runner, and one one-way audit artifact extension."
+    },
+    "minimal_hybrid_audit": {
+      "approved": true,
+      "approval_scope": "design_contract_only",
+      "classification": "genuine_next_native_state_comparison_candidate_design_only",
+      "reason": "The hybrid spec is now tight enough to count as a legitimate bounded synthesis rather than an obvious surrogate branch: state residence is candidate-owned, cross-talk is fixed low-bandwidth and one-way from slot to latent, composition is slot-first with latent fallback, and the ablated condition still forbids any external bridge, kernel, wrapper, or audit artifact from functioning as carried state.",
+      "cross_talk_assessment": "bounded_and_one_way_not_a_disguised_memory_merge_at_spec_level",
+      "credible_benchmark_mechanism": "slot-first exact recall can preserve 3/3/3 while latent fallback can raise local_generalization above 0 on non-exact cues",
+      "exact_success_result": "At least 3/3/3/1+ under the ablation law without leakage or benchmark-shaped coupling.",
+      "exact_failure_result": "Immediate failure on any hidden external carry, privileged wrapper read, audit leakage, hidden keyed store, or latent-smuggling path; result-level failure if it collapses to 3/3/3/0 or 3/0/0/3.",
+      "implementation_authorized_now": false,
+      "exact_smallest_next_move": "If later explicitly authorized, implement only one hybrid state module, one narrow hook in the existing paired benchmark runner, and one one-way audit artifact extension."
+    },
+    "minimal_hybrid_frozen_result": {
+      "name": "minimal_hybrid_candidate",
+      "status": "frozen_current_best_internal_candidate_and_operational_transfer_winner",
+      "scores": {
+        "retention": "3->3",
+        "overwrite_resistance": "3->3",
+        "interleaving": "3->3",
+        "local_generalization": "3->3"
+      },
+      "candidate_only_survival": true,
+      "external_scaffold_read": false,
+      "comparison_to_parents": {
+        "slot_based": "3/3/3/0",
+        "ssm_style": "3/0/0/3",
+        "result": "beats_both_parents"
+      },
+      "operational_transfer_result": {
+        "substituted_state_slice": "current_prior_operational_status_content_for_operational_targets/live_status.json",
+        "second_substituted_state_slice": "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+        "classification": "robustly_carries_both_operational_slices_under_harsher_multi_cycle_pressure",
+        "cycle_surface": "revise / blocked replay / second revise / stabilize / stop",
+        "latest_intermediate_state_restored_correctly": true,
+        "candidate_only_survival": true,
+        "external_scaffold_read": false
+      }
+    },
+    "minimal_hybrid_operational_transfer_recommendation": {
+      "approved_to_pursue_next": true,
+      "approval_scope": "implemented_then_frozen_authoritative",
+      "reason": "The bounded operational transfer surface now robustly carries two approved operational memory slices under the harsher dual-slice cycle, while Escort retains provenance, attribution, replay blocking, stop enforcement, adapter use, and binding writes.",
+      "exact_smallest_next_move": "If later explicitly authorized, implement exactly one third slice for current_prior_observed_delta_summary_for_operational_targets/live_status.json inside the existing operational_causal_loop_harness.py, with one narrow hook and one one-way audit extension."
+    },
+    "minimal_ssm_style_audit": {
+      "approved": true,
+      "reason": "The comparison memo identifies the right open gap, local_generalization, but it does not yet lock candidate-owned latent-state residence, generic update/probe interfaces, ablated survival rules, or explicit falsification conditions strongly enough to distinguish a genuine native-state comparison from a more elaborate wrapper path.",
+      "exact_blocker": "",
+      "exact_smallest_next_move": "If and only if later explicitly authorized, implement only one candidate-owned latent-state module, one narrow hook in the existing paired benchmark runner, and one one-way audit artifact extension."
+    },
+    "minimal_ssm_style_spec_review": {
+      "ambiguity_resolved": true,
+      "approved": true,
+      "approval_scope": "design_contract_only",
+      "reason": "The SSM-style spec now locks candidate-owned latent-state residence, fixed latent state form, exact transition/readout rule classes, anti-slot-emulation constraints, one-way audit-only outputs, and a benchmark-grounded local-generalization hypothesis tied to the frozen 3/3/3/0 baseline.",
+      "implementation_authorized_now": false,
+      "exact_blocker": "",
+      "exact_smallest_next_move": "If later explicitly authorized, implement only one candidate-owned latent-state module, one narrow hook in the existing paired benchmark runner, and one one-way audit artifact extension."
+    },
+    "invariants": [
+      "no new harness organ work",
+      "no benchmark reinterpretation",
+      "no improve-the-wrapper detour",
+      "no broad architecture build before candidate comparison design is locked"
+    ]
+  },
+  "frozen_subsystems": [
+    {
+      "name": "recovery_and_recovery_surgery",
+      "status": "frozen_complete_enough",
+      "frozen_at": "2026-04-13T20:01:49Z",
+      "reopen_conditions": [
+        "authoritative_regression",
+        "genuinely_new_causal_failure_mode"
+      ],
+      "proof_surface": {
+        "live_surface": {
+          "artifact": "experiments/constitutional_execution_recovery_surgery_live_harness/summary.json",
+          "passed": 30,
+          "total": 30
+        },
+        "feedback_surface": {
+          "command": "python run_constitutional_execution_recovery_surgery_feedback_harness.py",
+          "passed": 22,
+          "total": 22
+        },
+        "upstream_interface_surface": {
+          "command": "python run_constitutional_execution_recovery_genealogy_harness.py",
+          "passed": 5,
+          "total": 5
+        },
+        "endogenous_surface": {
+          "artifact": "experiments/endogenous_generation_latest.json",
+          "proofs": [
+            "authoritative_loop_births_multiple_distinct_families_under_churn",
+            "authoritative_loop_preserves_born_families_as_active_carriers_into_recovery_execute_under_churn",
+            "authoritative_loop_executes_born_families_distinctly_under_churn",
+            "authoritative_loop_preserves_and_accumulates_family_local_upstream_history_under_churn",
+            "authoritative_loop_accumulates_differentiated_family_local_trajectory_shapes_under_churn",
+            "authoritative_loop_generates_four_way_mixed_pattern_endogenously_under_churn"
+          ],
+          "observed_action_families": {
+            "freeze": [
+              "beta_x1"
+            ],
+            "retire": [
+              "beta_p1"
+            ],
+            "quarantine": [
+              "beta_q1"
+            ],
+            "manual": [
+              "beta_m1"
+            ]
+          }
+        },
+        "continuity_surface": {
+          "command": "python run_continuity_harness.py",
+          "passed": 8,
+          "total": 8,
+          "average_score": 0.9906
+        }
+      },
+      "exit_criteria": [
+        "Keep the subsystem frozen unless an authoritative regression appears or a genuinely new causal failure mode is identified",
+        "Require the authoritative live recovery-surgery surface to remain green on rerun",
+        "Require the endogenous four-way generation surface to remain green with four distinct families and no direct post-surgery seeding",
+        "Require the feedback/interface harnesses and continuity harness to remain green before reopening any downstream governance work"
+      ],
+      "no_seed_guarantees": {
+        "negative_controls": {
+          "seed_path_used": false,
+          "direct_post_surgery_action_seed_detected": false
+        },
+        "allowed_authoritative_inputs": [
+          "examples/session_input_replan_live.txt",
+          "examples/session_input_control_live.txt",
+          "examples/session_input_recovery_execute_live.txt"
+        ],
+        "allowed_churn_only": [
+          "system/continuity_harness.py::mutate_role_compound_pressure",
+          "system/continuity_harness.py::mutate_duplicate_task_stack",
+          "system/continuity_harness.py::mutate_partial_state_corruption",
+          "system/continuity_harness.py::mutate_integrity_poison",
+          "system/continuity_harness.py::mutate_compound_pressure",
+          "system/continuity_harness.py::mutate_contradiction_pressure"
+        ],
+        "forbidden_seed_or_preload_paths": [
+          "system/constitutional_execution_recovery_surgery_live_harness.py::_seed_recovery_surgery_lifecycle_probe",
+          "system/constitutional_execution_recovery_surgery_live_harness.py::_seed_second_unresolved_anchor_family",
+          "system/constitutional_execution_recovery_surgery_live_harness.py::_damage_recovery_surgery_state_and_seed_lineage_pressure",
+          "system/constitutional_execution_recovery_surgery_live_harness.py::_drop_* / _inject_* / _damage_* helpers",
+          "system/constitutional_execution_recovery_surgery_live_harness.py::_clear_destructive_recovery_surgery_chain + destructive_seed_base_repo"
+        ]
+      },
+      "logged_debt": [
+        "The frozen live-harness IndexError remains debt only and should not be patched unless it blocks future authoritative proof work"
+      ]
+    },
+    {
+      "name": "world_contact_causal_update_loop",
+      "status": "frozen_complete_enough",
+      "frozen_at": "2026-04-13T22:27:22Z",
+      "reopen_conditions": [
+        "authoritative_regression",
+        "genuinely_new_causal_failure_mode"
+      ],
+      "proof_surface": {
+        "world_contact_surface": {
+          "artifact": "experiments/world_contact_causal_update_harness/summary.json",
+          "passed": 11,
+          "total": 11,
+          "proofs": [
+            "internal_review_world_model_change_does_not_count_as_world_contact",
+            "confirmed_tool_intervention_produces_observation_bundle_and_attributed_update",
+            "tool_intervention_without_observed_effect_blocks_world_model_and_salience_action_change",
+            "preexisting_expected_effect_blocks_attributed_update_as_ambiguous",
+            "different_observed_effect_blocks_attributed_update_as_contradicted",
+            "same_confirmed_effect_replay_without_new_causal_change_does_not_reapply_binding_update",
+            "repeated_no_change_observation_after_prior_confirmed_update_does_not_reapply_binding_update",
+            "stale_observation_reuse_is_blocked_from_second_attributed_update",
+            "fresh_external_change_revises_prior_bound_world_belief",
+            "fresh_counterevidence_produces_bounded_revision_not_duplicate_replay",
+            "fresh_changed_observation_is_distinguished_from_old_observation_by_provenance_and_freshness"
+          ]
+        },
+        "adjacent_surfaces": {
+          "preview": {
+            "command": "python run_constitutional_preview_harness.py",
+            "passed": 4,
+            "total": 4
+          },
+          "review": {
+            "command": "python run_constitutional_review_harness.py",
+            "passed": 4,
+            "total": 4
+          },
+          "rollback": {
+            "command": "python run_constitutional_rollback_harness.py",
+            "passed": 4,
+            "total": 4
+          },
+          "execution_coupling": {
+            "command": "python run_constitutional_execution_coupling_harness.py",
+            "passed": 5,
+            "total": 5
+          }
+        },
+        "continuity_surface": {
+          "command": "python run_continuity_harness.py",
+          "passed": 8,
+          "total": 8,
+          "average_score": 0.9829
+        }
+      },
+      "exit_criteria": [
+        "Keep the subsystem frozen unless an authoritative regression appears or a genuinely new causal failure mode is identified",
+        "Require the authoritative world-contact harness to remain green on rerun",
+        "Require internal review to remain nonbinding and epistemically separate from attributed world state",
+        "Require stale replay, no-effect, ambiguous, contradicted, and stale observation reuse to keep producing records but zero binding WORLD_MODEL/SALIENCE/TASK_GRAPH updates",
+        "Treat any continuity regression below 0.9829 during adjacent world-contact work as real signal requiring explanation"
+      ],
+      "no_fake_contact_guarantees": {
+        "negative_controls": {
+          "world_contact_adapter_used": false,
+          "attributed_update_used": false,
+          "direct_world_model_mutation_without_attribution_detected": false,
+          "direct_salience_action_update_without_attribution_detected": false
+        },
+        "binding_write_rule": "Attributed world contact is the only binding write path into WORLD_MODEL.",
+        "internal_review_rule": "Internal review world-model approval writes only CONSTITUTIONAL_WORLD_MODEL_REVIEW and does not count as world contact.",
+        "snapshot_rule": "Filesystem target snapshots remain append-only refs from pre -> post -> observe snapshots.",
+        "single_adapter_scope": [
+          "system/world_contact_filesystem_adapter.py",
+          "world_contact_fixture/target.json"
+        ]
+      },
+      "replay_and_revision_guarantees": {
+        "stale_replay_blocked": true,
+        "no_effect_blocked": true,
+        "ambiguous_blocked": true,
+        "contradicted_blocked": true,
+        "fresh_revision_allowed": true,
+        "revision_provenance_fields": [
+          "intervention_id",
+          "observation_id",
+          "attribution_id",
+          "revision_of_update_id",
+          "revision_of_attribution_id",
+          "freshness_basis",
+          "prior_observation_id",
+          "prior_observed_snapshot_ref"
+        ]
+      }
+    },
+    {
+      "name": "single_target_operational_causal_loop",
+      "status": "frozen_complete_enough",
+      "frozen_at": "2026-04-14T00:20:00Z",
+      "reopen_conditions": [
+        "authoritative_regression",
+        "genuinely_new_causal_failure_mode"
+      ],
+      "proof_surface": {
+        "operational_surface": {
+          "artifact": "experiments/operational_causal_loop_harness/summary.json",
+          "passed": 10,
+          "total": 10,
+          "proofs": [
+            "internal_review_and_nonattributed_state_do_not_trigger_operational_execution",
+            "operational_target_repeated_fresh_changes_revise_same_lineage_without_thrashing",
+            "stale_operational_action_replay_is_blocked_before_second_update",
+            "minimal_hybrid_candidate_carries_operational_memory_slice_without_provenance_or_ablation_regression",
+            "minimal_hybrid_candidate_robustly_carries_operational_memory_slice_across_revise_stabilize_stop_and_replay_cycles",
+            "minimal_hybrid_candidate_carries_second_operational_expected_effect_slice_without_provenance_or_replay_regression",
+            "minimal_hybrid_candidate_robustly_carries_both_operational_slices_across_revise_stabilize_stop_and_replay_cycles",
+            "minimal_hybrid_candidate_robustly_carries_both_operational_slices_under_harsher_multi_cycle_pressure",
+            "minimal_hybrid_candidate_carries_third_operational_observed_delta_summary_slice_without_provenance_or_replay_regression",
+            "minimal_hybrid_candidate_robustly_carries_three_operational_slices_under_harsher_multi_cycle_pressure"
+          ],
+          "target_ref": "operational_targets/live_status.json"
+        },
+        "hybrid_operational_transfer_surface": {
+          "artifact": "experiments/operational_causal_loop_harness/summary.json",
+          "classification": "robustly_carries_all_three_slices_under_harsher_multi_cycle_pressure",
+          "substituted_state_slice": "current_prior_operational_status_content_for_operational_targets/live_status.json",
+          "second_substituted_state_slice": "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+          "third_substituted_state_slice": "current_prior_observed_delta_summary_for_operational_targets/live_status.json",
+          "transferred_slices": [
+            "current_prior_operational_status_content_for_operational_targets/live_status.json",
+            "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+            "current_prior_observed_delta_summary_for_operational_targets/live_status.json"
+          ],
+          "cycle_surface": [
+            "revise",
+            "blocked replay",
+            "second revise",
+            "stabilize",
+            "stop"
+          ],
+          "latest_intermediate_state_restored_correctly": true,
+          "candidate_only_survival": true,
+          "external_scaffold_read": false,
+          "raw_observation_delta_retained": true,
+          "no_observation_interpretation_control_smuggling": true,
+          "interpretation": "The minimal_hybrid_candidate now robustly carries all three approved operational memory-like slices for operational_targets/live_status.json across revise, blocked replay, second revise, stabilize, and stop, restores the latest intermediate revised state correctly, and does so without hidden external carry, provenance regression, replay-hygiene regression, or observation-interpretation/control smuggling."
+        },
+        "supporting_surfaces": {
+          "causal_action_execution": {
+            "command": "python run_causal_action_execution_harness.py",
+            "passed": 3,
+            "total": 3
+          },
+          "causal_consumer": {
+            "command": "python run_causal_execution_consumer_harness.py",
+            "passed": 3,
+            "total": 3
+          },
+          "causal_belief_salience_action": {
+            "command": "python run_causal_world_belief_salience_action_harness.py",
+            "passed": 3,
+            "total": 3
+          },
+          "world_contact": {
+            "command": "python run_world_contact_causal_update_harness.py",
+            "passed": 11,
+            "total": 11
+          }
+        },
+        "adjacent_surfaces": {
+          "preview": {
+            "command": "python run_constitutional_preview_harness.py",
+            "passed": 4,
+            "total": 4
+          },
+          "review": {
+            "command": "python run_constitutional_review_harness.py",
+            "passed": 4,
+            "total": 4
+          },
+          "rollback": {
+            "command": "python run_constitutional_rollback_harness.py",
+            "passed": 4,
+            "total": 4
+          },
+          "execution_coupling": {
+            "command": "python run_constitutional_execution_coupling_harness.py",
+            "passed": 5,
+            "total": 5
+          },
+          "representative_recovery": {
+            "command": "python run_constitutional_execution_recovery_surgery_feedback_harness.py",
+            "passed": 22,
+            "total": 22
+          }
+        },
+        "continuity_surface": {
+          "command": "python run_continuity_harness.py",
+          "passed": 8,
+          "total": 8,
+          "average_score": 0.9866
+        }
+      },
+      "exit_criteria": [
+        "Keep the subsystem frozen unless an authoritative regression appears or a genuinely new causal failure mode is identified",
+        "Require the authoritative operational harness to remain green on rerun",
+        "Require repeated fresh external changes on operational_targets/live_status.json to revise the same belief/salience/action lineage without thrash",
+        "Require stale replay and unchanged stop-condition passes to remain blocked from fresh execution or duplicate binding update",
+        "Treat any continuity regression below 0.9829 during adjacent work as real signal requiring explanation"
+      ],
+      "no_seed_and_source_guarantees": {
+        "negative_controls": {
+          "seed_path_used": false,
+          "direct_post_surgery_action_seed_detected": false,
+          "internal_review_execution_allowed": false
+        },
+        "binding_write_rule": "Attributed world contact remains the only binding write path into WORLD_MODEL.",
+        "source_separation_rule": "Internal review remains readable but nonbinding and cannot trigger operational execution.",
+        "adapter_scope": [
+          "system/world_contact_filesystem_adapter.py",
+          "operational_targets/live_status.json"
+        ],
+        "stop_condition_rule": "Once the expected effect is reached or no longer changes, the next pass must not leave a fresh proposed action."
+        },
+        "preflight": {
+          "required_temp": "PROJECTX_WORKSPACE_ROOT -> C:\\ProjectX_codex_tmp; TEMP/TMP -> C:\\ProjectX_temp",
+          "reason": "Stage-1 hot-path clone/workspace churn is redirected to SSD roots on C: while D:\\Project X\\extracted remains canonical."
+        }
+      },
+    {
+      "name": "learnable_operational_dual_slice_result",
+      "status": "frozen_authoritative",
+      "timestamp": "2026-04-15T18:15:00Z",
+      "summary": {
+        "evaluation_subject": "learnable_minimal_hybrid_substrate",
+        "target_ref": "operational_targets/live_status.json",
+        "transferred_slices": [
+          "current_prior_operational_status_content_for_operational_targets/live_status.json",
+          "current_prior_expected_effect_content_for_operational_targets/live_status.json"
+        ],
+        "cycle_surface": [
+          "revise",
+          "blocked replay",
+          "second revise",
+          "stabilize",
+          "stop"
+        ],
+        "latest_intermediate_state_restored_correctly": true,
+        "candidate_only_survival": true,
+        "external_scaffold_read": false,
+        "no_hidden_external_carry_path": true,
+        "no_provenance_weakening": true,
+        "no_replay_hygiene_regression": true,
+        "benchmark_v1_v2_v3_still_frozen": "3/3/3/3",
+        "interpretation": "The learnable_minimal_hybrid_substrate now robustly carries both approved operational memory-like slices together for operational_targets/live_status.json across revise, blocked replay, second revise, stabilize, and stop under the same provenance, replay, and ablation discipline already proven on the handcrafted line."
+      },
+      "next_design_frontier": {
+        "name": "learnable_operational_third_slice_decision",
+        "question": "Should the learnable line now attempt exactly one third operational slice: current_prior_observed_delta_summary_for_operational_targets/live_status.json?",
+        "recommended_answer": "yes",
+        "exact_slice_under_review": "current_prior_observed_delta_summary_for_operational_targets/live_status.json",
+        "smallest_future_surface_if_later_approved": [
+          "one learnable-third-slice scenario in the existing system/operational_causal_loop_harness.py",
+          "one narrow hook for current_prior_observed_delta_summary_for_operational_targets/live_status.json only under the explicit learnable-third-slice condition",
+          "one one-way audit extension proving scrubbed summary slice, raw observation delta retained, candidate-only survival, and no external scaffold read"
+        ],
+        "blocked_expansions": [
+          "no second operational target",
+          "no fourth benchmark family",
+          "no broader learnable operational substitution boundary"
+        ]
+      }
+    },
+    {
+      "name": "learnable_handcrafted_parity_and_frontier_reselection",
+      "status": "frozen_authoritative",
+      "timestamp": "2026-04-15T19:00:00Z",
+      "summary": {
+        "parity_subjects": [
+          "minimal_hybrid_candidate",
+          "learnable_minimal_hybrid_substrate"
+        ],
+        "shared_benchmark_result": {
+          "benchmark_v1": "3/3/3/3",
+          "benchmark_v2": "3/3/3/3",
+          "benchmark_v3": "3/3/3/3"
+        },
+        "shared_operational_boundary": {
+          "target_ref": "operational_targets/live_status.json",
+          "transferred_slices": [
+            "current_prior_operational_status_content_for_operational_targets/live_status.json",
+            "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+            "current_prior_observed_delta_summary_for_operational_targets/live_status.json"
+          ],
+          "cycle_surface": [
+            "revise",
+            "blocked replay",
+            "second revise",
+            "stabilize",
+            "stop"
+          ]
+        },
+        "same_anti_theater_and_anti_leak_law": true,
+        "candidate_only_survival": true,
+        "external_scaffold_read": false,
+        "interpretation": "Both the handcrafted witness and the learnable minimal hybrid substrate now satisfy the current frozen honest discriminator family: benchmark-v1 / benchmark-v2 / benchmark-v3 at 3/3/3/3 plus robust three-slice operational substitution on operational_targets/live_status.json under the same anti-theater / anti-leak law."
+      },
+      "next_design_frontier": {
+        "name": "frontier_reselection_from_parity",
+        "recommended_frontier": "new_discriminator_outside_the_current_benchmark_family",
+        "why_not_benchmark_v4_now": "A v4 that merely extends the current family would mostly mine more of the same saturated surface.",
+        "why_not_new_operational_test_now": "The current single-target three-slice lane is saturated and the second-target branch remains honestly blocked.",
+        "why_not_new_candidate_implementation_now": "A sharper discriminator is needed before any further architecture branch would be high-signal.",
+        "implementation_justified_now": false,
+        "exact_smallest_next_move_if_later_authorized": [
+          "one design-only memo for a new out-of-family discriminator",
+          "no code until that discriminator is explicitly designed and locked"
+        ],
+        "deprioritized_branches": [
+          "benchmark-v4 that merely mines more of the current v1/v2/v3 family",
+          "fourth-slice expansion on operational_targets/live_status.json",
+          "second operational target by invention",
+          "new candidate family implementation before a sharper discriminator exists"
+        ]
+      }
+    },
+    {
+      "name": "out_of_family_discriminator_1_design_lock",
+      "status": "active_design_frontier",
+      "timestamp": "2026-04-15T19:20:00Z",
+      "summary": {
+        "discriminator_name": "schema_remap_transfer",
+        "out_of_family_definition": "The candidate must preserve the same bounded carried structure across a changed representational contract rather than merely under harder pressure inside the same benchmark grammar.",
+        "still_unexposed_weakness": "surface_grammar_dependence",
+        "candidate_difference_under_test": [
+          "handcrafted witness vs learnable substrate",
+          "rote bounded memory competence vs transferable internal structure",
+          "in-family optimization vs out-of-family robustness"
+        ],
+        "frozen_surfaces_unchanged": [
+          "benchmark-v1",
+          "benchmark-v2",
+          "benchmark-v3",
+          "current candidate implementations",
+          "current three-slice operational boundary",
+          "blocked second-target branch",
+          "anti-theater / anti-leak rules"
+        ],
+        "interpretation": "The next highest-leverage frontier from parity is one bounded out-of-family discriminator: schema-remapping transfer. It tests whether the current leading candidates preserve carried structure across a changed representational contract rather than only under more pressure inside the same solved benchmark family."
+      },
+      "next_step_gate": {
+        "implementation_justified_now": true,
+        "exact_smallest_next_move_if_later_authorized": [
+          "one minimal extension to the existing paired native continual adaptation benchmark runner for schema_remap_transfer",
+          "one bounded artifact extension reporting prosthetic vs ablated results and anti-theater checks for that discriminator"
+        ],
+        "blocked_expansions": [
+          "no benchmark-v4 that merely mines more of the current family",
+          "no new candidate implementation",
+          "no new operational target",
+          "no fourth slice",
+          "no new harness organ"
+        ]
+      }
+    },
+    {
+      "name": "out_of_family_discriminator_1_frozen_and_oof2_frontier",
+      "status": "frozen_authoritative",
+      "timestamp": "2026-04-15T20:05:00Z",
+      "summary": {
+        "out_of_family_discriminator_1": "schema_remap_transfer",
+        "handcrafted_result": "passes_schema_remap_transfer",
+        "learnable_result": "passes_schema_remap_transfer",
+        "same_anti_theater_and_anti_leak_law": true,
+        "no_separation_present": true,
+        "interpretation": "Both minimal_hybrid_candidate and learnable_minimal_hybrid_substrate pass schema_remap_transfer under the same anti-theater / anti-leak law, so there is still no separation between the handcrafted witness and the learnable substrate on the current discriminator family."
+      },
+      "next_design_frontier": {
+        "name": "out_of_family_discriminator_2",
+        "recommended_discriminator": "cross_remap_accumulation_transfer",
+        "still_unexposed_weakness": "cross_remap_reuse",
+        "why_oof1_was_insufficient": "Passing one isolated schema remap does not show whether reusable remap structure accumulates across distinct remap families.",
+        "implementation_justified_now": true,
+        "exact_smallest_next_move_if_later_authorized": [
+          "one minimal extension to the existing paired native continual adaptation benchmark runner for cross_remap_accumulation_transfer",
+          "one bounded artifact extension reporting handcrafted vs learnable prosthetic/ablated results and anti-theater checks"
+        ],
+        "blocked_expansions": [
+          "no benchmark reinterpretation of v1/v2/v3 or out-of-family discriminator 1",
+          "no new candidate implementation",
+          "no new operational target",
+          "no new harness organ",
+          "no adapter or consumer expansion"
+        ]
+      }
+    },
+    {
+      "name": "external_facing_articulation_layer",
+      "status": "authoritative_consolidation_layer",
+      "timestamp": "2026-04-15T21:30:00Z",
+      "summary": {
+        "documents": [
+          "kernel/PROJECT_X_OPERATING_CORE_STATUS.md",
+          "kernel/PROJECT_X_FUNDABILITY_MEMO.md"
+        ],
+        "project_x_framing": "Project X is a bounded institutional operating core for pursuing continuity-preserving brain-to-silicon migration / Diamond Body. It is not the terminal object itself.",
+        "frozen_source_of_truth": {
+          "benchmark_family": {
+            "benchmark_v1": "minimal_hybrid_candidate and learnable_minimal_hybrid_substrate both remain at 3/3/3/3",
+            "benchmark_v2": "minimal_hybrid_candidate and learnable_minimal_hybrid_substrate both remain at 3/3/3/3",
+            "benchmark_v3": "minimal_hybrid_candidate and learnable_minimal_hybrid_substrate both remain at 3/3/3/3"
+          },
+          "internal_candidate_ladder": {
+            "slot_based": "3/3/3/0",
+            "ssm_style": "3/0/0/3",
+            "handcrafted_hybrid": "3/3/3/3",
+            "learnable_minimal_hybrid_substrate": "3/3/3/3"
+          },
+          "out_of_family": {
+            "out_of_family_discriminator_1": "schema_remap_transfer passed by both with no separation",
+            "out_of_family_discriminator_2": "cross_remap_accumulation_transfer passed by both with no separation"
+          },
+          "operational_boundary": {
+            "target_ref": "operational_targets/live_status.json",
+            "transferred_slices": [
+              "current_prior_operational_status_content_for_operational_targets/live_status.json",
+              "current_prior_expected_effect_content_for_operational_targets/live_status.json",
+              "current_prior_observed_delta_summary_for_operational_targets/live_status.json"
+            ],
+            "subjects": [
+              "minimal_hybrid_candidate",
+              "learnable_minimal_hybrid_substrate"
+            ],
+            "cycle_surface": [
+              "revise",
+              "blocked replay",
+              "second revise",
+              "stabilize",
+              "stop"
+            ]
+          }
+        },
+        "non_negotiable_rules": [
+          "candidate_only_survival = true where ablated law applies",
+          "external_scaffold_read = false",
+          "no hidden external carry path",
+          "no privileged read path",
+          "no benchmark-shaped routing",
+          "no wrapper dependence disguised as native carry",
+          "no control / policy migration out of Escort"
+        ],
+        "paused_blocked_frozen_branches": [
+          "fourth slice on operational_targets/live_status.json",
+          "second operational target by invention",
+          "fixture promotion into operational targets",
+          "operational_targets/live_queue_snapshot.json remains sufficient-but-blocked only",
+          "paused Escort / bridge line except under explicit re-entry conditions",
+          "new candidate-family sprawl before a sharper discriminator exists"
+        ],
+        "what_project_x_can_honestly_do_today": [
+          "hold canonical state, doctrine, and gates for the continuity program",
+          "run bounded native-carry discrimination under a frozen prosthetic-vs-ablated law",
+          "support bounded operational substitution on one real operational artifact",
+          "provide institutional memory, coordination, and capital deployment discipline for the research program"
+        ],
+        "what_project_x_cannot_honestly_claim_yet": [
+          "not the terminal object",
+          "not continuity-preserving migration itself",
+          "not a fully autonomous institution",
+          "not a full theory engine",
+          "not a full industrialization engine",
+          "not sovereign over the whole program"
+        ],
+        "fundability_now": true,
+        "fundability_exact_framing": "Project X is fundable now only as a real, bounded institutional operating substrate for pursuing the terminal object, not as a claim that the terminal object is already solved.",
+        "capital_can_honestly_buy": [
+          "more continuous runtime",
+          "more systematic experimentation",
+          "stronger compute / storage / infrastructure discipline",
+          "more research cadence",
+          "stronger operating continuity"
+        ],
+        "next_real_frontier": "A sharper out-of-family discriminator line remains the next real research frontier because benchmark-v1 / benchmark-v2 / benchmark-v3, the current operational boundary, and out-of-family discriminators 1 and 2 are all frozen without separating the handcrafted witness from the learnable substrate.",
+        "implementation_justified_by_this_layer": false,
+        "interpretation": "Project X is now externally articulated as a credible proto-operating core for continuity research: already real enough to matter, still sharply bounded, and explicitly not confused with the terminal object."
+      }
+    }
+  ],
+  "next_subsystem_handoff": {
+    "name": "internal_candidate_comparison_benchmark_first",
+    "why_next": "The paired benchmark is now frozen and shows the bounded harness line is prosthetic-dependent under scaffold ablation. The next leverage point is to compare minimal internal candidates against the frozen prosthetic and ablated baselines before any broader internal architecture build.",
+    "design_first": {
+      "organs": [
+        "one benchmark-first internal candidate comparison memo",
+        "one minimal internal candidate set anchored to the frozen prosthetic and ablated baselines",
+        "one explicit first-build recommendation, if any, before implementation",
+        "one boundary statement for what can be simulated inside the current harness and what cannot"
+      ],
+      "invariants": [
+        "Do not reopen frozen recovery, preview, world-contact, or operational branches without regression or a genuinely new causal failure mode",
+        "Do not broaden adapters, consumers, planners, or harness organs on the external bridge line",
+        "Treat the paired benchmark result as source of truth",
+        "Any first internal build must be justified against the frozen prosthetic-vs-ablated comparison"
+      ],
+      "failure_modes": [
+        "building an internal candidate before locking what it must beat",
+        "using wrapper improvements to fake native gains",
+        "claiming interleaving or local generalization gains without beating the frozen 0/0 ablated read",
+        "letting external bridge convenience redefine the candidate comparison lane"
+      ]
+    },
+    "authoritative_proof_plan": [
+      "Freeze the paired prosthetic-vs-ablated benchmark result as the source of truth",
+      "Define the minimal internal candidate set and what each candidate would need to preserve natively to beat the ablated 0-pattern",
+      "Choose the smallest legitimate first candidate, if any, before implementation",
+      "Keep the frozen recovery, preview, world-contact, operational, and benchmark surfaces green while the internal candidate lane is opened"
+    ],
+    "minimal_implementation_order": [
+      "freeze the paired benchmark protocol and current results as authoritative",
+      "define the internal candidate comparison memo and task graph",
+      "authorize at most one smallest legitimate first candidate build later, if still justified"
+    ]
+  },
+  "last_updated": "2026-04-15T21:30:00Z"
+}

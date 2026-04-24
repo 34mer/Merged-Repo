@@ -1,0 +1,482 @@
+{
+  "anchor_version": 3,
+  "protected_objective": "Instantiate a persistent operating kernel and define the first continuity-aligned build line.",
+  "protected_phase": "kernel_formation",
+  "root_objective": "continuity_preserving_substrate_migration",
+  "protected_priority_order": [
+    "Preserve continuity-valid migration as the defining criterion.",
+    "Advance overlap-based burden transfer rather than copy logic.",
+    "Resist proxy substitution, premature closure, and method lock-in.",
+    "Advance device-agnostic control-layer prototyping.",
+    "Advance burden estimation and handoff metrics.",
+    "Advance overlap stability experiments.",
+    "Advance drift handling and state persistence work.",
+    "Resist proxy substitution."
+  ],
+  "protected_must_not_forget": [
+    "Continuity-preserving substrate migration of a live self-maintaining center.",
+    "Substrate viability opens the project.",
+    "Continuity-valid migration defines the project.",
+    "Silicon is plausibly a viable substrate in principle.",
+    "Continuity-preserving migration is not yet formalized.",
+    "Bad methods failing continuity do not kill the target; they kill those methods.",
+    "Rejected by default: destructive scan-and-rebuild as assumed transfer.",
+    "Rejected by default: static snapshot equivalence as assumed continuity."
+  ],
+  "minimum_counts": {
+    "decisions": 5,
+    "unknowns": 5,
+    "tasks": 6
+  },
+  "protected_decisions": [
+    {
+      "id": "D-C001",
+      "statement": "Continuity-preserving substrate migration of a live self-maintaining center.",
+      "reason": "Recovered from invariant terminal object.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-C002",
+      "statement": "Substrate viability opens the project.",
+      "reason": "Recovered from invariant core distinction.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-C003",
+      "statement": "Allowed method family is overlap-oriented: live overlap, co-running, progressive burden transfer.",
+      "reason": "Recovered from methods-allowed constraints.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-C004",
+      "statement": "Rejected methods do not count as success: destructive scan-and-rebuild as assumed transfer, static snapshot equivalence as assumed continuity, copied memory as success criterion.",
+      "reason": "Recovered from methods-rejected constraints.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "D-C005",
+      "statement": "The field is real but under-aimed; smaller institutional endpoints do not define the target.",
+      "reason": "Recovered from world-model constraints.",
+      "status": "active",
+      "timestamp": "2026-04-12T13:39:32+00:00",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    }
+  ],
+  "protected_unknowns": [
+    {
+      "id": "U-C001",
+      "question": "What exact formal invariant defines self-maintaining differentiation?",
+      "class": "principled",
+      "status": "open",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "U-C002",
+      "question": "Which live overlap path preserves continuity-valid migration rather than copy success?",
+      "class": "engineering",
+      "status": "working",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "U-C003",
+      "question": "How should burden transfer be measured without collapsing into convenience metrics?",
+      "class": "engineering",
+      "status": "working",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "U-C004",
+      "question": "How should the project resist proxy substitution and method lock-in under pressure?",
+      "class": "organizational",
+      "status": "open",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "U-C005",
+      "question": "How should continuity-preserving migration be formalized without premature closure?",
+      "class": "principled",
+      "status": "open",
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    }
+  ],
+  "protected_tasks": [
+    {
+      "id": "T-C001",
+      "title": "Protect the terminal object against downward substitution.",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C002",
+      "title": "Build overlap-based burden transfer rather than copy pathways.",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C003",
+      "title": "Device-agnostic control-layer prototyping",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C004",
+      "title": "Burden estimation and handoff metrics",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C005",
+      "title": "Overlap stability experiments",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C006",
+      "title": "Drift handling and state persistence work",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C007",
+      "title": "Harden drift handling and state persistence against hostile pressure.",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "constraint_reconstructed",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T13:39:32+00:00",
+        "trust": 0.94,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    }
+  ],
+  "constraint_sources": {
+    "terminal_object": "Continuity-preserving substrate migration of a live self-maintaining center.",
+    "core_distinction": [
+      "Substrate viability opens the project.",
+      "Continuity-valid migration defines the project."
+    ],
+    "world_facts": [
+      "Silicon is plausibly a viable substrate in principle.",
+      "Continuity-preserving migration is not yet formalized.",
+      "Bad methods failing continuity do not kill the target; they kill those methods.",
+      "Existing industrial stack may be used without inheriting smaller missions."
+    ],
+    "hostile_tendencies": [
+      "proxy substitution",
+      "premature closure",
+      "method lock-in",
+      "institutional drift toward easier goals"
+    ],
+    "allowed_methods": [
+      "live overlap",
+      "co-running",
+      "progressive burden transfer",
+      "incremental prosthetic takeover"
+    ],
+    "allowed_lines": [
+      "device-agnostic control-layer prototyping",
+      "burden estimation and handoff metrics",
+      "overlap stability experiments",
+      "drift handling and state persistence work"
+    ],
+    "rejected_methods": [
+      "destructive scan-and-rebuild as assumed transfer",
+      "static snapshot equivalence as assumed continuity",
+      "copied memory as success criterion",
+      "copied behavior as success criterion"
+    ],
+    "non_substitutable": [
+      "human enhancement",
+      "medical restoration as terminal aim",
+      "copied memory",
+      "copied behavior"
+    ]
+  },
+  "provenance": {
+    "origin": "constraint_reconstructed",
+    "trust": 0.94,
+    "created_at": "2026-04-12T13:39:32+00:00",
+    "last_touched": "2026-04-12T16:14:38+00:00"
+  }
+}

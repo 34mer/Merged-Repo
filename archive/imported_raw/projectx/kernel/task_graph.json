@@ -1,0 +1,2635 @@
+{
+  "phase": "kernel_formation",
+  "root_objective": "continuity_preserving_substrate_migration",
+  "active_tasks": [
+    {
+      "id": "T-001",
+      "title": "Instantiate persistent kernel repository",
+      "status": "done",
+      "output": [
+        "repo structure",
+        "initial files",
+        "versioned state"
+      ],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T04:56:58+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-002",
+      "title": "Refine continuity doctrine",
+      "status": "active",
+      "output": [
+        "clear rejection rules",
+        "allowed method family",
+        "boundary cases"
+      ],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T04:56:58+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-003",
+      "title": "Define first burden-transfer metrics",
+      "status": "active",
+      "output": [
+        "provisional metric families",
+        "failure signatures",
+        "evaluation criteria"
+      ],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T04:56:58+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-004",
+      "title": "Design smallest continuity-aligned control layer",
+      "status": "active",
+      "output": [
+        "system diagram",
+        "interfaces",
+        "state model"
+      ],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T04:56:58+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-005",
+      "title": "Build v0 memory-burden experiment",
+      "status": "active",
+      "output": [
+        "kernel-backed memory controller",
+        "session protocol",
+        "metric instrumentation"
+      ],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T04:56:58+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-006",
+      "title": "Implement a first real state extractor.",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T04:56:58+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-007",
+      "title": "Add block parsing and structured unknown/task metadata.",
+      "status": "active",
+      "output": [],
+      "last_touched": "2026-04-12T03:14:00+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T04:56:58+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-008",
+      "title": "route report output into experiment artifacts automatically",
+      "status": "active",
+      "output": [],
+      "last_touched": "2026-04-12T03:14:00+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T04:56:58+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-009",
+      "title": "instantiate repo scaffold",
+      "status": "done",
+      "output": [],
+      "last_touched": "2026-04-12T03:14:00+00:00",
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T04:56:58+00:00",
+        "last_touched": "2026-04-12T13:39:00+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "invariant_default",
+          "anchor_restore",
+          "integrity_guard",
+          "legacy_untyped"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C001",
+      "title": "Protect the terminal object against downward substitution.",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C002",
+      "title": "Build overlap-based burden transfer rather than copy pathways.",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C003",
+      "title": "Device-agnostic control-layer prototyping",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C004",
+      "title": "Burden estimation and handoff metrics",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C005",
+      "title": "Overlap stability experiments",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C006",
+      "title": "Drift handling and state persistence work",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-C007",
+      "title": "Harden drift handling and state persistence against hostile pressure.",
+      "status": "active",
+      "output": [],
+      "provenance": {
+        "origin": "anchor_restore",
+        "created_at": "2026-04-12T13:39:32+00:00",
+        "last_touched": "2026-04-12T16:14:36+00:00",
+        "trust": 0.95,
+        "lineage": [
+          "constraint_reconstructed",
+          "constraint_reconstructor",
+          "anchor_restore",
+          "integrity_guard"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 1,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-010",
+      "title": "Test live run",
+      "status": "active",
+      "output": [],
+      "created_at": "2026-04-12T16:12:16+00:00",
+      "last_touched": "2026-04-12T16:12:16+00:00",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-12T16:12:16+00:00",
+        "last_touched": "2026-04-12T16:12:16+00:00",
+        "trust": 0.66,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-011",
+      "title": "Test",
+      "status": "active",
+      "output": [],
+      "created_at": "2026-04-12T16:12:58+00:00",
+      "last_touched": "2026-04-12T16:13:28+00:00",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-12T16:12:58+00:00",
+        "last_touched": "2026-04-12T16:13:28+00:00",
+        "trust": 0.66,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 2,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-12T16:14:38+00:00",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-012",
+      "title": "Freeze recovery / recovery-surgery governance and endogenous generation surface.",
+      "status": "done",
+      "output": [
+        "authoritative live recovery-surgery surface green",
+        "authoritative endogenous four-way generation green under no-seed controls",
+        "explicit subsystem freeze with exit criteria and debt log"
+      ],
+      "created_at": "2026-04-12T16:14:38+00:00",
+      "last_touched": "2026-04-13T20:01:49Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-12T16:14:38+00:00",
+        "last_touched": "2026-04-13T20:01:49Z",
+        "trust": 0.66,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T20:01:49Z",
+        "evolution_reason": "recovery_surgery_capstone_freeze",
+        "output_note": "recovery_surgery_capstone_freeze"
+      }
+    },
+    {
+      "id": "T-013",
+      "title": "Design the world-contact causal update loop.",
+      "status": "done",
+      "output": [
+        "intervention ledger schema",
+        "observation bundle schema",
+        "causal attribution stage boundary",
+        "single filesystem adapter scope"
+      ],
+      "created_at": "2026-04-13T20:01:49Z",
+      "last_touched": "2026-04-13T22:27:22Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T20:01:49Z",
+        "last_touched": "2026-04-13T22:27:22Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T22:27:22Z",
+        "evolution_reason": "world_contact_design_frozen"
+      }
+    },
+    {
+      "id": "T-014",
+      "title": "Define the authoritative proof lane for tool-mediated causal world-model and salience/action updates.",
+      "status": "done",
+      "output": [
+        "negative boundary for non-world-contact changes",
+        "authoritative proof cases for intervention, observation, attribution, blocked ambiguous/no-effect outcomes, replay blocking, and fresh revision"
+      ],
+      "created_at": "2026-04-13T20:01:49Z",
+      "last_touched": "2026-04-13T22:27:22Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T20:01:49Z",
+        "last_touched": "2026-04-13T22:27:22Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T22:27:22Z",
+        "evolution_reason": "world_contact_proof_surface_frozen"
+      }
+    },
+    {
+      "id": "T-015",
+      "title": "Implement the minimal world-contact observation bundle path after design and proof-plan lock.",
+      "status": "done",
+      "output": [
+        "minimal world-contact adapter",
+        "attributed world-model mutation path",
+        "salience/action followup path grounded in observed effect",
+        "negative, replay, and fresh-revision authoritative proof surface"
+      ],
+      "created_at": "2026-04-13T20:01:49Z",
+      "last_touched": "2026-04-13T22:27:22Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T20:01:49Z",
+        "last_touched": "2026-04-13T22:27:22Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T22:27:22Z",
+        "evolution_reason": "world_contact_loop_frozen"
+      }
+    },
+    {
+      "id": "T-016",
+      "title": "Freeze the world-contact causal update loop on the authoritative single-adapter surface.",
+      "status": "done",
+      "output": [
+        "world_contact_causal_update_harness 11/11",
+        "internal review remains nonbinding",
+        "replay and revision guarantees recorded in kernel"
+      ],
+      "created_at": "2026-04-13T22:27:22Z",
+      "last_touched": "2026-04-13T22:27:22Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T22:27:22Z",
+        "last_touched": "2026-04-13T22:27:22Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-13T22:27:22Z",
+        "evolution_reason": "world_contact_capstone_freeze"
+      }
+    },
+    {
+      "id": "T-017",
+      "title": "Design causal world-belief coupling on top of confirmed attributed world contact.",
+      "status": "done",
+      "output": [
+        "structured causal world-belief entry schema",
+        "epistemic source separation rule",
+        "revision lineage requirements",
+        "single-target operational target adoption surface"
+      ],
+      "created_at": "2026-04-13T22:27:22Z",
+      "last_touched": "2026-04-14T00:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T22:27:22Z",
+        "last_touched": "2026-04-14T00:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T00:20:00Z",
+        "evolution_reason": "causal_single_target_design_done"
+      }
+    },
+    {
+      "id": "T-018",
+      "title": "Define the authoritative proof lane for attributed causal world belief, salience reprioritization, and bounded next-action selection.",
+      "status": "done",
+      "output": [
+        "negative boundary for internal review masquerade",
+        "positive path for attributed belief -> salience -> bounded action",
+        "fresh counterevidence revision proof",
+        "single-target operational repeated-loop proof"
+      ],
+      "created_at": "2026-04-13T22:27:22Z",
+      "last_touched": "2026-04-14T00:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T22:27:22Z",
+        "last_touched": "2026-04-14T00:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T00:20:00Z",
+        "evolution_reason": "causal_single_target_proof_done"
+      }
+    },
+    {
+      "id": "T-019",
+      "title": "Implement the minimal causal world-belief / salience / bounded-next-action coupling path after design and proof-plan lock.",
+      "status": "done",
+      "output": [
+        "structured causal belief carrier",
+        "bounded salience derivation",
+        "bounded next-action selector",
+        "single-target execution lane and one-consumer adoption"
+      ],
+      "created_at": "2026-04-13T22:27:22Z",
+      "last_touched": "2026-04-14T00:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-13T22:27:22Z",
+        "last_touched": "2026-04-14T00:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T00:20:00Z",
+        "evolution_reason": "causal_single_target_implementation_done"
+      }
+    },
+    {
+      "id": "T-020",
+      "title": "Freeze the single-target operational causal loop on operational_targets/live_status.json.",
+      "status": "done",
+      "output": [
+        "operational_causal_loop_harness 3/3",
+        "repeated fresh revision and stop-condition proof recorded in kernel",
+        "TEMP/TMP -> D:\\Project X\\codex_tmp preflight recorded for clone-based harnesses"
+      ],
+      "created_at": "2026-04-14T00:20:00Z",
+      "last_touched": "2026-04-14T00:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T00:20:00Z",
+        "last_touched": "2026-04-14T00:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T00:20:00Z",
+        "evolution_reason": "operational_single_target_freeze"
+      }
+    },
+    {
+      "id": "T-021",
+      "title": "Design bounded multi-target prioritization / arbitration on top of the attributed causal lane.",
+      "status": "pending",
+      "output": [
+        "multi-target arbitration candidate schema",
+        "selected/deferred/no_action outcome model",
+        "queue lineage and source separation rules"
+      ],
+      "created_at": "2026-04-14T00:20:00Z",
+      "last_touched": "2026-04-14T00:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T00:20:00Z",
+        "last_touched": "2026-04-14T00:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T00:20:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-022",
+      "title": "Define the authoritative proof lane for bounded multi-target priority, defer/no_action, queueing, and replay/revision hygiene.",
+      "status": "pending",
+      "output": [
+        "negative boundary for internal review and non-attributed note exclusion",
+        "two-target selected/deferred proof",
+        "deferred wakeup and stop-condition proofs"
+      ],
+      "created_at": "2026-04-14T00:20:00Z",
+      "last_touched": "2026-04-14T00:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T00:20:00Z",
+        "last_touched": "2026-04-14T00:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T00:20:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-023",
+      "title": "Implement the minimal multi-target arbitration / queue layer after design and proof-plan lock.",
+      "status": "pending",
+      "output": [
+        "bounded multi-target arbitration carrier",
+        "selected/deferred/no_action queueing layer",
+        "single-adapter preserved execution lane"
+      ],
+      "created_at": "2026-04-14T00:20:00Z",
+      "last_touched": "2026-04-14T00:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T00:20:00Z",
+        "last_touched": "2026-04-14T00:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T00:20:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-024",
+      "title": "Freeze and demote the extracted harness line as the canonical bounded external bridge.",
+      "status": "done",
+      "output": [
+        "explicit canonical/demotion record",
+        "preserved frozen proof surfaces",
+        "preserved exit criteria and logged debt"
+      ],
+      "created_at": "2026-04-14T18:30:00Z",
+      "last_touched": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": "extract_harness_demoted_frozen"
+      }
+    },
+    {
+      "id": "T-025",
+      "title": "Define a path-based reversible repo hygiene policy separating canonical and non-canonical mass.",
+      "status": "done",
+      "output": [
+        "keep/ignore/archive/maybe path policy",
+        "codex_tmp and clone exhaust marked non-canonical by default",
+        "no destructive cleanup authorized in this turn"
+      ],
+      "created_at": "2026-04-14T18:30:00Z",
+      "last_touched": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": "repo_hygiene_policy_locked"
+      }
+    },
+    {
+      "id": "T-026",
+      "title": "Design native_continual_adaptation_benchmark_first before any new implementation.",
+      "status": "done",
+      "output": [
+        "benchmark-first memo",
+        "explicit boundary between prosthetic continuity and native adaptation",
+        "minimal benchmark task list and pre-implementation requirements"
+      ],
+      "created_at": "2026-04-14T18:30:00Z",
+      "last_touched": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": "native_benchmark_first_design_locked"
+      }
+    },
+    {
+      "id": "T-027",
+      "title": "Lock benchmark negative boundary and scaffold-ablation protocol for native continual adaptation.",
+      "status": "done",
+      "output": [
+        "negative benchmark boundary",
+        "scaffold-ablation protocol",
+        "benchmark scoring rule"
+      ],
+      "created_at": "2026-04-14T18:30:00Z",
+      "last_touched": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-028",
+      "title": "Assess whether existing examples and eval are sufficient for native continual adaptation benchmark-first work.",
+      "status": "done",
+      "output": [
+        "existing examples/eval judged insufficient",
+        "fixture convenience blocked from redefining benchmark",
+        "selection deferred until a minimal paired runner is justified"
+      ],
+      "created_at": "2026-04-14T18:30:00Z",
+      "last_touched": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-029",
+      "title": "Justify the smallest enabling code or experiment surface only after benchmark lock.",
+      "status": "done",
+      "output": [
+        "smallest enabling step justification",
+        "benchmark-first implementation gate",
+        "no broad architecture build before proof need"
+      ],
+      "created_at": "2026-04-14T18:30:00Z",
+      "last_touched": "2026-04-14T18:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T18:30:00Z",
+        "last_touched": "2026-04-14T18:30:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T18:30:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-030",
+      "title": "Specify one minimal paired scaffold-ablation benchmark runner only if the benchmark-first lane is approved to proceed.",
+      "status": "done",
+      "output": [
+        "paired benchmark runner spec",
+        "prosthetic vs ablated execution contract",
+        "scoring artifact schema",
+        "first two tasks wired: retention and overwrite resistance"
+      ],
+      "created_at": "2026-04-14T19:05:00Z",
+      "last_touched": "2026-04-14T19:05:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:05:00Z",
+        "last_touched": "2026-04-14T19:05:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:20:00Z",
+        "evolution_reason": "minimal_paired_benchmark_runner_implemented"
+      }
+    },
+    {
+      "id": "T-031",
+      "title": "Decide whether to authorize additional native benchmark tasks for interleaving and local generalization.",
+      "status": "done",
+      "output": [
+        "authorization decision",
+        "interleaving and local generalization wired into the same paired runner",
+        "paired benchmark result frozen as authoritative source of truth"
+      ],
+      "created_at": "2026-04-14T19:20:00Z",
+      "last_touched": "2026-04-14T19:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:20:00Z",
+        "last_touched": "2026-04-14T19:35:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:35:00Z",
+        "evolution_reason": "paired_benchmark_surface_frozen"
+      }
+    },
+    {
+      "id": "T-032",
+      "title": "Freeze the paired native continual adaptation benchmark protocol and current results as authoritative.",
+      "status": "done",
+      "output": [
+        "paired protocol frozen",
+        "scores recorded as source of truth",
+        "no harness tuning authorized by default"
+      ],
+      "created_at": "2026-04-14T19:35:00Z",
+      "last_touched": "2026-04-14T19:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:35:00Z",
+        "last_touched": "2026-04-14T19:35:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:35:00Z",
+        "evolution_reason": "native_benchmark_result_frozen"
+      }
+    },
+    {
+      "id": "T-033",
+      "title": "Design the first internal candidate comparison lane against the frozen prosthetic and scaffold-ablated baselines.",
+      "status": "done",
+      "output": [
+        "internal candidate comparison memo",
+        "candidate set and target dimensions",
+        "explicit first-build recommendation"
+      ],
+      "created_at": "2026-04-14T19:35:00Z",
+      "last_touched": "2026-04-14T19:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:35:00Z",
+        "last_touched": "2026-04-14T19:35:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:35:00Z",
+        "evolution_reason": "internal_candidate_comparison_design_locked"
+      }
+    },
+    {
+      "id": "T-034",
+      "title": "Hold implementation until one smallest legitimate internal candidate build is explicitly authorized.",
+      "status": "pending",
+      "output": [
+        "implementation gate preserved",
+        "minimal persistent-state candidate named as first build if any",
+        "no broad internal architecture build by default"
+      ],
+      "created_at": "2026-04-14T19:35:00Z",
+      "last_touched": "2026-04-14T19:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:35:00Z",
+        "last_touched": "2026-04-14T19:35:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:35:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-035",
+      "title": "Lock the exact design-only contract for minimal_persistent_state_candidate before any internal implementation.",
+      "status": "done",
+      "output": [
+        "exact candidate spec",
+        "dimension-by-dimension benchmark fit",
+        "falsification condition",
+        "explicit smallest build surface and implementation gate"
+      ],
+      "created_at": "2026-04-14T19:45:00Z",
+      "last_touched": "2026-04-14T19:45:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:45:00Z",
+        "last_touched": "2026-04-14T19:45:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:45:00Z",
+        "evolution_reason": "minimal_persistent_state_spec_locked"
+      }
+    },
+    {
+      "id": "T-036",
+      "title": "Require explicit approval before building even the minimal persistent-state candidate surface.",
+      "status": "pending",
+      "output": [
+        "implementation remains gated",
+        "smallest build surface fixed in kernel state",
+        "no SSM-style or broader candidate work authorized by default"
+      ],
+      "created_at": "2026-04-14T19:45:00Z",
+      "last_touched": "2026-04-14T19:45:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T19:45:00Z",
+        "last_touched": "2026-04-14T19:45:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T19:45:00Z",
+        "evolution_reason": ""
+      }
+    },
+    {
+      "id": "T-037",
+      "title": "Audit MINIMAL_PERSISTENT_STATE_CANDIDATE_SPEC.md against the frozen benchmark source of truth before any code.",
+      "status": "done",
+      "output": [
+        "not approved",
+        "exact flaw identified: ambiguous state residence and benchmark-owned read path",
+        "exact smallest next move fixed: revise spec only before implementation"
+      ],
+      "created_at": "2026-04-14T20:00:00Z",
+      "last_touched": "2026-04-14T20:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T20:00:00Z",
+        "last_touched": "2026-04-14T20:00:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T20:00:00Z",
+        "evolution_reason": "minimal_persistent_state_spec_not_approved"
+      }
+    },
+    {
+      "id": "T-038",
+      "title": "Revise the minimal persistent-state spec to remove benchmark-owned read/write privilege before authorizing any candidate build.",
+      "status": "done",
+      "output": [
+        "state residence locked to candidate-owned internal module only",
+        "benchmark runner reduced to stimulation and observation only",
+        "artifact snapshots made one-way and non-readable by the probe",
+        "candidate-owned state survival under scaffold ablation specified explicitly"
+      ],
+      "created_at": "2026-04-14T20:00:00Z",
+      "last_touched": "2026-04-14T20:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T20:00:00Z",
+        "last_touched": "2026-04-14T20:10:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T20:10:00Z",
+        "evolution_reason": "minimal_persistent_state_spec_ambiguity_resolved"
+      }
+    },
+    {
+      "id": "T-039",
+      "title": "Hold implementation until explicit approval of the exact smallest minimal persistent-state build surface.",
+      "status": "done",
+      "output": [
+        "exact smallest build surface was implemented once under explicit approval",
+        "benchmark artifact now exists for candidate-owned state under paired prosthetic vs ablated conditions",
+        "further build is no longer approved by default pending three-core audit"
+      ],
+      "created_at": "2026-04-14T20:10:00Z",
+      "last_touched": "2026-04-14T20:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T20:10:00Z",
+        "last_touched": "2026-04-14T20:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T20:20:00Z",
+        "evolution_reason": "smallest_minimal_persistent_state_surface_implemented_once_then_reaudited"
+      }
+    },
+    {
+      "id": "T-040",
+      "title": "Record the three-core doctrine and classify the current minimal persistent-state candidate against it.",
+      "status": "done",
+      "output": [
+        "three-core doctrine recorded: escort/canonical carrier, native continuity lab, neuro-migration path",
+        "extracted assigned explicitly to escort/canonical carrier",
+        "minimal persistent-state candidate classified as native-lab probe but still benchmark-shaped surrogate"
+      ],
+      "created_at": "2026-04-14T20:20:00Z",
+      "last_touched": "2026-04-14T20:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T20:20:00Z",
+        "last_touched": "2026-04-14T20:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T20:20:00Z",
+        "evolution_reason": "three_core_doctrine_and_candidate_audit_recorded"
+      }
+    },
+    {
+      "id": "T-041",
+      "title": "Revise the minimal persistent-state candidate design contract to remove benchmark-shaped update/read routing before any further implementation.",
+      "status": "done",
+      "output": [
+        "generic candidate-owned update interface locked",
+        "generic candidate-owned probe interface locked",
+        "benchmark-dimension-specific routing removed from the design contract",
+        "implementation now design-justified but still authorization-gated"
+      ],
+      "created_at": "2026-04-14T20:20:00Z",
+      "last_touched": "2026-04-14T20:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T20:20:00Z",
+        "last_touched": "2026-04-14T20:35:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T20:35:00Z",
+        "evolution_reason": "generic_update_probe_spec_locked"
+      }
+    },
+    {
+      "id": "T-042",
+      "title": "Hold implementation until explicit approval of the generic-interface minimal persistent-state surface.",
+      "status": "done",
+      "output": [
+        "generic-interface implementation approved and completed at the exact smallest approved surface",
+        "paired benchmark result now records the first real internal nonzero signal under the stricter generic interface",
+        "further build is frozen pending next-candidate design-only comparison"
+      ],
+      "created_at": "2026-04-14T20:35:00Z",
+      "last_touched": "2026-04-14T21:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T20:35:00Z",
+        "last_touched": "2026-04-14T21:00:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:00:00Z",
+        "evolution_reason": "generic_interface_candidate_implemented_and_frozen"
+      }
+    },
+    {
+      "id": "T-043",
+      "title": "Patch the benchmark reporting semantics so locked dimension scores are the authoritative headline result for internal candidates.",
+      "status": "done",
+      "output": [
+        "authoritative headline block added to the paired benchmark artifact",
+        "legacy passed flags marked deprecated for internal-candidate reporting",
+        "frozen result recorded in kernel state"
+      ],
+      "created_at": "2026-04-14T21:00:00Z",
+      "last_touched": "2026-04-14T21:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T21:00:00Z",
+        "last_touched": "2026-04-14T21:00:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:00:00Z",
+        "evolution_reason": "benchmark_reporting_semantics_patched"
+      }
+    },
+    {
+      "id": "T-044",
+      "title": "Design the next benchmark-first comparison candidate after the frozen minimal persistent-state result.",
+      "status": "done",
+      "output": [
+        "minimal_ssm_style_candidate chosen as the next comparison candidate",
+        "design-only memo recorded",
+        "no implementation authorized yet"
+      ],
+      "created_at": "2026-04-14T21:00:00Z",
+      "last_touched": "2026-04-14T21:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T21:00:00Z",
+        "last_touched": "2026-04-14T21:00:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:00:00Z",
+        "evolution_reason": "next_candidate_design_only_memo_recorded"
+      }
+    },
+    {
+      "id": "T-045",
+      "title": "Hold any minimal_ssm_style_candidate implementation until explicit approval under the same locked benchmark and ablation law.",
+      "status": "pending",
+      "output": [
+        "same paired benchmark remains binding",
+        "same ablation law remains binding",
+        "no implementation beyond design-only memo is authorized"
+      ],
+      "created_at": "2026-04-14T21:00:00Z",
+      "last_touched": "2026-04-14T21:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T21:00:00Z",
+        "last_touched": "2026-04-14T21:00:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:00:00Z",
+        "evolution_reason": "ssm_candidate_gate_opened_design_only"
+      }
+    },
+    {
+      "id": "T-046",
+      "title": "Audit MINIMAL_SSM_STYLE_CANDIDATE_COMPARISON_MEMO.md against the frozen benchmark source of truth and the slot-based baseline.",
+      "status": "done",
+      "output": [
+        "not approved",
+        "exact blocker identified: missing candidate-owned latent-state contract and generic update/probe interfaces",
+        "exact smallest next move fixed: write MINIMAL_SSM_STYLE_CANDIDATE_SPEC.md before any implementation"
+      ],
+      "created_at": "2026-04-14T21:25:00Z",
+      "last_touched": "2026-04-14T21:25:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T21:25:00Z",
+        "last_touched": "2026-04-14T21:25:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:25:00Z",
+        "evolution_reason": "minimal_ssm_style_candidate_audit_not_approved"
+      }
+    },
+    {
+      "id": "T-047",
+      "title": "Write MINIMAL_SSM_STYLE_CANDIDATE_SPEC.md before any minimal_ssm_style_candidate implementation is reconsidered.",
+      "status": "done",
+      "output": [
+        "candidate-owned latent-state residence locked",
+        "generic update and probe interfaces locked",
+        "prosthetic vs ablated survival rules locked",
+        "one-way audit rule and explicit falsification threshold locked"
+      ],
+      "created_at": "2026-04-14T21:25:00Z",
+      "last_touched": "2026-04-14T21:25:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T21:25:00Z",
+        "last_touched": "2026-04-14T21:40:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:40:00Z",
+        "evolution_reason": "minimal_ssm_style_candidate_spec_locked"
+      }
+    },
+    {
+      "id": "T-048",
+      "title": "Hold any minimal_ssm_style_candidate implementation until explicit approval of the exact smallest SSM-style surface.",
+      "status": "pending",
+      "output": [
+        "design contract approved only",
+        "implementation remains unauthorized by default",
+        "exact smallest implementation surface fixed if later approved"
+      ],
+      "created_at": "2026-04-14T21:40:00Z",
+      "last_touched": "2026-04-14T21:40:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T21:40:00Z",
+        "last_touched": "2026-04-14T21:40:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T21:40:00Z",
+        "evolution_reason": "minimal_ssm_style_design_spec_approved_implementation_still_gated"
+      }
+    },
+    {
+      "id": "T-049",
+      "title": "Audit MINIMAL_SSM_STYLE_CANDIDATE_SPEC.md against the frozen benchmark baseline, the slot-based result, and the three-core doctrine.",
+      "status": "done",
+      "output": [
+        "not approved",
+        "exact blocker identified: mechanism ambiguity remains even after leakage/interface constraints were added",
+        "exact smallest next move fixed: revise the SSM spec only to lock latent state form, update/readout rule class, and anti-slot-emulation constraints"
+      ],
+      "created_at": "2026-04-14T22:05:00Z",
+      "last_touched": "2026-04-14T22:05:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T22:05:00Z",
+        "last_touched": "2026-04-14T22:05:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T22:05:00Z",
+        "evolution_reason": "minimal_ssm_style_spec_audit_not_approved"
+      }
+    },
+    {
+      "id": "T-050",
+      "title": "Revise MINIMAL_SSM_STYLE_CANDIDATE_SPEC.md to lock the transition/readout mechanism before any SSM-style implementation is reconsidered.",
+      "status": "done",
+      "output": [
+        "fixed latent state form locked",
+        "exact update rule class locked",
+        "exact readout rule class locked",
+        "anti-slot-emulation constraint locked",
+        "benchmark-grounded local-generalization hypothesis stated concretely",
+        "design contract approved only; implementation remains gated"
+      ],
+      "created_at": "2026-04-14T22:05:00Z",
+      "last_touched": "2026-04-14T22:25:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T22:05:00Z",
+        "last_touched": "2026-04-14T22:25:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T22:25:00Z",
+        "evolution_reason": "minimal_ssm_style_mechanism_spec_locked"
+      }
+    },
+    {
+      "id": "T-051",
+      "title": "Freeze the minimal_ssm_style_candidate result and analyze the slot-vs-SSM tradeoff before any further candidate implementation.",
+      "status": "done",
+      "output": [
+        "slot-based and SSM-style results frozen side by side as authoritative internal candidates under the ablation law",
+        "tradeoff classified as structural rather than accidental",
+        "next recommendation set to minimal_hybrid_candidate design-only"
+      ],
+      "created_at": "2026-04-14T22:50:00Z",
+      "last_touched": "2026-04-14T22:50:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T22:50:00Z",
+        "last_touched": "2026-04-14T22:50:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T22:50:00Z",
+        "evolution_reason": "slot_vs_ssm_tradeoff_frozen"
+      }
+    },
+    {
+      "id": "T-052",
+      "title": "Write MINIMAL_HYBRID_CANDIDATE_SPEC.md before any new post-slot/post-SSM implementation is considered.",
+      "status": "done",
+      "output": [
+        "minimal hybrid candidate design contract",
+        "explicit benchmark target of preserving 3/3/3 while raising local_generalization above 0",
+        "exact slot/latent state split locked",
+        "implementation remains unauthorized by default"
+      ],
+      "created_at": "2026-04-14T22:50:00Z",
+      "last_touched": "2026-04-14T23:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T22:50:00Z",
+        "last_touched": "2026-04-14T23:20:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T23:20:00Z",
+        "evolution_reason": "minimal_hybrid_candidate_spec_locked"
+      }
+    },
+    {
+      "id": "T-053",
+      "title": "Hold any minimal_hybrid_candidate implementation until explicit approval of the exact smallest hybrid surface.",
+      "status": "done",
+      "output": [
+        "design contract was approved first",
+        "implementation proceeded only after explicit approval of the exact smallest hybrid surface",
+        "hybrid implementation stayed within the approved surface and was later frozen at 3/3/3/3"
+      ],
+      "created_at": "2026-04-14T23:20:00Z",
+      "last_touched": "2026-04-14T23:55:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T23:20:00Z",
+        "last_touched": "2026-04-14T23:55:00Z",
+        "trust": 0.78,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T23:55:00Z",
+        "evolution_reason": "minimal_hybrid_candidate_received_explicit_approval_then_frozen"
+      }
+    },
+    {
+      "id": "T-054",
+      "title": "Audit MINIMAL_HYBRID_CANDIDATE_SPEC.md against the frozen benchmark, slot baseline, SSM baseline, and three-core doctrine before any implementation is considered.",
+      "status": "done",
+      "output": [
+        "hybrid spec audited as a legitimate bounded synthesis at design level",
+        "cross-talk judged bounded and one-way at spec level rather than a disguised memory merge",
+        "exact success threshold fixed at preserving 3/3/3 while raising local_generalization above 0",
+        "implementation still requires a separate explicit authorization"
+      ],
+      "created_at": "2026-04-14T23:35:00Z",
+      "last_touched": "2026-04-14T23:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T23:35:00Z",
+        "last_touched": "2026-04-14T23:35:00Z",
+        "trust": 0.79,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T23:35:00Z",
+        "evolution_reason": "minimal_hybrid_candidate_spec_audited_approved_design_only"
+      }
+    },
+    {
+      "id": "T-055",
+      "title": "Freeze minimal_hybrid_candidate as the current best internal candidate under benchmark-v1 and record the authoritative 3/3/3/3 result.",
+      "status": "done",
+      "output": [
+        "minimal_hybrid_candidate frozen as current best internal candidate",
+        "authoritative benchmark-v1 result recorded as 3/3/3/3",
+        "candidate-only survival and no external scaffold read recorded",
+        "beats both frozen parents 3/3/3/0 and 3/0/0/3"
+      ],
+      "created_at": "2026-04-14T23:55:00Z",
+      "last_touched": "2026-04-14T23:55:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T23:55:00Z",
+        "last_touched": "2026-04-14T23:55:00Z",
+        "trust": 0.8,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T23:55:00Z",
+        "evolution_reason": "minimal_hybrid_candidate_frozen_current_best_internal_candidate"
+      }
+    },
+    {
+      "id": "T-056",
+      "title": "Write NATIVE_CONTINUAL_ADAPTATION_BENCHMARK_V2.md before any post-hybrid architecture or benchmark-v2 implementation work is considered.",
+      "status": "done",
+      "output": [
+        "benchmark-v2 design memo with bounded harsher task set",
+        "benchmark-v1 explicitly preserved as authoritative",
+        "future execution scoped to one minimal extension of the existing paired benchmark runner"
+      ],
+      "created_at": "2026-04-14T23:55:00Z",
+      "last_touched": "2026-04-14T23:55:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T23:55:00Z",
+        "last_touched": "2026-04-14T23:55:00Z",
+        "trust": 0.8,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-14T23:55:00Z",
+        "evolution_reason": "native_continual_adaptation_benchmark_v2_design_locked"
+      }
+    },
+    {
+      "id": "T-057",
+      "title": "Hold any benchmark-v2 execution until explicit approval of the one minimal paired-runner extension.",
+      "status": "done",
+      "output": [
+        "benchmark-v2 design was sufficient",
+        "execution required only one minimal extension to the existing paired benchmark runner",
+        "benchmark-v2 is now frozen authoritative with no new harness organs or broader architecture"
+      ],
+      "created_at": "2026-04-14T23:55:00Z",
+      "last_touched": "2026-04-15T00:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-14T23:55:00Z",
+        "last_touched": "2026-04-15T00:10:00Z",
+        "trust": 0.8,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T00:10:00Z",
+        "evolution_reason": "benchmark_v2_executed_and_frozen_authoritative"
+      }
+    },
+    {
+      "id": "T-058",
+      "title": "Freeze benchmark-v2 as authoritative and record the minimal_hybrid_candidate as robust under the bounded harsher escalations.",
+      "status": "done",
+      "output": [
+        "benchmark-v2 frozen authoritative",
+        "minimal_hybrid_candidate remains 3/3/3/3 under v2",
+        "candidate-only survival and no external scaffold read preserved",
+        "strict ablation checks passed"
+      ],
+      "created_at": "2026-04-15T00:10:00Z",
+      "last_touched": "2026-04-15T00:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:10:00Z",
+        "last_touched": "2026-04-15T00:10:00Z",
+        "trust": 0.81,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T00:10:00Z",
+        "evolution_reason": "native_continual_adaptation_benchmark_v2_frozen_authoritative"
+      }
+    },
+    {
+      "id": "T-059",
+      "title": "Write the bounded operational transfer memo for testing whether minimal_hybrid_candidate can replace one narrow carried state role inside the existing single-target operational loop.",
+      "status": "done",
+      "output": [
+        "one exact operational role defined for transfer",
+        "Escort-vs-hybrid responsibility split made explicit",
+        "success and leakage failure conditions locked",
+        "smallest future implementation surface fixed if later approved"
+      ],
+      "created_at": "2026-04-15T00:10:00Z",
+      "last_touched": "2026-04-15T00:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:10:00Z",
+        "last_touched": "2026-04-15T00:10:00Z",
+        "trust": 0.81,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T00:10:00Z",
+        "evolution_reason": "minimal_hybrid_operational_transfer_design_locked"
+      }
+    },
+    {
+      "id": "T-060",
+      "title": "Hold any minimal_hybrid operational transfer implementation until explicit approval of the exact smallest transfer-test surface.",
+      "status": "done",
+      "output": [
+        "transfer test received explicit approval and was implemented only within the exact smallest surface",
+        "the hybrid now carries the current/prior operational status content slice for operational_targets/live_status.json",
+        "no provenance regression, replay-hygiene regression, or ablation-law violation appeared"
+      ],
+      "created_at": "2026-04-15T00:10:00Z",
+      "last_touched": "2026-04-15T00:40:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:10:00Z",
+        "last_touched": "2026-04-15T00:40:00Z",
+        "trust": 0.82,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T00:40:00Z",
+        "evolution_reason": "minimal_hybrid_operational_transfer_implemented_and_frozen_authoritative"
+      }
+    },
+    {
+      "id": "T-061",
+      "title": "Freeze the bounded hybrid operational transfer result as authoritative and record that the hybrid now carries one real operational memory slice while benchmark-v1 and benchmark-v2 remain frozen at 3/3/3/3.",
+      "status": "done",
+      "output": [
+        "operational transfer result frozen authoritative",
+        "substituted slice recorded as current/prior operational status content for operational_targets/live_status.json",
+        "candidate-only survival and external_scaffold_read=false preserved",
+        "single-target operational proof surface updated to 5/5 with robust revise/stabilize/stop/blocked-replay carry"
+      ],
+      "created_at": "2026-04-15T00:40:00Z",
+      "last_touched": "2026-04-15T01:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:40:00Z",
+        "last_touched": "2026-04-15T01:10:00Z",
+        "trust": 0.82,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T01:10:00Z",
+        "evolution_reason": "minimal_hybrid_operational_transfer_robust_freeze_record_updated"
+      }
+    },
+    {
+      "id": "T-062",
+      "title": "Write HYBRID_OPERATIONAL_TRANSFER_LADDER.md to classify the transferred slice, rank the next bounded Escort slices by risk/leverage, and decide whether another transfer should be implemented next.",
+      "status": "done",
+      "output": [
+        "the transferred slice is classified as part of a narrow broader substitution class, not as a broad Escort replacement",
+        "next bounded Escort slices ranked by risk and leverage",
+        "recommendation is no second independent slice next",
+        "smallest honest next move is a multi-cycle stress test of the current transferred slice"
+      ],
+      "created_at": "2026-04-15T00:40:00Z",
+      "last_touched": "2026-04-15T00:40:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:40:00Z",
+        "last_touched": "2026-04-15T00:40:00Z",
+        "trust": 0.81,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T00:40:00Z",
+        "evolution_reason": "hybrid_operational_transfer_ladder_design_locked"
+      }
+    },
+    {
+      "id": "T-063",
+      "title": "Do not implement a second independent operational transfer slice by default; if further transfer work is later approved, run only a multi-cycle stress test of the already-transferred current/prior operational status content slice first.",
+      "status": "done",
+      "output": [
+        "multi-cycle stress of the current transferred slice was completed and held cleanly",
+        "the no-second-slice default was valid until the stress result became robust",
+        "a second slice is now design-eligible but still not implemented by default"
+      ],
+      "created_at": "2026-04-15T00:40:00Z",
+      "last_touched": "2026-04-15T01:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T00:40:00Z",
+        "last_touched": "2026-04-15T01:10:00Z",
+        "trust": 0.81,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T01:10:00Z",
+        "evolution_reason": "hybrid_operational_transfer_stress_completed"
+      }
+    },
+    {
+      "id": "T-064",
+      "title": "Freeze the current robust first-slice operational transfer result and record that the hybrid now carries the transferred status-content slice across revise, stabilize, stop, and blocked replay cycles.",
+      "status": "done",
+      "output": [
+        "robust repeated-cycle carry frozen authoritative",
+        "no hidden external carry path recorded",
+        "no provenance weakening recorded",
+        "no replay-hygiene regression recorded"
+      ],
+      "created_at": "2026-04-15T01:10:00Z",
+      "last_touched": "2026-04-15T01:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T01:10:00Z",
+        "last_touched": "2026-04-15T01:10:00Z",
+        "trust": 0.82,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T01:10:00Z",
+        "evolution_reason": "hybrid_operational_first_slice_robust_freeze_locked"
+      }
+    },
+    {
+      "id": "T-065",
+      "title": "Write HYBRID_OPERATIONAL_SECOND_SLICE_DECISION.md and decide whether one second bounded operational slice should be tested next.",
+      "status": "done",
+      "output": [
+        "second-slice decision memo written",
+        "recommendation is yes for one exact slice only",
+        "selected slice is current/prior expected effect content for operational_targets/live_status.json",
+        "exact smallest future surface fixed and still design-only"
+      ],
+      "created_at": "2026-04-15T01:10:00Z",
+      "last_touched": "2026-04-15T01:10:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T01:10:00Z",
+        "last_touched": "2026-04-15T01:10:00Z",
+        "trust": 0.82,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T01:10:00Z",
+        "evolution_reason": "hybrid_operational_second_slice_decision_locked"
+      }
+    },
+    {
+      "id": "T-066",
+      "title": "Freeze the robust dual-slice operational substitution result and decide whether a third slice is honestly justified now.",
+      "status": "done",
+      "output": [
+        "dual-slice substitution frozen authoritative",
+        "both approved transferred slices recorded as robust across revise, stabilize, stop, and blocked replay",
+        "recommendation is no third slice yet",
+        "least-unsafe third slice if later justified is current/prior observed delta summary, but the next honest move is a harsher dual-slice stress test"
+      ],
+      "created_at": "2026-04-15T04:30:00Z",
+      "last_touched": "2026-04-15T04:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T04:30:00Z",
+        "last_touched": "2026-04-15T04:30:00Z",
+        "trust": 0.82,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T04:30:00Z",
+        "evolution_reason": "dual_slice_freeze_and_third_slice_design_decision_locked"
+      }
+    },
+    {
+      "id": "T-067",
+      "title": "Freeze the harsher dual-slice operational substitution result and re-evaluate whether exactly one third slice is now honestly justified.",
+      "status": "done",
+      "output": [
+        "harsher dual-slice substitution frozen authoritative",
+        "both approved transferred slices recorded as robust across revise, blocked replay, second revise, stabilize, and stop",
+        "recommendation is yes for exactly one third slice only",
+        "selected least-unsafe third slice is current/prior observed delta summary for operational_targets/live_status.json",
+        "exact smallest future surface fixed and still design-only"
+      ],
+      "created_at": "2026-04-15T05:20:00Z",
+      "last_touched": "2026-04-15T05:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T05:20:00Z",
+        "last_touched": "2026-04-15T05:20:00Z",
+        "trust": 0.83,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T05:20:00Z",
+        "evolution_reason": "harsher_dual_slice_freeze_and_updated_third_slice_decision_locked"
+      }
+    },
+    {
+      "id": "T-068",
+      "title": "Freeze the robust triple-slice operational substitution result and decide whether a fourth slice is honestly justified or whether the substitution boundary should stop at three slices.",
+      "status": "done",
+      "output": [
+        "robust triple-slice substitution frozen authoritative",
+        "all three approved transferred slices recorded as robust across revise, blocked replay, second revise, stabilize, and stop",
+        "recommendation is no fourth slice now",
+        "the current stop/no-thrash cue content is classified as too control-adjacent to transfer honestly under the current framing",
+        "operational substitution boundary is frozen at three slices"
+      ],
+      "created_at": "2026-04-15T06:20:00Z",
+      "last_touched": "2026-04-15T06:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T06:20:00Z",
+        "last_touched": "2026-04-15T06:20:00Z",
+        "trust": 0.84,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T06:20:00Z",
+        "evolution_reason": "robust_triple_slice_freeze_and_fourth_slice_decision_locked"
+      }
+    },
+    {
+      "id": "T-069",
+      "title": "Freeze the operational substitution boundary at three slices and globally re-evaluate the next highest-leverage frontier for Project X.",
+      "status": "done",
+      "output": [
+        "three-slice operational substitution boundary frozen authoritative",
+        "stop/no-thrash remains in Escort because it is too control-adjacent under the current framing",
+        "global re-evaluation memo written",
+        "benchmark-v3 design lock selected as the next highest-leverage frontier",
+        "no immediate implementation justified next"
+      ],
+      "created_at": "2026-04-15T06:35:00Z",
+      "last_touched": "2026-04-15T06:35:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T06:35:00Z",
+        "last_touched": "2026-04-15T06:35:00Z",
+        "trust": 0.84,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T06:35:00Z",
+        "evolution_reason": "global_reevaluation_and_three_slice_boundary_freeze_locked"
+      }
+    },
+    {
+      "id": "T-070",
+      "title": "Write NATIVE_CONTINUAL_ADAPTATION_BENCHMARK_V3.md and lock the next stricter benchmark frontier without changing any architecture or frozen proof surfaces.",
+      "status": "done",
+      "output": [
+        "benchmark-v3 memo written",
+        "benchmark-v1 and benchmark-v2 remain explicitly frozen as source of truth",
+        "benchmark-v3 design marked sufficient",
+        "next justified implementation after the v3 lock is only one minimal extension to the existing paired benchmark runner",
+        "no new candidate family or operational substitution branch authorized"
+      ],
+      "created_at": "2026-04-15T06:50:00Z",
+      "last_touched": "2026-04-15T06:50:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T06:50:00Z",
+        "last_touched": "2026-04-15T06:50:00Z",
+        "trust": 0.84,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T06:50:00Z",
+        "evolution_reason": "benchmark_v3_design_lock_recorded"
+      }
+    },
+    {
+      "id": "T-071",
+      "title": "Freeze benchmark-v3 saturation and decide whether a second honest operational target exists beyond operational_targets/live_status.json.",
+      "status": "done",
+      "output": [
+        "benchmark-v3 frozen authoritative at 3/3/3/3 with anti-theater checks passing",
+        "three-slice operational substitution boundary remains frozen authoritative on operational_targets/live_status.json",
+        "second operational target decision memo written",
+        "recommendation is no second operational target now because no honest non-kernel operational artifact exists yet beyond live_status.json in the active repo",
+        "no implementation justified next on the second-target branch"
+      ],
+      "created_at": "2026-04-15T07:15:00Z",
+      "last_touched": "2026-04-15T07:15:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T07:15:00Z",
+        "last_touched": "2026-04-15T07:15:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T07:15:00Z",
+        "evolution_reason": "benchmark_v3_frozen_and_second_operational_target_decision_locked"
+      }
+    },
+    {
+      "id": "T-072",
+      "title": "Freeze the no-second-operational-target stop condition and reselect the next highest-leverage frontier from that boundary.",
+      "status": "done",
+      "output": [
+        "no-second-operational-target decision frozen authoritative",
+        "frontier-reselection memo written",
+        "next highest-leverage frontier selected as design-only definition of one real future operational artifact under operational_targets/",
+        "fixture promotion and second-target implementation in the current repo explicitly deprioritized",
+        "no implementation justified next"
+      ],
+      "created_at": "2026-04-15T07:30:00Z",
+      "last_touched": "2026-04-15T07:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T07:30:00Z",
+        "last_touched": "2026-04-15T07:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T07:30:00Z",
+        "evolution_reason": "frontier_reselection_from_no_second_target_locked"
+      }
+    },
+    {
+      "id": "T-073",
+      "title": "Write a design-only spec for one real future second operational artifact under operational_targets/ without implementing it.",
+      "status": "done",
+      "output": [
+        "future second operational artifact spec written",
+        "exact future path locked as operational_targets/live_queue_snapshot.json",
+        "artifact role, non-fixture rule, and non-clone rule locked",
+        "first honest memory-like slices locked",
+        "Escort-retained responsibilities locked",
+        "spec judged sufficient as design contract",
+        "no implementation justified after the spec because the artifact still does not exist for an independent operational reason"
+      ],
+      "created_at": "2026-04-15T07:45:00Z",
+      "last_touched": "2026-04-15T07:45:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T07:45:00Z",
+        "last_touched": "2026-04-15T07:45:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T07:45:00Z",
+        "evolution_reason": "future_second_operational_artifact_spec_locked"
+      }
+    },
+    {
+      "id": "T-074",
+      "title": "Freeze the sufficient-but-blocked future second operational artifact spec and reselect the next highest-leverage frontier from that blocked state.",
+      "status": "done",
+      "output": [
+        "future second operational artifact spec frozen as sufficient-but-blocked",
+        "frontier-reselection memo written from the blocked state",
+        "next highest-leverage frontier selected as artifact admission criteria rather than implementation",
+        "second operational target implementation by invention explicitly deprioritized",
+        "no implementation justified next"
+      ],
+      "created_at": "2026-04-15T08:00:00Z",
+      "last_touched": "2026-04-15T08:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T08:00:00Z",
+        "last_touched": "2026-04-15T08:00:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T08:00:00Z",
+        "evolution_reason": "blocked_future_artifact_state_reselected_to_admission_criteria_frontier"
+      }
+    },
+    {
+      "id": "T-075",
+      "title": "Consolidate the active frontiers and gates into one authoritative memo and pause this branch pending re-entry conditions.",
+      "status": "done",
+      "output": [
+        "PROJECT_X_ACTIVE_FRONTIERS_AND_GATES.md written",
+        "frozen wins compressed into one place",
+        "frozen stop conditions and authoritative gates compressed into one place",
+        "re-entry conditions made explicit",
+        "branch marked paused, not abandoned",
+        "no implementation justified until a re-entry condition occurs"
+      ],
+      "created_at": "2026-04-15T08:15:00Z",
+      "last_touched": "2026-04-15T08:15:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T08:15:00Z",
+        "last_touched": "2026-04-15T08:15:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T08:15:00Z",
+        "evolution_reason": "active_frontiers_and_gates_consolidated_branch_paused"
+      }
+    },
+    {
+      "id": "T-076",
+      "title": "Open the design-only LEARNABLE_MINIMAL_HYBRID_SUBSTRATE line without reopening paused branches or implementing anything yet.",
+      "status": "done",
+      "output": [
+        "LEARNABLE_MINIMAL_HYBRID_SUBSTRATE.md written",
+        "the new line is benchmark-first and anchored to the frozen handcrafted hybrid witness",
+        "paused bridge and operational-substitution branches remain untouched",
+        "the smallest trainable substrate concept, cheating boundaries, success thresholds, and minimal future implementation surface are locked",
+        "implementation is not performed now, but the design is sharp enough to justify a later minimal build if explicitly approved"
+      ],
+      "created_at": "2026-04-15T08:30:00Z",
+      "last_touched": "2026-04-15T08:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T08:30:00Z",
+        "last_touched": "2026-04-15T08:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T08:30:00Z",
+        "evolution_reason": "learnable_minimal_hybrid_substrate_design_locked"
+      }
+    },
+    {
+      "id": "T-077",
+      "title": "Freeze the learnable substrate benchmark match and lock the design-only operational first-slice comparison frontier without reopening paused branches.",
+      "status": "done",
+      "output": [
+        "learnable substrate benchmark result frozen as authoritative at 3/3/3/3 across benchmark-v1, benchmark-v2, and benchmark-v3",
+        "same prosthetic-vs-ablated law and anti-theater checks recorded as still passing",
+        "LEARNABLE_SUBSTRATE_OPERATIONAL_FIRST_SLICE.md written",
+        "same live_status target and same first transferred slice locked as the next discriminator",
+        "implementation judged justified after the memo only for the exact smallest operational first-slice surface",
+        "paused bridge and broader operational-substitution branches remain untouched"
+      ],
+      "created_at": "2026-04-15T16:30:00Z",
+      "last_touched": "2026-04-15T16:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T16:30:00Z",
+        "last_touched": "2026-04-15T16:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T16:30:00Z",
+        "evolution_reason": "learnable_operational_first_slice_design_frontier_locked"
+      }
+    },
+    {
+      "id": "T-078",
+      "title": "Freeze the robust learnable first-slice operational carry and lock the design-only second-slice decision frontier without widening the learnable line.",
+      "status": "done",
+      "output": [
+        "learnable first-slice operational transfer frozen as authoritative on operational_targets/live_status.json",
+        "same provenance, replay, and ablation discipline recorded as still holding under revise, blocked replay, second revise, stabilize, and stop",
+        "LEARNABLE_SUBSTRATE_OPERATIONAL_SECOND_SLICE_DECISION.md written",
+        "current_prior_expected_effect_content_for_operational_targets/live_status.json locked as the next exact slice under review",
+        "implementation judged justified after the memo only for the exact smallest second-slice surface",
+        "no second operational target, no multi-slice learnable transfer, and no paused branch reopening"
+      ],
+      "created_at": "2026-04-15T17:30:00Z",
+      "last_touched": "2026-04-15T17:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T17:30:00Z",
+        "last_touched": "2026-04-15T17:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T17:30:00Z",
+        "evolution_reason": "learnable_first_slice_frozen_and_second_slice_decision_locked"
+      }
+    },
+    {
+      "id": "T-079",
+      "title": "Freeze the robust learnable dual-slice operational carry and lock the design-only third-slice decision frontier without widening the learnable line.",
+      "status": "done",
+      "output": [
+        "learnable dual-slice operational transfer frozen as authoritative on operational_targets/live_status.json",
+        "same provenance, replay, and ablation discipline recorded as still holding under revise, blocked replay, second revise, stabilize, and stop",
+        "LEARNABLE_SUBSTRATE_OPERATIONAL_THIRD_SLICE_DECISION.md written",
+        "current_prior_observed_delta_summary_for_operational_targets/live_status.json locked as the next exact slice under review",
+        "implementation judged justified after the memo only for the exact smallest third-slice surface",
+        "no second operational target, no fourth benchmark family, and no broader learnable operational expansion"
+      ],
+      "created_at": "2026-04-15T18:15:00Z",
+      "last_touched": "2026-04-15T18:15:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T18:15:00Z",
+        "last_touched": "2026-04-15T18:15:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T18:15:00Z",
+        "evolution_reason": "learnable_dual_slice_frozen_and_third_slice_decision_locked"
+      }
+    },
+    {
+      "id": "T-080",
+      "title": "Freeze learnable/handcrafted parity on the current honest discriminator family and reselect the next design frontier from that parity state.",
+      "status": "done",
+      "output": [
+        "learnable and handcrafted candidates frozen as jointly saturating benchmark-v1 / benchmark-v2 / benchmark-v3 at 3/3/3/3 under the same anti-theater / anti-leak law",
+        "robust three-slice operational substitution on operational_targets/live_status.json frozen as shared source of truth for both lines",
+        "PROJECT_X_FRONTIER_RESELECTION_FROM_PARITY.md written",
+        "next highest-leverage frontier named as a new discriminator outside the current benchmark family",
+        "further mining of the current saturated family explicitly deprioritized",
+        "no implementation judged justified until that new discriminator is designed and locked"
+      ],
+      "created_at": "2026-04-15T19:00:00Z",
+      "last_touched": "2026-04-15T19:00:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T19:00:00Z",
+        "last_touched": "2026-04-15T19:00:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T19:00:00Z",
+        "evolution_reason": "parity_frontier_reselection_recorded_and_execution_paused_pending_new_discriminator_design"
+      }
+    },
+    {
+      "id": "T-081",
+      "title": "Lock one specific out-of-family discriminator as the new active design frontier after parity, without broadening any saturated branch.",
+      "status": "done",
+      "output": [
+        "OUT_OF_FAMILY_DISCRIMINATOR_1.md written",
+        "schema_remap_transfer locked as the one bounded out-of-family discriminator",
+        "out-of-family defined as representational-contract shift rather than more pressure inside the same benchmark grammar",
+        "surface-grammar dependence named as the still-unexposed weakness",
+        "same anti-theater / anti-leak law retained as non-negotiable",
+        "implementation judged justified after the memo only for one minimal paired benchmark runner extension plus one bounded artifact extension"
+      ],
+      "created_at": "2026-04-15T19:20:00Z",
+      "last_touched": "2026-04-15T19:20:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T19:20:00Z",
+        "last_touched": "2026-04-15T19:20:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T19:20:00Z",
+        "evolution_reason": "out_of_family_discriminator_1_locked_and_named_as_active_design_frontier"
+      }
+    },
+    {
+      "id": "T-082",
+      "title": "Freeze out-of-family discriminator 1 as authoritative and lock one sharper out-of-family discriminator around cross-remap accumulation.",
+      "status": "done",
+      "output": [
+        "OUT_OF_FAMILY_DISCRIMINATOR_2.md written",
+        "out-of-family discriminator 1 frozen as authoritative with both handcrafted and learnable candidates passing and no separation present",
+        "cross_remap_accumulation_transfer locked as the one bounded next out-of-family discriminator",
+        "cross-remap reuse named as the still-unexposed weakness after isolated schema-remap success",
+        "same anti-theater / anti-leak law retained as non-negotiable",
+        "implementation judged justified after the memo only for one minimal paired benchmark runner extension plus one bounded artifact extension"
+      ],
+      "created_at": "2026-04-15T20:05:00Z",
+      "last_touched": "2026-04-15T20:05:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T20:05:00Z",
+        "last_touched": "2026-04-15T20:05:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T20:05:00Z",
+        "evolution_reason": "out_of_family_discriminator_1_frozen_and_oof2_design_locked"
+      }
+    },
+    {
+      "id": "T-083",
+      "title": "Write the first serious external-facing articulation layer for Project X without reopening any paused branch or inflating current capabilities.",
+      "status": "done",
+      "output": [
+        "PROJECT_X_OPERATING_CORE_STATUS.md written as the internal/external bridge document",
+        "PROJECT_X_FUNDABILITY_MEMO.md written as the first bounded fundraising-oriented memo",
+        "Project X explicitly framed as the institutional operating core for pursuing continuity-preserving brain-to-silicon migration / Diamond Body, not the terminal object itself",
+        "frozen benchmark-v1 / benchmark-v2 / benchmark-v3, candidate ladder, out-of-family results, and three-slice operational boundary compressed into one external-facing articulation layer",
+        "paused, blocked, and frozen branches explicitly named without reopening them",
+        "Project X recorded as fundable now only under the bounded operating-substrate framing",
+        "no implementation justified by this articulation layer itself"
+      ],
+      "created_at": "2026-04-15T21:30:00Z",
+      "last_touched": "2026-04-15T21:30:00Z",
+      "provenance": {
+        "origin": "session_update",
+        "created_at": "2026-04-15T21:30:00Z",
+        "last_touched": "2026-04-15T21:30:00Z",
+        "trust": 0.85,
+        "lineage": [
+          "session_update",
+          "writeback"
+        ],
+        "touch_count": 1,
+        "promotion_count": 0,
+        "decay_count": 0,
+        "support_count": 0,
+        "conflict_count": 0,
+        "last_evolved_at": "2026-04-15T21:30:00Z",
+        "evolution_reason": "external_facing_articulation_layer_recorded"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExperimentRun",
+  "type": "object",
+  "required": ["run_id", "active_task", "kernel_loaded", "writeback_complete"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "date": {"type": "string"},
+    "active_task": {"type": "string"},
+    "kernel_loaded": {"type": "boolean"},
+    "retrieved_state_objects": {"type": "array", "items": {"type": "string"}},
+    "new_decisions": {"type": "array", "items": {"type": "string"}},
+    "new_unknowns": {"type": "array", "items": {"type": "string"}},
+    "salience_changes": {"type": "array", "items": {"type": "string"}},
+    "failure_signatures": {"type": "array", "items": {"type": "string"}},
+    "writeback_complete": {"type": "boolean"}
+  }
+}

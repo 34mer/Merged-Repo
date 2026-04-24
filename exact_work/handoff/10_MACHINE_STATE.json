@@ -1,0 +1,266 @@
+{
+  "version": "v8",
+  "authoritative": true,
+  "supersedes": [
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v7"
+  ],
+  "objective": "Extract exact computable families from positive-geometry papers, compare surviving substrate constraints across families, then use stronger mathematics to discriminate realization classes before any substrate commitment or engineering commitment.",
+  "status_tags": {
+    "U-EXACT": "User-stated exact/source-backed baseline adopted in-thread. Not independently re-verified against code in this thread.",
+    "M-EXACT": "Mathematical consequence or structural statement derived in-thread from accepted definitions, accepted finite-type facts, or direct internal reasoning.",
+    "GEN": "Generated formal object / extension / regime class. Internally coherent, but not source-backed from a cited paper or code-verified artifact in this thread.",
+    "BRIDGE": "Provisional translation from mathematics to realization / regime / engineering language. Not theorem-level; must not be treated as authoritative substrate selection.",
+    "OPEN": "Unresolved. Safe only as a research question, not as an assumption."
+  },
+  "current_position": {
+    "substrate_commitment": null,
+    "crbsm_status": "generated_candidate_only",
+    "scattering_status": "mandatory_comparator_and_current_leading_native_candidate",
+    "engineering_filter_status": "provisional_bridge_not_theorem",
+    "package_status": "continuity_bearing_theory_state_plus_repo_attached_provenance",
+    "executable_provenance": "repo_attached_with_partial_rerun_verification"
+  },
+  "exact_baselines": [
+    {
+      "id": "B1",
+      "status": "U-EXACT",
+      "title": "Cosmohedron exact baseline",
+      "content": [
+        "Paper-recursive Matryoshka family implemented from the paper definition.",
+        "Exact counts / codimension histograms through 8 points.",
+        "Exact immediate-face incidence through 8 points.",
+        "Two disjoint cover moves: delete_nonminimal and collapse_children.",
+        "Reported exact values used in-thread: 8 points -> 51,291 objects; 8-point immediate-face edges -> 189,728."
+      ]
+    },
+    {
+      "id": "B2",
+      "status": "U-EXACT",
+      "title": "Associahedron exact baseline",
+      "content": [
+        "Exact family via noncrossing diagonal sets.",
+        "One descent primitive only: delete_diagonal.",
+        "Exact counts through 8 points."
+      ]
+    },
+    {
+      "id": "B3",
+      "status": "U-EXACT",
+      "title": "Amplituhedron m=1 exact baseline",
+      "content": [
+        "Exact sign-vector family.",
+        "Membership by overline{var}(sigma)=k with first-nonzero normalization.",
+        "One descent primitive only: zero one nonzero entry.",
+        "Top-cell counts checked against the binomial formula."
+      ]
+    },
+    {
+      "id": "B4",
+      "status": "U-EXACT",
+      "title": "Surfaceology exact baseline",
+      "content": [
+        "First exact finite object extracted: curve word C -> matrix M_C -> F_C -> u_C -> alpha_C.",
+        "Exact local primitive updates derived for prepend eL and prepend eR.",
+        "Determinant scales by the new edge weight under both updates.",
+        "u-update is independent of the new edge weight under both updates."
+      ]
+    },
+    {
+      "id": "B5",
+      "status": "U-EXACT",
+      "title": "Cross-family exact conclusion before this rebuild",
+      "content": [
+        "Unit codimension descent survives across associahedron, cosmohedron, amplituhedron m=1.",
+        "Two local move classes appear cosmohedron-specific.",
+        "Strong nested-history / linear-extension burden appears cosmohedron-specific.",
+        "Surfaceology had not yet been placed on equal global family footing with the first three descent families."
+      ]
+    }
+  ],
+  "exact_results": [
+    {
+      "id": "E1",
+      "status": "M-EXACT",
+      "title": "Static residue base",
+      "explicit_formulae": [
+        "Gr_+(0,n): Ω = 1"
+      ],
+      "summary": "Static base = terminal residue atom plus simplex/log-residue recursion.",
+      "safe_use": "static backbone",
+      "not_enough_to_conclude": "substrate selection or engineering filter"
+    },
+    {
+      "id": "E2",
+      "status": "M-EXACT",
+      "title": "Intrinsic root-bundle layer",
+      "explicit_formulae": [
+        "V = rank-m bundle of oriented codim-1 residue-family lines"
+      ],
+      "summary": "First faithful semantic layer.",
+      "safe_use": "minimum faithful layer",
+      "not_enough_to_conclude": "that V is the whole object"
+    },
+    {
+      "id": "E3",
+      "status": "M-EXACT",
+      "title": "Local A2 quarter-turn transport",
+      "explicit_formulae": [
+        "J_i(f_i)=f_{i+1}",
+        "J_i(f_{i+1})=-f_i",
+        "J_i(f_j)=f_j for j≠i,i+1"
+      ],
+      "summary": "First faithful local transport law.",
+      "safe_use": "load-bearing local transport",
+      "not_enough_to_conclude": "literal machine-form realization"
+    },
+    {
+      "id": "E4",
+      "status": "M-EXACT",
+      "title": "Finite positive-Grassmannian top-cell closure",
+      "explicit_formulae": [
+        "[μ_{Gr_+(2,n)}]=n·u_{n-4}",
+        "[μ_{Gr_+(3,6)}]=4·u_3·Ω_D",
+        "[μ_{Gr_+(3,7)}]=u_5(7·ω_A+14·ω_D)"
+      ],
+      "summary": "Exact positive-Grassmannian finite-type top-cell closure = A, D4, E6 only.",
+      "safe_use": "strongest explicit top-interaction representatives currently safe enough to treat as authority",
+      "not_enough_to_conclude": "anything about D_n beyond D4 or any non-Grassmannian family"
+    },
+    {
+      "id": "E5",
+      "status": "M-EXACT",
+      "title": "Support-node orbit law",
+      "explicit_formulae": [
+        "paired support node -> h+2",
+        "fixed support node -> (h+2)/2"
+      ],
+      "summary": "Support coefficients are τ-orbit lengths.",
+      "safe_use": "coefficient law inside solved exact branch",
+      "not_enough_to_conclude": "arbitrary continuation outside solved branch"
+    },
+    {
+      "id": "E6",
+      "status": "M-EXACT",
+      "title": "Parabolic residue recursion",
+      "explicit_formulae": [
+        "Res_Y(μ_Γ)=±μ_{Γ"} for fully supporting facet Y of parabolic type Γ'"
+      ],
+      "summary": "Fully supporting parabolic facets carry the lower top interaction class as residue.",
+      "safe_use": "recursive descent through solved exact branch",
+      "not_enough_to_conclude": "same recursion for generated continuations without rederivation"
+    },
+    {
+      "id": "E7",
+      "status": "U-EXACT+OPEN",
+      "title": "Surfaceology is the next exact frontier",
+      "explicit_formulae": [
+        "curve word C -> matrix M_C -> F_C -> u_C -> α_C"
+      ],
+      "summary": "Surfaceology has exact local finite baseline but not yet equal global footing.",
+      "safe_use": "next exact extraction priority",
+      "not_enough_to_conclude": "global family footing or substrate conclusions"
+    }
+  ],
+  "generated_branches": [
+    {
+      "id": "G1",
+      "status": "GEN",
+      "title": "Additive/formal generated branches",
+      "content": [
+        "ACBM / RCSS / related generated formal objects are internal formal continuations only.",
+        "They are not source-backed exact positive-geometry extraction results."
+      ]
+    },
+    {
+      "id": "G2",
+      "status": "GEN",
+      "title": "D_n continuation beyond exact D4",
+      "content": [
+        "The D_n continuation beyond D4 is a generated extension of the formalism.",
+        "It must not be treated as exact positive-Grassmannian sourced branch."
+      ]
+    },
+    {
+      "id": "G3",
+      "status": "GEN",
+      "title": "CRBSM",
+      "definition": "CRBSM = Chiral Relay Boundary-Sheet Medium: a generated regime class whose primitive state is an oriented codim-1 boundary sheet with chiral relay pockets realizing the quarter-turn transport law.",
+      "content": [
+        "CRBSM is generated and internally coherent.",
+        "CRBSM is NOT the object.",
+        "CRBSM is NOT the chosen substrate target.",
+        "CRBSM is only a generated proxy candidate realization class."
+      ]
+    }
+  ],
+  "bridge_constraints": [
+    {
+      "id": "P1",
+      "status": "BRIDGE",
+      "title": "Support survival",
+      "content": "Useful provisional translation criterion, not theorem-level."
+    },
+    {
+      "id": "P2",
+      "status": "BRIDGE",
+      "title": "Boundary-primary disclosure",
+      "content": "Useful provisional translation criterion, not theorem-level."
+    },
+    {
+      "id": "P3",
+      "status": "BRIDGE",
+      "title": "Apparatus coupling",
+      "content": "Useful provisional translation criterion, not theorem-level."
+    },
+    {
+      "id": "P4",
+      "status": "BRIDGE/SUSPECT",
+      "title": "Persistent relay/support ledger",
+      "content": "Suspect bridge constraint. Must be re-derived from mathematics only or dropped. Must not be treated as settled necessity."
+    }
+  ],
+  "realization_comparison": {
+    "crbsm": "generated_candidate_only",
+    "scattering": "mandatory_comparator_and_current_leading_native_candidate",
+    "rule": "No substrate commitment until stronger mathematics discriminates realizations without importing old machine/operator assumptions."
+  },
+  "exact_finite_closure": {
+    "positive_grassmannian_top_cells_only": [
+      "A",
+      "D4",
+      "E6"
+    ],
+    "not_exact": [
+      "D_n beyond D4",
+      "non-top-cell sectors not yet solved",
+      "continuous/differential branch not yet solved",
+      "higher/coherent branch not yet solved"
+    ]
+  },
+  "next_exact_frontier": {
+    "title": "Surfaceology on equal global footing",
+    "why": "It is the next place where the extracted structure must either survive or fail outside the current finite positive-Grassmannian top-cell closure.",
+    "priority": "highest"
+  },
+  "repo_status": {
+    "used_in_thread": false,
+    "snapshot_attached": true,
+    "full_git_history_attached": false,
+    "meaning": "The package is continuity-bearing and repo-attached, but original pre-snapshot git history is not present."
+  },
+  "required_restart_assertions": [
+    "No substrate commitment has been made.",
+    "CRBSM is generated candidate only.",
+    "Scattering is mandatory comparator and current leading native candidate.",
+    "Exact finite positive-Grassmannian top-cell closure is A, D4, E6 only.",
+    "Support-ledger language is suspect bridge language.",
+    "Surfaceology is the next exact frontier.",
+    "Representative top-interaction formulas must be carried explicitly, not compressed into coefficients only."
+  ]
+}

@@ -1,0 +1,10 @@
+runs/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.zip
+_staging/
+logs/
+*.prof
+archive/imported_raw/projectx/experiments/
+archive/deprecated/

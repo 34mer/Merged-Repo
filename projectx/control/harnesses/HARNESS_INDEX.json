@@ -1,0 +1,566 @@
+{
+  "schema": "projectx_harness_index_v1",
+  "count": 56,
+  "harnesses": [
+    {
+      "name": "behavior_audit_harness",
+      "path": "archive/imported_raw/projectx/experiments/behavior_audit_harness",
+      "file_count": 8,
+      "total_bytes": 12331,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_action_execution_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_action_execution_harness",
+      "file_count": 2,
+      "total_bytes": 38657,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_commitment_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_commitment_harness",
+      "file_count": 2,
+      "total_bytes": 97836,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_dependency_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_dependency_harness",
+      "file_count": 2,
+      "total_bytes": 75530,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_dependency_impact_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_dependency_impact_harness",
+      "file_count": 2,
+      "total_bytes": 149615,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_dependency_validation_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_dependency_validation_harness",
+      "file_count": 2,
+      "total_bytes": 39861,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_execution_consumer_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_execution_consumer_harness",
+      "file_count": 2,
+      "total_bytes": 12051,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_method_choice_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_method_choice_harness",
+      "file_count": 2,
+      "total_bytes": 67469,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_multi_target_arbitration_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_multi_target_arbitration_harness",
+      "file_count": 2,
+      "total_bytes": 67827,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_multi_target_valuation_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_multi_target_valuation_harness",
+      "file_count": 2,
+      "total_bytes": 100500,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_outcome_evaluation_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_outcome_evaluation_harness",
+      "file_count": 2,
+      "total_bytes": 38597,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "causal_world_belief_salience_action_harness",
+      "path": "archive/imported_raw/projectx/experiments/causal_world_belief_salience_action_harness",
+      "file_count": 1,
+      "total_bytes": 14463,
+      "has_summary": true,
+      "has_results": false,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_evidence_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_evidence_harness",
+      "file_count": 5,
+      "total_bytes": 206196,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_executable_plan_compare_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_executable_plan_compare_harness",
+      "file_count": 9,
+      "total_bytes": 2623229,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_control_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_control_harness",
+      "file_count": 2,
+      "total_bytes": 357319,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_coupling_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_coupling_harness",
+      "file_count": 2,
+      "total_bytes": 29407,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_genealogy_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_genealogy_harness",
+      "file_count": 4,
+      "total_bytes": 308,
+      "has_summary": false,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_lineage_surgery_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_lineage_surgery_harness",
+      "file_count": 2,
+      "total_bytes": 39342,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_longitudinal_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_longitudinal_harness",
+      "file_count": 4,
+      "total_bytes": 23934,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_policy_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_policy_harness",
+      "file_count": 2,
+      "total_bytes": 4300,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_feedback_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_feedback_harness",
+      "file_count": 5,
+      "total_bytes": 6842,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_genealogy_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_genealogy_harness",
+      "file_count": 2,
+      "total_bytes": 279,
+      "has_summary": false,
+      "has_results": false,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_harness",
+      "file_count": 2,
+      "total_bytes": 245,
+      "has_summary": false,
+      "has_results": false,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_lifecycle_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_lifecycle_harness",
+      "file_count": 2,
+      "total_bytes": 6894,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_longitudinal_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_longitudinal_harness",
+      "file_count": 2,
+      "total_bytes": 7379,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_surgery_feedback_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_surgery_feedback_harness",
+      "file_count": 2,
+      "total_bytes": 172880,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_surgery_genealogy_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_surgery_genealogy_harness",
+      "file_count": 2,
+      "total_bytes": 34238,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_surgery_lifecycle_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_surgery_lifecycle_harness",
+      "file_count": 2,
+      "total_bytes": 8892,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_surgery_lineage_surgery_feedback_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_surgery_lineage_surgery_feedback_harness",
+      "file_count": 2,
+      "total_bytes": 15983,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_surgery_lineage_surgery_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_surgery_lineage_surgery_harness",
+      "file_count": 1,
+      "total_bytes": 10,
+      "has_summary": false,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_surgery_live_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_surgery_live_harness",
+      "file_count": 2,
+      "total_bytes": 315311,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_execution_recovery_surgery_longitudinal_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_execution_recovery_surgery_longitudinal_harness",
+      "file_count": 2,
+      "total_bytes": 41728,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_plan_compare_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_plan_compare_harness",
+      "file_count": 9,
+      "total_bytes": 17631,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_plan_preview_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_plan_preview_harness",
+      "file_count": 2,
+      "total_bytes": 931,
+      "has_summary": true,
+      "has_results": false,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_plan_score_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_plan_score_harness",
+      "file_count": 9,
+      "total_bytes": 2620903,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_portfolio_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_portfolio_harness",
+      "file_count": 9,
+      "total_bytes": 14455,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_preview_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_preview_harness",
+      "file_count": 5,
+      "total_bytes": 1535,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_replan_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_replan_harness",
+      "file_count": 2,
+      "total_bytes": 9437,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_review_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_review_harness",
+      "file_count": 5,
+      "total_bytes": 1924,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_revision_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_revision_harness",
+      "file_count": 5,
+      "total_bytes": 2615,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_rollback_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_rollback_harness",
+      "file_count": 5,
+      "total_bytes": 1154,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constitutional_sequence_harness",
+      "path": "archive/imported_raw/projectx/experiments/constitutional_sequence_harness",
+      "file_count": 9,
+      "total_bytes": 7751,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constraint_audit_harness",
+      "path": "archive/imported_raw/projectx/experiments/constraint_audit_harness",
+      "file_count": 8,
+      "total_bytes": 15536,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "constraint_reconstruction_harness",
+      "path": "archive/imported_raw/projectx/experiments/constraint_reconstruction_harness",
+      "file_count": 5,
+      "total_bytes": 8113,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "continuity_harness",
+      "path": "archive/imported_raw/projectx/experiments/continuity_harness",
+      "file_count": 13,
+      "total_bytes": 3050451,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "contradiction_trust_harness",
+      "path": "archive/imported_raw/projectx/experiments/contradiction_trust_harness",
+      "file_count": 4,
+      "total_bytes": 1186,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "endurance_harness",
+      "path": "archive/imported_raw/projectx/experiments/endurance_harness",
+      "file_count": 9,
+      "total_bytes": 49020,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "meta_conflict_harness",
+      "path": "archive/imported_raw/projectx/experiments/meta_conflict_harness",
+      "file_count": 3,
+      "total_bytes": 1815,
+      "has_summary": true,
+      "has_results": false,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "native_continual_adaptation_benchmark",
+      "path": "archive/imported_raw/projectx/experiments/native_continual_adaptation_benchmark",
+      "file_count": 2,
+      "total_bytes": 1394460,
+      "has_summary": true,
+      "has_results": false,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "operational_causal_loop_harness",
+      "path": "archive/imported_raw/projectx/experiments/operational_causal_loop_harness",
+      "file_count": 2,
+      "total_bytes": 361382,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "provenance_harness",
+      "path": "archive/imported_raw/projectx/experiments/provenance_harness",
+      "file_count": 4,
+      "total_bytes": 979,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "real_operational_causal_workflow_harness",
+      "path": "archive/imported_raw/projectx/experiments/real_operational_causal_workflow_harness",
+      "file_count": 2,
+      "total_bytes": 137528,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "regeneration_harness",
+      "path": "archive/imported_raw/projectx/experiments/regeneration_harness",
+      "file_count": 9,
+      "total_bytes": 71462,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "trust_evolution_harness",
+      "path": "archive/imported_raw/projectx/experiments/trust_evolution_harness",
+      "file_count": 5,
+      "total_bytes": 1087,
+      "has_summary": true,
+      "has_results": true,
+      "has_scenarios": true,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "v0_memory_burden",
+      "path": "archive/imported_raw/projectx/experiments/v0_memory_burden",
+      "file_count": 5,
+      "total_bytes": 32395,
+      "has_summary": false,
+      "has_results": true,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    },
+    {
+      "name": "world_contact_causal_update_harness",
+      "path": "archive/imported_raw/projectx/experiments/world_contact_causal_update_harness",
+      "file_count": 1,
+      "total_bytes": 47353,
+      "has_summary": true,
+      "has_results": false,
+      "has_scenarios": false,
+      "canonical_status": "archive"
+    }
+  ]
+}

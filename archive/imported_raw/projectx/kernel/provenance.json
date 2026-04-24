@@ -1,0 +1,49 @@
+{
+  "origin_weights": {
+    "invariant_default": 1.0,
+    "anchor_carryover": 0.97,
+    "anchor_restore": 0.95,
+    "integrity_restore": 0.93,
+    "constraint_reconstructed": 0.94,
+    "backbone_promoted": 0.95,
+    "regenerated_survivor": 0.88,
+    "confirmed_update": 0.82,
+    "session_update": 0.66,
+    "legacy_untyped": 0.6,
+    "decayed_session": 0.46,
+    "contradicted_update": 0.28,
+    "error_pressure": 0.72
+  },
+  "conflict_rule": "prefer_higher_trust_then_newer",
+  "protected_origins": [
+    "anchor_carryover",
+    "anchor_restore",
+    "backbone_promoted",
+    "constraint_reconstructed",
+    "integrity_restore",
+    "invariant_default"
+  ],
+  "last_updated": "2026-04-12T16:14:38+00:00",
+  "evolution": {
+    "promotion_touch_threshold": 3,
+    "backbone_touch_threshold": 3,
+    "support_promotion_threshold": 2,
+    "confirm_days": 14,
+    "decay_days": 21,
+    "contradiction_penalty_step": 0.05
+  },
+  "truth_revision": {
+    "protected_reference_source": "anchor_or_integrity",
+    "decision_fields": [
+      "status"
+    ],
+    "unknown_fields": [
+      "class",
+      "status"
+    ],
+    "task_fields": [
+      "status"
+    ],
+    "contradicted_origin": "contradicted_update"
+  }
+}
