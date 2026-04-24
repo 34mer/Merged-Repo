@@ -1,7 +1,7 @@
 {
   "schema": "projectx_formal_check_results_v1",
   "purpose": "Formal check result registry. This records actual result status separately from source extraction and check-target definition.",
-  "result_status_vocab": ["PASS_LEDGER_VALIDATION", "DEFINED_NOT_RUN", "NOT_IMPLEMENTED", "OPEN", "FAILED"],
+  "result_status_vocab": ["PASS_LEDGER_VALIDATION", "PASS_FINITE_CHECK", "DEFINED_NOT_RUN", "NOT_IMPLEMENTED", "OPEN", "FAILED"],
   "results": [
     {
       "target_id": "CHK-COSMO-NESTING-POSSET",
@@ -29,9 +29,9 @@
     },
     {
       "target_id": "CHK-ASSOCIAHEDRON-UNIT-DESCENT",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but noncrossing chord poset checker is not implemented yet.",
-      "artifact": null
+      "result_status": "PASS_FINITE_CHECK",
+      "result_summary": "Implemented finite noncrossing-chord face-poset checker for n=4..8. Every cover relation is strict inclusion by exactly one added noncrossing diagonal under rank(face)=number_of_diagonals; max rank matches n-3 for each checked n. This checks the declared finite baseline only, not a Lean theorem.",
+      "artifact": "formal_handoff/results/CHK-ASSOCIAHEDRON-UNIT-DESCENT.json"
     },
     {
       "target_id": "CHK-M1-SIGN-DESCENT",
