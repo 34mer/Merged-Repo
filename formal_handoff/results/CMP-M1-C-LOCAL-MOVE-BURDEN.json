@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {"detail": "M1 sign-descent artifact has PASS_PARTIAL finite status", "name": "M1_artifact_status", "status": "PASS"},
+    {"detail": "M1 sign-descent artifact has no counterexamples", "name": "M1_counterexamples", "status": "PASS"},
+    {"detail": "All checked M1 covers add exactly one adjacent sign-change edge", "name": "M1_unit_flip_cover_property", "status": "PASS"},
+    {"detail": "M1 finite model preserves global-sign-normalized word/sign-flip-set bijection", "name": "M1_sign_word_bijection", "status": "PASS"},
+    {"detail": "M1 artifact explicitly retains non-theorem/partial boundary", "name": "M1_partial_boundary", "status": "PASS"},
+    {"detail": "C move-class artifact has PASS_PARTIAL finite status", "name": "C_move_artifact_status", "status": "PASS"},
+    {"detail": "C move-class artifact has no counterexamples", "name": "C_move_counterexamples", "status": "PASS"},
+    {"detail": "C finite artifact exposes delete-bracket and contract-minimal-bracket move mechanisms", "name": "C_two_move_classes", "status": "PASS"},
+    {"detail": "C nesting artifact has PASS_PARTIAL finite status", "name": "C_nesting_artifact_status", "status": "PASS"},
+    {"detail": "C nesting artifact has no counterexamples", "name": "C_nesting_counterexamples", "status": "PASS"},
+    {"detail": "C artifacts explicitly retain non-theorem/partial boundaries", "name": "C_partial_boundary", "status": "PASS"}
+  ],
+  "comparator": "finite_artifact_local_move_burden_v1",
+  "compared_families": ["M1", "C"],
+  "counterexamples": [],
+  "input_artifacts": [
+    "formal_handoff/results/CHK-M1-SIGN-DESCENT.json",
+    "formal_handoff/results/CHK-COSMO-MOVE-CLASSES.json",
+    "formal_handoff/results/CHK-COSMO-NESTING-POSSET.json"
+  ],
+  "observed_distinction": {
+    "C_local_cover_mechanism_count": 2,
+    "C_mechanisms": ["delete_bracket", "contract_minimal_bracket"],
+    "C_move_fixture_count": 5,
+    "C_nesting_fixture_count": 5,
+    "M1_checked_n_range": [3, 4, 5, 6, 7, 8, 9],
+    "M1_local_cover_mechanism_count": 1,
+    "M1_mechanisms": ["add_one_adjacent_sign_change_edge"],
+    "finite_distinction": "one binary sign-descent cover mechanism in M1 baseline versus two source-stated local cover mechanisms in C baseline"
+  },
+  "row_scope": ["R2", "R3"],
+  "status": "PASS_PARTIAL_COMPARATOR",
+  "status_boundary": "PASS_PARTIAL_COMPARATOR finite evidence only. This consumes finite baseline artifacts and records a bounded M1/C local-move-burden distinction. It is not a realization-class theorem, not a full amplituhedron theorem, not an all-n proof, not an R13 equality-layer result, and not physics/engineering evidence.",
+  "target_id": "CMP-M1-C-LOCAL-MOVE-BURDEN"
+}

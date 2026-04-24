@@ -17,6 +17,21 @@
       "predicate": "Within the declared finite baseline artifacts, associahedron A has a single local cover mechanism based on adding one noncrossing diagonal, while cosmohedron C has two source-stated cover mechanisms: delete a bracket and contract a minimal bracket. The comparator records finite evidence for a local move-burden distinction without promoting it to all-n theorem or realization-class equivalence.",
       "failure_condition": "Any input artifact is missing, failed, has counterexamples, lacks the expected support boundary, or the finite artifacts do not expose the declared one-vs-two local cover-mechanism split.",
       "status": ["DEFINED", "FINITE_COMPARATOR_PLANNED"]
+    },
+    {
+      "id": "CMP-M1-C-LOCAL-MOVE-BURDEN",
+      "claim_ids": ["EXT-AMP-2013-001", "EXT-BINARY-AMP-001", "EXT-COSMO-001", "EXT-COSMO-COMB-001"],
+      "rows": ["R2", "R3"],
+      "families": ["M1", "C"],
+      "input_artifacts": [
+        "formal_handoff/results/CHK-M1-SIGN-DESCENT.json",
+        "formal_handoff/results/CHK-COSMO-MOVE-CLASSES.json",
+        "formal_handoff/results/CHK-COSMO-NESTING-POSSET.json"
+      ],
+      "checker_layer": "Python finite artifact comparator",
+      "predicate": "Within the declared finite baseline artifacts, M1 has a single binary sign-descent mechanism based on adding one adjacent sign-change edge, while cosmohedron C has two source-stated cover mechanisms: delete a bracket and contract a minimal bracket. The comparator records finite evidence for a local move-burden distinction without promoting it to all-n theorem, full amplituhedron theorem, or realization-class equivalence.",
+      "failure_condition": "Any input artifact is missing, failed, has counterexamples, lacks the expected support boundary, or the finite artifacts do not expose the declared one-vs-two local cover-mechanism split.",
+      "status": ["DEFINED", "FINITE_COMPARATOR_PLANNED"]
     }
   ]
 }
