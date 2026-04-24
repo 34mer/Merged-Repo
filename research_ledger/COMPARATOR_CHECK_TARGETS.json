@@ -1,0 +1,22 @@
+{
+  "schema": "projectx_comparator_check_targets_v1",
+  "purpose": "Comparator targets consume baseline checker artifacts and produce bounded realization-discriminator evidence. These are not theorem results unless separately promoted by formal proof.",
+  "status_vocab": ["DEFINED", "FINITE_COMPARATOR_PLANNED", "OPEN"],
+  "targets": [
+    {
+      "id": "CMP-A-C-LOCAL-MOVE-BURDEN",
+      "claim_ids": ["EXT-SCAT-FORMS-001", "EXT-COSMO-001", "EXT-COSMO-COMB-001"],
+      "rows": ["R2", "R3"],
+      "families": ["A", "C"],
+      "input_artifacts": [
+        "formal_handoff/results/CHK-ASSOCIAHEDRON-UNIT-DESCENT.json",
+        "formal_handoff/results/CHK-COSMO-MOVE-CLASSES.json",
+        "formal_handoff/results/CHK-COSMO-NESTING-POSSET.json"
+      ],
+      "checker_layer": "Python finite artifact comparator",
+      "predicate": "Within the declared finite baseline artifacts, associahedron A has a single local cover mechanism based on adding one noncrossing diagonal, while cosmohedron C has two source-stated cover mechanisms: delete a bracket and contract a minimal bracket. The comparator records finite evidence for a local move-burden distinction without promoting it to all-n theorem or realization-class equivalence.",
+      "failure_condition": "Any input artifact is missing, failed, has counterexamples, lacks the expected support boundary, or the finite artifacts do not expose the declared one-vs-two local cover-mechanism split.",
+      "status": ["DEFINED", "FINITE_COMPARATOR_PLANNED"]
+    }
+  ]
+}
