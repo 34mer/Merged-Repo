@@ -35,9 +35,9 @@
     },
     {
       "target_id": "CHK-M1-SIGN-DESCENT",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but sign-vector boundary/descent enumerator is not implemented yet.",
-      "artifact": null
+      "result_status": "PASS_PARTIAL_FINITE_CHECK",
+      "result_summary": "Implemented finite global-sign-normalized sign-flip poset checker for n=3..9. Sign words are encoded by adjacent sign-change subsets; covers add exactly one adjacent sign-change edge; state and cover counts match the finite binary model. This is partial finite evidence for the declared sign-vector model only, not a full amplituhedron theorem.",
+      "artifact": "formal_handoff/results/CHK-M1-SIGN-DESCENT.json"
     },
     {
       "target_id": "CHK-SURF-U-EQUATION",
