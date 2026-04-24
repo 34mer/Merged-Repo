@@ -54,7 +54,7 @@
     {
       "target_id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
       "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but symbolic shift checker is not implemented yet.",
+      "result_summary": "Check target is defined but symbolic shift/transmutation bridge checker is not implemented yet.",
       "artifact": null
     },
     {
@@ -64,9 +64,15 @@
       "artifact": null
     },
     {
+      "target_id": "CHK-REPRESENTATION-COMPARATOR",
+      "result_status": "DEFINED_NOT_RUN",
+      "result_summary": "Check target is defined but no typed representation-map comparator has been implemented yet.",
+      "artifact": null
+    },
+    {
       "target_id": "LEDGER-SOURCE-EXTRACTION-INTEGRITY",
       "result_status": "PASS_LEDGER_VALIDATION",
-      "result_summary": "Source-extracted claims have source anchors, statuses, and linked formal check targets; every formal check target links back to extracted claims.",
+      "result_summary": "Source-extracted claims have source anchors, statuses, and linked formal check targets; every formal check target links back to extracted claims; the 16-paper source manifest is present and must be fully covered by extracted claims.",
       "artifact": "scripts/validate_source_extraction.py"
     }
   ],
