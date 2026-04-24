@@ -55,7 +55,7 @@
     },
     {
       "id": "CHK-M1-SIGN-DESCENT",
-      "claim_ids": ["EXT-BINARY-AMP-001"],
+      "claim_ids": ["EXT-AMP-2013-001", "EXT-INTO-AMP-2013-001", "EXT-BINARY-AMP-001"],
       "rows": ["R1"],
       "families": ["M1"],
       "checker_layer": "Python finite sign-vector enumeration; later Lean",
@@ -65,18 +65,18 @@
     },
     {
       "id": "CHK-SURF-U-EQUATION",
-      "claim_ids": ["EXT-SURF-001"],
-      "rows": [],
-      "families": ["S"],
+      "claim_ids": ["EXT-SURF-COUNT-2023-001", "EXT-SURF-ALLMULT-2023-001", "EXT-SURF-001", "EXT-YUKAWA-SURF-2024-001"],
+      "rows": ["R1", "R7", "R9", "R10"],
+      "families": ["S", "YUKAWA"],
       "checker_layer": "Python symbolic/finite curve-intersection model",
-      "predicate": "For extracted curve sets, u_C + product_D u_D^{#int(C,D)} = 1 is encoded with the correct intersection exponents.",
-      "failure_condition": "A curve set has missing/interpreted intersection data or equation exponents do not match source-defined intersection numbers.",
+      "predicate": "For extracted curve sets, u_C + product_D u_D^{#int(C,D)} = 1 is encoded with the correct intersection exponents, and surfaceology extensions preserve the declared curve-integral interface where claimed.",
+      "failure_condition": "A curve set has missing/interpreted intersection data, equation exponents do not match source-defined intersection numbers, or an extension claim lacks the needed curve-integral interface.",
       "status": ["DEFINED", "FINITE_CHECK_PLANNED"]
     },
     {
       "id": "CHK-SURF-BINARY-BOUNDARY",
-      "claim_ids": ["EXT-SURF-001"],
-      "rows": [],
+      "claim_ids": ["EXT-SURF-COUNT-2023-001", "EXT-SURF-001"],
+      "rows": ["R1", "R9"],
       "families": ["S"],
       "checker_layer": "Python/Z3 inequality model",
       "predicate": "In positive region, u_C >= 0 plus u-equations force 0 <= u_C <= 1 and incompatible crossing variables approach 1 when u_C -> 0.",
@@ -85,22 +85,32 @@
     },
     {
       "id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
-      "claim_ids": ["EXT-SCAFFOLD-001"],
-      "rows": [],
-      "families": ["S"],
+      "claim_ids": ["EXT-HIDDEN-ZEROS-2023-001", "EXT-SCAFFOLD-001", "EXT-BACKUS-2025-001"],
+      "rows": ["R7", "R9"],
+      "families": ["S", "A"],
       "checker_layer": "Symbolic substitution / source consistency check",
-      "predicate": "The scaffolded-gluon kinematic shift maps the stringy Tr(phi^3) function to the scaffolded-gluon expression under the stated even/even, odd/odd, even/odd partition.",
-      "failure_condition": "The shift is incomplete, index partition is inconsistent, or the transformed measure statement is not derivable from the extracted source claim.",
+      "predicate": "The scaffolded-gluon kinematic shift, hidden-zero bridge, and W_e/transmutation claims are represented as source-bound bridge claims without promoting them to equivalence of realization classes.",
+      "failure_condition": "The shift/transmutation bridge is incomplete, index partition is inconsistent, or a bridge is promoted to realization equivalence without a separate comparator proof.",
       "status": ["DEFINED", "NOT_IMPLEMENTED"]
     },
     {
       "id": "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION",
-      "claim_ids": ["EXT-AMP-PRIME-001"],
+      "claim_ids": ["EXT-AMP-PRIME-001", "EXT-WILSON-POS-2024-001"],
       "rows": [],
-      "families": ["M1"],
+      "families": ["M1", "WILSON"],
       "checker_layer": "Ledger invariant / comparator caution",
-      "predicate": "Any comparator relying on boundary structure or logarithmic form alone must mark same-boundary/different-bulk risk as unresolved unless bulk equivalence is separately checked.",
-      "failure_condition": "A realization equivalence is inferred from same boundary/log-form data without explicit bulk equivalence evidence.",
+      "predicate": "Any comparator relying on boundary structure, logarithmic form, positivity, or bootstrap success alone must mark same-boundary/different-bulk or post-integration-caution risk as unresolved unless bulk/equivalence evidence is separately checked.",
+      "failure_condition": "A realization equivalence is inferred from same boundary/log-form/positivity/bootstrap data without explicit bulk or representation equivalence evidence.",
+      "status": ["DEFINED", "NOT_IMPLEMENTED"]
+    },
+    {
+      "id": "CHK-REPRESENTATION-COMPARATOR",
+      "claim_ids": ["EXT-MOM-AMP-2019-001", "EXT-LOOP-MOM-AMP-2022-001"],
+      "rows": ["R1", "R7"],
+      "families": ["MOM", "LOOP_MOM", "M1"],
+      "checker_layer": "Typed representation-map ledger first; later symbolic/spinor-helicity checks",
+      "predicate": "Momentum and loop-momentum amplituhedron claims are carried as representation-comparator records, separating same-physics claims from equality of geometric realization class.",
+      "failure_condition": "A spinor-helicity or loop-momentum presentation is treated as the same realization class as the momentum-twistor amplituhedron without an explicit representation map and boundary/bulk compatibility check.",
       "status": ["DEFINED", "NOT_IMPLEMENTED"]
     }
   ]
