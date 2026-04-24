@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 from pg_pipeline.scripts.run_batch import run_vertical_slice
@@ -19,4 +20,14 @@ def test_projectx_supervised_slice_records_review(tmp_path: Path, monkeypatch) -
     assert result.status == "passed"
     assert result.summary["review_decision_id"].startswith("review_decision_record:")
     assert result.summary["authority_summary"]["authority_records"] == 4
-    assert (tmp_path / "projectx" / "kernel" / "state" / "state.json").exists()
+    assert result.summary["comparison_summary"]["status"] == "passed"
+    assert result.summary["comparison_summary"]["relation"] == "ordered_specialization"
+    assert result.summary["comparison_summary"]["verdict"] == "supported"
+    assert (tmp_path / "outer" / "realization_comparison" / "comparison_summary.json").exists()
+
+    state_path = tmp_path / "projectx" / "kernel" / "state" / "state.json"
+    assert state_path.exists()
+    state = json.loads(state_path.read_text(encoding="utf-8"))
+    assert state["comparison_runs"]
+    assert state["comparison_runs"][-1]["family"] == "realization_class_comparison"
+    assert state["comparison_runs"][-1]["relation"] == "ordered_specialization"
