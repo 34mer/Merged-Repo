@@ -1,0 +1,104 @@
+{
+  "schema": "projectx_source_pdf_bindings_v1",
+  "purpose": "Bind each canonical source paper id to its checked-in Git LFS PDF pointer so extraction work can resolve paper_id -> repo path -> LFS object.",
+  "paper_count": 16,
+  "lfs_pointer_version": "https://git-lfs.github.com/spec/v1",
+  "bindings": [
+    {
+      "paper_id": "AMP_2013",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2013_The-Amplituhedron_arXiv-1312.2007.pdf.pdf",
+      "lfs_oid_sha256": "553863867402aeb4a95d8ed0b8aac1f17fd7871304972517b09f7503f00eee4d",
+      "lfs_size_bytes": 746209
+    },
+    {
+      "paper_id": "INTO_AMP_2013",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2013_Into-the-Amplituhedron_arXiv-1312.7878.pdf.pdf",
+      "lfs_oid_sha256": "84dbba0a737c5cee5c6aef8213b2a1b72fa19f5d2984b589270f753412865e3c",
+      "lfs_size_bytes": 727296
+    },
+    {
+      "paper_id": "SCAT_FORMS_2017",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2017_Scattering-Forms-and-Positive-Geometry_arXiv-1711.09102.pdf.pdf",
+      "lfs_oid_sha256": "39748494535de9eb9db18ce2b8ac4c16b457f8a6d577c31f2c855bed20c0a876",
+      "lfs_size_bytes": 1710058
+    },
+    {
+      "paper_id": "BINARY_AMP_2017",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2017_Unwinding-the-Amplituhedron-in-Binary_arXiv-1704.05069.pdf.pdf",
+      "lfs_oid_sha256": "78c23cbce3493fadf23199fea539fcba2079d508a8fc4a6bab30e53799bb8a03",
+      "lfs_size_bytes": 1030917
+    },
+    {
+      "paper_id": "AMP_PRIME_2020",
+      "repo_pdf_path": "sources/pdfs/Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.pdf",
+      "lfs_oid_sha256": "5a1f52661860a86ea49c0520d2823118532a5eeb58654b3c87993e4ae4b11ff2",
+      "lfs_size_bytes": 5389036
+    },
+    {
+      "paper_id": "MOM_AMP_2019",
+      "repo_pdf_path": "sources/pdfs/Damgaard_2019_The-Momentum-Amplituhedron_arXiv-1905.04216 (1).pdf",
+      "lfs_oid_sha256": "30cbb5aa4be5d9af33236ed6af89cbe8776b3ea06e0e390c42af2b848431213e",
+      "lfs_size_bytes": 455941
+    },
+    {
+      "paper_id": "LOOP_MOM_AMP_2022",
+      "repo_pdf_path": "sources/pdfs/Ferro_2022_The-Loop-Momentum-Amplituhedron_arXiv-2210.01127 (1).pdf",
+      "lfs_oid_sha256": "59b2402532331870047244649514677d1061977fdad07f0577e22163c68d6872",
+      "lfs_size_bytes": 1177020
+    },
+    {
+      "paper_id": "SURF_COUNT_2023",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2023_All-Loop-Scattering-As-A-Counting-Problem_arXiv-2309.15913 (1).pdf",
+      "lfs_oid_sha256": "cb37cfe3f2c080c5b1d15fb94c2b303a1f4e893c165c1f6d6727db14971ac016",
+      "lfs_size_bytes": 2037487
+    },
+    {
+      "paper_id": "SURF_ALLMULT_2023",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2023_All-Loop-Scattering-For-All-Multiplicity_arXiv-2311.09284 (1).pdf",
+      "lfs_oid_sha256": "0e5b19c13ddd49b506738a1bdeee9a7fe3bbc5f990f5723b6bb89188250f6f98",
+      "lfs_size_bytes": 2169157
+    },
+    {
+      "paper_id": "HIDDEN_ZEROS_2023",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2023_Hidden-Zeros-For-Particle-String-Amplitudes-And-The-Unity-Of-Colored-Scalars-Pions-And-Gluons_arXiv-2312.16282 (1).pdf",
+      "lfs_oid_sha256": "eb0203c51462cb07057d3dbdb596761b6b767f3c5d0587b441af530a7c9ff9f3",
+      "lfs_size_bytes": 5277852
+    },
+    {
+      "paper_id": "SCAFFOLD_GLUONS_2024",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2024_Scalar-Scaffolded-Gluons-And-The-Combinatorial-Origins-Of-Yang-Mills-Theory_arXiv-2401.00041 (1).pdf",
+      "lfs_oid_sha256": "9dd813fb008ff04c7ddb7c18256dcfee03271011a0e68f1d6547c46f9c230f24",
+      "lfs_size_bytes": 4618754
+    },
+    {
+      "paper_id": "YUKAWA_SURF_2024",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2024_Surfaceology-for-Colored-Yukawa_arXiv-2406.04411 (1).pdf",
+      "lfs_oid_sha256": "bda58bb02af05cdd909e53a6f08888e3e9e9e0d4fd3bed49b0decd50f9937614",
+      "lfs_size_bytes": 723550
+    },
+    {
+      "paper_id": "WILSON_POS_2024",
+      "repo_pdf_path": "sources/pdfs/Chicherin_2024_Positivity-Properties-Of-Five-Point-Two-Loop-Wilson-Loops-With-Lagrangian-Insertion_arXiv-2410.11456 (1).pdf",
+      "lfs_oid_sha256": "2f41646892e57bef275e819b4205e5faf71b1f726c203869333650b3b6062de9",
+      "lfs_size_bytes": 1809540
+    },
+    {
+      "paper_id": "COSMO_2024",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2024_Cosmohedra_arXiv-2412.19881.pdf.pdf",
+      "lfs_oid_sha256": "c312c660ae3033f5d5aff98c0391d2ca81ec1183e79de6bf0b3250963a43e49f",
+      "lfs_size_bytes": 9864382
+    },
+    {
+      "paper_id": "BACKUS_2025",
+      "repo_pdf_path": "sources/pdfs/Backus_2025_Surface-Gauge-Invariance-Soft-Limits-And-The-Transmutation-Of-Gluons-Into-Scalars_arXiv-2505.17179 (1).pdf",
+      "lfs_oid_sha256": "82d47af280a7c9fb5c50407bcf2a0c69923d6710fc2fc792b6bfe6c251c59faa",
+      "lfs_size_bytes": 1702378
+    },
+    {
+      "paper_id": "COSMO_COMB_2026",
+      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2026_Combinatorics-of-the-Cosmohedron_arXiv-2603.03425 (1).pdf",
+      "lfs_oid_sha256": "d3760e815003bec184796c60bc1b5cdff5e58b181f629eb1dbb9d3ff5ecfb69c",
+      "lfs_size_bytes": 5084776
+    }
+  ]
+}

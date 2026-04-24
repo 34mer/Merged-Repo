@@ -12,24 +12,47 @@ def read_json(name: str) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def parse_lfs_pointer(path: Path) -> dict[str, str | int]:
+    lines = path.read_text(encoding="utf-8").splitlines()
+    assert lines[0] == "version https://git-lfs.github.com/spec/v1", str(path)
+    oid_line = next(line for line in lines if line.startswith("oid sha256:"))
+    size_line = next(line for line in lines if line.startswith("size "))
+    return {
+        "lfs_oid_sha256": oid_line.removeprefix("oid sha256:"),
+        "lfs_size_bytes": int(size_line.removeprefix("size ")),
+    }
+
+
 def main() -> None:
     corpus = read_json("SOURCE_CORPUS.json")
+    bindings = read_json("SOURCE_PDF_BINDINGS.json")
     claims = read_json("SOURCE_EXTRACTED_CLAIMS.json")
     targets = read_json("FORMAL_CHECK_TARGETS.json")
 
     manifest_paper_ids = {p["paper_id"] for p in corpus["papers"]}
+    binding_paper_ids = {b["paper_id"] for b in bindings["bindings"]}
     claim_ids = [c["id"] for c in claims["claims"]]
     claim_id_set = set(claim_ids)
     target_ids = {t["id"] for t in targets["targets"]}
     claimed_paper_ids = {c["paper_id"] for c in claims["claims"]}
 
     assert corpus["paper_count"] == 16
+    assert bindings["paper_count"] == 16
     assert len(manifest_paper_ids) == 16
+    assert binding_paper_ids == manifest_paper_ids, sorted(manifest_paper_ids ^ binding_paper_ids)
     assert len(claim_ids) == len(claim_id_set), "claim ids must be unique"
     assert manifest_paper_ids <= claimed_paper_ids, sorted(manifest_paper_ids - claimed_paper_ids)
     assert claimed_paper_ids <= manifest_paper_ids, sorted(claimed_paper_ids - manifest_paper_ids)
     assert len(claim_id_set) >= 16
     assert len(target_ids) >= 11
+
+    for binding in bindings["bindings"]:
+        assert binding["paper_id"] in manifest_paper_ids
+        pdf_path = ROOT / binding["repo_pdf_path"]
+        assert pdf_path.exists(), binding["repo_pdf_path"]
+        pointer = parse_lfs_pointer(pdf_path)
+        assert pointer["lfs_oid_sha256"] == binding["lfs_oid_sha256"], binding["paper_id"]
+        assert pointer["lfs_size_bytes"] == binding["lfs_size_bytes"], binding["paper_id"]
 
     for claim in claims["claims"]:
         assert claim["paper_id"] in manifest_paper_ids
