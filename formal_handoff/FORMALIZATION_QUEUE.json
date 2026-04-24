@@ -1,0 +1,56 @@
+{
+  "schema": "projectx_formalization_queue_v1",
+  "purpose": "Prioritized work packets for Aristotle / Lean / Sage / Z3 handoff.",
+  "queue": [
+    {
+      "id": "Q1-R13-EQUALITY-LAYER",
+      "priority": 1,
+      "target_id": "CHK-R13-EQUALITY-LAYER",
+      "recommended_tools": ["Z3", "Lean", "Aristotle"],
+      "goal": "Formalize and test the distinction between intrinsic equality and degenerative/saturation equality for C vs GAssoc.",
+      "inputs": ["EXT-COSMO-002", "EXT-COSMO-COMB-001"],
+      "expected_output": "Either a checked classification predicate for R13 or a counterexample/underdetermination report.",
+      "status": "READY_FOR_FORMALIZATION"
+    },
+    {
+      "id": "Q2-COSMO-MOVE-CLASSES",
+      "priority": 2,
+      "target_id": "CHK-COSMO-MOVE-CLASSES",
+      "recommended_tools": ["Sage", "Python", "Lean"],
+      "goal": "Generate finite cosmohedron/Matryoshka cover data and test primitive move-class multiplicity against A and M1 baselines.",
+      "inputs": ["EXT-COSMO-001", "EXT-COSMO-COMB-001", "EXT-SCAT-FORMS-001", "EXT-BINARY-AMP-001"],
+      "expected_output": "Finite check result for R2/R3 with explicit n-range, counterexamples, and equivalence relation on move classes.",
+      "status": "READY_FOR_FORMALIZATION"
+    },
+    {
+      "id": "Q3-ASSOCIAHEDRON-UNIT-DESCENT",
+      "priority": 3,
+      "target_id": "CHK-ASSOCIAHEDRON-UNIT-DESCENT",
+      "recommended_tools": ["Sage", "Python", "Lean"],
+      "goal": "Verify that noncrossing-chord face-poset covers change rank by one under declared grading.",
+      "inputs": ["EXT-SCAT-FORMS-001"],
+      "expected_output": "Finite checker and/or Lean theorem for associahedron unit descent baseline.",
+      "status": "READY_FOR_FORMALIZATION"
+    },
+    {
+      "id": "Q4-SURF-U-EQUATION",
+      "priority": 4,
+      "target_id": "CHK-SURF-U-EQUATION",
+      "recommended_tools": ["Python", "Sage", "Z3"],
+      "goal": "Encode curve-intersection u-equation and binary boundary behavior for small surface examples.",
+      "inputs": ["EXT-SURF-001"],
+      "expected_output": "Finite curve/intersection examples with u-equation consistency and failure cases.",
+      "status": "READY_FOR_FORMALIZATION"
+    },
+    {
+      "id": "Q5-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION",
+      "priority": 5,
+      "target_id": "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION",
+      "recommended_tools": ["Lean", "Aristotle"],
+      "goal": "Formalize ledger invariant: same boundary/log form cannot imply realization equivalence without a bulk-equivalence proof.",
+      "inputs": ["EXT-AMP-PRIME-001"],
+      "expected_output": "A formal or schema-level guard blocking invalid realization-equivalence promotion.",
+      "status": "READY_FOR_FORMALIZATION"
+    }
+  ]
+}
