@@ -1,0 +1,200 @@
+{
+  "schema": "projectx_row_family_coverage_matrix_v1",
+  "purpose": "Machine-readable row x family coverage state. This is not theorem certification; it records coverage, status, and missing work.",
+  "families": [
+    {"id": "A", "label": "associahedron / noncrossing diagonal family"},
+    {"id": "M1", "label": "amplituhedron m=1 sign-vector family"},
+    {"id": "C", "label": "cosmohedron / Matryoshka family"},
+    {"id": "GAssoc", "label": "graph-associahedral / cosmological-polytope vicinity"},
+    {"id": "S", "label": "surfaceology curve-word / u-variable family"},
+    {"id": "PGfinite", "label": "exact finite positive-Grassmannian branch A/D4/E6"},
+    {"id": "CRBSM", "label": "generated substrate/proxy candidate; not a source family"}
+  ],
+  "coverage_status_vocab": ["SUPPORTED", "PARTIAL", "OPEN", "ABSENT", "GENERATED_ONLY", "DEFICIT"],
+  "rows": [
+    {
+      "row": "R1",
+      "name": "Unit codimension descent",
+      "coverage": {
+        "A": {"status": "PARTIAL", "note": "baseline supports ordinary unit descent; needs source-bound typed predicate"},
+        "M1": {"status": "PARTIAL", "note": "sign descent supports unit-step baseline; needs checker"},
+        "C": {"status": "PARTIAL", "note": "finite baseline supports unit descent; local moves require formalization"},
+        "GAssoc": {"status": "OPEN", "note": "not separately extracted"},
+        "S": {"status": "OPEN", "note": "surfaceology descent analog not extracted"},
+        "PGfinite": {"status": "OPEN", "note": "not mapped into this row"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R2",
+      "name": "Local move multiplicity",
+      "coverage": {
+        "A": {"status": "PARTIAL", "note": "single primitive assumed in current baseline"},
+        "M1": {"status": "PARTIAL", "note": "single primitive assumed in current baseline"},
+        "C": {"status": "PARTIAL", "note": "delete_nonminimal and collapse_children candidates"},
+        "GAssoc": {"status": "OPEN", "note": "not evaluated"},
+        "S": {"status": "OPEN", "note": "surface move classes not extracted"},
+        "PGfinite": {"status": "OPEN", "note": "not mapped"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R3",
+      "name": "Nested-history / linear-extension burden",
+      "coverage": {
+        "A": {"status": "OPEN", "note": "ordinary deletion contrast not formalized"},
+        "M1": {"status": "OPEN", "note": "sign-history contrast not formalized"},
+        "C": {"status": "PARTIAL", "note": "Matryoshka/nesting burden candidate"},
+        "GAssoc": {"status": "OPEN", "note": "not evaluated"},
+        "S": {"status": "OPEN", "note": "curve/surface nesting analog not extracted"},
+        "PGfinite": {"status": "OPEN", "note": "not mapped"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R4",
+      "name": "Exact finite positive-Grassmannian top-cell closure",
+      "coverage": {
+        "A": {"status": "ABSENT", "note": "different A handle; do not confuse with type A finite branch"},
+        "M1": {"status": "ABSENT", "note": "not this branch"},
+        "C": {"status": "ABSENT", "note": "not this branch"},
+        "GAssoc": {"status": "ABSENT", "note": "not this branch"},
+        "S": {"status": "ABSENT", "note": "not this branch"},
+        "PGfinite": {"status": "SUPPORTED", "note": "A/D4/E6-only exact branch"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R5",
+      "name": "Top-interaction coefficient representatives",
+      "coverage": {
+        "A": {"status": "ABSENT", "note": "not current associahedron family row"},
+        "M1": {"status": "ABSENT", "note": "not current m=1 row"},
+        "C": {"status": "ABSENT", "note": "not cosmohedron row"},
+        "GAssoc": {"status": "ABSENT", "note": "not graph-associahedral row"},
+        "S": {"status": "OPEN", "note": "possible comparator to surface coefficients not extracted"},
+        "PGfinite": {"status": "SUPPORTED", "note": "explicit representative formulas carried"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R6",
+      "name": "Support-node orbit law",
+      "coverage": {
+        "A": {"status": "ABSENT", "note": "not current row"},
+        "M1": {"status": "ABSENT", "note": "not current row"},
+        "C": {"status": "ABSENT", "note": "not current row"},
+        "GAssoc": {"status": "ABSENT", "note": "not current row"},
+        "S": {"status": "OPEN", "note": "possible support analog not extracted"},
+        "PGfinite": {"status": "SUPPORTED", "note": "inside solved branch only"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R7",
+      "name": "Parabolic residue recursion",
+      "coverage": {
+        "A": {"status": "OPEN", "note": "residue recursion comparison not extracted"},
+        "M1": {"status": "OPEN", "note": "residue/sign comparison not extracted"},
+        "C": {"status": "OPEN", "note": "cosmohedron factorization comparison not mapped"},
+        "GAssoc": {"status": "OPEN", "note": "not mapped"},
+        "S": {"status": "OPEN", "note": "surface recursion comparison not extracted"},
+        "PGfinite": {"status": "SUPPORTED", "note": "safe recursive descent in solved branch"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R8",
+      "name": "Root-bundle / local transport layer",
+      "coverage": {
+        "A": {"status": "OPEN", "note": "not mapped"},
+        "M1": {"status": "OPEN", "note": "not mapped"},
+        "C": {"status": "OPEN", "note": "not mapped"},
+        "GAssoc": {"status": "OPEN", "note": "not mapped"},
+        "S": {"status": "OPEN", "note": "surface local transport analog not extracted"},
+        "PGfinite": {"status": "PARTIAL", "note": "candidate transport layer, not substrate implication"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R9",
+      "name": "Grouped carriers",
+      "coverage": {
+        "A": {"status": "OPEN", "note": "ordinary chord carriers not mapped to grouped-carrier row"},
+        "M1": {"status": "OPEN", "note": "not mapped"},
+        "C": {"status": "PARTIAL", "note": "subpolygons / Matryoshka carriers"},
+        "GAssoc": {"status": "PARTIAL", "note": "grouped subsets in graph-associahedral vicinity"},
+        "S": {"status": "OPEN", "note": "curves as carriers not extracted into this row"},
+        "PGfinite": {"status": "OPEN", "note": "not mapped"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R10",
+      "name": "Grouped parameters / weights",
+      "coverage": {
+        "A": {"status": "OPEN", "note": "not mapped"},
+        "M1": {"status": "OPEN", "note": "not mapped"},
+        "C": {"status": "PARTIAL", "note": "delta_P / grouped weights"},
+        "GAssoc": {"status": "PARTIAL", "note": "grouped delta/weight layer"},
+        "S": {"status": "OPEN", "note": "u variables not mapped into grouped parameter row"},
+        "PGfinite": {"status": "OPEN", "note": "not mapped"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R11",
+      "name": "Grouped factorization",
+      "coverage": {
+        "A": {"status": "OPEN", "note": "not mapped"},
+        "M1": {"status": "OPEN", "note": "not mapped"},
+        "C": {"status": "PARTIAL", "note": "grouped-carrier factorization candidate"},
+        "GAssoc": {"status": "PARTIAL", "note": "grouped factorization lower layer"},
+        "S": {"status": "OPEN", "note": "curve factorization not mapped"},
+        "PGfinite": {"status": "OPEN", "note": "not mapped"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R12",
+      "name": "Overlap / submodular inequality law",
+      "coverage": {
+        "A": {"status": "OPEN", "note": "not mapped"},
+        "M1": {"status": "OPEN", "note": "not mapped"},
+        "C": {"status": "PARTIAL", "note": "cosmohedron inequality/equality layer candidate"},
+        "GAssoc": {"status": "PARTIAL", "note": "generalized-permutahedral / graph-associahedral law candidate"},
+        "S": {"status": "OPEN", "note": "intersection law may compare but not extracted"},
+        "PGfinite": {"status": "OPEN", "note": "not mapped"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R13",
+      "name": "Equality-layer status",
+      "coverage": {
+        "A": {"status": "OPEN", "note": "not evaluated"},
+        "M1": {"status": "OPEN", "note": "not evaluated"},
+        "C": {"status": "PARTIAL", "note": "intrinsic equality candidate"},
+        "GAssoc": {"status": "PARTIAL", "note": "degenerate/saturation equality candidate"},
+        "S": {"status": "OPEN", "note": "not evaluated"},
+        "PGfinite": {"status": "OPEN", "note": "not evaluated"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    },
+    {
+      "row": "R14",
+      "name": "Missing grouped-carrier equation / full class-matrix deficit",
+      "coverage": {
+        "A": {"status": "DEFICIT", "note": "full coverage missing"},
+        "M1": {"status": "DEFICIT", "note": "full coverage missing"},
+        "C": {"status": "DEFICIT", "note": "full coverage missing"},
+        "GAssoc": {"status": "DEFICIT", "note": "full coverage missing"},
+        "S": {"status": "DEFICIT", "note": "full coverage missing; surfaceology underrepresented"},
+        "PGfinite": {"status": "DEFICIT", "note": "full coverage missing"},
+        "CRBSM": {"status": "GENERATED_ONLY", "note": "not source authority"}
+      }
+    }
+  ],
+  "matrix_completion_status": "STARTED_NOT_COMPLETE",
+  "non_promotion_rule": "No row can be promoted to CHECKED from this matrix alone. Matrix entries are coverage statuses, not proofs."
+}
