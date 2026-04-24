@@ -44,6 +44,7 @@
   ],
   "package_status": [
     {"package":"paper_source_ledger","status":"STARTED","next":"bind exact source ranges and source-backed claims"},
+    {"package":"extraction_ledger","status":"STARTED","next":"keep markdown extraction ledger synchronized with source-extracted claims"},
     {"package":"source_extracted_claims","status":"STARTED","next":"expand from first extraction set to full corpus"},
     {"package":"formal_check_targets","status":"STARTED","next":"implement finite/SMT/Lean checkers"},
     {"package":"formal_check_results","status":"STARTED","next":"add actual checker outputs beyond ledger validation"},
