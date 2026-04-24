@@ -1,20 +1,7 @@
 {
-  "schema": "projectx_continuity_architecture_state_v1",
-  "purpose": "Machine-readable state for research continuity packages around the R1-R14 ledger.",
-  "status_vocab": [
-    "SOURCE_BACKED",
-    "CHECKED",
-    "THREAD_SUPPORTED",
-    "GENERATED",
-    "OPEN",
-    "DEFICIT",
-    "FAILED",
-    "PARTIAL",
-    "PRESENT",
-    "MISSING",
-    "STARTED",
-    "UNDERREPRESENTED"
-  ],
+  "schema": "projectx_continuity_architecture_state_v2",
+  "purpose": "Machine-readable state for research continuity, source extraction, and formal-check target packages around the R1-R14 ledger.",
+  "status_vocab": ["SOURCE_BACKED", "SOURCE_EXTRACTED", "CHECKED", "THREAD_SUPPORTED", "GENERATED", "OPEN", "DEFICIT", "FAILED", "PARTIAL", "PRESENT", "MISSING", "STARTED", "UNDERREPRESENTED"],
   "required_files": [
     "research_ledger/R1_R14_DISCRIMINATOR_LEDGER.md",
     "research_ledger/R1_R14_DISCRIMINATOR_LEDGER.json",
@@ -29,34 +16,41 @@
     "research_ledger/OPERATIONS_REGISTER.md",
     "research_ledger/COLD_START_CONTINUATION_PACKAGE.md",
     "research_ledger/CONTINUITY_ARCHITECTURE_STATE.json",
-    "research_ledger/ROW_FAMILY_COVERAGE_MATRIX.json"
+    "research_ledger/ROW_FAMILY_COVERAGE_MATRIX.json",
+    "research_ledger/SOURCE_EXTRACTED_CLAIMS.json",
+    "research_ledger/FORMAL_CHECK_TARGETS.json",
+    "research_ledger/FORMAL_CHECK_RESULTS.json",
+    "scripts/validate_research_continuity.py",
+    "scripts/validate_source_extraction.py",
+    "scripts/validate_formal_check_results.py"
   ],
   "paper_source_records": [
     {"id":"AMP_2013","title":"The Amplituhedron","families":["M1"],"roles":["positive_geometry_baseline","canonical_form","locality_unitarity_from_positivity"],"status":"STARTED"},
     {"id":"INTO_AMP_2013","title":"Into the Amplituhedron","families":["M1"],"roles":["loop_faces","cuts","path_dependent_residues"],"status":"STARTED"},
-    {"id":"BINARY_AMP_2017","title":"Unwinding the Amplituhedron in Binary","families":["M1"],"roles":["sign_flip_baseline","binary_characterization"],"status":"STARTED"},
-    {"id":"SCAT_FORMS_2017","title":"Scattering Forms and Positive Geometry","families":["A"],"roles":["kinematic_associahedron","scattering_forms","factorization"],"status":"STARTED"},
+    {"id":"BINARY_AMP_2017","title":"Unwinding the Amplituhedron in Binary","families":["M1"],"roles":["sign_flip_baseline","binary_characterization"],"status":"SOURCE_EXTRACTED"},
+    {"id":"SCAT_FORMS_2017","title":"Scattering Forms and Positive Geometry","families":["A"],"roles":["kinematic_associahedron","scattering_forms","factorization"],"status":"SOURCE_EXTRACTED"},
     {"id":"MOM_AMP_2019","title":"The Momentum Amplituhedron","families":["M1"],"roles":["spinor_helicity_realization","representation_comparator"],"status":"STARTED"},
-    {"id":"AMP_PRIME_2020","title":"Positive Geometry, Local Triangulations, and the Dual of the Amplituhedron","families":["M1"],"roles":["same_boundary_different_bulk_caution","local_positive_spaces"],"status":"STARTED"},
+    {"id":"AMP_PRIME_2020","title":"Positive Geometry, Local Triangulations, and the Dual of the Amplituhedron","families":["M1"],"roles":["same_boundary_different_bulk_caution","local_positive_spaces"],"status":"SOURCE_EXTRACTED"},
     {"id":"LOOP_MOM_AMP_2022","title":"The Loop Momentum Amplituhedron","families":["M1"],"roles":["loop_momentum_realization","global_loop_momentum"],"status":"STARTED"},
-    {"id":"SURF_COUNT_2023","title":"All Loop Scattering as a Counting Problem","families":["S"],"roles":["curve_integrals","u_variables","binary_geometry"],"status":"STARTED"},
+    {"id":"SURF_COUNT_2023","title":"All Loop Scattering as a Counting Problem","families":["S"],"roles":["curve_integrals","u_variables","binary_geometry"],"status":"SOURCE_EXTRACTED"},
     {"id":"SURF_ALLMULT_2023","title":"All Loop Scattering for All Multiplicity","families":["S"],"roles":["tree_loop_factorization","all_multiplicity_curve_integrals"],"status":"STARTED"},
     {"id":"HIDDEN_ZEROS_2023","title":"Hidden Zeros for Particle/String Amplitudes","families":["A","S"],"roles":["hidden_zeros","kinematic_shifts","colored_theory_unity"],"status":"STARTED"},
-    {"id":"SCAFFOLD_GLUONS_2024","title":"Scalar-Scaffolded Gluons","families":["S"],"roles":["scalar_scaffolding","gauge_invariance","kinematic_shift"],"status":"STARTED"},
-    {"id":"COSMO_2024","title":"Cosmohedra","families":["C","GAssoc"],"roles":["cosmohedron_baseline","grouped_carriers","equality_layer"],"status":"STARTED"},
+    {"id":"SCAFFOLD_GLUONS_2024","title":"Scalar-Scaffolded Gluons","families":["S"],"roles":["scalar_scaffolding","gauge_invariance","kinematic_shift"],"status":"SOURCE_EXTRACTED"},
+    {"id":"COSMO_2024","title":"Cosmohedra","families":["C","GAssoc"],"roles":["cosmohedron_baseline","grouped_carriers","equality_layer"],"status":"SOURCE_EXTRACTED"},
     {"id":"WILSON_POS_2024","title":"Positivity Properties of Five-Point Two-Loop Wilson Loops","families":["M1"],"roles":["negative_geometry","integrated_positivity","bootstrap_caution"],"status":"STARTED"},
     {"id":"YUKAWA_SURF_2024","title":"Surfaceology for Colored Yukawa Theory","families":["S"],"roles":["fermionic_surfaceology","tensor_extension","numerator_extension"],"status":"STARTED"},
     {"id":"BACKUS_2025","title":"Surface Gauge Invariance, Soft Limits and Transmutation","families":["S"],"roles":["surface_gauge_invariance","soft_limits","transmutation"],"status":"STARTED"},
-    {"id":"COSMO_COMB_2026","title":"Combinatorics of the Cosmohedron","families":["C"],"roles":["matryoshka_face_lattice","cosmohedron_combinatorics","chiseled_polytopes"],"status":"STARTED"}
+    {"id":"COSMO_COMB_2026","title":"Combinatorics of the Cosmohedron","families":["C"],"roles":["matryoshka_face_lattice","cosmohedron_combinatorics","chiseled_polytopes"],"status":"SOURCE_EXTRACTED"}
   ],
   "package_status": [
     {"package":"paper_source_ledger","status":"STARTED","next":"bind exact source ranges and source-backed claims"},
-    {"package":"extraction_ledger","status":"STARTED","next":"turn source relevance records into exact extracted claims"},
+    {"package":"extraction_ledger","status":"STARTED","next":"keep markdown extraction ledger synchronized with source-extracted claims"},
+    {"package":"source_extracted_claims","status":"STARTED","next":"expand from first extraction set to full corpus"},
+    {"package":"formal_check_targets","status":"STARTED","next":"implement finite/SMT/Lean checkers"},
+    {"package":"formal_check_results","status":"STARTED","next":"add actual checker outputs beyond ledger validation"},
     {"package":"row_catalog","status":"PRESENT","next":"type row predicates and bind sources"},
     {"package":"coverage_matrix","status":"STARTED","next":"complete row x family coverage"},
-    {"package":"support_caution_survivor","status":"STARTED","next":"convert to source-bound support chains"},
     {"package":"surfaceology_comparator","status":"STARTED","next":"extract u-variable and curve-matrix rows"},
-    {"package":"proof_obligations","status":"PRESENT","next":"connect obligations to validators and checker outputs"},
     {"package":"tool_mcp_registry","status":"STARTED","next":"wire Python/SymPy/Z3/Sage/polymake/Lean MCP endpoints"}
   ],
   "non_promotion_rules": [
@@ -64,17 +58,16 @@
     "CRBSM must remain GENERATED unless explicit source/checker work changes its status.",
     "Surfaceology cannot be treated as globally compared until S vs A/M1/C packages are populated.",
     "R13 cannot be treated as CHECKED until the intrinsic-vs-degenerate equality predicate is formalized and source-bound.",
+    "SOURCE_EXTRACTED is not CHECKED.",
+    "DEFINED_NOT_RUN is not evidence for the mathematical claim.",
     "A pipeline run is not a proof.",
     "A symbolic scaffold is not a derivation."
   ],
   "next_actions": [
-    {"priority":1,"id":"NA1","action":"Source-bind paper ledger records to exact excerpts."},
-    {"priority":2,"id":"NA2","action":"Expand extraction ledger into exact source claim records."},
-    {"priority":3,"id":"NA3","action":"Complete row x family coverage matrix."},
+    {"priority":1,"id":"NA1","action":"Expand SOURCE_EXTRACTED_CLAIMS across the full paper corpus."},
+    {"priority":2,"id":"NA2","action":"Implement finite checkers for associahedron, cosmohedron, and sign-family baselines."},
+    {"priority":3,"id":"NA3","action":"Implement SMT/Python predicate for R13 equality-layer status."},
     {"priority":4,"id":"NA4","action":"Populate surfaceology comparator from curve-integral and scaffolding papers."},
-    {"priority":5,"id":"NA5","action":"Formalize R13 equality-layer status."},
-    {"priority":6,"id":"NA6","action":"Formalize R2/R3 local move and nested-history predicates."},
-    {"priority":7,"id":"NA7","action":"Add checker outputs for rows before promoting status."},
-    {"priority":8,"id":"NA8","action":"Wire MCP math tools after row/check targets are explicit."}
+    {"priority":5,"id":"NA5","action":"Add actual PASS/FAIL formal check results as checker artifacts become available."}
   ]
 }

@@ -1,0 +1,103 @@
+{
+  "schema": "projectx_source_extracted_claims_v1",
+  "purpose": "First source-bound extraction layer. These records quote or paraphrase exact paper claims and bind them to rows/check targets. They are not proof results.",
+  "status_vocab": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION", "CHECK_TARGET_DEFINED", "OPEN"],
+  "claims": [
+    {
+      "id": "EXT-COSMO-001",
+      "paper_id": "COSMO_2024",
+      "source_file": "Arkani-Hamed_2024_Cosmohedra_arXiv-2412.19881.pdf",
+      "source_anchor": "abstract / introduction",
+      "claim_text": "Cosmohedra are polytopes whose faces capture Russian-doll / non-overlapping subpolygon structures determining the wavefunction; they are related to associahedra by blowing up faces and have facet inequalities that further shave the associahedron.",
+      "families": ["C", "A"],
+      "rows": ["R2", "R3", "R9", "R10", "R11", "R13"],
+      "claim_type": "structural_family_definition",
+      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
+      "formal_check_targets": ["CHK-COSMO-MOVE-CLASSES", "CHK-COSMO-NESTING-POSSET", "CHK-R13-EQUALITY-LAYER"]
+    },
+    {
+      "id": "EXT-COSMO-002",
+      "paper_id": "COSMO_2024",
+      "source_file": "Arkani-Hamed_2024_Cosmohedra_arXiv-2412.19881.pdf",
+      "source_anchor": "Section 1, inequality definition of cosmohedron",
+      "claim_text": "The cosmohedron is obtained by imposing additional inequalities over the associahedron: for each partial triangulation / collection of non-overlapping chords C, sum_{I subset C} X_I >= sum delta_P, with delta_P positive and satisfying delta_P + delta_P' <= delta_{P union P'} + delta_{P intersection P'}, with delta_full = 0.",
+      "families": ["C", "GAssoc"],
+      "rows": ["R9", "R10", "R11", "R12", "R13"],
+      "claim_type": "inequality_layer",
+      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
+      "formal_check_targets": ["CHK-R12-SUBMODULAR-LAW", "CHK-R13-EQUALITY-LAYER"]
+    },
+    {
+      "id": "EXT-COSMO-COMB-001",
+      "paper_id": "COSMO_COMB_2026",
+      "source_file": "Arkani-Hamed_2026_Combinatorics-of-the-Cosmohedron_arXiv-2603.03425.pdf",
+      "source_anchor": "Abstract and Theorem 1.1",
+      "claim_text": "The paper proves the correctness of the cosmohedron construction. The face lattice of the (n-1)-cosmohedron is anti-isomorphic to the poset of Matryoshkas of an (n+2)-gon.",
+      "families": ["C"],
+      "rows": ["R2", "R3", "R9", "R13"],
+      "claim_type": "face_lattice_theorem",
+      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
+      "formal_check_targets": ["CHK-COSMO-NESTING-POSSET", "CHK-COSMO-FACE-LATTICE"]
+    },
+    {
+      "id": "EXT-SCAT-FORMS-001",
+      "paper_id": "SCAT_FORMS_2017",
+      "source_file": "Arkani-Hamed_2017_Scattering-Forms-and-Positive-Geometry_arXiv-1711.09102.pdf",
+      "source_anchor": "Abstract / Sections 3-4",
+      "claim_text": "For bi-adjoint phi^3 theory, the scattering form is directly connected to the kinematic associahedron; the tree amplitude is the canonical form of this positive geometry, and locality/unitarity/factorization follow from the associahedron geometry.",
+      "families": ["A"],
+      "rows": ["R1", "R7"],
+      "claim_type": "associahedron_baseline",
+      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
+      "formal_check_targets": ["CHK-ASSOCIAHEDRON-UNIT-DESCENT", "CHK-ASSOCIAHEDRON-FACTORIZATION"]
+    },
+    {
+      "id": "EXT-BINARY-AMP-001",
+      "paper_id": "BINARY_AMP_2017",
+      "source_file": "Arkani-Hamed_2017_Unwinding-the-Amplituhedron-in-Binary_arXiv-1704.05069.pdf",
+      "source_anchor": "Abstract / Section 1",
+      "claim_text": "The amplituhedron admits fundamentally combinatorial/topological characterizations: projected data have maximal winding number, equivalently canonical one-dimensional projections have a maximal number of sign flips; locality and unitarity follow as consequences of this binary code.",
+      "families": ["M1"],
+      "rows": ["R1"],
+      "claim_type": "binary_sign_family_baseline",
+      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
+      "formal_check_targets": ["CHK-M1-SIGN-DESCENT", "CHK-BINARY-SIGN-FLIP-PREDICATE"]
+    },
+    {
+      "id": "EXT-SURF-001",
+      "paper_id": "SCAFFOLD_GLUONS_2024",
+      "source_file": "Arkani-Hamed_2024_Scalar-Scaffolded-Gluons_And_The_Combinatorial_Origins_Of_Yang_Mills_Theory_arXiv-2401.00041.pdf",
+      "source_anchor": "Introduction and Summary",
+      "claim_text": "The curve-integral formalism defines u_C variables for curves C on a surface satisfying u_C + product_D u_D^{#int(C,D)} = 1; in the positive region this gives binary behavior, and curve integrals use these variables to produce amplitudes and factorization behavior.",
+      "families": ["S"],
+      "rows": ["R1"],
+      "claim_type": "surfaceology_binary_geometry",
+      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
+      "formal_check_targets": ["CHK-SURF-U-EQUATION", "CHK-SURF-BINARY-BOUNDARY"]
+    },
+    {
+      "id": "EXT-SCAFFOLD-001",
+      "paper_id": "SCAFFOLD_GLUONS_2024",
+      "source_file": "Arkani-Hamed_2024_Scalar-Scaffolded-Gluons_And_The_Combinatorial_Origins_Of_Yang_Mills_Theory_arXiv-2401.00041.pdf",
+      "source_anchor": "Introduction and Summary, kinematic shift equations",
+      "claim_text": "Stringy Tr(phi^3) amplitudes determine scaffolded-gluon / Yang-Mills amplitudes by a kinematic shift: Xe,e -> Xe,e + 1/alpha', Xo,o -> Xo,o - 1/alpha', Xe,o unchanged; this changes the measure from product dy_i/y_i to product dy_i/y_i^2 in a scaffolding triangulation.",
+      "families": ["S"],
+      "rows": [],
+      "claim_type": "scaffolding_shift_bridge",
+      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
+      "formal_check_targets": ["CHK-SCAFFOLD-KINEMATIC-SHIFT", "CHK-SCAFFOLD-MEASURE-SHIFT"]
+    },
+    {
+      "id": "EXT-AMP-PRIME-001",
+      "paper_id": "AMP_PRIME_2020",
+      "source_file": "Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf",
+      "source_anchor": "Abstract / Introduction",
+      "claim_text": "Amplituhedron-Prime has the same boundary structure and logarithmic form as the Amplituhedron but differs in the bulk as a geometric space; this is a caution against identifying objects merely by shared boundary/log-form data.",
+      "families": ["M1"],
+      "rows": [],
+      "claim_type": "caution_same_boundary_different_bulk",
+      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
+      "formal_check_targets": ["CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"]
+    }
+  ]
+}
