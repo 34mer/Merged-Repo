@@ -22,7 +22,6 @@
       "artifact": null
     },
     {
-      "id": "CHK-R13-EQUALITY-LAYER",
       "target_id": "CHK-R13-EQUALITY-LAYER",
       "result_status": "DEFINED_NOT_RUN",
       "result_summary": "Check target is defined but intrinsic-vs-degenerative equality predicate has not been formally encoded yet.",
@@ -67,7 +66,7 @@
     {
       "target_id": "CHK-REPRESENTATION-COMPARATOR",
       "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but no typed representation-map comparator has been implemented yet.",
+      "result_summary": "Check target is defined but no typed representation-map comparator has not been implemented yet.",
       "artifact": null
     },
     {
