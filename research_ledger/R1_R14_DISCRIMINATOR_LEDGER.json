@@ -1,0 +1,196 @@
+{
+  "schema": "projectx_r1_r14_discriminator_ledger_v1",
+  "authority_status": "continuity_ledger_not_theorem_certification",
+  "objective": "Extract exact computable families from positive-geometry / amplitudes / cosmological-geometry papers, compare surviving structure across families, and distinguish realization classes before substrate or engineering commitment.",
+  "status_tags": {
+    "SOURCE_BACKED": "Tied to uploaded papers, exact-work handoff, or Lean authority files.",
+    "THREAD_SUPPORTED": "Established by repeated thread comparison but not yet formalized as theorem-level source-bound proof.",
+    "GENERATED": "Generated construction or bridge language; not source authority.",
+    "OPEN": "Unresolved; must not be used as an assumption.",
+    "DEFICIT": "Known missing layer required before closure."
+  },
+  "classes": [
+    {
+      "id": "A",
+      "label": "associahedron / noncrossing diagonal family",
+      "authority": "exact_baseline"
+    },
+    {
+      "id": "M1",
+      "label": "amplituhedron m=1 sign-vector family",
+      "authority": "exact_baseline"
+    },
+    {
+      "id": "C",
+      "label": "cosmohedron / Matryoshka family",
+      "authority": "exact_baseline_through_finite_cases"
+    },
+    {
+      "id": "GAssoc",
+      "label": "graph-associahedral / cosmological-polytope vicinity",
+      "authority": "source_backed_comparison_object"
+    },
+    {
+      "id": "S",
+      "label": "surfaceology curve-word family",
+      "authority": "exact_local_baseline_global_footing_incomplete"
+    },
+    {
+      "id": "PGfinite",
+      "label": "exact finite positive-Grassmannian top-cell closure",
+      "authority": "A_D4_E6_only"
+    },
+    {
+      "id": "CRBSM",
+      "label": "generated substrate/proxy candidate",
+      "authority": "generated_only_not_object"
+    }
+  ],
+  "rows": [
+    {
+      "id": "R1",
+      "name": "Unit codimension descent",
+      "predicate": "Boundary descent proceeds by unit codimension moves.",
+      "status": ["THREAD_SUPPORTED"],
+      "verdict": "Shared lower layer across associahedron, cosmohedron, and amplituhedron m=1; not a class discriminator by itself.",
+      "known_families": ["A", "C", "M1"],
+      "missing": []
+    },
+    {
+      "id": "R2",
+      "name": "Local move multiplicity",
+      "predicate": "Family has more than one primitive immediate-face/local cover move.",
+      "status": ["THREAD_SUPPORTED"],
+      "verdict": "Cosmohedron has at least delete_nonminimal and collapse_children; associahedron and m=1 amplituhedron each have one basic descent primitive in current baseline.",
+      "known_families": ["A", "C", "M1"],
+      "missing": ["formalized move-class equivalence relation"]
+    },
+    {
+      "id": "R3",
+      "name": "Nested-history / linear-extension burden",
+      "predicate": "Objects/faces carry nested-history or linear-extension data beyond ordinary deletion descent.",
+      "status": ["THREAD_SUPPORTED"],
+      "verdict": "Appears cosmohedron-specific in current finite baseline.",
+      "known_families": ["C"],
+      "missing": ["source-bound formal check across broader families"]
+    },
+    {
+      "id": "R4",
+      "name": "Exact finite positive-Grassmannian top-cell closure",
+      "predicate": "Safe finite top-cell closure consists only of A, D4, E6.",
+      "status": ["SOURCE_BACKED"],
+      "verdict": "Non-negotiable authority state; do not extend D_n beyond D4 as exact.",
+      "known_families": ["PGfinite"],
+      "missing": []
+    },
+    {
+      "id": "R5",
+      "name": "Top-interaction coefficient representatives",
+      "predicate": "Explicit representatives are carried: [mu_Gr+(2,n)] = n u_{n-4}; [mu_Gr+(3,6)] = 4 u_3 Omega_D; [mu_Gr+(3,7)] = u_5(7 omega_A + 14 omega_D).",
+      "status": ["SOURCE_BACKED"],
+      "verdict": "Must remain explicit; not compressed into vague coefficient language.",
+      "known_families": ["PGfinite"],
+      "missing": []
+    },
+    {
+      "id": "R6",
+      "name": "Support-node orbit law",
+      "predicate": "Paired support coefficient h+2; fixed support coefficient (h+2)/2.",
+      "status": ["SOURCE_BACKED"],
+      "verdict": "Safe inside solved exact branch only.",
+      "known_families": ["PGfinite"],
+      "missing": []
+    },
+    {
+      "id": "R7",
+      "name": "Parabolic residue recursion",
+      "predicate": "Fully supporting parabolic facets carry lower top-interaction class as residue: Res_Y(mu_Gamma)=±mu_Gamma'.",
+      "status": ["SOURCE_BACKED"],
+      "verdict": "Safe recursive descent through solved branch only.",
+      "known_families": ["PGfinite"],
+      "missing": []
+    },
+    {
+      "id": "R8",
+      "name": "Root-bundle / local transport layer",
+      "predicate": "Intrinsic residue-family bundle and local A2 quarter-turn transport law.",
+      "status": ["THREAD_SUPPORTED"],
+      "verdict": "Candidate faithful local transport layer; does not imply literal substrate realization.",
+      "known_families": ["PGfinite"],
+      "missing": ["direct source-to-realization class binding"]
+    },
+    {
+      "id": "R9",
+      "name": "Grouped carriers",
+      "predicate": "Family admits grouped carriers / grouped subsets supporting factorization or compatibility data.",
+      "status": ["THREAD_SUPPORTED"],
+      "verdict": "Shared by graph-associahedral/cosmological and cosmohedral side; not enough to distinguish R2/R3.",
+      "known_families": ["GAssoc", "C"],
+      "missing": ["full matrix across A, M1, S"]
+    },
+    {
+      "id": "R10",
+      "name": "Grouped parameters / weights",
+      "predicate": "Family has grouped parameters such as delta_P or grouped weights.",
+      "status": ["THREAD_SUPPORTED"],
+      "verdict": "Shared lower layer between graph-associahedral vicinity and cosmohedral construction.",
+      "known_families": ["GAssoc", "C"],
+      "missing": ["exact grouped parameter dictionary per family"]
+    },
+    {
+      "id": "R11",
+      "name": "Grouped factorization",
+      "predicate": "Factorization is expressible at grouped-carrier/grouped-parameter level.",
+      "status": ["THREAD_SUPPORTED"],
+      "verdict": "Shared lower layer; does not separate R2/R3.",
+      "known_families": ["GAssoc", "C"],
+      "missing": ["formal factorization predicate"]
+    },
+    {
+      "id": "R12",
+      "name": "Overlap / submodular inequality law",
+      "predicate": "Grouped parameters obey overlap/submodular inequalities like delta_P + delta_P' <= delta_union + delta_intersection.",
+      "status": ["SOURCE_BACKED", "THREAD_SUPPORTED"],
+      "verdict": "Shared by generalized-permutahedron / graph-associahedron side and cosmohedron-related grouped laws; not the final R2/R3 discriminator.",
+      "known_families": ["GAssoc", "C"],
+      "missing": ["formal source-bound theorem statement"]
+    },
+    {
+      "id": "R13",
+      "name": "Equality-layer status",
+      "predicate": "Equality layer typed as absent / generic inequality / degenerate equality / intrinsic equality.",
+      "status": ["THREAD_SUPPORTED"],
+      "verdict": "Current strongest R2/R3 discriminator: graph-associahedral vicinity reaches equalities by specialization/degeneration; cosmohedron requires many equalities intrinsically.",
+      "known_families": ["GAssoc", "C"],
+      "missing": ["Lean/Sage/Z3 formalization of intrinsic-versus-degenerate distinction"]
+    },
+    {
+      "id": "R14",
+      "name": "Missing grouped-carrier equation / full class-matrix deficit",
+      "predicate": "The exact equation layer and class matrix must be source-bound and formalized across all surviving rows/classes.",
+      "status": ["DEFICIT", "OPEN"],
+      "verdict": "Known gap; not solved. Complete R1-R14 × class matrix, source bindings, proof/check obligations, and unresolved discriminators remain required.",
+      "known_families": [],
+      "missing": ["complete full matrix", "source bindings", "formal checkers", "unresolved discriminator closure"]
+    }
+  ],
+  "current_solved_comparisons": [
+    {
+      "id": "GAssoc_vs_C_R13",
+      "left": "GAssoc",
+      "right": "C",
+      "relation": "ordered_specialization",
+      "verdict": "THREAD_SUPPORTED",
+      "shared_rows": ["R9", "R10", "R11", "R12"],
+      "separating_rows": ["R13"],
+      "summary": "GAssoc equalities appear by special saturation/degeneration; C equalities are intrinsic to grouped compatibility/nontransversal gluing. Therefore distinct but ordered, with C as equality-saturated specialization/refinement of GAssoc-type regime."
+    }
+  ],
+  "global_deficits": [
+    "Previous repo patch only uploaded R2/R3; this ledger uploads R1-R14 continuity state.",
+    "R14 remains explicitly open.",
+    "Rows R9-R13 need full cross-family matrix beyond GAssoc/C.",
+    "No substrate commitment has been made.",
+    "CRBSM remains generated candidate only."
+  ]
+}
