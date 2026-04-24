@@ -1,0 +1,14 @@
+{
+  "schema": "projectx_comparator_check_results_v1",
+  "purpose": "Comparator results consume finite baseline checker artifacts and record bounded discriminator evidence without promoting to theorem status.",
+  "result_status_vocab": ["PASS_PARTIAL_COMPARATOR", "DEFINED_NOT_RUN", "OPEN", "FAILED"],
+  "results": [
+    {
+      "target_id": "CMP-A-C-LOCAL-MOVE-BURDEN",
+      "result_status": "PASS_PARTIAL_COMPARATOR",
+      "result_summary": "Consumes the A associahedron unit-descent finite artifact and the C cosmohedron move-class/nesting finite artifacts. Records finite evidence that A has one checked local cover mechanism, add one noncrossing diagonal, while C exposes two source-stated local cover mechanisms, delete bracket and contract minimal bracket. This is bounded comparator evidence only.",
+      "artifact": "formal_handoff/results/CMP-A-C-LOCAL-MOVE-BURDEN.json"
+    }
+  ],
+  "non_promotion_rule": "PASS_PARTIAL_COMPARATOR is finite discriminator evidence within its declared input-artifact scope. It is not theorem status, not all-n, not R13 equality-layer formalization, and not physics or engineering evidence."
+}
