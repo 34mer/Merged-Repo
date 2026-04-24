@@ -1,0 +1,33 @@
+{
+  "checked_invariants": [
+    "generated covers land in valid finite pre-bracketing states",
+    "delete-bracket and contract-minimal-bracket covers both occur in every nontrivial fixture",
+    "each cover strictly decreases the finite state complexity edge_count + bracket_count",
+    "the directed cover graph is acyclic",
+    "the transitive closure is antisymmetric"
+  ],
+  "checker": "finite_prebracketing_poset_consistency_v1",
+  "counterexamples": [],
+  "fixture_results": [
+    {"acyclic": true, "all_covers_reduce_complexity": true, "antisymmetric_transitive_closure": true, "contract_cover_count": 2, "cover_count": 4, "delete_cover_count": 2, "edge_count": 2, "reachable_pair_count": 4, "state_count": 4, "tree": "path_2_edges"},
+    {"acyclic": true, "all_covers_reduce_complexity": true, "antisymmetric_transitive_closure": true, "contract_cover_count": 13, "cover_count": 30, "delete_cover_count": 17, "edge_count": 3, "reachable_pair_count": 45, "state_count": 15, "tree": "path_3_edges"},
+    {"acyclic": true, "all_covers_reduce_complexity": true, "antisymmetric_transitive_closure": true, "contract_cover_count": 68, "cover_count": 178, "delete_cover_count": 110, "edge_count": 4, "reachable_pair_count": 410, "state_count": 60, "tree": "path_4_edges"},
+    {"acyclic": true, "all_covers_reduce_complexity": true, "antisymmetric_transitive_closure": true, "contract_cover_count": 14, "cover_count": 34, "delete_cover_count": 20, "edge_count": 3, "reachable_pair_count": 52, "state_count": 17, "tree": "claw_3_edges"},
+    {"acyclic": true, "all_covers_reduce_complexity": true, "antisymmetric_transitive_closure": true, "contract_cover_count": 101, "cover_count": 272, "delete_cover_count": 171, "edge_count": 4, "reachable_pair_count": 600, "state_count": 99, "tree": "fork_4_edges"}
+  ],
+  "source_anchors": [
+    "COSMO_COMB_2026: Definition 2.1 Matryoshka poset by containment with maximum element",
+    "COSMO_COMB_2026: Theorem 2.4 order-preserving bijection from Matryoshkas to cosmohedral fan face lattice",
+    "COSMO_COMB_2026: Lemma 2.10 Matryoshka <-> bracketed-tree bijection",
+    "COSMO_COMB_2026: Proposition 2.13 bracketed-tree poset isomorphic to Matryoshka lattice",
+    "COSMO_COMB_2026: Proposition 3.2 pre-bracketings ordered by deletion/contraction biject to positive bracket associahedral fan faces"
+  ],
+  "source_rule_scope": "Finite pre-bracketing/bracketed-tree consistency check for the source-stated Matryoshka/bracketed-tree poset. It verifies that delete-bracket and contract-minimal-bracket cover rules generate an acyclic finite poset on selected small tree fixtures. It does not prove the full Matryoshka face-lattice anti-isomorphism.",
+  "status": "PASS_PARTIAL",
+  "status_boundary": "PASS_PARTIAL finite consistency evidence for CHK-COSMO-NESTING-POSSET. This is not full source-range extraction, not an all-n theorem, and not a proof of the cosmohedron face lattice; it is a finite falsifiable guard for the bracketed-tree/Matryoshka nesting-poset machinery.",
+  "target_id": "CHK-COSMO-NESTING-POSSET",
+  "total_contract_covers": 198,
+  "total_cover_edges": 518,
+  "total_delete_covers": 320,
+  "total_states": 195
+}
