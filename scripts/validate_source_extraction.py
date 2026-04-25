@@ -1,9 +1,18 @@
 from __future__ import annotations
 
+import hashlib
 import json
 from pathlib import Path
+from typing import Literal, TypedDict
 
 ROOT = Path(__file__).resolve().parents[1]
+LFS_POINTER_VERSION = "version https://git-lfs.github.com/spec/v1"
+
+
+class PdfBindingCheck(TypedDict):
+    storage_kind: Literal["git_lfs_pointer", "binary_pdf"]
+    lfs_oid_sha256: str
+    lfs_size_bytes: int
 
 
 def read_json(name: str) -> dict:
@@ -12,14 +21,36 @@ def read_json(name: str) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def parse_lfs_pointer(path: Path) -> dict[str, str | int]:
-    lines = path.read_text(encoding="utf-8").splitlines()
-    assert lines[0] == "version https://git-lfs.github.com/spec/v1", str(path)
+def parse_lfs_pointer_bytes(data: bytes, path: Path) -> PdfBindingCheck | None:
+    try:
+        text = data.decode("utf-8")
+    except UnicodeDecodeError:
+        return None
+
+    lines = text.splitlines()
+    if not lines or lines[0] != LFS_POINTER_VERSION:
+        return None
+
     oid_line = next(line for line in lines if line.startswith("oid sha256:"))
     size_line = next(line for line in lines if line.startswith("size "))
     return {
+        "storage_kind": "git_lfs_pointer",
         "lfs_oid_sha256": oid_line.removeprefix("oid sha256:"),
         "lfs_size_bytes": int(size_line.removeprefix("size ")),
+    }
+
+
+def inspect_pdf_binding(path: Path) -> PdfBindingCheck:
+    data = path.read_bytes()
+    pointer = parse_lfs_pointer_bytes(data, path)
+    if pointer is not None:
+        return pointer
+
+    assert data.startswith(b"%PDF-"), f"Expected Git LFS pointer or binary PDF: {path}"
+    return {
+        "storage_kind": "binary_pdf",
+        "lfs_oid_sha256": hashlib.sha256(data).hexdigest(),
+        "lfs_size_bytes": len(data),
     }
 
 
@@ -46,13 +77,17 @@ def main() -> None:
     assert len(claim_id_set) >= 16
     assert len(target_ids) >= 11
 
+    seen_storage_kinds: set[str] = set()
     for binding in bindings["bindings"]:
         assert binding["paper_id"] in manifest_paper_ids
         pdf_path = ROOT / binding["repo_pdf_path"]
         assert pdf_path.exists(), binding["repo_pdf_path"]
-        pointer = parse_lfs_pointer(pdf_path)
-        assert pointer["lfs_oid_sha256"] == binding["lfs_oid_sha256"], binding["paper_id"]
-        assert pointer["lfs_size_bytes"] == binding["lfs_size_bytes"], binding["paper_id"]
+        checked = inspect_pdf_binding(pdf_path)
+        seen_storage_kinds.add(checked["storage_kind"])
+        assert checked["lfs_oid_sha256"] == binding["lfs_oid_sha256"], binding["paper_id"]
+        assert checked["lfs_size_bytes"] == binding["lfs_size_bytes"], binding["paper_id"]
+
+    assert seen_storage_kinds <= {"git_lfs_pointer", "binary_pdf"}
 
     for claim in claims["claims"]:
         assert claim["paper_id"] in manifest_paper_ids
