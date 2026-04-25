@@ -8,3 +8,4 @@ logs/
 *.prof
 archive/imported_raw/projectx/experiments/
 archive/deprecated/
+formal_lean/.lake/
