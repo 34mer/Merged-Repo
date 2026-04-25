@@ -1,0 +1,75 @@
+{
+  "schema": "formation_previous_gpt_conversation_intake_v1",
+  "purpose": "Register prior GPT conversation exports as local thread-source intake material without promoting their contents to source-extracted or checked status.",
+  "status_vocab": [
+    "LOCAL_SOURCE_INTAKE",
+    "GENERATED_REVIEW_REQUIRED",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_CHECKED",
+    "EXTRACTED_CANDIDATE",
+    "PROMOTION_BLOCKED"
+  ],
+  "non_promotion_rule": "Conversation exports may contain important equations and generated arguments, but they are not source-extracted claims, theorem proofs, or validator results. Extracted items must be separately bound to source papers, repo rows, or check targets before promotion.",
+  "file_count": 3,
+  "files": [
+    {
+      "path": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "size_bytes": 902567,
+      "sha256": "108f7ab67b64fefe2be96609a059428ba3e77d1f2284c25bba66803aed78ea02",
+      "text_chars": 893394,
+      "equation_signal_count": 1158,
+      "status": [
+        "LOCAL_SOURCE_INTAKE",
+        "GENERATED_REVIEW_REQUIRED",
+        "NOT_SOURCE_EXTRACTED",
+        "NOT_CHECKED"
+      ],
+      "notes": "Prior GPT conversation export supplied by user as project source material. Treat as generated/thread-source intake only until extracted into repo-native claims/check targets."
+    },
+    {
+      "path": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "size_bytes": 839475,
+      "sha256": "fbc9d21794f4b285f42e9d096a152b7f5366c3d2ae79e1a26f810122798f640b",
+      "text_chars": 836843,
+      "equation_signal_count": 10495,
+      "status": [
+        "LOCAL_SOURCE_INTAKE",
+        "GENERATED_REVIEW_REQUIRED",
+        "NOT_SOURCE_EXTRACTED",
+        "NOT_CHECKED"
+      ],
+      "notes": "Prior GPT conversation export supplied by user as project source material. Treat as generated/thread-source intake only until extracted into repo-native claims/check targets."
+    },
+    {
+      "path": "Previous Conversations with GPT/Samer Project X - Performative Contradiction Collapse.md",
+      "size_bytes": 1222733,
+      "sha256": "c23cfb16b659efcc12fcb43d431a4e29ba0228d201b6d8b49a970d9d07e9606e",
+      "text_chars": 1209429,
+      "equation_signal_count": 2856,
+      "status": [
+        "LOCAL_SOURCE_INTAKE",
+        "GENERATED_REVIEW_REQUIRED",
+        "NOT_SOURCE_EXTRACTED",
+        "NOT_CHECKED"
+      ],
+      "notes": "Prior GPT conversation export supplied by user as project source material. Treat as generated/thread-source intake only until extracted into repo-native claims/check targets."
+    }
+  ],
+  "next_actions": [
+    {
+      "id": "PGPT-NA1",
+      "action": "Extract equation/candidate objects from the highest equation-signal conversation file into a candidate extraction ledger.",
+      "status": "OPEN"
+    },
+    {
+      "id": "PGPT-NA2",
+      "action": "Map extracted objects to existing rows R1-R14, S2*+S4, or Formation Medium Layer 0 slots.",
+      "status": "OPEN"
+    },
+    {
+      "id": "PGPT-NA3",
+      "action": "Mark each extracted object as GENERATED/OPEN unless independently source-bound or checked.",
+      "status": "OPEN"
+    }
+  ]
+}

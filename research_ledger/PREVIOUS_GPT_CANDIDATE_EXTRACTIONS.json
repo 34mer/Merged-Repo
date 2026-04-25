@@ -1,0 +1,901 @@
+{
+  "schema": "formation_previous_gpt_candidate_extractions_v1",
+  "purpose": "First bounded extraction of candidate equations/objects from prior GPT conversation exports. This is thread-source intake only: generated/open/not source-extracted/not checked.",
+  "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+  "source_sha256": "fbc9d21794f4b285f42e9d096a152b7f5366c3d2ae79e1a26f810122798f640b",
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "LOCAL_SOURCE_INTAKE",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_CHECKED"
+  ],
+  "non_promotion_rule": "Items here are leads for repo integration and proof/source work. They are not source-extracted claims, theorem results, or validated equations.",
+  "candidate_objects": [
+    {
+      "id": "PGPT-XFAM-001",
+      "title": "Exact cross-family row/object extraction leads",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "NEEDS_REVIEW"
+      ],
+      "related_repo_rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "formation_layer_slots": [
+        "FM0.2",
+        "FM0.3",
+        "FM0.7"
+      ],
+      "description": "Prior conversation appears to contain high-density cross-family analysis around R1-R14, exact finite branches, and row/class discriminators. Extract into row-specific candidate records before using in spec work.",
+      "required_next_action": "Split into row-bound candidate records and compare against R1_R14_DISCRIMINATOR_LEDGER.md and PROOF_OBLIGATIONS.md."
+    },
+    {
+      "id": "PGPT-XFAM-002",
+      "title": "Equation-heavy positive-geometry / canonical-form leads",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "NEEDS_REVIEW"
+      ],
+      "related_source_anchors": [
+        "EXT-SCAT-FORMS-001",
+        "EXT-INTO-AMP-2013-001",
+        "EXT-AMP-PRIME-001"
+      ],
+      "formation_layer_slots": [
+        "FM0.4",
+        "FM0.5"
+      ],
+      "description": "Prior conversation contains many equations/signals involving canonical forms, residues, positive geometry, and boundary/readout language. These may support future S2* extraction but remain generated until source-bound.",
+      "required_next_action": "Extract exact equations and map each to source papers or mark GENERATED/OPEN."
+    },
+    {
+      "id": "PGPT-XFAM-003",
+      "title": "Formation-medium substrate/readout leads",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "NEEDS_REVIEW"
+      ],
+      "related_artifacts": [
+        "research_ledger/FORMATION_MEDIUM_LAYER_0_SPEC.md",
+        "research_ledger/S2_STAR_S4_DISTINCTNESS_CANDIDATE.md"
+      ],
+      "formation_layer_slots": [
+        "FM0.1",
+        "FM0.4",
+        "FM0.5",
+        "FM0.6"
+      ],
+      "description": "Prior conversation includes formation-medium, carrier, admissibility, substrate, settling, readout, and bulk-faithfulness language that should be mined for Layer 1 candidate constraints.",
+      "required_next_action": "Extract only as generated design constraints unless tied to source/check rows."
+    }
+  ],
+  "top_snippets": [
+    {
+      "line": 1084,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "=  \n\\{\\,S^{(2),\\chi}_{ij},\\ S^{(4),\\chi}_{ik\\ell j}\\,\\},$$\n\nwith a **bounded flip depth**, a **discrete flip-position label set**, and a **chirality bit**. This is not the $m=1$ sign-vector carrier and not a cosmohedron-style nested carrier. It is a new amplituhedron-side substrate carrier. [SCOAP3+1](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n\nNow the gluing layer. The paper rewrites the faithful chiral pentagon space as a direct sum of four sign-flip spaces, rewrites the relevant one-mass and two-mass-hard boxes in sign-flip language, and then gives the first explicit Prime decompositions:"
+    },
+    {
+      "line": 1107,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "So the substrate summary now sharpens to:\n\n* **not universal:** “single local descent primitive.” Prime does not fit it. Its native operation is overlap-cancelled gluing of two- and four-flip local regions, not a one-step descent operator. [SCOAP3](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n* **survives on amplituhedron side but changes carrier:** bounded local combinatorics with exact membership rules still survives, but the carrier is now $(\\text{flip positions},\\chi)$, not an $m=1$ sign vector. [SCOAP3+1](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n* **new exact row:** `boundary_determined_vs_bulk_sensitive`. Prime proves boundary/log-form data can survive while bulk geometry changes. [SCOAP3+1](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n* **new exact row:** `bounded_flip_depth`. On the one-loop MHV local side the extracted family stops at $4$ sign flips; $6+$ is empty. [SCOAP3+1](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n* **new exact row:** `generic local region = octagon with adjacency-at-flips boundary rule`. Generic four-flip chirality gives an 8-boundary object; adjacency collapse gives pentagon/hexagon degenerations. [SCOAP3+1](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)"
+    },
+    {
+      "line": 2020,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "The distinct part is now:\n\n$$(S1)\\ \\text{exact carrier + admissibility rule}$$ $$(S2^\\*)\\ \\text{intrinsic boundary stratification with unique recursive readout}$$ $$(S3)\\ \\text{local native operations, operation class polymorphic}$$ $$(S4)\\ \\text{bulk non-faithfulness relative to readout}$$\n\nBut only $S2^\\*+S4$ together still look genuinely wedge-bearing after comparison with standard computation. $S1$ and $S3$ are necessary architecture constraints, not decisive distinctness constraints. [Springer Nature+1](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)"
+    },
+    {
+      "line": 2263,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "It is based on a **core pair**:\n\n$$\\boxed{S2^\\*:\\ \\text{canonical boundary semantics}}$$ $$\\boxed{S4:\\ \\text{bulk non-faithfulness relative to that semantics}}$$\n\nThe other rows remain necessary architecture constraints:"
+    },
+    {
+      "line": 2604,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "## Best current fit: asymptotic scattering systems\n\nThe strongest mathematics-first hit is **asymptotic scattering in local field theories and coherent wave systems with genuine in/out channels**. Here the carrier is the legal asymptotic state space subject to on-shell and conservation constraints; the canonical readout is the scattering map or amplitude; and that readout is recursively organized by poles, cuts, unitarity, and factorization. Modern on-shell reviews explicitly describe amplitudes as being determined from their poles and cuts using unitarity and factorization, and recent dispersive work constructs nonperturbative amplitudes by iterating unitarity from spectral input. That is the closest physical realization of $S2^\\*$ I know: the semantic object is not a chosen output register but the canonical scattering data attached to the intrinsic asymptotic boundary of the process. [Annual Reviews+2ScienceDirect+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\n\nThis regime also gives the cleanest physical realization of $S4$. Field-redefinition equivalence theorems show that distinct bulk Lagrangian descriptions can yield the **same $S$-matrix**, so the canonical readout is not faithful to the bulk description. In other words, asymptotic scattering already realizes “same canonical boundary/readout, different bulk description” in a native and nontrivial way. If I take the specification seriously, this is the first physical regime to look at: **relativistic multiparticle scattering in local gauge, scalar, and gravitational field theories**, and more generally any coherent scattering medium whose native semantics is carried by asymptotic channels and factorization data. [ScienceDirect+2ScienceDirect+2](https:/"
+    },
+    {
+      "line": 2606,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "The strongest mathematics-first hit is **asymptotic scattering in local field theories and coherent wave systems with genuine in/out channels**. Here the carrier is the legal asymptotic state space subject to on-shell and conservation constraints; the canonical readout is the scattering map or amplitude; and that readout is recursively organized by poles, cuts, unitarity, and factorization. Modern on-shell reviews explicitly describe amplitudes as being determined from their poles and cuts using unitarity and factorization, and recent dispersive work constructs nonperturbative amplitudes by iterating unitarity from spectral input. That is the closest physical realization of $S2^\\*$ I know: the semantic object is not a chosen output register but the canonical scattering data attached to the intrinsic asymptotic boundary of the process. [Annual Reviews+2ScienceDirect+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\n\nThis regime also gives the cleanest physical realization of $S4$. Field-redefinition equivalence theorems show that distinct bulk Lagrangian descriptions can yield the **same $S$-matrix**, so the canonical readout is not faithful to the bulk description. In other words, asymptotic scattering already realizes “same canonical boundary/readout, different bulk description” in a native and nontrivial way. If I take the specification seriously, this is the first physical regime to look at: **relativistic multiparticle scattering in local gauge, scalar, and gravitational field theories**, and more generally any coherent scattering medium whose native semantics is carried by asymptotic channels and factorization data. [ScienceDirect+2ScienceDirect+2](https://www.sciencedirect.com/science/article/pii/002955826"
+    },
+    {
+      "line": 2612,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "## Strong near-hit: coherent integrable media\n\nThe next class is **integrable coherent media with nonzero boundary conditions**: matrix/vector nonlinear Schrödinger media, Ablowitz–Ladik-type lattices, nonlinear optical media, and spinor Bose–Einstein condensates. In these systems the carrier is exact scattering data; admissibility is built into the spectral problem; and the inverse problem reconstructs the field through Marchenko/Riemann–Hilbert-type machinery from asymptotic boundary data. This is a very strong realization of $S1$, $S2^\\*$, and $S3$. The fact that the same inverse-scattering formalism appears in optical systems, fermionic condensates, and spinor BEC models is exactly the kind of cross-regime recurrence your wedge wants. [Springer+2Springer+2](https://link.springer.com/article/10.1080/14029251.2015.1023583?utm_source=chatgpt.com)\n\nBut this class is usually **too faithful**. Inverse scattering is designed to reconstruct the bulk from the scattering data, so full canonical readout tends to determine the bulk rather than leave non-faithful room in the Prime sense. So coherent integrable media are mathematically close, but often fail $S4$ precisely because their boundary/scattering data is too complete. They are near-hits, not the best fit. [Springer+1](https://link.springer.com/article/10.1080/14029251.2015.1023583?utm_source=chatgpt.com)"
+    },
+    {
+      "line": 2620,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "The third class is **two-dimensional topologically ordered phases with gapped boundaries**: fractional quantum Hall fluids, non-Abelian anyon media, and toric-code-like topological orders. These systems have an exact carrier given by anyon sectors and fusion rules; admissibility is exact; local native operations are polymorphic—fusion, splitting, braiding, condensation, defect motion; and boundary structure is intrinsic rather than merely chosen. Boundary-bulk duality and anyon condensation can even determine bulk $R$ and $F$ data from boundary excitations, and there are explicit protocols that use boundary half-braidings to identify topological order. [OUP Academic+2PMC+2](https://academic.oup.com/nsr/article/10/3/nwac264/6845754?utm_source=chatgpt.com)\n\nBut here the mathematics cuts the other way. If the canonical readout is rich enough—full $R,F$ data or the full gapped-boundary phase—then the bulk is often **uniquely** determined. There are papers making exactly that point: the bulk is the “center” of the boundary theory, and the bulk can be uniquely identified from boundary-bulk duality data. That means this class strongly satisfies $S1$–$S3$, but often **fails $S4$**. So ordinary topological order is not the target substrate; it is an important near-miss that clarifies the target. [ScienceDirect+1](https://www.sciencedirect.com/science/article/pii/S0550321317302183?utm_source=chatgpt.com)\n\n## Exploratory non-computing regimes: classical topological continua"
+    },
+    {
+      "line": 2626,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "The mathematics also points beyond quantum many-body systems to **classical topological continua**. Two concrete examples already exist: **magnetized cold plasmas** and even **diffusive media**, both of which support bulk-edge correspondence. This matters because it shows boundary-structured semantics is not confined to quantum materials or engineered topological circuits. The regime itself—continuum plasma dynamics, classical diffusion—can carry intrinsic bulk/edge structure and local native evolution. [Nature+2Nature+2](https://www.nature.com/articles/s41467-021-24189-3?utm_source=chatgpt.com)\n\nThese are not full fits yet. I do **not** know a source-backed canonical recursive readout in these systems that matches $S2^\\*$ in the positive-geometry sense, and I do **not** know a Prime-style $S4$ witness for them. But mathematics-first, they belong on the list because they show that the right search space is broader than “quantum computing hardware”: **classical field continua with intrinsic topological boundary structure are live terrain**. [Nature+1](https://www.nature.com/articles/s41467-021-24189-3?utm_source=chatgpt.com)\n\n## What survives the mathematics-first pass"
+    },
+    {
+      "line": 19021,
+      "tags": [
+        "R_rows",
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 14,
+      "snippet": "More formally, reject any substrate class with any of the following properties:\n\n$$\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\text{(R2) no native ordered family decomposition;}$$ $$\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\text{(R4) no persistent channel separation before readout.}$$\n\nThat kills:"
+    },
+    {
+      "line": 664,
+      "tags": [
+        "S_labels",
+        "equations",
+        "substrate"
+      ],
+      "score": 12,
+      "snippet": "surfaceology_curve_update_algeb…\n    \n* `compact state carrier + exact delta readout`: surfaceology contributes this strongly via $M_C$, $\\alpha_C$, and MCG quotienting. [SCOAP³](https://scoap3-prod-backend.s3.cern.ch/media/files/88613/10.1007/JHEP09%282024%29160_a.pdf)\n* `compressed_vs_enumerated_gap`: still genuinely cosmohedron-specific in the present extraction.\n\nThat closes the suspicion loop. There is **no current evidence** that associahedron, cosmohedron, or amplituhedron-$m=1$ were built on the wrong paper objects. The evidence says the weak point is the translation from exact extraction to summary."
+    },
+    {
+      "line": 1096,
+      "tags": [
+        "S_labels",
+        "equations",
+        "substrate"
+      ],
+      "score": 12,
+      "snippet": "$$\\text{gluing} = \\text{expand sign ambiguities} \\;\\to\\; \\text{discard empty }(>4\\text{-flip}) \\;\\to\\; \\text{cancel even overlaps}.$$\n\nThis is not descent by deleting one primitive. It is not cosmohedral collapse. It is not $m=1$ zeroing. It is **overlap-cancellation over local sign-flip regions**. That is a genuinely new substrate operation class extracted from source. [SCOAP3](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n\nThe bulk/boundary discriminator is now exact. The paper states that the spaces constituting Amplituhedron-Prime always include at least one inequality of the form $\\langle AB\\,ii{+}1\\rangle<0$, so the bulk of $A'$ is entirely **non-overlapping** with the original amplituhedron $A$. At the same time, $A'$ has **only physical boundaries** and **exactly the same integrand / canonical form** as $A$. This is the first exact paper in your set that cleanly separates:"
+    },
+    {
+      "line": 2038,
+      "tags": [
+        "S_labels",
+        "equations",
+        "substrate"
+      ],
+      "score": 12,
+      "snippet": "The next work is no longer “is the spec distinct from ordinary computation?” That has been reduced to a sharper object. The next work is:\n\n$$\\boxed{\\text{formalize } S2^\\* \\text{ as a substrate criterion precise enough to test candidate physical realizations}}$$\n\nNot more family extraction unless a new paper can kill $S2^\\*$ or $S4$."
+    },
+    {
+      "line": 2058,
+      "tags": [
+        "S_labels",
+        "equations",
+        "substrate"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\nHere is the next work: **formal substrate criterion $S2^\\*$** in a testable form.\n\nIt is abstracted from the exact positive-geometry pattern: a **unique canonical form** is fixed by logarithmic singularities on all boundaries, with residues on each boundary equal to the canonical form on that boundary; on the amplituhedron side, locality and unitarity are derived from the geometry rather than assumed; lower-dimensional faces compute nontrivial cuts; and Prime shows that the same boundary/log-form data can coexist with different bulk geometry. [Springer Nature+3Springer Nature+3Springer Nature+3](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)"
+    },
+    {
+      "line": 2652,
+      "tags": [
+        "S_labels",
+        "equations",
+        "substrate"
+      ],
+      "score": 12,
+      "snippet": "* **2D topological orders with intrinsic boundaries**, especially fractional quantum Hall and non-Abelian anyon phases;\n* **classical topological continua**, especially magnetized plasmas and topological diffusion media. [Nature+4Springer+4Springer+4](https://link.springer.com/article/10.1007/JHEP11%282023%29005?utm_source=chatgpt.com)\n\nAmong these, **scattering systems are the only class I am currently comfortable naming as the leading full-fit direction**. The others are mathematically serious, but they either lose $S4$ by becoming too faithful, or they have not yet shown a canonical recursive readout strong enough to count as $S2^\\*$.\n\n* * *"
+    },
+    {
+      "line": 4758,
+      "tags": [
+        "S_labels",
+        "equations",
+        "substrate"
+      ],
+      "score": 12,
+      "snippet": "* **commutative residue semantics**: remembers terminal strata but identifies reconvergent path orderings/routes,\n* **atom shadow**: remembers only terminal atom totals.\n\nSo the sharpened substrate row $S2^\\*$ has itself branched.\n\nThat is important. It means any physical realization candidate will have to be asked:"
+    },
+    {
+      "line": 1070,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations"
+      ],
+      "score": 11,
+      "snippet": "For the generic four-flip chiral sector, the paper gives the decisive boundary statement: **the only codimension-one boundaries are those adjacent to the sign-flip positions**, hence the logarithmic form has **exactly eight boundaries** in the generic case, and each chiral component is identified with a **chiral octagon** (up to four-mass-box corrections needed to normalize the canonical form). This is the first exact finite Prime family object. [SCOAP3+1](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n\nThe generic octagon has exact sourced degenerations. The paper says the chiral octagons **degenerate to simpler spaces when $i,k,\\ell,j$ become adjacent**, and that the earlier pentagon and hexagon examples are precisely boundary cases of the generic octagon. Concretely, the paper had already exhibited a 5-point chiral pentagon as a four-flip chiral region and two 6-point chiral hexagons as lower-point four-flip examples, before stating that these are recovered as octagon degenerations. [SCOAP3+1](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n\nThe second exact local object is the **chiral two-flip sector**"
+    },
+    {
+      "line": 1090,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations"
+      ],
+      "score": 11,
+      "snippet": "$$A'_0(5,0,1)=P^{(1)}_{24}+B^{(3)}_{12}+B^{(3)}_{45},$$ $$A'_0(6,0,1)=P^{(1)}_{35}+P^{(1)}_{24}+P^{(1)}_{25}+B^{(3)}_{13}+B^{(3)}_{46}+B^{(1)}_{12,56}.$$\n\nIt then says that after expanding ambiguous signs, discarding $>4$-flip patterns, and cancelling even overlaps, one gets a **uniform non-overlapping description** of Amplituhedron-Prime directly in terms of sign-flip-two and sign-flip-four spaces. The all-$n$ formula is presented as a **conjecture**, not yet a theorem. [SCOAP3+2SCOAP3+2](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n\nThat gives the exact native gluing primitive on the Prime side:"
+    },
+    {
+      "line": 5732,
+      "tags": [
+        "S_labels",
+        "positive_geometry",
+        "equations"
+      ],
+      "score": 11,
+      "snippet": "Yes. Those are the right native sources for the next step.\n\n**Positive geometries and canonical forms** is the load-bearing source for the sharpened $S2^\\*$ row, because it gives exactly the recursive uniqueness pattern: a unique canonical differential form with logarithmic singularities on all boundaries, with residues on each boundary equal to the canonical form on that boundary. That is the direct geometric prototype for the coherent branch, not the additive shadow. [Springer+1](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)\n\nAnd **the positive Grassmannian** is the right place to look for the missing coherent structure, because the positroid stratification / plabic-graph picture is already telling you that boundary data is not just a ranked set with weights; there are multiple presentations of the same cell and combinatorial moves between them. The positive-Grassmannian literature ties those strata to plabic graphs and cluster structure, which is much closer to a factorization category/groupoid than to a bare weighted multicover. [Springer+1](https://link.springer.com/article/10.1007/JHEP10%282014%29031?utm_source=chatgpt.com)"
+    },
+    {
+      "line": 712,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "$$\\text{geometric amplituhedron object} \\;\\stackrel{?}{=}\\; \\text{binary/winding avatar}$$\n\nnot as a separate family row. In your current state, the $m=1$ sign-vector extraction is already living on that binary side, so Binary/Winding mainly tells you whether the amplituhedron substrate you extracted from sign vectors is genuinely representation-free or was an artifact of the $m=1$ presentation. The paper’s “if and only if under projections” language is exactly the source-backed bridge you needed for that audit. [ar5iv+1](https://ar5iv.org/abs/1704.05069)\n\n**Prime is the next real family extraction.**  \nThe 2021 paper says all local positive spaces relevant for one-loop MHV are characterized by sign-flip conditions; in the maximal sign-flip case they are **finite one-loop octagons**. It then says particular combinations of these sign-flip spaces glue into local pentagon geometries that do **not** triangulate the original amplituhedron but rather its twin **Amplituhedron-Prime**, which has the **same boundary structure** and therefore the same logarithmic form, while differing in the **bulk** as a geometric space. That is a genuinely new family-level signal, not just a reformulation. [Springer+2Springer+2](https://link.springer.com/article/10.1007/JHEP01%282021%29035)"
+    },
+    {
+      "line": 719,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "That means the next exact substrate question is no longer “does sign-flip survive another presentation?” It is sharper:\n\n$$\\text{which substrate constraints are boundary-determined, and which are bulk-sensitive?}$$\n\nPrime is the first paper in your set that directly attacks that row, because it supplies two geometries with the **same boundary/log form data** but different bulk geometry. If a candidate substrate constraint survives from amplituhedron to Prime, it is plausibly boundary-determined. If it fails, it is bulk-sensitive. None of associahedron/cosmohedron/amplituhedron-$m=1$/surfaceology currently gives you that discriminator. [Springer+1](https://link.springer.com/article/10.1007/JHEP01%282021%29035)"
+    },
+    {
+      "line": 721,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "$$\\text{which substrate constraints are boundary-determined, and which are bulk-sensitive?}$$\n\nPrime is the first paper in your set that directly attacks that row, because it supplies two geometries with the **same boundary/log form data** but different bulk geometry. If a candidate substrate constraint survives from amplituhedron to Prime, it is plausibly boundary-determined. If it fails, it is bulk-sensitive. None of associahedron/cosmohedron/amplituhedron-$m=1$/surfaceology currently gives you that discriminator. [Springer+1](https://link.springer.com/article/10.1007/JHEP01%282021%29035)\n\nSo the next exact work should be:"
+    },
+    {
+      "line": 776,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "* exact boundary strata,\n    * exact adjacency/incidence graph for the octagon family. [Springer](https://link.springer.com/article/10.1007/JHEP01%282021%29035)\n2. **Then extract the first gluing layer.**  \n    The next exact object after isolated octagons is the paper’s pentagon gluing data: which combinations of sign-flip spaces assemble into the local pentagon geometries, and how those combinations land on Prime rather than the original amplituhedron. This is where the new substrate row appears: $$\\texttt{boundary\\_determined\\_vs\\_bulk\\_sensitive}.$$ Anything surviving from amplituhedron to Prime is boundary-determined; anything that breaks is bulk-sensitive. [Springer](https://link.springer.com/article/10.1007/JHEP01%282021%29035)\n3. **Keep Binary/Winding in the audit lane.**  \n    `Unwinding` says the amplituhedron has an equivalent combinatorial/topological characterization by maximal generalized winding, equivalently maximal sign flips after projection to one dimension. That makes it a **representation-equivalence theorem** for the amplituhedron side, not the next family object. Use it only after the Prime extraction to test whether the sign-flip substrate rows you currently trust are representation-free. [Springer+1](https://link.springer.com/article/10.1007/JHEP01%282018%29016)\n4. **Use the 2020 sign-flip triangulation paper as support, not as the main family.**"
+    },
+    {
+      "line": 780,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "3. **Keep Binary/Winding in the audit lane.**  \n    `Unwinding` says the amplituhedron has an equivalent combinatorial/topological characterization by maximal generalized winding, equivalently maximal sign flips after projection to one dimension. That makes it a **representation-equivalence theorem** for the amplituhedron side, not the next family object. Use it only after the Prime extraction to test whether the sign-flip substrate rows you currently trust are representation-free. [Springer+1](https://link.springer.com/article/10.1007/JHEP01%282018%29016)\n4. **Use the 2020 sign-flip triangulation paper as support, not as the main family.**  \n    That paper says sign-flip methods directly reproduce canonical forms for NMHV, $N^2$MHV tree, and NMHV one-loop cases, and it gives evidence for equivalence of the original and topological definitions. It is useful as a bridge for extracting explicit sign-flip cells and for checking that the Prime-side local spaces are being read in the right combinatorial language. But it is subordinate to Prime for the next substrate result. [Springer+1](https://link.springer.com/article/10.1007/JHEP05%282020%29121)\n\nSo the exact next frontier is:"
+    },
+    {
+      "line": 796,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "What you are trying to learn from this extraction is not “more amplituhedron detail.” It is this single substrate discriminator:\n\n$$\\boxed{\\text{which constraints are fixed by boundary/log-form data, and which require bulk geometry?}}$$\n\nPrime is the next paper in your set that can answer that exactly."
+    },
+    {
+      "line": 810,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "**ChatGPT:**\n\nI’m locking the next work down to paper sections and exact targets now, so it stops floating at the slogan level. The goal is a smallest nontrivial Prime extraction with a crisp pass/fail against the existing amplituhedron-$m=1$ substrate rows.\n\n* * *"
+    },
+    {
+      "line": 844,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "then\n\n$$\\boxed{\\text{boundary/log-form fixed, bulk varied} \\to \\text{new substrate row}}$$\n\nThat is the next real move."
+    },
+    {
+      "line": 879,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "That second step is where the new substrate row appears:\n\n$$\\texttt{boundary\\_determined\\_vs\\_bulk\\_sensitive}.$$\n\nIf a constraint survives amplituhedron $\\to$ Prime, it is boundary-determined; if it breaks while boundary/log-form data stay fixed, it is bulk-sensitive. [Springer Nature+2Springer Nature+2](https://link.springer.com/article/10.1007/JHEP01%282021%29035)"
+    },
+    {
+      "line": 881,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "$$\\texttt{boundary\\_determined\\_vs\\_bulk\\_sensitive}.$$\n\nIf a constraint survives amplituhedron $\\to$ Prime, it is boundary-determined; if it breaks while boundary/log-form data stay fixed, it is bulk-sensitive. [Springer Nature+2Springer Nature+2](https://link.springer.com/article/10.1007/JHEP01%282021%29035)\n\nBinary/Winding is **not** the next family extraction. The paper says it gives a fundamentally combinatorial/topological characterization of the amplituhedron by maximal generalized winding, equivalently by maximal sign flips after canonical projection to one dimension. That makes it an **equivalence audit** on the amplituhedron side, not a new family row. Use it after the Prime octagon extraction to test whether the amplituhedron-side substrate rows are representation-free. [Springer Nature+3Springer Nature+3Springer Nature+3](https://link.springer.com/article/10.1007/JHEP01%282018%29016)"
+    },
+    {
+      "line": 901,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "And the pass/fail question is now precise:\n\n$$\\boxed{\\text{Which current amplituhedron-side substrate constraints are fixed by boundary/log-form data, and which require bulk geometry?}}$$\n\nThat is the next work."
+    },
+    {
+      "line": 941,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "3. **Use Sign-Flip Triangulations only as support while extracting Prime.**  \n    That paper says the sign-flip characterization reproduces canonical forms for NMHV and $N^2$MHV tree level and NMHV one-loop, and gives strong evidence for equivalence of the original amplituhedron definition and the topological/sign-flip one. It also realizes the NMHV one-loop amplituhedron as the intersection of two lower-dimensional amplituhedra. So it is the right support source for explicit sign-flip cell language while building the Prime octagon extraction, but it is not the next family row. [Springer Nature+2Springer Nature+2](https://link.springer.com/article/10.1007/JHEP05%282020%29121)\n4. **After octagons, extract the first pentagon gluing layer immediately.**  \n    The Prime paper explicitly says particular combinations of sign-flip spaces glue into local pentagon geometries, and these pentagons land on Prime rather than the original amplituhedron. That is the second exact deliverable, because it is where the new substrate discriminator appears: $$\\texttt{boundary\\_determined\\_vs\\_bulk\\_sensitive}.$$ Anything surviving amplituhedron $\\to$ Prime is boundary-determined; anything breaking at fixed boundary/log-form data is bulk-sensitive. [Springer Nature](https://link.springer.com/article/10.1007/JHEP01%282021%29035)\n\nSo the next exact frontier is:"
+    },
+    {
+      "line": 1010,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "1. On the amplituhedron one-loop local side, the native state space is **flip-bounded**: only $0,2,4$ sign-flip sectors survive; $>4$ is empty. [Springer Nature+1](https://link.springer.com/content/pdf/10.1007/JHEP01%282021%29035.pdf)\n2. The maximal surviving local object is **not** “generic bulk cell” but a **four-flip chiral sector** with a small discrete carrier $(i,k,\\ell,j,\\chi)$. [Springer Nature+1](https://link.springer.com/content/pdf/10.1007/JHEP01%282021%29035.pdf)\n3. Prime is built by **gluing sign-flip-two and sign-flip-four sectors** so that spurious codim-3 boundaries disappear. [Springer Nature+2Springer Nature+2](https://link.springer.com/content/pdf/10.1007/JHEP01%282021%29035.pdf)\n4. Prime’s bulk is disjoint from the original amplituhedron bulk because each constituent region has at least one inequality of the form $\\langle AB\\,i\\,i{+}1\\rangle<0$, yet the paper states Prime has only physical boundaries and the **same integrand / logarithmic form** as the original amplituhedron. That is exactly your new `boundary_determined_vs_bulk_sensitive` row. [Springer Nature+1](https://link.springer.com/content/pdf/10.1007/JHEP01%282021%29035.pdf)\n\nSo the exact next coding object is no longer vague. It is:"
+    },
+    {
+      "line": 1098,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "This is not descent by deleting one primitive. It is not cosmohedral collapse. It is not $m=1$ zeroing. It is **overlap-cancellation over local sign-flip regions**. That is a genuinely new substrate operation class extracted from source. [SCOAP3](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)\n\nThe bulk/boundary discriminator is now exact. The paper states that the spaces constituting Amplituhedron-Prime always include at least one inequality of the form $\\langle AB\\,ii{+}1\\rangle<0$, so the bulk of $A'$ is entirely **non-overlapping** with the original amplituhedron $A$. At the same time, $A'$ has **only physical boundaries** and **exactly the same integrand / canonical form** as $A$. This is the first exact paper in your set that cleanly separates:\n\n$$\\text{same boundary/log form} \\;\\not\\Rightarrow\\; \\text{same bulk geometry}.$$"
+    },
+    {
+      "line": 1100,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "The bulk/boundary discriminator is now exact. The paper states that the spaces constituting Amplituhedron-Prime always include at least one inequality of the form $\\langle AB\\,ii{+}1\\rangle<0$, so the bulk of $A'$ is entirely **non-overlapping** with the original amplituhedron $A$. At the same time, $A'$ has **only physical boundaries** and **exactly the same integrand / canonical form** as $A$. This is the first exact paper in your set that cleanly separates:\n\n$$\\text{same boundary/log form} \\;\\not\\Rightarrow\\; \\text{same bulk geometry}.$$\n\nThat is your new substrate row. [SCOAP3+1](https://scoap3-prod-backend.s3.cern.ch/media/files/59243/10.1007/JHEP01%282021%29035_a.pdf)"
+    },
+    {
+      "line": 1178,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the honest state is:\n\n* **exactly extracted now:** bounded flip depth, Prime local carriers $S^{(2),\\chi}_{ij}$ and $S^{(4),\\chi}_{ik\\ell j}$, generic octagon status, degeneration to pentagon/hexagon boundary cases, and the new substrate row `boundary_determined_vs_bulk_sensitive` because Prime has the same boundary/log-form data as the amplituhedron while differing in bulk. [Springer Nature+1](https://link.springer.com/article/10.1007/JHEP01%282021%29035?utm_source=chatgpt.com)\n* **not yet extractable from this paper as an exact closed family graph:** a full combinatorial incidence/move graph for all octagon sectors. The paper gives membership, boundary counts, degeneration facts, and explicit low-point gluings, but not a closed all-sector adjacency table in the way associahedron/cosmohedron/$m=1$ sign-vectors gave you. [Springer Nature](https://link.springer.com/article/10.1007/JHEP01%282021%29035?utm_source=chatgpt.com)\n\nSo I should **stop here on Prime for now** unless the goal is to build a derived combinatorial model from the paper rather than extract one directly. That would be a new construction step, not another source-extraction step."
+    },
+    {
+      "line": 1213,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the next work is **not another family unless it changes the substrate specification**.\n\nPrime already did its job. It added a genuinely new substrate discriminator: one-loop local spaces are organized by bounded sign-flip sectors $0,2,4$, the maximal local sectors are chiral octagons, and Amplituhedron-Prime has the **same boundary/log-form data** as the amplituhedron while differing in the **bulk**. That means the amplituhedron side has already contributed the new row `boundary_determined_vs_bulk_sensitive`. [Springer Nature](https://link.springer.com/article/10.1007/JHEP01%282021%29035?utm_source=chatgpt.com)\n\nSo the largest remaining unresolved amplituhedron-side question is now **representation dependence**. `Unwinding` is the right next work because it says the amplituhedron has a fundamentally combinatorial/topological characterization by maximal generalized winding, equivalently by maximal sign flips after canonical projection to one dimension. That makes it the exact source for testing whether the amplituhedron-side substrate rows you extracted are genuinely representation-free, or whether they were artifacts of one specific sign-flip presentation. [Springer Nature+1](https://link.springer.com/article/10.1007/JHEP01%282018%29016?utm_source=chatgpt.com)"
+    },
+    {
+      "line": 1219,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the next work is this, and only this:\n\n$$\\boxed{\\text{Binary/Winding audit of the amplituhedron-side substrate rows}}$$\n\nConcretely, take the amplituhedron-side rows now on the table and classify each as:"
+    },
+    {
+      "line": 1236,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "That audit is the next work because it directly answers the actual object-level question:\n\n$$\\text{which amplituhedron-side substrate constraints survive a change of representation?}$$\n\nIf a row survives Prime **and** Binary/Winding, it becomes a much stronger substrate candidate. If it survives Prime but fails Binary/Winding, it is not substrate-level; it is presentation-level. That is exactly the distinction you are trying to make. [Springer Nature+1](https://link.springer.com/article/10.1007/JHEP01%282021%29035?utm_source=chatgpt.com)"
+    },
+    {
+      "line": 1242,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the work order is now:\n\n$$\\boxed{\\text{Prime gave bulk-vs-boundary}}$$ $$\\boxed{\\text{Binary/Winding now tests representation invariance}}$$ $$\\boxed{\\text{then update the substrate specification}}$$\n\nNot “more work for no reason.” This is the smallest remaining move that still changes the substrate spec."
+    },
+    {
+      "line": 1277,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the next work is:\n\n$$\\boxed{\\text{Binary/Winding audit of the amplituhedron-side substrate rows}}$$\n\nNot “read another paper for completeness.” The exact question is:"
+    },
+    {
+      "line": 1318,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the next work is:\n\n$$\\boxed{\\text{take the current amplituhedron-side substrate rows and audit them under Binary/Winding}}$$\n\nThe rows to test are: bounded flip structure, carrier shape, boundary structure, and the Prime bulk-vs-boundary split. The output is not another family count table. The output is a three-way classification:"
+    },
+    {
+      "line": 1468,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "The concrete deliverable is:\n\n$$\\boxed{\\text{one exact amplituhedron-side substrate table}}$$\n\nwith columns"
+    },
+    {
+      "line": 1492,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the exact next question is:\n\n$$\\boxed{\\text{Which amplituhedron-side constraints are representation-invariant, which are presentation-bound, and which are bulk-sensitive?}}$$\n\nThat means the immediate work item is:"
+    },
+    {
+      "line": 1496,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "That means the immediate work item is:\n\n1. mark each current amplituhedron-side row as $$\\text{representation-invariant} \\;|\\; \\text{presentation-bound} \\;|\\; \\text{bulk-sensitive}$$\n2. then fold that result back into the global eight-paper substrate spec.\n\nAfter that, the next work is the **final integrated eight-paper substrate specification**:"
+    },
+    {
+      "line": 1529,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "Amplituhedron block audit: **closed enough to change the substrate spec.**\n\nThe paper-level facts are now stable. **The Amplituhedron** gives the original object: amplitudes are identified with the “volume” of a new positive geometry, and locality/unitarity are derived consequences rather than primitive inputs. **Into the Amplituhedron** then develops the boundary/cut side of that object: the unitarity double-cut follows from positive geometry, and lower-dimensional faces compute nontrivial cuts to all loop orders. **Unwinding** gives an equivalent combinatorial/topological presentation by maximal winding, equivalently maximal sign flips after canonical projection to one dimension, and says locality/unitarity follow from that binary code. **Sign flip triangulations** says the sign-flip presentation reproduces canonical forms for NMHV, $N^2$MHV tree level and NMHV one-loop, and gives strong evidence for equivalence of the original and topological definitions. **Prime** says one-loop MHV local positive spaces are sign-flip-defined; maximal sign-flip sectors are finite octagons; and Amplituhedron-Prime has the same boundary structure and logarithmic form as the amplituhedron while differing in the bulk. [Springer Nature+9Springer Nature+9Springer Nature+9](https://link.springer.com/article/10.1007/JHEP10%282014%29030)\n\nFrom that, the amplituhedron-side substrate verdict is:"
+    },
+    {
+      "line": 1534,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "From that, the amplituhedron-side substrate verdict is:\n\n**1. Carrier shape: presentation-bound, not substrate-level.**  \nOriginal amplituhedron uses the positive-geometry image; Unwinding re-presents it as winding/sign-flip data on projected configurations; Sign flip triangulations works directly with sign-flip cells; Prime local spaces use discrete flip-position labels plus chirality; your current extracted $m=1$ family uses normalized sign vectors with zero entries. That is too much carrier drift for “sign-vector carrier” to count as a surviving substrate constraint. The carrier is **not** invariant; only some structure carried by it is. [Springer Nature+4Springer Nature+4Springer Nature+4](https://link.springer.com/article/10.1007/JHEP01%282018%29016)\n\n**2. Global membership primitive for the original amplituhedron: representation-invariant.**  \nThis one survives. Original amplituhedron membership is geometric/positive; Unwinding says the same object is equivalently characterized by maximal winding or maximal sign flips after projection; Sign flip triangulations says the sign-flip presentation reproduces canonical forms and provides strong evidence for equivalence with the original definition. So “membership is controlled by sign/winding data” survives a representation change on the amplituhedron side. [Springer Nature+4Springer Nature+4Springer Nature+4](https://link.springer.com/article/10.1007/JHEP01%282018%29016)"
+    },
+    {
+      "line": 1543,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "Original amplituhedron says locality/unitarity emerge from positive geometry. Into makes the cut/face content explicit. Unwinding says locality/unitarity are elementary consequences of the binary code. Sign flip triangulations reproduces the canonical forms from the sign-flip presentation. Prime then says Amplituhedron-Prime has the same boundary structure and therefore the same logarithmic form as the amplituhedron, while differing in bulk. So boundary/log-form data is a real surviving row. [Springer Nature+5Springer Nature+5Springer Nature+5](https://link.springer.com/article/10.1007/JHEP10%282014%29030)\n\n**4. Native operation type: presentation-bound.**  \nYour current $m=1$ extracted avatar has a single local descent primitive, `zero_entry`, and codim-1 immediate faces by zeroing one nonzero entry. That is exact for the extracted $m=1$ sign-vector family. But it does **not** survive the full amplituhedron block. Sign flip triangulations is about constructive triangulation from sign-flip data, not zero-entry descent. Prime local spaces are glued by overlap management among sign-flip sectors, not by one-step zeroing. The original and Into papers do not canonize any single local descent primitive either. So the `single_local_descent_primitive=True` row in your current cross-family summary is true only for the $m=1$ avatar, not for the amplituhedron block as a substrate claim. [Springer Nature+4Springer Nature+4Springer Nature+4](https://link.springer.com/article/10.1007/JHEP05%282020%29121)\n\n**5. Boundary-vs-bulk sensitivity: bulk-sensitive, now exact.**  \nPrime is decisive here. It states that the twin geometry has the same boundary structure and the same logarithmic form as the amplituhedron but differs in the bulk as a geometric space. So “boundary/log-form data dete"
+    },
+    {
+      "line": 1555,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "$$\\boxed{\\text{demote } \\texttt{amplituhedron\\_m1.single\\_local\\_descent\\_primitive}}$$\n\nIt remains exact as a statement about the extracted $m=1$ sign-vector family, but it should **not** be promoted to an amplituhedron-side substrate constraint. What actually survives amplituhedron-wide is narrower:\n\n$$\\boxed{\\text{sign/winding-controlled membership and boundary data survive}}$$ $$\\boxed{\\text{fixed carrier shape and fixed local descent primitive do not}}$$ $$\\boxed{\\text{boundary/log-form data does not fix bulk}}$$"
+    },
+    {
+      "line": 1557,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "It remains exact as a statement about the extracted $m=1$ sign-vector family, but it should **not** be promoted to an amplituhedron-side substrate constraint. What actually survives amplituhedron-wide is narrower:\n\n$$\\boxed{\\text{sign/winding-controlled membership and boundary data survive}}$$ $$\\boxed{\\text{fixed carrier shape and fixed local descent primitive do not}}$$ $$\\boxed{\\text{boundary/log-form data does not fix bulk}}$$\n\nThat is the real work product from the amplituhedron block. [Springer Nature+5Springer Nature+5Springer Nature+5](https://link.springer.com/article/10.1007/JHEP01%282018%29016)"
+    },
+    {
+      "line": 1600,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "**1. What actually survives as substrate-level so far**\n\nThe strongest surviving row is **native symbolic carrier + exact admissibility rule**. Every extracted family has one, but the carrier itself changes: noncrossing diagonal sets for associahedron, Matryoshkas for cosmohedron, sign/winding/flip data for amplituhedron presentations, curve-word / $2\\times2$ matrix / headlight data for surfaceology, and flip-position plus chirality labels for Prime local spaces. So the invariant is **not a specific carrier**, but the existence of a compact exact carrier with a paper-native membership predicate. That survives across the whole program.\n\nassociahedron_exact"
+    },
+    {
+      "line": 1612,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "[Springer Nature+4Springer Nature+4Springer Nature+4](https://link.springer.com/article/10.1007/JHEP05%282018%29096?utm_source=chatgpt.com)\n\nThe next real survivor is **boundary/readout structure is load-bearing**. For associahedron the tree-level amplitude is the canonical form of the kinematic associahedron; for the original amplituhedron locality and unitarity emerge from positive geometry; Into makes cuts and lower-dimensional faces explicitly load-bearing; Unwinding says locality and unitarity are elementary consequences of the binary/winding code; Sign-flip triangulations reproduces canonical forms from the sign-flip presentation; Prime keeps the same boundary structure and logarithmic form; surfaceology gives exact headlight readout $\\alpha_C$ on its matrix carrier. So “the object is governed by exact boundary/readout data” survives far better than any particular move set. [Springer Nature+6Springer Nature+6Springer Nature+6](https://link.springer.com/article/10.1007/JHEP05%282018%29096?utm_source=chatgpt.com)\n\nA narrower but still robust survivor is **exact local structure exists, but the operation type is not universal**. In some families it is immediate-face descent; in others it is generative update; in Prime it is overlap-managed gluing of local sign-flip regions. What survives is only that the family is locally computable by native operations. The specific operation class does not survive."
+    },
+    {
+      "line": 1626,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "**2. What is not substrate-level**\n\n`single_local_descent_primitive` does **not** survive the eight-paper program. It is exact for associahedron and for your extracted amplituhedron-$m=1$ sign-vector family, but false for cosmohedron, inapplicable to current surfaceology extraction, and false again on the Prime side where the native local composition is overlap-cancelled gluing of sign-flip regions rather than one-step descent. So this row has to be demoted from “substrate candidate” to “family/presentation-specific convenience.”\n\ncross_family_exact_summary"
+    },
+    {
+      "line": 1634,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "[Springer Nature+1](https://link.springer.com/article/10.1007/JHEP01%282021%29035?utm_source=chatgpt.com)\n\nLikewise, **fixed carrier shape** is not substrate-level. The amplituhedron block itself kills that claim: the original geometry, the binary/winding formulation, the sign-flip triangulation formulation, the $m=1$ sign-vector avatar, and Prime local sign-flip sectors are all genuine amplituhedron-side presentations or relatives, but they do not share one carrier shape. So any claim of the form “the substrate is really sign vectors” is too presentation-bound.\n\namplituhedron_m1_sign_exact"
+    },
+    {
+      "line": 1650,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "[Cool Papers+1](https://papers.cool/arxiv/2603.03425?utm_source=chatgpt.com)\n\n**Surfaceology-specific:** compact $2\\times2$ matrix carrier, exact $F/u/\\alpha/\\det$ readout, and two local prefix-growth primitives $eL,eR$. That is exact and load-bearing for surfaceology/Yukawa, but it is not yet a sourced codim-1 face/descent family on the same footing as associahedron/cosmohedron/amplituhedron-$m=1$. So it contributes a strong **readout-carrier** row, not a descent row.\n\nsurfaceology_curve_update_algeb…"
+    },
+    {
+      "line": 1658,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "[Springer Nature](https://link.springer.com/article/10.1007/JHEP09%282024%29160?utm_source=chatgpt.com)\n\n**Prime-local-specific:** bounded one-loop MHV local flip depth $0,2,4$, maximal four-flip chiral octagon sectors, and local-region gluing by overlap cancellation. That is exact for the Prime local-space analysis; it is not yet justified as a global amplituhedron-wide substrate law. [Springer Nature](https://link.springer.com/article/10.1007/JHEP01%282021%29035?utm_source=chatgpt.com)\n\n**4. Representation-specific rows**"
+    },
+    {
+      "line": 1666,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "**Representation-invariant on the amplituhedron side:** membership controlled by sign/winding data; boundary/log-form data as the primary observable. The original amplituhedron, Unwinding, and Sign-flip triangulations all support this, and Prime does not break it. [Springer Nature+3Springer Nature+3Springer Nature+3](https://link.springer.com/article/10.1007/JHEP10%282014%29030?utm_source=chatgpt.com)\n\n**Presentation-bound on the amplituhedron side:** the $m=1$ normalized sign-vector carrier and its `zero_entry` descent rule. Those are exact for the extracted $m=1$ family, but they do not survive the full amplituhedron block as substrate claims.\n\namplituhedron_m1_sign_exact"
+    },
+    {
+      "line": 1921,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "The real next work is therefore not broad paper expansion. It is to strengthen the only row that still looks truly distinctive:\n\n$$\\boxed{\\text{boundary/readout primacy}}$$\n\nIt needs to be upgraded from “boundary matters a lot” to something harder, such as:"
+    },
+    {
+      "line": 1964,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "meaning all four conditions hold at once:\n\n$$(B1)\\ \\partial X \\text{ is intrinsic to the object, not user-designated}$$ $$(B2)\\ \\Omega_X \\text{ is canonical and recursively fixed by boundary data}$$ $$(B3)\\ \\Omega_X \\text{ is primary semantics; bulk is interpreted through it, not vice versa}$$ $$(B4)\\ \\Omega \\text{ is non-faithful on bulk: } X\\neq Y \\text{ can have the same boundary/readout semantics}$$\n\nThis is exactly the positive-geometry pattern. The 2017 positive-geometries paper defines a unique canonical form by logarithmic singularities on all boundaries, with residues on each boundary equal to the canonical form on that boundary. That is $B1+B2$ in explicit form. `Into the amplituhedron` then uses lower-dimensional faces to compute cuts, which is $B3$: the physically relevant readout is organized from the face/boundary structure. Prime gives $B4$: the twin geometry has the same boundary structure and logarithmic form as the amplituhedron while differing in the bulk. [Springer Nature+2Springer Nature+2](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)"
+    },
+    {
+      "line": 1966,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "$$(B1)\\ \\partial X \\text{ is intrinsic to the object, not user-designated}$$ $$(B2)\\ \\Omega_X \\text{ is canonical and recursively fixed by boundary data}$$ $$(B3)\\ \\Omega_X \\text{ is primary semantics; bulk is interpreted through it, not vice versa}$$ $$(B4)\\ \\Omega \\text{ is non-faithful on bulk: } X\\neq Y \\text{ can have the same boundary/readout semantics}$$\n\nThis is exactly the positive-geometry pattern. The 2017 positive-geometries paper defines a unique canonical form by logarithmic singularities on all boundaries, with residues on each boundary equal to the canonical form on that boundary. That is $B1+B2$ in explicit form. `Into the amplituhedron` then uses lower-dimensional faces to compute cuts, which is $B3$: the physically relevant readout is organized from the face/boundary structure. Prime gives $B4$: the twin geometry has the same boundary structure and logarithmic form as the amplituhedron while differing in the bulk. [Springer Nature+2Springer Nature+2](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)\n\nSo the distinctive row is not “boundary output exists.” It is:"
+    },
+    {
+      "line": 1970,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the distinctive row is not “boundary output exists.” It is:\n\n$$\\boxed{\\text{intrinsic boundary stratification } \\Rightarrow \\text{ unique recursive readout}}$$\n\ntogether with"
+    },
+    {
+      "line": 1982,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "### Classical state/update machines\n\nA state machine is defined by states, inputs, and a transition function. Outputs are a variant feature attached to states or transitions in Moore/Mealy-style machines. There is no intrinsic boundary stratification and no canonical recursively boundary-determined observable. Internal state is native, yes, but boundary semantics is not. So classical state/update models fail $B1$, $B2$, and $B3$; they only share the weak “bulk can hide behind same observations” intuition behind $B4$. [XLinux+1](https://xlinux.nist.gov/dads/HTML/finiteStateMachine.html?utm_source=chatgpt.com)\n\n### SAT/SMT"
+    },
+    {
+      "line": 1994,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "### Open systems / structured cospans / open Petri nets\n\nThis is the closest standard comparison class. Open Petri nets explicitly designate some places as interface, and structured cospans treat systems with inputs and outputs as morphisms that compose by gluing interfaces; semantics can then be given by operational or reachability functors. But this still falls short of $B^\\*$: the interface is **designated as open** by the modeler, and semantics is assigned after that opening. It is not an intrinsic boundary stratification canonically forcing a unique recursive readout in the positive-geometry sense. So this class partially matches compositional gluing, but only reaches your sharpened row **by modeling extension**, not natively. [Cambridge University Press & Assessment+1](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FCF268D95C31551004D9DFFD545F37D3/S0960129504004311a.pdf/compositional_semantics_for_open_petri_nets_based_on_deterministic_processes.pdf?utm_source=chatgpt.com)\n\n## Updated verdict"
+    },
+    {
+      "line": 2008,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the wedge does **not** collapse to “ordinary computation already has this.”  \nIt survives in a narrower form:\n\n$$\\boxed{\\text{the candidate substrate must make boundary semantics intrinsic and canonical, not chosen}}$$\n\nand simultaneously"
+    },
+    {
+      "line": 2080,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "### Axiom B1: intrinsic boundary stratification\n\nFor each legal object $x\\in X$, the substrate determines a finite or locally finite family of codimension-one boundary strata\n\n$$\\partial_1 x=\\{f_1,\\dots,f_m\\}$$"
+    },
+    {
+      "line": 2182,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the wedge-bearing claim is now sharper than before:\n\n$$\\boxed{\\text{the substrate must natively implement canonical boundary semantics with non-faithful bulk}}$$\n\nnot merely “supports outputs” or “supports interfaces.”"
+    },
+    {
+      "line": 2204,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "### T2. Uniqueness test\n\nGiven the same legal object $x$, does $C$ force a unique canonical readout $\\Omega_C(x)$ from the boundary recursion law?\n\nPass:  \none canonical semantics."
+    },
+    {
+      "line": 2463,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "3. **Canonical semantics file**  \n    Definition of $\\Omega$, recursion law, and uniqueness argument.\n4. **Non-faithfulness witness file**  \n    A pair $x,y$ with same boundary/readout but different bulk.\n5. **Local generator file**  \n    Definition of $\\mathcal G$ and proof/witness that $\\Delta\\Omega$ factors through $\\Delta\\partial$.\n6. **Complexity/scaling note**"
+    },
+    {
+      "line": 2551,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "`candidate_shortlist_generation_v1`\n\nResult first: **none of the obvious candidate classes is engineering-eligible under G1–G6.** The only class that comes even close to the wedge-bearing core $(G2,G3,G4,G5)$ is **topological-order / anyonic substrates**. Everything else is either plainly encoding-first or has designated interfaces rather than intrinsic boundary semantics. [Nature+5OUP Academic+5Microsoft+5](https://academic.oup.com/nsr/article/10/3/nwac264/6845754?utm_source=chatgpt.com)\n\n**1) Topological-order / anyonic / TQFT-like substrates — closest current candidate, but still below Class C.**  \nWhat is native here is real: information can be stored in multi-anyon topological degeneracy, processed by braiding, and read out by fusion/measurement; boundary-bulk duality and anyon condensation give genuine access to bulk topological data through boundary excitations, including experimental protocols for extracting $R$ and $F$ data from boundary behavior. That makes this class the strongest current hit on intrinsic boundary structure and bulk/nonlocal distinction. But it still does **not** give you the positive-geometry-style object you need: no sourced unique recursive readout analogous to canonical-form residue recursion, and no clear native law that makes semantics boundary-first in the $x\\to \\partial x\\to \\Omega(x)$ sense rather than “braid/fuse then measure.” My screening call is: **G1 pass, G2 partial/pass, G3 fail/unclear, G4 partial, G5 unclear, G6 partial. Class B+, closest to C.** [PMC+3Microsoft+3ScienceDirect+3](https://www.microsoft.com/en-us/research/?p=425721&utm_source=chatgpt.com)"
+    },
+    {
+      "line": 2554,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "Result first: **none of the obvious candidate classes is engineering-eligible under G1–G6.** The only class that comes even close to the wedge-bearing core $(G2,G3,G4,G5)$ is **topological-order / anyonic substrates**. Everything else is either plainly encoding-first or has designated interfaces rather than intrinsic boundary semantics. [Nature+5OUP Academic+5Microsoft+5](https://academic.oup.com/nsr/article/10/3/nwac264/6845754?utm_source=chatgpt.com)\n\n**1) Topological-order / anyonic / TQFT-like substrates — closest current candidate, but still below Class C.**  \nWhat is native here is real: information can be stored in multi-anyon topological degeneracy, processed by braiding, and read out by fusion/measurement; boundary-bulk duality and anyon condensation give genuine access to bulk topological data through boundary excitations, including experimental protocols for extracting $R$ and $F$ data from boundary behavior. That makes this class the strongest current hit on intrinsic boundary structure and bulk/nonlocal distinction. But it still does **not** give you the positive-geometry-style object you need: no sourced unique recursive readout analogous to canonical-form residue recursion, and no clear native law that makes semantics boundary-first in the $x\\to \\partial x\\to \\Omega(x)$ sense rather than “braid/fuse then measure.” My screening call is: **G1 pass, G2 partial/pass, G3 fail/unclear, G4 partial, G5 unclear, G6 partial. Class B+, closest to C.** [PMC+3Microsoft+3ScienceDirect+3](https://www.microsoft.com/en-us/research/?p=425721&utm_source=chatgpt.com)\n\n**2) Open compositional rewriting substrates (structured cospans / open Petri / open graphs) — strong compositional control, but boundary is designated, not intrinsic.**  \nOpen Petri nets explicitly designate c"
+    },
+    {
+      "line": 2578,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "$$\\boxed{\\texttt{topological\\_substrate\\_fit\\_gap\\_analysis\\_v1}}$$\n\nIts job is to ask, for topological-order / anyonic systems only: can $G3$ and $G4$ be strengthened into something genuinely analogous to canonical boundary semantics, or do they stop at “boundary-bulk duality plus chosen measurement,” in which case the wedge stays uninstantiated physically.\n\n* * *"
+    },
+    {
+      "line": 2618,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "## Strong near-hit in condensed matter: 2D topological order with gapped boundaries\n\nThe third class is **two-dimensional topologically ordered phases with gapped boundaries**: fractional quantum Hall fluids, non-Abelian anyon media, and toric-code-like topological orders. These systems have an exact carrier given by anyon sectors and fusion rules; admissibility is exact; local native operations are polymorphic—fusion, splitting, braiding, condensation, defect motion; and boundary structure is intrinsic rather than merely chosen. Boundary-bulk duality and anyon condensation can even determine bulk $R$ and $F$ data from boundary excitations, and there are explicit protocols that use boundary half-braidings to identify topological order. [OUP Academic+2PMC+2](https://academic.oup.com/nsr/article/10/3/nwac264/6845754?utm_source=chatgpt.com)\n\nBut here the mathematics cuts the other way. If the canonical readout is rich enough—full $R,F$ data or the full gapped-boundary phase—then the bulk is often **uniquely** determined. There are papers making exactly that point: the bulk is the “center” of the boundary theory, and the bulk can be uniquely identified from boundary-bulk duality data. That means this class strongly satisfies $S1$–$S3$, but often **fails $S4$**. So ordinary topological order is not the target substrate; it is an important near-miss that clarifies the target. [ScienceDirect+1](https://www.sciencedirect.com/science/article/pii/S0550321317302183?utm_source=chatgpt.com)"
+    },
+    {
+      "line": 3204,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "These did not exist in the earlier pipeline as formal mathematical objects:\n\n$$\\boxed{\\text{ACBM}}$$ $$\\boxed{\\text{boundary transfer kernel }K_X}$$ $$\\boxed{\\text{reduced core }\\mathrm{Core}(X)}$$ $$\\boxed{\\text{bulk fiber }\\mathfrak F(C)}$$ $$\\boxed{\\text{gauge semigroup of bulk-preserving local moves}}$$ $$\\boxed{\\text{semantic twins and core twins}}$$\n\nThose are generated here from $S1$–$S4$, not retrieved."
+    },
+    {
+      "line": 4322,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "The residue branch produces objects not present in the additive branch:\n\n$$\\boxed{\\text{RCSS}}$$ $$\\boxed{\\text{chain-valued canonical residue form }\\Omega_x}$$ $$\\boxed{\\text{formal logarithmic lift }\\widetilde{\\Omega}_x}$$ $$\\boxed{\\text{iterated residue weight } \\operatorname{Res}_\\gamma\\Omega_x}$$ $$\\boxed{\\text{atom shadow functor }\\operatorname{sh}}$$ $$\\boxed{\\text{gauge morphisms by bulk refinement/collapse}}$$ $$\\boxed{\\text{atom twins vs residue twins}}$$\n\nThis is genuine new structure, not paper retrieval."
+    },
+    {
+      "line": 4334,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "The residue branch proves there is a strictly finer semantic layer:\n\n$$\\text{bulk} \\to \\text{residue-chain semantics} \\to \\text{atom shadow}.$$\n\nSo even before any physical realization, the mathematics says:"
+    },
+    {
+      "line": 4567,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "In the RCSS chain module $\\mathcal C_x$, these define distinct basis vectors $[\\gamma_1]\\neq[\\gamma_2]$, so the chain semantics distinguishes them.\n\nNow suppose there were a faithful connected commutative logarithmic realization. The two chains correspond to successive residues along boundary hypersurfaces leading to the same actual codim-$k$ stratum representing $z$. By definition of commutative logarithmic realization, iterated residues to the same terminal stratum are forms on that same geometric stratum and agree up to the sign arising from residue-order permutation.\n\nTherefore the geometry identifies the two chains at the level of residue target: they cannot remain linearly independent path labels in the full semantics."
+    },
+    {
+      "line": 5553,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "The additive branch secretly bet that the relevant semantics was:\n\n$$\\text{boundary routes} \\xrightarrow{\\text{sum}} \\text{readout}.$$\n\nThe coherent branch says the more likely structure is:"
+    },
+    {
+      "line": 6677,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "and that last one tells you the first real thing about presentation bulk:\n\n* if $\\mathrm{RPQ}$ collapses the two presentations, the move is pure presentation bulk at recursive-residue level;\n* if it does not, then some residue-profile data survives the mutation and the atlas core is already richer than the naive “same canonical form” quotient.\n\nAfter that, the next work is:"
+    },
+    {
+      "line": 6838,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "with the first theorem targets:\n\n$$\\boxed{\\text{T1: explicit gluing of the mutable logarithmic form across the }A_1\\text{ exchange}}$$ $$\\boxed{\\text{T2: explicit codim-1 residue/readout on both charts}}$$ $$\\boxed{\\text{T3: RPQ of this two-chart mutable slice}}$$\n\nAfter $\\mathcal S^{A_1}_{2,4}$ is done, then the next work is to lift back up from the mutable slice to the full atlas with frozen directions included. That is the right order."
+    },
+    {
+      "line": 9940,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "The target is **not** just “a substrate that carries mutation/coherence.”  \nIt is first:\n\n$$\\boxed{\\text{a substrate that natively realizes the static simplex residue tower }Gr_+(0,n)\\to Gr_+(1,n).}$$\n\nWhy?"
+    },
+    {
+      "line": 10386,
+      "tags": [
+        "positive_geometry",
+        "equations",
+        "substrate"
+      ],
+      "score": 10,
+      "snippet": "So the engineering question is no longer vague. It becomes:\n\n1. can the substrate realize the $Gr_+(1,2)$ sign line and boundary-value module natively?\n2. can it realize their product tower for $m$ factors?\n3. can it realize the $W_m$-transport action under local mutations?\n4. can it distinguish the finer layers where local holonomy survives, instead of collapsing immediately to the determinant line?"
+    }
+  ]
+}
