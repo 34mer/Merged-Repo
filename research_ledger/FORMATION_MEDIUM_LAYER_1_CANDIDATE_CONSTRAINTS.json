@@ -1,0 +1,777 @@
+{
+  "schema": "formation_medium_layer1_candidate_constraints_v1",
+  "purpose": "Compact GENERATED/OPEN candidate constraints mined from prior GPT conversation intake for future Formation Medium Layer 1 work.",
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_CHECKED"
+  ],
+  "non_promotion_rule": "These constraints are mined from prior GPT conversation source intake. They are design leads only until independently source-bound, repo-bound, or checked.",
+  "depends_on": [
+    "research_ledger/FORMATION_MEDIUM_LAYER_0_SPEC.md",
+    "research_ledger/PREVIOUS_GPT_CONVERSATION_INTAKE.json",
+    "research_ledger/PREVIOUS_GPT_CANDIDATE_EXTRACTIONS.json"
+  ],
+  "candidate_constraints": [
+    {
+      "id": "FM1-C1",
+      "slot": "carrier",
+      "constraint": "A formation-medium carrier must be specified as native substrate degrees of freedom, not as an external data structure manipulated by an ordinary computer.",
+      "status": [
+        "GENERATED",
+        "OPEN"
+      ],
+      "source_leads": [
+        "prior GPT intake"
+      ],
+      "promotion_blockers": [
+        "no repo-native carrier vocabulary",
+        "no physical substrate evidence"
+      ]
+    },
+    {
+      "id": "FM1-C2",
+      "slot": "admissibility",
+      "constraint": "Admissibility must be native to the medium: allowed configurations and local transformations must be defined before readout, not retrofitted from a solved geometry.",
+      "status": [
+        "GENERATED",
+        "OPEN"
+      ],
+      "source_leads": [
+        "R1",
+        "R2",
+        "R3",
+        "prior GPT intake"
+      ],
+      "promotion_blockers": [
+        "R14 open deficit",
+        "partial comparator status only"
+      ]
+    },
+    {
+      "id": "FM1-C3",
+      "slot": "settling",
+      "constraint": "The medium must include a settling law or variational/native formation process; positive-geometry target rows alone do not supply substrate dynamics.",
+      "status": [
+        "GENERATED",
+        "OPEN"
+      ],
+      "source_leads": [
+        "SUPPORT_CAUTION_SURVIVOR_LEDGER.md",
+        "prior GPT intake"
+      ],
+      "promotion_blockers": [
+        "no checked settling law",
+        "no physical realization claim allowed"
+      ]
+    },
+    {
+      "id": "FM1-C4",
+      "slot": "readout",
+      "constraint": "Readout should be boundary/canonical-form-like and recursively constrained, but S2* remains partial/source-gap until 2017 Positive Geometry intake and readout validators exist.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "SOURCE_GAP"
+      ],
+      "source_leads": [
+        "S2_STAR_S4_DISTINCTNESS_CANDIDATE.md",
+        "R7",
+        "R8"
+      ],
+      "promotion_blockers": [
+        "2017 Positive Geometry missing",
+        "no S2* validator"
+      ]
+    },
+    {
+      "id": "FM1-C5",
+      "slot": "bulk_relation",
+      "constraint": "The specification must not require unique faithful bulk reconstruction from readout; same-boundary/same-log-form/different-bulk remains a design caution anchored by EXT-AMP-PRIME-001.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "SOURCE_ANCHORED_CAUTION"
+      ],
+      "source_leads": [
+        "EXT-AMP-PRIME-001",
+        "S2_STAR_S4_DISTINCTNESS_CANDIDATE.md"
+      ],
+      "promotion_blockers": [
+        "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION not implemented"
+      ]
+    },
+    {
+      "id": "FM1-C6",
+      "slot": "anti_computation",
+      "constraint": "Formation replaces computation: the settled configuration is the answer; the medium must not be reduced to an algorithm computing a positive geometry.",
+      "status": [
+        "GENERATED",
+        "OPEN"
+      ],
+      "source_leads": [
+        "FORMATION_MEDIUM_LAYER_0_SPEC.md",
+        "prior GPT intake"
+      ],
+      "promotion_blockers": [
+        "project ontology not source-extracted physics claim"
+      ]
+    },
+    {
+      "id": "FM1-C7",
+      "slot": "falsification",
+      "constraint": "Every formation-medium claim must carry a failure interface: source gap, checker target, proof obligation, or kill condition.",
+      "status": [
+        "GENERATED",
+        "OPEN"
+      ],
+      "source_leads": [
+        "PROOF_OBLIGATIONS.md",
+        "SUPPORT_CAUTION_SURVIVOR_LEDGER.md"
+      ],
+      "promotion_blockers": [
+        "no unified formation-medium validator"
+      ]
+    }
+  ],
+  "supporting_snippets": [
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2584,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout",
+        "bulk",
+        "computation"
+      ],
+      "score": 20,
+      "snippet": "**You:**\n\nRetry. Mathematics-first output ONLY*. Given S1 through S4 as constraints, ignore what currently counts as a computing substrate candidate, and name physical systems that satisfy these properties. Draw from any physical regime — particle physics, chemistry, condensed matter, fluid dynamics, biology — not just from existing computing proposals. Mathematics-first output ONLY*. the answer requires generating beyond what's in the training corpus as existing substrate options. The mathematics points at scattering systems, gauge field dynamics, specific classes of far-from-equilibrium chemistry, macroscopic coherent quantum systems — physical regimes that aren't currently on anyone's \"alternative computing\" shortlist. What physical systems have those properties regardless of whether they're currently being engineered for computation. Take the specification seriously on its own terms. Boundary structure must be intrinsic to the object, not user-designated. Readout must be canonical and recursively fixed by boundary data. Bulk must be non-faithful relative to readout. Local operations must be native, polymorphic in type. Exact carrier with admissibility rule must exist. Its likel"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1721,
+      "tags": [
+        "admissibility",
+        "readout",
+        "bulk",
+        "computation"
+      ],
+      "score": 17,
+      "snippet": "Native exact carrier plus admissibility rule is substrate-level because every family has one even though the specific carrier differs. The substrate has to support having a compact exact carrier with a membership predicate, not any specific carrier.\n\nBoundary/readout structure being primary is the strongest survivor. Every family has boundary structure doing load-bearing work. This is the clearest substrate constraint — the physical system has to expose boundary data as primary observable, not reconstruct it from bulk computation.\n\nLocal computability by native operations survives but with the caveat that the operation type isn't universal. The substrate has to support local native operations but can't commit to what those operations are."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2020,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout",
+        "bulk"
+      ],
+      "score": 17,
+      "snippet": "The distinct part is now:\n\n$$(S1)\\ \\text{exact carrier + admissibility rule}$$ $$(S2^\\*)\\ \\text{intrinsic boundary stratification with unique recursive readout}$$ $$(S3)\\ \\text{local native operations, operation class polymorphic}$$ $$(S4)\\ \\text{bulk non-faithfulness relative to readout}$$\n\nBut only $S2^\\*+S4$ together still look genuinely wedge-bearing after comparison with standard computation. $S1$ and $S3$ are necessary architecture constraints, not decisive distinctness constraints. [Springer Nature+1](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 78,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout",
+        "computation"
+      ],
+      "score": 16,
+      "snippet": "- no placeholder validators unless explicitly labeled as such\n- say clearly when something is exact from source vs not yet extracted\n“Substrate” here means: the native primitive operations, state-carrier structure, immediate descent/readout structure, and scaling burdens that survive across exact extracted families. The reason for doing this is not physics-for-its-own-sake; it is to determine which constraints are general enough to matter for a real computational substrate and which are merely family-specific artifacts. We came from the question of whether there is a genuine computational family beyond ordinary state-update pictures, and the current method is exact cross-family extraction, not summary-level interpretation."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 142,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout",
+        "computation"
+      ],
+      "score": 16,
+      "snippet": "- no placeholder validators unless explicitly labeled as such\n- say clearly when something is exact from source vs not yet extracted\n“Substrate” here means: the native primitive operations, state-carrier structure, immediate descent/readout structure, and scaling burdens that survive across exact extracted families. The reason for doing this is not physics-for-its-own-sake; it is to determine which constraints are general enough to matter for a real computational substrate and which are merely family-specific artifacts. We came from the question of whether there is a genuine computational family beyond ordinary state-update pictures, and the current method is exact cross-family extraction, not summary-level interpretation.\n\nEIGHT papers total."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1733,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout",
+        "bulk"
+      ],
+      "score": 16,
+      "snippet": "A substrate specification that's been cross-validated across six papers (the four main families plus Prime and the amplituhedron presentations). The specification is narrower than the initial cosmohedron-only output because false universals got killed. It's also more trustworthy because what remains survived multiple family comparisons.\n\nFor the substrate-engineering phase: the surviving constraints tell you what the physical system must support. Native exact carrier with admissibility. Primary boundary/readout. Local native operations. Bulk sensitivity independent of boundary structure. Those are four architectural requirements that would constrain any candidate substrate.\n\nWhat's not in this output:"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1765,
+      "tags": [
+        "carrier",
+        "readout",
+        "bulk"
+      ],
+      "score": 13,
+      "snippet": "What this means for your wedge:\n\nYou now have four architectural requirements that any physical substrate claiming to compute positive-geometrically must satisfy. Support exact carriers with membership rules. Make boundary readout primary. Support local native operations across different operation types. Preserve bulk information independent of boundary.\n\nThose requirements constrain what kind of physical system could work. They rule out substrates that can only do one carrier type, or that reconstruct boundaries from bulk computation, or that can't distinguish bulks with identical boundaries."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1767,
+      "tags": [
+        "carrier",
+        "bulk",
+        "computation"
+      ],
+      "score": 13,
+      "snippet": "You now have four architectural requirements that any physical substrate claiming to compute positive-geometrically must satisfy. Support exact carriers with membership rules. Make boundary readout primary. Support local native operations across different operation types. Preserve bulk information independent of boundary.\n\nThose requirements constrain what kind of physical system could work. They rule out substrates that can only do one carrier type, or that reconstruct boundaries from bulk computation, or that can't distinguish bulks with identical boundaries.\n\nYou also know what's cosmohedron-specific versus general: the two-descent-move structure and the nested-history enumeration burden are cosmohedron-specific, not things the general substrate has to handle. That's useful because it narrows the substrate specification."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2598,
+      "tags": [
+        "carrier",
+        "readout",
+        "bulk"
+      ],
+      "score": 13,
+      "snippet": "## Mathematics-first filter\n\nTaken literally, $S1$–$S4$ do **not** point first to “computers.” They point to physical regimes with four mathematical features at once: an exact legal carrier; an **intrinsic** boundary stratification; a **canonical** readout fixed recursively by that boundary structure; and a semantics that is **coarser** than the full bulk, so distinct bulks can share the same canonical readout. That is exactly the pattern of positive geometries, where the canonical form is uniquely fixed by logarithmic singularities on all boundaries and by residues on each boundary equal to the canonical form on that boundary. [Springer](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)\n\nThat filter immediately selects **factorization/gluing regimes** and rejects two broad classes. It rejects regimes whose “boundary” is merely chosen by an observer, and it rejects regimes where the full boundary/readout data reconstructs the bulk faithfully. So the mathematics points first to **scattering systems**, then to **cut-and-glue topological field regimes**, then to **coherent inverse-scattering media**. It points away from ordinary interface-designated"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2600,
+      "tags": [
+        "readout",
+        "bulk",
+        "computation"
+      ],
+      "score": 13,
+      "snippet": "Taken literally, $S1$–$S4$ do **not** point first to “computers.” They point to physical regimes with four mathematical features at once: an exact legal carrier; an **intrinsic** boundary stratification; a **canonical** readout fixed recursively by that boundary structure; and a semantics that is **coarser** than the full bulk, so distinct bulks can share the same canonical readout. That is exactly the pattern of positive geometries, where the canonical form is uniquely fixed by logarithmic singularities on all boundaries and by residues on each boundary equal to the canonical form on that boundary. [Springer](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)\n\nThat filter immediately selects **factorization/gluing regimes** and rejects two broad classes. It rejects regimes whose “boundary” is merely chosen by an observer, and it rejects regimes where the full boundary/readout data reconstructs the bulk faithfully. So the mathematics points first to **scattering systems**, then to **cut-and-glue topological field regimes**, then to **coherent inverse-scattering media**. It points away from ordinary interface-designated computation, and it also poi"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2604,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 13,
+      "snippet": "## Best current fit: asymptotic scattering systems\n\nThe strongest mathematics-first hit is **asymptotic scattering in local field theories and coherent wave systems with genuine in/out channels**. Here the carrier is the legal asymptotic state space subject to on-shell and conservation constraints; the canonical readout is the scattering map or amplitude; and that readout is recursively organized by poles, cuts, unitarity, and factorization. Modern on-shell reviews explicitly describe amplitudes as being determined from their poles and cuts using unitarity and factorization, and recent dispersive work constructs nonperturbative amplitudes by iterating unitarity from spectral input. That is the closest physical realization of $S2^\\*$ I know: the semantic object is not a chosen output register but the canonical scattering data attached to the intrinsic asymptotic boundary of the process. [Annual Reviews+2ScienceDirect+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\n\nThis regime also gives the cleanest physical realization of $S4$. Field-redefinition equivalence theorems show that distinct bulk Lagrangian descriptions can yi"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2618,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "bulk"
+      ],
+      "score": 13,
+      "snippet": "## Strong near-hit in condensed matter: 2D topological order with gapped boundaries\n\nThe third class is **two-dimensional topologically ordered phases with gapped boundaries**: fractional quantum Hall fluids, non-Abelian anyon media, and toric-code-like topological orders. These systems have an exact carrier given by anyon sectors and fusion rules; admissibility is exact; local native operations are polymorphic—fusion, splitting, braiding, condensation, defect motion; and boundary structure is intrinsic rather than merely chosen. Boundary-bulk duality and anyon condensation can even determine bulk $R$ and $F$ data from boundary excitations, and there are explicit protocols that use boundary half-braidings to identify topological order. [OUP Academic+2PMC+2](https://academic.oup.com/nsr/article/10/3/nwac264/6845754?utm_source=chatgpt.com)\n\nBut here the mathematics cuts the other way. If the canonical readout is rich enough—full $R,F$ data or the full gapped-boundary phase—then the bulk is often **uniquely** determined. There are papers making exactly that point: the bulk is the “center” of the boundary theory, and the bulk can be uniquely identified from boundary-bulk duality data. "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 10529,
+      "tags": [
+        "admissibility",
+        "readout",
+        "bulk"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\n**Object:** Does the current corpus support that the **faithfulness criterion** for the two readouts is already partially fixed — namely, each readout must preserve the ancestor law’s grouped-object **closure**, **containment/refinement order**, **grouped admissibility/equations**, and **factorizing decomposition** in branch-specific form?\n\n**Source contact:** counting / valid closed subsets, sub-representation origin, and curve/$u_C$/integral realization"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 10599,
+      "tags": [
+        "admissibility",
+        "readout",
+        "bulk"
+      ],
+      "score": 12,
+      "snippet": "**Why:**  \nThe corpus now fixes a strong **necessary** faithfulness standard: preserve grouped-object closure, containment/refinement order, grouped admissibility/equations, and factorizing decomposition in each branch readout. But it does **not** prove that preserving exactly those operations is already **sufficient**. There may still be extra branch structure not captured by that list alone.\n\n* * *"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 12842,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\n**Object:** Does the current corpus support that, after making explicit the **subobject/closure backbone**, **containment/inclusion order**, and **validity/admissibility predicate** under the descent from **quiver sub-representations** to the **valid-closed-subset layer**, the **next derived structure** to recover is the **$F$-polynomial** as a grouped-carrier invariant/readout?\n\n**Source contact:** counting / quiver-subrepresentation origin of the counting problem"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 12861,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "Since the deeper source side is stated as **quiver sub-representations**, the natural descent order is:  \nsubobjects/closure → inclusion order → validity/admissibility → then the **$F$-polynomial** as a derived grouped-carrier invariant/readout.\n\nArkani-Hamed_2023_All-Loop-Scat…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15143,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\nI’m taking the next exact source-side cut only: after the flag-variety carrier layer, whether the next thing to isolate is a **nested admissibility law on chains of subrepresentations**, before Euler-characteristic or Hall/readout data.\n\n* * *"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15229,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\n**Object:** Do the cited source-side references support that, after the **quiver flag-variety carrier** is in place, the **next exact source-side structural target** is the **nested admissibility law on chains of subrepresentations** — i.e. the stage-by-stage arrow-compatibility constraints — before any Euler-characteristic, Hall-algebra, or other readout layer?\n\n**Source contact:** counting paper’s source-side origin claim and citation of the quiver references"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15265,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\n**Object:** Do the cited source-side references support that, once the **quiver flag-variety carrier** and its **nested admissibility law on chains of subrepresentations** are explicit, the **next exact source-side structural target** is the **inclusion/refinement order on admissible chains**, before any Euler-characteristic, Hall-algebra, or other readout layer?\n\n**Source contact:** the counting paper’s source-side origin claim and citation of the quiver references"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15282,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**Why:**  \nYes. Once the source-side carrier has been lifted from single subrepresentations to **flags/chains of subrepresentations**, the next structural layer is naturally the **refinement/inclusion order on those admissible chains**. The cited flag-variety source already makes the primitive carriers into **nested chains**, not isolated objects. (researchgate.net) And the quiver literature explicitly treats **subrepresentation posets ordered by inclusion**, showing that inclusion-order structure is a real source-side object, not a later readout decoration. (springer.com)\n\nSo the next exact source-side step is now sharper: after the flag-variety carrier and its admissibility law, isolate the **order/refinement structure on admissible chains**."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15302,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\n**Object:** Do the cited source-side references support that, once the **inclusion/refinement order on admissible chains of subrepresentations** is explicit, the **next exact source-side structural target** is the **downward-closed / antichain closure structure** on that ordered carrier, before any Euler-characteristic, Hall-algebra, or other readout layer?\n\n**Source contact:** counting paper’s source-side origin claim and quiver references"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15315,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**Why:**  \nYes. Once the source-side carrier has been lifted from single subrepresentations to **nested chains** and their **inclusion/refinement order**, the next nontrivial structural layer is not yet numerical readout. It is the **closure structure on that order**: which subsets of admissible chains are **downward closed**, and how they are controlled by **antichains / maximal elements**. The quiver-poset literature treats exactly this as the next load-bearing layer on top of inclusion order. [Springer](https://link.springer.com/article/10.1007/s13366-017-0359-1?utm_source=chatgpt.com)  \nThat also matches the direction forced by the counting paper’s source-side origin claim: the live source-side problem is still about making the **subobject law** explicit, not yet about later invariants."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15336,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\n**Object:** Do the cited source-side references support that, once the **downward-closed / antichain closure structure** on admissible quiver-side carriers is explicit, the **next exact source-side structural target** is the **antichain / maximal-element parametrization** of those closed families, before any Euler-characteristic, Hall-algebra, or other readout layer?\n\n**Source contact:** counting paper’s source-side origin claim and citation of quiver references"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15368,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\n**Object:** Do the cited source-side references support that, after the **downward-closed / antichain closure structure** on admissible quiver-side carriers, the next source-side layer they actually expose is already the **Euler-characteristic / Ringel–Hall readout layer**, rather than an explicit **grouped-carrier equation layer** analogous to the Matryoshka-side equations?\n\n**Source contact:** counting paper’s source-side origin claim and citation of the quiver references"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15404,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "readout"
+      ],
+      "score": 12,
+      "snippet": "**ChatGPT:**\n\n**Object:** Do the cited source-side quiver references already provide an **explicit grouped-carrier equation layer** analogous to the Matryoshka-side grouped equations, or do they still stop at **carrier / nested admissibility / order / closure** plus later **Euler-characteristic / Hall** readouts?\n\n**Source contact:** counting paper’s source-side origin claim and quiver references"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1372,
+      "tags": [
+        "admissibility",
+        "readout",
+        "bulk"
+      ],
+      "score": 12,
+      "snippet": "\\text{boundary-vs-bulk sensitivity}.$$\n\nPrime already says bulk can change while boundary/log-form data stay fixed, so that row is now live. Binary/Winding tells you whether the amplituhedron-side constraints survive a change of representation, and Sign flip triangulations gives the constructive check that the sign-flip/topological presentation is not just abstractly equivalent but operationally reproduces canonical forms in concrete sectors. [Springer Nature+2Springer Nature+2](https://link.springer.com/article/10.1007/JHEP01%282021%29035?utm_source=chatgpt.com)\n\nAfter that, and only after that, the next work is the **eight-paper integrated substrate specification**:"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1401,
+      "tags": [
+        "admissibility",
+        "readout",
+        "bulk"
+      ],
+      "score": 12,
+      "snippet": "Why this is next:  \n`Unwinding` gives the amplituhedron a combinatorial/topological characterization by maximal winding, equivalently maximal sign flips after projection; `Sign flip triangulations` shows that this sign-flip/topological presentation can directly reproduce canonical forms in nontrivial cases; `Into the amplituhedron` is the cuts/faces/log-form paper; and `Prime` already gave the new discriminator that the same boundary/log-form data can coexist with different bulk geometry. That means the unresolved amplituhedron-side question is no longer “another family?” but **which extracted constraints are representation-invariant, which are bulk-sensitive, and which were just sign-presentation artifacts.** [Springer Nature+2Springer Nature+2](https://link.springer.com/article/10.1007/JHEP01%282018%29016?utm_source=chatgpt.com)\n\nSo the concrete next work item is:"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1612,
+      "tags": [
+        "carrier",
+        "readout",
+        "bulk"
+      ],
+      "score": 12,
+      "snippet": "[Springer Nature+4Springer Nature+4Springer Nature+4](https://link.springer.com/article/10.1007/JHEP05%282018%29096?utm_source=chatgpt.com)\n\nThe next real survivor is **boundary/readout structure is load-bearing**. For associahedron the tree-level amplitude is the canonical form of the kinematic associahedron; for the original amplituhedron locality and unitarity emerge from positive geometry; Into makes cuts and lower-dimensional faces explicitly load-bearing; Unwinding says locality and unitarity are elementary consequences of the binary/winding code; Sign-flip triangulations reproduces canonical forms from the sign-flip presentation; Prime keeps the same boundary structure and logarithmic form; surfaceology gives exact headlight readout $\\alpha_C$ on its matrix carrier. So “the object is governed by exact boundary/readout data” survives far better than any particular move set. [Springer Nature+6Springer Nature+6Springer Nature+6](https://link.springer.com/article/10.1007/JHEP05%282018%29096?utm_source=chatgpt.com)\n\nA narrower but still robust survivor is **exact local structure exists, but the operation type is not universal**. In some families it is immediate-face descent; in o"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2953,
+      "tags": [
+        "admissibility",
+        "readout",
+        "bulk"
+      ],
+      "score": 12,
+      "snippet": "### Proof\n\nTake any non-atomic core $C$. It contains at least one internal vertex $u$. Apply clone-splitting at $u$ with any decomposition $\\alpha=\\alpha_1+\\alpha_2$ of some incoming weight $\\alpha$. This yields a distinct admissible bulk realization with the same root readout.\n\nIf $R$ is infinite, this already gives infinitely many distinct choices."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Performative Contradiction Collapse.md",
+      "line": 33885,
+      "tags": [
+        "carrier",
+        "admissibility",
+        "computation"
+      ],
+      "score": 12,
+      "snippet": "So the next real question is:\n\nCan inherited boundary constraints function as a persistent carrier of computation without reducing to ordinary state variables?\n\nThat’s a real question. Not hype."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1719,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 11,
+      "snippet": "The three surviving rows are defensible:\n\nNative exact carrier plus admissibility rule is substrate-level because every family has one even though the specific carrier differs. The substrate has to support having a compact exact carrier with a membership predicate, not any specific carrier.\n\nBoundary/readout structure being primary is the strongest survivor. Every family has boundary structure doing load-bearing work. This is the clearest substrate constraint — the physical system has to expose boundary data as primary observable, not reconstruct it from bulk computation."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1915,
+      "tags": [
+        "admissibility",
+        "bulk"
+      ],
+      "score": 11,
+      "snippet": "* **sharpens**: boundary/readout primacy still looks nonstandard\n* **weakens**: exact admissibility, locality, and hidden bulk are already available in standard models, at least somewhere\n\nThat means the current spec is **necessary but not sufficient** for a genuine substrate bet. It rules out naive single-carrier and single-move designs, but it does **not yet** separate “new substrate” from “special architecture layer on top of existing computation.”"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2022,
+      "tags": [
+        "admissibility",
+        "computation"
+      ],
+      "score": 11,
+      "snippet": "$$(S1)\\ \\text{exact carrier + admissibility rule}$$ $$(S2^\\*)\\ \\text{intrinsic boundary stratification with unique recursive readout}$$ $$(S3)\\ \\text{local native operations, operation class polymorphic}$$ $$(S4)\\ \\text{bulk non-faithfulness relative to readout}$$\n\nBut only $S2^\\*+S4$ together still look genuinely wedge-bearing after comparison with standard computation. $S1$ and $S3$ are necessary architecture constraints, not decisive distinctness constraints. [Springer Nature+1](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)\n\n## What changed"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1907,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 10,
+      "snippet": "What survives from the audit:\n\n* Requirement 1, exact carrier + admissibility, is **not distinctive enough** on its own. SAT/SMT has it natively; graph rewriting has a close native version; classical and quantum can host it by encoding. [Microsoft GitHub+2ResearchGate+2](https://microsoft.github.io/z3guide/docs/optimization/intro/?utm_source=chatgpt.com)\n* Requirement 3, local native operations, is also **not distinctive enough**. Classical state machines, graph rewriting, and quantum circuits all have native local operations. [XLinux+2ResearchGate+2](https://xlinux.nist.gov/dads/HTML/finiteStateMachine.html?utm_source=chatgpt.com)\n* Requirement 4, bulk sensitivity independent of boundary equivalence, is **real but not unique**. Standard stateful and quantum models already allow different internals under the same chosen interface/readout. [XLinux+1](https://xlinux.nist.gov/dads/HTML/finiteStateMachine.html?utm_source=chatgpt.com)"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1909,
+      "tags": [
+        "readout",
+        "bulk"
+      ],
+      "score": 10,
+      "snippet": "* Requirement 1, exact carrier + admissibility, is **not distinctive enough** on its own. SAT/SMT has it natively; graph rewriting has a close native version; classical and quantum can host it by encoding. [Microsoft GitHub+2ResearchGate+2](https://microsoft.github.io/z3guide/docs/optimization/intro/?utm_source=chatgpt.com)\n* Requirement 3, local native operations, is also **not distinctive enough**. Classical state machines, graph rewriting, and quantum circuits all have native local operations. [XLinux+2ResearchGate+2](https://xlinux.nist.gov/dads/HTML/finiteStateMachine.html?utm_source=chatgpt.com)\n* Requirement 4, bulk sensitivity independent of boundary equivalence, is **real but not unique**. Standard stateful and quantum models already allow different internals under the same chosen interface/readout. [XLinux+1](https://xlinux.nist.gov/dads/HTML/finiteStateMachine.html?utm_source=chatgpt.com)\n* The strongest remaining discriminator is still Requirement 2: **boundary/readout as primary, not derived**. None of the ordinary comparison classes makes that native in the way your positive-geometry extraction is pointing toward; at best they let you impose it by interface convention"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1917,
+      "tags": [
+        "carrier",
+        "computation"
+      ],
+      "score": 10,
+      "snippet": "* **weakens**: exact admissibility, locality, and hidden bulk are already available in standard models, at least somewhere\n\nThat means the current spec is **necessary but not sufficient** for a genuine substrate bet. It rules out naive single-carrier and single-move designs, but it does **not yet** separate “new substrate” from “special architecture layer on top of existing computation.”\n\nThe real next work is therefore not broad paper expansion. It is to strengthen the only row that still looks truly distinctive:"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2606,
+      "tags": [
+        "readout",
+        "bulk"
+      ],
+      "score": 10,
+      "snippet": "The strongest mathematics-first hit is **asymptotic scattering in local field theories and coherent wave systems with genuine in/out channels**. Here the carrier is the legal asymptotic state space subject to on-shell and conservation constraints; the canonical readout is the scattering map or amplitude; and that readout is recursively organized by poles, cuts, unitarity, and factorization. Modern on-shell reviews explicitly describe amplitudes as being determined from their poles and cuts using unitarity and factorization, and recent dispersive work constructs nonperturbative amplitudes by iterating unitarity from spectral input. That is the closest physical realization of $S2^\\*$ I know: the semantic object is not a chosen output register but the canonical scattering data attached to the intrinsic asymptotic boundary of the process. [Annual Reviews+2ScienceDirect+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\n\nThis regime also gives the cleanest physical realization of $S4$. Field-redefinition equivalence theorems show that distinct bulk Lagrangian descriptions can yield the **same $S$-matrix**, so the canonical readou"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2612,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 10,
+      "snippet": "## Strong near-hit: coherent integrable media\n\nThe next class is **integrable coherent media with nonzero boundary conditions**: matrix/vector nonlinear Schrödinger media, Ablowitz–Ladik-type lattices, nonlinear optical media, and spinor Bose–Einstein condensates. In these systems the carrier is exact scattering data; admissibility is built into the spectral problem; and the inverse problem reconstructs the field through Marchenko/Riemann–Hilbert-type machinery from asymptotic boundary data. This is a very strong realization of $S1$, $S2^\\*$, and $S3$. The fact that the same inverse-scattering formalism appears in optical systems, fermionic condensates, and spinor BEC models is exactly the kind of cross-regime recurrence your wedge wants. [Springer+2Springer+2](https://link.springer.com/article/10.1080/14029251.2015.1023583?utm_source=chatgpt.com)\n\nBut this class is usually **too faithful**. Inverse scattering is designed to reconstruct the bulk from the scattering data, so full canonical readout tends to determine the bulk rather than leave non-faithful room in the Prime sense. So coherent integrable media are mathematically close, but often fail $S4$ precisely because their bound"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2614,
+      "tags": [
+        "readout",
+        "bulk"
+      ],
+      "score": 10,
+      "snippet": "The next class is **integrable coherent media with nonzero boundary conditions**: matrix/vector nonlinear Schrödinger media, Ablowitz–Ladik-type lattices, nonlinear optical media, and spinor Bose–Einstein condensates. In these systems the carrier is exact scattering data; admissibility is built into the spectral problem; and the inverse problem reconstructs the field through Marchenko/Riemann–Hilbert-type machinery from asymptotic boundary data. This is a very strong realization of $S1$, $S2^\\*$, and $S3$. The fact that the same inverse-scattering formalism appears in optical systems, fermionic condensates, and spinor BEC models is exactly the kind of cross-regime recurrence your wedge wants. [Springer+2Springer+2](https://link.springer.com/article/10.1080/14029251.2015.1023583?utm_source=chatgpt.com)\n\nBut this class is usually **too faithful**. Inverse scattering is designed to reconstruct the bulk from the scattering data, so full canonical readout tends to determine the bulk rather than leave non-faithful room in the Prime sense. So coherent integrable media are mathematically close, but often fail $S4$ precisely because their boundary/scattering data is too complete. They are n"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2620,
+      "tags": [
+        "readout",
+        "bulk"
+      ],
+      "score": 10,
+      "snippet": "The third class is **two-dimensional topologically ordered phases with gapped boundaries**: fractional quantum Hall fluids, non-Abelian anyon media, and toric-code-like topological orders. These systems have an exact carrier given by anyon sectors and fusion rules; admissibility is exact; local native operations are polymorphic—fusion, splitting, braiding, condensation, defect motion; and boundary structure is intrinsic rather than merely chosen. Boundary-bulk duality and anyon condensation can even determine bulk $R$ and $F$ data from boundary excitations, and there are explicit protocols that use boundary half-braidings to identify topological order. [OUP Academic+2PMC+2](https://academic.oup.com/nsr/article/10/3/nwac264/6845754?utm_source=chatgpt.com)\n\nBut here the mathematics cuts the other way. If the canonical readout is rich enough—full $R,F$ data or the full gapped-boundary phase—then the bulk is often **uniquely** determined. There are papers making exactly that point: the bulk is the “center” of the boundary theory, and the bulk can be uniquely identified from boundary-bulk duality data. That means this class strongly satisfies $S1$–$S3$, but often **fails $S4$**. So ordi"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 10550,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 9,
+      "snippet": "The corpus has already fixed what the deeper law must carry at the grouped-object level, and the branch readouts are only acceptable if they preserve that law in branch-specific dress:\n\n* **closure** on admissible grouped carriers is explicit on the counting side through valid **closed** subsets\n    \n    Arkani-Hamed_2023_All-Loop-Scat…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15284,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 9,
+      "snippet": "Yes. Once the source-side carrier has been lifted from single subrepresentations to **flags/chains of subrepresentations**, the next structural layer is naturally the **refinement/inclusion order on those admissible chains**. The cited flag-variety source already makes the primitive carriers into **nested chains**, not isolated objects. (researchgate.net) And the quiver literature explicitly treats **subrepresentation posets ordered by inclusion**, showing that inclusion-order structure is a real source-side object, not a later readout decoration. (springer.com)\n\nSo the next exact source-side step is now sharper: after the flag-variety carrier and its admissibility law, isolate the **order/refinement structure on admissible chains**.\n\n* * *"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1271,
+      "tags": [
+        "carrier",
+        "readout"
+      ],
+      "score": 9,
+      "snippet": "4. **The Amplituhedron (2014)** — already load-bearing as the original amplituhedron object. [Springer Nature](https://link.springer.com/article/10.1007/JHEP10%282014%29030?utm_source=chatgpt.com)\n5. **Into the Amplituhedron (2014)** — support paper for cuts/faces/logarithm structure, but not the next thing most likely to alter the current substrate rows. [Springer Nature+1](https://link.springer.com/article/10.1007/JHEP12%282014%29182?utm_source=chatgpt.com)\n6. **Surfaceology for Colored Yukawa** — already did its job: it added the compact $2\\times2$ matrix/readout carrier on the surfaceology side, but not codim-1 descent. [Springer Nature](https://link.springer.com/article/10.1007/JHEP09%282024%29160?utm_source=chatgpt.com)\n7. **Amplituhedron-Prime (2020/2021 JHEP)** — already did its job: it added the new row that boundary/log-form data can stay fixed while bulk geometry changes. That is the `boundary_determined_vs_bulk_sensitive` discriminator. [Springer Nature](https://link.springer.com/article/10.1007/JHEP01%282018%29016?utm_source=chatgpt.com)\n8. **Unwinding the amplituhedron in binary** — this is now the one remaining paper that can still directly sharpen the substrate spec"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1557,
+      "tags": [
+        "carrier",
+        "bulk"
+      ],
+      "score": 9,
+      "snippet": "It remains exact as a statement about the extracted $m=1$ sign-vector family, but it should **not** be promoted to an amplituhedron-side substrate constraint. What actually survives amplituhedron-wide is narrower:\n\n$$\\boxed{\\text{sign/winding-controlled membership and boundary data survive}}$$ $$\\boxed{\\text{fixed carrier shape and fixed local descent primitive do not}}$$ $$\\boxed{\\text{boundary/log-form data does not fix bulk}}$$\n\nThat is the real work product from the amplituhedron block. [Springer Nature+5Springer Nature+5Springer Nature+5](https://link.springer.com/article/10.1007/JHEP01%282018%29016)"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1679,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 9,
+      "snippet": "* **Survives across families/presentations**\n    * native exact carrier + admissibility rule\n    * boundary/readout structure is primary\n    * local computability by native operations"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1796,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 9,
+      "snippet": "The four rows to test are the ones you already have:\n\n1. native exact carrier + admissibility rule\n2. boundary/readout as primary\n3. local native operations, with operation class not fixed globally"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1885,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 9,
+      "snippet": "| Requirement | Classical symbolic / state-update | Graph / rewriting | Constraint / SAT-SMT | Quantum / circuit |\n| --- | --- | --- | --- | --- |\n| Exact carrier + admissibility rule | only by encoding | native | native | only by encoding |\n| Boundary/readout primary | absent | only by encoding | only by encoding | only by encoding |\n| Local native operations | native | native | absent | native |"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1896,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 9,
+      "snippet": "In graph rewriting, the carrier and legality machinery are unusually close to your spec: rules, matches, morphisms, and gluing/pushout conditions are first-class, and rewriting is genuinely local. But boundary-primacy is not native in ordinary DPO graph transformation; you need extra open-system structure such as structured cospans / open objects to make interface data first-class. So graph rewriting is the closest ordinary model so far, but still misses your strongest surviving row unless extended. [ResearchGate+2Cambridge University Press & Assessment+2](https://www.researchgate.net/publication/285159376_Basic_concepts_and_double_pushout_approach?utm_source=chatgpt.com)\n\nIn SAT/SMT, admissibility is native: the whole model is “legal assignments are the satisfying models of a formula,” and solvers can produce such models. But the semantic object is global satisfiability of formulas, not local native operations on the carrier, and any “boundary” notion comes from choosing designated variables yourself. Hidden-vs-interface distinction is possible, but only by encoding a projection. [Microsoft GitHub+2Microsoft GitHub+2](https://microsoft.github.io/z3guide/docs/optimization/intro/?ut"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 1898,
+      "tags": [
+        "carrier",
+        "readout"
+      ],
+      "score": 9,
+      "snippet": "In SAT/SMT, admissibility is native: the whole model is “legal assignments are the satisfying models of a formula,” and solvers can produce such models. But the semantic object is global satisfiability of formulas, not local native operations on the carrier, and any “boundary” notion comes from choosing designated variables yourself. Hidden-vs-interface distinction is possible, but only by encoding a projection. [Microsoft GitHub+2Microsoft GitHub+2](https://microsoft.github.io/z3guide/docs/optimization/intro/?utm_source=chatgpt.com)\n\nIn quantum circuits, local native operations are built in: circuits are ordered sequences of gates, measurements, resets, and classical control on qubits. Internal state beyond a chosen measurement/readout is also native. But family-native carriers and boundary-first semantics are not primitive; they must be compiled into qubit registers, gate sets, and measurement choices. [IBM Quantum+2IBM Quantum+2](https://quantum.cloud.ibm.com/docs/api/qiskit/1.0/circuit?utm_source=chatgpt.com)\n\nSo the verdict is:"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2000,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 9,
+      "snippet": "The first distinctness audit was too weak because it tested row 2 in a weak form. Under the sharpened row $B^\\*$, the situation changes:\n\n* exact carrier + admissibility is still not distinctive by itself\n* local native operations are still not distinctive by themselves\n* hidden bulk is still not distinctive by itself"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2263,
+      "tags": [
+        "readout",
+        "bulk"
+      ],
+      "score": 9,
+      "snippet": "It is based on a **core pair**:\n\n$$\\boxed{S2^\\*:\\ \\text{canonical boundary semantics}}$$ $$\\boxed{S4:\\ \\text{bulk non-faithfulness relative to that semantics}}$$\n\nThe other rows remain necessary architecture constraints:"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2320,
+      "tags": [
+        "readout",
+        "bulk"
+      ],
+      "score": 9,
+      "snippet": "$$\\boxed{\\text{is a proposed realization a genuine substrate candidate, or just an encoding layer on ordinary computation?}}$$\n\nThis template is built around the sharpened wedge-bearing pattern extracted from positive geometries: a unique canonical form is fixed by boundary singularities and residues on boundaries; lower-dimensional faces compute physically relevant cuts; and Prime shows that the same boundary/log-form data can coexist with different bulk geometry. [Springer Nature+2Springer Nature+2](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)\n\n## 1. Intake schema"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2389,
+      "tags": [
+        "admissibility",
+        "readout"
+      ],
+      "score": 9,
+      "snippet": "fundamental.\n\nPass only if physically relevant observables, admissibility of continuation, and composition of local operations all factor through boundary semantics first.  \nFail if the system must simulate the full bulk and only afterward extract outputs."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2560,
+      "tags": [
+        "readout",
+        "bulk"
+      ],
+      "score": 9,
+      "snippet": "**3) Constraint-native optimization substrates (SAT/SMT, QUBO/Ising, annealers) — native admissibility, wrong semantics.**  \nSMT solvers natively check satisfiability of formulas and can produce models; D-Wave’s annealers natively minimize Ising/QUBO energy landscapes defined by qubit biases and couplers. That means legality/objective structure is native here. But there is no intrinsic boundary stratification, no canonical recursively boundary-determined semantics, and no Prime-style notion where the same canonical boundary/readout semantics leaves distinct bulk objects alive as a first-class feature. My screening call is: **G1 pass, G2 fail, G3 fail, G4 fail, G5 fail/unclear, G6 weak/irrelevant. Class A/B.** [Microsoft GitHub+2docs.dwavequantum.com+2](https://microsoft.github.io/z3guide/docs/optimization/intro/?utm_source=chatgpt.com)\n\n**4) Wave-based analog / metamaterial boundary-value substrates — tempting because of boundary conditions, but still boundary-imposed, not intrinsic.**"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Performative Contradiction Collapse.md",
+      "line": 34353,
+      "tags": [
+        "admissibility",
+        "readout"
+      ],
+      "score": 9,
+      "snippet": "For machinehood I need something stronger:\n\n> when I sew two admissibility objects along compatible ports, the result is itself another admissibility object in the same class, before readout.\n\nIf that fails, the branch weakens badly. Then I have a beautiful analysis of amplitudes, not a native computational algebra."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Performative Contradiction Collapse.md",
+      "line": 36160,
+      "tags": [
+        "carrier",
+        "admissibility"
+      ],
+      "score": 9,
+      "snippet": "If the answer is “nothing but the new boundary profile,” the family may be too weak for chaining.  \nIf some nontrivial $\\sigma_X$ survives and conditions future admissible gluings, then I have a real state-carrier.\n\nNow readout."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 3982,
+      "tags": [
+        "admissibility",
+        "settling"
+      ],
+      "score": 8,
+      "snippet": "* safety constraints\n\nUse SAT/SMT where applicable, otherwise differentiable constraint relaxation over graph state.\n\n### 8.3 Geometric/latent manifold workspace"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 4700,
+      "tags": [
+        "readout",
+        "computation"
+      ],
+      "score": 8,
+      "snippet": "Arkani-Hamed_2017_Scattering-Fo…\n    \n* In the counting / surfaceology line, the native object is not first a positive geometry with canonical form. It is a **curve-integral / counting problem** on surfaces with $u_C$-variables and integrals over decorated surfaces; that is still boundary/factorization-governed, but it is a different computational ontology.\n    \n    Arkani-Hamed_2023_Hidden-Zeros-…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 5180,
+      "tags": [
+        "readout",
+        "bulk"
+      ],
+      "score": 8,
+      "snippet": "**Why:**\n\n* In the amplituhedron line, the canonical form is determined by logarithmic singularities on the **boundaries** of the positive geometry, and locality/unitarity emerge from that boundary structure rather than from bulk spacetime primitives.\n    \n    Arkani-Hamed_2013_Into-the-Ampl…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 5649,
+      "tags": [
+        "admissibility",
+        "computation"
+      ],
+      "score": 8,
+      "snippet": "**ChatGPT:**\n\n**Object:** Does the row “the native computation is a global constraint/deformation/resolution process, not a sequential local stepping process” survive across the main families?\n\n**Source contact:** amplituhedron / canonical-form extraction from one positive geometry"
+    }
+  ]
+}
