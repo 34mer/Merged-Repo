@@ -1,7 +1,7 @@
 {
   "schema": "projectx_source_bindings_v2",
   "purpose": "Bind each canonical source paper id to its checked-in source text artifact. Markdown source files replace prior Git LFS PDF pointers for validator-friendly source extraction work.",
-  "paper_count": 16,
+  "paper_count": 17,
   "supported_storage_kinds": [
     "markdown_text",
     "git_lfs_pointer",
@@ -167,6 +167,17 @@
       "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2026_Combinatorics-of-the-Cosmohedron_arXiv-2603.03425 (1).pdf",
       "replaces_lfs_oid_sha256": "d3760e815003bec184796c60bc1b5cdff5e58b181f629eb1dbb9d3ff5ecfb69c",
       "replaces_lfs_size_bytes": 5084776
+    },
+    {
+      "paper_id": "POS_GEOM_2017",
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2017_Positive-Geometries-and-Canonical-Forms_arXiv-1703.04541.pdf.md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "f1502c652585e6b60f00304058eb107defff5159f9bdae9f1a9a5a1b2edc1b04",
+      "size_bytes": 318427,
+      "source_pdf_path": "sources/pdfs/Arkani-Hamed_2017_Positive-Geometries-and-Canonical-Forms_arXiv-1703.04541.pdf",
+      "source_pdf_sha256": "39f5bed5660626e955fcc62f917d4efeeee9cce97199d416a5e7eaa9c10837f9",
+      "source_pdf_size_bytes": 9773972,
+      "source_url": "https://arxiv.org/pdf/1703.04541"
     }
   ]
 }

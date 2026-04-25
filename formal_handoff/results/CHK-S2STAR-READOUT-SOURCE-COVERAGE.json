@@ -1,0 +1,52 @@
+{
+  "checker": "ledger_s2star_source_coverage_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-INTO-AMP-2013-001",
+    "EXT-POS-GEOM-2017-001",
+    "EXT-POS-GEOM-2017-002",
+    "EXT-SCAT-FORMS-001"
+  ],
+  "inspected_files": [
+    "research_ledger/S2_STAR_S4_DISTINCTNESS_CANDIDATE.md",
+    "research_ledger/FORMATION_MEDIUM_LAYER_0_SPEC.md",
+    "research_ledger/FORMATION_MEDIUM_LAYER_1_SPEC.md",
+    "research_ledger/FORMATION_MEDIUM_LAYER_1_CANDIDATE_CONSTRAINTS.json"
+  ],
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the source ledger now contains the required canonical-boundary/readout support claims and the Formation Medium artifacts preserve non-promotion discipline. It is not a mathematical proof, not a formal S2* theorem, not substrate evidence, and not a physical settling-law result.",
+  "support_summary": {
+    "all_required_claims_source_extracted_not_checked": true,
+    "allowed_inference": "source coverage for canonical boundary/readout only",
+    "blocked_inference": "checked S2*, physical substrate realization, settling law, or framework separation",
+    "claim_statuses": {
+      "EXT-INTO-AMP-2013-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-POS-GEOM-2017-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-POS-GEOM-2017-002": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-SCAT-FORMS-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "formation_files_acknowledge_positive_geometry_intake_started": true,
+    "formation_files_preserve_non_promotion": true,
+    "paper_ids": {
+      "EXT-INTO-AMP-2013-001": "INTO_AMP_2013",
+      "EXT-POS-GEOM-2017-001": "POS_GEOM_2017",
+      "EXT-POS-GEOM-2017-002": "POS_GEOM_2017",
+      "EXT-SCAT-FORMS-001": "SCAT_FORMS_2017"
+    },
+    "required_claim_count": 4,
+    "source_claims_avoid_generated_fm_language": true
+  },
+  "target_id": "CHK-S2STAR-READOUT-SOURCE-COVERAGE"
+}

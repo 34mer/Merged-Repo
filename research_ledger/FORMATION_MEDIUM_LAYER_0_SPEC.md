@@ -146,7 +146,7 @@ PARTIAL / SOURCE_GAP
 
 Promotion blocker:
 
-- 2017 Positive Geometry source is not in corpus.
+- POS_GEOM_2017 source-intake records now exist, but no general S2* readout validator result exists.
 - No general S2* readout validator exists.
 
 ### FM0.5 Bulk / Readout Non-Faithfulness
@@ -360,12 +360,12 @@ It does not say:
 
 ### W0.1 Source Intake: 2017 Positive Geometry
 
-Add the missing 2017 Positive Geometry source required for B1/B2 authority.
+Continue POS_GEOM_2017 source-coverage work required for B1/B2 authority.
 
 Expected status:
 
 ```text
-SOURCE_NEEDED / SOURCE_GAP
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
 ```
 
 ### W0.2 Formation Vocabulary Registry
@@ -400,7 +400,7 @@ FORMAL_CANDIDATE only after source/check review
 
 ### W0.5 R14 Closure Blocker
 
-Do not advance beyond Layer 0 as a stable spec until R14 grouped-carrier equation/class-matrix deficit is either resolved or explicitly bypassed with a scoped limitation.
+Do not advance beyond Layer 0 as a stable spec until R14 grouped-carrier equation/class-matrix deficit is either resolved or explicitly bypassed with a scoped limitation. POS_GEOM_2017 source coverage alone does not clear R14.
 
 Expected status:
 

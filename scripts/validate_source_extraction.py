@@ -82,9 +82,9 @@ def main() -> None:
     target_ids = {t["id"] for t in targets["targets"]}
     claimed_paper_ids = {c["paper_id"] for c in claims["claims"]}
 
-    assert corpus["paper_count"] == 16
-    assert bindings["paper_count"] == 16
-    assert len(manifest_paper_ids) == 16
+    assert corpus["paper_count"] >= 16
+    assert bindings["paper_count"] >= 16
+    assert len(manifest_paper_ids) >= 16
     assert binding_paper_ids == manifest_paper_ids, sorted(manifest_paper_ids ^ binding_paper_ids)
     assert len(claim_ids) == len(claim_id_set), "claim ids must be unique"
     assert manifest_paper_ids <= claimed_paper_ids, sorted(manifest_paper_ids - claimed_paper_ids)

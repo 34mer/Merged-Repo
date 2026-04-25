@@ -1,7 +1,7 @@
 {
   "schema": "projectx_source_corpus_v1",
-  "purpose": "Canonical manifest of the 16 uploaded source papers. Validators use this to prevent silent source drop-out.",
-  "paper_count": 16,
+  "purpose": "Canonical manifest of the canonical source papers. Validators use this to prevent silent source drop-out.",
+  "paper_count": 17,
   "papers": [
     {
       "paper_id": "AMP_2013",
@@ -98,6 +98,12 @@
       "source_file": "Arkani-Hamed_2026_Combinatorics-of-the-Cosmohedron_arXiv-2603.03425.pdf",
       "title": "Combinatorics of the Cosmohedron",
       "primary_family": "C"
+    },
+    {
+      "paper_id": "POS_GEOM_2017",
+      "source_file": "Arkani-Hamed_2017_Positive-Geometries-and-Canonical-Forms_arXiv-1703.04541.pdf",
+      "title": "Positive Geometries and Canonical Forms",
+      "primary_family": "PG"
     }
   ]
 }

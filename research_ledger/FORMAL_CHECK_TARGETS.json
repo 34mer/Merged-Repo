@@ -1,117 +1,314 @@
 {
   "schema": "projectx_formal_check_targets_v1",
   "purpose": "Formal/checker target registry. These are obligations for Python/Sage/Z3/Lean or related tools; they are not solved unless a result record is added.",
-  "status_vocab": ["DEFINED", "NOT_IMPLEMENTED", "FINITE_CHECK_PLANNED", "SMT_CHECK_PLANNED", "LEAN_CHECK_PLANNED", "OPEN"],
+  "status_vocab": [
+    "DEFINED",
+    "NOT_IMPLEMENTED",
+    "FINITE_CHECK_PLANNED",
+    "SMT_CHECK_PLANNED",
+    "LEAN_CHECK_PLANNED",
+    "OPEN"
+  ],
   "targets": [
     {
       "id": "CHK-COSMO-NESTING-POSSET",
-      "claim_ids": ["EXT-COSMO-001", "EXT-COSMO-COMB-001"],
-      "rows": ["R3", "R9"],
-      "families": ["C"],
+      "claim_ids": [
+        "EXT-COSMO-001",
+        "EXT-COSMO-COMB-001"
+      ],
+      "rows": [
+        "R3",
+        "R9"
+      ],
+      "families": [
+        "C"
+      ],
       "checker_layer": "Python/Sage finite combinatorics; later Lean",
       "predicate": "Generated Matryoshka containment poset agrees with expected face-lattice order for small n and with theorem statement as source authority.",
       "failure_condition": "A generated Matryoshka cover relation does not match the expected refinement/containment order, or a face-label mapping is not anti-isomorphic.",
-      "status": ["DEFINED", "FINITE_CHECK_PLANNED"]
+      "status": [
+        "DEFINED",
+        "FINITE_CHECK_PLANNED"
+      ]
     },
     {
       "id": "CHK-COSMO-MOVE-CLASSES",
-      "claim_ids": ["EXT-COSMO-001", "EXT-COSMO-COMB-001"],
-      "rows": ["R2", "R3"],
-      "families": ["C", "A", "M1"],
+      "claim_ids": [
+        "EXT-COSMO-001",
+        "EXT-COSMO-COMB-001"
+      ],
+      "rows": [
+        "R2",
+        "R3"
+      ],
+      "families": [
+        "C",
+        "A",
+        "M1"
+      ],
       "checker_layer": "Python/Sage finite posets",
       "predicate": "Primitive cover moves in cosmohedron finite baselines split into more than one move class, unlike current A/M1 baselines.",
       "failure_condition": "Cosmohedron primitive cover moves collapse to one class under the chosen equivalence, or A/M1 show matching multiplicity under the same equivalence.",
-      "status": ["DEFINED", "FINITE_CHECK_PLANNED"]
+      "status": [
+        "DEFINED",
+        "FINITE_CHECK_PLANNED"
+      ]
     },
     {
       "id": "CHK-R12-SUBMODULAR-LAW",
-      "claim_ids": ["EXT-COSMO-002"],
-      "rows": ["R12"],
-      "families": ["C", "GAssoc"],
+      "claim_ids": [
+        "EXT-COSMO-002"
+      ],
+      "rows": [
+        "R12"
+      ],
+      "families": [
+        "C",
+        "GAssoc"
+      ],
       "checker_layer": "Z3/SymPy symbolic inequality schema",
       "predicate": "delta_P + delta_P' <= delta_union + delta_intersection is represented with the correct domain conventions, including delta_full = 0.",
       "failure_condition": "The encoded law permits a violating assignment under declared positivity/domain constraints, or union/intersection conventions are inconsistent.",
-      "status": ["DEFINED", "SMT_CHECK_PLANNED"]
+      "status": [
+        "DEFINED",
+        "SMT_CHECK_PLANNED"
+      ]
     },
     {
       "id": "CHK-R13-EQUALITY-LAYER",
-      "claim_ids": ["EXT-COSMO-002", "EXT-COSMO-COMB-001"],
-      "rows": ["R13"],
-      "families": ["C", "GAssoc"],
+      "claim_ids": [
+        "EXT-COSMO-002",
+        "EXT-COSMO-COMB-001"
+      ],
+      "rows": [
+        "R13"
+      ],
+      "families": [
+        "C",
+        "GAssoc"
+      ],
       "checker_layer": "Z3/Python typed predicate model; later Lean",
       "predicate": "Classify equality status as intrinsic/native vs degenerative/saturation based on whether equality is part of the family definition or arises only by imposing extra constraints on a generic inequality layer.",
       "failure_condition": "The source-bound definitions do not support the intrinsic/degenerative distinction, or the distinction is representation-dependent.",
-      "status": ["DEFINED", "SMT_CHECK_PLANNED"]
+      "status": [
+        "DEFINED",
+        "SMT_CHECK_PLANNED"
+      ]
     },
     {
       "id": "CHK-ASSOCIAHEDRON-UNIT-DESCENT",
-      "claim_ids": ["EXT-SCAT-FORMS-001"],
-      "rows": ["R1"],
-      "families": ["A"],
+      "claim_ids": [
+        "EXT-SCAT-FORMS-001"
+      ],
+      "rows": [
+        "R1"
+      ],
+      "families": [
+        "A"
+      ],
       "checker_layer": "Python/Sage noncrossing diagonal poset",
       "predicate": "Facet/cover descent in the associahedron baseline proceeds by adding/removing one compatible chord, yielding unit codimension steps.",
       "failure_condition": "Generated noncrossing chord poset contains a cover changing more than one chord under the chosen grading.",
-      "status": ["DEFINED", "FINITE_CHECK_PLANNED"]
+      "status": [
+        "DEFINED",
+        "FINITE_CHECK_PLANNED"
+      ]
     },
     {
       "id": "CHK-M1-SIGN-DESCENT",
-      "claim_ids": ["EXT-AMP-2013-001", "EXT-INTO-AMP-2013-001", "EXT-BINARY-AMP-001"],
-      "rows": ["R1"],
-      "families": ["M1"],
+      "claim_ids": [
+        "EXT-AMP-2013-001",
+        "EXT-INTO-AMP-2013-001",
+        "EXT-BINARY-AMP-001"
+      ],
+      "rows": [
+        "R1"
+      ],
+      "families": [
+        "M1"
+      ],
       "checker_layer": "Python finite sign-vector enumeration; later Lean",
       "predicate": "Boundary/descent steps in the m=1 sign-flip family are represented by unit changes in sign/vector boundary data within declared scope.",
       "failure_condition": "A cover/descent relation changes non-unit rank or requires an extra hidden move class under the formal sign-family model.",
-      "status": ["DEFINED", "FINITE_CHECK_PLANNED"]
+      "status": [
+        "DEFINED",
+        "FINITE_CHECK_PLANNED"
+      ]
     },
     {
       "id": "CHK-SURF-U-EQUATION",
-      "claim_ids": ["EXT-SURF-COUNT-2023-001", "EXT-SURF-ALLMULT-2023-001", "EXT-SURF-001", "EXT-YUKAWA-SURF-2024-001"],
-      "rows": ["R1", "R7", "R9", "R10"],
-      "families": ["S", "YUKAWA"],
+      "claim_ids": [
+        "EXT-SURF-COUNT-2023-001",
+        "EXT-SURF-ALLMULT-2023-001",
+        "EXT-SURF-001",
+        "EXT-YUKAWA-SURF-2024-001"
+      ],
+      "rows": [
+        "R1",
+        "R7",
+        "R9",
+        "R10"
+      ],
+      "families": [
+        "S",
+        "YUKAWA"
+      ],
       "checker_layer": "Python symbolic/finite curve-intersection model",
       "predicate": "For extracted curve sets, u_C + product_D u_D^{#int(C,D)} = 1 is encoded with the correct intersection exponents, and surfaceology extensions preserve the declared curve-integral interface where claimed.",
       "failure_condition": "A curve set has missing/interpreted intersection data, equation exponents do not match source-defined intersection numbers, or an extension claim lacks the needed curve-integral interface.",
-      "status": ["DEFINED", "FINITE_CHECK_PLANNED"]
+      "status": [
+        "DEFINED",
+        "FINITE_CHECK_PLANNED"
+      ]
     },
     {
       "id": "CHK-SURF-BINARY-BOUNDARY",
-      "claim_ids": ["EXT-SURF-COUNT-2023-001", "EXT-SURF-001"],
-      "rows": ["R1", "R9"],
-      "families": ["S"],
+      "claim_ids": [
+        "EXT-SURF-COUNT-2023-001",
+        "EXT-SURF-001"
+      ],
+      "rows": [
+        "R1",
+        "R9"
+      ],
+      "families": [
+        "S"
+      ],
       "checker_layer": "Python/Z3 inequality model",
       "predicate": "In positive region, u_C >= 0 plus u-equations force 0 <= u_C <= 1 and incompatible crossing variables approach 1 when u_C -> 0.",
       "failure_condition": "The encoded positive-region equations admit u outside [0,1] or fail incompatible-boundary behavior under source assumptions.",
-      "status": ["DEFINED", "SMT_CHECK_PLANNED"]
+      "status": [
+        "DEFINED",
+        "SMT_CHECK_PLANNED"
+      ]
     },
     {
       "id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
-      "claim_ids": ["EXT-HIDDEN-ZEROS-2023-001", "EXT-SCAFFOLD-001", "EXT-BACKUS-2025-001"],
-      "rows": ["R7", "R9"],
-      "families": ["S", "A"],
+      "claim_ids": [
+        "EXT-HIDDEN-ZEROS-2023-001",
+        "EXT-SCAFFOLD-001",
+        "EXT-BACKUS-2025-001"
+      ],
+      "rows": [
+        "R7",
+        "R9"
+      ],
+      "families": [
+        "S",
+        "A"
+      ],
       "checker_layer": "Symbolic substitution / source consistency check",
       "predicate": "The scaffolded-gluon kinematic shift, hidden-zero bridge, and W_e/transmutation claims are represented as source-bound bridge claims without promoting them to equivalence of realization classes.",
       "failure_condition": "The shift/transmutation bridge is incomplete, index partition is inconsistent, or a bridge is promoted to realization equivalence without a separate comparator proof.",
-      "status": ["DEFINED", "NOT_IMPLEMENTED"]
+      "status": [
+        "DEFINED",
+        "NOT_IMPLEMENTED"
+      ]
     },
     {
       "id": "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION",
-      "claim_ids": ["EXT-AMP-PRIME-001", "EXT-WILSON-POS-2024-001"],
+      "claim_ids": [
+        "EXT-AMP-PRIME-001",
+        "EXT-WILSON-POS-2024-001"
+      ],
       "rows": [],
-      "families": ["M1", "WILSON"],
+      "families": [
+        "M1",
+        "WILSON"
+      ],
       "checker_layer": "Ledger invariant / comparator caution",
       "predicate": "Any comparator relying on boundary structure, logarithmic form, positivity, or bootstrap success alone must mark same-boundary/different-bulk or post-integration-caution risk as unresolved unless bulk/equivalence evidence is separately checked.",
       "failure_condition": "A realization equivalence is inferred from same boundary/log-form/positivity/bootstrap data without explicit bulk or representation equivalence evidence.",
-      "status": ["DEFINED", "NOT_IMPLEMENTED"]
+      "status": [
+        "DEFINED",
+        "NOT_IMPLEMENTED"
+      ]
     },
     {
       "id": "CHK-REPRESENTATION-COMPARATOR",
-      "claim_ids": ["EXT-MOM-AMP-2019-001", "EXT-LOOP-MOM-AMP-2022-001"],
-      "rows": ["R1", "R7"],
-      "families": ["MOM", "LOOP_MOM", "M1"],
+      "claim_ids": [
+        "EXT-MOM-AMP-2019-001",
+        "EXT-LOOP-MOM-AMP-2022-001"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
+      "families": [
+        "MOM",
+        "LOOP_MOM",
+        "M1"
+      ],
       "checker_layer": "Typed representation-map ledger first; later symbolic/spinor-helicity checks",
       "predicate": "Momentum and loop-momentum amplituhedron claims are carried as representation-comparator records, separating same-physics claims from equality of geometric realization class.",
       "failure_condition": "A spinor-helicity or loop-momentum presentation is treated as the same realization class as the momentum-twistor amplituhedron without an explicit representation map and boundary/bulk compatibility check.",
-      "status": ["DEFINED", "NOT_IMPLEMENTED"]
+      "status": [
+        "DEFINED",
+        "NOT_IMPLEMENTED"
+      ]
+    },
+    {
+      "id": "CHK-POS-GEOM-CANONICAL-BOUNDARY-RECURSION",
+      "claim_ids": [
+        "EXT-POS-GEOM-2017-001",
+        "EXT-POS-GEOM-2017-002"
+      ],
+      "rows": [
+        "R7"
+      ],
+      "families": [
+        "PG"
+      ],
+      "checker_layer": "source-coverage validator first; later Lean/formal residue model",
+      "predicate": "Canonical-form source claims include boundary-only logarithmic singularity and recursive residue-on-boundary-to-canonical-form-on-boundary conditions.",
+      "failure_condition": "The extracted source support does not include both boundary singularity and recursive residue conditions, or the claim is generalized beyond the source scope.",
+      "status": [
+        "DEFINED",
+        "NOT_IMPLEMENTED"
+      ]
+    },
+    {
+      "id": "CHK-S2STAR-READOUT-SOURCE-COVERAGE",
+      "claim_ids": [
+        "EXT-POS-GEOM-2017-001",
+        "EXT-POS-GEOM-2017-002",
+        "EXT-SCAT-FORMS-001",
+        "EXT-INTO-AMP-2013-001"
+      ],
+      "rows": [
+        "R7"
+      ],
+      "families": [
+        "PG",
+        "A",
+        "M1"
+      ],
+      "checker_layer": "ledger/source coverage validator",
+      "predicate": "S2* readout support may cite positive-geometry canonical-boundary recursion, scattering forms, and amplituhedron cuts/faces only as partial source coverage, not as checked substrate realization.",
+      "failure_condition": "S2* is promoted to checked or physical substrate status without a separate validator/proof artifact.",
+      "status": [
+        "DEFINED",
+        "NOT_IMPLEMENTED"
+      ]
+    },
+    {
+      "id": "CHK-POS-GEOM-TRIANGULATION-PUSHFORWARD",
+      "claim_ids": [
+        "EXT-POS-GEOM-2017-003"
+      ],
+      "rows": [
+        "R7"
+      ],
+      "families": [
+        "PG"
+      ],
+      "checker_layer": "source-coverage validator first; later finite examples",
+      "predicate": "Triangulation/push-forward methods are recorded as canonical-form construction methods, not as formation-medium dynamics or substrate settling laws.",
+      "failure_condition": "Triangulation or push-forward source language is promoted into a physical formation or settling law without additional evidence.",
+      "status": [
+        "DEFINED",
+        "NOT_IMPLEMENTED"
+      ]
     }
   ]
 }

@@ -160,7 +160,7 @@ BoundaryReadout
 Status:
 
 ```text
-GENERATED / OPEN / SOURCE_GAP
+GENERATED / OPEN / SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
 ```
 
 Source leads:
@@ -173,7 +173,7 @@ Source leads:
 
 Promotion blockers:
 
-- 2017 Positive Geometry source missing
+- POS_GEOM_2017 source coverage not checked
 - no S2* validator
 - S2* is not repo-native
 - R8 cannot promote S2* alone
@@ -318,7 +318,7 @@ Current support profile:
 NativeCarrier:             GENERATED / OPEN
 NativeAdmissibility:       THREAD_SUPPORTED / PARTIAL
 NativeLocalOps:            THREAD_SUPPORTED / PARTIAL
-CanonicalBoundaryReadout:  PARTIAL / SOURCE_GAP
+CanonicalBoundaryReadout:  PARTIAL / SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
 NonFaithfulBulkRelation:   SOURCE_ANCHORED_CAUTION / GENERATED
 NativeSettlingLaw:         GENERATED / OPEN
 ExplicitFailureInterface:  PARTIAL
@@ -483,12 +483,12 @@ SOURCE_NEEDED / GENERATED / OPEN
 
 ### FM1-W3 — 2017 Positive Geometry Intake
 
-Still required for B1/B2 and S2* authority.
+Still required as checked source coverage/formalization for B1/B2 and S2* authority; source intake alone is insufficient.
 
 Status:
 
 ```text
-SOURCE_GAP
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
 ```
 
 ### FM1-W4 — Bulk/Readout Witness Checker
@@ -535,7 +535,7 @@ Reject or narrow this Layer 1 spec if:
 1. prior GPT conversation intake is treated as source authority;
 2. FM1 constraints are used as checked physics;
 3. physical-regime leads are presented as selected substrates;
-4. the 2017 Positive Geometry gap is ignored;
+4. the POS_GEOM_2017 source-coverage gap is ignored;
 5. S1-S4 are treated as repo-native;
 6. S2* is promoted without source/check support;
 7. S4 is generalized beyond Amplituhedron-Prime caution without support;

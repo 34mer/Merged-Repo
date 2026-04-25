@@ -25,6 +25,11 @@ def validate_artifact(result: dict) -> None:
     if result["result_status"] == "PASS_PARTIAL_FINITE_CHECK":
         assert data["status"] == "PASS_PARTIAL"
         assert "not" in data["status_boundary"].lower()
+    if result["result_status"] == "PASS_SOURCE_COVERAGE":
+        assert data["status"] == "PASS_SOURCE_COVERAGE"
+        boundary = data["status_boundary"].lower()
+        assert "not a mathematical proof" in boundary
+        assert "not substrate evidence" in boundary
 
 
 def main() -> None:
@@ -40,10 +45,11 @@ def main() -> None:
         assert result["target_id"]
         assert result["result_status"] in vocab
         assert result["result_summary"]
-        if result["result_status"] in {"PASS_FINITE_CHECK", "PASS_PARTIAL_FINITE_CHECK"}:
+        if result["result_status"] in {"PASS_FINITE_CHECK", "PASS_PARTIAL_FINITE_CHECK", "PASS_SOURCE_COVERAGE"}:
             validate_artifact(result)
 
     assert any(result["result_status"] == "PASS_LEDGER_VALIDATION" for result in results["results"])
+    assert any(result["result_status"] == "PASS_SOURCE_COVERAGE" for result in results["results"])
     assert any(result["result_status"] == "PASS_FINITE_CHECK" for result in results["results"])
     assert any(result["result_status"] == "PASS_PARTIAL_FINITE_CHECK" for result in results["results"])
     assert "DEFINED_NOT_RUN is not evidence" in results["non_promotion_rule"]

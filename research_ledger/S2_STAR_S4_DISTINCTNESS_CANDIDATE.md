@@ -56,7 +56,7 @@ Repo status:
 
 - Not repo-native.
 - Partially supported by source-extracted/corpus material on canonical forms, cuts/faces, residue recursion, and the R8 root-bundle / local transport layer.
-- Full source authority requires the 2017 Positive Geometry paper, which is not currently in the source corpus.
+- Full source authority now has initial POS_GEOM_2017 source-intake records in the corpus, but remains not checked; the relevant source-coverage target is CHK-S2STAR-READOUT-SOURCE-COVERAGE.
 
 Allowed use: generated shorthand for the B1-B3 package below, marked PARTIAL / SOURCE_GAP until 2017 Positive Geometry intake is complete.
 
@@ -145,17 +145,14 @@ PARTIAL
 
 Required source gap:
 
-The general positive-geometry principle that canonical forms are recursively characterized by logarithmic singularities on all boundaries and residues equal canonical forms on boundaries requires the 2017 Positive Geometry paper:
-
-```text
-Arkani-Hamed, Bai, He, Yan — Positive Geometries and Canonical Forms
-```
+The general positive-geometry principle that canonical forms are recursively characterized by logarithmic singularities on all boundaries and residues equal canonical forms on boundaries is now represented by initial POS_GEOM_2017 source-intake claims.
 
 Current repo corpus status:
 
 ```text
-NOT IN CORPUS
-SOURCE_NEEDED / SOURCE_GAP
+POS_GEOM_2017 present as source intake
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION
+CHECKED status blocked
 ```
 
 ## 4. Proposed B-Level Decomposition
@@ -354,16 +351,16 @@ Required action:
 
 - Either register them explicitly as candidate labels in a repo-native vocabulary file, or replace them with repo-native terms.
 
-### PB2 — 2017 Positive Geometry Source Gap
+### PB2 — POS_GEOM_2017 Source Coverage Not Checked
 
-The 2017 Positive Geometry paper is not in the current source corpus.
+The 2017 Positive Geometry paper now has initial POS_GEOM_2017 source-intake records in the source corpus.
 
 Required action:
 
-- Add source record for Arkani-Hamed, Bai, He, Yan.
-- Bind source metadata.
-- Extract claims relevant to positive geometries, canonical forms, boundary recursion, and residues.
-- Only then upgrade B1/B2 from SOURCE_GAP/PARTIAL.
+- Preserve source record for Arkani-Hamed, Bai, He, Yan.
+- Preserve source binding metadata.
+- Keep extracted claims relevant to positive geometries, canonical forms, boundary recursion, and residues source-bound and unpromoted.
+- Do not upgrade B1/B2 beyond source-covered partial status until checker/formal work runs.
 
 ### PB3 — No Checked Separation Theorem
 
@@ -440,7 +437,7 @@ Reject, narrow, or rewrite this candidate if any of the following occurs:
 
 ### NC1 — Source Intake
 
-Add and extract the 2017 Positive Geometry source.
+Continue POS_GEOM_2017 source-coverage validation and formalization.
 
 Expected target:
 

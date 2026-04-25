@@ -1,6 +1,6 @@
 # 2017 Positive Geometry Intake Plan
 
-STATUS: GENERATED / OPEN / SOURCE_NEEDED  
+STATUS: GENERATED / OPEN / SOURCE_INTAKE_STARTED  
 ARGUMENT_STATUS: GENERATED  
 CHECK_STATUS: NOT_CHECKED  
 PROMOTION_STATUS: BLOCKED  
@@ -11,7 +11,7 @@ DO_NOT_PLACE_IN: SOURCE_EXTRACTED_CLAIMS.json
 
 This is an intake plan, not a source-extracted claim. It does not certify any S2*, B1, B2, or formation-medium statement.
 
-The 2017 Positive Geometry source is currently a required source gap for the S2* + S4 distinction and Formation Medium Layer 0/1 readout constraints.
+The 2017 Positive Geometry source now has initial POS_GEOM_2017 source-intake records, but remains a required source-coverage and formalization gap for the S2* + S4 distinction and Formation Medium Layer 0/1 readout constraints.
 
 ## 1. Target Source
 
@@ -30,14 +30,14 @@ Primary source for general positive geometry definitions, canonical forms, logar
 Current repo status:
 
 ```text
-NOT IN CURRENT SOURCE_CORPUS
-SOURCE_NEEDED
-SOURCE_GAP
+POS_GEOM_2017 present in SOURCE_CORPUS / SOURCE_PDF_BINDINGS
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION
+CHECKED status blocked
 ```
 
 ## 2. Why This Source Matters
 
-This source is required before promoting the following generated/partial claims:
+Checked source coverage and formalization of this source are required before promoting the following generated/partial claims:
 
 ```text
 B1 — Intrinsic Boundary Semantics
@@ -83,10 +83,10 @@ FM0.4
 FM1-C4
 ```
 
-Status before extraction:
+Status after initial extraction:
 
 ```text
-SOURCE_NEEDED
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
 ```
 
 ### PG2017-T2 — Canonical Form Definition
@@ -111,10 +111,10 @@ S2*
 FM0.4
 ```
 
-Status before extraction:
+Status after initial extraction:
 
 ```text
-SOURCE_NEEDED
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
 ```
 
 ### PG2017-T3 — Boundary Recursion / Residue Semantics
@@ -138,10 +138,10 @@ R7 comparison context
 FM1-C4
 ```
 
-Status before extraction:
+Status after initial extraction:
 
 ```text
-SOURCE_NEEDED
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
 ```
 
 ### PG2017-T4 — Triangulation / Pushforward Readout
@@ -164,10 +164,10 @@ FM0.4
 FM1-C4
 ```
 
-Status before extraction:
+Status after initial extraction:
 
 ```text
-SOURCE_NEEDED
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
 ```
 
 ### PG2017-T5 — Limits of Generalization
@@ -190,31 +190,29 @@ FORMATION_MEDIUM_LAYER_0_SPEC
 FORMATION_MEDIUM_LAYER_1_SPEC
 ```
 
-Status before extraction:
+Status after initial extraction:
 
 ```text
-SOURCE_NEEDED
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
 ```
 
 ## 4. Expected Repo Updates After Source Is Available
 
-Do not perform these until the source file is actually present and inspected.
+Initial source registration and extraction are present. Continue to preserve non-promotion discipline and do not treat source intake as formal proof.
 
 ### 4.1 Source Corpus Update
 
-Add a new source record to `SOURCE_CORPUS.json` or the repo-native equivalent.
+Preserve the `POS_GEOM_2017` source record in `SOURCE_CORPUS.json`.
 
-Candidate paper id:
+Current paper id:
 
 ```text
 POS_GEOM_2017
 ```
 
-Do not finalize id until checked against repo naming conventions.
-
 ### 4.2 Source Binding Update
 
-Bind the checked-in source file in the source binding manifest.
+Preserve the checked-in source file binding in the source binding manifest.
 
 Because the repo has migrated to Markdown-aware source bindings, preferred storage is:
 
@@ -232,15 +230,15 @@ binary_pdf
 
 ### 4.3 Source-Extracted Claims
 
-Only after source inspection, add claims with ids matching repo convention:
+Initial source-extracted claims now exist:
 
 ```text
 EXT-POS-GEOM-2017-001
 EXT-POS-GEOM-2017-002
-...
+EXT-POS-GEOM-2017-003
 ```
 
-Do not use these exact ids until actual repo convention/paper_id is finalized.
+They remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION and are not proof results.
 
 ### 4.4 Formal Check Targets
 
@@ -252,15 +250,17 @@ CHK-S2STAR-READOUT-SOURCE-COVERAGE
 CHK-FM1-C4-SOURCE-GAP-CLOSURE
 ```
 
-Status at intake-plan stage:
+Current status:
 
 ```text
-NOT_IMPLEMENTED
+CHK-S2STAR-READOUT-SOURCE-COVERAGE: PASS_SOURCE_COVERAGE
+CHK-POS-GEOM-CANONICAL-BOUNDARY-RECURSION: DEFINED_NOT_RUN
+CHK-POS-GEOM-TRIANGULATION-PUSHFORWARD: DEFINED_NOT_RUN
 ```
 
 ## 5. Promotion Effects If Intake Succeeds
 
-Only if source extraction succeeds:
+After initial source extraction:
 
 ```text
 B1: may move from SOURCE_GAP to PARTIAL/SOURCE_ANCHORED
@@ -284,10 +284,4 @@ This intake plan must be revised if:
 
 ## 7. Immediate Next Action
 
-Acquire or locate the source in the local repo, preferably as Markdown source text. Then run a source-intake update that:
-
-1. registers the source,
-2. binds the source file,
-3. extracts exact claims,
-4. updates validators,
-5. leaves all formation-medium statements GENERATED / OPEN until separately checked.
+Continue from the existing POS_GEOM_2017 source-intake update by implementing the remaining formal/source-coverage validators. Formation-medium statements must remain GENERATED / OPEN until separately checked.

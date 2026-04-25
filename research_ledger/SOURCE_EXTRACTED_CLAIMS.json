@@ -1,7 +1,12 @@
 {
   "schema": "projectx_source_extracted_claims_v1",
   "purpose": "First source-bound extraction layer. These records paraphrase source claims and bind them to rows/check targets. They are not proof results.",
-  "status_vocab": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION", "CHECK_TARGET_DEFINED", "OPEN"],
+  "status_vocab": [
+    "SOURCE_EXTRACTED",
+    "NEEDS_FORMALIZATION",
+    "CHECK_TARGET_DEFINED",
+    "OPEN"
+  ],
   "claims": [
     {
       "id": "EXT-AMP-2013-001",
@@ -9,11 +14,21 @@
       "source_file": "Arkani-Hamed_2013_The-Amplituhedron_arXiv-1312.2007.pdf.pdf",
       "source_anchor": "abstract / definition sections",
       "claim_text": "The amplituhedron gives a positive-geometry formulation of planar N=4 SYM tree amplitudes and loop integrands, with the physical object recovered from the canonical logarithmic form of the geometry.",
-      "families": ["M1"],
-      "rows": ["R1", "R7"],
+      "families": [
+        "M1"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
       "claim_type": "amplituhedron_baseline",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-M1-SIGN-DESCENT"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-M1-SIGN-DESCENT"
+      ]
     },
     {
       "id": "EXT-INTO-AMP-2013-001",
@@ -21,11 +36,21 @@
       "source_file": "Arkani-Hamed_2013_Into-the-Amplituhedron_arXiv-1312.7878.pdf.pdf",
       "source_anchor": "sections on loop amplituhedron faces / cuts",
       "claim_text": "The four-particle loop amplituhedron exposes faces, cuts, and residue behavior geometrically; this supplies a cut/path caution for using boundary data as realization evidence.",
-      "families": ["M1"],
-      "rows": ["R1", "R7"],
+      "families": [
+        "M1"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
       "claim_type": "loop_face_cut_caution",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-M1-SIGN-DESCENT"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-M1-SIGN-DESCENT"
+      ]
     },
     {
       "id": "EXT-SCAT-FORMS-001",
@@ -33,11 +58,21 @@
       "source_file": "Arkani-Hamed_2017_Scattering-Forms-and-Positive-Geometry_arXiv-1711.09102.pdf.pdf",
       "source_anchor": "abstract / sections 3-4",
       "claim_text": "For bi-adjoint phi^3 theory, the scattering form is directly connected to the kinematic associahedron; the tree amplitude is the canonical form of this positive geometry, and locality/unitarity/factorization follow from the geometry.",
-      "families": ["A"],
-      "rows": ["R1", "R7"],
+      "families": [
+        "A"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
       "claim_type": "associahedron_baseline",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-ASSOCIAHEDRON-UNIT-DESCENT"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-ASSOCIAHEDRON-UNIT-DESCENT"
+      ]
     },
     {
       "id": "EXT-BINARY-AMP-001",
@@ -45,11 +80,20 @@
       "source_file": "Arkani-Hamed_2017_Unwinding-the-Amplituhedron-in-Binary_arXiv-1704.05069.pdf.pdf",
       "source_anchor": "abstract / section 1",
       "claim_text": "The amplituhedron admits combinatorial/topological characterizations through winding and sign-flip data; locality and unitarity follow as consequences of this binary code.",
-      "families": ["M1"],
-      "rows": ["R1"],
+      "families": [
+        "M1"
+      ],
+      "rows": [
+        "R1"
+      ],
       "claim_type": "binary_sign_family_baseline",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-M1-SIGN-DESCENT"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-M1-SIGN-DESCENT"
+      ]
     },
     {
       "id": "EXT-AMP-PRIME-001",
@@ -57,11 +101,18 @@
       "source_file": "Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.pdf",
       "source_anchor": "abstract / introduction",
       "claim_text": "Amplituhedron-Prime has the same boundary structure and logarithmic form as the Amplituhedron but differs in the bulk as a geometric space; same-boundary/log-form data cannot by itself prove realization equivalence.",
-      "families": ["M1"],
+      "families": [
+        "M1"
+      ],
       "rows": [],
       "claim_type": "caution_same_boundary_different_bulk",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"
+      ]
     },
     {
       "id": "EXT-MOM-AMP-2019-001",
@@ -69,11 +120,21 @@
       "source_file": "Damgaard_2019_The-Momentum-Amplituhedron_arXiv-1905.04216.pdf",
       "source_anchor": "abstract / definition section",
       "claim_text": "The momentum amplituhedron is a positive geometry for tree-level N=4 SYM amplitudes directly in spinor-helicity space, defined as an image of the positive Grassmannian under positive bosonized spinor-helicity data.",
-      "families": ["MOM"],
-      "rows": ["R1", "R7"],
+      "families": [
+        "MOM"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
       "claim_type": "representation_comparator_tree_amplituhedron",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-REPRESENTATION-COMPARATOR"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-REPRESENTATION-COMPARATOR"
+      ]
     },
     {
       "id": "EXT-LOOP-MOM-AMP-2022-001",
@@ -81,11 +142,22 @@
       "source_file": "Ferro_2022_The-Loop-Momentum-Amplituhedron_arXiv-2210.01127.pdf",
       "source_anchor": "abstract / introduction",
       "claim_text": "The loop momentum amplituhedron extends the momentum-amplituhedron program to loop integrands in spinor-helicity variables by adding loop two-planes and a global loop-momentum definition.",
-      "families": ["MOM", "LOOP_MOM"],
-      "rows": ["R1", "R7"],
+      "families": [
+        "MOM",
+        "LOOP_MOM"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
       "claim_type": "loop_momentum_representation_comparator",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-REPRESENTATION-COMPARATOR"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-REPRESENTATION-COMPARATOR"
+      ]
     },
     {
       "id": "EXT-SURF-COUNT-2023-001",
@@ -93,11 +165,22 @@
       "source_file": "Arkani-Hamed_2023_All-Loop-Scattering-As-A-Counting-Problem_arXiv-2309.15913.pdf",
       "source_anchor": "introduction and summary / u-variable equation",
       "claim_text": "The surfaceology curve-integral formalism defines u_C variables for curves C on a surface satisfying u_C + product_D u_D^{n(C,D)} = 1, producing binary behavior in the positive region and a curve-integral formulation of all-loop amplitudes.",
-      "families": ["S"],
-      "rows": ["R1", "R9"],
+      "families": [
+        "S"
+      ],
+      "rows": [
+        "R1",
+        "R9"
+      ],
       "claim_type": "surfaceology_binary_geometry",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-SURF-U-EQUATION", "CHK-SURF-BINARY-BOUNDARY"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-SURF-U-EQUATION",
+        "CHK-SURF-BINARY-BOUNDARY"
+      ]
     },
     {
       "id": "EXT-SURF-ALLMULT-2023-001",
@@ -105,11 +188,22 @@
       "source_file": "Arkani-Hamed_2023_All-Loop-Scattering-For-All-Multiplicity_arXiv-2311.09284.pdf",
       "source_anchor": "abstract / introduction and summary",
       "claim_text": "Curve integrals decouple multiplicity n from loop order L: fixed-L all-multiplicity data can be reconstructed from tree-level all-n information and low-point L-loop tadpole-like formulas.",
-      "families": ["S"],
-      "rows": ["R7", "R9", "R10"],
+      "families": [
+        "S"
+      ],
+      "rows": [
+        "R7",
+        "R9",
+        "R10"
+      ],
       "claim_type": "tree_loop_factorization",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-SURF-U-EQUATION"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-SURF-U-EQUATION"
+      ]
     },
     {
       "id": "EXT-HIDDEN-ZEROS-2023-001",
@@ -117,11 +211,22 @@
       "source_file": "Arkani-Hamed_2023_Hidden-Zeros-For-Particle-String-Amplitudes-And-The-Unity-Of-Colored-Scalars-Pions-And-Gluons_arXiv-2312.16282.pdf",
       "source_anchor": "abstract / introduction",
       "claim_text": "Tree-level Tr(phi^3) amplitudes have hidden zero loci and factorization near those zeros; related zero patterns extend to pions and gluons through stringy Tr(phi^3) kinematic shifts.",
-      "families": ["S", "A"],
-      "rows": ["R7", "R9"],
+      "families": [
+        "S",
+        "A"
+      ],
+      "rows": [
+        "R7",
+        "R9"
+      ],
       "claim_type": "hidden_zero_factorization_bridge",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-SCAFFOLD-KINEMATIC-SHIFT"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-SCAFFOLD-KINEMATIC-SHIFT"
+      ]
     },
     {
       "id": "EXT-SURF-001",
@@ -129,11 +234,22 @@
       "source_file": "Arkani-Hamed_2024_Scalar-Scaffolded-Gluons-And-The-Combinatorial-Origins-Of-Yang-Mills-Theory_arXiv-2401.00041.pdf",
       "source_anchor": "introduction and summary",
       "claim_text": "Scalar-scaffolded gluons use surfaceology u-variable/binary-geometry technology to obtain gauge-invariant Yang-Mills amplitudes from shifted stringy Tr(phi^3) data.",
-      "families": ["S"],
-      "rows": ["R1", "R7"],
+      "families": [
+        "S"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
       "claim_type": "surfaceology_binary_geometry_reused_for_gluons",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-SURF-U-EQUATION", "CHK-SURF-BINARY-BOUNDARY"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-SURF-U-EQUATION",
+        "CHK-SURF-BINARY-BOUNDARY"
+      ]
     },
     {
       "id": "EXT-SCAFFOLD-001",
@@ -141,11 +257,18 @@
       "source_file": "Arkani-Hamed_2024_Scalar-Scaffolded-Gluons-And-The-Combinatorial-Origins-Of-Yang-Mills-Theory_arXiv-2401.00041.pdf",
       "source_anchor": "kinematic shift equations / scaffolding triangulation discussion",
       "claim_text": "The scaffolded-gluon construction shifts even/even and odd/odd planar variables oppositely while leaving mixed parity variables unchanged, turning the scalar dlog measure into a dy/y^2 scaffolding measure.",
-      "families": ["S"],
+      "families": [
+        "S"
+      ],
       "rows": [],
       "claim_type": "scaffolding_shift_bridge",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-SCAFFOLD-KINEMATIC-SHIFT"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-SCAFFOLD-KINEMATIC-SHIFT"
+      ]
     },
     {
       "id": "EXT-YUKAWA-SURF-2024-001",
@@ -153,11 +276,22 @@
       "source_file": "Arkani-Hamed_2024_Surfaceology-for-Colored-Yukawa_arXiv-2406.04411.pdf",
       "source_anchor": "abstract / section 3",
       "claim_text": "The curve-integral formalism extends to colored Yukawa theory with fermionic matter, yielding compact all-loop/all-genus/all-multiplicity tropical expressions and post-integration formulas involving 2^L combinatorial determinants.",
-      "families": ["S", "YUKAWA"],
-      "rows": ["R7", "R9"],
+      "families": [
+        "S",
+        "YUKAWA"
+      ],
+      "rows": [
+        "R7",
+        "R9"
+      ],
       "claim_type": "surfaceology_tensor_numerator_extension",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-SURF-U-EQUATION"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-SURF-U-EQUATION"
+      ]
     },
     {
       "id": "EXT-WILSON-POS-2024-001",
@@ -165,11 +299,19 @@
       "source_file": "Chicherin_2024_Positivity-Properties-Of-Five-Point-Two-Loop-Wilson-Loops-With-Lagrangian-Insertion_arXiv-2410.11456.pdf",
       "source_anchor": "abstract / summary",
       "claim_text": "The five-point Wilson loop with Lagrangian insertion has a two-loop negative-geometry decomposition with uniform sign behavior in the Amplituhedron region; a minimal ladder bootstrap succeeds at two loops but contradicts at three loops, requiring new alphabet letters.",
-      "families": ["WILSON", "M1"],
+      "families": [
+        "WILSON",
+        "M1"
+      ],
       "rows": [],
       "claim_type": "integrated_positivity_and_bootstrap_caution",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"
+      ]
     },
     {
       "id": "EXT-COSMO-001",
@@ -177,11 +319,28 @@
       "source_file": "Arkani-Hamed_2024_Cosmohedra_arXiv-2412.19881.pdf.pdf",
       "source_anchor": "abstract / introduction",
       "claim_text": "Cosmohedra are polytopes whose faces capture Russian-doll / non-overlapping subpolygon structures determining the wavefunction; they are related to associahedra by blowing up faces and have facet inequalities that further shave the associahedron.",
-      "families": ["C", "A"],
-      "rows": ["R2", "R3", "R9", "R10", "R11", "R13"],
+      "families": [
+        "C",
+        "A"
+      ],
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R10",
+        "R11",
+        "R13"
+      ],
       "claim_type": "structural_family_definition",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-COSMO-MOVE-CLASSES", "CHK-COSMO-NESTING-POSSET", "CHK-R13-EQUALITY-LAYER"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-COSMO-MOVE-CLASSES",
+        "CHK-COSMO-NESTING-POSSET",
+        "CHK-R13-EQUALITY-LAYER"
+      ]
     },
     {
       "id": "EXT-COSMO-002",
@@ -189,11 +348,26 @@
       "source_file": "Arkani-Hamed_2024_Cosmohedra_arXiv-2412.19881.pdf.pdf",
       "source_anchor": "section 1 inequality definition",
       "claim_text": "Cosmohedron inequalities further shave the associahedron by imposing grouped partial-triangulation inequalities with positive delta parameters satisfying a submodular-type compatibility law and delta_full = 0.",
-      "families": ["C", "GAssoc"],
-      "rows": ["R9", "R10", "R11", "R12", "R13"],
+      "families": [
+        "C",
+        "GAssoc"
+      ],
+      "rows": [
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13"
+      ],
       "claim_type": "inequality_layer",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-R12-SUBMODULAR-LAW", "CHK-R13-EQUALITY-LAYER"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-R12-SUBMODULAR-LAW",
+        "CHK-R13-EQUALITY-LAYER"
+      ]
     },
     {
       "id": "EXT-BACKUS-2025-001",
@@ -201,11 +375,21 @@
       "source_file": "Backus_2025_Surface-Gauge-Invariance-Soft-Limits-And-The-Transmutation-Of-Gluons-Into-Scalars_arXiv-2505.17179.pdf",
       "source_anchor": "abstract / parts I-II",
       "claim_text": "In scalar-scaffolded gluon language, soft limits are canonically defined at tree level and one loop, and repeated W_e differential operators transmute gluon amplitudes/integrands into Tr(phi^3) scalar amplitudes.",
-      "families": ["S"],
-      "rows": ["R7", "R9"],
+      "families": [
+        "S"
+      ],
+      "rows": [
+        "R7",
+        "R9"
+      ],
       "claim_type": "surface_gauge_invariance_transmutation",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-SCAFFOLD-KINEMATIC-SHIFT"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-SCAFFOLD-KINEMATIC-SHIFT"
+      ]
     },
     {
       "id": "EXT-COSMO-COMB-001",
@@ -213,11 +397,90 @@
       "source_file": "Arkani-Hamed_2026_Combinatorics-of-the-Cosmohedron_arXiv-2603.03425.pdf",
       "source_anchor": "abstract and theorem 1.1",
       "claim_text": "The combinatorics paper proves the correctness of the cosmohedron construction: the face lattice of the (n-1)-cosmohedron is anti-isomorphic to the poset of Matryoshkas of an (n+2)-gon.",
-      "families": ["C"],
-      "rows": ["R2", "R3", "R9", "R13"],
+      "families": [
+        "C"
+      ],
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R13"
+      ],
       "claim_type": "face_lattice_theorem",
-      "status": ["SOURCE_EXTRACTED", "NEEDS_FORMALIZATION"],
-      "formal_check_targets": ["CHK-COSMO-NESTING-POSSET"]
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-COSMO-NESTING-POSSET"
+      ]
+    },
+    {
+      "id": "EXT-POS-GEOM-2017-001",
+      "paper_id": "POS_GEOM_2017",
+      "source_file": "Arkani-Hamed_2017_Positive-Geometries-and-Canonical-Forms_arXiv-1703.04541.pdf",
+      "source_anchor": "abstract / introduction / section 2.1",
+      "claim_text": "Positive geometries are studied as mathematical objects with associated canonical forms; the geometry-physics connection is provided by a unique differential form canonically determined by logarithmic singularities only on all boundaries, with residues on each boundary given by the canonical form on that boundary.",
+      "families": [
+        "PG"
+      ],
+      "rows": [
+        "R7"
+      ],
+      "claim_type": "positive_geometry_canonical_boundary_recursion",
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-POS-GEOM-CANONICAL-BOUNDARY-RECURSION",
+        "CHK-S2STAR-READOUT-SOURCE-COVERAGE"
+      ]
+    },
+    {
+      "id": "EXT-POS-GEOM-2017-002",
+      "paper_id": "POS_GEOM_2017",
+      "source_file": "Arkani-Hamed_2017_Positive-Geometries-and-Canonical-Forms_arXiv-1703.04541.pdf",
+      "source_anchor": "section 1 / figure 1 discussion / section 2.1",
+      "claim_text": "The canonical form of a positive geometry is fixed by having simple/logarithmic poles on boundaries only, and residues on boundaries recursively given by canonical forms of the boundary geometries; the calculation of scattering amplitudes is thereby reduced to determining the canonical form.",
+      "families": [
+        "PG",
+        "A",
+        "M1"
+      ],
+      "rows": [
+        "R7"
+      ],
+      "claim_type": "canonical_form_recursive_readout",
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-POS-GEOM-CANONICAL-BOUNDARY-RECURSION",
+        "CHK-S2STAR-READOUT-SOURCE-COVERAGE"
+      ]
+    },
+    {
+      "id": "EXT-POS-GEOM-2017-003",
+      "paper_id": "POS_GEOM_2017",
+      "source_file": "Arkani-Hamed_2017_Positive-Geometries-and-Canonical-Forms_arXiv-1703.04541.pdf",
+      "source_anchor": "abstract / sections 3-4",
+      "claim_text": "The paper introduces triangulation and push-forward maps as general methods for obtaining canonical forms of more complicated positive geometries from simpler ones; triangulated positive geometries have canonical forms given by summing the forms of non-overlapping pieces.",
+      "families": [
+        "PG"
+      ],
+      "rows": [
+        "R7"
+      ],
+      "claim_type": "triangulation_pushforward_canonical_form_method",
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-POS-GEOM-TRIANGULATION-PUSHFORWARD"
+      ]
     }
   ]
 }
