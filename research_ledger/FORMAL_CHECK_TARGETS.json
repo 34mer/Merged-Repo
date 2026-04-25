@@ -303,12 +303,12 @@
       "families": [
         "PG"
       ],
-      "checker_layer": "source-coverage validator first; later finite examples",
+      "checker_layer": "implemented source-coverage validator; later finite examples",
       "predicate": "Triangulation/push-forward methods are recorded as canonical-form construction methods, not as formation-medium dynamics or substrate settling laws.",
       "failure_condition": "Triangulation or push-forward source language is promoted into a physical formation or settling law without additional evidence.",
       "status": [
         "DEFINED",
-        "NOT_IMPLEMENTED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     }
   ]

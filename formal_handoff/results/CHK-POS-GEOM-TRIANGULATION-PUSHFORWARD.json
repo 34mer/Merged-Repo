@@ -1,0 +1,39 @@
+{
+  "checker": "pos_geom_triangulation_pushforward_source_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-POS-GEOM-2017-003"
+  ],
+  "source_file": "sources\\Markdowns\\Arkani-Hamed_2017_Positive-Geometries-and-Canonical-Forms_arXiv-1703.04541.pdf.md",
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the POS_GEOM_2017 source text and extracted claim contain triangulation and push-forward language as methods for constructing canonical forms of positive geometries. It is not a mathematical proof, not a triangulation-independence theorem, not an S2* theorem, not substrate evidence, and not a physical settling-law result.",
+  "support_summary": {
+    "allowed_inference": "triangulation and push-forward may be cited as positive-geometry canonical-form construction/readout methods",
+    "blocked_inference": "Formation Medium dynamics, substrate realization, physical settling law, or computation-replacement claim",
+    "checked_interface": "source coverage for triangulation/push-forward as canonical-form construction methods",
+    "claim_statuses": {
+      "EXT-POS-GEOM-2017-003": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "paper_ids": {
+      "EXT-POS-GEOM-2017-003": "POS_GEOM_2017"
+    },
+    "required_claim_count": 1,
+    "source_terms_anywhere": {
+      "canonical form": true,
+      "non-overlapping": true,
+      "push-forward": true,
+      "triangulation": true
+    },
+    "source_windows": {
+      "triangulation_pushforward_methods": {
+        "max_span_chars": 2400,
+        "span_chars": 1658,
+        "status": "PASS"
+      }
+    }
+  },
+  "target_id": "CHK-POS-GEOM-TRIANGULATION-PUSHFORWARD"
+}

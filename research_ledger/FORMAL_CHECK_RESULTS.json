@@ -98,9 +98,9 @@
     },
     {
       "target_id": "CHK-POS-GEOM-TRIANGULATION-PUSHFORWARD",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined to prevent triangulation/push-forward source language from being promoted to formation-medium dynamics, but no checker has been implemented yet.",
-      "artifact": null
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented POS_GEOM_2017 triangulation/push-forward source guard. The checker verifies that the source text and extracted claim contain triangulation and push-forward language as methods for constructing canonical forms of positive geometries, while blocking promotion to Formation Medium dynamics, substrate realization, physical settling law, or computation-replacement evidence.",
+      "artifact": "formal_handoff/results/CHK-POS-GEOM-TRIANGULATION-PUSHFORWARD.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."
