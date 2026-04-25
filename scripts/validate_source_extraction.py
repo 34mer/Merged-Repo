@@ -9,10 +9,10 @@ ROOT = Path(__file__).resolve().parents[1]
 LFS_POINTER_VERSION = "version https://git-lfs.github.com/spec/v1"
 
 
-class PdfBindingCheck(TypedDict):
-    storage_kind: Literal["git_lfs_pointer", "binary_pdf"]
-    lfs_oid_sha256: str
-    lfs_size_bytes: int
+class SourceBindingCheck(TypedDict):
+    storage_kind: Literal["markdown_text", "git_lfs_pointer", "binary_pdf"]
+    sha256: str
+    size_bytes: int
 
 
 def read_json(name: str) -> dict:
@@ -21,7 +21,7 @@ def read_json(name: str) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def parse_lfs_pointer_bytes(data: bytes, path: Path) -> PdfBindingCheck | None:
+def parse_lfs_pointer_bytes(data: bytes) -> SourceBindingCheck | None:
     try:
         text = data.decode("utf-8")
     except UnicodeDecodeError:
@@ -35,23 +35,38 @@ def parse_lfs_pointer_bytes(data: bytes, path: Path) -> PdfBindingCheck | None:
     size_line = next(line for line in lines if line.startswith("size "))
     return {
         "storage_kind": "git_lfs_pointer",
-        "lfs_oid_sha256": oid_line.removeprefix("oid sha256:"),
-        "lfs_size_bytes": int(size_line.removeprefix("size ")),
+        "sha256": oid_line.removeprefix("oid sha256:"),
+        "size_bytes": int(size_line.removeprefix("size ")),
     }
 
 
-def inspect_pdf_binding(path: Path) -> PdfBindingCheck:
+def inspect_source_binding(path: Path) -> SourceBindingCheck:
     data = path.read_bytes()
-    pointer = parse_lfs_pointer_bytes(data, path)
+    pointer = parse_lfs_pointer_bytes(data)
     if pointer is not None:
         return pointer
 
-    assert data.startswith(b"%PDF-"), f"Expected Git LFS pointer or binary PDF: {path}"
-    return {
-        "storage_kind": "binary_pdf",
-        "lfs_oid_sha256": hashlib.sha256(data).hexdigest(),
-        "lfs_size_bytes": len(data),
-    }
+    digest = hashlib.sha256(data).hexdigest()
+    size = len(data)
+    if path.suffix.lower() == ".md":
+        text = data.decode("utf-8")
+        assert text.strip(), f"Markdown source is empty: {path}"
+        return {"storage_kind": "markdown_text", "sha256": digest, "size_bytes": size}
+
+    assert data.startswith(b"%PDF-"), f"Expected Markdown source, Git LFS pointer, or binary PDF: {path}"
+    return {"storage_kind": "binary_pdf", "sha256": digest, "size_bytes": size}
+
+
+def binding_path(binding: dict) -> str:
+    return binding.get("repo_source_path") or binding.get("repo_pdf_path")
+
+
+def expected_sha(binding: dict) -> str:
+    return binding.get("sha256") or binding.get("lfs_oid_sha256")
+
+
+def expected_size(binding: dict) -> int:
+    return int(binding.get("size_bytes") or binding.get("lfs_size_bytes"))
 
 
 def main() -> None:
@@ -80,14 +95,18 @@ def main() -> None:
     seen_storage_kinds: set[str] = set()
     for binding in bindings["bindings"]:
         assert binding["paper_id"] in manifest_paper_ids
-        pdf_path = ROOT / binding["repo_pdf_path"]
-        assert pdf_path.exists(), binding["repo_pdf_path"]
-        checked = inspect_pdf_binding(pdf_path)
+        source_path_text = binding_path(binding)
+        assert source_path_text, binding["paper_id"]
+        source_path = ROOT / source_path_text
+        assert source_path.exists(), source_path_text
+        checked = inspect_source_binding(source_path)
         seen_storage_kinds.add(checked["storage_kind"])
-        assert checked["lfs_oid_sha256"] == binding["lfs_oid_sha256"], binding["paper_id"]
-        assert checked["lfs_size_bytes"] == binding["lfs_size_bytes"], binding["paper_id"]
+        if "source_storage_kind" in binding:
+            assert checked["storage_kind"] == binding["source_storage_kind"], binding["paper_id"]
+        assert checked["sha256"] == expected_sha(binding), binding["paper_id"]
+        assert checked["size_bytes"] == expected_size(binding), binding["paper_id"]
 
-    assert seen_storage_kinds <= {"git_lfs_pointer", "binary_pdf"}
+    assert seen_storage_kinds <= {"markdown_text", "git_lfs_pointer", "binary_pdf"}
 
     for claim in claims["claims"]:
         assert claim["paper_id"] in manifest_paper_ids

@@ -1,104 +1,172 @@
 {
-  "schema": "projectx_source_pdf_bindings_v1",
-  "purpose": "Bind each canonical source paper id to its checked-in Git LFS PDF pointer so extraction work can resolve paper_id -> repo path -> LFS object.",
+  "schema": "projectx_source_bindings_v2",
+  "purpose": "Bind each canonical source paper id to its checked-in source text artifact. Markdown source files replace prior Git LFS PDF pointers for validator-friendly source extraction work.",
   "paper_count": 16,
-  "lfs_pointer_version": "https://git-lfs.github.com/spec/v1",
+  "supported_storage_kinds": [
+    "markdown_text",
+    "git_lfs_pointer",
+    "binary_pdf"
+  ],
   "bindings": [
     {
       "paper_id": "AMP_2013",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2013_The-Amplituhedron_arXiv-1312.2007.pdf.pdf",
-      "lfs_oid_sha256": "553863867402aeb4a95d8ed0b8aac1f17fd7871304972517b09f7503f00eee4d",
-      "lfs_size_bytes": 746209
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2013_The-Amplituhedron_arXiv-1312.2007.pdf.md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "0e500c897c95a70dfcb2fec817d648655c5ce1c8530fbf10e5c06e2c9a9a0c1e",
+      "size_bytes": 83663,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2013_The-Amplituhedron_arXiv-1312.2007.pdf.pdf",
+      "replaces_lfs_oid_sha256": "553863867402aeb4a95d8ed0b8aac1f17fd7871304972517b09f7503f00eee4d",
+      "replaces_lfs_size_bytes": 746209
     },
     {
       "paper_id": "INTO_AMP_2013",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2013_Into-the-Amplituhedron_arXiv-1312.7878.pdf.pdf",
-      "lfs_oid_sha256": "84dbba0a737c5cee5c6aef8213b2a1b72fa19f5d2984b589270f753412865e3c",
-      "lfs_size_bytes": 727296
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2013_Into-the-Amplituhedron_arXiv-1312.7878.pdf.md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "8ebe12af0bc0da17fcbad7a233b955f0acfd64ee45d76950e04319f38dc7fcc9",
+      "size_bytes": 75470,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2013_Into-the-Amplituhedron_arXiv-1312.7878.pdf.pdf",
+      "replaces_lfs_oid_sha256": "84dbba0a737c5cee5c6aef8213b2a1b72fa19f5d2984b589270f753412865e3c",
+      "replaces_lfs_size_bytes": 727296
     },
     {
       "paper_id": "SCAT_FORMS_2017",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2017_Scattering-Forms-and-Positive-Geometry_arXiv-1711.09102.pdf.pdf",
-      "lfs_oid_sha256": "39748494535de9eb9db18ce2b8ac4c16b457f8a6d577c31f2c855bed20c0a876",
-      "lfs_size_bytes": 1710058
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2017_Scattering-Forms-and-Positive-Geometry_arXiv-1711.09102.pdf.md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "94da13d460f60b8fbd3403064e98391ebb2b31b8638b34139e14acad6b77b5bd",
+      "size_bytes": 220549,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2017_Scattering-Forms-and-Positive-Geometry_arXiv-1711.09102.pdf.pdf",
+      "replaces_lfs_oid_sha256": "39748494535de9eb9db18ce2b8ac4c16b457f8a6d577c31f2c855bed20c0a876",
+      "replaces_lfs_size_bytes": 1710058
     },
     {
       "paper_id": "BINARY_AMP_2017",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2017_Unwinding-the-Amplituhedron-in-Binary_arXiv-1704.05069.pdf.pdf",
-      "lfs_oid_sha256": "78c23cbce3493fadf23199fea539fcba2079d508a8fc4a6bab30e53799bb8a03",
-      "lfs_size_bytes": 1030917
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2017_Unwinding-the-Amplituhedron-in-Binary_arXiv-1704.05069.pdf.md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "25cf9b151bb6c3728b829e47a504e61670349369c914e246060d541b1f5e3054",
+      "size_bytes": 127238,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2017_Unwinding-the-Amplituhedron-in-Binary_arXiv-1704.05069.pdf.pdf",
+      "replaces_lfs_oid_sha256": "78c23cbce3493fadf23199fea539fcba2079d508a8fc4a6bab30e53799bb8a03",
+      "replaces_lfs_size_bytes": 1030917
     },
     {
       "paper_id": "AMP_PRIME_2020",
-      "repo_pdf_path": "sources/pdfs/Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.pdf",
-      "lfs_oid_sha256": "5a1f52661860a86ea49c0520d2823118532a5eeb58654b3c87993e4ae4b11ff2",
-      "lfs_size_bytes": 5389036
+      "repo_source_path": "sources/Markdowns/_MConverter.eu_Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "8d337a63566d513c9c2d60ae1a1b69f996bb4d7c19fbe4ba3583775fa7f3a623",
+      "size_bytes": 208181,
+      "replaces_repo_pdf_path": "sources/pdfs/Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.pdf",
+      "replaces_lfs_oid_sha256": "5a1f52661860a86ea49c0520d2823118532a5eeb58654b3c87993e4ae4b11ff2",
+      "replaces_lfs_size_bytes": 5389036
     },
     {
       "paper_id": "MOM_AMP_2019",
-      "repo_pdf_path": "sources/pdfs/Damgaard_2019_The-Momentum-Amplituhedron_arXiv-1905.04216 (1).pdf",
-      "lfs_oid_sha256": "30cbb5aa4be5d9af33236ed6af89cbe8776b3ea06e0e390c42af2b848431213e",
-      "lfs_size_bytes": 455941
+      "repo_source_path": "sources/Markdowns/_MConverter.eu_Damgaard_2019_The-Momentum-Amplituhedron_arXiv-1905.04216 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "3f3152651f61516af13ccc5e8e39f39bb622ce30b1952b363ad34f0b4f8796b6",
+      "size_bytes": 56803,
+      "replaces_repo_pdf_path": "sources/pdfs/Damgaard_2019_The-Momentum-Amplituhedron_arXiv-1905.04216 (1).pdf",
+      "replaces_lfs_oid_sha256": "30cbb5aa4be5d9af33236ed6af89cbe8776b3ea06e0e390c42af2b848431213e",
+      "replaces_lfs_size_bytes": 455941
     },
     {
       "paper_id": "LOOP_MOM_AMP_2022",
-      "repo_pdf_path": "sources/pdfs/Ferro_2022_The-Loop-Momentum-Amplituhedron_arXiv-2210.01127 (1).pdf",
-      "lfs_oid_sha256": "59b2402532331870047244649514677d1061977fdad07f0577e22163c68d6872",
-      "lfs_size_bytes": 1177020
+      "repo_source_path": "sources/Markdowns/_MConverter.eu_Ferro_2022_The-Loop-Momentum-Amplituhedron_arXiv-2210.01127 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "ca11587c1561fa804143764dd5ce8a68f693493311f05be055bbce6c96b19b3b",
+      "size_bytes": 41991,
+      "replaces_repo_pdf_path": "sources/pdfs/Ferro_2022_The-Loop-Momentum-Amplituhedron_arXiv-2210.01127 (1).pdf",
+      "replaces_lfs_oid_sha256": "59b2402532331870047244649514677d1061977fdad07f0577e22163c68d6872",
+      "replaces_lfs_size_bytes": 1177020
     },
     {
       "paper_id": "SURF_COUNT_2023",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2023_All-Loop-Scattering-As-A-Counting-Problem_arXiv-2309.15913 (1).pdf",
-      "lfs_oid_sha256": "cb37cfe3f2c080c5b1d15fb94c2b303a1f4e893c165c1f6d6727db14971ac016",
-      "lfs_size_bytes": 2037487
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2023_All-Loop-Scattering-As-A-Counting-Problem_arXiv-2309.15913 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "f3480fd690c19d90a40bbe4cda1e615bd32d7428e2d53ed4ac1bfff250543d42",
+      "size_bytes": 187101,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2023_All-Loop-Scattering-As-A-Counting-Problem_arXiv-2309.15913 (1).pdf",
+      "replaces_lfs_oid_sha256": "cb37cfe3f2c080c5b1d15fb94c2b303a1f4e893c165c1f6d6727db14971ac016",
+      "replaces_lfs_size_bytes": 2037487
     },
     {
       "paper_id": "SURF_ALLMULT_2023",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2023_All-Loop-Scattering-For-All-Multiplicity_arXiv-2311.09284 (1).pdf",
-      "lfs_oid_sha256": "0e5b19c13ddd49b506738a1bdeee9a7fe3bbc5f990f5723b6bb89188250f6f98",
-      "lfs_size_bytes": 2169157
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2023_All-Loop-Scattering-For-All-Multiplicity_arXiv-2311.09284 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "5b6456a1e8b33f6154721d2d7b0379d6e5c6f3c104a5a2187c1edd4582727195",
+      "size_bytes": 113844,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2023_All-Loop-Scattering-For-All-Multiplicity_arXiv-2311.09284 (1).pdf",
+      "replaces_lfs_oid_sha256": "0e5b19c13ddd49b506738a1bdeee9a7fe3bbc5f990f5723b6bb89188250f6f98",
+      "replaces_lfs_size_bytes": 2169157
     },
     {
       "paper_id": "HIDDEN_ZEROS_2023",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2023_Hidden-Zeros-For-Particle-String-Amplitudes-And-The-Unity-Of-Colored-Scalars-Pions-And-Gluons_arXiv-2312.16282 (1).pdf",
-      "lfs_oid_sha256": "eb0203c51462cb07057d3dbdb596761b6b767f3c5d0587b441af530a7c9ff9f3",
-      "lfs_size_bytes": 5277852
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2023_Hidden-Zeros-For-Particle-String-Amplitudes-And-The-Unity-Of-Colored-Scalars-Pions-And-Gluons_arXiv-2312.16282 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "6b1c82999a327e84a3bfefabd21a4f02c611b6b49a1d3bbb245612f91913e0f8",
+      "size_bytes": 169985,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2023_Hidden-Zeros-For-Particle-String-Amplitudes-And-The-Unity-Of-Colored-Scalars-Pions-And-Gluons_arXiv-2312.16282 (1).pdf",
+      "replaces_lfs_oid_sha256": "eb0203c51462cb07057d3dbdb596761b6b767f3c5d0587b441af530a7c9ff9f3",
+      "replaces_lfs_size_bytes": 5277852
     },
     {
       "paper_id": "SCAFFOLD_GLUONS_2024",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2024_Scalar-Scaffolded-Gluons-And-The-Combinatorial-Origins-Of-Yang-Mills-Theory_arXiv-2401.00041 (1).pdf",
-      "lfs_oid_sha256": "9dd813fb008ff04c7ddb7c18256dcfee03271011a0e68f1d6547c46f9c230f24",
-      "lfs_size_bytes": 4618754
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2024_Scalar-Scaffolded-Gluons-And-The-Combinatorial-Origins-Of-Yang-Mills-Theory_arXiv-2401.00041 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "45ae1c2c472fdbca49cef6fcc40c663efbabd73d0c10c3a694bd552a9d0733e7",
+      "size_bytes": 325286,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2024_Scalar-Scaffolded-Gluons-And-The-Combinatorial-Origins-Of-Yang-Mills-Theory_arXiv-2401.00041 (1).pdf",
+      "replaces_lfs_oid_sha256": "9dd813fb008ff04c7ddb7c18256dcfee03271011a0e68f1d6547c46f9c230f24",
+      "replaces_lfs_size_bytes": 4618754
     },
     {
       "paper_id": "YUKAWA_SURF_2024",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2024_Surfaceology-for-Colored-Yukawa_arXiv-2406.04411 (1).pdf",
-      "lfs_oid_sha256": "bda58bb02af05cdd909e53a6f08888e3e9e9e0d4fd3bed49b0decd50f9937614",
-      "lfs_size_bytes": 723550
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2024_Surfaceology-for-Colored-Yukawa_arXiv-2406.04411 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "ddf5b1662f61f91666c55a8193b0aa9b61d33592709c6b900ecfa4c52f03e5cf",
+      "size_bytes": 86552,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2024_Surfaceology-for-Colored-Yukawa_arXiv-2406.04411 (1).pdf",
+      "replaces_lfs_oid_sha256": "bda58bb02af05cdd909e53a6f08888e3e9e9e0d4fd3bed49b0decd50f9937614",
+      "replaces_lfs_size_bytes": 723550
     },
     {
       "paper_id": "WILSON_POS_2024",
-      "repo_pdf_path": "sources/pdfs/Chicherin_2024_Positivity-Properties-Of-Five-Point-Two-Loop-Wilson-Loops-With-Lagrangian-Insertion_arXiv-2410.11456 (1).pdf",
-      "lfs_oid_sha256": "2f41646892e57bef275e819b4205e5faf71b1f726c203869333650b3b6062de9",
-      "lfs_size_bytes": 1809540
+      "repo_source_path": "sources/Markdowns/_MConverter.eu_Chicherin_2024_Positivity-Properties-Of-Five-Point-Two-Loop-Wilson-Loops-With-Lagrangian-Insertion_arXiv-2410.11456 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "b00124881f30ac7eea0dbed69839b95296e577597a9c0e4c5bce37087659258d",
+      "size_bytes": 190239,
+      "replaces_repo_pdf_path": "sources/pdfs/Chicherin_2024_Positivity-Properties-Of-Five-Point-Two-Loop-Wilson-Loops-With-Lagrangian-Insertion_arXiv-2410.11456 (1).pdf",
+      "replaces_lfs_oid_sha256": "2f41646892e57bef275e819b4205e5faf71b1f726c203869333650b3b6062de9",
+      "replaces_lfs_size_bytes": 1809540
     },
     {
       "paper_id": "COSMO_2024",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2024_Cosmohedra_arXiv-2412.19881.pdf.pdf",
-      "lfs_oid_sha256": "c312c660ae3033f5d5aff98c0391d2ca81ec1183e79de6bf0b3250963a43e49f",
-      "lfs_size_bytes": 9864382
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2024_Cosmohedra_arXiv-2412.19881.pdf.md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "002c3c0596b3ce27f34b1dee02ef70a82766b279ad1cefa0d4e8a445fb76b784",
+      "size_bytes": 174242,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2024_Cosmohedra_arXiv-2412.19881.pdf.pdf",
+      "replaces_lfs_oid_sha256": "c312c660ae3033f5d5aff98c0391d2ca81ec1183e79de6bf0b3250963a43e49f",
+      "replaces_lfs_size_bytes": 9864382
     },
     {
       "paper_id": "BACKUS_2025",
-      "repo_pdf_path": "sources/pdfs/Backus_2025_Surface-Gauge-Invariance-Soft-Limits-And-The-Transmutation-Of-Gluons-Into-Scalars_arXiv-2505.17179 (1).pdf",
-      "lfs_oid_sha256": "82d47af280a7c9fb5c50407bcf2a0c69923d6710fc2fc792b6bfe6c251c59faa",
-      "lfs_size_bytes": 1702378
+      "repo_source_path": "sources/Markdowns/Backus_2025_Surface-Gauge-Invariance-Soft-Limits-And-The-Transmutation-Of-Gluons-Into-Scalars_arXiv-2505.17179 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "094de0f9c2863a29fdef66992ac3d676726908dec934c068ad884a13cf58b31e",
+      "size_bytes": 207386,
+      "replaces_repo_pdf_path": "sources/pdfs/Backus_2025_Surface-Gauge-Invariance-Soft-Limits-And-The-Transmutation-Of-Gluons-Into-Scalars_arXiv-2505.17179 (1).pdf",
+      "replaces_lfs_oid_sha256": "82d47af280a7c9fb5c50407bcf2a0c69923d6710fc2fc792b6bfe6c251c59faa",
+      "replaces_lfs_size_bytes": 1702378
     },
     {
       "paper_id": "COSMO_COMB_2026",
-      "repo_pdf_path": "sources/pdfs/Arkani-Hamed_2026_Combinatorics-of-the-Cosmohedron_arXiv-2603.03425 (1).pdf",
-      "lfs_oid_sha256": "d3760e815003bec184796c60bc1b5cdff5e58b181f629eb1dbb9d3ff5ecfb69c",
-      "lfs_size_bytes": 5084776
+      "repo_source_path": "sources/Markdowns/Arkani-Hamed_2026_Combinatorics-of-the-Cosmohedron_arXiv-2603.03425 (1).md",
+      "source_storage_kind": "markdown_text",
+      "sha256": "eacc522f3b0bebbf3520d70abe9b2643740f5c86c95968c401b87de8395e720d",
+      "size_bytes": 135994,
+      "replaces_repo_pdf_path": "sources/pdfs/Arkani-Hamed_2026_Combinatorics-of-the-Cosmohedron_arXiv-2603.03425 (1).pdf",
+      "replaces_lfs_oid_sha256": "d3760e815003bec184796c60bc1b5cdff5e58b181f629eb1dbb9d3ff5ecfb69c",
+      "replaces_lfs_size_bytes": 5084776
     }
   ]
 }
