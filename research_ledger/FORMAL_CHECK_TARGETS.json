@@ -3,6 +3,7 @@
   "purpose": "Formal/checker target registry. These are obligations for Python/Sage/Z3/Lean or related tools; they are not solved unless a result record is added.",
   "status_vocab": [
     "DEFINED",
+    "SOURCE_COVERAGE_IMPLEMENTED",
     "NOT_IMPLEMENTED",
     "FINITE_CHECK_PLANNED",
     "SMT_CHECK_PLANNED",
@@ -259,12 +260,12 @@
       "families": [
         "PG"
       ],
-      "checker_layer": "source-coverage validator first; later Lean/formal residue model",
+      "checker_layer": "implemented source-coverage validator; later Lean/formal residue model",
       "predicate": "Canonical-form source claims include boundary-only logarithmic singularity and recursive residue-on-boundary-to-canonical-form-on-boundary conditions.",
       "failure_condition": "The extracted source support does not include both boundary singularity and recursive residue conditions, or the claim is generalized beyond the source scope.",
       "status": [
         "DEFINED",
-        "NOT_IMPLEMENTED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     },
     {
@@ -283,12 +284,12 @@
         "A",
         "M1"
       ],
-      "checker_layer": "ledger/source coverage validator",
+      "checker_layer": "implemented ledger/source coverage validator",
       "predicate": "S2* readout support may cite positive-geometry canonical-boundary recursion, scattering forms, and amplituhedron cuts/faces only as partial source coverage, not as checked substrate realization.",
       "failure_condition": "S2* is promoted to checked or physical substrate status without a separate validator/proof artifact.",
       "status": [
         "DEFINED",
-        "NOT_IMPLEMENTED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     },
     {

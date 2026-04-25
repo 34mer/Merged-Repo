@@ -86,9 +86,9 @@
     },
     {
       "target_id": "CHK-POS-GEOM-CANONICAL-BOUNDARY-RECURSION",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined after 2017 Positive Geometry intake, but no formal residue/boundary-recursion checker has been implemented yet. This is source-coverage planning only, not mathematical proof.",
-      "artifact": null
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented POS_GEOM_2017 canonical-boundary recursion source guard. The checker verifies that the source text and extracted claims contain canonical-form uniqueness, boundary-only logarithmic singularity, and residue-on-boundary recursion language. This is source-coverage discipline only: not a formal residue theorem, not an all-positive-geometries theorem, not S2* checked status, and not substrate or settling-law evidence.",
+      "artifact": "formal_handoff/results/CHK-POS-GEOM-CANONICAL-BOUNDARY-RECURSION.json"
     },
     {
       "target_id": "CHK-S2STAR-READOUT-SOURCE-COVERAGE",
@@ -103,5 +103,5 @@
       "artifact": null
     }
   ],
-  "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status."
+  "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."
 }

@@ -1,0 +1,44 @@
+{
+  "checker": "pos_geom_canonical_boundary_recursion_source_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-POS-GEOM-2017-001",
+    "EXT-POS-GEOM-2017-002"
+  ],
+  "source_file": "sources\\Markdowns\\Arkani-Hamed_2017_Positive-Geometries-and-Canonical-Forms_arXiv-1703.04541.pdf.md",
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the POS_GEOM_2017 source text and extracted claims contain the canonical-form, boundary-only logarithmic singularity, and residue-on-boundary recursion language required by the target. It is not a mathematical proof, not a formal residue theorem, not an all-positive-geometries theorem, not substrate evidence, and not a physical settling-law result.",
+  "support_summary": {
+    "allowed_inference": "the source-extracted claims contain the required canonical-boundary-recursion ingredients",
+    "blocked_inference": "formal residue theorem, all positive-geometry theorem, S2* theorem, Formation Medium substrate realization, or physical settling law",
+    "checked_interface": "source coverage for canonical form uniqueness/logarithmic-boundary/residue-recursion language",
+    "claim_statuses": {
+      "EXT-POS-GEOM-2017-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-POS-GEOM-2017-002": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "paper_ids": {
+      "EXT-POS-GEOM-2017-001": "POS_GEOM_2017",
+      "EXT-POS-GEOM-2017-002": "POS_GEOM_2017"
+    },
+    "required_claim_count": 2,
+    "source_windows": {
+      "abstract_unique_log_boundary_residue": {
+        "max_span_chars": 1400,
+        "span_chars": 219,
+        "status": "PASS"
+      },
+      "definition_methods_triangulation_pushforward_context": {
+        "max_span_chars": 1800,
+        "span_chars": 1682,
+        "status": "PASS"
+      }
+    }
+  },
+  "target_id": "CHK-POS-GEOM-CANONICAL-BOUNDARY-RECURSION"
+}
