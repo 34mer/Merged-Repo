@@ -413,12 +413,12 @@
         "M1",
         "Prime"
       ],
-      "checker_layer": "ledger/source coverage guard planned; later finite sign-flip/chiral-octagon model if scoped",
+      "checker_layer": "implemented ledger/source coverage guard; later finite sign-flip/chiral-octagon model if scoped",
       "predicate": "Prime local-carrier source claims about sign-flip local positive spaces, sign-flip-four/chiral-octagon regions, degenerations, and pentagon gluing are recorded as source-extracted positive-geometry facts only, without promotion to Formation Medium substrate, engineering feasibility, or universal carrier theorem.",
       "failure_condition": "A Prime sign-flip/chiral-octagon/gluing claim is used as physical substrate evidence, generalized beyond one-loop MHV/Prime scope, or treated as a formal carrier theorem without a separate checker.",
       "status": [
         "DEFINED",
-        "NOT_IMPLEMENTED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     }
   ]

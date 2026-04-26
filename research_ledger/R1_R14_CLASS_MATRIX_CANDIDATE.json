@@ -14,7 +14,9 @@
     "research_ledger/PREVIOUS_GPT_R1_R14_ROW_BINDING_SYNTHESIS_001.md",
     "research_ledger/R13_EQUALITY_LAYER_REALIZATION_CANDIDATE.md",
     "research_ledger/FORMATION_MEDIUM_CANDIDATE_VOCABULARY.md",
-    "research_ledger/FORMATION_MEDIUM_ENGINEERING_GATE_MATRIX_001.json"
+    "research_ledger/FORMATION_MEDIUM_ENGINEERING_GATE_MATRIX_001.json",
+    "research_ledger/PRIME_DIRECT_SOURCE_EXTRACTION_SUMMARY_001.md",
+    "formal_handoff/results/CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE.json"
   ],
   "families": [
     {
@@ -50,7 +52,7 @@
     {
       "family_or_route": "Prime",
       "description": "Amplituhedron-Prime local positive spaces",
-      "authority": "source-rechecked candidate; not full source-extracted local carrier matrix"
+      "authority": "partial source-extracted local positive-space carrier facts; source-coverage guard implemented; not a theorem or substrate claim"
     },
     {
       "family_or_route": "FM_Route_A",
@@ -1314,13 +1316,19 @@
       "family_authority": "source-rechecked candidate; not full source-extracted local carrier matrix",
       "row": "R1",
       "row_name": "unit_codimension_descent",
-      "cell_status": "SOURCE_RECHECKED_CANDIDATE_OR_CAUTION",
+      "cell_status": "SOURCE_EXTRACTED_SOURCE_COVERAGE_GUARDED",
       "equality_layer_status": null,
       "readout_faithfulness_status": null,
-      "source_contacts": [],
-      "check_contacts": [],
+      "source_contacts": [
+        "EXT-AMP-PRIME-002",
+        "EXT-AMP-PRIME-003",
+        "EXT-AMP-PRIME-004"
+      ],
+      "check_contacts": [
+        "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE"
+      ],
       "promotion_status": "BLOCKED",
-      "notes": "Initial R14 matrix draft cell. Fill only with source/check support; do not infer closure from this scaffold."
+      "notes": "Prime R1 cell populated from source-extracted sign-flip local positive spaces, sign-flip-four/chiral-octagon regions, and chiral-octagon degeneration claims. This is source coverage for local positive-space carrier facts only; it is not a unit-descent theorem, universal carrier theorem, or Formation Medium substrate evidence."
     },
     {
       "family_or_route": "Prime",
@@ -1398,13 +1406,22 @@
       "family_authority": "source-rechecked candidate; not full source-extracted local carrier matrix",
       "row": "R7",
       "row_name": "parabolic_residue_recursion",
-      "cell_status": "RELATED_TO_CANONICAL_FORM_READOUT_CAUTION",
+      "cell_status": "SOURCE_EXTRACTED_CANONICAL_FORM_READOUT_CAUTION",
       "equality_layer_status": null,
       "readout_faithfulness_status": "SOURCE_ANCHORED_NONFAITHFUL_CAUTION_POSITIVE_GEOMETRY_SCOPE",
-      "source_contacts": [],
-      "check_contacts": [],
+      "source_contacts": [
+        "EXT-AMP-PRIME-002",
+        "EXT-AMP-PRIME-003",
+        "EXT-AMP-PRIME-004",
+        "EXT-AMP-PRIME-005",
+        "EXT-AMP-PRIME-001"
+      ],
+      "check_contacts": [
+        "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE",
+        "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"
+      ],
       "promotion_status": "BLOCKED",
-      "notes": "Initial R14 matrix draft cell. Fill only with source/check support; do not infer closure from this scaffold."
+      "notes": "Prime R7 cell populated from source-extracted logarithmic-form/chiral-octagon and same-boundary/same-log-form/different-bulk claims. This supports readout/bulk caution in positive-geometry scope only; it is not S2* checked status or substrate realization."
     },
     {
       "family_or_route": "Prime",
@@ -1482,13 +1499,19 @@
       "family_authority": "source-rechecked candidate; not full source-extracted local carrier matrix",
       "row": "R13",
       "row_name": "equality_layer_status",
-      "cell_status": "SOURCE_RECHECKED_CANDIDATE_OR_CAUTION",
+      "cell_status": "SOURCE_EXTRACTED_REALIZATION_CLASS_CAUTION",
       "equality_layer_status": "UNKNOWN",
       "readout_faithfulness_status": "SOURCE_ANCHORED_NONFAITHFUL_CAUTION_POSITIVE_GEOMETRY_SCOPE",
-      "source_contacts": [],
-      "check_contacts": [],
+      "source_contacts": [
+        "EXT-AMP-PRIME-005",
+        "EXT-AMP-PRIME-001"
+      ],
+      "check_contacts": [
+        "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE",
+        "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"
+      ],
       "promotion_status": "BLOCKED",
-      "notes": "Initial R14 matrix draft cell. Fill only with source/check support; do not infer closure from this scaffold."
+      "notes": "Prime R13 cell populated only as realization-class/readout-bulk caution: same boundary/logarithmic form can coexist with different bulk geometry. Equality-layer status remains UNKNOWN; do not infer intrinsic/degenerative equality classification."
     },
     {
       "family_or_route": "Prime",
@@ -1496,13 +1519,22 @@
       "family_authority": "source-rechecked candidate; not full source-extracted local carrier matrix",
       "row": "R14",
       "row_name": "full_class_matrix_deficit",
-      "cell_status": "OPEN_DEFICIT",
+      "cell_status": "OPEN_DEFICIT_WITH_PRIME_SOURCE_CONTACTS",
       "equality_layer_status": null,
       "readout_faithfulness_status": "SOURCE_ANCHORED_NONFAITHFUL_CAUTION_POSITIVE_GEOMETRY_SCOPE",
-      "source_contacts": [],
-      "check_contacts": [],
+      "source_contacts": [
+        "EXT-AMP-PRIME-001",
+        "EXT-AMP-PRIME-002",
+        "EXT-AMP-PRIME-003",
+        "EXT-AMP-PRIME-004",
+        "EXT-AMP-PRIME-005"
+      ],
+      "check_contacts": [
+        "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE",
+        "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"
+      ],
       "promotion_status": "BLOCKED",
-      "notes": "Initial R14 matrix draft cell. Fill only with source/check support; do not infer closure from this scaffold."
+      "notes": "Prime cells now have source contacts for R1/R7/R13, but R14 remains open. No full Prime row/class matrix is solved; no formal carrier theorem or substrate claim follows."
     },
     {
       "family_or_route": "FM_Route_A",
@@ -2314,6 +2346,11 @@
       "id": "R14-D5",
       "description": "Add validator once schema stabilizes.",
       "status": "OPEN"
+    },
+    {
+      "id": "R14-D6",
+      "description": "Prime R1/R7/R13 cells have partial source contacts and source-coverage guard, but no full Prime class matrix or formal carrier theorem exists.",
+      "status": "OPEN"
     }
   ],
   "next_actions": [
@@ -2330,6 +2367,11 @@
     {
       "id": "R14-NA3",
       "action": "Use matrix to drive corporate roadmap risk language without hiding R14.",
+      "status": "OPEN"
+    },
+    {
+      "id": "R14-NA4",
+      "action": "Populate additional mathematical family cells only from existing source-extracted claims and implemented check results; keep R14 OPEN_DEFICIT.",
       "status": "OPEN"
     }
   ]
