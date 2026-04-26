@@ -1,0 +1,256 @@
+{
+  "schema": "physical_regime_source_intake_criteria_v1",
+  "artifact_roles": [
+    "GUARD",
+    "SOURCE_REVIEW",
+    "COMPARATOR",
+    "NEGATIVE_CONTROL",
+    "ENGINEERING_GATE"
+  ],
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "SOURCE_INTAKE_CRITERIA",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_SUBSTRATE_SELECTION",
+    "NOT_ENGINEERING_READY"
+  ],
+  "purpose": "Define source-intake criteria and rejection gates for physical-regime triage without flattening CRBSM, Route A, scattering-native, or high-resonance roles. This attacks the no-selected-substrate bottleneck by making future source review falsifiable and role-separated.",
+  "critical_review_prework": {
+    "hard_bottleneck_attacked": "physical-regime triage and substrate uncertainty, especially persistent support/channel identity and native readout versus external measurement",
+    "thin_stick_risks": [
+      "Route A source review being treated as feasibility",
+      "CRBSM mechanism language being treated as physics",
+      "scattering-native mathematical proximity being treated as substrate selection",
+      "high-resonance tunability being treated as native settling law"
+    ],
+    "negative_progress_risk": "Negative-progress risk: could become a broad speculative shopping list unless it stays criteria-driven with explicit rejection gates.",
+    "why_not_convenient_drift": "It constrains future source intake and can reject regimes before more artifacts are added."
+  },
+  "anti_flattening_rule": "CRBSM is mechanism-language. Route A is hardware/proxy. Scattering-native is a mandatory comparator. High-resonance is a possible bridge comparator. Source intake must preserve these roles and must not declare a winner.",
+  "global_gate_axes": [
+    {
+      "id": "PG1_NATIVE_CARRIER",
+      "question": "Does the regime provide native carrier degrees of freedom rather than externally encoded variables?",
+      "required_source_evidence": "source must identify physical degrees of freedom and show they are native to the regime",
+      "kill_condition": "carrier exists only as software labels, externally programmed states, or measurement bookkeeping"
+    },
+    {
+      "id": "PG2_NATIVE_ADMISSIBILITY",
+      "question": "Does the regime impose native admissibility/constraint structure without external filtering?",
+      "required_source_evidence": "source must show constraints, selection rules, conservation laws, topology, symmetry, or dynamics that natively restrict states",
+      "kill_condition": "admissibility is only imposed by controller, postselection, or user-designed circuit logic"
+    },
+    {
+      "id": "PG3_RELAY_OR_TRANSPORT",
+      "question": "Does the regime support native relay/transport/connectivity relevant to readout formation?",
+      "required_source_evidence": "source must show transport, coupling, scattering, mode conversion, or relay-like transfer that is lawlike rather than scripted",
+      "kill_condition": "transport is ordinary signal routing or gate scheduling without intrinsic readout relevance"
+    },
+    {
+      "id": "PG4_PERSISTENT_SUPPORT_IDENTITY",
+      "question": "Can the regime preserve support/channel/mode identity long enough to carry formation-relevant state?",
+      "required_source_evidence": "source must show persistence, metastability, protected modes, conserved labels, memory, or stable channel identity",
+      "kill_condition": "identity exists only because the observer tracks it or because control software labels it"
+    },
+    {
+      "id": "PG5_INTRINSIC_READOUT",
+      "question": "Is the readout intrinsic to the regime rather than only a measurement convenience?",
+      "required_source_evidence": "source must show a native observable, boundary response, invariant, or canonical-like quantity that follows from the regime",
+      "kill_condition": "readout is only an externally chosen diagnostic, visualization, or impedance/probe measurement with no intrinsic semantics"
+    },
+    {
+      "id": "PG6_BULK_READOUT_SEPARATION",
+      "question": "Does the regime separate readout structure from bulk realization strongly enough to test non-faithfulness?",
+      "required_source_evidence": "source must give degeneracy, redundancy, boundary equivalence, non-unique bulk realization, or controlled loss of bulk detail",
+      "kill_condition": "readout is a fully faithful reconstruction of the bulk or merely a direct measurement of all relevant bulk state"
+    },
+    {
+      "id": "PG7_HARNESSABILITY",
+      "question": "Can the regime plausibly be harnessed without reducing it to ordinary computation or externally routed control?",
+      "required_source_evidence": "source must show accessible control/readout/coupling while preserving native dynamics",
+      "kill_condition": "harnessing requires complete external programming, postselection, or simulation of the desired structure"
+    },
+    {
+      "id": "PG8_NEGATIVE_CONTROL_CLARITY",
+      "question": "Can the regime be cleanly failed if it is only an analog/computation/visualization route?",
+      "required_source_evidence": "source review must identify at least one negative control and failure mode",
+      "kill_condition": "regime cannot be distinguished from ordinary simulation, analog visualization, or measurement apparatus"
+    }
+  ],
+  "regime_tracks": [
+    {
+      "id": "TRACK_CRBSM",
+      "role": "MECHANISM_LANGUAGE",
+      "status": "GENERATED_ONLY / NOT_SOURCE_EXTRACTED / NOT_PHYSICS",
+      "intake_question": "Are there real physical systems that natively instantiate CRBSM-like boundary sheets, chiral relay pockets, quarter-turn/A2-like transport, and persistent support identity?",
+      "must_find": [
+        "native boundary-sheet-like state variables",
+        "relay pockets or localized transport centers not imposed by controller",
+        "chiral or quarter-turn-like transport law",
+        "persistent support/channel identity or relay memory"
+      ],
+      "must_not_accept": [
+        "CRBSM terminology as evidence",
+        "constructed-by-assumption relay ledgers",
+        "externally routed quarter-turn operations",
+        "Route A hardware convenience as CRBSM implementation"
+      ],
+      "minimum_review_output": "source review or source-intake memo that either identifies a plausible physical mechanism class or demotes CRBSM to mechanism-only vocabulary",
+      "kill_conditions": [
+        "persistent support identity remains only software/observer tracked",
+        "boundary sheets are designer interfaces, not native state variables",
+        "quarter-turn transport is only simulation or circuit routing",
+        "no physical source class can be named without analogy drift"
+      ]
+    },
+    {
+      "id": "TRACK_ROUTE_A",
+      "role": "HARDWARE_PROXY_ROUTE",
+      "status": "EXTERNAL_SOURCE_REVIEWED / NOT_SOURCE_EXTRACTED_TO_CORPUS / NOT_FEASIBILITY",
+      "intake_question": "Which Route A sources can support proxy instrumentation while clearly failing or satisfying native Formation Medium gates?",
+      "must_find": [
+        "source-backed topoelectrical boundary/corner impedance readout",
+        "source-backed superconducting microwave transport/coupling",
+        "separation of transport bus from readout channel",
+        "negative controls showing ordinary routing/measurement failure"
+      ],
+      "must_not_accept": [
+        "impedance readout as canonical readout",
+        "tunable microwave coupling as native settling law",
+        "high-fidelity qubit gates as Formation Medium operations",
+        "source review as engineering feasibility"
+      ],
+      "minimum_review_output": "narrow source-extraction plan for Route A sources plus negative-control demo spec, without feasibility or substrate promotion",
+      "kill_conditions": [
+        "readout remains externally chosen diagnostic",
+        "transport remains ordinary routing/control",
+        "no mechanism connects boundary readout and transport while preserving mode identity",
+        "Route A cannot avoid becoming analog simulation"
+      ]
+    },
+    {
+      "id": "TRACK_SCATTERING_NATIVE",
+      "role": "MANDATORY_COMPARATOR",
+      "status": "OPEN / NOT_DEFAULT_WINNER / NOT_ENGINEERING_READY",
+      "intake_question": "Does scattering-native physics supply the formation/readout structure more natively than CRBSM or Route A, and can it be harnessed without remaining only a mathematical comparator?",
+      "must_find": [
+        "native carrier/admissibility tied to scattering or S-matrix structure",
+        "intrinsic readout or observable structure related to positive geometry",
+        "non-faithful or redundant bulk/readout relation if any",
+        "harnessability or apparatus-coupling path that does not erase native behavior"
+      ],
+      "must_not_accept": [
+        "mathematical proximity as substrate selection",
+        "positive-geometry source support as physical realization",
+        "scattering theory as engineering route by default",
+        "comparator status as winner status"
+      ],
+      "minimum_review_output": "comparator source-intake plan identifying which scattering-native sources could support carrier/readout/harnessability gates and which likely fail them",
+      "kill_conditions": [
+        "no plausible harnessing or apparatus-coupling path",
+        "readout remains purely mathematical without physical observable bridge",
+        "bulk/readout separation cannot be formulated physically",
+        "the route is only a theory comparator, not a regime candidate"
+      ]
+    },
+    {
+      "id": "TRACK_HIGH_RESONANCE_NATIVE",
+      "role": "POSSIBLE_BRIDGE_COMPARATOR",
+      "status": "OPEN / NOT_SCOPED / NOT_SELECTED_SUBSTRATE",
+      "intake_question": "Can mesoscopic high-resonance regimes provide native carrier, relay/transport, persistent mode identity, intrinsic readout, and harnessability more naturally than high-energy scattering or ordinary hardware routing?",
+      "must_find": [
+        "long-lived or metastable resonant modes/channels",
+        "native mode conversion, chiral transport, or relay-like behavior",
+        "boundary/corner/resonant readout not merely measurement convenience",
+        "coupling/control that preserves native dynamics rather than replacing them"
+      ],
+      "must_not_accept": [
+        "high-Q or tunable resonance as native settling law",
+        "controlled resonance hardware as Formation Medium",
+        "Route A resonance components as proof of high-resonance-native substrate",
+        "bridge-candidate status as winner status"
+      ],
+      "minimum_review_output": "source-intake review queue for mesoscopic resonance-native systems with kill conditions for mere tunable hardware",
+      "kill_conditions": [
+        "resonant identity is only instrument-defined",
+        "transport is externally routed rather than native",
+        "readout is only probe measurement with no intrinsic semantics",
+        "high-resonance cannot be separated from Route A-style hardware control"
+      ]
+    }
+  ],
+  "review_queue": [
+    {
+      "id": "PRI-001",
+      "target_track": "TRACK_HIGH_RESONANCE_NATIVE",
+      "question": "Which source classes show long-lived mesoscopic resonant modes with native identity and nontrivial coupling/readout?",
+      "required_keywords": [
+        "long-lived modes",
+        "metastable resonances",
+        "protected resonant states",
+        "mode conversion",
+        "boundary resonances"
+      ],
+      "expected_output": "source-review candidate list with evidence tags PG1-PG8 and kill-condition notes"
+    },
+    {
+      "id": "PRI-002",
+      "target_track": "TRACK_SCATTERING_NATIVE",
+      "question": "Which scattering-native sources connect physical observables or S-matrix structure to intrinsic readout rather than only formal amplitude geometry?",
+      "required_keywords": [
+        "S-matrix",
+        "observables",
+        "positive geometry",
+        "unitarity",
+        "factorization",
+        "apparatus coupling"
+      ],
+      "expected_output": "comparator source-intake plan, not winner declaration"
+    },
+    {
+      "id": "PRI-003",
+      "target_track": "TRACK_ROUTE_A",
+      "question": "Which Route A reviewed sources are worth ingestion into SOURCE_EXTRACTED_CLAIMS, and what claims must stay blocked?",
+      "required_keywords": [
+        "topoelectrical boundary resonance",
+        "corner impedance",
+        "SQUID tunable coupling",
+        "microwave bus",
+        "readout resonator"
+      ],
+      "expected_output": "narrow extraction plan plus negative-control demo spec"
+    },
+    {
+      "id": "PRI-004",
+      "target_track": "TRACK_CRBSM",
+      "question": "Which physical systems, if any, could instantiate CRBSM-like persistent support/channel identity without constructed-by-assumption ledgers?",
+      "required_keywords": [
+        "persistent channels",
+        "domain walls",
+        "chiral transport",
+        "topological defects",
+        "memory variables"
+      ],
+      "expected_output": "mechanism-source review or demotion memo"
+    }
+  ],
+  "source_promotion_policy": {
+    "allowed_next_status": "EXTERNAL_SOURCE_REVIEW or SOURCE_INTAKE_PLAN",
+    "blocked_statuses": [
+      "SOURCE_EXTRACTED without ingested source",
+      "CHECKED without validator",
+      "SUBSTRATE_SELECTED",
+      "ENGINEERING_READY",
+      "WINNER_DECLARED"
+    ],
+    "minimum_for_source_extracted": [
+      "specific source file or citation ingested into repo/source corpus",
+      "claim text extracted narrowly",
+      "blocked inferences recorded",
+      "formal_check_targets linked or explicitly absent",
+      "non-promotion boundary stated"
+    ]
+  },
+  "non_promotion_rule": "This artifact defines criteria for future source intake only. It does not ingest sources, extract source claims, validate CRBSM, validate Route A, select scattering-native physics, select high-resonance regimes, prove a substrate, prove a settling law, or authorize engineering/corporate claims."
+}

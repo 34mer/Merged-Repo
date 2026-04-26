@@ -117,18 +117,20 @@
     },
     {
       "id": "Q5_PHYSICAL_REGIME_SOURCE_INTAKE_PLAN",
-      "title": "Create source-intake plans for high-resonance bridge and physical-regime triage",
+      "title": "Execute source reviews from physical-regime intake criteria",
       "priority": 5,
       "resource_tier": "T0_CURRENT_REPO_COMPUTE",
       "target_artifacts": [
+        "PHYSICAL_REGIME_SOURCE_INTAKE_CRITERIA.md",
+        "PHYSICAL_REGIME_SOURCE_INTAKE_CRITERIA.json",
         "HIGH_RESONANCE_NATIVE_COMPARATOR_PLAN.md",
         "HIGH_RESONANCE_NATIVE_COMPARATOR_PLAN.json",
         "FORMATION_MEDIUM_PHYSICAL_REGIME_RESIDUAL_SHORTLIST.md",
         "ROUTE_A_SOURCE_REVIEW_001.md",
         "CRBSM_REGIME_CANDIDATE_RECOVERY.md"
       ],
-      "exit_condition": "High-resonance comparator plan exists; next exit is source-intake criteria for mesoscopic resonance-native regimes, scattering-native regimes, and Route A proxy relevance without flattening their roles.",
-      "blocked_promotion": "Physical-regime/comparator intake is not substrate selection, not CRBSM validation, not Route A implementation, and not high-resonance winner declaration."
+      "exit_condition": "Physical-regime source-intake criteria now define PG1-PG8 gates, four role-separated tracks, and review queue items; next exit is a sourced candidate list for PRI-001 high-resonance native regimes or PRI-002 scattering-native observables without flattening roles.",
+      "blocked_promotion": "Source-intake criteria are not source ingestion, not source extraction, not substrate selection, not CRBSM validation, not Route A implementation, and not winner declaration, and must preserve role separation without flattening."
     },
     {
       "id": "Q6_EARLY_DILIGENCE_PACKET",

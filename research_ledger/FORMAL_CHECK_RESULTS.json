@@ -185,6 +185,12 @@
       "result_status": "PASS_LEDGER_VALIDATION",
       "result_summary": "Implemented mission-grade critical review doctrine guard. The checker verifies that the repo explicitly requires critical reasoning beyond repo hygiene, including hard-bottleneck review, negative-progress risk, thin-stick theorem/source/check caution, easy-work drift detection, and permission to challenge the mission, founder, repo, math, source interpretation, route, comparator, or artifact value. This is not understanding itself, not proof, not substrate evidence, not engineering readiness, not corporate readiness, and not a substitute for actual judgment.",
       "artifact": "formal_handoff/results/LEDGER-MISSION-GRADE-CRITICAL-REVIEW-DOCTRINE.json"
+    },
+    {
+      "target_id": "LEDGER-PHYSICAL-REGIME-SOURCE-INTAKE-CRITERIA",
+      "result_status": "PASS_LEDGER_VALIDATION",
+      "result_summary": "Implemented physical-regime source-intake criteria guard. The checker verifies role-separated source-intake criteria for CRBSM as mechanism-language, Route A as hardware/proxy route, scattering-native as mandatory comparator, and high-resonance as possible bridge comparator. It enforces PG1-PG8 physical gates, review queue items, source-promotion policy, anti-flattening discipline, and mission-grade critical-review prework. This is criteria only: not source ingestion, not source extraction, not CRBSM validation, not Route A feasibility, not scattering-native/high-resonance winner status, not substrate selection, not settling-law proof, and not engineering readiness.",
+      "artifact": "formal_handoff/results/LEDGER-PHYSICAL-REGIME-SOURCE-INTAKE-CRITERIA.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."

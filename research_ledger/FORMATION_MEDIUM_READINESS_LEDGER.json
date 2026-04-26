@@ -71,7 +71,7 @@
         "FORMATION_MEDIUM_LAYER_1_SPEC.md",
         "validate_formation_medium_discipline.py"
       ],
-      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated. CRBSM, Route A, scattering-native, and high-resonance roles are separated for comparator discipline.",
+      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated. The repo now has PG1-PG8 source-intake criteria and role-separated CRBSM, Route A, scattering-native, and high-resonance review tracks.",
       "blocked_claims": [
         "Formation Medium substrate has been identified",
         "positive geometry proves a substrate",
@@ -80,7 +80,10 @@
         "CRBSM is selected substrate",
         "Route A is selected substrate",
         "scattering-native is default winner",
-        "high-resonance is selected substrate"
+        "high-resonance is selected substrate",
+        "source-intake criteria select a substrate",
+        "source-intake criteria validate a physical regime",
+        "review queue is winner declaration"
       ]
     },
     {
@@ -143,7 +146,8 @@
     "generated surfaceology graph-fixture check passes for all 75 simple graphs on 1..4 vertices with 189 exact binary witnesses",
     "finite polygon-chord surfaceology fixture check passes for n=4..7 with 30 chords, 56 crossing edges, and 63 maximal-noncrossing witnesses",
     "high-resonance native comparator plan preserves CRBSM mechanism-language, Route A hardware/proxy, scattering-native comparator, and high-resonance bridge roles",
-    "mission-grade critical review doctrine guard requires reasoning beyond repo hygiene and permits challenge to mission/founder/repo/math/routes"
+    "mission-grade critical review doctrine guard requires reasoning beyond repo hygiene and permits challenge to mission/founder/repo/math/routes",
+    "physical-regime source-intake criteria guard defines PG1-PG8 gates and role-separated CRBSM/Route A/scattering-native/high-resonance review tracks"
   ],
   "critical_gaps": [
     "no selected physical substrate",
