@@ -167,6 +167,12 @@
       "result_status": "PASS_LEDGER_VALIDATION",
       "result_summary": "Implemented Route A source review 001 guard. The checker verifies the external source-review artifact, six reviewed source records, Route A matrix status update, and continued SOURCE_REVIEWED_CONTINUE_AS_CANDIDATE status. This is not source extraction into the corpus, not a mathematical proof, not substrate evidence, not engineering readiness, not prototype readiness, not CRBSM implementation, not Formation Medium implementation, and not investor readiness.",
       "artifact": "formal_handoff/results/LEDGER-ROUTE-A-SOURCE-REVIEW-001.json"
+    },
+    {
+      "target_id": "LEDGER-PROJECT-GLOBAL-DOCTRINE",
+      "result_status": "PASS_LEDGER_VALIDATION",
+      "result_summary": "Implemented project global doctrine guard. The checker verifies that PROJECT_GLOBAL_DOCTRINE.md and PROJECT_GLOBAL_DOCTRINE_REGISTRY.json explicitly acknowledge the assistant total-awareness limitation, define the Formation Medium as the object, classify CRBSM/Route A/scattering-native/high-resonance by role, preserve mandatory global questions and stop conditions, and block substitution of local ledger correctness for global coherence. This is not understanding itself, not a mathematical proof, not substrate evidence, not engineering readiness, not corporate readiness, and not a substitute for founder judgment.",
+      "artifact": "formal_handoff/results/LEDGER-PROJECT-GLOBAL-DOCTRINE.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."

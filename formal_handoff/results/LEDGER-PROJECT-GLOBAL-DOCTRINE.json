@@ -1,0 +1,54 @@
+{
+  "checker": "project_global_doctrine_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger\\PROJECT_GLOBAL_DOCTRINE.md",
+    "research_ledger\\PROJECT_GLOBAL_DOCTRINE_REGISTRY.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo contains a compact global doctrine and role registry that explicitly acknowledges the assistant's total-awareness limitation and enforces global role vocabulary. It is not a mathematical proof, not understanding itself, not substrate evidence, not engineering readiness, not corporate readiness, and not a substitute for founder judgment.",
+  "support_summary": {
+    "allowed_inference": "future major work has a control surface for object/mechanism/comparator/route/proxy/source/guard/corporate classification",
+    "awareness_limitation_present": true,
+    "blocked_inference": "the checker creates true total awareness, proves the project, validates routes, selects substrate, or replaces founder judgment",
+    "checked_interface": "global doctrine and machine-readable role registry for preserving total-project role awareness during long work",
+    "doctrine_terms_present": [
+      "STATUS: OPERATIONAL_CONTROL / ACTIVE",
+      "local correctness without global coherence",
+      "does not have continuous total awareness",
+      "Formation Medium",
+      "CRBSM",
+      "Route A",
+      "Scattering-native",
+      "High-Resonance",
+      "The object is not",
+      "Required Artifact Classification",
+      "Mandatory Global Questions Before Long Work",
+      "Required Stop Conditions",
+      "Current Strategic Axis",
+      "Validators do not mean",
+      "founder-controlled technical spine",
+      "not prove the Formation Medium"
+    ],
+    "founder_correction_present": true,
+    "global_map_keys": [
+      "corporate_frame",
+      "hardware_route",
+      "law_native_comparator",
+      "math_control_surface",
+      "mechanism_proxy",
+      "object",
+      "open_comparator_branch"
+    ],
+    "mandatory_question_count": 7,
+    "registry_status": [
+      "ACTIVE",
+      "INTERNAL_DOCTRINE",
+      "NOT_SOURCE_EXTRACTED",
+      "OPERATIONAL_CONTROL"
+    ],
+    "role_count": 14,
+    "stop_condition_count": 9
+  },
+  "target_id": "LEDGER-PROJECT-GLOBAL-DOCTRINE"
+}

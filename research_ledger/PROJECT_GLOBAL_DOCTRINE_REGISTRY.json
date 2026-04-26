@@ -1,0 +1,101 @@
+{
+  "schema": "project_global_doctrine_registry_v1",
+  "status": [
+    "OPERATIONAL_CONTROL",
+    "ACTIVE",
+    "INTERNAL_DOCTRINE",
+    "NOT_SOURCE_EXTRACTED"
+  ],
+  "purpose": "Machine-readable role registry for global project doctrine, created because the assistant does not reliably maintain deep total awareness across long tool work. Future major artifacts should classify themselves against these roles or explicitly explain why a new role is needed.",
+  "doctrine_file": "research_ledger/PROJECT_GLOBAL_DOCTRINE.md",
+  "non_promotion_rule": "This registry enforces global role discipline only. It does not prove Formation Medium, select a substrate, validate engineering feasibility, or authorize corporate claims.",
+  "roles": [
+    {
+      "role": "OBJECT",
+      "definition": "The actual target: Formation Medium. Must not be confused with mechanism, route, comparator, or corporate artifact."
+    },
+    {
+      "role": "MECHANISM",
+      "definition": "Generated or source-supported mechanism language explaining how a medium might behave, such as CRBSM. Not automatically source authority or substrate."
+    },
+    {
+      "role": "COMPARATOR",
+      "definition": "Candidate class used for disciplined comparison, such as scattering-native or high-resonance. Not default winner unless proven."
+    },
+    {
+      "role": "ROUTE",
+      "definition": "Engineering/material/hardware route or review queue. Not the object and not feasibility by default."
+    },
+    {
+      "role": "PROXY",
+      "definition": "Bootstrap, analog, or fabricable proxy that may approximate or test mechanism pieces. Not the target itself."
+    },
+    {
+      "role": "SOURCE_REVIEW",
+      "definition": "External/source-corpus review that may inform claims or routes. Not source-extracted unless ingested and recorded."
+    },
+    {
+      "role": "SOURCE_EXTRACTED",
+      "definition": "Directly extracted source claim in SOURCE_EXTRACTED_CLAIMS.json. Still not theorem or substrate unless checked/scoped."
+    },
+    {
+      "role": "GUARD",
+      "definition": "Checker/validator/ledger-control artifact. Protects discipline but is not understanding or proof of physics."
+    },
+    {
+      "role": "NEGATIVE_CONTROL",
+      "definition": "Explicit failure/comparison class used to sharpen Formation Medium boundaries."
+    },
+    {
+      "role": "MATRIX",
+      "definition": "Structured matrix/work surface, such as R14 or engineering gates. Not closure by itself."
+    },
+    {
+      "role": "CORPORATE",
+      "definition": "Founder/company strategy or framing. Must preserve technical risk and avoid external overclaim."
+    },
+    {
+      "role": "RESIDUAL_ORE",
+      "definition": "Prior-conversation or unfit concept material preserved for future review. Not source authority."
+    },
+    {
+      "role": "FORMAL_CHECK",
+      "definition": "Formal/source/ledger check target or result. Scope-specific and not globally substitutable for proof."
+    },
+    {
+      "role": "ENGINEERING_GATE",
+      "definition": "Gate used to evaluate routes/proxies. Not feasibility by itself."
+    }
+  ],
+  "mandatory_questions": [
+    "Am I working on the object, a mechanism, a comparator, a route, a proxy, a guard, a source review, or corporate framing?",
+    "Does this work move the project closer to Formation Medium, or merely add local ledger structure?",
+    "Could this artifact make CRBSM, Route A, scattering, or high-resonance look like the object by accident?",
+    "Does this work preserve the distinction between formation and computation?",
+    "Does this work preserve the distinction between readout, transport, and substrate?",
+    "Does this work preserve the distinction between source support and physical realization?",
+    "Does this work preserve founder-controlled technical spine rather than uncontrolled conceptual drift?"
+  ],
+  "current_global_map": {
+    "object": "Formation Medium",
+    "mechanism_proxy": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+    "hardware_route": "Route A / topoelectrical + superconducting microwave stack",
+    "law_native_comparator": "scattering-native / S-matrix regimes, mandatory comparator not default winner",
+    "open_comparator_branch": "high-resonance / mesoscopic resonance-native regimes",
+    "math_control_surface": "positive geometry / amplitudes / cosmohedron / Prime / R1-R14 / S1-S4",
+    "corporate_frame": "founder-controlled technical spine"
+  },
+  "stop_conditions": [
+    "procedurally correct but globally unclear",
+    "route starts sounding like object",
+    "generated mechanism starts sounding source-backed",
+    "comparator starts sounding like default winner",
+    "hardware stack starts sounding like substrate selection",
+    "source review starts sounding like feasibility",
+    "validator starts sounding like understanding",
+    "corporate sentence hides open technical risk",
+    "CRBSM/scattering/high-resonance/Route A discussed without role labels"
+  ],
+  "founder_correction_sanitized": "The assistant is not deeply aware of the project in the total/global sense during long tool work, and does not reliably hold the whole project in context while proceeding. This limitation must be explicit because it is critical.",
+  "assistant_total_awareness_limitation": "The assistant may preserve local ledger correctness while losing total awareness and global coherence; this registry is a forced control surface, not a guarantee of understanding."
+}
