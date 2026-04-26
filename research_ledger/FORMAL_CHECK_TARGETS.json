@@ -240,12 +240,12 @@
         "LOOP_MOM",
         "M1"
       ],
-      "checker_layer": "Typed representation-map ledger first; later symbolic/spinor-helicity checks",
+      "checker_layer": "implemented ledger/source representation-comparator validator; later symbolic/spinor-helicity checks",
       "predicate": "Momentum and loop-momentum amplituhedron claims are carried as representation-comparator records, separating same-physics claims from equality of geometric realization class.",
       "failure_condition": "A spinor-helicity or loop-momentum presentation is treated as the same realization class as the momentum-twistor amplituhedron without an explicit representation map and boundary/bulk compatibility check.",
       "status": [
         "DEFINED",
-        "NOT_IMPLEMENTED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     },
     {

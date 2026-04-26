@@ -1,0 +1,40 @@
+{
+  "checker": "representation_comparator_ledger_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-LOOP-MOM-AMP-2022-001",
+    "EXT-MOM-AMP-2019-001"
+  ],
+  "inspected_files": [
+    "research_ledger/COMPARATOR_PACKAGE_REGISTER.md",
+    "research_ledger/EXTRACTION_LEDGER.md",
+    "research_ledger/PAPER_SOURCE_LEDGER.md",
+    "research_ledger/FORMAL_CHECK_TARGETS.json",
+    "research_ledger/FORMAL_CHECK_RESULTS.json"
+  ],
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the ledger preserves momentum-amplituhedron and loop-momentum-amplituhedron claims as representation-comparator source records. It is not a mathematical proof, not a theorem that spinor-helicity and momentum-twistor geometries have the same realization class, not a boundary/bulk compatibility proof, not substrate evidence, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "the sources support spinor-helicity/tree and loop-momentum positive-geometry programs as representation-comparator entries",
+    "blocked_inference": "equality of geometric realization class, bulk equivalence, or Formation Medium substrate equivalence without separate map/boundary/bulk proof",
+    "checked_interface": "ledger/source discipline for treating momentum and loop-momentum amplituhedra as representation-comparator records",
+    "claim_statuses": {
+      "EXT-LOOP-MOM-AMP-2022-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-MOM-AMP-2019-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "forbidden_promotions_absent": true,
+    "paper_ids": {
+      "EXT-LOOP-MOM-AMP-2022-001": "LOOP_MOM_AMP_2022",
+      "EXT-MOM-AMP-2019-001": "MOM_AMP_2019"
+    },
+    "representation_files_have_required_terms": true,
+    "required_claim_count": 2
+  },
+  "target_id": "CHK-REPRESENTATION-COMPARATOR"
+}

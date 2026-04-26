@@ -13,7 +13,7 @@ Purpose: preserve what has been extracted, what is only provisional, and what re
 | Exact finite positive-Grassmannian branch | exact_work / Lean scaffold | PGfinite, R4-R8 | PARTIAL/PRESENT | source cross-link, machine-readable support ledger, Lean status audit |
 | Surfaceology local curve family | SURF-COUNT-2023; SURF-ALLMULT-2023 | S, R1?, surfaceology comparator | UNDERREPRESENTED | full comparator against A/M1/C and extraction of u-variable/binary geometry rows |
 | Scalar-scaffolded gluons | SCAFFOLD-GLUONS-2024; HIDDEN-ZEROS-2023; BACKUS-2025 | scaffolding/transmutation comparator | MISSING/PARTIAL | row candidates for shift, gauge invariance, transmutation, soft behavior |
-| Momentum / loop momentum amplituhedra | MOM-AMP-2019; LOOP-MOM-AMP-2022 | representation comparator | MISSING/PARTIAL | compare same amplitude object across kinematic/spinor-helicity/loop-momentum presentations |
+| Momentum amplituhedron / loop momentum amplituhedron | MOM-AMP-2019; LOOP-MOM-AMP-2022 | representation comparator | MISSING/PARTIAL | compare same amplitude object across kinematic/spinor-helicity/loop-momentum presentations without promoting to same realization class |
 | Amplituhedron-Prime / local geometries | AMP-PRIME-2020 | caution ledger, bulk-non-faithfulness | MISSING/PARTIAL | formal caution row: same boundary/log form may not imply same bulk geometry |
 | Wilson-loop negative geometries | WILSON-POS-2024 | frontier notes, positivity comparator | MISSING | integrated positivity and bootstrap contradiction notes |
 | Colored Yukawa surfaceology | YUKAWA-SURF-2024 | surfaceology extension comparator | MISSING | numerator/tensor extension rows |
@@ -32,4 +32,4 @@ Purpose: preserve what has been extracted, what is only provisional, and what re
 3. Tree-loop factorization rows from SURF-ALLMULT-2023.
 4. Scalar scaffolding/gauge invariance/transmutation rows from SCAFFOLD-GLUONS-2024 and BACKUS-2025.
 5. Same-boundary/different-bulk caution from AMP-PRIME-2020.
-6. Momentum/loop-momentum representation comparator from MOM-AMP-2019 and LOOP-MOM-AMP-2022.
+6. Momentum amplituhedron / loop momentum amplituhedron representation comparator from MOM-AMP-2019 and LOOP-MOM-AMP-2022.

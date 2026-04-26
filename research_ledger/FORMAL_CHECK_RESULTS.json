@@ -74,9 +74,9 @@
     },
     {
       "target_id": "CHK-REPRESENTATION-COMPARATOR",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but no typed representation-map comparator has been implemented yet.",
-      "artifact": null
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented representation-comparator ledger guard for momentum amplituhedron and loop momentum amplituhedron source records. The checker verifies that spinor-helicity/tree and loop-momentum positive-geometry claims remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION representation-comparator entries, while blocking promotion to equality of geometric realization class, bulk equivalence, Formation Medium substrate equivalence, or engineering readiness without a separate map/boundary/bulk proof.",
+      "artifact": "formal_handoff/results/CHK-REPRESENTATION-COMPARATOR.json"
     },
     {
       "target_id": "LEDGER-SOURCE-EXTRACTION-INTEGRITY",
