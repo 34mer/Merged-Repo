@@ -1534,7 +1534,7 @@
         "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"
       ],
       "promotion_status": "BLOCKED",
-      "notes": "Prime cells now have source contacts for R1/R7/R13, but R14 remains open. No full Prime row/class matrix is solved; no formal carrier theorem or substrate claim follows."
+      "notes": "Prime cells now have source contacts for R1/R7/R13, but R14 remains open. No full Prime row/class matrix is solved; this is not a formal carrier theorem, not substrate evidence, not a physical realization claim, and not engineering readiness."
     },
     {
       "family_or_route": "FM_Route_A",

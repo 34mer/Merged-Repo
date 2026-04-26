@@ -1,0 +1,31 @@
+{
+  "checker": "r14_class_matrix_schema_guard_v1",
+  "counterexamples": [],
+  "inspected_file": "research_ledger\\R1_R14_CLASS_MATRIX_CANDIDATE.json",
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the R14 matrix candidate has the expected row/family shape, required blocked statuses, Prime source/check contacts, and explicit R14-open preservation. It is not a mathematical proof, not a class-matrix completion, not theorem status, not substrate evidence, not engineering readiness, and not product readiness.",
+  "support_summary": {
+    "allowed_inference": "the matrix is a structured work surface with partial source/check contacts for Prime cells",
+    "blocked_inference": "R14 closure, theorem status, Formation Medium substrate evidence, engineering readiness, product readiness, or investor proof",
+    "checked_interface": "R14 class-matrix candidate schema, Prime source/check-populated cells, and R14-open preservation",
+    "expected_entry_count": 154,
+    "family_or_route_count": 11,
+    "matrix_entry_count": 154,
+    "prime_cells_checked": [
+      "R1",
+      "R13",
+      "R14",
+      "R7"
+    ],
+    "r14_cells_open": true,
+    "row_count": 14,
+    "top_status": [
+      "CANDIDATE",
+      "DEFICIT",
+      "GENERATED",
+      "NOT_CHECKED",
+      "OPEN"
+    ]
+  },
+  "target_id": "LEDGER-R14-CLASS-MATRIX-SCHEMA"
+}

@@ -149,6 +149,12 @@
       "result_status": "PASS_SOURCE_COVERAGE",
       "result_summary": "Implemented Formation Medium bulk/readout witness-schema guard. The checker verifies that same_readout/different_bulk vocabulary remains scoped by explicit readout maps and bulk equivalence relations, and that engineering routes remain at READOUT_FAITHFULNESS_UNKNOWN unless separately evidenced. This is not an S4 theorem, not substrate evidence, not engineering readiness, and not a physical realization claim.",
       "artifact": "formal_handoff/results/CHK-FM-BULK-READOUT-WITNESS-SCHEMA.json"
+    },
+    {
+      "target_id": "LEDGER-R14-CLASS-MATRIX-SCHEMA",
+      "result_status": "PASS_LEDGER_VALIDATION",
+      "result_summary": "Implemented R14 class-matrix schema guard. The checker verifies the row/family matrix shape, blocked statuses, Prime source/check-populated R1/R7/R13/R14 cells, and explicit preservation of R14 as OPEN/DEFICIT. This is a ledger-shape validation only, not a mathematical proof, not class-matrix completion, not theorem status, not substrate evidence, not engineering readiness, and not product readiness.",
+      "artifact": "formal_handoff/results/LEDGER-R14-CLASS-MATRIX-SCHEMA.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."
