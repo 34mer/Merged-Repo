@@ -68,9 +68,9 @@
     },
     {
       "target_id": "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but no comparator invariant checker has been implemented yet.",
-      "artifact": null
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented same-boundary/different-bulk ledger guard. The checker verifies that EXT-AMP-PRIME-001 and EXT-WILSON-POS-2024-001 remain source-extracted cautions, and that Formation Medium artifacts do not promote shared boundary structure, shared logarithmic form, sign behavior, or bootstrap success into bulk equivalence, substrate realization, engineering readiness, or physical settling-law evidence.",
+      "artifact": "formal_handoff/results/CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION.json"
     },
     {
       "target_id": "CHK-REPRESENTATION-COMPARATOR",

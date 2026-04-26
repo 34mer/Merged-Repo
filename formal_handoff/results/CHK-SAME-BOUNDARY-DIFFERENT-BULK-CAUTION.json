@@ -1,0 +1,40 @@
+{
+  "checker": "same_boundary_different_bulk_ledger_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-AMP-PRIME-001",
+    "EXT-WILSON-POS-2024-001"
+  ],
+  "inspected_files": [
+    "research_ledger/S2_STAR_S4_DISTINCTNESS_CANDIDATE.md",
+    "research_ledger/FORMATION_MEDIUM_LAYER_0_SPEC.md",
+    "research_ledger/FORMATION_MEDIUM_LAYER_1_SPEC.md",
+    "research_ledger/FORMATION_MEDIUM_LAYER_1_CANDIDATE_CONSTRAINTS.json"
+  ],
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the ledger preserves the source-backed caution that shared boundary structure, shared logarithmic form, sign behavior, or bootstrap success must not be promoted into bulk equivalence or Formation Medium substrate realization. It is not a mathematical proof, not a theorem of positive geometry, not an S4 theorem, not substrate evidence, not engineering readiness, and not a physical settling-law result.",
+  "support_summary": {
+    "allowed_inference": "same-boundary/different-bulk and post-integration/bootstrap limitations are active caution flags for comparator and Formation Medium wording",
+    "blocked_inference": "bulk equivalence, substrate realization, physical settling law, or investor-ready engineering proof",
+    "checked_interface": "ledger/source caution against promoting shared boundary, logarithmic form, sign behavior, or bootstrap success into bulk/substrate equivalence",
+    "claim_statuses": {
+      "EXT-AMP-PRIME-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-WILSON-POS-2024-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "forbidden_promotions_absent": true,
+    "formal_results_non_promotion_rule_present": true,
+    "formation_files_preserve_caution": true,
+    "paper_ids": {
+      "EXT-AMP-PRIME-001": "AMP_PRIME_2020",
+      "EXT-WILSON-POS-2024-001": "WILSON_POS_2024"
+    },
+    "required_claim_count": 2
+  },
+  "target_id": "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"
+}

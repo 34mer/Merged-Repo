@@ -7,7 +7,7 @@
     "NOT_SOURCE_EXTRACTED",
     "NOT_CHECKED"
   ],
-  "non_promotion_rule": "These constraints are mined from prior GPT conversation source intake. They are design leads only until independently source-bound, repo-bound, or checked.",
+  "non_promotion_rule": "These constraints are mined from prior GPT conversation source intake. They are design leads only until independently source-bound, repo-bound, or checked. Formation Medium Layer 1 constraints are not a theorem, not physics proof, and not engineering readiness evidence.",
   "depends_on": [
     "research_ledger/FORMATION_MEDIUM_LAYER_0_SPEC.md",
     "research_ledger/PREVIOUS_GPT_CONVERSATION_INTAKE.json",

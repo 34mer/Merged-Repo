@@ -217,12 +217,12 @@
         "M1",
         "WILSON"
       ],
-      "checker_layer": "Ledger invariant / comparator caution",
+      "checker_layer": "implemented ledger/source caution validator; later formal witness model",
       "predicate": "Any comparator relying on boundary structure, logarithmic form, positivity, or bootstrap success alone must mark same-boundary/different-bulk or post-integration-caution risk as unresolved unless bulk/equivalence evidence is separately checked.",
       "failure_condition": "A realization equivalence is inferred from same boundary/log-form/positivity/bootstrap data without explicit bulk or representation equivalence evidence.",
       "status": [
         "DEFINED",
-        "NOT_IMPLEMENTED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     },
     {

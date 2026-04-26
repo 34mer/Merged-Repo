@@ -10,7 +10,7 @@ DO_NOT_PLACE_IN: SOURCE_EXTRACTED_CLAIMS.json
 
 ## 0. Non-Promotion Notice
 
-This artifact is not a source-extracted claim, not a formal theorem, not a validator result, and not a checked repo claim.
+This artifact is not a source-extracted claim, not a formal theorem, not a theorem, not a validator result, and not a checked repo claim.
 
 It is a generated candidate artifact prepared for repo integration under existing Formation repo conventions.
 
