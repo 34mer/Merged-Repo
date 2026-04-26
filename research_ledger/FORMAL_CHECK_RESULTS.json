@@ -26,9 +26,9 @@
     },
     {
       "target_id": "CHK-R12-SUBMODULAR-LAW",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but SMT/SymPy encoding of delta-domain conventions has not been implemented yet.",
-      "artifact": null
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented R12 submodular-law source guard. The checker verifies that the cosmohedron grouped-inequality, positive-delta, submodular-compatibility, and delta_full=0 interface claims remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION source-bound material. This is not an SMT/Z3 proof, not a full submodular-law theorem, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness.",
+      "artifact": "formal_handoff/results/CHK-R12-SUBMODULAR-LAW.json"
     },
     {
       "target_id": "CHK-R13-EQUALITY-LAYER",

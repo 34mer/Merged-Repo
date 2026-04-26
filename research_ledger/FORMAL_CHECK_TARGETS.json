@@ -67,12 +67,12 @@
         "C",
         "GAssoc"
       ],
-      "checker_layer": "Z3/SymPy symbolic inequality schema",
+      "checker_layer": "implemented ledger/source submodular-law interface validator; later SMT/Z3 delta-domain model",
       "predicate": "delta_P + delta_P' <= delta_union + delta_intersection is represented with the correct domain conventions, including delta_full = 0.",
       "failure_condition": "The encoded law permits a violating assignment under declared positivity/domain constraints, or union/intersection conventions are inconsistent.",
       "status": [
         "DEFINED",
-        "SMT_CHECK_PLANNED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     },
     {

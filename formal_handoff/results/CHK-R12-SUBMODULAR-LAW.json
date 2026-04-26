@@ -1,0 +1,33 @@
+{
+  "checker": "r12_submodular_law_source_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-COSMO-002"
+  ],
+  "inspected_files": [
+    "research_ledger/COMPARATOR_PACKAGE_REGISTER.md",
+    "research_ledger/EXTRACTION_LEDGER.md",
+    "research_ledger/FORMAL_CHECK_TARGETS.json",
+    "research_ledger/FORMAL_CHECK_RESULTS.json"
+  ],
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the ledger preserves source-bound cosmohedron grouped-inequality, positive-delta, submodular-compatibility, and delta_full=0 interface claims. It is not a mathematical proof, not an SMT/Z3 proof, not a full submodular-law theorem, not substrate evidence, not engineering readiness, and not a physical settling-law result.",
+  "support_summary": {
+    "allowed_inference": "R12 may cite source-bound grouped inequality, positive delta, submodular-compatibility, and delta_full interface material",
+    "blocked_inference": "SMT proof, Z3 proof, all-domain submodular theorem, Formation Medium substrate evidence, physical settling law, or engineering readiness",
+    "checked_interface": "ledger/source coverage for cosmohedron grouped-inequality delta/submodular compatibility language",
+    "claim_statuses": {
+      "EXT-COSMO-002": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "forbidden_promotions_absent": true,
+    "ledger_files_have_required_terms": true,
+    "paper_ids": {
+      "EXT-COSMO-002": "COSMO_2024"
+    },
+    "required_claim_count": 1
+  },
+  "target_id": "CHK-R12-SUBMODULAR-LAW"
+}

@@ -6,7 +6,7 @@ Purpose: preserve all comparator work objects that must exist beyond the already
 
 | Comparator | State | Rows involved | Required next work |
 |---|---|---|---|
-| `GAssoc` vs `C` | PRESENT/PARTIAL | R9-R13 | Source-bind R13 and formalize degenerate-vs-intrinsic equality. |
+| `GAssoc` vs `C` | PRESENT/PARTIAL | R9-R13 including R12 | Source-bind R12 cosmohedron submodular-compatibility law and R13 degenerate-vs-intrinsic equality. |
 | `A` vs `C` | PARTIAL | R1-R3 | Formalize local move multiplicity and nested-history burden. |
 | `M1` vs `C` | PARTIAL | R1-R3 | Compare sign descent vs Matryoshka descent. |
 | `A` vs `M1` | OPEN/PARTIAL | R1 | Decide whether shared unit descent is merely weak common layer or has stronger relation. |
