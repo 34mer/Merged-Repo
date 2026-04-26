@@ -56,9 +56,9 @@
     },
     {
       "target_id": "CHK-SURF-BINARY-BOUNDARY",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but positive-region/binary-boundary solver check is not implemented yet.",
-      "artifact": null
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented surfaceology binary-boundary source guard. The checker verifies that surfaceology positive-region, u-variable, and binary-geometry claims remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION source-bound interface material. This is not a positive-region solver, not a binary-boundary theorem, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness.",
+      "artifact": "formal_handoff/results/CHK-SURF-BINARY-BOUNDARY.json"
     },
     {
       "target_id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",

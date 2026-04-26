@@ -1,0 +1,39 @@
+{
+  "checker": "surf_binary_boundary_source_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-SURF-001",
+    "EXT-SURF-COUNT-2023-001"
+  ],
+  "inspected_files": [
+    "research_ledger/COMPARATOR_PACKAGE_REGISTER.md",
+    "research_ledger/EXTRACTION_LEDGER.md",
+    "research_ledger/FORMAL_CHECK_TARGETS.json",
+    "research_ledger/FORMAL_CHECK_RESULTS.json"
+  ],
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the ledger preserves source-bound surfaceology positive-region, u-variable, and binary-geometry claims. It is not a mathematical proof, not a positive-region solver, not a binary-boundary theorem, not substrate evidence, not engineering readiness, and not a physical settling-law result.",
+  "support_summary": {
+    "allowed_inference": "surfaceology binary/u-variable material may be used as source-bound candidate interface for later inequality or SMT checks",
+    "binary_files_have_required_terms": true,
+    "blocked_inference": "implemented positive-region solver, binary-boundary theorem, Formation Medium substrate evidence, physical settling law, or engineering readiness",
+    "checked_interface": "ledger/source coverage for surfaceology positive-region binary-boundary claims",
+    "claim_statuses": {
+      "EXT-SURF-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-SURF-COUNT-2023-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "forbidden_promotions_absent": true,
+    "paper_ids": {
+      "EXT-SURF-001": "SCAFFOLD_GLUONS_2024",
+      "EXT-SURF-COUNT-2023-001": "SURF_COUNT_2023"
+    },
+    "required_claim_count": 2
+  },
+  "target_id": "CHK-SURF-BINARY-BOUNDARY"
+}

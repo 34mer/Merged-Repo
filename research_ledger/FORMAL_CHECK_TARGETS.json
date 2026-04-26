@@ -175,12 +175,12 @@
       "families": [
         "S"
       ],
-      "checker_layer": "Python/Z3 inequality model",
+      "checker_layer": "implemented ledger/source binary-boundary interface validator; later positive-region SMT/inequality model",
       "predicate": "In positive region, u_C >= 0 plus u-equations force 0 <= u_C <= 1 and incompatible crossing variables approach 1 when u_C -> 0.",
       "failure_condition": "The encoded positive-region equations admit u outside [0,1] or fail incompatible-boundary behavior under source assumptions.",
       "status": [
         "DEFINED",
-        "SMT_CHECK_PLANNED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     },
     {
