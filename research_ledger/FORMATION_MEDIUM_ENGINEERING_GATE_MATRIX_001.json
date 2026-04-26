@@ -1,13 +1,13 @@
 {
   "schema": "formation_medium_engineering_gate_matrix_v1",
-  "purpose": "Machine-readable generated/open gate matrix comparing candidate engineering/physics routes against FM1 constraints plus transport/readout separation from Phase 3 mining.",
+  "purpose": "Machine-readable generated/open gate matrix comparing candidate engineering/physics routes against FM1 constraints plus transport/readout separation from Phase 3 mining. Includes CRBSM as generated proxy route only, not source authority or selected substrate.",
   "status": [
     "GENERATED",
     "OPEN",
     "CANDIDATE",
     "NOT_CHECKED"
   ],
-  "non_promotion_rule": "This matrix ranks design leads only. It is not source-extracted evidence, engineering feasibility, substrate selection, IP, or investor-readiness. All routes remain blocked pending external source review and route-specific checks.",
+  "non_promotion_rule": "This matrix ranks design leads only. It is not source-extracted evidence, engineering feasibility, substrate selection, IP, or investor-readiness. All routes remain blocked pending external source review and route-specific checks. CRBSM remains generated-only/proxy candidate and must not be treated as selected substrate or engineering feasibility.",
   "inputs": [
     "FORMATION_MEDIUM_ENGINEERING_TRIAGE_001.md",
     "PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_SYNTHESIS_001.md",
@@ -15,7 +15,10 @@
     "FORMATION_MEDIUM_LAYER_1_SPEC.md",
     "R13_EQUALITY_LAYER_REALIZATION_CANDIDATE.md",
     "PREVIOUS_GPT_SYMBOL_RECOVERY_SYNTHESIS_001.md",
-    "FORMATION_MEDIUM_NEGATIVE_CONTROLS.md"
+    "FORMATION_MEDIUM_NEGATIVE_CONTROLS.md",
+    "CRBSM_REGIME_CANDIDATE_RECOVERY.md",
+    "PREVIOUS_GPT_CRBSM_REGIME_RECOVERY_001.json",
+    "exact_work/handoff/10_MACHINE_STATE.json"
   ],
   "routes": [
     {
@@ -40,13 +43,18 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark"
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner"
     },
     {
       "route_id": "ROUTE-F",
       "route_name": "Ordinary circuits / annealing / solver hardware",
       "route_role": "negative_control"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate"
     }
   ],
   "gates": [
@@ -611,15 +619,16 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark",
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner",
       "gate_id": "G1",
       "gate_name": "native_carrier",
       "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding.",
       "status": "STRONG_PHYSICS_CANDIDATE",
       "evidence_needed": [
         "source review for native state-space / carrier semantics",
-        "rule out merely user-imposed encoding"
+        "rule out merely user-imposed encoding",
+        "compare against high-resonance / mesoscopic resonance-native candidates; do not assume high-energy scattering wins by default"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
@@ -627,15 +636,16 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark",
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner",
       "gate_id": "G2",
       "gate_name": "native_admissibility_local_ops",
       "gate_description": "Must provide native allowed configurations/local transformations.",
       "status": "PARTIAL_THEORY_DEPENDENT",
       "evidence_needed": [
         "source review for native local operations",
-        "identify admissibility law or local constraints"
+        "identify admissibility law or local constraints",
+        "compare against high-resonance / mesoscopic resonance-native candidates; do not assume high-energy scattering wins by default"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
@@ -643,15 +653,16 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark",
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner",
       "gate_id": "G3",
       "gate_name": "intrinsic_boundary_readout",
       "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register.",
       "status": "STRONG_CANDIDATE",
       "evidence_needed": [
         "source review for boundary/readout observables",
-        "show readout is intrinsic not output-register convention"
+        "show readout is intrinsic not output-register convention",
+        "compare against high-resonance / mesoscopic resonance-native candidates; do not assume high-energy scattering wins by default"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
@@ -659,15 +670,16 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark",
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner",
       "gate_id": "G4",
       "gate_name": "bulk_readout_faithfulness_status",
       "gate_description": "Must declare whether readout is faithful, non-faithful, or unknown relative to internal/bulk realization.",
       "status": "STRONG_CANDIDATE",
       "evidence_needed": [
         "declare readout map and bulk equivalence relation",
-        "look for same-readout/different-bulk or faithful reconstruction evidence"
+        "look for same-readout/different-bulk or faithful reconstruction evidence",
+        "compare against high-resonance / mesoscopic resonance-native candidates; do not assume high-energy scattering wins by default"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
@@ -675,15 +687,16 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark",
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner",
       "gate_id": "G5",
       "gate_name": "native_settling_formation_dynamics",
       "gate_description": "Must have native settling, scattering, variational, relaxation, or formation dynamics producing readout-bearing states.",
       "status": "OPEN_SCATTERING_NOT_SETTLING",
       "evidence_needed": [
         "identify native dynamics or process",
-        "avoid importing positive-geometry target as dynamics"
+        "avoid importing positive-geometry target as dynamics",
+        "compare against high-resonance / mesoscopic resonance-native candidates; do not assume high-energy scattering wins by default"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
@@ -691,15 +704,16 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark",
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner",
       "gate_id": "G6",
       "gate_name": "lab_corporate_tractability",
       "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships.",
       "status": "WEAK_AS_ENGINEERING_ROUTE",
       "evidence_needed": [
         "identify labs/instrumentation/prototype path",
-        "rank staged demo feasibility"
+        "rank staged demo feasibility",
+        "compare against high-resonance / mesoscopic resonance-native candidates; do not assume high-energy scattering wins by default"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
@@ -707,15 +721,16 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark",
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner",
       "gate_id": "G7",
       "gate_name": "failure_interface",
       "gate_description": "Must have kill conditions and testable negatives.",
       "status": "CAN_BE_DEFINED",
       "evidence_needed": [
         "write route-specific kill conditions",
-        "define negative controls"
+        "define negative controls",
+        "compare against high-resonance / mesoscopic resonance-native candidates; do not assume high-energy scattering wins by default"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
@@ -723,15 +738,16 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark",
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner",
       "gate_id": "G8",
       "gate_name": "transport_readout_separation",
       "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics.",
       "status": "THEORY_LEVEL_STRONG_CANDIDATE",
       "evidence_needed": [
         "separate transport/coupling from canonical readout",
-        "show transport preserves/exposes readout rather than externally routing signals"
+        "show transport preserves/exposes readout rather than externally routing signals",
+        "compare against high-resonance / mesoscopic resonance-native candidates; do not assume high-energy scattering wins by default"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
@@ -935,8 +951,8 @@
     },
     {
       "route_id": "ROUTE-E",
-      "route_name": "Scattering / S-matrix regimes",
-      "route_role": "physics_ontology_benchmark",
+      "route_name": "Scattering / S-matrix regimes, with high-resonance comparators kept open",
+      "route_role": "physics_ontology_benchmark_mandatory_comparator_not_default_winner",
       "gate_id": "G9",
       "gate_name": "equality_layer_intrinsicness",
       "gate_description": "Must declare whether relevant constraints/equality layers are intrinsic to the route, imposed by tuning/saturation/degeneration, absent, or unknown.",
@@ -944,7 +960,8 @@
       "evidence_needed": [
         "declare equality_layer_status as ABSENT, GENERIC_INEQUALITY, DEGENERATIVE_EQUALITY, INTRINSIC_EQUALITY, or UNKNOWN",
         "identify whether constraints are native to the regime or imposed by external tuning/saturation/degeneration",
-        "provide source or experiment before assigning non-UNKNOWN status to physical routes"
+        "provide source or experiment before assigning non-UNKNOWN status to physical routes",
+        "compare against high-resonance / mesoscopic resonance-native candidates; do not assume high-energy scattering wins by default"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
@@ -966,6 +983,148 @@
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
       "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate",
+      "gate_id": "G1",
+      "gate_name": "native_carrier",
+      "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding.",
+      "status": "GENERATED_BY_CONSTRUCTION",
+      "evidence_needed": [
+        "recover/generated CRBSM primitive carrier definition",
+        "source/review whether boundary sheets can be native physical variables"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "GENERATED_ONLY_NOT_SOURCE_AUTHORITY"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate",
+      "gate_id": "G2",
+      "gate_name": "native_admissibility_local_ops",
+      "gate_description": "Must provide native allowed configurations/local transformations.",
+      "status": "GENERATED_BY_CONSTRUCTION",
+      "evidence_needed": [
+        "recover/generated admissibility and relay-pocket constraints",
+        "source/review whether these are native rather than designer-imposed"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "GENERATED_ONLY_NOT_SOURCE_AUTHORITY"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate",
+      "gate_id": "G3",
+      "gate_name": "intrinsic_boundary_readout",
+      "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register.",
+      "status": "GENERATED_BY_CONSTRUCTION",
+      "evidence_needed": [
+        "review whether oriented boundary sheets provide intrinsic readout or only visualization"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "GENERATED_ONLY_NOT_SOURCE_AUTHORITY"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate",
+      "gate_id": "G4",
+      "gate_name": "bulk_readout_faithfulness_status",
+      "gate_description": "Must declare whether readout is faithful, non-faithful, or unknown relative to internal/bulk realization.",
+      "status": "READOUT_FAITHFULNESS_UNKNOWN",
+      "evidence_needed": [
+        "declare readout map and bulk equivalence relation",
+        "keep readout faithfulness unknown until comparator/source review"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "GENERATED_ONLY_NOT_SOURCE_AUTHORITY"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate",
+      "gate_id": "G5",
+      "gate_name": "native_settling_formation_dynamics",
+      "gate_description": "Must have native settling, scattering, variational, relaxation, or formation dynamics producing readout-bearing states.",
+      "status": "OPEN",
+      "evidence_needed": [
+        "identify actual native settling/formation dynamics for boundary sheets and relay pockets",
+        "do not treat construction-by-assumption as mechanism"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "GENERATED_ONLY_NOT_SOURCE_AUTHORITY"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate",
+      "gate_id": "G6",
+      "gate_name": "lab_corporate_tractability",
+      "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships.",
+      "status": "POSSIBLE_BOOTSTRAP_PROXY_NOT_REVIEWED",
+      "evidence_needed": [
+        "assess whether CRBSM can be bootstrap/fabricable proxy after source review",
+        "do not claim prototype or selected substrate"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "GENERATED_ONLY_NOT_SOURCE_AUTHORITY"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate",
+      "gate_id": "G7",
+      "gate_name": "failure_interface",
+      "gate_description": "Must have kill conditions and testable negatives.",
+      "status": "CAN_BE_DEFINED",
+      "evidence_needed": [
+        "define failure interface around relay-ledger persistence, quarter-turn transport, and boundary-sheet nativeness"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "GENERATED_ONLY_NOT_SOURCE_AUTHORITY"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate",
+      "gate_id": "G8",
+      "gate_name": "transport_readout_separation",
+      "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics.",
+      "status": "CENTRAL_OPEN_GATE",
+      "evidence_needed": [
+        "separate relay transport from canonical readout",
+        "show transport preserves/exposes readout rather than simulates routing"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "GENERATED_ONLY_NOT_SOURCE_AUTHORITY"
+    },
+    {
+      "route_id": "ROUTE-G",
+      "route_name": "CRBSM / Chiral Relay Boundary-Sheet Medium",
+      "route_role": "generated_proxy_candidate",
+      "gate_id": "G9",
+      "gate_name": "equality_layer_intrinsicness",
+      "gate_description": "Must declare whether relevant constraints/equality layers are intrinsic to the route, imposed by tuning/saturation/degeneration, absent, or unknown.",
+      "status": "EQUALITY_UNKNOWN",
+      "evidence_needed": [
+        "declare equality-layer status as UNKNOWN unless source/check evidence exists",
+        "do not infer equality intrinsicness from CRBSM construction"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "GENERATED_ONLY_NOT_SOURCE_AUTHORITY"
     }
   ],
   "current_ranking": {
@@ -1001,6 +1160,11 @@
     {
       "id": "EGM-NA4",
       "action": "Use G9 equality-layer intrinsicness to keep physical routes UNKNOWN until external source review; align with R13 and symbol recovery artifacts.",
+      "status": "OPEN"
+    },
+    {
+      "id": "EGM-NA5",
+      "action": "Compare CRBSM generated proxy route against scattering-native Route E and high-resonance/mesoscopic resonance-native candidates before any substrate or engineering commitment.",
       "status": "OPEN"
     }
   ]
