@@ -71,7 +71,7 @@
         "FORMATION_MEDIUM_LAYER_1_SPEC.md",
         "validate_formation_medium_discipline.py"
       ],
-      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated. The repo now has PG1-PG8 criteria and a PRI-001 high-resonance source-candidate queue for bounded external review.",
+      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated. The repo now has PG1-PG8 criteria plus PRI-001 high-resonance and PRI-002 scattering-native source-candidate queues for bounded external review.",
       "blocked_claims": [
         "Formation Medium substrate has been identified",
         "positive geometry proves a substrate",
@@ -86,7 +86,10 @@
         "review queue is winner declaration",
         "PRI-001 source candidates select high-resonance as winner",
         "external-web-reviewed candidates are source-extracted claims",
-        "DOI-backed candidate list is substrate evidence"
+        "DOI-backed candidate list is substrate evidence",
+        "PRI-002 source candidates select scattering-native as winner",
+        "external-web-reviewed scattering candidates are source-extracted claims",
+        "positive geometry proximity is substrate evidence"
       ]
     },
     {
@@ -151,7 +154,8 @@
     "high-resonance native comparator plan preserves CRBSM mechanism-language, Route A hardware/proxy, scattering-native comparator, and high-resonance bridge roles",
     "mission-grade critical review doctrine guard requires reasoning beyond repo hygiene and permits challenge to mission/founder/repo/math/routes",
     "physical-regime source-intake criteria guard defines PG1-PG8 gates and role-separated CRBSM/Route A/scattering-native/high-resonance review tracks",
-    "PRI-001 high-resonance source-candidate queue adds four candidate classes and eleven DOI-backed external candidates under PG1-PG8 without source extraction"
+    "PRI-001 high-resonance source-candidate queue adds four candidate classes and eleven DOI-backed external candidates under PG1-PG8 without source extraction",
+    "PRI-002 scattering-native source-candidate queue adds four comparator classes and thirteen DOI-backed external candidates under PG1-PG8 without source extraction"
   ],
   "critical_gaps": [
     "no selected physical substrate",

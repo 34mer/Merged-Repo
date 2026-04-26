@@ -1,0 +1,280 @@
+{
+  "schema": "pri002_scattering_native_source_candidates_v1",
+  "priority_item": "PRI-002",
+  "artifact_roles": [
+    "SOURCE_REVIEW",
+    "COMPARATOR",
+    "NEGATIVE_CONTROL",
+    "PHYSICAL_REGIME_TRIAGE"
+  ],
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "EXTERNAL_WEB_REVIEWED",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_SUBSTRATE_SELECTION",
+    "NOT_ENGINEERING_READY"
+  ],
+  "purpose": "Sourced candidate list for scattering-native comparator work under PG1-PG8 physical-regime source-intake criteria. This queues theory-native S-matrix/positive-geometry sources and physical scattering-matrix observable sources for later source review, without declaring scattering-native physics a winner or substrate.",
+  "critical_review_prework": {
+    "hard_bottleneck_attacked": "scattering-native comparator uncertainty: whether S-matrix/positive-geometry structure is only a mathematical comparator or can connect to physical observables, intrinsic readout, harnessability, and bulk/readout non-faithfulness",
+    "thin_stick_risks": [
+      "positive-geometry theorem treated as physical substrate evidence",
+      "S-matrix analyticity/unitarity constraints treated as native Formation Medium settling law",
+      "scattering-matrix optical observables treated as canonical positive-geometric readout",
+      "mathematical proximity to amplitudes treated as winner status"
+    ],
+    "negative_progress_risk": "Could become a list of beautiful amplitude papers plus unrelated wave-scattering devices unless every class is scored against PG gates and kill notes.",
+    "why_not_convenient_drift": "It forces the scattering-native comparator to face physical-observable and harnessability gates instead of winning by mathematical proximity."
+  },
+  "anti_flattening_rule": "Scattering-native is a mandatory law-native comparator. It is not CRBSM, not Route A, not high-resonance bridge status, not selected substrate, and not the default winner by mathematical proximity.",
+  "candidate_classes": [
+    {
+      "id": "SN-C1_POSITIVE_GEOMETRY_CANONICAL_FORMS",
+      "label": "positive geometry / canonical-form amplitude structures",
+      "why_candidate": "This class is the closest mathematical comparator to Formation Medium readout language: canonical forms, boundary recursion, scattering forms, and amplitude-positive geometry relations.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_WEAK_OR_MATHEMATICAL",
+        "PG2_NATIVE_ADMISSIBILITY_STRONG_MATH",
+        "PG3_RELAY_OR_TRANSPORT_WEAK",
+        "PG5_INTRINSIC_READOUT_STRONG_MATH_OPEN_PHYSICS",
+        "PG6_BULK_READOUT_SEPARATION_CANDIDATE_MATH",
+        "PG7_HARNESSABILITY_WEAK",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "SN-SRC-001",
+        "SN-SRC-002",
+        "SN-SRC-003",
+        "SN-SRC-004"
+      ],
+      "kill_notes": [
+        "canonical form is not physical readout by itself",
+        "positive geometry is not substrate evidence",
+        "auxiliary-space geometry may fail physical harnessability",
+        "source-backed amplitude structure must not become Formation Medium theorem status"
+      ]
+    },
+    {
+      "id": "SN-C2_SMATRIX_BOOTSTRAP_AND_POSITIVITY_BOUNDS",
+      "label": "S-matrix bootstrap / analyticity-unitarity-positivity constraints",
+      "why_candidate": "This class tests whether native law constraints on scattering amplitudes provide admissibility and observable bounds closer to Formation Medium gates than engineered mechanisms.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_MATHEMATICAL_ONLY_OR_OPEN",
+        "PG2_NATIVE_ADMISSIBILITY_STRONG",
+        "PG3_RELAY_OR_TRANSPORT_WEAK",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_OPEN",
+        "PG5_INTRINSIC_READOUT_OPEN",
+        "PG6_BULK_READOUT_SEPARATION_OPEN",
+        "PG7_HARNESSABILITY_WEAK",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "SN-SRC-005",
+        "SN-SRC-006",
+        "SN-SRC-007",
+        "SN-SRC-008"
+      ],
+      "kill_notes": [
+        "bounds on amplitudes are not native settling dynamics",
+        "analyticity/unitarity/crossing constraints are not hardware carrier variables",
+        "EFT admissibility is not Formation Medium admissibility",
+        "bootstrap observables may remain abstract and non-harnessable"
+      ]
+    },
+    {
+      "id": "SN-C3_PHYSICAL_SCATTERING_MATRIX_TOPOLOGY",
+      "label": "physical scattering-matrix topology and phase singularity observables",
+      "why_candidate": "This class connects scattering-matrix eigenvalue topology, degeneracies, phase vortices, and experimental observables in open photonic/metasurface systems.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_PARTIAL",
+        "PG2_NATIVE_ADMISSIBILITY_PARTIAL",
+        "PG3_RELAY_OR_TRANSPORT_PARTIAL",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_OPEN",
+        "PG5_INTRINSIC_READOUT_CANDIDATE",
+        "PG6_BULK_READOUT_SEPARATION_OPEN",
+        "PG7_HARNESSABILITY_PARTIAL",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "SN-SRC-009",
+        "SN-SRC-010"
+      ],
+      "kill_notes": [
+        "scattering phase singularities are not canonical positive-geometric readout",
+        "open photonic observables may be measurement artifacts",
+        "topological scattering features may remain device engineering",
+        "requires negative controls against Route A and high-resonance hardware/proxy roles"
+      ]
+    },
+    {
+      "id": "SN-C4_SCATTERING_ZEROS_AND_COHERENT_PERFECT_ABSORPTION",
+      "label": "scattering zeros / coherent perfect absorption / exceptional-point observables",
+      "why_candidate": "This class tests whether zeros of scattering operators, coherent perfect absorption, and exceptional structures provide intrinsic readout-like observables in wave systems.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_PARTIAL",
+        "PG2_NATIVE_ADMISSIBILITY_OPEN",
+        "PG3_RELAY_OR_TRANSPORT_PARTIAL",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_OPEN",
+        "PG5_INTRINSIC_READOUT_CANDIDATE",
+        "PG6_BULK_READOUT_SEPARATION_OPEN",
+        "PG7_HARNESSABILITY_PARTIAL",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "SN-SRC-011",
+        "SN-SRC-012",
+        "SN-SRC-013"
+      ],
+      "kill_notes": [
+        "perfect absorption is not Formation Medium settling",
+        "S-matrix zeros are not automatically canonical readout",
+        "wavefront shaping or coherent input control can make the effect externally programmed",
+        "exceptional-point behavior can be high-resonance hardware, not scattering-native substrate"
+      ]
+    }
+  ],
+  "source_candidates": [
+    {
+      "id": "SN-SRC-001",
+      "title": "Positive geometries and canonical forms",
+      "authors_short": "Arkani-Hamed, Bai, Lam",
+      "venue_year": "JHEP 2017",
+      "doi": "10.1007/JHEP11(2017)039",
+      "track_relevance": "canonical forms and positive geometry relation to scattering amplitudes",
+      "candidate_value": "strongest readout-semantics comparator for PG5 and PG6 at mathematical level",
+      "blocked_inference": "positive geometry canonical forms are not physical substrate or intrinsic apparatus readout"
+    },
+    {
+      "id": "SN-SRC-002",
+      "title": "Scattering forms and the positive geometry of kinematics, color and the worldsheet",
+      "authors_short": "Arkani-Hamed et al.",
+      "venue_year": "JHEP 2018",
+      "doi": "10.1007/JHEP05(2018)096",
+      "track_relevance": "scattering forms and positive geometry directly in kinematic space",
+      "candidate_value": "tests whether scattering-native structure is less auxiliary and closer to intrinsic readout",
+      "blocked_inference": "kinematic-space positive geometry is not Formation Medium substrate selection"
+    },
+    {
+      "id": "SN-SRC-003",
+      "title": "Nonperturbative negative geometries: amplitudes at strong coupling and the amplituhedron",
+      "authors_short": "Arkani-Hamed, Henn, Trnka",
+      "venue_year": "JHEP 2022",
+      "doi": "10.1007/JHEP03(2022)108",
+      "track_relevance": "geometry-connected IR-finite observable and strong-coupling amplitude structure",
+      "candidate_value": "candidate bridge from canonical/negative geometry to observables under PG5",
+      "blocked_inference": "IR-finite observable relation is not physical Formation Medium readout"
+    },
+    {
+      "id": "SN-SRC-004",
+      "title": "Momentum Amplituhedron for N=6 Chern-Simons-Matter Theory: Scattering Amplitudes from Configurations of Points in Minkowski Space",
+      "authors_short": "Lukowski, Stalknecht",
+      "venue_year": "Phys. Rev. Lett. 2023",
+      "doi": "10.1103/PhysRevLett.131.161601",
+      "track_relevance": "amplitude geometry from configurations in Minkowski/dual-momentum space",
+      "candidate_value": "tests whether geometry/readout proximity improves outside standard planar N=4 SYM setting",
+      "blocked_inference": "momentum-amplituhedron formulation is not physical substrate evidence"
+    },
+    {
+      "id": "SN-SRC-005",
+      "title": "Rigorous Bounds on the Analytic S Matrix",
+      "authors_short": "Guerrieri, Sever",
+      "venue_year": "Phys. Rev. Lett. 2021",
+      "doi": "10.1103/PhysRevLett.127.251601",
+      "track_relevance": "rigorous analyticity/crossing/unitarity bounds in S-matrix bootstrap",
+      "candidate_value": "strong PG2 admissibility comparator for native law constraints",
+      "blocked_inference": "S-matrix bootstrap bounds are not native settling law or substrate selection"
+    },
+    {
+      "id": "SN-SRC-006",
+      "title": "Bridging positivity and S-matrix bootstrap bounds",
+      "authors_short": "Elias Miro, Guerrieri, Gumus",
+      "venue_year": "JHEP 2023",
+      "doi": "10.1007/JHEP05(2023)001",
+      "track_relevance": "compares positivity and S-matrix bootstrap constraints on EFT amplitudes",
+      "candidate_value": "helps compare positivity-derived admissibility with stronger bootstrap constraints",
+      "blocked_inference": "EFT cutoff/bootstrap bounds are not Formation Medium physical regime validation"
+    },
+    {
+      "id": "SN-SRC-007",
+      "title": "Exploring inelasticity in the S-matrix Bootstrap",
+      "authors_short": "Guerrieri et al.",
+      "venue_year": "Physics Letters B 2023",
+      "doi": "10.1016/j.physletb.2023.138225",
+      "track_relevance": "inelasticity and low-energy observable constraints in S-matrix bootstrap",
+      "candidate_value": "tests whether more physical scattering channels change admissibility and observables",
+      "blocked_inference": "inelasticity constraints are not hardware harnessability"
+    },
+    {
+      "id": "SN-SRC-008",
+      "title": "Positivity properties of scattering amplitudes",
+      "authors_short": "Henn, Raman",
+      "venue_year": "JHEP 2025",
+      "doi": "10.1007/JHEP04(2025)150",
+      "track_relevance": "recent amplitude positivity properties relevant to law-native admissibility",
+      "candidate_value": "updates positivity/admissibility comparison under PG2",
+      "blocked_inference": "positivity properties are not Formation Medium theorem or physical substrate evidence"
+    },
+    {
+      "id": "SN-SRC-009",
+      "title": "Continuous Lines of Topological Singularities in Metasurface Scattering Matrices: From Nodal to Exceptional",
+      "authors_short": "Chen, Liu",
+      "venue_year": "ACS Photonics 2025",
+      "doi": "10.1021/acsphotonics.5c00575",
+      "track_relevance": "scattering-matrix eigenvalue degeneracies linked to observable cross-polarization phase vortex lines",
+      "candidate_value": "direct physical scattering-matrix observable candidate for PG5/PG8",
+      "blocked_inference": "metasurface scattering topology is not canonical Formation Medium readout"
+    },
+    {
+      "id": "SN-SRC-010",
+      "title": "Topological phase singularities in atomically thin high-refractive-index materials",
+      "authors_short": "Ermolaev et al.",
+      "venue_year": "Nature Communications 2022",
+      "doi": "10.1038/s41467-022-29716-4",
+      "track_relevance": "observable topological phase singularities in nanophotonic scattering/optical response",
+      "candidate_value": "physical phase-singularity readout candidate and negative-control foil",
+      "blocked_inference": "optical phase singularity is not positive-geometric canonical readout"
+    },
+    {
+      "id": "SN-SRC-011",
+      "title": "Perfect absorption in complex scattering systems with or without hidden symmetries",
+      "authors_short": "Chen, Kottos, Anlage",
+      "venue_year": "Nature Communications 2020",
+      "doi": "10.1038/s41467-020-19645-5",
+      "track_relevance": "perfect absorption in complex scattering systems and hidden-symmetry structure",
+      "candidate_value": "tests S-matrix zero/readout-like observables in complex wave systems",
+      "blocked_inference": "perfect absorption is not native settling law"
+    },
+    {
+      "id": "SN-SRC-012",
+      "title": "Non-linear coherent perfect absorption in the proximity of exceptional points",
+      "authors_short": "Suwunnarat et al.",
+      "venue_year": "Communications Physics 2022",
+      "doi": "10.1038/s42005-021-00782-2",
+      "track_relevance": "nonlinear CPA near exceptional-point degeneracies of scattering-function zeros",
+      "candidate_value": "tests if scattering zeros/exceptional points offer robust observable structure",
+      "blocked_inference": "nonlinear CPA is not Formation Medium settling or substrate evidence"
+    },
+    {
+      "id": "SN-SRC-013",
+      "title": "Coherent perfect absorbers: linear control of light with light",
+      "authors_short": "Baranov et al.",
+      "venue_year": "Nature Reviews Materials 2017",
+      "doi": "10.1038/natrevmats.2017.64",
+      "track_relevance": "review of CPA and scattering-zero control across photonic/material systems",
+      "candidate_value": "useful negative-control baseline for distinguishing intrinsic readout from coherent input control",
+      "blocked_inference": "coherent input control is not intrinsic Formation Medium readout"
+    }
+  ],
+  "next_action_policy": {
+    "preferred_next": "choose one narrow source review: SN-C3 if targeting physical scattering-matrix observables, SN-C2 if targeting law-native admissibility, or SN-C1 if tightening canonical readout comparison",
+    "do_not_do_next": [
+      "declare scattering-native winner",
+      "treat positive geometry source support as physical realization",
+      "move sources into SOURCE_EXTRACTED_CLAIMS without ingestion and extraction",
+      "treat S-matrix bootstrap bounds as native settling law",
+      "treat optical scattering-matrix singularities as canonical Formation Medium readout"
+    ]
+  },
+  "non_promotion_rule": "This PRI-002 artifact is a sourced candidate list only. It does not ingest sources into the repo corpus, extract source claims, validate scattering-native regimes, beat high-resonance comparison, validate Route A, validate CRBSM, select a substrate, prove a settling law, or establish engineering readiness."
+}

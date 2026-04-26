@@ -1,0 +1,43 @@
+{
+  "checker": "pri002_scattering_native_source_candidates_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/PRI002_SCATTERING_NATIVE_SOURCE_CANDIDATES.json",
+    "research_ledger/PRI002_SCATTERING_NATIVE_SOURCE_CANDIDATES.md",
+    "research_ledger/PHYSICAL_REGIME_SOURCE_INTAKE_CRITERIA.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo has a bounded PRI-002 scattering-native source-candidate queue with PG tags, DOI-backed external candidates, kill notes, and anti-promotion boundaries. It is not source ingestion, not source extraction, not scattering-native validation, not high-resonance defeat, not substrate selection, not a settling-law proof, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "the repo has an external-web-reviewed candidate queue for scattering-native comparator source review",
+    "blocked_inference": "source ingestion, source extraction, scattering-native validation, high-resonance defeat, Route A validation, CRBSM validation, substrate selection, settling-law proof, or engineering readiness",
+    "candidate_class_count": 4,
+    "checked_interface": "PRI-002 sourced scattering-native candidate list under PG1-PG8 intake criteria",
+    "class_ids": [
+      "SN-C1_POSITIVE_GEOMETRY_CANONICAL_FORMS",
+      "SN-C2_SMATRIX_BOOTSTRAP_AND_POSITIVITY_BOUNDS",
+      "SN-C3_PHYSICAL_SCATTERING_MATRIX_TOPOLOGY",
+      "SN-C4_SCATTERING_ZEROS_AND_COHERENT_PERFECT_ABSORPTION"
+    ],
+    "markdown_terms_present": true,
+    "pri002_in_intake_criteria": true,
+    "scattering_track_role": "MANDATORY_COMPARATOR",
+    "source_candidate_count": 13,
+    "source_ids": [
+      "SN-SRC-001",
+      "SN-SRC-002",
+      "SN-SRC-003",
+      "SN-SRC-004",
+      "SN-SRC-005",
+      "SN-SRC-006",
+      "SN-SRC-007",
+      "SN-SRC-008",
+      "SN-SRC-009",
+      "SN-SRC-010",
+      "SN-SRC-011",
+      "SN-SRC-012",
+      "SN-SRC-013"
+    ]
+  },
+  "target_id": "LEDGER-PRI002-SCATTERING-NATIVE-SOURCE-CANDIDATES"
+}
