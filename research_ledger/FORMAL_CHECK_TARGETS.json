@@ -227,6 +227,27 @@
       ]
     },
     {
+      "id": "CHK-SURF-GENERATED-GRAPH-FIXTURES",
+      "claim_ids": [
+        "EXT-SURF-COUNT-2023-001",
+        "EXT-SURF-001"
+      ],
+      "rows": [
+        "R1",
+        "R9"
+      ],
+      "families": [
+        "S"
+      ],
+      "checker_layer": "implemented generated finite simple-graph fixture validator; later source-faithful curve-intersection generator",
+      "predicate": "For all generated simple crossing-graph fixtures on 1..4 vertices, maximal-independent-set binary witnesses satisfy u_v + product_neighbors u_w = 1 exactly, with positive-region values in {0,1} and boundary-zero vertices forcing neighbor variables to one.",
+      "failure_condition": "A generated graph, maximal independent set witness, u-equation, positive-region value, or boundary-forcing condition fails under exact evaluation, or the generated graph abstraction is promoted beyond finite fixture scope.",
+      "status": [
+        "DEFINED",
+        "FINITE_CHECK_IMPLEMENTED"
+      ]
+    },
+    {
       "id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
       "claim_ids": [
         "EXT-HIDDEN-ZEROS-2023-001",

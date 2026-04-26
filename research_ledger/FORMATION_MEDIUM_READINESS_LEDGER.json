@@ -32,13 +32,15 @@
       "repo_basis": [
         "PASS_FINITE_CHECK and PASS_PARTIAL_FINITE_CHECK result records"
       ],
-      "allowed_claim": "The repo contains finite/partial finite checks for selected baseline structures and a first small surfaceology fixture family within declared scopes.",
+      "allowed_claim": "The repo contains finite/partial finite checks for selected baseline structures, a small hand-declared surfaceology fixture family, and a generated simple-graph fixture check on 1..4 vertices within declared scopes.",
       "blocked_claims": [
         "finite checks prove all-n theorems",
         "partial finite checks prove Formation Medium",
         "finite checks identify a physical substrate",
         "tiny fixture checks prove surfaceology",
-        "finite fixture family proves surfaceology"
+        "finite fixture family proves surfaceology",
+        "generated graph fixtures prove surfaceology",
+        "generated graph fixtures are source-faithful curve enumeration"
       ]
     },
     {
@@ -130,7 +132,8 @@
     "source-coverage guards now cover major overclaim zones",
     "working tree is expected to remain clean before presenting status",
     "first tiny finite surfaceology two-curve fixture passes exact rational checks",
-    "finite surfaceology fixture family passes exact rational checks, including a three-curve multi-neighbor product case"
+    "finite surfaceology fixture family passes exact rational checks, including a three-curve multi-neighbor product case",
+    "generated surfaceology graph-fixture check passes for all 75 simple graphs on 1..4 vertices with 189 exact binary witnesses"
   ],
   "critical_gaps": [
     "no selected physical substrate",

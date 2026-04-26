@@ -81,7 +81,7 @@ Requires:
 |---:|---|---|---|---|
 | 1 | Stale status sweep | T0 | No stale SOURCE_GAP/NOT_IMPLEMENTED language remains for implemented source-coverage guards. | Status sync is not theorem progress. |
 | 2 | FM1 schema validation | T0 | Every FM1 constraint has slot, status, source leads, check targets/blockers, failure mode, and non-promotion boundary. | Schema validation is not physics validation. |
-| 3 | Surface finite model extension | T0 | Finite fixture family now includes two-curve, disconnected-pair, and three-curve multi-neighbor cases; next is generator-backed explicit curve-intersection data. | Finite fixture family is not a general surfaceology theorem or positive-region solver. |
+| 3 | Surface finite model extension | T0 | Generated simple-graph fixture check covers all graphs on 1..4 vertices; next is a source-faithful curve-intersection generator. | Generated graph fixtures are not a surfaceology theorem, source-faithful curve enumeration, or positive-region solver. |
 | 4 | R12/R13 formalization plan | T0 | Bounded delta-domain/equality-layer fixture plan exists. | Fixture plan is not SMT proof. |
 | 5 | Physical-regime source-intake plan | T0 | Candidate regimes have source-intake criteria and rejection conditions. | Triage plan is not substrate selection. |
 | 6 | Early diligence packet | T0 | Concise packet separates proven, checked, source-covered, open, and capital-dependent items. | Diligence packet is not product readiness. |

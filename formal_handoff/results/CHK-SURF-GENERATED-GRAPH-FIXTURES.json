@@ -1,0 +1,115 @@
+{
+  "checker": "surf_generated_graph_fixtures_check_v1",
+  "counterexamples": [],
+  "fixture_id": "SURF-GENERATED-SIMPLE-GRAPHS-N1-4",
+  "inspected_files": [
+    "formal_handoff/fixtures/surfaceology_generated_graph_fixture_spec.json"
+  ],
+  "status": "PASS",
+  "status_boundary": "PASS means only the generated finite simple-graph fixtures on 1..4 vertices satisfy the declared binary maximal-independent-set witness checks for u_v + product_neighbors u_w = 1. It is not a mathematical proof of surfaceology, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling-law result, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "all simple graphs on 1..4 vertices pass the declared binary witness equation checks",
+    "blocked_inference": "surfaceology theorem, general positive-region solver, Formation Medium substrate evidence, physical settling law, or engineering readiness",
+    "checked_interface": "generated finite simple-graph crossing abstractions for u_v + product_neighbors u_w = 1 with binary maximal-independent-set witnesses",
+    "examples": {
+      "degree_at_least_3_graph": {
+        "degrees": {
+          "0": 3,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        },
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "n": 4
+      },
+      "disconnected_graph": {
+        "components": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "edges": [],
+        "n": 2
+      },
+      "isolated_vertex_graph": {
+        "edges": [],
+        "n": 1
+      },
+      "multiple_mis_graph": {
+        "edges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "mis_sets": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "n": 2
+      },
+      "triangle_graph": {
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n": 3
+      }
+    },
+    "fixture_id": "SURF-GENERATED-SIMPLE-GRAPHS-N1-4",
+    "has_degree_at_least_3_graph": true,
+    "has_disconnected_graph": true,
+    "has_graph_with_multiple_maximal_independent_sets": true,
+    "has_isolated_vertex_graph": true,
+    "has_triangle_graph": true,
+    "max_degree_seen": 3,
+    "max_witness_count_per_graph": 4,
+    "n_1_graphs": 1,
+    "n_2_graphs": 2,
+    "n_3_graphs": 8,
+    "n_4_graphs": 64,
+    "source_claim_ids": [
+      "EXT-SURF-001",
+      "EXT-SURF-COUNT-2023-001"
+    ],
+    "total_graphs": 75,
+    "total_maximal_independent_witnesses": 189,
+    "vertex_counts": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "target_id": "CHK-SURF-GENERATED-GRAPH-FIXTURES"
+}

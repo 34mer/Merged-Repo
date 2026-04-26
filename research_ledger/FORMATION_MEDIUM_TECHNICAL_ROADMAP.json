@@ -89,17 +89,18 @@
     },
     {
       "id": "Q3_SURFACE_FINITE_MODEL_PLAN",
-      "title": "Extend surfaceology finite fixture family toward generated curve-intersection cases",
+      "title": "Move surfaceology finite fixtures from graph abstraction toward source-faithful curve data",
       "priority": 3,
       "resource_tier": "T0_CURRENT_REPO_COMPUTE",
       "target_artifacts": [
         "CHK-SURF-U-EQUATION",
         "CHK-SURF-BINARY-BOUNDARY",
         "CHK-SURF-TINY-TWO-CURVE-FIXTURE",
-        "CHK-SURF-FINITE-FIXTURE-FAMILY"
+        "CHK-SURF-FINITE-FIXTURE-FAMILY",
+        "CHK-SURF-GENERATED-GRAPH-FIXTURES"
       ],
-      "exit_condition": "Finite fixture family now includes two-curve, disconnected-pair, and three-curve multi-neighbor cases; next exit is a generator-backed family from explicit curve-intersection data.",
-      "blocked_promotion": "Finite fixture family is not a general surfaceology theorem or positive-region solver."
+      "exit_condition": "Generated simple-graph fixture check covers all graphs on 1..4 vertices; next exit is a source-faithful curve-intersection generator rather than abstract graph enumeration.",
+      "blocked_promotion": "Generated graph fixtures are not a general surfaceology theorem, not source-faithful curve enumeration, and not a positive-region solver."
     },
     {
       "id": "Q4_R12_R13_FORMALIZATION_PLAN",

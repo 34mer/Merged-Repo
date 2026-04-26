@@ -1,0 +1,41 @@
+{
+  "schema": "surfaceology_generated_graph_fixture_spec_v1",
+  "fixture_id": "SURF-GENERATED-SIMPLE-GRAPHS-N1-4",
+  "status": [
+    "GENERATED",
+    "FINITE_GENERATED_FIXTURE_FAMILY",
+    "EXACT_RATIONAL_BINARY_WITNESSES",
+    "NOT_THEOREM",
+    "NOT_SOURCE_EXTRACTED"
+  ],
+  "purpose": "Generator-backed finite graph fixture spec for surfaceology-style crossing graphs. The checker enumerates all simple undirected graphs on 1..4 vertices, derives u_v + product_{w adjacent v} u_w = 1 equations, and checks binary witnesses induced by maximal independent sets.",
+  "source_claim_ids": [
+    "EXT-SURF-COUNT-2023-001",
+    "EXT-SURF-001"
+  ],
+  "generator_scope": {
+    "graph_model": "simple undirected labeled graph used only as finite crossing-graph fixture abstraction",
+    "vertex_counts": [1, 2, 3, 4],
+    "include_empty_graphs": true,
+    "include_disconnected_graphs": true,
+    "include_triangles": true,
+    "include_multi_neighbor_vertices": true
+  },
+  "equation_template": "u_v + product_{w adjacent to v} u_w = 1, with empty product equal to 1.",
+  "witness_rule": "For every maximal independent set S, set u_v = 0 for v in S and u_v = 1 otherwise. Independence makes every zero vertex see all-neighbor product 1; maximality makes every one vertex have at least one zero neighbor, so product 0.",
+  "expected_global_counts": {
+    "n_1_graphs": 1,
+    "n_2_graphs": 2,
+    "n_3_graphs": 8,
+    "n_4_graphs": 64,
+    "total_graphs": 75
+  },
+  "required_witness_features": [
+    "at least one graph with an isolated vertex",
+    "at least one disconnected graph",
+    "at least one triangle graph",
+    "at least one graph with maximum degree at least 3",
+    "at least one graph with more than one maximal independent set"
+  ],
+  "non_promotion_boundary": "This generated fixture family checks only labeled simple graphs on 1..4 vertices as finite crossing-graph abstractions. It is not a surfaceology theorem, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness."
+}
