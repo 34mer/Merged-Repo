@@ -1,0 +1,892 @@
+{
+  "schema": "formation_medium_engineering_gate_matrix_v1",
+  "purpose": "Machine-readable generated/open gate matrix comparing candidate engineering/physics routes against FM1 constraints plus transport/readout separation from Phase 3 mining.",
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "CANDIDATE",
+    "NOT_CHECKED"
+  ],
+  "non_promotion_rule": "This matrix ranks design leads only. It is not source-extracted evidence, engineering feasibility, substrate selection, IP, or investor-readiness. All routes remain blocked pending external source review and route-specific checks.",
+  "inputs": [
+    "FORMATION_MEDIUM_ENGINEERING_TRIAGE_001.md",
+    "PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_SYNTHESIS_001.md",
+    "FORMATION_MEDIUM_BULK_READOUT_WITNESS_SCHEMA.md",
+    "FORMATION_MEDIUM_LAYER_1_SPEC.md"
+  ],
+  "routes": [
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control"
+    }
+  ],
+  "gates": [
+    {
+      "gate_id": "G1",
+      "gate_name": "native_carrier",
+      "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding."
+    },
+    {
+      "gate_id": "G2",
+      "gate_name": "native_admissibility_local_ops",
+      "gate_description": "Must provide native allowed configurations/local transformations."
+    },
+    {
+      "gate_id": "G3",
+      "gate_name": "intrinsic_boundary_readout",
+      "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register."
+    },
+    {
+      "gate_id": "G4",
+      "gate_name": "bulk_readout_faithfulness_status",
+      "gate_description": "Must declare whether readout is faithful, non-faithful, or unknown relative to internal/bulk realization."
+    },
+    {
+      "gate_id": "G5",
+      "gate_name": "native_settling_formation_dynamics",
+      "gate_description": "Must have native settling, scattering, variational, relaxation, or formation dynamics producing readout-bearing states."
+    },
+    {
+      "gate_id": "G6",
+      "gate_name": "lab_corporate_tractability",
+      "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships."
+    },
+    {
+      "gate_id": "G7",
+      "gate_name": "failure_interface",
+      "gate_description": "Must have kill conditions and testable negatives."
+    },
+    {
+      "gate_id": "G8",
+      "gate_name": "transport_readout_separation",
+      "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics."
+    }
+  ],
+  "matrix": [
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead",
+      "gate_id": "G1",
+      "gate_name": "native_carrier",
+      "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding.",
+      "status": "PARTIAL_PLAUSIBLE",
+      "evidence_needed": [
+        "source review for native state-space / carrier semantics",
+        "rule out merely user-imposed encoding"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead",
+      "gate_id": "G2",
+      "gate_name": "native_admissibility_local_ops",
+      "gate_description": "Must provide native allowed configurations/local transformations.",
+      "status": "PARTIAL_PLAUSIBLE",
+      "evidence_needed": [
+        "source review for native local operations",
+        "identify admissibility law or local constraints"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead",
+      "gate_id": "G3",
+      "gate_name": "intrinsic_boundary_readout",
+      "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register.",
+      "status": "STRONG_CANDIDATE",
+      "evidence_needed": [
+        "source review for boundary/readout observables",
+        "show readout is intrinsic not output-register convention"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead",
+      "gate_id": "G4",
+      "gate_name": "bulk_readout_faithfulness_status",
+      "gate_description": "Must declare whether readout is faithful, non-faithful, or unknown relative to internal/bulk realization.",
+      "status": "READOUT_FAITHFULNESS_UNKNOWN",
+      "evidence_needed": [
+        "declare readout map and bulk equivalence relation",
+        "look for same-readout/different-bulk or faithful reconstruction evidence"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead",
+      "gate_id": "G5",
+      "gate_name": "native_settling_formation_dynamics",
+      "gate_description": "Must have native settling, scattering, variational, relaxation, or formation dynamics producing readout-bearing states.",
+      "status": "OPEN",
+      "evidence_needed": [
+        "identify native dynamics or process",
+        "avoid importing positive-geometry target as dynamics"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead",
+      "gate_id": "G6",
+      "gate_name": "lab_corporate_tractability",
+      "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships.",
+      "status": "STRONG_CANDIDATE",
+      "evidence_needed": [
+        "identify labs/instrumentation/prototype path",
+        "rank staged demo feasibility"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead",
+      "gate_id": "G7",
+      "gate_name": "failure_interface",
+      "gate_description": "Must have kill conditions and testable negatives.",
+      "status": "CAN_BE_DEFINED",
+      "evidence_needed": [
+        "write route-specific kill conditions",
+        "define negative controls"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead",
+      "gate_id": "G8",
+      "gate_name": "transport_readout_separation",
+      "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics.",
+      "status": "CENTRAL_OPEN_GATE",
+      "evidence_needed": [
+        "separate transport/coupling from canonical readout",
+        "show transport preserves/exposes readout rather than externally routing signals"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead",
+      "gate_id": "G1",
+      "gate_name": "native_carrier",
+      "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding.",
+      "status": "PARTIAL_PLAUSIBLE",
+      "evidence_needed": [
+        "source review for native state-space / carrier semantics",
+        "rule out merely user-imposed encoding"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead",
+      "gate_id": "G2",
+      "gate_name": "native_admissibility_local_ops",
+      "gate_description": "Must provide native allowed configurations/local transformations.",
+      "status": "PARTIAL",
+      "evidence_needed": [
+        "source review for native local operations",
+        "identify admissibility law or local constraints"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead",
+      "gate_id": "G3",
+      "gate_name": "intrinsic_boundary_readout",
+      "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register.",
+      "status": "STRONG_CANDIDATE",
+      "evidence_needed": [
+        "source review for boundary/readout observables",
+        "show readout is intrinsic not output-register convention"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead",
+      "gate_id": "G4",
+      "gate_name": "bulk_readout_faithfulness_status",
+      "gate_description": "Must declare whether readout is faithful, non-faithful, or unknown relative to internal/bulk realization.",
+      "status": "READOUT_FAITHFULNESS_UNKNOWN",
+      "evidence_needed": [
+        "declare readout map and bulk equivalence relation",
+        "look for same-readout/different-bulk or faithful reconstruction evidence"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead",
+      "gate_id": "G5",
+      "gate_name": "native_settling_formation_dynamics",
+      "gate_description": "Must have native settling, scattering, variational, relaxation, or formation dynamics producing readout-bearing states.",
+      "status": "OPEN",
+      "evidence_needed": [
+        "identify native dynamics or process",
+        "avoid importing positive-geometry target as dynamics"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead",
+      "gate_id": "G6",
+      "gate_name": "lab_corporate_tractability",
+      "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships.",
+      "status": "STRONG_CANDIDATE",
+      "evidence_needed": [
+        "identify labs/instrumentation/prototype path",
+        "rank staged demo feasibility"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead",
+      "gate_id": "G7",
+      "gate_name": "failure_interface",
+      "gate_description": "Must have kill conditions and testable negatives.",
+      "status": "CAN_BE_DEFINED",
+      "evidence_needed": [
+        "write route-specific kill conditions",
+        "define negative controls"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead",
+      "gate_id": "G8",
+      "gate_name": "transport_readout_separation",
+      "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics.",
+      "status": "OPEN_GATE",
+      "evidence_needed": [
+        "separate transport/coupling from canonical readout",
+        "show transport preserves/exposes readout rather than externally routing signals"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed",
+      "gate_id": "G1",
+      "gate_name": "native_carrier",
+      "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding.",
+      "status": "PARTIAL",
+      "evidence_needed": [
+        "source review for native state-space / carrier semantics",
+        "rule out merely user-imposed encoding"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed",
+      "gate_id": "G2",
+      "gate_name": "native_admissibility_local_ops",
+      "gate_description": "Must provide native allowed configurations/local transformations.",
+      "status": "WEAK_STATIC",
+      "evidence_needed": [
+        "source review for native local operations",
+        "identify admissibility law or local constraints"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed",
+      "gate_id": "G3",
+      "gate_name": "intrinsic_boundary_readout",
+      "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register.",
+      "status": "STRONG_STATIC_CANDIDATE",
+      "evidence_needed": [
+        "source review for boundary/readout observables",
+        "show readout is intrinsic not output-register convention"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed",
+      "gate_id": "G4",
+      "gate_name": "bulk_readout_faithfulness_status",
+      "gate_description": "Must declare whether readout is faithful, non-faithful, or unknown relative to internal/bulk realization.",
+      "status": "READOUT_FAITHFULNESS_UNKNOWN",
+      "evidence_needed": [
+        "declare readout map and bulk equivalence relation",
+        "look for same-readout/different-bulk or faithful reconstruction evidence"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed",
+      "gate_id": "G5",
+      "gate_name": "native_settling_formation_dynamics",
+      "gate_description": "Must have native settling, scattering, variational, relaxation, or formation dynamics producing readout-bearing states.",
+      "status": "WEAK_MECHANICAL_RELAXATION_ONLY",
+      "evidence_needed": [
+        "identify native dynamics or process",
+        "avoid importing positive-geometry target as dynamics"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed",
+      "gate_id": "G6",
+      "gate_name": "lab_corporate_tractability",
+      "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships.",
+      "status": "STRONG_DEMO_CANDIDATE",
+      "evidence_needed": [
+        "identify labs/instrumentation/prototype path",
+        "rank staged demo feasibility"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed",
+      "gate_id": "G7",
+      "gate_name": "failure_interface",
+      "gate_description": "Must have kill conditions and testable negatives.",
+      "status": "CAN_BE_DEFINED",
+      "evidence_needed": [
+        "write route-specific kill conditions",
+        "define negative controls"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed",
+      "gate_id": "G8",
+      "gate_name": "transport_readout_separation",
+      "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics.",
+      "status": "WEAK_OR_ANALOG_ONLY",
+      "evidence_needed": [
+        "separate transport/coupling from canonical readout",
+        "show transport preserves/exposes readout rather than externally routing signals"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit",
+      "gate_id": "G1",
+      "gate_name": "native_carrier",
+      "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding.",
+      "status": "STRONG_CANDIDATE",
+      "evidence_needed": [
+        "source review for native state-space / carrier semantics",
+        "rule out merely user-imposed encoding"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit",
+      "gate_id": "G2",
+      "gate_name": "native_admissibility_local_ops",
+      "gate_description": "Must provide native allowed configurations/local transformations.",
+      "status": "STRONG_CANDIDATE",
+      "evidence_needed": [
+        "source review for native local operations",
+        "identify admissibility law or local constraints"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit",
+      "gate_id": "G3",
+      "gate_name": "intrinsic_boundary_readout",
+      "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register.",
+      "status": "STRONG_CANDIDATE",
+      "evidence_needed": [
+        "source review for boundary/readout observables",
+        "show readout is intrinsic not output-register convention"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit",
+      "gate_id": "G4",
+      "gate_name": "bulk_readout_faithfulness_status",
+      "gate_description": "Must declare whether readout is faithful, non-faithful, or unknown relative to internal/bulk realization.",
+      "status": "AMBIGUOUS_POSSIBLY_FAILS_S4",
+      "evidence_needed": [
+        "declare readout map and bulk equivalence relation",
+        "look for same-readout/different-bulk or faithful reconstruction evidence"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit",
+      "gate_id": "G5",
+      "gate_name": "native_settling_formation_dynamics",
+      "gate_description": "Must have native settling, scattering, variational, relaxation, or formation dynamics producing readout-bearing states.",
+      "status": "OPEN",
+      "evidence_needed": [
+        "identify native dynamics or process",
+        "avoid importing positive-geometry target as dynamics"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit",
+      "gate_id": "G6",
+      "gate_name": "lab_corporate_tractability",
+      "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships.",
+      "status": "WEAK_TO_MEDIUM",
+      "evidence_needed": [
+        "identify labs/instrumentation/prototype path",
+        "rank staged demo feasibility"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit",
+      "gate_id": "G7",
+      "gate_name": "failure_interface",
+      "gate_description": "Must have kill conditions and testable negatives.",
+      "status": "CAN_BE_DEFINED",
+      "evidence_needed": [
+        "write route-specific kill conditions",
+        "define negative controls"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit",
+      "gate_id": "G8",
+      "gate_name": "transport_readout_separation",
+      "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics.",
+      "status": "THEORY_LEVEL_OPEN_GATE",
+      "evidence_needed": [
+        "separate transport/coupling from canonical readout",
+        "show transport preserves/exposes readout rather than externally routing signals"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark",
+      "gate_id": "G1",
+      "gate_name": "native_carrier",
+      "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding.",
+      "status": "STRONG_PHYSICS_CANDIDATE",
+      "evidence_needed": [
+        "source review for native state-space / carrier semantics",
+        "rule out merely user-imposed encoding"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark",
+      "gate_id": "G2",
+      "gate_name": "native_admissibility_local_ops",
+      "gate_description": "Must provide native allowed configurations/local transformations.",
+      "status": "PARTIAL_THEORY_DEPENDENT",
+      "evidence_needed": [
+        "source review for native local operations",
+        "identify admissibility law or local constraints"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark",
+      "gate_id": "G3",
+      "gate_name": "intrinsic_boundary_readout",
+      "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register.",
+      "status": "STRONG_CANDIDATE",
+      "evidence_needed": [
+        "source review for boundary/readout observables",
+        "show readout is intrinsic not output-register convention"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark",
+      "gate_id": "G4",
+      "gate_name": "bulk_readout_faithfulness_status",
+      "gate_description": "Must declare whether readout is faithful, non-faithful, or unknown relative to internal/bulk realization.",
+      "status": "STRONG_CANDIDATE",
+      "evidence_needed": [
+        "declare readout map and bulk equivalence relation",
+        "look for same-readout/different-bulk or faithful reconstruction evidence"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark",
+      "gate_id": "G5",
+      "gate_name": "native_settling_formation_dynamics",
+      "gate_description": "Must have native settling, scattering, variational, relaxation, or formation dynamics producing readout-bearing states.",
+      "status": "OPEN_SCATTERING_NOT_SETTLING",
+      "evidence_needed": [
+        "identify native dynamics or process",
+        "avoid importing positive-geometry target as dynamics"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark",
+      "gate_id": "G6",
+      "gate_name": "lab_corporate_tractability",
+      "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships.",
+      "status": "WEAK_AS_ENGINEERING_ROUTE",
+      "evidence_needed": [
+        "identify labs/instrumentation/prototype path",
+        "rank staged demo feasibility"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark",
+      "gate_id": "G7",
+      "gate_name": "failure_interface",
+      "gate_description": "Must have kill conditions and testable negatives.",
+      "status": "CAN_BE_DEFINED",
+      "evidence_needed": [
+        "write route-specific kill conditions",
+        "define negative controls"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark",
+      "gate_id": "G8",
+      "gate_name": "transport_readout_separation",
+      "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics.",
+      "status": "THEORY_LEVEL_STRONG_CANDIDATE",
+      "evidence_needed": [
+        "separate transport/coupling from canonical readout",
+        "show transport preserves/exposes readout rather than externally routing signals"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control",
+      "gate_id": "G1",
+      "gate_name": "native_carrier",
+      "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding.",
+      "status": "WEAK_EXTERNALLY_ENCODED",
+      "evidence_needed": [
+        "source review for native state-space / carrier semantics",
+        "rule out merely user-imposed encoding"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control",
+      "gate_id": "G2",
+      "gate_name": "native_admissibility_local_ops",
+      "gate_description": "Must provide native allowed configurations/local transformations.",
+      "status": "WEAK_PROGRAMMED",
+      "evidence_needed": [
+        "source review for native local operations",
+        "identify admissibility law or local constraints"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control",
+      "gate_id": "G3",
+      "gate_name": "intrinsic_boundary_readout",
+      "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register.",
+      "status": "WEAK_OUTPUT_REGISTER",
+      "evidence_needed": [
+        "source review for boundary/readout observables",
+        "show readout is intrinsic not output-register convention"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control",
+      "gate_id": "G4",
+      "gate_name": "bulk_readout_faithfulness_status",
+      "gate_description": "Must declare whether readout is faithful, non-faithful, or unknown relative to internal/bulk realization.",
+      "status": "WEAK_OR_IRRELEVANT",
+      "evidence_needed": [
+        "declare readout map and bulk equivalence relation",
+        "look for same-readout/different-bulk or faithful reconstruction evidence"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control",
+      "gate_id": "G5",
+      "gate_name": "native_settling_formation_dynamics",
+      "gate_description": "Must have native settling, scattering, variational, relaxation, or formation dynamics producing readout-bearing states.",
+      "status": "PARTIAL_FOR_ANNEALING_ONLY",
+      "evidence_needed": [
+        "identify native dynamics or process",
+        "avoid importing positive-geometry target as dynamics"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control",
+      "gate_id": "G6",
+      "gate_name": "lab_corporate_tractability",
+      "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships.",
+      "status": "STRONG_BUT_MISALIGNED",
+      "evidence_needed": [
+        "identify labs/instrumentation/prototype path",
+        "rank staged demo feasibility"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control",
+      "gate_id": "G7",
+      "gate_name": "failure_interface",
+      "gate_description": "Must have kill conditions and testable negatives.",
+      "status": "STRONG_NEGATIVE_CONTROL",
+      "evidence_needed": [
+        "write route-specific kill conditions",
+        "define negative controls"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control",
+      "gate_id": "G8",
+      "gate_name": "transport_readout_separation",
+      "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics.",
+      "status": "FAILS_OR_EXTERNALIZES",
+      "evidence_needed": [
+        "separate transport/coupling from canonical readout",
+        "show transport preserves/exposes readout rather than externally routing signals"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    }
+  ],
+  "current_ranking": {
+    "engineering": [
+      "ROUTE-A",
+      "ROUTE-B",
+      "ROUTE-C"
+    ],
+    "physics_benchmark": [
+      "ROUTE-E",
+      "ROUTE-D"
+    ],
+    "negative_control": [
+      "ROUTE-F"
+    ]
+  },
+  "next_actions": [
+    {
+      "id": "EGM-NA1",
+      "action": "Create external source-intake plan for Route A topoelectrical + superconducting microwave hybrid.",
+      "status": "OPEN"
+    },
+    {
+      "id": "EGM-NA2",
+      "action": "Define route-specific kill conditions for G8 transport/readout separation.",
+      "status": "OPEN"
+    },
+    {
+      "id": "EGM-NA3",
+      "action": "Keep all route readout-faithfulness classifications UNKNOWN unless source/check evidence supports stronger status.",
+      "status": "ONGOING"
+    }
+  ]
+}

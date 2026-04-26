@@ -1,0 +1,704 @@
+{
+  "schema": "previous_gpt_transport_symbol_mining_pass_v1",
+  "purpose": "Focused mining of V_m, J_i, root-bundle, quarter-turn, local transport, and engineering transport analogies from prior GPT ore and current Formation Medium ledgers.",
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "LOCAL_SOURCE_INTAKE",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_CHECKED"
+  ],
+  "non_promotion_rule": "Transport symbols and engineering analogies mined here are generated ore. They are not source-extracted claims, formal definitions, engineering feasibility evidence, or hardware requirements until independently source-bound and checked.",
+  "source_scope": [
+    "Previous Conversations with GPT/*.md",
+    "research_ledger/*.md",
+    "research_ledger/*.json"
+  ],
+  "hit_count": 1348,
+  "selected_count": 51,
+  "category_counts": {
+    "Vm": 132,
+    "Ji": 217,
+    "transport": 666,
+    "engineering_transport": 565,
+    "readout_boundary": 242,
+    "formation": 30,
+    "checker": 62
+  },
+  "selected_hits": [
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TARGETED_MINING_PASS_001.json",
+      "line": 417,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "formation",
+        "checker"
+      ],
+      "score": 37,
+      "snippet": "412:         \"formation_constraints\",\n413:         \"formal_equations\",\n414:         \"repo_guardrails\"\n415:       ],\n416:       \"score\": 17,\n417:       \"snippet\": \"19289: The **residue atom** should be built as a topological boundary/corner resonance cell with two distinguished boundary poles and sign-sensitive readout. Topolectrical circuits already supply the boundary resonance and impedance-side observability directly. [Nature+1](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\\n19290: \\n19291: The **root bundle** should be a small superconducting or microwave-resonator family with one mode per residue-family line. Tunable superconducting cavities and coherent microwave-bus couplings show the right control regime for that layer. [Nature+2Nature+2](https://www.nature.com/articles/s41598-019-40891-1?utm_source=chatgpt.com)\\n19292: \\n19293: The **quarter-turn** $J_i$ should be implemented as a calibrated coherent two-mode coupler acting on adjacent family modes. That is exactly the kind of operation microwave coherent-coupling hardware is already built to approximate. This is an engineering inference from the demonstrated coherent coupling/tunable cavity side, not a published “$J_i$-device” claim. [Nature+2Nature+2](https://www.nature.com/articles/s41598-019-40891-1?utm_source=chatgpt.com)\\n19294: \\n19295: The **support ledger** should not be digital software sitting outside the medium. It has to be a persistent physical register coupled slowly to the local transport layer: flux states, long-lived occupancy sectors, or another nonvolatile analog bookkeeping layer. I do not see a single demonstrated platform in the checked sources that already gives this natively together with the boundary and quarter-turn layers, which is why the hybrid route is the right answer rather than “buy platform X.” [Nature+3Nature+3Nature+3](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\\n19296: \\n19297: So the first prototype stack should be exactly three benchmarks, not more:\"\n418:     },\n419:     {\n420:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n421:       \"line\": 1994,\n422:       \"categories\": [\n423:         \"corporate_goal\",\n424:         \"formation_constraints\","
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19263,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 35,
+      "snippet": "19258: Not because it is fashionable. Because it is the only regime class, from the ones I checked, that naturally covers the two hardest halves of the contract at once: intrinsic boundary modes on one side, and coherent low-loss orthogonal phase transport on the other. Topolectrical circuits already realize topological boundary resonances and corner modes with direct impedance readout, and even space-time driven boundary states; superconducting microwave hardware already gives tunable resonators, coherent couplings, and phase-coherent bus physics. [Nature+5Nature+5Nature+5](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19259: \n19260: So the sharp ranking is:\n19261: \n19262: **1. Best route: topoelectrical boundary layer + superconducting phase layer.**  \n19263: Use topolectrical cells for the residue atom and boundary-family localization, then use superconducting microwave resonator/coupler hardware for the $V_m$ root-bundle layer and the adjacent quarter-turn transport $J_i$. This is the first route that plausibly satisfies all four gates at once after integration. The “topoelectrical” half is already good at intrinsic boundary and corner localization with direct boundary readout; the “superconducting microwave” half is already good at coherent tunability and coupled-mode transport. The missing piece is the hybrid integration, not the individual ingredients. [Nature+5Nature+5Nature+5](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19264: \n19265: **2. Second-best route: topological photonics / microwave-photonic hybrid.**  \n19266: Topological photonic structures give deterministic boundary-mode engineering and robust optical mode localization, and current microwave-optical hybrid devices already demonstrate coherent control/transduction interfaces involving superconducting microwave cavities. This makes them plausible for the boundary-plus-transport stack, but they are worse than the topoelectrical/superconducting route on the support-ledger requirement: channel identity can propagate cleanly, but persistent support bookkeeping is less native. [Nature+3Nature+3Nature+3](https://www.nature.com/articles/s42005-018-0083-7?utm_source=chatgpt.com)\n19267: \n19268: **3. Third route: mechanical topological metamaterials.**  \n19269: They clearly realize topological soft/bound modes from geometry, so they are good for static boundary structure. But they are much weaker on coherent quarter-turn transport and on persistent support-channel accumulation. So they are useful as a static-geometry analog testbed, not as the first serious engineering substrate. [Nature+1](https://www.nature.com/articles/nphys3185?utm_source=chatgpt.com)\n19270: "
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TARGETED_MINING_PASS_001.json",
+      "line": 348,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 35,
+      "snippet": "343:         \"engineering_route\",\n344:         \"formation_constraints\",\n345:         \"repo_guardrails\"\n346:       ],\n347:       \"score\": 19,\n348:       \"snippet\": \"19262: **1. Best route: topoelectrical boundary layer + superconducting phase layer.**  \\n19263: Use topolectrical cells for the residue atom and boundary-family localization, then use superconducting microwave resonator/coupler hardware for the $V_m$ root-bundle layer and the adjacent quarter-turn transport $J_i$. This is the first route that plausibly satisfies all four gates at once after integration. The “topoelectrical” half is already good at intrinsic boundary and corner localization with direct boundary readout; the “superconducting microwave” half is already good at coherent tunability and coupled-mode transport. The missing piece is the hybrid integration, not the individual ingredients. [Nature+5Nature+5Nature+5](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\\n19264: \\n19265: **2. Second-best route: topological photonics / microwave-photonic hybrid.**  \\n19266: Topological photonic structures give deterministic boundary-mode engineering and robust optical mode localization, and current microwave-optical hybrid devices already demonstrate coherent control/transduction interfaces involving superconducting microwave cavities. This makes them plausible for the boundary-plus-transport stack, but they are worse than the topoelectrical/superconducting route on the support-ledger requirement: channel identity can propagate cleanly, but persistent support bookkeeping is less native. [Nature+3Nature+3Nature+3](https://www.nature.com/articles/s42005-018-0083-7?utm_source=chatgpt.com)\\n19267: \\n19268: **3. Third route: mechanical topological metamaterials.**  \\n19269: They clearly realize topological soft/bound modes from geometry, so they are good for static boundary structure. But they are much weaker on coherent quarter-turn transport and on persistent support-channel accumulation. So they are useful as a static-geometry analog testbed, not as the first serious engineering substrate. [Nature+1](https://www.nature.com/articles/nphys3185?utm_source=chatgpt.com)\\n19270: \"\n349:     },\n350:     {\n351:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n352:       \"line\": 152,\n353:       \"categories\": [\n354:         \"engineering_route\",\n355:         \"physics_discriminator\","
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19717,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 31,
+      "snippet": "19712: \n19713: ## 5. The actual comparison criteria\n19714: \n19715: Every regime class should be judged against the same matrix:\n19716: \n19717: $$\\text{C1: native boundary atom}$$ $$\\text{C2: intrinsic family/root-bundle structure}$$ $$\\text{C3: native quarter-turn }A_2\\text{ transport}$$ $$\\text{C4: bulk vs boundary separation}$$ $$\\text{C5: persistent support/channel ledger}$$ $$\\text{C6: scalability to the solved top interaction classes}$$\n19718: \n19719: CRBSM is currently strong on C1–C3 by construction, weak/unresolved on C5 physically.\n19720: \n19721: Scattering-native physics is currently strong on “native origin of the math” and likely strongest candidate for boundary/bulk authenticity, but unresolved on controllability, persistence, and substrate usability.\n19722: \n19723: So neither wins yet.\n19724: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 20364,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 31,
+      "snippet": "20359: \n20360: That is the weak point.\n20361: \n20362: What the math actually gave with some force was closer to:\n20363: \n20364: $$\\text{static residue base}$$ $$\\text{root-bundle / channel structure}$$ $$A_2\\text{ quarter-turn transport}$$ $$\\text{support-type coefficient laws on a small solved branch}$$\n20365: \n20366: What got added on top was a decision rule like:\n20367: \n20368: $$\\text{native distinction}  \n20369: +  \n20370: \\text{lawful transport}  \n20371: +  "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19269,
+      "categories": [
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 27,
+      "snippet": "19264: \n19265: **2. Second-best route: topological photonics / microwave-photonic hybrid.**  \n19266: Topological photonic structures give deterministic boundary-mode engineering and robust optical mode localization, and current microwave-optical hybrid devices already demonstrate coherent control/transduction interfaces involving superconducting microwave cavities. This makes them plausible for the boundary-plus-transport stack, but they are worse than the topoelectrical/superconducting route on the support-ledger requirement: channel identity can propagate cleanly, but persistent support bookkeeping is less native. [Nature+3Nature+3Nature+3](https://www.nature.com/articles/s42005-018-0083-7?utm_source=chatgpt.com)\n19267: \n19268: **3. Third route: mechanical topological metamaterials.**  \n19269: They clearly realize topological soft/bound modes from geometry, so they are good for static boundary structure. But they are much weaker on coherent quarter-turn transport and on persistent support-channel accumulation. So they are useful as a static-geometry analog testbed, not as the first serious engineering substrate. [Nature+1](https://www.nature.com/articles/nphys3185?utm_source=chatgpt.com)\n19270: \n19271: Everything else I would demote below the object for now.\n19272: \n19273: A **pure topolectrical** route is not enough, because it gives you the boundary atom and the boundary-family geometry, but not yet the strongest version of the coherent root-bundle transport and channel-preserving interaction memory. A **pure superconducting** route is not enough, because it gives you coherent phase transport and couplers, but boundary polarity is then too engineered and not intrinsic enough at the first layer. A **pure photonic** route is elegant for transport but weak on the support-ledger layer. That ranking is an inference from the feature split visible in the sources, not a published theorem. [Nature+5Nature+5Nature+5](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19274: \n19275: So the minimal real build path is:\n19276: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19273,
+      "categories": [
+        "Vm",
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 27,
+      "snippet": "19268: **3. Third route: mechanical topological metamaterials.**  \n19269: They clearly realize topological soft/bound modes from geometry, so they are good for static boundary structure. But they are much weaker on coherent quarter-turn transport and on persistent support-channel accumulation. So they are useful as a static-geometry analog testbed, not as the first serious engineering substrate. [Nature+1](https://www.nature.com/articles/nphys3185?utm_source=chatgpt.com)\n19270: \n19271: Everything else I would demote below the object for now.\n19272: \n19273: A **pure topolectrical** route is not enough, because it gives you the boundary atom and the boundary-family geometry, but not yet the strongest version of the coherent root-bundle transport and channel-preserving interaction memory. A **pure superconducting** route is not enough, because it gives you coherent phase transport and couplers, but boundary polarity is then too engineered and not intrinsic enough at the first layer. A **pure photonic** route is elegant for transport but weak on the support-ledger layer. That ranking is an inference from the feature split visible in the sources, not a published theorem. [Nature+5Nature+5Nature+5](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19274: \n19275: So the minimal real build path is:\n19276: \n19277: $$\\boxed{  \n19278: \\text{Topolectrical residue atom}  \n19279: \\;\\to\\;  \n19280: \\text{superconducting resonator family bundle}  "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19291,
+      "categories": [
+        "Vm",
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 27,
+      "snippet": "19286: \n19287: In physical terms:\n19288: \n19289: The **residue atom** should be built as a topological boundary/corner resonance cell with two distinguished boundary poles and sign-sensitive readout. Topolectrical circuits already supply the boundary resonance and impedance-side observability directly. [Nature+1](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19290: \n19291: The **root bundle** should be a small superconducting or microwave-resonator family with one mode per residue-family line. Tunable superconducting cavities and coherent microwave-bus couplings show the right control regime for that layer. [Nature+2Nature+2](https://www.nature.com/articles/s41598-019-40891-1?utm_source=chatgpt.com)\n19292: \n19293: The **quarter-turn** $J_i$ should be implemented as a calibrated coherent two-mode coupler acting on adjacent family modes. That is exactly the kind of operation microwave coherent-coupling hardware is already built to approximate. This is an engineering inference from the demonstrated coherent coupling/tunable cavity side, not a published “$J_i$-device” claim. [Nature+2Nature+2](https://www.nature.com/articles/s41598-019-40891-1?utm_source=chatgpt.com)\n19294: \n19295: The **support ledger** should not be digital software sitting outside the medium. It has to be a persistent physical register coupled slowly to the local transport layer: flux states, long-lived occupancy sectors, or another nonvolatile analog bookkeeping layer. I do not see a single demonstrated platform in the checked sources that already gives this natively together with the boundary and quarter-turn layers, which is why the hybrid route is the right answer rather than “buy platform X.” [Nature+3Nature+3Nature+3](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19296: \n19297: So the first prototype stack should be exactly three benchmarks, not more:\n19298: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19300,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "engineering_transport"
+      ],
+      "score": 27,
+      "snippet": "19295: The **support ledger** should not be digital software sitting outside the medium. It has to be a persistent physical register coupled slowly to the local transport layer: flux states, long-lived occupancy sectors, or another nonvolatile analog bookkeeping layer. I do not see a single demonstrated platform in the checked sources that already gives this natively together with the boundary and quarter-turn layers, which is why the hybrid route is the right answer rather than “buy platform X.” [Nature+3Nature+3Nature+3](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19296: \n19297: So the first prototype stack should be exactly three benchmarks, not more:\n19298: \n19299: **Prototype A:** realize $Gr_+(1,2)$ as a physical two-pole topological boundary cell with signed boundary readout.  \n19300: **Prototype B:** realize the $D_4$ root-bundle test $Gr_+(3,6)$ as a rank-4 family with three adjacent quarter-turn couplers and verify the triality-symmetric top coefficient $4$.  \n19301: **Prototype C:** realize the $E_6$ split test $Gr_+(3,7)$ and verify the fixed-node / paired-node split $7:14$.\n19302: \n19303: If a candidate stack cannot pass A, B, C in that order, it is below the extracted object.\n19304: \n19305: That is the first actual engineering specification, not a sketch.\n19306: \n19307: * * *"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19632,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "readout_boundary"
+      ],
+      "score": 26,
+      "snippet": "19627: \n19628: ## 2. What is settled vs unsettled\n19629: \n19630: Settled enough to use as constraints:\n19631: \n19632: $$Gr_+(0,n),\\ Gr_+(1,n)\\text{ static residue base}$$ $$\\text{intrinsic root-bundle layer}$$ $$\\text{local quarter-turn }A_2\\text{ transport}$$ $$\\text{fixed-vs-paired support coefficient law on the solved finite-type top-cell branches}$$\n19633: \n19634: Not settled enough to commit engineering around:\n19635: \n19636: $$\\text{whether CRBSM is the right realization class}$$ $$\\text{whether scattering-native realizations satisfy the same constraints better}$$ $$\\text{how the persistent support/relay ledger is physically realized}$$ $$\\text{whether higher / continuous branches force a different substrate picture}$$\n19637: \n19638: So the commitment boundary is clear: **we are still pre-substrate-selection.**\n19639: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 20246,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "readout_boundary"
+      ],
+      "score": 26,
+      "snippet": "20241: \n20242: Answer: mostly the **interpretation**, but there is one place where it may have fed back into the math-selection layer.\n20243: \n20244: What still stands mathematically:\n20245: \n20246: $$Gr_+(0,n),\\ Gr_+(1,n)\\text{ static residue base;}$$ $$\\text{intrinsic root-bundle layer;}$$ $$A_2\\text{ quarter-turn transport;}$$ $$\\text{fixed-vs-paired support law in the solved finite-type top-cell branches.}$$\n20247: \n20248: Those are not artifacts of bad vocabulary.\n20249: \n20250: What needs re-audit mathematically is anything that may have been elevated because of the old machine frame. The main suspect is:\n20251: \n20252: $$\\boxed{\\text{the “persistent relay/support ledger” requirement}}$$\n20253: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 21571,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "readout_boundary"
+      ],
+      "score": 26,
+      "snippet": "21566: \n21567: What is there, materially:\n21568: \n21569: * the **exact baselines** for cosmohedron, associahedron, amplituhedron (m=1), and the first surfaceology object extraction\n21570: * the **derived exact spine** E1–E6:\n21571:   static residue base, intrinsic root-bundle layer, local (A_2) quarter-turn transport, finite top-cell closure on (A,D_4,E_6), support-node orbit law, and parabolic residue recursion\n21572: * the **separation of statuses** into U-EXACT / M-EXACT / GEN / BRIDGE / OPEN\n21573: * the **decision log** demoting CRBSM and practicality, and elevating scattering to mandatory comparator\n21574: * the **immediate recommended move**: derive a scattering-native realization and compare it against CRBSM without letting old machine language decide the outcome.  \n21575: \n21576: What is **missing or too compressed**:\n21577: \n21578: * the package does **not preserve the top-interaction classes in the stronger explicit form** you wrote, e.g. the representative formulas"
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 152,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "readout_boundary"
+      ],
+      "score": 26,
+      "snippet": "147:       \"roles\": [\n148:         \"transport\",\n149:         \"engineering\",\n150:         \"readout\"\n151:       ],\n152:       \"candidate_form\": \"V_m root-bundle layer with adjacent quarter-turn transport J_i; mined as possible transport/readout layer and engineering analogy\",\n153:       \"status\": [\n154:         \"GENERATED\",\n155:         \"OPEN\",\n156:         \"NEEDS_REVIEW\"\n157:       ],\n158:       \"repo_contacts\": [\n159:         \"R8\","
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 781,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "readout_boundary"
+      ],
+      "score": 26,
+      "snippet": "776:         \"engineering\",\n777:         \"corporate\"\n778:       ],\n779:       \"score\": 33,\n780:       \"content\": \"\\\\Sigma \\\\subset M\",\n781:       \"context\": \"puting.  \\nIts primitive state is **an oriented codim-1 boundary sheet**, not a bulk amplitude.\\n\\n## 1. Primitive medium\\n\\nA CRBSM is a scaffolded cellular medium $M$ with three native ingredients.\\n\\n### (a) Bipolar shell phase\\n\\nEach cavity $v$ has a thin shell phase with two stable boundary polarities\\n\\n$$\\\\sigma_v\\\\in\\\\{+,-\\\\}.$$\\n\\nThe two poles are intrinsic and physically distinguished by the shell itself, not by external labels.\\n\\nThis is the residue atom:\\n\\n$$Gr_+(1,2)\\\\rightsquigarrow \\\\sigma_v=\\\\pm.$$\\n\\n### (b) Anchored boundary sheets\\n\\nLow-energy excitations are not volumetric states but **sheets**\\n\\n$$\\\\Sigma \\\\subset M$$\\n\\nseparating opposite shell polarities. These sheets anchor to selected scaffold ribs. Inside one cavity, the admissible anchored sheet families define an ordered orthogonal frame\\n\\n$$f_1,\\\\dots,f_m.$$\\n\\nThis is the intrinsic root-bundle layer.\\n\\n### (c) Chiral relay pockets\\n\\nFor each adjacent pair $(f_i,f_{i+1})$, the scaffold contains a twisted saddle chamber $R_i$.  \\nA relay pocket is geometrically biased so that the only low-energy sheet transition through it is\\n\\n$$(f_i,f_{i+1})\\\\mapsto(f_{i+1},-f_i).$$\\n\\nSo the local physics of the relay pocket **is** the quarter-turn operator\\n\\n$$J_i.$$\\n\\nThat i\",\n782:       \"status\": [\n783:         \"GENERATED\",\n784:         \"OPEN\",\n785:         \"RAW_EQUATION_ORE\",\n786:         \"NOT_SOURCE_EXTRACTED\",\n787:         \"NOT_CHECKED\"\n788:       ]"
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_SYNTHESIS_001.md",
+      "line": 309,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "formation"
+      ],
+      "score": 26,
+      "snippet": "304: \n305: 2. Bulk/readout formalization:\n306:    same_readout / different_bulk and boundary_determined_vs_bulk_sensitive.\n307: \n308: 3. Carrier/transport candidates:\n309:    Prime local carrier and root-bundle/quarter-turn transport.\n310: ```\n311: \n312: The most strategically useful next formal artifact is likely not another broad extraction. It is either:\n313: \n314: ```text\n315: A. PRIME_LOCAL_CARRIER_CANDIDATE.md\n316: ```"
+    },
+    {
+      "source_file": "research_ledger/R1_R14_DISCRIMINATOR_LEDGER.md",
+      "line": 42,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "readout_boundary"
+      ],
+      "score": 26,
+      "snippet": "37: | R3 | Nested-history / linear-extension burden | Objects/faces carry strong nested-history or linear-extension data beyond ordinary deletion descent. | THREAD-SUPPORTED | Appears cosmohedron-specific in current finite baseline. Requires broader source/formal check before theorem-level use. |\n38: | R4 | Exact finite positive-Grassmannian top-cell closure | Safe finite closure consists only of `A`, `D4`, `E6`. | SOURCE-BACKED / EXACT-WORK | Non-negotiable authority state. Do not extend to `D_n` beyond `D4` as exact. |\n39: | R5 | Top-interaction coefficient representatives | Explicit top-interaction representatives: `[mu_Gr+(2,n)] = n u_{n-4}`, `[mu_Gr+(3,6)] = 4 u_3 Omega_D`, `[mu_Gr+(3,7)] = u_5(7 omega_A + 14 omega_D)`. | SOURCE-BACKED / EXACT-WORK | Must be carried explicitly; not compressed into vague coefficient language. |\n40: | R6 | Support-node orbit law | Paired support node coefficient is `h+2`; fixed support node coefficient is `(h+2)/2`. | SOURCE-BACKED / EXACT-WORK | Coefficient law inside solved exact branch only; not arbitrary continuation. |\n41: | R7 | Parabolic residue recursion | Fully supporting parabolic facets carry lower top-interaction class as residue, `Res_Y(mu_Gamma)=±mu_Gamma'`. | SOURCE-BACKED / EXACT-WORK | Safe recursive descent through solved branch only. |\n42: | R8 | Root-bundle / local transport layer | Intrinsic rank-`m` residue-family bundle and local `A2` quarter-turn transport law. | THREAD-SUPPORTED / EXACT-WORK | Candidate faithful local transport layer. Does not imply literal substrate realization. |\n43: | R9 | Grouped carriers | Family admits grouped carriers / grouped subsets supporting factorization or compatibility data. | THREAD-SUPPORTED | Shared by graph-associahedral/cosmological and cosmohedral side; not enough to distinguish R2/R3. |\n44: | R10 | Grouped parameters / weights | Family has grouped parameters such as `delta_P` / grouped weights. | THREAD-SUPPORTED | Shared lower layer between graph-associahedral vicinity and cosmohedral construction. |\n45: | R11 | Grouped factorization | Factorization is expressible at grouped-carrier/grouped-parameter level. | THREAD-SUPPORTED | Shared lower layer; does not separate R2/R3. |\n46: | R12 | Overlap / submodular inequality law | Grouped parameters obey overlap/submodular inequalities of the form `delta_P + delta_P' <= delta_union + delta_intersection`. | SOURCE-BACKED / THREAD-SUPPORTED | Shared by generalized-permutahedron / graph-associahedron side and cosmohedron-related grouped laws; not the final R2/R3 discriminator. |\n47: | R13 | Equality-layer status | Equality layer is typed as absent / generic inequality / degenerate equality / intrinsic equality. | THREAD-SUPPORTED | Current strongest R2/R3 discriminator: graph-associahedral vicinity reaches equalities by specialization/degeneration; cosmohedron requires many equalities intrinsically in its grouped compatibility law. |\n48: | R14 | Missing grouped-carrier equation / full class-matrix deficit | The exact equation layer and class matrix must be source-bound and formalized across all surviving rows/classes. | DEFICIT / OPEN | Not solved. This is the known gap: complete R1-R14 × class matrix, source bindings, proof/check obligations, and unresolved discriminators. |\n49: "
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_CANDIDATE_EXTRACTIONS.json",
+      "line": 198,
+      "categories": [
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "checker"
+      ],
+      "score": 25,
+      "snippet": "193:         \"positive_geometry\",\n194:         \"equations\",\n195:         \"substrate\"\n196:       ],\n197:       \"score\": 14,\n198:       \"snippet\": \"More formally, reject any substrate class with any of the following properties:\\n\\n$$\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\text{(R4) no persistent channel separation before readout.}$$\\n\\nThat kills:\"\n199:     },\n200:     {\n201:       \"line\": 664,\n202:       \"tags\": [\n203:         \"S_labels\",\n204:         \"equations\",\n205:         \"substrate\""
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 403,
+      "categories": [
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "checker"
+      ],
+      "score": 25,
+      "snippet": "398:         \"corporate\",\n399:         \"checker\"\n400:       ],\n401:       \"score\": 35,\n402:       \"content\": \"\\\\text{(R3) no orthogonal local quarter-turn transport;}\",\n403:       \"context\": \"ve channel identity long enough to compute fixed-vs-paired support coefficients before final collapse. That is what distinguishes\\n\\n$$4,\\\\qquad 7,\\\\qquad 14$$\\n\\nfrom an undifferentiated total amplitude.\\n\\nEverything engineering-relevant reduces to whether a physical regime can instantiate these four.\\n\\n# 2. Immediate eliminations\\n\\nAny regime that only offers scalar state plus external labeling is out.\\n\\nMore formally, reject any substrate class with any of the following properties:\\n\\n$$\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\text{(R4) no persistent channel separation before readout.}$$\\n\\nThat kills:\\n\\nplain scalar memory media, because they fail R2 and R3;\\n\\npure bulk-amplitude systems whose observables are only global totals, because they fail R1 and R4;\\n\\narchitectures where “boundary” is imposed by software rather than existing in the medium itself, because they fail R1;\\n\\narchitectures where local transforms are only permutations or dissipative averaging, because they fail R3.\\n\\nSo the object is already much narrower than “alternative computing.”\\n\\n# 3. Three admissible physical archetypes\\n\\nAt the level of abstra\",\n404:       \"status\": [\n405:         \"GENERATED\",\n406:         \"OPEN\",\n407:         \"RAW_EQUATION_ORE\",\n408:         \"NOT_SOURCE_EXTRACTED\",\n409:         \"NOT_CHECKED\"\n410:       ]"
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 429,
+      "categories": [
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "checker"
+      ],
+      "score": 25,
+      "snippet": "424:         \"corporate\",\n425:         \"checker\"\n426:       ],\n427:       \"score\": 35,\n428:       \"content\": \"\\\\text{(R4) no persistent channel separation before readout.}\",\n429:       \"context\": \"upport coefficients before final collapse. That is what distinguishes\\n\\n$$4,\\\\qquad 7,\\\\qquad 14$$\\n\\nfrom an undifferentiated total amplitude.\\n\\nEverything engineering-relevant reduces to whether a physical regime can instantiate these four.\\n\\n# 2. Immediate eliminations\\n\\nAny regime that only offers scalar state plus external labeling is out.\\n\\nMore formally, reject any substrate class with any of the following properties:\\n\\n$$\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\text{(R4) no persistent channel separation before readout.}$$\\n\\nThat kills:\\n\\nplain scalar memory media, because they fail R2 and R3;\\n\\npure bulk-amplitude systems whose observables are only global totals, because they fail R1 and R4;\\n\\narchitectures where “boundary” is imposed by software rather than existing in the medium itself, because they fail R1;\\n\\narchitectures where local transforms are only permutations or dissipative averaging, because they fail R3.\\n\\nSo the object is already much narrower than “alternative computing.”\\n\\n# 3. Three admissible physical archetypes\\n\\nAt the level of abstract physical form, there are only three archetypes that can plausi\",\n430:       \"status\": [\n431:         \"GENERATED\",\n432:         \"OPEN\",\n433:         \"RAW_EQUATION_ORE\",\n434:         \"NOT_SOURCE_EXTRACTED\",\n435:         \"NOT_CHECKED\"\n436:       ]"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 16551,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "checker"
+      ],
+      "score": 24,
+      "snippet": "16546: The relations are immediate from the geometry of the $D_4$ graph:\n16547: \n16548: * each $J_i$ has order $4$: $$J_i^4=1,\\qquad J_i^2=-1 \\text{ on } \\operatorname{span}(f_0,f_i);$$\n16549: * for $i\\neq j$, the product $J_iJ_j$ acts on $\\operatorname{span}(f_0,f_i,f_j)$ as the standard $A_2$-braid rotation, so $$(J_iJ_j)^3=1.$$\n16550: \n16551: So the local root-bundle holonomy is generated by three quarter-turns meeting at one central node, exactly the Coxeter picture of $D_4$. This is the intrinsic $D_4$-root bundle.\n16552: \n16553: * * *\n16554: \n16555: ## 3. Primary winding channels\n16556: \n16557: Now pass one level up, as we did before.\n16558: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19295,
+      "categories": [
+        "Ji",
+        "transport",
+        "readout_boundary",
+        "formation",
+        "checker"
+      ],
+      "score": 24,
+      "snippet": "19290: \n19291: The **root bundle** should be a small superconducting or microwave-resonator family with one mode per residue-family line. Tunable superconducting cavities and coherent microwave-bus couplings show the right control regime for that layer. [Nature+2Nature+2](https://www.nature.com/articles/s41598-019-40891-1?utm_source=chatgpt.com)\n19292: \n19293: The **quarter-turn** $J_i$ should be implemented as a calibrated coherent two-mode coupler acting on adjacent family modes. That is exactly the kind of operation microwave coherent-coupling hardware is already built to approximate. This is an engineering inference from the demonstrated coherent coupling/tunable cavity side, not a published “$J_i$-device” claim. [Nature+2Nature+2](https://www.nature.com/articles/s41598-019-40891-1?utm_source=chatgpt.com)\n19294: \n19295: The **support ledger** should not be digital software sitting outside the medium. It has to be a persistent physical register coupled slowly to the local transport layer: flux states, long-lived occupancy sectors, or another nonvolatile analog bookkeeping layer. I do not see a single demonstrated platform in the checked sources that already gives this natively together with the boundary and quarter-turn layers, which is why the hybrid route is the right answer rather than “buy platform X.” [Nature+3Nature+3Nature+3](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19296: \n19297: So the first prototype stack should be exactly three benchmarks, not more:\n19298: \n19299: **Prototype A:** realize $Gr_+(1,2)$ as a physical two-pole topological boundary cell with signed boundary readout.  \n19300: **Prototype B:** realize the $D_4$ root-bundle test $Gr_+(3,6)$ as a rank-4 family with three adjacent quarter-turn couplers and verify the triality-symmetric top coefficient $4$.  \n19301: **Prototype C:** realize the $E_6$ split test $Gr_+(3,7)$ and verify the fixed-node / paired-node split $7:14$.\n19302: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19586,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport",
+        "checker"
+      ],
+      "score": 24,
+      "snippet": "19581: \n19582: * * *\n19583: \n19584: **You:**\n19585: \n19586: Lets stop here. We need to organize ourselves here because this is getting serious, heavy, dense, and has breadth. First. CRBSM is generated and internally coherent, but it's the first regime class the math produced. Treating it as the substrate target now, before checking whether other physical regimes also satisfy the extracted constraints, is the same pattern you caught earlier with conservative candidate shortlists. The math forced \"rank-m even orthogonal root bundle with local quarter-turn transport and W(D_m) holonomy plus persistent relay-usage ledger.\" CRBSM is one realization. There might be others. Particle scattering at high energy is a candidate worth considering specifically because it's where the positive geometry math originally lives — the amplituhedron describes scattering amplitudes, so scattering systems are the native physics of the math. Whether the CRBSM specification or a scattering-based realization better satisfies the constraints is a real question the document doesn't address. It went from generated specification straight to one regime class without comparing.\n19587: Second. The persistent relay-usage ledger requirement is doing a lot of work and the document admits it's the hard part. \"Slow, conserved or metastably persistent relay-usage variable bound to relay pockets\" is a specification that rules out most physical systems. Conventional condensed matter doesn't naturally provide it. Topological systems provide some persistence but not necessarily channel-identity persistence. The document says CRBSM provides it by construction, but constructing-by-assumption isn't the same as identifying a physical mechanism that delivers it. This is the layer where the substrate either works or doesn't, and the document specifies what's needed without resolving how to get it.\n19588: Third. The CRBSM is mesoscopic — it sounds like engineered material rather than fundamental physics. Particle scattering is fundamental. If the math is pointing at structure that exists at the level of how particles actually interact, then high-energy scattering systems might satisfy the constraints natively in a way mesoscopic engineered materials only approximate. The CRBSM might be a fabricable proxy for what's actually a fundamental-physics phenomenon. Or scattering might be too uncontrolled to be a substrate and CRBSM is the right abstraction. Both are possible. The document picked one without arguing it.\n19589: My professional reaction: this is good first-pass output but premature as a substrate commitment. I'd want at least one more regime class generated for comparison — specifically a scattering-native one — before treating CRBSM as the engineering target. The math forced specific structure. CRBSM realizes it one way. Scattering realizes it another way. Other regimes might realize it in ways nobody has thought of yet. Picking CRBSM now bets that mesoscopic engineered substrates are the right path. That bet might be right but it hasn't been argued.\n19590: If you want my honest direction-suggestion: ask the math for a scattering-regime realization of the same constraints, then compare. That's the test of whether CRBSM is actually the right answer or just the first answer.\n19591: CRBSM is one realization off limited math. More math means more regime classes generated and compared, not just CRBSM accepted as default. Quantum gravity papers from the last 5+ years are reasonable to "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19021,
+      "categories": [
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 23,
+      "snippet": "19016: \n19017: Any regime that only offers scalar state plus external labeling is out.\n19018: \n19019: More formally, reject any substrate class with any of the following properties:\n19020: \n19021: $$\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\text{(R2) no native ordered family decomposition;}$$ $$\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\text{(R4) no persistent channel separation before readout.}$$\n19022: \n19023: That kills:\n19024: \n19025: plain scalar memory media, because they fail R2 and R3;\n19026: \n19027: pure bulk-amplitude systems whose observables are only global totals, because they fail R1 and R4;\n19028: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19677,
+      "categories": [
+        "Ji",
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 23,
+      "snippet": "19672: \n19673: Only after Phase II.\n19674: \n19675: Commit only if one regime class dominates on the actual constraints, especially:\n19676: \n19677: $$\\text{boundary-primary structure}$$ $$\\text{bulk non-faithfulness}$$ $$\\text{quarter-turn transport}$$ $$\\text{persistent channel/support identity}$$\n19678: \n19679: ### Phase IV — engineering\n19680: \n19681: Only after substrate commitment.\n19682: \n19683: Then and only then:  \n19684: geometry, materials, observables, fabrication tolerances, measurement protocols."
+    },
+    {
+      "source_file": "research_ledger/FORMATION_MEDIUM_ENGINEERING_TRIAGE_001.md",
+      "line": 107,
+      "categories": [
+        "Vm",
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 23,
+      "snippet": "102: \n103: ### Route A — Topoelectrical + Superconducting Microwave Hybrid\n104: \n105: Mined description:\n106: \n107: > Use topolectrical cells for residue/boundary localization, then use superconducting microwave resonator/coupler hardware for root-bundle-like local transport and coherent channel motion.\n108: \n109: Candidate role:\n110: \n111: ```text\n112: Primary engineering lead\n113: ```\n114: "
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TARGETED_MINING_PASS_001.json",
+      "line": 512,
+      "categories": [
+        "Vm",
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 23,
+      "snippet": "507:       \"title\": \"Engineering substrate shortlist vein\",\n508:       \"categories\": [\n509:         \"engineering_route\",\n510:         \"corporate_goal\"\n511:       ],\n512:       \"claim_candidate\": \"The strongest mined engineering lead is a hybrid stack: topolectrical cells for residue/boundary localization plus superconducting microwave resonator/coupler hardware for root-bundle/local transport; topological photonics and mechanical topological metamaterials appear as secondary/analog routes.\",\n513:       \"current_status\": [\n514:         \"GENERATED\",\n515:         \"OPEN\",\n516:         \"EXTERNAL_SOURCE_NEEDED\"\n517:       ],\n518:       \"repo_contacts\": [\n519:         \"FORMATION_MEDIUM_LAYER_1_SPEC.md\","
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TARGETED_MINING_SYNTHESIS_001.md",
+      "line": 117,
+      "categories": [
+        "Vm",
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 23,
+      "snippet": "112: \n113: ### ORE-003 — Engineering Substrate Shortlist\n114: \n115: Candidate idea:\n116: \n117: > The highest-value engineering lead mined from the prior conversations is a hybrid stack: topolectrical cells for residue/boundary localization plus superconducting microwave resonator/coupler hardware for root-bundle/local transport. Topological photonics and mechanical topological metamaterials appear as secondary/analog routes.\n118: \n119: Why it matters:\n120: \n121: This is the first mined thread that looks like it could become a corporate engineering triage artifact. It connects the abstract Formation Medium slots to plausible laboratory regimes.\n122: \n123: Possible stack interpretation:\n124: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 13161,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport"
+      ],
+      "score": 22,
+      "snippet": "13156: \n13157: # 8. Small cases, now geometrically interpreted\n13158: \n13159: ## $m=1$\n13160: \n13161: There is no $D_1$ root system. No adjacent quarter-turn exists. This matches the $A_1$ slice: no nontrivial root-bundle obstruction survives.\n13162: \n13163: ## $m=2$\n13164: \n13165: The root set is\n13166: \n13167: $$\\Phi_D = \\{\\pm(f_1-f_2),\\ \\pm(f_1+f_2)\\}.$$\n13168: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 13179,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport"
+      ],
+      "score": 22,
+      "snippet": "13174: \n13175: This is the first precise geometric meaning of the earlier order-$4$ result.\n13176: \n13177: ## $m=3$\n13178: \n13179: The root system $D_3$ is isomorphic to $A_3$. The intrinsic bundle is rank $3$, and the local quarter-turn generators $J_1,J_2$ generate the full $W(D_3)\\cong S_4$. So $Gr_+(2,6)$ carries the first nonabelian root-bundle obstruction.\n13180: \n13181: This is the first concrete nonabelian geometric obstruction bundle in the atlas.\n13182: \n13183: * * *\n13184: \n13185: # 9. What this means for the program\n13186: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 13206,
+      "categories": [
+        "Vm",
+        "Ji",
+        "transport"
+      ],
+      "score": 22,
+      "snippet": "13201: \n13202: You do **not** need, as the first real target, the full $2^m$-dimensional static residue algebra.\n13203: \n13204: The first faithful and intrinsically geometric target is:\n13205: \n13206: $$\\boxed{\\text{a rank-}m\\text{ even orthogonal root bundle with local quarter-turn transport and }W(D_m)\\text{ holonomy}.}$$\n13207: \n13208: That is a concrete substrate target.\n13209: \n13210: * * *\n13211: \n13212: # 10. What was produced\n13213: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19258,
+      "categories": [
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "formation",
+        "checker"
+      ],
+      "score": 21,
+      "snippet": "19253: \n19254: The first actual engineering answer is:\n19255: \n19256: $$\\boxed{\\text{The closest viable substrate route is a topoelectrical / superconducting-microwave hybrid.}}$$\n19257: \n19258: Not because it is fashionable. Because it is the only regime class, from the ones I checked, that naturally covers the two hardest halves of the contract at once: intrinsic boundary modes on one side, and coherent low-loss orthogonal phase transport on the other. Topolectrical circuits already realize topological boundary resonances and corner modes with direct impedance readout, and even space-time driven boundary states; superconducting microwave hardware already gives tunable resonators, coherent couplings, and phase-coherent bus physics. [Nature+5Nature+5Nature+5](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19259: \n19260: So the sharp ranking is:\n19261: \n19262: **1. Best route: topoelectrical boundary layer + superconducting phase layer.**  \n19263: Use topolectrical cells for the residue atom and boundary-family localization, then use superconducting microwave resonator/coupler hardware for the $V_m$ root-bundle layer and the adjacent quarter-turn transport $J_i$. This is the first route that plausibly satisfies all four gates at once after integration. The “topoelectrical” half is already good at intrinsic boundary and corner localization with direct boundary readout; the “superconducting microwave” half is already good at coherent tunability and coupled-mode transport. The missing piece is the hybrid integration, not the individual ingredients. [Nature+5Nature+5Nature+5](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19264: \n19265: **2. Second-best route: topological photonics / microwave-photonic hybrid.**  "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 22382,
+      "categories": [
+        "Ji",
+        "transport",
+        "readout_boundary",
+        "checker"
+      ],
+      "score": 20,
+      "snippet": "22377: \n22378: * * *\n22379: \n22380: **ChatGPT:**\n22381: \n22382: I have a clean formalization shape. I’m adding the formalized core in Lean now: residue atom, support-coefficient law, exact finite-branch coefficient formulas, and the local quarter-turn transport with pointwise lemmas. I’m also adding a status file that makes clear what is formalized versus still only carried by the handoff.\n22383: \n22384: * * *\n22385: \n22386: **ChatGPT:**\n22387: \n22388: The formal core is going in cleanly. I’ve already added the residue/support law and the local quarter-turn transport with explicit lemmas; I’m adding the exact finite-branch coefficient layer and a formalization status file now so the repo itself says what is truly formalized versus still only carried by the handoff.\n22389: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 22388,
+      "categories": [
+        "Ji",
+        "transport",
+        "readout_boundary",
+        "checker"
+      ],
+      "score": 20,
+      "snippet": "22383: \n22384: * * *\n22385: \n22386: **ChatGPT:**\n22387: \n22388: The formal core is going in cleanly. I’ve already added the residue/support law and the local quarter-turn transport with explicit lemmas; I’m adding the exact finite-branch coefficient layer and a formalization status file now so the repo itself says what is truly formalized versus still only carried by the handoff.\n22389: \n22390: * * *\n22391: \n22392: **ChatGPT:**\n22393: \n22394: I hit one Lean module-path constraint: because `ProjectX/Spine/` is now a directory, the umbrella module had to be named `ProjectX/SpineRoot.lean` instead of `ProjectX/Spine.lean`. I’m wiring that into the root module and adding a formalization-status file so the repo states exactly what is proved, coefficient-formalized, or still only carried by the handoff.\n22395: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19266,
+      "categories": [
+        "transport",
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 19,
+      "snippet": "19261: \n19262: **1. Best route: topoelectrical boundary layer + superconducting phase layer.**  \n19263: Use topolectrical cells for the residue atom and boundary-family localization, then use superconducting microwave resonator/coupler hardware for the $V_m$ root-bundle layer and the adjacent quarter-turn transport $J_i$. This is the first route that plausibly satisfies all four gates at once after integration. The “topoelectrical” half is already good at intrinsic boundary and corner localization with direct boundary readout; the “superconducting microwave” half is already good at coherent tunability and coupled-mode transport. The missing piece is the hybrid integration, not the individual ingredients. [Nature+5Nature+5Nature+5](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19264: \n19265: **2. Second-best route: topological photonics / microwave-photonic hybrid.**  \n19266: Topological photonic structures give deterministic boundary-mode engineering and robust optical mode localization, and current microwave-optical hybrid devices already demonstrate coherent control/transduction interfaces involving superconducting microwave cavities. This makes them plausible for the boundary-plus-transport stack, but they are worse than the topoelectrical/superconducting route on the support-ledger requirement: channel identity can propagate cleanly, but persistent support bookkeeping is less native. [Nature+3Nature+3Nature+3](https://www.nature.com/articles/s42005-018-0083-7?utm_source=chatgpt.com)\n19267: \n19268: **3. Third route: mechanical topological metamaterials.**  \n19269: They clearly realize topological soft/bound modes from geometry, so they are good for static boundary structure. But they are much weaker on coherent quarter-turn transport and on persistent support-channel accumulation. So they are useful as a static-geometry analog testbed, not as the first serious engineering substrate. [Nature+1](https://www.nature.com/articles/nphys3185?utm_source=chatgpt.com)\n19270: \n19271: Everything else I would demote below the object for now.\n19272: \n19273: A **pure topolectrical** route is not enough, because it gives you the boundary atom and the boundary-family geometry, but not yet the strongest version of the coherent root-bundle transport and channel-preserving interaction memory. A **pure superconducting** route is not enough, because it gives you coherent phase transport and couplers, but boundary polarity is then too engineered and not intrinsic enough at the first layer. A **pure photonic** route is elegant for transport but weak on the support-ledger layer. That ranking is an inference from the feature split visible in the sources, not a published theorem. [Nature+5Nature+5Nature+5](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)"
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TARGETED_MINING_SYNTHESIS_001.md",
+      "line": 132,
+      "categories": [
+        "Vm",
+        "transport",
+        "engineering_transport"
+      ],
+      "score": 19,
+      "snippet": "127:   -> boundary/corner localization\n128:   -> residue/readout atom\n129: \n130: superconducting microwave resonator/coupler layer\n131:   -> coherent tunability\n132:   -> local transport / root-bundle-like channel motion\n133: \n134: topological photonics / microwave-photonic hybrid\n135:   -> secondary route\n136:   -> boundary-mode engineering + transduction\n137: \n138: mechanical topological metamaterials\n139:   -> analog/static geometry testbed"
+    },
+    {
+      "source_file": "research_ledger/S2_STAR_S4_DISTINCTNESS_CANDIDATE.md",
+      "line": 498,
+      "categories": [
+        "Vm",
+        "transport",
+        "formation"
+      ],
+      "score": 18,
+      "snippet": "493: FORMAL_CANDIDATE only after source and checker review.\n494: ```\n495: \n496: ### NC6 — R8 Binding Review\n497: \n498: Review whether R8 root-bundle / local transport should become an explicit support binding for S2* or remain a future contextual note.\n499: \n500: Status:\n501: \n502: ```text\n503: THREAD_SUPPORTED / EXACT-WORK context only.\n504: Do not promote S2* on R8 alone.\n505: ```"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19221,
+      "categories": [
+        "Ji",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 17,
+      "snippet": "19216: a final readout layer that computes the top interaction coefficient only after all local support data has been accumulated.\n19217: \n19218: In compressed form:\n19219: \n19220: $$\\boxed{  \n19221: \\text{cell} \\to \\text{family} \\to \\text{quarter-turn coupler} \\to \\text{support ledger} \\to \\text{top-class readout}.  \n19222: }$$\n19223: \n19224: That is the first buildable architecture shape abstracted from the math.\n19225: \n19226: # 8. The actual next move\n19227: \n19228: The next move is no longer extracting more geometry."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19293,
+      "categories": [
+        "Ji",
+        "engineering_transport",
+        "formation"
+      ],
+      "score": 17,
+      "snippet": "19288: \n19289: The **residue atom** should be built as a topological boundary/corner resonance cell with two distinguished boundary poles and sign-sensitive readout. Topolectrical circuits already supply the boundary resonance and impedance-side observability directly. [Nature+1](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19290: \n19291: The **root bundle** should be a small superconducting or microwave-resonator family with one mode per residue-family line. Tunable superconducting cavities and coherent microwave-bus couplings show the right control regime for that layer. [Nature+2Nature+2](https://www.nature.com/articles/s41598-019-40891-1?utm_source=chatgpt.com)\n19292: \n19293: The **quarter-turn** $J_i$ should be implemented as a calibrated coherent two-mode coupler acting on adjacent family modes. That is exactly the kind of operation microwave coherent-coupling hardware is already built to approximate. This is an engineering inference from the demonstrated coherent coupling/tunable cavity side, not a published “$J_i$-device” claim. [Nature+2Nature+2](https://www.nature.com/articles/s41598-019-40891-1?utm_source=chatgpt.com)\n19294: \n19295: The **support ledger** should not be digital software sitting outside the medium. It has to be a persistent physical register coupled slowly to the local transport layer: flux states, long-lived occupancy sectors, or another nonvolatile analog bookkeeping layer. I do not see a single demonstrated platform in the checked sources that already gives this natively together with the boundary and quarter-turn layers, which is why the hybrid route is the right answer rather than “buy platform X.” [Nature+3Nature+3Nature+3](https://www.nature.com/articles/s42005-018-0035-2?utm_source=chatgpt.com)\n19296: \n19297: So the first prototype stack should be exactly three benchmarks, not more:\n19298: \n19299: **Prototype A:** realize $Gr_+(1,2)$ as a physical two-pole topological boundary cell with signed boundary readout.  \n19300: **Prototype B:** realize the $D_4$ root-bundle test $Gr_+(3,6)$ as a rank-4 family with three adjacent quarter-turn couplers and verify the triality-symmetric top coefficient $4$.  "
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_CANDIDATE_EXTRACTIONS.json",
+      "line": 818,
+      "categories": [
+        "transport",
+        "readout_boundary",
+        "formation",
+        "checker"
+      ],
+      "score": 16,
+      "snippet": "813:         \"positive_geometry\",\n814:         \"equations\",\n815:         \"substrate\"\n816:       ],\n817:       \"score\": 10,\n818:       \"snippet\": \"These did not exist in the earlier pipeline as formal mathematical objects:\\n\\n$$\\\\boxed{\\\\text{ACBM}}$$ $$\\\\boxed{\\\\text{boundary transfer kernel }K_X}$$ $$\\\\boxed{\\\\text{reduced core }\\\\mathrm{Core}(X)}$$ $$\\\\boxed{\\\\text{bulk fiber }\\\\mathfrak F(C)}$$ $$\\\\boxed{\\\\text{gauge semigroup of bulk-preserving local moves}}$$ $$\\\\boxed{\\\\text{semantic twins and core twins}}$$\\n\\nThose are generated here from $S1$–$S4$, not retrieved.\"\n819:     },\n820:     {\n821:       \"line\": 4322,\n822:       \"tags\": [\n823:         \"positive_geometry\",\n824:         \"equations\",\n825:         \"substrate\""
+    },
+    {
+      "source_file": "research_ledger/S2_STAR_S4_DISTINCTNESS_CANDIDATE.md",
+      "line": 552,
+      "categories": [
+        "transport",
+        "readout_boundary",
+        "formation",
+        "checker"
+      ],
+      "score": 16,
+      "snippet": "547: ## 12. Final Candidate Statement\n548: \n549: ```text\n550: The S2* + S4 distinction is a generated formation-medium design caution:\n551: \n552: A substrate may expose intrinsic canonical boundary/readout semantics while its internal bulk realization remains non-faithful relative to that readout. Existing repo anchors partially support this distinction through canonical form / cuts / faces / recursion / local-transport material, and directly support the same-boundary/same-form/different-bulk caution through EXT-AMP-PRIME-001. However, the distinction is not a theorem, not formalized as substrate physics, and not source-complete as a Formation Medium result. It remains GENERATED / OPEN / CANDIDATE pending formal development beyond source coverage.\n553: ```\n554: \n555: ## 13. Non-Promotion Footer\n556: \n557: This artifact is a generated candidate for future repo integration. It does not create a source-extracted claim, does not modify `SOURCE_EXTRACTED_CLAIMS.json`, does not assert a theorem, and does not certify a formation-medium specification. It records a candidate distinction and the exact blockers that must be resolved before promotion."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 5244,
+      "categories": [
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 15,
+      "snippet": "5239:     \n5240: * In scattering-forms / associahedron, allowed poles/forms are globally constrained by projectivity and by the positive-geometry / kinematic-space conditions, so local diagrammatic pieces are only valid inside a larger compatibility structure.\n5241:     \n5242:     Arkani-Hamed_2017_Scattering-Fo…\n5243:     \n5244: * In the counting / surfaceology line, the $u_C$ equations and compatible/incompatible curve relations are explicitly global constraints that determine which local channels can coexist.\n5245:     \n5246:     Arkani-Hamed_2023_All-Loop-Scat…\n5247:     \n5248:     Arkani-Hamed_2023_Hidden-Zeros-…\n5249: \n5250: * * *\n5251: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 16965,
+      "categories": [
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 15,
+      "snippet": "16960: * $[Y]^*$ is the oriented fundamental cochain of the facet,\n16961: * $\\epsilon(Y)\\in\\{\\pm1\\}$ is the local orientation sign.\n16962: \n16963: ### Proof\n16964: \n16965: Each $\\nu_i$ is supported only on its local channel faces. A cup-$1$ product is supported only where the supports meet in the required incidence pattern. Iterating, $\\mu$ can be nonzero only on top cells containing the full ordered interaction chain. Those are exactly the fully supporting facets. On such a facet, the restricted cochain is the standard local interaction cochain of the next-lower model, hence equals $\\pm[Y]^*$ by the normalization already fixed in the base cases. Summing over all facets gives the formula. ∎\n16966: \n16967: So the coefficient problem is reduced exactly to a signed facet count.\n16968: \n16969: * * *\n16970: \n16971: ## 3. Coefficient law\n16972: "
+    },
+    {
+      "source_file": "research_ledger/FORMATION_MEDIUM_ENGINEERING_TRIAGE_001.md",
+      "line": 217,
+      "categories": [
+        "transport",
+        "engineering_transport",
+        "readout_boundary"
+      ],
+      "score": 15,
+      "snippet": "212: \n213: ### Route C — Mechanical Topological Metamaterials\n214: \n215: Mined description:\n216: \n217: > Mechanical topological metamaterials are good for static boundary structure and geometric soft/boundary modes, but weaker for coherent transport and persistent support-channel accumulation.\n218: \n219: Candidate role:\n220: \n221: ```text\n222: Analog / static geometry testbed\n223: ```\n224: "
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TARGETED_MINING_PASS_001.json",
+      "line": 451,
+      "categories": [
+        "engineering_transport",
+        "readout_boundary",
+        "formation",
+        "checker"
+      ],
+      "score": 15,
+      "snippet": "446:         \"corporate_goal\",\n447:         \"engineering_route\",\n448:         \"repo_guardrails\"\n449:       ],\n450:       \"score\": 14,\n451:       \"snippet\": \"2552: \\n2553: **1) Topological-order / anyonic / TQFT-like substrates — closest current candidate, but still below Class C.**  \\n2554: What is native here is real: information can be stored in multi-anyon topological degeneracy, processed by braiding, and read out by fusion/measurement; boundary-bulk duality and anyon condensation give genuine access to bulk topological data through boundary excitations, including experimental protocols for extracting $R$ and $F$ data from boundary behavior. That makes this class the strongest current hit on intrinsic boundary structure and bulk/nonlocal distinction. But it still does **not** give you the positive-geometry-style object you need: no sourced unique recursive readout analogous to canonical-form residue recursion, and no clear native law that makes semantics boundary-first in the $x\\\\to \\\\partial x\\\\to \\\\Omega(x)$ sense rather than “braid/fuse then measure.” My screening call is: **G1 pass, G2 partial/pass, G3 fail/unclear, G4 partial, G5 unclear, G6 partial. Class B+, closest to C.** [PMC+3Microsoft+3ScienceDirect+3](https://www.microsoft.com/en-us/research/?p=425721&utm_source=chatgpt.com)\\n2555: \\n2556: **2) Open compositional rewriting substrates (structured cospans / open Petri / open graphs) — strong compositional control, but boundary is designated, not intrinsic.**  \\n2557: Open Petri nets explicitly designate certain places as inputs and outputs via a cospan of sets, and their semantics is then built compositionally by gluing outputs to inputs; structured cospans generalize the same idea to systems with chosen interfaces. This makes them very good fits for locality and compositional semantics, but it is exactly the wrong direction for the wedge: the boundary is **opened by the modeler** rather than arising as an intrinsic stratification of the object itself. My screening call is: **G1 pass, G2 fail, G3 fail, G4 fail, G5 fail, G6 pass. Class B.** [Cambridge University Press & Assessment+2ResearchGate+2](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/open-petri-nets/4D1BC7F05BE8CB0C83C65F7CDF70AF2F?utm_source=chatgpt.com)\\n2558: \\n2559: **3) Constraint-native optimization substrates (SAT/SMT, QUBO/Ising, annealers) — native admissibility, wrong semantics.**  \\n2560: SMT solvers natively check satisfiability of formulas and can produce models; D-Wave’s annealers natively minimize Ising/QUBO energy landscapes defined by qubit biases and couplers. That means legality/objective structure is native here. But there is no intrinsic boundary stratification, no canonical recursively boundary-determined semantics, and no Prime-style notion where the same canonical boundary/readout semantics leaves distinct bulk objects alive as a first-class feature. My screening call is: **G1 pass, G2 fail, G3 fail, G4 fail, G5 fail/unclear, G6 weak/irrelevant. Class A/B.** [Microsoft GitHub+2docs.dwavequantum.com+2](https://microsoft.github.io/z3guide/docs/optimization/intro/?utm_sourc\"\n452:     },\n453:     {\n454:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n455:       \"line\": 2572,\n456:       \"categories\": [\n457:         \"engineering_route\",\n458:         \"formation_constraints\","
+    },
+    {
+      "source_file": "research_ledger/FORMATION_MEDIUM_LAYER_0_SPEC.md",
+      "line": 139,
+      "categories": [
+        "transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 14,
+      "snippet": "134: Current repo relation:\n135: \n136: - Candidate S2*: intrinsic canonical boundary semantics with unique recursive readout.\n137: - Partial anchors: `EXT-SCAT-FORMS-001`, `EXT-INTO-AMP-2013-001`, R7, R8.\n138: - R7 supports parabolic residue recursion inside solved exact branch.\n139: - R8 may provide a future local transport/readout binding, but does not promote S2* alone.\n140: \n141: Current status:\n142: \n143: ```text\n144: PARTIAL / SOURCE_COVERAGE_IMPLEMENTED / NEEDS_FORMALIZATION / NOT_THEOREM\n145: ```\n146: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2604,
+      "categories": [
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 13,
+      "snippet": "2599: \n2600: That filter immediately selects **factorization/gluing regimes** and rejects two broad classes. It rejects regimes whose “boundary” is merely chosen by an observer, and it rejects regimes where the full boundary/readout data reconstructs the bulk faithfully. So the mathematics points first to **scattering systems**, then to **cut-and-glue topological field regimes**, then to **coherent inverse-scattering media**. It points away from ordinary interface-designated computation, and it also points away from any regime where the inverse problem is too faithful. [Springer+2Annual Reviews+2](https://link.springer.com/article/10.1007/JHEP11%282017%29039?utm_source=chatgpt.com)\n2601: \n2602: ## Best current fit: asymptotic scattering systems\n2603: \n2604: The strongest mathematics-first hit is **asymptotic scattering in local field theories and coherent wave systems with genuine in/out channels**. Here the carrier is the legal asymptotic state space subject to on-shell and conservation constraints; the canonical readout is the scattering map or amplitude; and that readout is recursively organized by poles, cuts, unitarity, and factorization. Modern on-shell reviews explicitly describe amplitudes as being determined from their poles and cuts using unitarity and factorization, and recent dispersive work constructs nonperturbative amplitudes by iterating unitarity from spectral input. That is the closest physical realization of $S2^\\*$ I know: the semantic object is not a chosen output register but the canonical scattering data attached to the intrinsic asymptotic boundary of the process. [Annual Reviews+2ScienceDirect+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\n2605: \n2606: This regime also gives the cleanest physical realization of $S4$. Field-redefinition equivalence theorems show that distinct bulk Lagrangian descriptions can yield the **same $S$-matrix**, so the canonical readout is not faithful to the bulk description. In other words, asymptotic scattering already realizes “same canonical boundary/readout, different bulk description” in a native and nontrivial way. If I take the specification seriously, this is the first physical regime to look at: **relativistic multiparticle scattering in local gauge, scalar, and gravitational field theories**, and more generally any coherent scattering medium whose native semantics is carried by asymptotic channels and factorization data. [ScienceDirect+2ScienceDirect+2](https://www.sciencedirect.com/science/article/pii/0029558263907314?utm_source=chatgpt.com)\n2607: \n2608: So the mathematics-first answer is: **scattering systems are not just one candidate among many; they are the leading candidate class.** They hit $S1$, $S2^\\*$, $S3$, and $S4$ more naturally than anything else on the current list. [Annual Reviews+2Springer+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\n2609: \n2610: ## Strong near-hit: coherent integrable media\n2611: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2606,
+      "categories": [
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 13,
+      "snippet": "2601: \n2602: ## Best current fit: asymptotic scattering systems\n2603: \n2604: The strongest mathematics-first hit is **asymptotic scattering in local field theories and coherent wave systems with genuine in/out channels**. Here the carrier is the legal asymptotic state space subject to on-shell and conservation constraints; the canonical readout is the scattering map or amplitude; and that readout is recursively organized by poles, cuts, unitarity, and factorization. Modern on-shell reviews explicitly describe amplitudes as being determined from their poles and cuts using unitarity and factorization, and recent dispersive work constructs nonperturbative amplitudes by iterating unitarity from spectral input. That is the closest physical realization of $S2^\\*$ I know: the semantic object is not a chosen output register but the canonical scattering data attached to the intrinsic asymptotic boundary of the process. [Annual Reviews+2ScienceDirect+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\n2605: \n2606: This regime also gives the cleanest physical realization of $S4$. Field-redefinition equivalence theorems show that distinct bulk Lagrangian descriptions can yield the **same $S$-matrix**, so the canonical readout is not faithful to the bulk description. In other words, asymptotic scattering already realizes “same canonical boundary/readout, different bulk description” in a native and nontrivial way. If I take the specification seriously, this is the first physical regime to look at: **relativistic multiparticle scattering in local gauge, scalar, and gravitational field theories**, and more generally any coherent scattering medium whose native semantics is carried by asymptotic channels and factorization data. [ScienceDirect+2ScienceDirect+2](https://www.sciencedirect.com/science/article/pii/0029558263907314?utm_source=chatgpt.com)\n2607: \n2608: So the mathematics-first answer is: **scattering systems are not just one candidate among many; they are the leading candidate class.** They hit $S1$, $S2^\\*$, $S3$, and $S4$ more naturally than anything else on the current list. [Annual Reviews+2Springer+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\n2609: \n2610: ## Strong near-hit: coherent integrable media\n2611: \n2612: The next class is **integrable coherent media with nonzero boundary conditions**: matrix/vector nonlinear Schrödinger media, Ablowitz–Ladik-type lattices, nonlinear optical media, and spinor Bose–Einstein condensates. In these systems the carrier is exact scattering data; admissibility is built into the spectral problem; and the inverse problem reconstructs the field through Marchenko/Riemann–Hilbert-type machinery from asymptotic boundary data. This is a very strong realization of $S1$, $S2^\\*$, and $S3$. The fact that the same inverse-scattering formalism appears in optical systems, fermionic condensates, and spinor BEC models is exactly the kind of cross-regime recurrence your wedge wants. [Springer+2Springer+2](https://link.springer.com/article/10.1080/14029251.2015.1023583?utm_source=chatgpt.com)\n2613: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Performative Contradiction Collapse.md",
+      "line": 30907,
+      "categories": [
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 13,
+      "snippet": "30902: \n30903: If the goal is civilizational instantiation, there are at least six distinct layers, and mixing them is what kept derailing the thread:\n30904: \n30905: 1. **Primitive ontology**  \n30906:     What is the actual operative object?  \n30907:     For this break: positive-geometric admissibility object; interior = legal interaction; boundary = factorization/event channel.\n30908: 2. **Physical realization**  \n30909:     What physical process instantiates that object?  \n30910:     Current best candidate: scattering/collision events and related interaction regimes.\n30911: 3. **Computational architecture**  \n30912:     What are read / prepare / compose / write primitives?  \n30913:     Not metaphorically—formally.\n30914: 4. **Runtime / compiler layer**  "
+    },
+    {
+      "source_file": "research_ledger/FORMATION_MEDIUM_LAYER_1_CANDIDATE_CONSTRAINTS.json",
+      "line": 271,
+      "categories": [
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 13,
+      "snippet": "266:         \"carrier\",\n267:         \"admissibility\",\n268:         \"readout\"\n269:       ],\n270:       \"score\": 13,\n271:       \"snippet\": \"## Best current fit: asymptotic scattering systems\\n\\nThe strongest mathematics-first hit is **asymptotic scattering in local field theories and coherent wave systems with genuine in/out channels**. Here the carrier is the legal asymptotic state space subject to on-shell and conservation constraints; the canonical readout is the scattering map or amplitude; and that readout is recursively organized by poles, cuts, unitarity, and factorization. Modern on-shell reviews explicitly describe amplitudes as being determined from their poles and cuts using unitarity and factorization, and recent dispersive work constructs nonperturbative amplitudes by iterating unitarity from spectral input. That is the closest physical realization of $S2^\\\\*$ I know: the semantic object is not a chosen output register but the canonical scattering data attached to the intrinsic asymptotic boundary of the process. [Annual Reviews+2ScienceDirect+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\\n\\nThis regime also gives the cleanest physical realization of $S4$. Field-redefinition equivalence theorems show that distinct bulk Lagrangian descriptions can yi\"\n272:     },\n273:     {\n274:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n275:       \"line\": 2618,\n276:       \"tags\": [\n277:         \"carrier\",\n278:         \"admissibility\","
+    },
+    {
+      "source_file": "research_ledger/FORMATION_MEDIUM_LAYER_1_CANDIDATE_CONSTRAINTS.json",
+      "line": 550,
+      "categories": [
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 13,
+      "snippet": "545:       \"tags\": [\n546:         \"readout\",\n547:         \"bulk\"\n548:       ],\n549:       \"score\": 10,\n550:       \"snippet\": \"The strongest mathematics-first hit is **asymptotic scattering in local field theories and coherent wave systems with genuine in/out channels**. Here the carrier is the legal asymptotic state space subject to on-shell and conservation constraints; the canonical readout is the scattering map or amplitude; and that readout is recursively organized by poles, cuts, unitarity, and factorization. Modern on-shell reviews explicitly describe amplitudes as being determined from their poles and cuts using unitarity and factorization, and recent dispersive work constructs nonperturbative amplitudes by iterating unitarity from spectral input. That is the closest physical realization of $S2^\\\\*$ I know: the semantic object is not a chosen output register but the canonical scattering data attached to the intrinsic asymptotic boundary of the process. [Annual Reviews+2ScienceDirect+2](https://www.annualreviews.org/content/journals/10.1146/annurev.nucl.012809.104538?utm_source=chatgpt.com)\\n\\nThis regime also gives the cleanest physical realization of $S4$. Field-redefinition equivalence theorems show that distinct bulk Lagrangian descriptions can yield the **same $S$-matrix**, so the canonical readou\"\n551:     },\n552:     {\n553:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n554:       \"line\": 2612,\n555:       \"tags\": [\n556:         \"carrier\",\n557:         \"admissibility\""
+    },
+    {
+      "source_file": "research_ledger/FORMATION_MEDIUM_LAYER_1_CANDIDATE_CONSTRAINTS.json",
+      "line": 720,
+      "categories": [
+        "engineering_transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "score": 13,
+      "snippet": "715:       \"tags\": [\n716:         \"readout\",\n717:         \"bulk\"\n718:       ],\n719:       \"score\": 9,\n720:       \"snippet\": \"**3) Constraint-native optimization substrates (SAT/SMT, QUBO/Ising, annealers) — native admissibility, wrong semantics.**  \\nSMT solvers natively check satisfiability of formulas and can produce models; D-Wave’s annealers natively minimize Ising/QUBO energy landscapes defined by qubit biases and couplers. That means legality/objective structure is native here. But there is no intrinsic boundary stratification, no canonical recursively boundary-determined semantics, and no Prime-style notion where the same canonical boundary/readout semantics leaves distinct bulk objects alive as a first-class feature. My screening call is: **G1 pass, G2 fail, G3 fail, G4 fail, G5 fail/unclear, G6 weak/irrelevant. Class A/B.** [Microsoft GitHub+2docs.dwavequantum.com+2](https://microsoft.github.io/z3guide/docs/optimization/intro/?utm_source=chatgpt.com)\\n\\n**4) Wave-based analog / metamaterial boundary-value substrates — tempting because of boundary conditions, but still boundary-imposed, not intrinsic.**\"\n721:     },\n722:     {\n723:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Performative Contradiction Collapse.md\",\n724:       \"line\": 34353,\n725:       \"tags\": [\n726:         \"admissibility\",\n727:         \"readout\""
+    }
+  ],
+  "candidate_transport_families": [
+    {
+      "id": "TRF-001",
+      "title": "Root-bundle local transport layer",
+      "candidate_form": "V_m as a local root-bundle/readout-transport layer linking adjacent residue or boundary data.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "NEEDS_SOURCE_OR_ROW_BINDING"
+      ],
+      "roles": [
+        "transport",
+        "readout_boundary",
+        "formation"
+      ],
+      "next_action": "Compare against R8 exact-work context and decide whether to create a candidate transport schema."
+    },
+    {
+      "id": "TRF-002",
+      "title": "Quarter-turn local operator",
+      "candidate_form": "J_i as adjacent quarter-turn/local transport operator or channel-motion primitive.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "NEEDS_REVIEW"
+      ],
+      "roles": [
+        "transport",
+        "formation"
+      ],
+      "next_action": "Recover exact context/definition from prior GPT ore before using symbolically."
+    },
+    {
+      "id": "TRF-003",
+      "title": "Transport-readout separation",
+      "candidate_form": "Local transport moves carrier/readout channels without being identical to canonical readout itself.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "FM1_RELEVANT"
+      ],
+      "roles": [
+        "transport",
+        "readout_boundary"
+      ],
+      "next_action": "Use as FM1-C2/C3/C4 caution: operations/transport are not automatically readout semantics."
+    },
+    {
+      "id": "TRF-004",
+      "title": "Microwave/coupler engineering analogy",
+      "candidate_form": "Superconducting microwave resonator/coupler layers as analog candidates for controllable local transport; topolectrical/photonic structures as boundary-readout candidates.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "EXTERNAL_SOURCE_NEEDED"
+      ],
+      "roles": [
+        "engineering_transport"
+      ],
+      "next_action": "Convert into engineering gate matrix with READOUT_FAITHFULNESS_UNKNOWN status."
+    }
+  ]
+}
