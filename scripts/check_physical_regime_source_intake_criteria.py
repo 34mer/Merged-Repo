@@ -38,14 +38,16 @@ REQUIRED_TRACKS = {
     "TRACK_ROUTE_A": "HARDWARE_PROXY_ROUTE",
     "TRACK_SCATTERING_NATIVE": "MANDATORY_COMPARATOR",
     "TRACK_HIGH_RESONANCE_NATIVE": "POSSIBLE_BRIDGE_COMPARATOR",
+    "TRACK_ISING_MACHINE": "COMBINATORIAL_MACHINE_COMPARATOR",
 }
-REQUIRED_REVIEW_IDS = {"PRI-001", "PRI-002", "PRI-003", "PRI-004"}
+REQUIRED_REVIEW_IDS = {"PRI-001", "PRI-002", "PRI-003", "PRI-004", "PRI-005"}
 REQUIRED_MD_TERMS = [
     "physical-regime triage and substrate uncertainty",
     "CRBSM = mechanism-language",
     "Route A = hardware/proxy",
     "scattering-native = mandatory comparator",
     "high-resonance = possible bridge comparator",
+    "Ising machines = hardware-combinatorial",
     "persistent support identity",
     "SOURCE_EXTRACTED without ingested source",
     "WINNER_DECLARED",
@@ -112,7 +114,7 @@ def check_criteria_json() -> tuple[list[dict[str, Any]], dict[str, Any]]:
             failures.append({"failure": "critical_review_prework_missing_term", "term": term})
 
     anti = str(data.get("anti_flattening_rule", "")).lower()
-    for term in ["crbsm is mechanism-language", "route a is hardware/proxy", "scattering-native is a mandatory comparator", "high-resonance is a possible bridge comparator", "must not declare a winner"]:
+    for term in ["crbsm is mechanism-language", "route a is hardware/proxy", "scattering-native is a mandatory comparator", "high-resonance is a possible bridge comparator", "ising machines are hardware-combinatorial", "must not declare a winner"]:
         if term not in anti:
             failures.append({"failure": "anti_flattening_rule_missing_term", "term": term})
 
@@ -196,7 +198,7 @@ def check_alignment() -> tuple[list[dict[str, Any]], dict[str, Any]]:
     else:
         q5_text = normalize(json.dumps(q5, ensure_ascii=False))
         summary["roadmap_q5_mentions_source_intake"] = "source-intake" in q5_text
-        for term in ["source-intake", "high-resonance", "scattering-native", "route a", "without flattening"]:
+        for term in ["source-intake", "high-resonance", "scattering-native", "route a", "ising", "without flattening"]:
             if term not in q5_text:
                 failures.append({"failure": "roadmap_q5_missing_term", "term": term})
     hr_text = normalize(json.dumps(hr_plan, ensure_ascii=False))
@@ -222,9 +224,9 @@ def run_check() -> PhysicalRegimeSourceIntakeCriteriaResult:
         **json_summary,
         **md_summary,
         **align_summary,
-        "checked_interface": "physical-regime source-intake criteria for CRBSM, Route A, scattering-native, and high-resonance tracks",
+        "checked_interface": "physical-regime source-intake criteria for CRBSM, Route A, scattering-native, high-resonance, and Ising-machine tracks",
         "allowed_inference": "future source review has role-separated criteria, PG1-PG8 gates, review queue, and promotion policy",
-        "blocked_inference": "source ingestion, source extraction, CRBSM validation, Route A feasibility, scattering/high-resonance winner declaration, substrate selection, settling-law proof, or engineering readiness",
+        "blocked_inference": "source ingestion, source extraction, CRBSM validation, Route A feasibility, scattering/high-resonance/Ising winner declaration, substrate selection, settling-law proof, or engineering readiness",
     }
     return PhysicalRegimeSourceIntakeCriteriaResult(
         target_id=TARGET_ID,
@@ -242,7 +244,7 @@ def run_check() -> PhysicalRegimeSourceIntakeCriteriaResult:
         status_boundary=(
             "PASS_LEDGER_VALIDATION means the repo contains role-separated physical-regime source-intake criteria and kill gates. "
             "It is not source ingestion, not source extraction, not CRBSM validation, not Route A feasibility, not scattering-native "
-            "or high-resonance winner status, not substrate selection, not a settling-law proof, and not engineering readiness."
+            "or high-resonance winner status, not Ising-machine validation, not substrate selection, not a settling-law proof, and not engineering readiness."
         ),
     )
 

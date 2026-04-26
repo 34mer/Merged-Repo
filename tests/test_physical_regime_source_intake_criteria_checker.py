@@ -14,12 +14,13 @@ def test_physical_regime_source_intake_criteria_guard_passes() -> None:
     assert "not source ingestion" in result.status_boundary
     assert "not substrate selection" in result.status_boundary
     assert result.support_summary["gate_count"] == 8
-    assert result.support_summary["track_count"] == 4
-    assert result.support_summary["review_queue_count"] == 4
+    assert result.support_summary["track_count"] == 5
+    assert result.support_summary["review_queue_count"] == 5
     assert result.support_summary["track_roles"]["TRACK_CRBSM"] == "MECHANISM_LANGUAGE"
     assert result.support_summary["track_roles"]["TRACK_ROUTE_A"] == "HARDWARE_PROXY_ROUTE"
     assert result.support_summary["track_roles"]["TRACK_SCATTERING_NATIVE"] == "MANDATORY_COMPARATOR"
     assert result.support_summary["track_roles"]["TRACK_HIGH_RESONANCE_NATIVE"] == "POSSIBLE_BRIDGE_COMPARATOR"
+    assert result.support_summary["track_roles"]["TRACK_ISING_MACHINE"] == "COMBINATORIAL_MACHINE_COMPARATOR"
 
 
 def test_physical_regime_source_intake_criteria_artifact_shape(tmp_path: Path) -> None:

@@ -1,0 +1,41 @@
+{
+  "checker": "pri005_ising_machine_source_candidates_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/PRI005_ISING_MACHINE_SOURCE_CANDIDATES.json",
+    "research_ledger/PRI005_ISING_MACHINE_SOURCE_CANDIDATES.md",
+    "research_ledger/PHYSICAL_REGIME_SOURCE_INTAKE_CRITERIA.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo has a bounded PRI-005 Ising-machine source-candidate queue with PG tags, DOI-backed external candidates, kill notes, and anti-promotion boundaries. It is not source ingestion, not source extraction, not Ising-machine validation, not S-matrix defeat, not substrate selection, not a settling-law proof, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "the repo has an external-web-reviewed candidate queue for Ising machines as combinatorial-machine comparators",
+    "blocked_inference": "source ingestion, source extraction, Ising-machine validation, S-matrix defeat, high-resonance validation, Route A validation, CRBSM validation, substrate selection, settling-law proof, or engineering readiness",
+    "candidate_class_count": 5,
+    "checked_interface": "PRI-005 sourced Ising-machine candidate list under PG1-PG8 intake criteria",
+    "class_ids": [
+      "IM-C0_REVIEW_AND_TAXONOMY",
+      "IM-C1_COHERENT_OPTICAL_ISING_MACHINES",
+      "IM-C2_CMOS_AND_DIGITAL_ANNEALING_ISING_MACHINES",
+      "IM-C3_PROBABILISTIC_SPINTRONIC_AND_PBIT_ISING_MACHINES",
+      "IM-C4_QUANTUM_ANNEALING_ISING_MACHINES"
+    ],
+    "ising_track_role": "COMBINATORIAL_MACHINE_COMPARATOR",
+    "markdown_terms_present": true,
+    "pri005_in_intake_criteria": true,
+    "source_candidate_count": 10,
+    "source_ids": [
+      "IM-SRC-001",
+      "IM-SRC-002",
+      "IM-SRC-003",
+      "IM-SRC-004",
+      "IM-SRC-005",
+      "IM-SRC-006",
+      "IM-SRC-007",
+      "IM-SRC-008",
+      "IM-SRC-009",
+      "IM-SRC-010"
+    ]
+  },
+  "target_id": "LEDGER-PRI005-ISING-MACHINE-SOURCE-CANDIDATES"
+}

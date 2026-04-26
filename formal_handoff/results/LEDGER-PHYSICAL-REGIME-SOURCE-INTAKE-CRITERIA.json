@@ -9,21 +9,22 @@
     "research_ledger/MISSION_GRADE_CRITICAL_REVIEW_DOCTRINE.json"
   ],
   "status": "PASS_LEDGER_VALIDATION",
-  "status_boundary": "PASS_LEDGER_VALIDATION means the repo contains role-separated physical-regime source-intake criteria and kill gates. It is not source ingestion, not source extraction, not CRBSM validation, not Route A feasibility, not scattering-native or high-resonance winner status, not substrate selection, not a settling-law proof, and not engineering readiness.",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo contains role-separated physical-regime source-intake criteria and kill gates. It is not source ingestion, not source extraction, not CRBSM validation, not Route A feasibility, not scattering-native or high-resonance winner status, not Ising-machine validation, not substrate selection, not a settling-law proof, and not engineering readiness.",
   "support_summary": {
     "allowed_inference": "future source review has role-separated criteria, PG1-PG8 gates, review queue, and promotion policy",
-    "blocked_inference": "source ingestion, source extraction, CRBSM validation, Route A feasibility, scattering/high-resonance winner declaration, substrate selection, settling-law proof, or engineering readiness",
-    "checked_interface": "physical-regime source-intake criteria for CRBSM, Route A, scattering-native, and high-resonance tracks",
+    "blocked_inference": "source ingestion, source extraction, CRBSM validation, Route A feasibility, scattering/high-resonance/Ising winner declaration, substrate selection, settling-law proof, or engineering readiness",
+    "checked_interface": "physical-regime source-intake criteria for CRBSM, Route A, scattering-native, high-resonance, and Ising-machine tracks",
     "critical_review_prework_present": true,
     "gate_count": 8,
     "high_resonance_plan_present": true,
     "markdown_terms_present": true,
-    "review_queue_count": 4,
+    "review_queue_count": 5,
     "roadmap_q5_mentions_source_intake": true,
-    "track_count": 4,
+    "track_count": 5,
     "track_roles": {
       "TRACK_CRBSM": "MECHANISM_LANGUAGE",
       "TRACK_HIGH_RESONANCE_NATIVE": "POSSIBLE_BRIDGE_COMPARATOR",
+      "TRACK_ISING_MACHINE": "COMBINATORIAL_MACHINE_COMPARATOR",
       "TRACK_ROUTE_A": "HARDWARE_PROXY_ROUTE",
       "TRACK_SCATTERING_NATIVE": "MANDATORY_COMPARATOR"
     }

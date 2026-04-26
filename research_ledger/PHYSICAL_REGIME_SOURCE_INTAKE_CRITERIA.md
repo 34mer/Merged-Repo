@@ -6,7 +6,7 @@ DO_NOT_PLACE_IN: SOURCE_EXTRACTED_CLAIMS.json
 
 ## 0. Non-Promotion Notice
 
-This artifact defines criteria for future source intake only. It does not ingest sources, extract source claims, validate CRBSM, validate Route A, select scattering-native physics, select high-resonance regimes, prove a substrate, prove a settling law, or authorize engineering/corporate claims.
+This artifact defines criteria for future source intake only. It does not ingest sources, extract source claims, validate CRBSM, validate Route A, select scattering-native physics, select high-resonance regimes, validate Ising machines, select Ising machines, prove a substrate, prove a settling law, or authorize engineering/corporate claims.
 
 ## 1. Critical-Review Prework
 
@@ -44,6 +44,7 @@ CRBSM = mechanism-language
 Route A = hardware/proxy
 scattering-native = mandatory comparator
 high-resonance = possible bridge comparator
+Ising machines = hardware-combinatorial / combinatorial-machine comparator
 ```
 
 Source intake must preserve these roles and must not declare a winner.
@@ -161,6 +162,43 @@ Route A resonance components as proof of high-resonance-native substrate
 bridge-candidate status as winner status
 ```
 
+
+
+### TRACK_ISING_MACHINE — Hardware-Combinatorial / Combinatorial-Machine Comparator
+
+Question:
+
+> Do Ising machines provide a physically instantiated combinatorial settling/ground-state search comparator that is closer to Formation Medium formation behavior than S-matrix observables, without collapsing into ordinary optimization hardware?
+
+Must find:
+
+```text
+hardware-native spin or oscillator variables with clear physical carrier status
+combinatorial energy or constraint landscape that settles through physical dynamics rather than software enumeration
+readout of ground/low-energy states with explicit mapping from problem graph to physical couplings
+negative controls distinguishing physical settling from digital optimization or externally programmed annealing schedule
+```
+
+Must not accept:
+
+```text
+combinatorial optimization performance as Formation Medium evidence
+Ising Hamiltonian ground state as canonical positive-geometric readout
+programmable couplings as native admissibility without qualification
+annealing schedule or optimizer dynamics as native settling law
+hardware solver status as substrate selection
+```
+
+Kill conditions:
+
+```text
+settling is mostly externally scheduled optimization rather than native formation behavior
+problem graph/couplings are entirely user-programmed and no intrinsic admissibility remains
+readout is only the conventional Ising objective value or spin assignment with no Formation Medium semantics
+hardware advantage is benchmark performance rather than substrate/readout evidence
+the track cannot be distinguished from ordinary analog/digital combinatorial optimization
+```
+
 ## 5. Review Queue
 
 | ID | Track | Question | Expected output |
@@ -169,6 +207,7 @@ bridge-candidate status as winner status
 | PRI-002 | SCATTERING_NATIVE | Which scattering-native sources connect physical observables or S-matrix structure to intrinsic readout rather than only formal amplitude geometry? | comparator source-intake plan, not winner declaration |
 | PRI-003 | ROUTE_A | Which Route A reviewed sources are worth ingestion into SOURCE_EXTRACTED_CLAIMS, and what claims must stay blocked? | narrow extraction plan plus negative-control demo spec |
 | PRI-004 | CRBSM | Which physical systems, if any, could instantiate CRBSM-like persistent support/channel identity without constructed-by-assumption ledgers? | mechanism-source review or demotion memo |
+| PRI-005 | ISING_MACHINE | Which Ising-machine source classes are relevant as hardware-combinatorial comparators, and which fail as ordinary optimization hardware? | source-candidate list with PG1-PG8 evidence tags and kill-condition notes |
 
 ## 6. Source Promotion Policy
 
@@ -200,4 +239,4 @@ non-promotion boundary stated
 
 ## 7. Non-Promotion Footer
 
-This artifact defines criteria for future source intake only. It does not ingest sources, extract source claims, validate CRBSM, validate Route A, select scattering-native physics, select high-resonance regimes, prove a substrate, prove a settling law, or authorize engineering/corporate claims.
+This artifact defines criteria for future source intake only. It does not ingest sources, extract source claims, validate CRBSM, validate Route A, select scattering-native physics, select high-resonance regimes, validate Ising machines, select Ising machines, prove a substrate, prove a settling law, or authorize engineering/corporate claims.

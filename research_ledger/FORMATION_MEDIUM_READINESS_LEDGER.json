@@ -71,7 +71,7 @@
         "FORMATION_MEDIUM_LAYER_1_SPEC.md",
         "validate_formation_medium_discipline.py"
       ],
-      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated. The repo now has PG1-PG8 criteria plus PRI-001 high-resonance and PRI-002 scattering-native source-candidate queues for bounded external review.",
+      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated. The repo now has PG1-PG8 criteria plus PRI-001 high-resonance, PRI-002 scattering-native, and PRI-005 Ising-machine source-candidate queues for bounded external review.",
       "blocked_claims": [
         "Formation Medium substrate has been identified",
         "positive geometry proves a substrate",
@@ -89,7 +89,12 @@
         "DOI-backed candidate list is substrate evidence",
         "PRI-002 source candidates select scattering-native as winner",
         "external-web-reviewed scattering candidates are source-extracted claims",
-        "positive geometry proximity is substrate evidence"
+        "positive geometry proximity is substrate evidence",
+        "PRI-005 source candidates validate Ising machines",
+        "Ising-machine combinatorial optimization is Formation Medium evidence",
+        "Ising-machine ground states are canonical Formation Medium readout",
+        "external-web-reviewed Ising candidates are source-extracted claims",
+        "Ising-machine candidates defeat S-matrix comparison"
       ]
     },
     {
@@ -155,7 +160,8 @@
     "mission-grade critical review doctrine guard requires reasoning beyond repo hygiene and permits challenge to mission/founder/repo/math/routes",
     "physical-regime source-intake criteria guard defines PG1-PG8 gates and role-separated CRBSM/Route A/scattering-native/high-resonance review tracks",
     "PRI-001 high-resonance source-candidate queue adds four candidate classes and eleven DOI-backed external candidates under PG1-PG8 without source extraction",
-    "PRI-002 scattering-native source-candidate queue adds four comparator classes and thirteen DOI-backed external candidates under PG1-PG8 without source extraction"
+    "PRI-002 scattering-native source-candidate queue adds four comparator classes and thirteen DOI-backed external candidates under PG1-PG8 without source extraction",
+    "PRI-005 Ising-machine source-candidate queue adds five combinatorial-machine classes and ten DOI-backed external candidates under PG1-PG8 without source extraction"
   ],
   "critical_gaps": [
     "no selected physical substrate",

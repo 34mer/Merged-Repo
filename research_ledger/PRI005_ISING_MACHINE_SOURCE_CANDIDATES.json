@@ -1,0 +1,266 @@
+{
+  "schema": "pri005_ising_machine_source_candidates_v1",
+  "priority_item": "PRI-005",
+  "artifact_roles": [
+    "SOURCE_REVIEW",
+    "COMPARATOR",
+    "NEGATIVE_CONTROL",
+    "PHYSICAL_REGIME_TRIAGE"
+  ],
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "EXTERNAL_WEB_REVIEWED",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_SUBSTRATE_SELECTION",
+    "NOT_ENGINEERING_READY"
+  ],
+  "purpose": "Sourced candidate list for Ising machines as hardware-combinatorial / combinatorial-machine comparators under PG1-PG8 physical-regime source-intake criteria. This queues Ising-machine classes for later source review, without treating combinatorial optimization as Formation Medium substrate evidence.",
+  "critical_review_prework": {
+    "hard_bottleneck_attacked": "whether physical combinatorial settling / Ising ground-state search is a more relevant comparator than S-matrix observables for Formation Medium, while still avoiding ordinary optimization-hardware drift",
+    "thin_stick_risks": [
+      "Ising ground-state search treated as native Formation Medium settling law",
+      "combinatorial optimization hardware treated as substrate evidence",
+      "benchmark performance treated as physical-regime validation",
+      "programmed couplings treated as native admissibility"
+    ],
+    "negative_progress_risk": "Could become a hardware-optimization shopping list unless it stays a comparator track with kill conditions and no substrate promotion.",
+    "why_not_convenient_drift": "It corrects the physical-regime comparator map by adding a missing combinatorial-machine layer distinct from S-matrix, Route A, CRBSM, and high-resonance."
+  },
+  "anti_flattening_rule": "Ising machines are hardware-combinatorial / combinatorial-machine comparators. They are not S-matrix, not high-resonance bridge by default, not Route A, not CRBSM, not Formation Medium, not selected substrate, and not native settling law by default.",
+  "candidate_classes": [
+    {
+      "id": "IM-C0_REVIEW_AND_TAXONOMY",
+      "label": "Ising-machine review / taxonomy sources",
+      "why_candidate": "General Ising-machine reviews define the field as hardware solvers for Ising ground states and combinatorial optimization, giving the comparator its correct layer.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_CLASS_DEPENDENT",
+        "PG2_NATIVE_ADMISSIBILITY_PROGRAMMED",
+        "PG3_RELAY_OR_TRANSPORT_CLASS_DEPENDENT",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_OPEN",
+        "PG5_INTRINSIC_READOUT_WEAK",
+        "PG7_HARNESSABILITY_STRONG",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "IM-SRC-001"
+      ],
+      "kill_notes": [
+        "review taxonomy is not source extraction",
+        "hardware solver framing is not substrate evidence",
+        "ground-state success probability is not Formation Medium readout",
+        "performance comparison is not native settling proof"
+      ]
+    },
+    {
+      "id": "IM-C1_COHERENT_OPTICAL_ISING_MACHINES",
+      "label": "coherent optical Ising machines / optical parametric oscillator networks",
+      "why_candidate": "Coherent Ising machines give a physical oscillator network whose phases encode Ising spins and settle toward low-energy configurations for combinatorial optimization.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_PARTIAL",
+        "PG2_NATIVE_ADMISSIBILITY_PROGRAMMED_COUPLINGS",
+        "PG3_RELAY_OR_TRANSPORT_PARTIAL",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_CANDIDATE",
+        "PG5_INTRINSIC_READOUT_WEAK",
+        "PG7_HARNESSABILITY_PARTIAL",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "IM-SRC-002",
+        "IM-SRC-003",
+        "IM-SRC-004"
+      ],
+      "kill_notes": [
+        "OPO phase/spin encoding is not canonical positive-geometric readout",
+        "measurement-feedback couplings can be external control",
+        "Max-Cut benchmark success is not Formation Medium evidence",
+        "optical pulse identity may be instrument-defined"
+      ]
+    },
+    {
+      "id": "IM-C2_CMOS_AND_DIGITAL_ANNEALING_ISING_MACHINES",
+      "label": "CMOS annealing / digital annealer Ising machines",
+      "why_candidate": "CMOS and digital annealing systems show scalable hardware mapping from combinatorial problems to Ising objectives, useful as negative controls for ordinary optimization hardware.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_WEAK_OR_DIGITAL",
+        "PG2_NATIVE_ADMISSIBILITY_PROGRAMMED",
+        "PG3_RELAY_OR_TRANSPORT_WEAK",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_WEAK",
+        "PG5_INTRINSIC_READOUT_WEAK",
+        "PG7_HARNESSABILITY_STRONG",
+        "PG8_NEGATIVE_CONTROL_STRONG"
+      ],
+      "source_candidates": [
+        "IM-SRC-005",
+        "IM-SRC-006"
+      ],
+      "kill_notes": [
+        "digital/CMOS annealing is likely ordinary optimization hardware",
+        "programmable couplings are not native admissibility",
+        "spin assignments are not Formation Medium readout",
+        "useful mostly as negative-control comparator"
+      ]
+    },
+    {
+      "id": "IM-C3_PROBABILISTIC_SPINTRONIC_AND_PBIT_ISING_MACHINES",
+      "label": "probabilistic spintronic / p-bit / magnetic tunnel junction Ising machines",
+      "why_candidate": "Probabilistic p-bit and magnetic tunnel junction systems supply stochastic physical bits and hardware-native randomness for Ising-machine dynamics, making them relevant to physical settling/combinatorics comparison.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_CANDIDATE",
+        "PG2_NATIVE_ADMISSIBILITY_PROGRAMMED",
+        "PG3_RELAY_OR_TRANSPORT_PARTIAL",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_OPEN",
+        "PG5_INTRINSIC_READOUT_WEAK",
+        "PG7_HARNESSABILITY_PARTIAL",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "IM-SRC-007",
+        "IM-SRC-008",
+        "IM-SRC-009"
+      ],
+      "kill_notes": [
+        "probabilistic bits are not Formation Medium carriers by default",
+        "entropy source is not native readout",
+        "annealing schedule or feedback may be externally imposed",
+        "optimization result is not canonical readout"
+      ]
+    },
+    {
+      "id": "IM-C4_QUANTUM_ANNEALING_ISING_MACHINES",
+      "label": "quantum annealing / superconducting artificial spin systems",
+      "why_candidate": "Quantum annealing systems physically implement programmable interacting-spin Hamiltonians and ground-state search, giving a strong comparator for physical optimization versus Formation Medium settling.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_CANDIDATE",
+        "PG2_NATIVE_ADMISSIBILITY_PROGRAMMED_HAMILTONIAN",
+        "PG3_RELAY_OR_TRANSPORT_WEAK",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_OPEN",
+        "PG5_INTRINSIC_READOUT_WEAK",
+        "PG7_HARNESSABILITY_PARTIAL",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "IM-SRC-010"
+      ],
+      "kill_notes": [
+        "programmable spin-spin couplings are not intrinsic Formation Medium admissibility",
+        "quantum annealing schedule is not native settling law",
+        "ground-state readout is conventional optimization readout",
+        "quantum hardware status is not substrate selection"
+      ]
+    }
+  ],
+  "source_candidates": [
+    {
+      "id": "IM-SRC-001",
+      "title": "Ising machines as hardware solvers of combinatorial optimization problems",
+      "authors_short": "Mohseni, McMahon, Byrnes",
+      "venue_year": "Nature Reviews Physics 2022",
+      "doi": "10.1038/s42254-022-00440-8",
+      "track_relevance": "review/taxonomy of Ising machines as hardware solvers for Ising ground states and combinatorial optimization",
+      "candidate_value": "anchors Ising machines as a distinct hardware-combinatorial comparator class",
+      "blocked_inference": "review framing is not Formation Medium substrate evidence"
+    },
+    {
+      "id": "IM-SRC-002",
+      "title": "A coherent Ising machine for 2000-node optimization problems",
+      "authors_short": "Inagaki et al.",
+      "venue_year": "Science 2016",
+      "doi": "10.1126/science.aah4243",
+      "track_relevance": "large coherent optical Ising machine for mapped combinatorial optimization problems",
+      "candidate_value": "tests physical oscillator-network settling toward Ising objective minima",
+      "blocked_inference": "coherent Ising optimization is not native Formation Medium settling law"
+    },
+    {
+      "id": "IM-SRC-003",
+      "title": "A fully programmable 100-spin coherent Ising machine with all-to-all connections",
+      "authors_short": "McMahon et al.",
+      "venue_year": "Science 2016",
+      "doi": "10.1126/science.aah5178",
+      "track_relevance": "programmable OPO coherent Ising machine with all-to-all couplings",
+      "candidate_value": "tests programmable coupling/readout as a negative-control boundary for physical combinatorial settling",
+      "blocked_inference": "all-to-all programmability is not native admissibility"
+    },
+    {
+      "id": "IM-SRC-004",
+      "title": "A poor man's coherent Ising machine based on opto-electronic feedback systems for solving optimization problems",
+      "authors_short": "Böhm, Verschaffelt, Van der Sande",
+      "venue_year": "Nature Communications 2019",
+      "doi": "10.1038/s41467-019-11484-3",
+      "track_relevance": "opto-electronic feedback implementation of coherent Ising machine dynamics",
+      "candidate_value": "useful negative control for feedback-driven physical optimization versus intrinsic dynamics",
+      "blocked_inference": "opto-electronic feedback is not intrinsic Formation Medium readout"
+    },
+    {
+      "id": "IM-SRC-005",
+      "title": "A 20k-Spin Ising Chip to Solve Combinatorial Optimization Problems With CMOS Annealing",
+      "authors_short": "Yamaoka et al.",
+      "venue_year": "IEEE JSSC 2016",
+      "doi": "10.1109/JSSC.2015.2498601",
+      "track_relevance": "large CMOS annealing Ising chip for combinatorial optimization",
+      "candidate_value": "strong hardware-negative-control candidate for ordinary programmed optimization",
+      "blocked_inference": "CMOS annealing chip is not Formation Medium substrate evidence"
+    },
+    {
+      "id": "IM-SRC-006",
+      "title": "Physics-inspired optimization for quadratic unconstrained problems using a digital annealer",
+      "authors_short": "Aramon et al.",
+      "venue_year": "Frontiers in Physics 2019",
+      "doi": "10.3389/fphys.2019.00048",
+      "track_relevance": "digital annealer / QUBO optimization comparator",
+      "candidate_value": "clarifies difference between physics-inspired optimization and physical native settling",
+      "blocked_inference": "digital annealer is not physical Formation Medium settling"
+    },
+    {
+      "id": "IM-SRC-007",
+      "title": "Massively parallel probabilistic computing with sparse Ising machines",
+      "authors_short": "Aadit et al.",
+      "venue_year": "Nature Electronics 2022",
+      "doi": "10.1038/s41928-022-00774-2",
+      "track_relevance": "probabilistic computing / p-bit sparse Ising machine platform",
+      "candidate_value": "tests stochastic physical-bit settling and sparse combinatorial dynamics",
+      "blocked_inference": "p-bit sampling is not canonical Formation Medium readout"
+    },
+    {
+      "id": "IM-SRC-008",
+      "title": "An integrated-circuit-based probabilistic computer that uses voltage-controlled magnetic tunnel junctions as its entropy source",
+      "authors_short": "Duffee et al.",
+      "venue_year": "Nature Electronics 2025",
+      "doi": "10.1038/s41928-025-01439-6",
+      "track_relevance": "integrated probabilistic computer using VC-MTJs as entropy source for probabilistic Ising-machine logic",
+      "candidate_value": "tests hardware-native entropy and probabilistic-bit carrier status",
+      "blocked_inference": "VC-MTJ entropy source is not native Formation Medium readout"
+    },
+    {
+      "id": "IM-SRC-009",
+      "title": "Intrinsic annealing in a hybrid memristor-magnetic tunnel junction Ising machine",
+      "authors_short": "Iftakher et al.",
+      "venue_year": "Nature Communications 2026",
+      "doi": "10.1038/s41467-026-71844-8",
+      "track_relevance": "hybrid memristor-MTJ Ising machine with intrinsic annealing claim",
+      "candidate_value": "high-priority future review for whether annealing is genuinely intrinsic or feedback/control-dependent",
+      "blocked_inference": "intrinsic annealing claim is not Formation Medium settling-law proof"
+    },
+    {
+      "id": "IM-SRC-010",
+      "title": "Quantum annealing with manufactured spins",
+      "authors_short": "Johnson et al.",
+      "venue_year": "Nature 2011",
+      "doi": "10.1038/nature10012",
+      "track_relevance": "superconducting artificial spin system using quantum annealing for programmable Ising ground-state search",
+      "candidate_value": "quantum-annealing comparator for physical ground-state search versus Formation Medium settling",
+      "blocked_inference": "programmable quantum annealing is not substrate selection"
+    }
+  ],
+  "next_action_policy": {
+    "preferred_next": "keep SN-C3 as the next scattering-native physical-observable review, while scheduling PRI-005 as an Ising-machine comparator queue; if choosing Ising next, start with IM-C3 probabilistic spintronic/p-bit systems or IM-C1 coherent optical Ising machines",
+    "do_not_do_next": [
+      "declare Ising machines closer than S-matrix by assertion",
+      "treat combinatorial optimization performance as Formation Medium evidence",
+      "move sources into SOURCE_EXTRACTED_CLAIMS without ingestion and extraction",
+      "treat Ising ground state as canonical positive-geometric readout",
+      "treat annealing schedule as native settling law"
+    ]
+  },
+  "non_promotion_rule": "This PRI-005 artifact is a sourced candidate list only. It does not ingest sources into the repo corpus, extract source claims, validate Ising machines, beat S-matrix comparison, validate high-resonance, validate Route A, validate CRBSM, select a substrate, prove a settling law, or establish engineering readiness."
+}

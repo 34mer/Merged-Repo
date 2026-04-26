@@ -15,7 +15,7 @@
     "NOT_SUBSTRATE_SELECTION",
     "NOT_ENGINEERING_READY"
   ],
-  "purpose": "Define source-intake criteria and rejection gates for physical-regime triage without flattening CRBSM, Route A, scattering-native, or high-resonance roles. This attacks the no-selected-substrate bottleneck by making future source review falsifiable and role-separated.",
+  "purpose": "Define source-intake criteria and rejection gates for physical-regime triage without flattening CRBSM, Route A, scattering-native, high-resonance, or Ising-machine roles. This attacks the no-selected-substrate bottleneck by making future source review falsifiable and role-separated.",
   "critical_review_prework": {
     "hard_bottleneck_attacked": "physical-regime triage and substrate uncertainty, especially persistent support/channel identity and native readout versus external measurement",
     "thin_stick_risks": [
@@ -27,7 +27,7 @@
     "negative_progress_risk": "Negative-progress risk: could become a broad speculative shopping list unless it stays criteria-driven with explicit rejection gates.",
     "why_not_convenient_drift": "It constrains future source intake and can reject regimes before more artifacts are added."
   },
-  "anti_flattening_rule": "CRBSM is mechanism-language. Route A is hardware/proxy. Scattering-native is a mandatory comparator. High-resonance is a possible bridge comparator. Source intake must preserve these roles and must not declare a winner.",
+  "anti_flattening_rule": "CRBSM is mechanism-language. Route A is hardware/proxy. Scattering-native is a mandatory comparator. High-resonance is a possible bridge comparator. Source intake must preserve these roles and must not declare a winner. Ising machines are hardware-combinatorial / combinatorial-machine comparators, not S-matrix, not high-resonance bridge by default, not CRBSM, not Formation Medium, and not selected substrate.",
   "global_gate_axes": [
     {
       "id": "PG1_NATIVE_CARRIER",
@@ -178,6 +178,33 @@
         "readout is only probe measurement with no intrinsic semantics",
         "high-resonance cannot be separated from Route A-style hardware control"
       ]
+    },
+    {
+      "id": "TRACK_ISING_MACHINE",
+      "role": "COMBINATORIAL_MACHINE_COMPARATOR",
+      "status": "OPEN / EXTERNAL_WEB_REVIEWED_CANDIDATES / NOT_SOURCE_EXTRACTED / NOT_SELECTED_SUBSTRATE",
+      "intake_question": "Do Ising machines provide a physically instantiated combinatorial settling/ground-state search comparator that is closer to Formation Medium formation behavior than S-matrix observables, without collapsing into ordinary optimization hardware?",
+      "must_find": [
+        "hardware-native spin or oscillator variables with clear physical carrier status",
+        "combinatorial energy or constraint landscape that settles through physical dynamics rather than software enumeration",
+        "readout of ground/low-energy states with explicit mapping from problem graph to physical couplings",
+        "negative controls distinguishing physical settling from digital optimization or externally programmed annealing schedule"
+      ],
+      "must_not_accept": [
+        "combinatorial optimization performance as Formation Medium evidence",
+        "Ising Hamiltonian ground state as canonical positive-geometric readout",
+        "programmable couplings as native admissibility without qualification",
+        "annealing schedule or optimizer dynamics as native settling law",
+        "hardware solver status as substrate selection"
+      ],
+      "minimum_review_output": "source-candidate or source-review memo that scores Ising-machine classes against PG1-PG8 and explicitly separates combinatorial machine comparator status from S-matrix, CRBSM, Route A, high-resonance, and Formation Medium claims",
+      "kill_conditions": [
+        "settling is mostly externally scheduled optimization rather than native formation behavior",
+        "problem graph/couplings are entirely user-programmed and no intrinsic admissibility remains",
+        "readout is only the conventional Ising objective value or spin assignment with no Formation Medium semantics",
+        "hardware advantage is benchmark performance rather than substrate/readout evidence",
+        "the track cannot be distinguished from ordinary analog/digital combinatorial optimization"
+      ]
     }
   ],
   "review_queue": [
@@ -233,6 +260,21 @@
         "memory variables"
       ],
       "expected_output": "mechanism-source review or demotion memo"
+    },
+    {
+      "id": "PRI-005",
+      "target_track": "TRACK_ISING_MACHINE",
+      "question": "Which Ising-machine source classes are relevant as hardware-combinatorial comparators for Formation Medium, and which fail because they are ordinary optimization hardware?",
+      "required_keywords": [
+        "Ising machine",
+        "combinatorial optimization",
+        "ground-state search",
+        "coherent Ising machine",
+        "oscillator Ising machine",
+        "probabilistic bits",
+        "quantum annealing"
+      ],
+      "expected_output": "source-candidate list with PG1-PG8 evidence tags and kill-condition notes, not substrate or readout validation"
     }
   ],
   "source_promotion_policy": {
@@ -252,5 +294,5 @@
       "non-promotion boundary stated"
     ]
   },
-  "non_promotion_rule": "This artifact defines criteria for future source intake only. It does not ingest sources, extract source claims, validate CRBSM, validate Route A, select scattering-native physics, select high-resonance regimes, prove a substrate, prove a settling law, or authorize engineering/corporate claims."
+  "non_promotion_rule": "This artifact defines criteria for future source intake only. It does not ingest sources, extract source claims, validate CRBSM, validate Route A, select scattering-native physics, select high-resonance regimes, prove a substrate, prove a settling law, or authorize engineering/corporate claims, validate Ising machines, select Ising machines, or treat combinatorial optimization hardware as Formation Medium substrate."
 }

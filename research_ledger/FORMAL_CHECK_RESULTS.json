@@ -203,6 +203,12 @@
       "result_status": "PASS_LEDGER_VALIDATION",
       "result_summary": "Implemented PRI-002 scattering-native source-candidate guard. The checker verifies a bounded external-web-reviewed, not-source-extracted comparator queue with four scattering-native candidate classes, thirteen DOI-backed source candidates, PG gate tags, kill notes, anti-flattening boundaries, and explicit blocked promotions. This is not source ingestion, not source extraction, not scattering-native validation, not high-resonance defeat, not Route A or CRBSM validation, not substrate selection, not settling-law proof, and not engineering readiness.",
       "artifact": "formal_handoff/results/LEDGER-PRI002-SCATTERING-NATIVE-SOURCE-CANDIDATES.json"
+    },
+    {
+      "target_id": "LEDGER-PRI005-ISING-MACHINE-SOURCE-CANDIDATES",
+      "result_status": "PASS_LEDGER_VALIDATION",
+      "result_summary": "Implemented PRI-005 Ising-machine source-candidate guard. The checker verifies a bounded external-web-reviewed, not-source-extracted comparator queue with five Ising-machine candidate classes, ten DOI-backed source candidates, PG gate tags, kill notes, anti-flattening boundaries, and explicit blocked promotions. This is not source ingestion, not source extraction, not Ising-machine validation, not S-matrix defeat, not high-resonance validation, not Route A or CRBSM validation, not substrate selection, not settling-law proof, and not engineering readiness.",
+      "artifact": "formal_handoff/results/LEDGER-PRI005-ISING-MACHINE-SOURCE-CANDIDATES.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."
