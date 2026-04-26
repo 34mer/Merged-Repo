@@ -1,0 +1,140 @@
+{
+  "schema": "sn_c3_static_gated_source_review_v1",
+  "review_id": "SN-C3-STATIC-GATED-REVIEW-001",
+  "parent_priority": "PRI-002",
+  "candidate_class": "SN-C3_PHYSICAL_SCATTERING_MATRIX_TOPOLOGY",
+  "artifact_roles": [
+    "SOURCE_REVIEW",
+    "COMPARATOR",
+    "STATIC_GEOMETRY_GATE",
+    "NEGATIVE_CONTROL",
+    "PHYSICAL_REGIME_TRIAGE"
+  ],
+  "status": [
+    "GENERATED",
+    "EXTERNAL_WEB_REVIEWED",
+    "STATIC_GATED_REVIEW",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_SUBSTRATE_SELECTION",
+    "NOT_ENGINEERING_READY"
+  ],
+  "purpose": "Narrow static-gated review of SN-C3 physical scattering-matrix topology / phase-singularity observables. The review asks whether these sources touch the pre-spacetime static spine SG0-SG4, not whether they are merely interesting photonic scattering physics.",
+  "source_basis": [
+    {
+      "source_id": "SN-SRC-009",
+      "title": "Continuous Lines of Topological Singularities in Metasurface Scattering Matrices: From Nodal to Exceptional",
+      "venue_year": "ACS Photonics 2025",
+      "doi": "10.1021/acsphotonics.5c00575",
+      "external_review_note": "Source reports topological singularities/eigenvalue degeneracies in scattering matrices of open periodic photonic systems, protected by mirror symmetry, transforming from nodal to exceptional structures with loss, and appearing as vortex lines in cross-polarization scattering phase. It includes numerical and experimental metasurface demonstrations.",
+      "local_status": "EXTERNAL_WEB_REVIEWED_ONLY / NOT_SOURCE_EXTRACTED"
+    },
+    {
+      "source_id": "SN-SRC-010",
+      "title": "Topological phase singularities in atomically thin high-refractive-index materials",
+      "venue_year": "Nature Communications 2022",
+      "doi": "10.1038/s41467-022-29716-4",
+      "external_review_note": "Source reports topological phase singularities in reflection of atomically thin high-refractive-index materials coupled to Fabry-Perot resonators; near reflection zeros, phase becomes singular with topological charge, and the effect is demonstrated for sensing/flat optics.",
+      "local_status": "EXTERNAL_WEB_REVIEWED_ONLY / NOT_SOURCE_EXTRACTED"
+    }
+  ],
+  "critical_review_prework": {
+    "hard_bottleneck_attacked": "whether physical scattering-matrix observables can honestly touch the pre-spacetime static residue spine, instead of winning by S-matrix/positive-geometry proximity or photonic topology language",
+    "thin_stick_risks": [
+      "thin-stick risk: scattering-matrix eigenvalue topology treated as canonical readout",
+      "thin-stick risk: phase vortices treated as ordered residue signs",
+      "thin-stick risk: reflection zeros treated as Gr_+(0,n) terminal residues",
+      "thin-stick risk: metasurface or 2D-material experiments treated as substrate evidence"
+    ],
+    "negative_progress_risk": "Could become impressive photonics review with no actual SG0-SG4 contact.",
+    "why_not_convenient_drift": "It directly tests whether SN-C3 survives the static-spine correction or should be demoted to negative-control comparator."
+  },
+  "pg_gate_assessment": [
+    {
+      "gate": "PG1_NATIVE_CARRIER",
+      "assessment": "PARTIAL",
+      "reason": "Photonic/metasurface scattering systems provide physical wave carriers, but the carrier is not pre-spacetime geometry and is device/material dependent.",
+      "failure_mode": "carrier is ordinary electromagnetic response, not Formation Medium substrate"
+    },
+    {
+      "gate": "PG2_NATIVE_ADMISSIBILITY",
+      "assessment": "PARTIAL_TO_OPEN",
+      "reason": "Symmetry protection, scattering-matrix topology, reflection zeros, and topological charge impose constraints within the device/parameter space.",
+      "failure_mode": "constraints are photonic/material design constraints, not native positive-geometric admissibility"
+    },
+    {
+      "gate": "PG3_RELAY_OR_TRANSPORT",
+      "assessment": "WEAK_TO_PARTIAL",
+      "reason": "The sources expose scattering response, phase topology, and wave interaction with open systems; they do not by themselves define relay/transport semantics.",
+      "failure_mode": "observable phase response replaces actual formation transport"
+    },
+    {
+      "gate": "PG4_PERSISTENT_SUPPORT_IDENTITY",
+      "assessment": "OPEN_WEAK",
+      "reason": "Topological singularity lines and phase singularities have identifiable structure in frequency/momentum/material parameter space, but this is not persistent support/channel identity in the Formation Medium sense.",
+      "failure_mode": "identity is parameter-tracked by the experimenter"
+    },
+    {
+      "gate": "PG5_INTRINSIC_READOUT",
+      "assessment": "CANDIDATE_BUT_WEAK",
+      "reason": "Scattering phase vortices and topological charge are physical observables, giving the strongest SN-C3 clue. However they are still optical/scattering observables, not canonical positive-geometric readout.",
+      "failure_mode": "external measurement phase is confused with intrinsic canonical form/readout"
+    },
+    {
+      "gate": "PG6_BULK_READOUT_SEPARATION",
+      "assessment": "OPEN",
+      "reason": "Open systems and scattering matrices may compress bulk/material structure into boundary response, but the reviewed sources do not establish Formation-style non-faithful bulk/readout separation.",
+      "failure_mode": "readout remains a device response rather than non-faithful geometric projection"
+    },
+    {
+      "gate": "PG7_HARNESSABILITY",
+      "assessment": "PARTIAL",
+      "reason": "Metasurface and atomically thin material platforms are experimentally accessible and have sensing/phase-engineering applications.",
+      "failure_mode": "harnessability becomes photonic device engineering, not Formation Medium access"
+    },
+    {
+      "gate": "PG8_NEGATIVE_CONTROL_CLARITY",
+      "assessment": "STRONG",
+      "reason": "SN-C3 is useful as a negative control: if phase singularities cannot map to static residue gates, the source class remains photonic scattering topology only.",
+      "failure_mode": "negative control is ignored because the sources sound geometrically suggestive"
+    }
+  ],
+  "static_spine_gate_assessment": [
+    {
+      "gate": "SG0_TERMINAL_ATOM_Gr_+(0,n)",
+      "assessment": "FAIL_OR_UNSUPPORTED",
+      "reason": "Reflection zeros / scattering zeros are tempting analogues, but they are zeros of optical response functions or scattering operators, not terminal residue atoms with Omega=1.",
+      "required_before_upgrade": "A precise map from response zero to terminal residue atom preserving canonical-form semantics, not merely zero amplitude or perfect absorption."
+    },
+    {
+      "gate": "SG1_STATIC_SIMPLEX_Gr_+(1,n)",
+      "assessment": "FAIL_OR_UNSUPPORTED",
+      "reason": "The reviewed sources do not expose a static simplex residue tower with recursive facets Gr_+(1,n-1). They expose parameter-space topology of scattering/phase response.",
+      "required_before_upgrade": "A source-backed or formal map from scattering observable strata to recursive Gr_+(1,n) boundary tower."
+    },
+    {
+      "gate": "SG2_ORDERED_RESIDUE_SIGN",
+      "assessment": "OPEN_BUT_WEAK",
+      "reason": "Phase winding / topological charge has sign and loop-order flavor, but it is not ordered residue-route sign/coherence. Treating phase vortex charge as residue sign would be thin-stick leverage.",
+      "required_before_upgrade": "An explicit comparison showing whether phase winding order implements, represents, or only mimics ordered residue signs."
+    },
+    {
+      "gate": "SG3_PRODUCT_STATIC_BLOCK_Gr_+(1,2)^m",
+      "assessment": "FAIL_OR_UNSUPPORTED",
+      "reason": "The sources do not identify local chart variables as products of Gr_+(1,2) interval blocks. Coupled-mode or scattering parameters are not automatically static interval factors.",
+      "required_before_upgrade": "A finite model mapping scattering parameters or mode couplings to product static blocks with residue semantics."
+    },
+    {
+      "gate": "SG4_MUTATION_TRANSPORT",
+      "assessment": "FAIL_OR_UNSUPPORTED",
+      "reason": "Changing frequency, momentum, loss, material, or device geometry is not mutation as transported static reflection. The reviewed sources do not show transport of static residue data through atlas transitions.",
+      "required_before_upgrade": "A defined mutation-like transition preserving SG0-SG3 data, not merely tunable device parameters or exceptional/nodal transition."
+    }
+  ],
+  "red_team_conclusion": {
+    "classification": "USEFUL_NEGATIVE_CONTROL_AND_WEAK_OBSERVABLE_COMPARATOR",
+    "summary": "SN-C3 has real physical observables and is useful for testing whether scattering-matrix topology can function as readout. But under SG0-SG4 it currently fails the core pre-spacetime static-spine gates. It should not be upgraded to Formation Medium-relevant beyond negative-control / weak observable-comparator status without a formal map from scattering observables to terminal atoms, static simplex recursion, ordered residue signs, product static blocks, and mutation transport.",
+    "continue_or_demote": "CONTINUE_AS_NEGATIVE_CONTROL_AND_OBSERVABLE_COMPARATOR_ONLY",
+    "recommended_next": "Compare SN-C3 against PRI-005 Ising machines on SG0-SG4: scattering observables may have stronger physical phase/topology readout, while Ising machines may have stronger combinatorial settling but also likely fail canonical residue semantics."
+  },
+  "non_promotion_rule": "This SN-C3 static-gated review is external-web-reviewed only. It does not ingest sources into the repo corpus, extract source claims, validate scattering-native physics, defeat Ising/high-resonance comparison, select a substrate, prove a settling law, or establish engineering readiness."
+}

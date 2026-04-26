@@ -215,6 +215,12 @@
       "result_status": "PASS_LEDGER_VALIDATION",
       "result_summary": "Implemented pre-spacetime static geometry spine guard from prior GPT local source-intake material. The checker verifies a mission-level correction around Gr_+(0,n) terminal atom, Gr_+(1,n) static simplex tower, ordered residue signs, Gr_+(1,2)^m product static blocks, and mutation as transported static reflection. It records red-team findings that physical-regime and comparator work is suspect unless scored against SG0-SG4 first. This is not source extraction, not theorem status, not proof of Formation Medium, not substrate selection, not physical implementation, and not engineering readiness.",
       "artifact": "formal_handoff/results/LEDGER-PRE-SPACETIME-STATIC-GEOMETRY-SPINE.json"
+    },
+    {
+      "target_id": "LEDGER-SN-C3-STATIC-GATED-SOURCE-REVIEW",
+      "result_status": "PASS_LEDGER_VALIDATION",
+      "result_summary": "Implemented SN-C3 static-gated source review. The checker verifies that physical scattering-matrix topology / phase-singularity observables were reviewed against PG1-PG8 and SG0-SG4. SN-C3 is classified only as USEFUL_NEGATIVE_CONTROL_AND_WEAK_OBSERVABLE_COMPARATOR: it has real physical observables, but currently fails or lacks support for Gr_+(0,n) terminal atom, Gr_+(1,n) static simplex tower, Gr_+(1,2)^m product static blocks, and mutation transport; ordered residue sign/coherence remains weak/open. This is not source extraction, not scattering-native validation, not S-matrix victory, not Ising/high-resonance defeat, not substrate selection, not settling-law proof, and not engineering readiness.",
+      "artifact": "formal_handoff/results/LEDGER-SN-C3-STATIC-GATED-SOURCE-REVIEW.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."

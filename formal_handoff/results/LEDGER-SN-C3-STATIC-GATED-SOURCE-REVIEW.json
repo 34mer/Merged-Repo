@@ -1,0 +1,29 @@
+{
+  "checker": "sn_c3_static_gated_source_review_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/SN_C3_STATIC_GATED_SOURCE_REVIEW.json",
+    "research_ledger/SN_C3_STATIC_GATED_SOURCE_REVIEW.md",
+    "research_ledger/PRI002_SCATTERING_NATIVE_SOURCE_CANDIDATES.json",
+    "research_ledger/PRE_SPACETIME_STATIC_GEOMETRY_SPINE.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means SN-C3 was reviewed under PG1-PG8 and SG0-SG4 and classified only as a useful negative control / weak observable comparator. It is not source extraction, not scattering-native validation, not S-matrix victory, not Ising/high-resonance defeat, not substrate selection, not a settling-law proof, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "SN-C3 is currently only a useful negative control and weak observable comparator under the static-spine gate",
+    "blocked_inference": "source extraction, scattering-native validation, S-matrix victory, Ising/high-resonance defeat, substrate selection, settling-law proof, or engineering readiness",
+    "candidate_class": "SN-C3_PHYSICAL_SCATTERING_MATRIX_TOPOLOGY",
+    "checked_interface": "SN-C3 physical scattering-matrix topology reviewed against PG1-PG8 and SG0-SG4 static spine",
+    "classification": "USEFUL_NEGATIVE_CONTROL_AND_WEAK_OBSERVABLE_COMPARATOR",
+    "continue_or_demote": "CONTINUE_AS_NEGATIVE_CONTROL_AND_OBSERVABLE_COMPARATOR_ONLY",
+    "markdown_terms_present": true,
+    "parent_priority": "PRI-002",
+    "pg_gate_count": 8,
+    "pri002_has_sn_c3": true,
+    "review_id": "SN-C3-STATIC-GATED-REVIEW-001",
+    "source_count": 2,
+    "static_gate_count": 5,
+    "static_spine_layer_count": 5
+  },
+  "target_id": "LEDGER-SN-C3-STATIC-GATED-SOURCE-REVIEW"
+}

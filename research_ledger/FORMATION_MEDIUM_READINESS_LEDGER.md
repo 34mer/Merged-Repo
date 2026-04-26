@@ -33,7 +33,7 @@ The repo does not yet identify a physical substrate, prove a native settling law
 - Source-extraction integrity validator passes.
 - Formation-medium discipline validator passes.
 - Formal-check result validator passes.
-- Source-coverage and doctrine guards cover the main overclaim zones, including CRBSM / Route A / scattering-native / high-resonance role separation, mission-grade critical review beyond repo hygiene, physical-regime source-intake criteria, the PRI-001 high-resonance source-candidate queue, the PRI-002 scattering-native source-candidate queue, the PRI-005 Ising-machine source-candidate queue, and the pre-spacetime static geometry spine gate.
+- Source-coverage and doctrine guards cover the main overclaim zones, including CRBSM / Route A / scattering-native / high-resonance role separation, mission-grade critical review beyond repo hygiene, physical-regime source-intake criteria, the PRI-001 high-resonance source-candidate queue, the PRI-002 scattering-native source-candidate queue, the PRI-005 Ising-machine source-candidate queue, the pre-spacetime static geometry spine gate, and the SN-C3 static-gated negative-control review.
 - Finite checks exist for selected baseline structures within declared scopes, including generated graph fixtures and finite convex-polygon chord fixtures.
 
 ## Critical Gaps

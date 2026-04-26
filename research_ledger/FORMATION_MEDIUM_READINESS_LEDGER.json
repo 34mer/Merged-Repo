@@ -72,7 +72,7 @@
         "FORMATION_MEDIUM_LAYER_1_SPEC.md",
         "validate_formation_medium_discipline.py"
       ],
-      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated. The repo now requires SG0-SG4 static-spine scoring before physical/comparator candidates are treated as Formation Medium-relevant.",
+      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated. SN-C3 has been static-gated and currently remains only a useful negative-control / weak observable comparator.",
       "blocked_claims": [
         "Formation Medium substrate has been identified",
         "positive geometry proves a substrate",
@@ -99,7 +99,12 @@
         "physical-regime candidate bypasses Gr_+(0,n)/Gr_+(1,n) static-spine gate",
         "S-matrix proximity alone proves pre-spacetime relevance",
         "Ising combinatorial settling alone proves pre-spacetime relevance",
-        "high-resonance persistence alone proves pre-spacetime relevance"
+        "high-resonance persistence alone proves pre-spacetime relevance",
+        "SN-C3 validates scattering-native physics",
+        "scattering-matrix phase singularities are Gr_+(0,n) terminal residues",
+        "scattering-matrix topology supplies Gr_+(1,n) static simplex tower",
+        "phase vortex charge is ordered residue sign/coherence",
+        "SN-C3 defeats Ising or high-resonance comparison"
       ]
     },
     {
@@ -167,7 +172,8 @@
     "PRI-001 high-resonance source-candidate queue adds four candidate classes and eleven DOI-backed external candidates under PG1-PG8 without source extraction",
     "PRI-002 scattering-native source-candidate queue adds four comparator classes and thirteen DOI-backed external candidates under PG1-PG8 without source extraction",
     "PRI-005 Ising-machine source-candidate queue adds five combinatorial-machine classes and ten DOI-backed external candidates under PG1-PG8 without source extraction",
-    "pre-spacetime static geometry spine guard restores Gr_+(0,n)/Gr_+(1,n) static residue gate before physical-regime relevance claims"
+    "pre-spacetime static geometry spine guard restores Gr_+(0,n)/Gr_+(1,n) static residue gate before physical-regime relevance claims",
+    "SN-C3 static-gated review demotes physical scattering-matrix topology to useful negative-control / weak observable comparator under SG0-SG4"
   ],
   "critical_gaps": [
     "no selected physical substrate",
