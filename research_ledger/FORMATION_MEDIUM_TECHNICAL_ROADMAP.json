@@ -117,7 +117,7 @@
     },
     {
       "id": "Q5_PHYSICAL_REGIME_SOURCE_INTAKE_PLAN",
-      "title": "Execute source reviews from physical-regime intake criteria",
+      "title": "Execute narrow source-intake reviews for high-resonance or scattering-native tracks",
       "priority": 5,
       "resource_tier": "T0_CURRENT_REPO_COMPUTE",
       "target_artifacts": [
@@ -127,10 +127,12 @@
         "HIGH_RESONANCE_NATIVE_COMPARATOR_PLAN.json",
         "FORMATION_MEDIUM_PHYSICAL_REGIME_RESIDUAL_SHORTLIST.md",
         "ROUTE_A_SOURCE_REVIEW_001.md",
-        "CRBSM_REGIME_CANDIDATE_RECOVERY.md"
+        "CRBSM_REGIME_CANDIDATE_RECOVERY.md",
+        "PRI001_HIGH_RESONANCE_SOURCE_CANDIDATES.md",
+        "PRI001_HIGH_RESONANCE_SOURCE_CANDIDATES.json"
       ],
-      "exit_condition": "Physical-regime source-intake criteria now define PG1-PG8 gates, four role-separated tracks, and review queue items; next exit is a sourced candidate list for PRI-001 high-resonance native regimes or PRI-002 scattering-native observables without flattening roles.",
-      "blocked_promotion": "Source-intake criteria are not source ingestion, not source extraction, not substrate selection, not CRBSM validation, not Route A implementation, and not winner declaration, and must preserve role separation without flattening."
+      "exit_condition": "source-intake framed PRI-001 high-resonance source-candidate queue exists with four candidate classes and eleven DOI-backed external candidates; next exit is one narrow PG1-PG8 source review for HR-C3 persistent support/channel identity or HR-C1 boundary/resonant readout, without flattening roles.",
+      "blocked_promotion": "PRI-001 source-intake candidate queue is not source ingestion, source extraction, high-resonance validation, substrate selection, CRBSM validation, Route A implementation, or winner declaration, and must preserve role separation without flattening."
     },
     {
       "id": "Q6_EARLY_DILIGENCE_PACKET",

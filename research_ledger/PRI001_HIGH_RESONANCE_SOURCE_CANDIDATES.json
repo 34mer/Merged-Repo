@@ -1,0 +1,254 @@
+{
+  "schema": "pri001_high_resonance_source_candidates_v1",
+  "priority_item": "PRI-001",
+  "artifact_roles": [
+    "SOURCE_REVIEW",
+    "COMPARATOR",
+    "NEGATIVE_CONTROL",
+    "PHYSICAL_REGIME_TRIAGE"
+  ],
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "EXTERNAL_WEB_REVIEWED",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_SUBSTRATE_SELECTION",
+    "NOT_ENGINEERING_READY"
+  ],
+  "purpose": "Sourced candidate list for high-resonance / mesoscopic resonance-native regimes under PG1-PG8 physical-regime source-intake criteria. This is a candidate queue for future source review, not source extraction or substrate selection.",
+  "critical_review_prework": {
+    "hard_bottleneck_attacked": "high-resonance bridge uncertainty: whether mesoscopic resonance-native regimes can supply persistent support identity, native relay/transport, intrinsic readout, and harnessability without collapsing into ordinary controlled resonance hardware",
+    "thin_stick_risks": [
+      "high-Q resonance treated as native settling law",
+      "topological protection treated as Formation Medium readout",
+      "coupled-mode experiments treated as persistent support/channel identity",
+      "source-reviewed platforms treated as engineering feasibility"
+    ],
+    "negative_progress_risk": "Could become a trendy photonics/cavity-magnonics shopping list unless every candidate carries kill gates and remains external-review only.",
+    "why_not_convenient_drift": "It turns Q5/PRI-001 into specific source classes that can be killed, demoted, or selected for later ingestion under PG1-PG8."
+  },
+  "anti_flattening_rule": "High-resonance is a possible bridge comparator. It is not CRBSM, not Route A, not scattering-native winner status, not selected substrate, and not native settling law by default.",
+  "candidate_classes": [
+    {
+      "id": "HR-C1_PHOTONIC_BIC_AND_TOPOLOGICAL_BIC",
+      "label": "photonic bound states in the continuum / topological BICs",
+      "why_candidate": "BIC and topological-BIC systems directly address long-lived resonant modes, high-Q confinement, boundary/edge/corner localization, and mode tunability in open photonic structures.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_PARTIAL",
+        "PG3_RELAY_OR_TRANSPORT_PARTIAL",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_CANDIDATE",
+        "PG5_INTRINSIC_READOUT_OPEN",
+        "PG7_HARNESSABILITY_PARTIAL",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "HR-SRC-001",
+        "HR-SRC-002",
+        "HR-SRC-003",
+        "HR-SRC-004"
+      ],
+      "kill_notes": [
+        "high-Q confinement is not native settling law",
+        "BIC far-field/topological signatures are not canonical Formation Medium readout",
+        "mode localization can remain ordinary photonic engineering",
+        "needs distinction between intrinsic mode identity and externally measured resonance"
+      ]
+    },
+    {
+      "id": "HR-C2_TOPOLOGICAL_POLARITON_AND_TOPOLOGICAL_LASER_ARRAYS",
+      "label": "topological polariton / topological laser arrays",
+      "why_candidate": "Topological polariton and laser-array systems offer active, mesoscopic, resonant transport platforms with robust edge modes, gain, and accessible readout.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_PARTIAL",
+        "PG2_NATIVE_ADMISSIBILITY_PARTIAL",
+        "PG3_RELAY_OR_TRANSPORT_CANDIDATE",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_OPEN",
+        "PG5_INTRINSIC_READOUT_WEAK_OR_OPEN",
+        "PG7_HARNESSABILITY_PARTIAL",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "HR-SRC-005",
+        "HR-SRC-006",
+        "HR-SRC-007"
+      ],
+      "kill_notes": [
+        "robust lasing mode is not Formation Medium readout",
+        "topological transport with gain can still be ordinary photonic routing",
+        "single-mode emission is not persistent support ledger",
+        "active control may replace rather than expose native dynamics"
+      ]
+    },
+    {
+      "id": "HR-C3_CAVITY_MAGNON_POLARITON_AND_MAGNON_PHONON_HYBRIDS",
+      "label": "cavity magnon-polariton / magnon-phonon-photon hybrid systems",
+      "why_candidate": "Cavity magnonics and magnon-phonon-photon hybrids directly address mesoscopic mode identity, strong coupling, non-Hermitian mode coalescence, coherent perfect absorption, and hybrid carrier/transport possibilities.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_CANDIDATE",
+        "PG2_NATIVE_ADMISSIBILITY_OPEN",
+        "PG3_RELAY_OR_TRANSPORT_CANDIDATE",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_CANDIDATE",
+        "PG5_INTRINSIC_READOUT_OPEN",
+        "PG6_BULK_READOUT_SEPARATION_OPEN",
+        "PG7_HARNESSABILITY_PARTIAL",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "HR-SRC-008",
+        "HR-SRC-009",
+        "HR-SRC-010"
+      ],
+      "kill_notes": [
+        "strong coupling is not relay semantics",
+        "exceptional points and coherent perfect absorption are not canonical readout",
+        "hybrid mode identity may be control-frame dependent",
+        "requires evidence that channel identity is native rather than instrument-tracked"
+      ]
+    },
+    {
+      "id": "HR-C4_MECHANICAL_AND_PHONONIC_BIC_RESONATORS",
+      "label": "mechanical / phononic bound-state-in-continuum resonators",
+      "why_candidate": "Mechanical BIC resonators test whether high-Q resonance and protected mode identity can appear in non-optical, mesoscopic mechanical media with potential lab tractability.",
+      "pg_gate_tags": [
+        "PG1_NATIVE_CARRIER_PARTIAL",
+        "PG3_RELAY_OR_TRANSPORT_WEAK_OR_OPEN",
+        "PG4_PERSISTENT_SUPPORT_IDENTITY_CANDIDATE",
+        "PG5_INTRINSIC_READOUT_WEAK_OR_OPEN",
+        "PG7_HARNESSABILITY_PARTIAL",
+        "PG8_NEGATIVE_CONTROL_REQUIRED"
+      ],
+      "source_candidates": [
+        "HR-SRC-011"
+      ],
+      "kill_notes": [
+        "high-Q mechanical resonance can be ordinary oscillator engineering",
+        "mechanical BIC does not imply Formation Medium readout",
+        "needs source evidence for native admissibility and bulk/readout separation",
+        "likely negative-control candidate unless readout semantics sharpen"
+      ]
+    }
+  ],
+  "source_candidates": [
+    {
+      "id": "HR-SRC-001",
+      "title": "Observation of trapped light within the radiation continuum",
+      "authors_short": "Hsu et al.",
+      "venue_year": "Nature 2013",
+      "doi": "10.1038/nature12289",
+      "track_relevance": "foundational experimental photonic BIC / trapped light in radiation continuum",
+      "candidate_value": "persistent high-Q resonant mode clue for PG4 and harnessable photonic platform clue for PG7",
+      "blocked_inference": "photonic BIC is not Formation Medium readout or selected substrate"
+    },
+    {
+      "id": "HR-SRC-002",
+      "title": "Lasing action from photonic bound states in continuum",
+      "authors_short": "Kodigala et al.",
+      "venue_year": "Nature 2017",
+      "doi": "10.1038/nature20799",
+      "track_relevance": "active BIC laser / high-Q open resonant cavity",
+      "candidate_value": "tests whether resonant mode identity can persist under gain and device operation",
+      "blocked_inference": "BIC lasing is not native settling or canonical readout"
+    },
+    {
+      "id": "HR-SRC-003",
+      "title": "Observation of edge bound states in the continuum at truncated silicon pillar photonic crystal",
+      "authors_short": "Sato et al.",
+      "venue_year": "Nature Communications 2024",
+      "doi": "10.1038/s41467-024-54929-0",
+      "track_relevance": "edge BIC in silicon photonic crystal with tunability/surface sensitivity",
+      "candidate_value": "boundary/edge resonance clue for PG4, PG5, and PG7 source review",
+      "blocked_inference": "edge BIC sensitivity is not intrinsic Formation Medium readout"
+    },
+    {
+      "id": "HR-SRC-004",
+      "title": "Nonlinear control of photonic higher-order topological bound states in the continuum",
+      "authors_short": "Hu et al.",
+      "venue_year": "Light: Science & Applications 2021",
+      "doi": "10.1038/s41377-021-00607-5",
+      "track_relevance": "higher-order topological BIC corner states and nonlinear coupling",
+      "candidate_value": "combines corner/boundary mode, BIC persistence, and controlled coupling in one photonic platform",
+      "blocked_inference": "corner BIC mode is not a canonical positive-geometric readout"
+    },
+    {
+      "id": "HR-SRC-005",
+      "title": "Exciton-polariton topological insulator",
+      "authors_short": "Klembt et al.",
+      "venue_year": "Nature 2018",
+      "doi": "10.1038/s41586-018-0601-5",
+      "track_relevance": "topological polariton platform with light-matter carrier and edge transport",
+      "candidate_value": "hybrid quasiparticle carrier clue for PG1 and transport/topology clue for PG3",
+      "blocked_inference": "topological polariton edge transport is not Formation Medium substrate selection"
+    },
+    {
+      "id": "HR-SRC-006",
+      "title": "Topological insulator laser: Experiments",
+      "authors_short": "Bandres et al.",
+      "venue_year": "Science 2018",
+      "doi": "10.1126/science.aar4005",
+      "track_relevance": "active topological laser array with robust edge-mode lasing",
+      "candidate_value": "tests active topological resonant transport and gain-harnessability under PG3/PG7",
+      "blocked_inference": "topological laser robustness is not CRBSM relay identity"
+    },
+    {
+      "id": "HR-SRC-007",
+      "title": "Room temperature electrically pumped topological insulator lasers",
+      "authors_short": "Choi et al.",
+      "venue_year": "Nature Communications 2021",
+      "doi": "10.1038/s41467-021-23718-4",
+      "track_relevance": "room-temperature electrically pumped topological laser array",
+      "candidate_value": "harnessability and active resonant platform clue for PG7",
+      "blocked_inference": "electrically pumped topological laser is not engineering-ready Formation Medium"
+    },
+    {
+      "id": "HR-SRC-008",
+      "title": "Observation of the exceptional point in cavity magnon-polaritons",
+      "authors_short": "Zhang et al.",
+      "venue_year": "Nature Communications 2017",
+      "doi": "10.1038/s41467-017-01634-w",
+      "track_relevance": "non-Hermitian cavity magnon-polariton platform with tunable mode coalescence",
+      "candidate_value": "mode identity, coupling, and non-Hermitian transition clue for PG3/PG4",
+      "blocked_inference": "exceptional point is not intrinsic readout semantics"
+    },
+    {
+      "id": "HR-SRC-009",
+      "title": "Cavity-magnon polaritons strongly coupled to phonons",
+      "authors_short": "Shen et al.",
+      "venue_year": "Nature Communications 2025",
+      "doi": "10.1038/s41467-025-60799-x",
+      "track_relevance": "triple strong coupling among photons, magnons, and phonons with long-lived phonons/cooperativity",
+      "candidate_value": "hybrid carrier/transport and persistent mode identity candidate for PG1/PG3/PG4",
+      "blocked_inference": "triple strong coupling is not native Formation Medium formation law"
+    },
+    {
+      "id": "HR-SRC-010",
+      "title": "Strong magnon–photon coupling enhanced by photonic lattice flat-bands",
+      "authors_short": "Hong et al.",
+      "venue_year": "Nature Communications 2026",
+      "doi": "10.1038/s41467-026-69326-y",
+      "track_relevance": "flat-band-enhanced magnon-photon coupling in photonic lattice platform",
+      "candidate_value": "flat-band mediated high-resonance coupling clue for PG1/PG3/PG4",
+      "blocked_inference": "flat-band enhancement is not source-faithful Formation Medium substrate evidence"
+    },
+    {
+      "id": "HR-SRC-011",
+      "title": "Merging mechanical bound states in the continuum in high-aspect-ratio phononic crystal gratings",
+      "authors_short": "Tong et al.",
+      "venue_year": "Communications Physics 2024",
+      "doi": "10.1038/s42005-024-01692-9",
+      "track_relevance": "high-Q mechanical/phononic BIC resonator platform",
+      "candidate_value": "non-optical resonant persistence candidate for PG4 and negative-control comparison",
+      "blocked_inference": "mechanical BIC is not intrinsic canonical readout"
+    }
+  ],
+  "next_action_policy": {
+    "preferred_next": "choose one candidate class for narrow source review under PG1-PG8, likely HR-C3 if targeting persistent support/channel identity or HR-C1 if targeting boundary/resonant readout",
+    "do_not_do_next": [
+      "declare high-resonance winner",
+      "move sources into SOURCE_EXTRACTED_CLAIMS without ingestion and extraction",
+      "treat high-Q modes as native settling law",
+      "treat topological photonic readout as canonical readout",
+      "confuse Route A source review with high-resonance-native validation"
+    ]
+  },
+  "non_promotion_rule": "This PRI-001 artifact is a sourced candidate list only. It does not ingest sources into the repo corpus, extract source claims, validate high-resonance regimes, validate Route A, validate CRBSM, beat scattering-native comparison, select a substrate, prove a settling law, or establish engineering readiness."
+}

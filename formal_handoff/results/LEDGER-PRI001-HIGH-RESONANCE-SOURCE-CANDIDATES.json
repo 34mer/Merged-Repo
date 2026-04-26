@@ -1,0 +1,41 @@
+{
+  "checker": "pri001_high_resonance_source_candidates_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/PRI001_HIGH_RESONANCE_SOURCE_CANDIDATES.json",
+    "research_ledger/PRI001_HIGH_RESONANCE_SOURCE_CANDIDATES.md",
+    "research_ledger/PHYSICAL_REGIME_SOURCE_INTAKE_CRITERIA.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo has a bounded PRI-001 high-resonance source-candidate queue with PG tags, DOI-backed external candidates, kill notes, and anti-promotion boundaries. It is not source ingestion, not source extraction, not high-resonance validation, not CRBSM or Route A validation, not substrate selection, not a settling-law proof, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "the repo has an external-web-reviewed candidate queue for high-resonance source review",
+    "blocked_inference": "source ingestion, source extraction, high-resonance validation, Route A validation, CRBSM validation, scattering-native defeat, substrate selection, settling-law proof, or engineering readiness",
+    "candidate_class_count": 4,
+    "checked_interface": "PRI-001 sourced high-resonance candidate list under PG1-PG8 intake criteria",
+    "class_ids": [
+      "HR-C1_PHOTONIC_BIC_AND_TOPOLOGICAL_BIC",
+      "HR-C2_TOPOLOGICAL_POLARITON_AND_TOPOLOGICAL_LASER_ARRAYS",
+      "HR-C3_CAVITY_MAGNON_POLARITON_AND_MAGNON_PHONON_HYBRIDS",
+      "HR-C4_MECHANICAL_AND_PHONONIC_BIC_RESONATORS"
+    ],
+    "high_resonance_track_role": "POSSIBLE_BRIDGE_COMPARATOR",
+    "markdown_terms_present": true,
+    "pri001_in_intake_criteria": true,
+    "source_candidate_count": 11,
+    "source_ids": [
+      "HR-SRC-001",
+      "HR-SRC-002",
+      "HR-SRC-003",
+      "HR-SRC-004",
+      "HR-SRC-005",
+      "HR-SRC-006",
+      "HR-SRC-007",
+      "HR-SRC-008",
+      "HR-SRC-009",
+      "HR-SRC-010",
+      "HR-SRC-011"
+    ]
+  },
+  "target_id": "LEDGER-PRI001-HIGH-RESONANCE-SOURCE-CANDIDATES"
+}
