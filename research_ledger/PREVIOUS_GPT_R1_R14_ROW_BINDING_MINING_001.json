@@ -1,0 +1,1093 @@
+{
+  "schema": "previous_gpt_r1_r14_row_binding_mining_v1",
+  "purpose": "Map prior GPT ore and current ledger material to R1-R14 row bindings for Formation Medium convergence, without changing row authority.",
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "LOCAL_SOURCE_INTAKE",
+    "ROW_BINDING_CANDIDATE",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_CHECKED"
+  ],
+  "non_promotion_rule": "This pass maps generated/thread-source material to existing rows only. It does not create new source-extracted claims, row authority, theorem status, or engineering evidence. R14 remains OPEN/DEFICIT.",
+  "source_scope": [
+    "Previous Conversations with GPT/*.md",
+    "research_ledger/*.md",
+    "research_ledger/*.json"
+  ],
+  "raw_hit_count": 2417,
+  "selected_count": 71,
+  "row_counts_selected": {
+    "R1": 26,
+    "R2": 26,
+    "R3": 35,
+    "R4": 13,
+    "R5": 10,
+    "R6": 11,
+    "R7": 10,
+    "R8": 21,
+    "R9": 33,
+    "R10": 12,
+    "R11": 12,
+    "R12": 11,
+    "R13": 14,
+    "R14": 17
+  },
+  "row_binding_candidates": [
+    {
+      "row": "R1",
+      "name": "Unit codimension descent",
+      "candidate_binding_summary": "Shared lower-layer structural constraint; useful for native local boundary descent but not a class discriminator.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C2",
+        "FM1-C3"
+      ],
+      "selected_hit_count": 26,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R2",
+      "name": "Local move multiplicity",
+      "candidate_binding_summary": "Discriminator for operation-class richness; useful for S3 but not universal.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C2",
+        "FM1-C3"
+      ],
+      "selected_hit_count": 26,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R3",
+      "name": "Nested-history / linear-extension burden",
+      "candidate_binding_summary": "Cosmohedron-specific burden; useful as warning that history structure may matter.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C2",
+        "FM1-C7"
+      ],
+      "selected_hit_count": 35,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R4",
+      "name": "Exact finite positive-Grassmannian closure",
+      "candidate_binding_summary": "Authority constraint on solved branch only: A,D4,E6; important for not overextending exact work.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C7"
+      ],
+      "selected_hit_count": 13,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R5",
+      "name": "Top-interaction coefficient representatives",
+      "candidate_binding_summary": "Exact coefficients must be carried explicitly; potential engineering benchmark values.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C7",
+        "engineering_benchmarks"
+      ],
+      "selected_hit_count": 10,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R6",
+      "name": "Support-node orbit law",
+      "candidate_binding_summary": "Solved-branch coefficient law; supports support/ledger discussion but not arbitrary continuation.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C7",
+        "engineering_benchmarks"
+      ],
+      "selected_hit_count": 11,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R7",
+      "name": "Parabolic residue recursion",
+      "candidate_binding_summary": "Core readout-recursion contact for S2*; exact only on solved branch.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C4"
+      ],
+      "selected_hit_count": 10,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R8",
+      "name": "Root-bundle / local transport layer",
+      "candidate_binding_summary": "Transport layer contact; connects to Phase 3 but does not imply physical substrate.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C3",
+        "FM1-C4",
+        "G8"
+      ],
+      "selected_hit_count": 21,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R9",
+      "name": "Grouped carriers",
+      "candidate_binding_summary": "Grouped-carrier lower layer; connects to quiver/grouped-carrier future mining.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C1",
+        "FM1-C2"
+      ],
+      "selected_hit_count": 33,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R10",
+      "name": "Grouped parameters / weights",
+      "candidate_binding_summary": "Grouped-parameter layer; supports class matrix and equality/inequality comparison.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C2"
+      ],
+      "selected_hit_count": 12,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R11",
+      "name": "Grouped factorization",
+      "candidate_binding_summary": "Grouped factorization layer; shared lower layer not decisive by itself.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C4"
+      ],
+      "selected_hit_count": 12,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R12",
+      "name": "Overlap / submodular inequality law",
+      "candidate_binding_summary": "Source-covered grouped inequality law; supports generalized permutahedral/cosmohedron comparison.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C2"
+      ],
+      "selected_hit_count": 11,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R13",
+      "name": "Equality-layer status",
+      "candidate_binding_summary": "Strong discriminator: intrinsic vs degenerative equality layers; likely central to realization-class comparison.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C5",
+        "realization_class_discriminator"
+      ],
+      "selected_hit_count": 14,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    },
+    {
+      "row": "R14",
+      "name": "Full class-matrix deficit",
+      "candidate_binding_summary": "Hard open deficit; blocks closure and should remain a corporate/technical risk item.",
+      "status": [
+        "GENERATED",
+        "OPEN",
+        "ROW_BINDING_CANDIDATE",
+        "NOT_CHECKED"
+      ],
+      "formation_contacts": [
+        "FM1-C7",
+        "roadmap_blocker"
+      ],
+      "selected_hit_count": 17,
+      "promotion_blocker": "Use existing row status from R1_R14_DISCRIMINATOR_LEDGER.md; this mining pass does not promote row authority."
+    }
+  ],
+  "selected_hits": [
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 231,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "score": 85,
+      "snippet": "227:         \"transport\",\n228:         \"readout_boundary\"\n229:       ],\n230:       \"score\": 26,\n231:       \"snippet\": \"37: | R3 | Nested-history / linear-extension burden | Objects/faces carry strong nested-history or linear-extension data beyond ordinary deletion descent. | THREAD-SUPPORTED | Appears cosmohedron-specific in current finite baseline. Requires broader source/formal check before theorem-level use. |\\n38: | R4 | Exact finite positive-Grassmannian top-cell closure | Safe finite closure consists only of `A`, `D4`, `E6`. | SOURCE-BACKED / EXACT-WORK | Non-negotiable authority state. Do not extend to `D_n` beyond `D4` as exact. |\\n39: | R5 | Top-interaction coefficient representatives | Explicit top-interaction representatives: `[mu_Gr+(2,n)] = n u_{n-4}`, `[mu_Gr+(3,6)] = 4 u_3 Omega_D`, `[mu_Gr+(3,7)] = u_5(7 omega_A + 14 omega_D)`. | SOURCE-BACKED / EXACT-WORK | Must be carried explicitly; not compressed into vague coefficient language. |\\n40: | R6 | Support-node orbit law | Paired support node coefficient is `h+2`; fixed support node coefficient is `(h+2)/2`. | SOURCE-BACKED / EXACT-WORK | Coefficient law inside solved exact branch only; not arbitrary continuation. |\\n41: | R7 | Parabolic residue recursion | Fully supporting parabolic facets carry lower top-interaction class as residue, `Res_Y(mu_Gamma)=±mu_Gamma'`. | SOURCE-BACKED / EXACT-WORK | Safe recursive descent through solved branch only. |\\n42: | R8 | Root-bundle / local transport layer | Intrinsic rank-`m` residue-family bundle and local `A2` quarter-turn transport law. | THREAD-SUPPORTED / EXACT-WORK | Candidate faithful local transport layer. Does not imply literal substrate realization. |\\n43: | R9 | Grouped carriers | Family admits grouped carriers / grouped subsets supporting factorization or compatibility data. | THREAD-SUPPORTED | Shared by graph-associahedral/cosmological and cosmohedral side; not enough to distinguish R2/R3. |\\n44: | R10 | Grouped parameters / weights | Family has grouped parameters such as `delta_P` / grouped weights. | THREAD-SUPPORTED | Shared lower layer between graph-associahedral vicinity and cosmohedral construction. |\\n45: | R11 | Grouped factorization | Factorization is expressible at grouped-carrier/grouped-parameter level. | THREAD-SUPPORTED | Shared lower layer; does not separate R2/R3. |\\n46: | R12 | Overlap / submodular inequality law | Grouped parameters obey overlap/submodular inequalities of the form `delta_P + delta_P' <= delta_union + delta_intersection`. | SOURCE-BACKED / THREAD-SUPPORTED | Shared by generalized-permutahedron / graph-associahedron side and cosmohedron-related grouped laws; not the final R2/R3 discriminator. |\\n47: | R13 | Equality-layer status | Equality layer is typed as absent / generic inequality / degenerate equality / intrinsic equality. | THREAD-SUPPORTED | Current strongest R2/R3 discriminator: graph-associahedral vicinity reaches equalities by specialization/degeneration; cosmohedron requires many equali"
+    },
+    {
+      "source_file": "research_ledger/EXTRACTION_LEDGER.md",
+      "line": 11,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R9",
+        "R12",
+        "R13"
+      ],
+      "score": 33,
+      "snippet": "7: | Extracted object | Sources | Rows / packages affected | Status | Missing work |\n8: |---|---|---|---|---|\n9: | Associahedron baseline | SCAT-FORMS-2017; standard ABHY / noncrossing chord model | A, R1, A-vs-C, A-vs-M1 | PARTIAL | exact row predicates and source citations |\n10: | Amplituhedron m=1 / sign-flip baseline | BINARY-AMP-2017; AMP-2013 | M1, R1, A-vs-M1, M1-vs-C | PARTIAL | exact finite sign-family records and checker |\n11: | Cosmohedron finite / Matryoshka baseline | COSMO-2024; COSMO-COMB-2026 | C, R1, R2, R3, R9-R13 including R12 | PARTIAL | exact local move predicate plus source-bound R12 submodular law and equality-layer extraction |\n12: | Graph-associahedral / cosmological-polytope vicinity | COSMO-2024 appendices / graph associahedra discussion | GAssoc, R9-R13 | PARTIAL | formal distinction between degenerate/degeneration equality and intrinsic equality |\n13: | Exact finite positive-Grassmannian branch | exact_work / Lean scaffold | PGfinite, R4-R8 | PARTIAL/PRESENT | source cross-link, machine-readable support ledger, Lean status audit |\n14: | Surfaceology local curve family | SURF-COUNT-2023; SURF-ALLMULT-2023 | S, R1?, surfaceology comparator | UNDERREPRESENTED | full comparator against A/M1/C and extraction of u-variable/binary geometry rows |\n15: | Scalar-scaffolded gluons | SCAFFOLD-GLUONS-2024; HIDDEN-ZEROS-2023; BACKUS-2025 | scaffolding/transmutation comparator | MISSING/PARTIAL | row candidates for shift, gauge invariance, transmutation, soft behavior |\n16: | Momentum amplituhedron / loop momentum amplituhedron | MOM-AMP-2019; LOOP-MOM-AMP-2022 | representation comparator | MISSING/PARTIAL | compare same amplitude object across kinematic/spinor-helicity/loop-momentum presentations without promoting realization-class equivalence |\n17: | Amplituhedron-Prime / local geometries | AMP-PRIME-2020 | caution ledger, bulk-non-faithfulness | MISSING/PARTIAL | formal caution row: same boundary/log form may not imply same bulk geometry |"
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 403,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R6",
+        "R8"
+      ],
+      "score": 31,
+      "snippet": "399:         \"checker\"\n400:       ],\n401:       \"score\": 35,\n402:       \"content\": \"\\\\text{(R3) no orthogonal local quarter-turn transport;}\",\n403:       \"context\": \"ve channel identity long enough to compute fixed-vs-paired support coefficients before final collapse. That is what distinguishes\\n\\n$$4,\\\\qquad 7,\\\\qquad 14$$\\n\\nfrom an undifferentiated total amplitude.\\n\\nEverything engineering-relevant reduces to whether a physical regime can instantiate these four.\\n\\n# 2. Immediate eliminations\\n\\nAny regime that only offers scalar state plus external labeling is out.\\n\\nMore formally, reject any substrate class with any of the following properties:\\n\\n$$\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\text{(R4) no persistent channel separation before readout.}$$\\n\\nThat kills:\\n\\nplain scalar memory media, because they fail R2 and R3;\\n\\npure bulk-amplitude systems whose observables are only global totals, because they fail R1 and R4;\\n\\narchitectures where “boundary” is imposed by software rather than existing in the medium itself, because they fail R1;\\n\\narchitectures where local transforms are only permutations or dissipative averaging, because they fail R3.\\n\\nSo the object is already much narrower than “alternative computing.”\\n\\n# 3. Three admissible physical archetypes\\n\\nAt the level of abstra\",\n404:       \"status\": [\n405:         \"GENERATED\",\n406:         \"OPEN\",\n407:         \"RAW_EQUATION_ORE\",\n408:         \"NOT_SOURCE_EXTRACTED\",\n409:         \"NOT_CHECKED\""
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 257,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R6",
+        "R8"
+      ],
+      "score": 31,
+      "snippet": "253:         \"readout_boundary\",\n254:         \"checker\"\n255:       ],\n256:       \"score\": 25,\n257:       \"snippet\": \"398:         \\\"corporate\\\",\\n399:         \\\"checker\\\"\\n400:       ],\\n401:       \\\"score\\\": 35,\\n402:       \\\"content\\\": \\\"\\\\\\\\text{(R3) no orthogonal local quarter-turn transport;}\\\",\\n403:       \\\"context\\\": \\\"ve channel identity long enough to compute fixed-vs-paired support coefficients before final collapse. That is what distinguishes\\\\n\\\\n$$4,\\\\\\\\qquad 7,\\\\\\\\qquad 14$$\\\\n\\\\nfrom an undifferentiated total amplitude.\\\\n\\\\nEverything engineering-relevant reduces to whether a physical regime can instantiate these four.\\\\n\\\\n# 2. Immediate eliminations\\\\n\\\\nAny regime that only offers scalar state plus external labeling is out.\\\\n\\\\nMore formally, reject any substrate class with any of the following properties:\\\\n\\\\n$$\\\\\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\\\\\text{(R4) no persistent channel separation before readout.}$$\\\\n\\\\nThat kills:\\\\n\\\\nplain scalar memory media, because they fail R2 and R3;\\\\n\\\\npure bulk-amplitude systems whose observables are only global totals, because they fail R1 and R4;\\\\n\\\\narchitectures where “boundary” is imposed by software rather than existing in the medium itself, because they fail R1;\\\\n\\\\narchitectures where local transforms are only permutations or dissipative averaging, because they fail R3.\\\\n\\\\nSo the object is already much narrower than “alternative computing.”\\\\n\\\\n# 3. Three admissible physical archetypes\\\\n\\\\nAt the level of abstra\\\",\\n404:       \\\"status\\\": [\\n405:         \\\"GENERATED\\\",\\n406:         \\\"OPEN\\\",\\n407:         \\\"RAW_EQUATION_ORE\\\",\\n408:         \\\"NOT_SOURCE_EXTRACTED\\\",\\n409:         \\\"NOT_CHECKED\\\"\\n410:       ]\"\n258:     },\n259:     {\n260:       \"source_file\": \"research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json\",\n261:       \"line\": 429,\n262:       \"categories\": [\n263:         \"Ji\","
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 21178,
+      "rows": [
+        "R1",
+        "R9",
+        "R11",
+        "R13"
+      ],
+      "score": 28,
+      "snippet": "21174: **1. Extract exact computable families**  \n21175: From amplituhedron / associahedron / cosmohedron / surfaceology / scattering-form-type papers.\n21176: \n21177: **2. Convert them into comparable structural rows**  \n21178: Examples: descent laws, grouped carriers, factorization, primitive parameters, overlap laws, equality layers, recursion, residue behavior.\n21179: \n21180: **3. Compare those rows across realization classes**  \n21181: Not compare papers as prose. Compare the actual mathematical behavior.\n21182: \n21183: **4. Identify what survives across families and what is family-specific**  \n21184: Shared structure = candidate deeper law.  "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 21571,
+      "rows": [
+        "R4",
+        "R6",
+        "R7",
+        "R8"
+      ],
+      "score": 28,
+      "snippet": "21567: What is there, materially:\n21568: \n21569: * the **exact baselines** for cosmohedron, associahedron, amplituhedron (m=1), and the first surfaceology object extraction\n21570: * the **derived exact spine** E1–E6:\n21571:   static residue base, intrinsic root-bundle layer, local (A_2) quarter-turn transport, finite top-cell closure on (A,D_4,E_6), support-node orbit law, and parabolic residue recursion\n21572: * the **separation of statuses** into U-EXACT / M-EXACT / GEN / BRIDGE / OPEN\n21573: * the **decision log** demoting CRBSM and practicality, and elevating scattering to mandatory comparator\n21574: * the **immediate recommended move**: derive a scattering-native realization and compare it against CRBSM without letting old machine language decide the outcome.  \n21575: \n21576: What is **missing or too compressed**:\n21577: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 17323,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R9",
+        "R11"
+      ],
+      "score": 27,
+      "snippet": "17319: \n17320: **Why:**  \n17321: Yes. This is a real sharpening.\n17322: \n17323: Before this cut, the live R2↔R3 mismatch looked like it might still involve grouped factorization itself. But the counting/surfaceology side now gives an explicit grouped-factorization law of its own: for graph associahedra, a facet associated with a tube factors as a **product of lower graph associahedra**.\n17324: \n17325: Arkani-Hamed_2024_Cosmohedra_ar…\n17326: \n17327: So the situation is now:\n17328: \n17329: * **shared / matched lower layers:** closure / lattice / grouped carriers"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 17976,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R10",
+        "R12"
+      ],
+      "score": 27,
+      "snippet": "17972: * * *\n17973: \n17974: **ChatGPT:**\n17975: \n17976: **Object:** Does the counting/graph-associahedron side already satisfy the **same formal overlap law** on grouped parameters as the cosmology side, so that the remaining R2↔R3 mismatch is **not** submodularity/overlap itself but the stronger **extra equalities / nontransversal-gluing law** of the cosmohedron?\n17977: \n17978: **Source contact:** the cosmohedron paper states that the tree-level grouped parameters $\\delta_P$ must satisfy the crucial overlap/submodular inequalities\n17979: \n17980: $$\\delta_P+\\delta_{P'}\\le \\delta_{P\\cup P'}+\\delta_{P\\cap P'},$$\n17981: \n17982: with $\\delta_{\\text{full}}=0$."
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 183,
+      "rows": [
+        "R4",
+        "R6",
+        "R7",
+        "R8"
+      ],
+      "score": 27,
+      "snippet": "179:         \"transport\",\n180:         \"readout_boundary\"\n181:       ],\n182:       \"score\": 26,\n183:       \"snippet\": \"21566: \\n21567: What is there, materially:\\n21568: \\n21569: * the **exact baselines** for cosmohedron, associahedron, amplituhedron (m=1), and the first surfaceology object extraction\\n21570: * the **derived exact spine** E1–E6:\\n21571:   static residue base, intrinsic root-bundle layer, local (A_2) quarter-turn transport, finite top-cell closure on (A,D_4,E_6), support-node orbit law, and parabolic residue recursion\\n21572: * the **separation of statuses** into U-EXACT / M-EXACT / GEN / BRIDGE / OPEN\\n21573: * the **decision log** demoting CRBSM and practicality, and elevating scattering to mandatory comparator\\n21574: * the **immediate recommended move**: derive a scattering-native realization and compare it against CRBSM without letting old machine language decide the outcome.  \\n21575: \\n21576: What is **missing or too compressed**:\\n21577: \\n21578: * the package does **not preserve the top-interaction classes in the stronger explicit form** you wrote, e.g. the representative formulas\"\n184:     },\n185:     {\n186:       \"source_file\": \"research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json\",\n187:       \"line\": 152,\n188:       \"categories\": [\n189:         \"Vm\","
+    },
+    {
+      "source_file": "research_ledger/THREAD_CONTINUITY_ARCHITECTURE.md",
+      "line": 143,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "score": 27,
+      "snippet": "139: 6. Convert survivor assessment into machine-readable form.\n140: 7. Add failure-mode registry.\n141: 8. Add tool/MCP registry.\n142: 9. Convert key rows into typed predicates.\n143: 10. Add checker targets for R1, R2, R3, R12, R13, R14.\n144: \n145: ## Growth status registry\n146: \n147: | Subsystem | Status |\n148: |---|---|\n149: | Source corpus | uploaded, not fully paper-ledgered |"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15992,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 26,
+      "snippet": "15988:     \n15989: 3. **Freeze the discrimination verdicts**\n15990:     * **R1 vs R2:** distinct\n15991:     * **R1 vs R3:** distinct\n15992:     * **R2 vs R3:** distinct **as currently realized**, with one explicit unresolved stronger-equivalence deficit: no counting-side grouped-carrier equation layer matching the Matryoshka-side grouped equations.\n15993:         \n15994:         Arkani-Hamed_2024_Cosmohedra_ar…\n15995:         \n15996:         Arkani-Hamed_2023_All-Loop-Scat…\n15997:         \n15998:         Arkani-Hamed_2023_All-Loop-Scat…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19021,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R8"
+      ],
+      "score": 26,
+      "snippet": "19017: Any regime that only offers scalar state plus external labeling is out.\n19018: \n19019: More formally, reject any substrate class with any of the following properties:\n19020: \n19021: $$\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\text{(R2) no native ordered family decomposition;}$$ $$\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\text{(R4) no persistent channel separation before readout.}$$\n19022: \n19023: That kills:\n19024: \n19025: plain scalar memory media, because they fail R2 and R3;\n19026: \n19027: pure bulk-amplitude systems whose observables are only global totals, because they fail R1 and R4;"
+    },
+    {
+      "source_file": "research_ledger/R1_R14_DISCRIMINATOR_LEDGER.md",
+      "line": 46,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R10",
+        "R12"
+      ],
+      "score": 26,
+      "snippet": "42: | R8 | Root-bundle / local transport layer | Intrinsic rank-`m` residue-family bundle and local `A2` quarter-turn transport law. | THREAD-SUPPORTED / EXACT-WORK | Candidate faithful local transport layer. Does not imply literal substrate realization. |\n43: | R9 | Grouped carriers | Family admits grouped carriers / grouped subsets supporting factorization or compatibility data. | THREAD-SUPPORTED | Shared by graph-associahedral/cosmological and cosmohedral side; not enough to distinguish R2/R3. |\n44: | R10 | Grouped parameters / weights | Family has grouped parameters such as `delta_P` / grouped weights. | THREAD-SUPPORTED | Shared lower layer between graph-associahedral vicinity and cosmohedral construction. |\n45: | R11 | Grouped factorization | Factorization is expressible at grouped-carrier/grouped-parameter level. | THREAD-SUPPORTED | Shared lower layer; does not separate R2/R3. |\n46: | R12 | Overlap / submodular inequality law | Grouped parameters obey overlap/submodular inequalities of the form `delta_P + delta_P' <= delta_union + delta_intersection`. | SOURCE-BACKED / THREAD-SUPPORTED | Shared by generalized-permutahedron / graph-associahedron side and cosmohedron-related grouped laws; not the final R2/R3 discriminator. |\n47: | R13 | Equality-layer status | Equality layer is typed as absent / generic inequality / degenerate equality / intrinsic equality. | THREAD-SUPPORTED | Current strongest R2/R3 discriminator: graph-associahedral vicinity reaches equalities by specialization/degeneration; cosmohedron requires many equalities intrinsically in its grouped compatibility law. |\n48: | R14 | Missing grouped-carrier equation / full class-matrix deficit | The exact equation layer and class matrix must be source-bound and formalized across all surviving rows/classes. | DEFICIT / OPEN | Not solved. This is the known gap: complete R1-R14 × class matrix, source bindings, proof/check obligations, and unresolved discriminators. |\n49: \n50: ## Current solved comparison\n51: \n52: ### R2/R3 branch comparison"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 11893,
+      "rows": [
+        "R1",
+        "R3",
+        "R9",
+        "R11"
+      ],
+      "score": 25,
+      "snippet": "11889: \n11890: **Verdict:** **SUPPORTED**\n11891: \n11892: **Why:**  \n11893: The cosmology side already makes grouped-object factorization explicit: facets attached to partial triangulations decompose into products over nested subpolygons and graph-associahedron factors.\n11894: \n11895: Arkani-Hamed_2024_Cosmohedra_ar…\n11896: \n11897:   \n11898: The counting side already has native factorization in the amplitude/counting formalism and already exposes the right higher-order grouped carriers — valid closed subsets — but the grouped-carrier factorization law is not yet made explicit at that layer in the present comparison.\n11899: "
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_CANDIDATE_EXTRACTIONS.json",
+      "line": 198,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R8"
+      ],
+      "score": 25,
+      "snippet": "194:         \"equations\",\n195:         \"substrate\"\n196:       ],\n197:       \"score\": 14,\n198:       \"snippet\": \"More formally, reject any substrate class with any of the following properties:\\n\\n$$\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\text{(R4) no persistent channel separation before readout.}$$\\n\\nThat kills:\"\n199:     },\n200:     {\n201:       \"line\": 664,\n202:       \"tags\": [\n203:         \"S_labels\",\n204:         \"equations\","
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 429,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R8"
+      ],
+      "score": 25,
+      "snippet": "425:         \"checker\"\n426:       ],\n427:       \"score\": 35,\n428:       \"content\": \"\\\\text{(R4) no persistent channel separation before readout.}\",\n429:       \"context\": \"upport coefficients before final collapse. That is what distinguishes\\n\\n$$4,\\\\qquad 7,\\\\qquad 14$$\\n\\nfrom an undifferentiated total amplitude.\\n\\nEverything engineering-relevant reduces to whether a physical regime can instantiate these four.\\n\\n# 2. Immediate eliminations\\n\\nAny regime that only offers scalar state plus external labeling is out.\\n\\nMore formally, reject any substrate class with any of the following properties:\\n\\n$$\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\text{(R4) no persistent channel separation before readout.}$$\\n\\nThat kills:\\n\\nplain scalar memory media, because they fail R2 and R3;\\n\\npure bulk-amplitude systems whose observables are only global totals, because they fail R1 and R4;\\n\\narchitectures where “boundary” is imposed by software rather than existing in the medium itself, because they fail R1;\\n\\narchitectures where local transforms are only permutations or dissipative averaging, because they fail R3.\\n\\nSo the object is already much narrower than “alternative computing.”\\n\\n# 3. Three admissible physical archetypes\\n\\nAt the level of abstract physical form, there are only three archetypes that can plausi\",\n430:       \"status\": [\n431:         \"GENERATED\",\n432:         \"OPEN\",\n433:         \"RAW_EQUATION_ORE\",\n434:         \"NOT_SOURCE_EXTRACTED\",\n435:         \"NOT_CHECKED\""
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 244,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R8"
+      ],
+      "score": 25,
+      "snippet": "240:         \"readout_boundary\",\n241:         \"checker\"\n242:       ],\n243:       \"score\": 25,\n244:       \"snippet\": \"193:         \\\"positive_geometry\\\",\\n194:         \\\"equations\\\",\\n195:         \\\"substrate\\\"\\n196:       ],\\n197:       \\\"score\\\": 14,\\n198:       \\\"snippet\\\": \\\"More formally, reject any substrate class with any of the following properties:\\\\n\\\\n$$\\\\\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\\\\\text{(R4) no persistent channel separation before readout.}$$\\\\n\\\\nThat kills:\\\"\\n199:     },\\n200:     {\\n201:       \\\"line\\\": 664,\\n202:       \\\"tags\\\": [\\n203:         \\\"S_labels\\\",\\n204:         \\\"equations\\\",\\n205:         \\\"substrate\\\"\"\n245:     },\n246:     {\n247:       \"source_file\": \"research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json\",\n248:       \"line\": 403,\n249:       \"categories\": [\n250:         \"Ji\","
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 270,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R8"
+      ],
+      "score": 25,
+      "snippet": "266:         \"readout_boundary\",\n267:         \"checker\"\n268:       ],\n269:       \"score\": 25,\n270:       \"snippet\": \"424:         \\\"corporate\\\",\\n425:         \\\"checker\\\"\\n426:       ],\\n427:       \\\"score\\\": 35,\\n428:       \\\"content\\\": \\\"\\\\\\\\text{(R4) no persistent channel separation before readout.}\\\",\\n429:       \\\"context\\\": \\\"upport coefficients before final collapse. That is what distinguishes\\\\n\\\\n$$4,\\\\\\\\qquad 7,\\\\\\\\qquad 14$$\\\\n\\\\nfrom an undifferentiated total amplitude.\\\\n\\\\nEverything engineering-relevant reduces to whether a physical regime can instantiate these four.\\\\n\\\\n# 2. Immediate eliminations\\\\n\\\\nAny regime that only offers scalar state plus external labeling is out.\\\\n\\\\nMore formally, reject any substrate class with any of the following properties:\\\\n\\\\n$$\\\\\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\\\\\text{(R4) no persistent channel separation before readout.}$$\\\\n\\\\nThat kills:\\\\n\\\\nplain scalar memory media, because they fail R2 and R3;\\\\n\\\\npure bulk-amplitude systems whose observables are only global totals, because they fail R1 and R4;\\\\n\\\\narchitectures where “boundary” is imposed by software rather than existing in the medium itself, because they fail R1;\\\\n\\\\narchitectures where local transforms are only permutations or dissipative averaging, because they fail R3.\\\\n\\\\nSo the object is already much narrower than “alternative computing.”\\\\n\\\\n# 3. Three admissible physical archetypes\\\\n\\\\nAt the level of abstract physical form, there are only three archetypes that can plausi\\\",\\n430:       \\\"status\\\": [\\n431:         \\\"GENERATED\\\",\\n432:         \\\"OPEN\\\",\\n433:         \\\"RAW_EQUATION_ORE\\\",\\n434:         \\\"NOT_SOURCE_EXTRACTED\\\",\\n435:         \\\"NOT_CHECKED\\\"\\n436:       ]\"\n271:     },\n272:     {\n273:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n274:       \"line\": 16551,\n275:       \"categories\": [\n276:         \"Vm\","
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 319,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R8"
+      ],
+      "score": 25,
+      "snippet": "315:         \"engineering_transport\",\n316:         \"readout_boundary\"\n317:       ],\n318:       \"score\": 23,\n319:       \"snippet\": \"19016: \\n19017: Any regime that only offers scalar state plus external labeling is out.\\n19018: \\n19019: More formally, reject any substrate class with any of the following properties:\\n19020: \\n19021: $$\\\\text{(R1) no intrinsic oriented two-pole boundary state;}$$ $$\\\\text{(R2) no native ordered family decomposition;}$$ $$\\\\text{(R3) no orthogonal local quarter-turn transport;}$$ $$\\\\text{(R4) no persistent channel separation before readout.}$$\\n19022: \\n19023: That kills:\\n19024: \\n19025: plain scalar memory media, because they fail R2 and R3;\\n19026: \\n19027: pure bulk-amplitude systems whose observables are only global totals, because they fail R1 and R4;\\n19028: \"\n320:     },\n321:     {\n322:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n323:       \"line\": 19677,\n324:       \"categories\": [\n325:         \"Ji\","
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 17341,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 24,
+      "snippet": "17337:     Arkani-Hamed_2026_Combinatorics…\n17338:     \n17339: \n17340: That is a real object-level gain:  \n17341: the remaining R2↔R3 deficit is now **more specific than “missing grouped law in general.”**\n17342: \n17343: It is now:\n17344: \n17345: **the counting side already has grouped factorization, but it still lacks the cosmology-side additive overlap/subset-sum law above that factorization layer.**\n17346: \n17347: * * *"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 18141,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R13"
+      ],
+      "score": 24,
+      "snippet": "18137: * * *\n18138: \n18139: **ChatGPT:**\n18140: \n18141: **Object:** Does the live R2↔R3 mismatch now reduce exactly to this: the **graph-associahedron/counting vicinity** has the overlap law only at the level of **generic inequalities**, with **equalities appearing only under special saturation/degeneration**, while the **cosmohedron** requires **equalities intrinsically** as part of its primitive grouped law?\n18142: \n18143: **Source contact:** graph-associahedron / sliced cosmological polytope relation\n18144: \n18145: Arkani-Hamed_2024_Cosmohedra_ar…\n18146: \n18147: , cosmohedron combinatorics / intrinsic equalities-plus-inequalities requirement"
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 854,
+      "rows": [
+        "R1",
+        "R2",
+        "R3",
+        "R13"
+      ],
+      "score": 23,
+      "snippet": "850:         \"checker\"\n851:       ],\n852:       \"score\": 32,\n853:       \"content\": \"### Example discriminator (R2 vs R3)\\n\\n* Predicate: `equality_layer_status ∈ {intrinsic, degenerative}`\\n* Check:\\n    * generate small instances (Sage)\\n    * test whether equalities arise only under specialization (Z3/SymPy)\\n* Verdict:\\n    * `CHECKED: intrinsic` (R3)\\n    * `CHECKED: degenerative-only` (R2)\\n\\n### Bottom line\\n\\n* Anchoring to **pre-spacetime geometry** is the right hard ontology.\\n* Prose becomes **mining only**.\\n* The system becomes an **ontological type checker** over that geometry.\\n\\nBut you still need:  \\n**typed representations + explicit invariants + external checkers**—that’s what turns “no errors” from a slogan into a property.\\n\\n* * *\\n\\n**You:**\\n\\nRepresentation, ambiguity, arent these artificers of observer/object and spacetime regime? Language is wrong frame because it introduces a looker and a looked.. \\n\\n* * *\\n\\n**ChatGPT:**\\n\\nYou’re right that **language tends to smuggle in an observer/object split**. But eliminating language doesn’t eliminate representation—it just hides it.\\n\\nEven in a “pure” pre-spacetime geometry program, you still need:\\n\\n* a **specification** of the object (inequalities, combinatorics, recursion, etc.)\\n* a **choice of encoding** (polytope, fan, cluster variables, residues…)\\n* a **notion of equivalence** between encodings\\n* a way to **state and check predicates**\\n\\nThose are all **representations**. They’re not about a “looker”; they’re about **how a structure is made explicit and checkable**.\\n\\n### The clean way to avoid the observer trap\\n\\nDon’t try to remove representation. Instead:\\n\\n**Make representation internal to the object and quotient it out.**\\n\\nDefine:\",\n854:       \"context\": \"ants (must hold)**\\n\\n* boundary/face-lattice validity\\n* factorization on facets\\n* descent consistency\\n* equality-layer typing (intrinsic vs degenerative)\\n* symmetry compatibility\\n\\n**Pipeline**\\n\\n```\\nSOURCE (paper) \\n→ EXTRACTED (candidate defs)\\n→ GENERATED (typed object)\\n→ CHECKED (Sage/Z3/Lean)\\n→ LEDGER (only CHECKED is authoritative)\\n```\\n\\n**Admissibility rule**\\n\\n```\\nA frame = (representation, claims)\\n\\nAccept iff:\\n  preserves invariants\\n  ∧ passes checks\\n\\nElse:\\n  REJECTED / UNDER-SPECIFIED / OPEN\\n```\\n\\n### Example discriminator (R2 vs R3)\\n\\n* Predicate: `equality_layer_status ∈ {intrinsic, degenerative}`\\n* Check:\\n    * generate small instances (Sage)\\n    * test whether equalities arise only under specialization (Z3/SymPy)\\n* Verdict:\\n    * `CHECKED: intrinsic` (R3)\\n    * `CHECKED: degenerative-only` (R2)\\n\\n### Bottom line\\n\\n* Anchoring to **pre-spacetime geometry** is the right hard ontology.\\n* Prose becomes **mining only**.\\n* The system becomes an **ontological type checker** over that geometry.\\n\\nBut you still need:  \\n**typed representations + explicit invariants + external checkers**—that’s what turns “no errors” from a slogan into a property.\\n\\n* * *\\n\\n**You:"
+    },
+    {
+      "source_file": "research_ledger/R1_R14_DISCRIMINATOR_LEDGER.md",
+      "line": 47,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R13"
+      ],
+      "score": 23,
+      "snippet": "43: | R9 | Grouped carriers | Family admits grouped carriers / grouped subsets supporting factorization or compatibility data. | THREAD-SUPPORTED | Shared by graph-associahedral/cosmological and cosmohedral side; not enough to distinguish R2/R3. |\n44: | R10 | Grouped parameters / weights | Family has grouped parameters such as `delta_P` / grouped weights. | THREAD-SUPPORTED | Shared lower layer between graph-associahedral vicinity and cosmohedral construction. |\n45: | R11 | Grouped factorization | Factorization is expressible at grouped-carrier/grouped-parameter level. | THREAD-SUPPORTED | Shared lower layer; does not separate R2/R3. |\n46: | R12 | Overlap / submodular inequality law | Grouped parameters obey overlap/submodular inequalities of the form `delta_P + delta_P' <= delta_union + delta_intersection`. | SOURCE-BACKED / THREAD-SUPPORTED | Shared by generalized-permutahedron / graph-associahedron side and cosmohedron-related grouped laws; not the final R2/R3 discriminator. |\n47: | R13 | Equality-layer status | Equality layer is typed as absent / generic inequality / degenerate equality / intrinsic equality. | THREAD-SUPPORTED | Current strongest R2/R3 discriminator: graph-associahedral vicinity reaches equalities by specialization/degeneration; cosmohedron requires many equalities intrinsically in its grouped compatibility law. |\n48: | R14 | Missing grouped-carrier equation / full class-matrix deficit | The exact equation layer and class matrix must be source-bound and formalized across all surviving rows/classes. | DEFICIT / OPEN | Not solved. This is the known gap: complete R1-R14 × class matrix, source bindings, proof/check obligations, and unresolved discriminators. |\n49: \n50: ## Current solved comparison\n51: \n52: ### R2/R3 branch comparison\n53: "
+    },
+    {
+      "source_file": "research_ledger/REALIZATION_CLASS_MATRIX.md",
+      "line": 18,
+      "rows": [
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13"
+      ],
+      "score": 23,
+      "snippet": "14: ## Pairwise comparison status\n15: \n16: | Pair | Status | Shared rows | Separating rows | Verdict |\n17: |---|---|---|---|---|\n18: | `GAssoc` vs `C` | THREAD-SUPPORTED | R9, R10, R11, R12 | R13 | Distinct but ordered: `C <= GAssoc` as equality-saturated specialization/refinement. |\n19: | `A` vs `C` | PARTIAL | R1 | R2, R3 candidate | Cosmohedron carries additional local move multiplicity and nested-history burden in current finite baseline. Needs source-bound formalization. |\n20: | `M1` vs `C` | PARTIAL | R1 | R2, R3 candidate | Cosmohedron carries additional local move multiplicity and nested-history burden. `M1` sign descent has one basic primitive in current baseline. |\n21: | `A` vs `M1` | OPEN/PARTIAL | R1 | none currently finalized | Both share unit descent but have different native representations; no finalized realization-class verdict uploaded. |\n22: | `S` vs `A` | OPEN | unknown | unknown | Surfaceology not yet on equal global footing. |\n23: | `S` vs `M1` | OPEN | unknown | unknown | Surfaceology not yet on equal global footing. |\n24: | `S` vs `C` | OPEN | local update/factorization motifs possible | unknown | Surfaceology exact local baseline exists, but global family footing incomplete. |"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 9575,
+      "rows": [
+        "R9",
+        "R11",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "9571: * * *\n9572: \n9573: **ChatGPT:**\n9574: \n9575: **Object:** Does the current corpus support that the missing grouped-object variable layer, if it exists, already has a **minimal grouped-object signature**: its own variables, its own equations, its own partial order, its own closure operator, and its own factorization law?\n9576: \n9577: **Source contact:** counting / valid closed subsets and sub-representation origin\n9578: \n9579: Arkani-Hamed_2023_All-Loop-Scat…\n9580: \n9581: Arkani-Hamed_2023_All-Loop-Scat…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 10148,
+      "rows": [
+        "R4",
+        "R9",
+        "R11"
+      ],
+      "score": 22,
+      "snippet": "10144: * * *\n10145: \n10146: **ChatGPT:**\n10147: \n10148: **Object:** Does the current corpus support that a **finite closure/poset system alone** is sufficient as the common comparison language, or must that language already be enriched by **grouped-object equations and factorization operations**?\n10149: \n10150: **Source contact:** counting / valid **closed** subsets and sub-representation origin\n10151: \n10152: Arkani-Hamed_2023_All-Loop-Scat…\n10153: \n10154: Arkani-Hamed_2023_All-Loop-Scat…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 10180,
+      "rows": [
+        "R4",
+        "R9",
+        "R11"
+      ],
+      "score": 22,
+      "snippet": "10176:     \n10177:     Arkani-Hamed_2024_Cosmohedra_ar…\n10178:     \n10179: \n10180: So the common comparison language can begin as a finite closure/poset system, but the actual faithful comparison must be **enriched** by grouped-object equations and factorization operations.\n10181: \n10182: * * *\n10183: \n10184: **You:**\n10185: \n10186: Continue"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 12734,
+      "rows": [
+        "R1",
+        "R9",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "12730: * * *\n12731: \n12732: **ChatGPT:**\n12733: \n12734: **Object:** Does the current corpus support that the **first preserved structure** under the still-missing descent from **quiver sub-representations** to the **valid-closed-subset / $F$-polynomial layer** is the **subobject/closure backbone**, rather than the full $F$-polynomial readout or any grouped-equation layer?\n12735: \n12736: **Source contact:** counting / quiver-subrepresentation origin of the counting problem\n12737: \n12738: Arkani-Hamed_2023_All-Loop-Scat…\n12739: \n12740: , counting / valid closed subsets of mountainscapes and associated $F$-polynomials"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 12892,
+      "rows": [
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "12888: \n12889: **Verdict:** **SUPPORTED**\n12890: \n12891: **Why:**  \n12892: The counting-side corpus already gives the **$F$-polynomial** as an invariant attached to valid closed subsets, but the live mismatch with the cosmology branch is not “missing one more invariant.” It is the absence of an explicit **grouped-object equation/identity layer** comparable to the Matryoshka-side equations on grouped carriers.\n12893: \n12894: Arkani-Hamed_2023_All-Loop-Scat…\n12895: \n12896: Arkani-Hamed_2024_Cosmohedra_ar…\n12897: \n12898:   "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15368,
+      "rows": [
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "15364: * * *\n15365: \n15366: **ChatGPT:**\n15367: \n15368: **Object:** Do the cited source-side references support that, after the **downward-closed / antichain closure structure** on admissible quiver-side carriers, the next source-side layer they actually expose is already the **Euler-characteristic / Ringel–Hall readout layer**, rather than an explicit **grouped-carrier equation layer** analogous to the Matryoshka-side equations?\n15369: \n15370: **Source contact:** counting paper’s source-side origin claim and citation of the quiver references\n15371: \n15372: Arkani-Hamed_2023_All-Loop-Scat…\n15373: \n15374: Arkani-Hamed_2023_All-Loop-Scat…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15386,
+      "rows": [
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "15382: \n15383: * a **carrier/order/closure layer**: subrepresentation posets ordered by inclusion, downward-closed subsets, maximal elements, and antichains, [Springer](https://link.springer.com/article/10.1007/s13366-017-0359-1)\n15384: * then a **readout/algebra layer**: Euler characteristics of quiver Grassmannians / flag varieties and combinatorial **Ringel–Hall products**. [ResearchGate](https://www.researchgate.net/publication/226655984_Euler_Characteristics_of_Quiver_Grassmannians_and_Ringel-Hall_Algebras_of_String_Algebras)\n15385: \n15386: What they do **not** expose in between, at least from the material currently on the table, is an explicit **grouped-carrier equation layer** parallel to the cosmohedron side’s grouped equations on partial triangulations / Matryoshkas. So the source-side literature presently looks like it jumps from **carrier/closure structure** to **Euler/Hall readout**, with the grouped-equation layer still missing.\n15387: \n15388: * * *\n15389: \n15390: **You:**\n15391: \n15392: Continue"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15404,
+      "rows": [
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "15400: * * *\n15401: \n15402: **ChatGPT:**\n15403: \n15404: **Object:** Do the cited source-side quiver references already provide an **explicit grouped-carrier equation layer** analogous to the Matryoshka-side grouped equations, or do they still stop at **carrier / nested admissibility / order / closure** plus later **Euler-characteristic / Hall** readouts?\n15405: \n15406: **Source contact:** counting paper’s source-side origin claim and quiver references\n15407: \n15408: Arkani-Hamed_2023_All-Loop-Scat…\n15409: \n15410: Arkani-Hamed_2023_All-Loop-Scat…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15422,
+      "rows": [
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "15418: \n15419: * **quiver Grassmannians** give the carrier for single subrepresentations,\n15420: * **quiver flag varieties** give the nested-chain carrier,\n15421: * and the quiver-poset work gives inclusion-order / downward-closed / antichain structure. [ResearchGate+1](https://www.researchgate.net/publication/51911068_Quiver_Grassmannians_and_degenerate_flag_varieties?utm_source=chatgpt.com)  \n15422:     But it still does **not** give an explicit **grouped-carrier equation layer** parallel to the cosmology side’s new equations on partial triangulations / subpolygons / Matryoshkas. The next visible layer in Haupt is already **Euler characteristics** and **Ringel–Hall** readout, not grouped equations on the carrier layer itself. [ResearchGate+1](https://www.researchgate.net/publication/226655984_Euler_Characteristics_of_Quiver_Grassmannians_and_Ringel-Hall_Algebras_of_String_Algebras?utm_source=chatgpt.com)\n15423: \n15424: * * *\n15425: \n15426: **You:**\n15427: \n15428: Continue"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15490,
+      "rows": [
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "15486: \n15487: **Verdict:** **SUPPORTED**\n15488: \n15489: **Why:**  \n15490: Yes. The imported source-side literature now exposes a partial chain, but it still has a hole in exactly the place we need. It gives explicit **carrier structure** for single subrepresentations and nested chains through quiver Grassmannians and quiver flag varieties, and then it gives **readout/algebraic output** through Euler characteristics and Ringel–Hall products. But it does **not** provide an explicit intermediate **grouped-carrier equation layer** parallel to the Matryoshka-side grouped equations on partial triangulations / subpolygons. So the next exact source-side move is no longer more extraction. It is a **construction task**: build that missing grouped-equation layer **between** the quiver carrier/flag layer and the Euler/Hall layer.\n15491: \n15492: Arkani-Hamed_2023_All-Loop-Scat…\n15493: \n15494: [ResearchGate+1](https://www.researchgate.net/publication/226655984_Euler_Characteristics_of_Quiver_Grassmannians_and_Ringel-Hall_Algebras_of_String_Algebras?utm_source=chatgpt.com)\n15495: \n15496: * * *"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15569,
+      "rows": [
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "15565: \n15566: * source-side **carriers**: quiver Grassmannians for subrepresentations and quiver flag varieties for nested chains of subrepresentations, [ResearchGate+1](https://www.researchgate.net/publication/226655984_Euler_Characteristics_of_Quiver_Grassmannians_and_Ringel-Hall_Algebras_of_String_Algebras?utm_source=chatgpt.com)\n15567: * then **readouts**: Euler characteristics, positivity, Poincaré-type data, and Ringel–Hall products. [ResearchGate+1](https://www.researchgate.net/publication/226655984_Euler_Characteristics_of_Quiver_Grassmannians_and_Ringel-Hall_Algebras_of_String_Algebras?utm_source=chatgpt.com)\n15568: \n15569: What they still do **not** expose is an explicit **grouped-carrier equation/identity layer** analogous to the cosmology side’s new equations on partial triangulations / Matryoshkas. So the live source-side work object remains exactly that missing intermediate layer.\n15570: \n15571: * * *\n15572: \n15573: **You:**\n15574: \n15575: Continue"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 15627,
+      "rows": [
+        "R3",
+        "R9",
+        "R14"
+      ],
+      "score": 22,
+      "snippet": "15623: Arkani-Hamed_2023_All-Loop-Scat…\n15624: \n15625: Arkani-Hamed_2023_All-Loop-Scat…\n15626: \n15627: ; Haupt’s abstract moves from quiver Grassmannians / quiver flag varieties to **combinatorial Ringel–Hall products**, i.e. a higher readout/algebra layer, not explicit equations on primitive grouped carriers. The cosmology-side mismatch remains explicit at the **grouped-carrier equation** layer: new equations on **partial triangulations / subpolygons / Matryoshkas**.\n15628: \n15629: **Verdict:** **SUPPORTED**\n15630: \n15631: **Why:**  \n15632: Yes. The Ringel–Hall layer is the first plausible **surrogate law** on the source side, but it still sits **above** the carrier layer: Haupt goes from quiver Grassmannians / quiver flag varieties to **Euler characteristics** and **combinatorial Ringel–Hall products**, not to equations written directly on chains of subrepresentations.  \n15633: By contrast, the live target on the cosmology side is explicitly a **grouped-carrier equation layer** on **Matryoshkas / partial triangulations / subpolygons**."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 18036,
+      "rows": [
+        "R9",
+        "R10",
+        "R13"
+      ],
+      "score": 22,
+      "snippet": "18032: * * *\n18033: \n18034: **ChatGPT:**\n18035: \n18036: **Object:** Does the counting / graph-associahedron side already have the **same intrinsic equality layer** on grouped parameters as the cosmology side, or do equalities appear there only as a **special degeneration/slicing** rather than as the primitive grouped law itself?\n18037: \n18038: **Source contact:** on the graph-associahedron side, the sliced cosmological polytope is obtained by a **degeneration** of the graph associahedron where many inequalities **saturate**:\n18039: \n18040: $$\\delta_P+\\delta_{P'}<\\delta_{P\\cup P'}+\\delta_{P\\cap P'} \\ \\text{in special cases},\\qquad  \n18041: \\delta_P+\\delta_{P'}=\\delta_{P\\cup P'}+\\delta_{P\\cap P'} \\ \\text{otherwise}.$$\n18042: "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 21366,
+      "rows": [
+        "R1",
+        "R3",
+        "R13"
+      ],
+      "score": 22,
+      "snippet": "21362:     “Scrape facet equations using ε-regular expressions → SymPy” is not serious for these papers. The definitions are not just clean equation lists. They are embedded in prose, diagrams, recursive combinatorics, conventions, and sometimes implicit constructions.\n21363: 2. **Canonical form extraction is not automatic like that**  \n21364:     The canonical form is often the object of the paper, not a field you scrape. Sometimes it is recursive, triangulation-dependent, defined by residues, or only indirectly characterized.\n21365: 3. **“Detect facets whose equation kills exactly one variable” is too naive**  \n21366:     Descent/factorization limits in positive geometry are not generally “kill one variable.” They can be boundary strata, degeneration limits, nested structures, tube contractions, residues, soft limits, or equality-saturation regimes.\n21367: 4. **The row vector loses the structure we care about**  \n21368:     Flattening everything into: $$(D|C|F|P|Q|R)$$ destroys typed distinctions:\n21369:     * source-backed vs generated\n21370:     * equality intrinsic vs equality degenerate\n21371:     * generic inequality vs saturated specialization\n21372:     * presentation artifact vs realization-class discriminator"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 17297,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R11"
+      ],
+      "score": 21,
+      "snippet": "17293: * * *\n17294: \n17295: **ChatGPT:**\n17296: \n17297: **Object:** Does the counting/surfaceology side already have an explicit **grouped factorization law** at its own grouped-carrier level, so that the remaining R2↔R3 mismatch is **not factorization itself** but the stronger **additive overlap / subset-sum law** on top of factorization?\n17298: \n17299: **Source contact:** on the counting side, the paper defines the **graph associahedron** $A_G$ for a tubing/russian-doll graph and states the facet factorization law\n17300: \n17301: $$\\mathrm{Facet}_T(A_G)=A_T\\times A_{G/T}.$$\n17302: \n17303: Arkani-Hamed_2024_Cosmohedra_ar…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 17677,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R10"
+      ],
+      "score": 21,
+      "snippet": "17673: * * *\n17674: \n17675: **ChatGPT:**\n17676: \n17677: **Object:** Does the cosmology-side branch itself also have a **primitive grouped-carrier weight layer derived from singleton-local data**, so that the live R2↔R3 mismatch is **not** at the level of grouped weights per se, but at the later **extra geometric $\\delta/\\epsilon$** law?\n17678: \n17679: **Source contact:** on the cosmology side, the flat-space wavefunction is explicitly written as a sum over maximal collections $P$ of non-overlapping subpolygons,\n17680: \n17681: $$\\Psi=\\sum_{P}\\prod_{P\\subset P}\\frac{1}{P_P},$$\n17682: \n17683: where each grouped carrier $P$ contributes its perimeter $P_P$, and that perimeter is the sum of the edge energies $|\\vec k_i|$ around the subpolygon."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 17826,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R10"
+      ],
+      "score": 21,
+      "snippet": "17822: * * *\n17823: \n17824: **ChatGPT:**\n17825: \n17826: **Object:** Does the counting/surfaceology branch itself already reach a **primitive grouped-carrier layer with grouped weights** — at the level of **tubes / tubings / graph associahedra** — so that the remaining R2↔R3 mismatch is **not** about grouped carriers or grouped weights, but specifically about the extra **$\\delta/\\epsilon$** overlap law on top of them?\n17827: \n17828: **Source contact:** on the counting/cosmological-graph side, each term in the russian-doll sum is associated with a maximal collection of non-overlapping **tubes**, and the weights include the **perimeters** of the corresponding subpolygons; the graph associahedron $A_G$ has facets = tubes, vertices = complete tubings, and faces = partial tubings.\n17829: \n17830: Arkani-Hamed_2024_Cosmohedra_ar…\n17831: \n17832: Arkani-Hamed_2024_Cosmohedra_ar…"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 17899,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R10"
+      ],
+      "score": 21,
+      "snippet": "17895: * * *\n17896: \n17897: **ChatGPT:**\n17898: \n17899: **Object:** Does the “counting / graph-associahedron” side already introduce its **own primitive grouped-parameter layer** on grouped carriers — namely tube parameters $\\delta_P$ in the graph-associahedron inequalities — so that the remaining R2↔R3 mismatch is **not** “primitive grouped parameters vs none,” but the **stronger overlap law imposed on those parameters**?\n17900: \n17901: **Source contact:** on the graph-associahedron side, grouped carriers are **tubes / tubings**, and the polytope is cut out by facet inequalities involving **tube parameters** $\\delta_P$. In the cosmohedron paper this appears explicitly when comparing the graph-associahedron inequality for a large tube $P$ with right-hand side $\\delta_P+\\sum_{v\\notin P}\\delta_v$.\n17902: \n17903: Arkani-Hamed_2024_Cosmohedra_ar…\n17904: \n17905: Arkani-Hamed_2024_Cosmohedra_ar…"
+    },
+    {
+      "source_file": "research_ledger/COMPARATOR_PACKAGE_REGISTER.md",
+      "line": 15,
+      "rows": [
+        "R2",
+        "R3",
+        "R9",
+        "R13"
+      ],
+      "score": 21,
+      "snippet": "11: | `M1` vs `C` | PARTIAL | R1-R3 | Compare sign descent vs Matryoshka descent. |\n12: | `A` vs `M1` | OPEN/PARTIAL | R1 | Decide whether shared unit descent is merely weak common layer or has stronger relation. |\n13: | `S` vs `A` | MISSING | surfaceology rows, R1? | Put surfaceology on equal footing; compare curve/u binary geometry to associahedron. |\n14: | `S` vs `M1` | MISSING | surfaceology rows, binary/sign rows | Compare surface binary u-variables to amplituhedron binary sign-flip structure. |\n15: | `S` vs `C` | MISSING | surfaceology rows, R2/R3/R9-R13 | Test whether nested/surface structures share deeper rows. |\n16: | `PGfinite` vs `S` | PARTIAL | R4-R8 plus surfaceology rows | Compare exact finite top-cell branch to curve/u-variable surface branch. |\n17: | Momentum amplituhedron vs ordinary amplituhedron | MISSING | representation rows | Track same amplitude object across momentum-twistor vs spinor-helicity geometry. |\n18: | Loop momentum amplituhedron vs amplituhedron | MISSING | loop/global momentum rows | Check global loop momentum / singularity-boundary correspondence. |\n19: | Amplituhedron vs Amplituhedron-Prime | MISSING | boundary/bulk caution rows | Encode same-boundary/same-form/different-bulk warning. |\n20: | Scalar-scaffolded gluons vs Tr(phi3) | MISSING | scaffolding/shift/gauge rows | Extract shift, gauge invariance, factorization, transmutation rows. |\n21: | Hidden zeros vs associahedron | MISSING | zero/factorization rows | Extract hidden-zero and factorization-near-zero row candidates. |"
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 1227,
+      "rows": [
+        "R10",
+        "R11",
+        "R12",
+        "R14"
+      ],
+      "score": 21,
+      "snippet": "1223:       \"line\": 230,\n1224:       \"roles\": [],\n1225:       \"score\": 5,\n1226:       \"content\": \"* **strengthens:** R02, R08, R09, R11\",\n1227:       \"context\": \"    * unresolved\\n\\nMain decisions:\\n\\n* **strengthens:** R02, R08, R09, R11\\n* **matches:** R01, R10\\n* **branch-specific / non-equality:** R04\\n* **sharp unresolved discriminator:** R12\\n* **real current deficit:** R14\",\n1228:       \"status\": [\n1229:         \"GENERATED\",\n1230:         \"OPEN\",\n1231:         \"RAW_DEFINITION_ORE\",\n1232:         \"NOT_SOURCE_EXTRACTED\",\n1233:         \"NOT_CHECKED\""
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 1244,
+      "rows": [
+        "R10",
+        "R11",
+        "R12",
+        "R14"
+      ],
+      "score": 21,
+      "snippet": "1240:       \"line\": 231,\n1241:       \"roles\": [],\n1242:       \"score\": 5,\n1243:       \"content\": \"* **matches:** R01, R10\",\n1244:       \"context\": \"\\nMain decisions:\\n\\n* **strengthens:** R02, R08, R09, R11\\n* **matches:** R01, R10\\n* **branch-specific / non-equality:** R04\\n* **sharp unresolved discriminator:** R12\\n* **real current deficit:** R14\\n\",\n1245:       \"status\": [\n1246:         \"GENERATED\",\n1247:         \"OPEN\",\n1248:         \"RAW_DEFINITION_ORE\",\n1249:         \"NOT_SOURCE_EXTRACTED\",\n1250:         \"NOT_CHECKED\""
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 1261,
+      "rows": [
+        "R10",
+        "R11",
+        "R12",
+        "R14"
+      ],
+      "score": 21,
+      "snippet": "1257:       \"line\": 233,\n1258:       \"roles\": [],\n1259:       \"score\": 5,\n1260:       \"content\": \"* **sharp unresolved discriminator:** R12\",\n1261:       \"context\": \"\\n* **strengthens:** R02, R08, R09, R11\\n* **matches:** R01, R10\\n* **branch-specific / non-equality:** R04\\n* **sharp unresolved discriminator:** R12\\n* **real current deficit:** R14\\n\\nWhy these are the right calls:\\n\",\n1262:       \"status\": [\n1263:         \"GENERATED\",\n1264:         \"OPEN\",\n1265:         \"RAW_DEFINITION_ORE\",\n1266:         \"NOT_SOURCE_EXTRACTED\",\n1267:         \"NOT_CHECKED\""
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 19616,
+      "rows": [
+        "R2",
+        "R9",
+        "R13"
+      ],
+      "score": 20,
+      "snippet": "19612:     * comparison-result records\n19613:     * deficit/open-discriminator records\n19614:     * authority/provenance links back to `exact_work`\n19615: 3. **Add the R2–R3 discriminator as a checked pipeline object.**  \n19616:     Current result to encode: **R2 / graph-associahedral vicinity** = generic grouped-parameter regime; equalities appear by saturation/degeneration.  \n19617:     **R3 / cosmohedral** = equality-saturated grouped law intrinsic to the realization. That should become a typed comparison record, not just a paragraph.\n19618: 4. **Extend the pipeline beyond the toy `grassmannian_small` proxy.**  \n19619:     Right now the runnable slice is real but MVP-level: it generates a Catalan-style proxy family, proposes a deterministic recurrence, checks/stresses it, and compiles a substrate draft.\n19620:     \n19621:     Pasted text\n19622:     "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 17970,
+      "rows": [
+        "R9",
+        "R10",
+        "R12"
+      ],
+      "score": 19,
+      "snippet": "17966: * * *\n17967: \n17968: **ChatGPT:**\n17969: \n17970: I’m taking the next exact cut at the live hinge: whether the graph-associahedron side already has the **same formal overlap/submodular law on grouped parameters**, which would push the mismatch even higher.\n17971: \n17972: * * *\n17973: \n17974: **ChatGPT:**\n17975: \n17976: **Object:** Does the counting/graph-associahedron side already satisfy the **same formal overlap law** on grouped parameters as the cosmology side, so that the remaining R2↔R3 mismatch is **not** submodularity/overlap itself but the stronger **extra equalities / nontransversal-gluing law** of the cosmohedron?"
+    },
+    {
+      "source_file": "research_ledger/COMPARATOR_PACKAGE_REGISTER.md",
+      "line": 9,
+      "rows": [
+        "R9",
+        "R12",
+        "R13"
+      ],
+      "score": 19,
+      "snippet": "5: ## Comparator packages\n6: \n7: | Comparator | State | Rows involved | Required next work |\n8: |---|---|---|---|\n9: | `GAssoc` vs `C` | PRESENT/PARTIAL | R9-R13 including R12 | Source-bind R12 cosmohedron submodular-compatibility law and R13 degenerate-vs-intrinsic equality. |\n10: | `A` vs `C` | PARTIAL | R1-R3 | Formalize local move multiplicity and nested-history burden. |\n11: | `M1` vs `C` | PARTIAL | R1-R3 | Compare sign descent vs Matryoshka descent. |\n12: | `A` vs `M1` | OPEN/PARTIAL | R1 | Decide whether shared unit descent is merely weak common layer or has stronger relation. |\n13: | `S` vs `A` | MISSING | surfaceology rows, R1? | Put surfaceology on equal footing; compare curve/u binary geometry to associahedron. |\n14: | `S` vs `M1` | MISSING | surfaceology rows, binary/sign rows | Compare surface binary u-variables to amplituhedron binary sign-flip structure. |\n15: | `S` vs `C` | MISSING | surfaceology rows, R2/R3/R9-R13 | Test whether nested/surface structures share deeper rows. |"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer New - Extraction Coverage Matrix.md",
+      "line": 21377,
+      "rows": [
+        "R2",
+        "R3",
+        "R13"
+      ],
+      "score": 18,
+      "snippet": "21373:     * row/discriminator vs realization classThat is exactly the collapse we were trying to avoid.\n21374: 5. **Clustering is the wrong authority mechanism**  \n21375:     Realization classes should not be produced by single-linkage clustering and arbitrary distance weights. That gives similarity classes, not mathematical realization classes. R2 and R3, for example, are not “close/far” in a vector space. They are **ordered but distinct**: R3 is an equality-saturated specialization/refinement of the generic R2-type regime.\n21376: 6. **Distance metrics would hide the live hinge**  \n21377:     The decisive R2↔R3 discriminator is not a large Hamming/Frobenius/ℓ² distance. It is a structural relation: **same lower layers; different status of equality layer.** A numerical distance table could easily miss that.\n21378: 7. **“Cut dendrogram at obvious distinctions” is circular**  \n21379:     If you already know the obvious distinctions, the clustering is not discovering realization classes. It is being tuned to reproduce prior belief.\n21380: 8. **The “equality-layer quiver” is vague**  \n21381:     This is close to something important, but as written it is not defined enough. Equality layers need typed status:\n21382:     * absent\n21383:     * generic inequality only"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 2103,
+      "rows": [
+        "R1",
+        "R7"
+      ],
+      "score": 16,
+      "snippet": "2099: There exists a unique semantics map\n2100: \n2101: $$\\Omega:X\\to \\mathcal O$$\n2102: \n2103: such that $\\Omega(x)$ is recursively determined by codim-1 boundary data. In the strong positive-geometry model this is residue recursion:\n2104: \n2105: $$\\operatorname{Res}_{f}\\Omega(x)=\\sigma(x,f)\\,\\Omega(f)$$\n2106: \n2107: for each codim-1 boundary $f\\in \\partial_1 x$, with $\\sigma$ an orientation/sign datum.\n2108: \n2109: More generally, if the substrate is not differential-form valued, the recursion can be abstracted as:"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 12930,
+      "rows": [
+        "R1",
+        "R8"
+      ],
+      "score": 16,
+      "snippet": "12926: Work.\n12927: \n12928: The geometric meaning of the first obstruction bundle is:\n12929: \n12930: $$\\boxed{\\mathcal W_1 \\text{ is an intrinsic }D_m\\text{-root bundle of oriented codim-1 residue families}}$$\n12931: \n12932: with\n12933: \n12934: $$m=n-3.$$\n12935: \n12936: I will derive that exactly."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 17057,
+      "rows": [
+        "R1",
+        "R5"
+      ],
+      "score": 16,
+      "snippet": "17053: ## 6. What this actually gives\n17054: \n17055: The two solved branches are now unified exactly:\n17056: \n17057: $$\\boxed{\\text{top interaction coefficient} = \\text{signed count of fully supporting facets}.}$$\n17058: \n17059: Not a pattern guess.  \n17060: Not a heuristic.  \n17061: A structural reduction.\n17062: \n17063: So the next finite-type case does **not** require inventing a new obstruction mechanism first. It requires:"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 17351,
+      "rows": [
+        "R1",
+        "R6"
+      ],
+      "score": 16,
+      "snippet": "17347: ## 2. Which facets contribute?\n17348: \n17349: The general support law already established says: the coefficient of a given wedge is the signed count of facets fully supporting the corresponding channel chain.\n17350: \n17351: For generalized associahedra, facets correspond to almost positive roots. The piecewise-linear $\\tau$-action preserves compatibility, and for $w_0\\neq -1$ its order is $h+2$. For $E_6$, $h=12$, so $\\tau$ has order $14$. Also, $E_6$ has $72$ roots, hence $36$ positive roots and $42$ almost positive roots total. [Paperzz+1](https://paperzz.com/doc/7159887/y-systems-and-generalized-associahedra?utm_source=chatgpt.com)\n17352: \n17353: Now use the involution data:\n17354: \n17355: * $1\\leftrightarrow 6$,\n17356: * $3\\leftrightarrow 5$,\n17357: * $2,4$ fixed. [MDPI](https://www.mdpi.com/2075-1680/14/6/423?utm_source=chatgpt.com)"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 18341,
+      "rows": [
+        "R5",
+        "R6"
+      ],
+      "score": 16,
+      "snippet": "18337: The support node for $\\omega_D$ is node $1$, which is fixed by the diagram involution. So by the solved coefficient law,\n18338: \n18339: $$C_D=\\frac{h+2}{2}=\\frac{2n}{2}=n.$$\n18340: \n18341: The support nodes for $\\omega_A^\\pm$ are the fork leaves $n-1,n$, which are paired under the involution. So\n18342: \n18343: $$C_A=h+2=2n.$$\n18344: \n18345: Hence:\n18346: \n18347: ### Theorem"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 18625,
+      "rows": [
+        "R5",
+        "R8"
+      ],
+      "score": 16,
+      "snippet": "18621: The exact positive-Grassmannian finite-type top-cell branch is closed enough to compress into an engineering-phase target. The finite cluster-type top-cell cases on the Grassmannian side are $Gr(2,n)$, $Gr(3,6)$, and $Gr(3,7)$, together with the dual cases $Gr(n-2,n)$ and $Gr(4,7)$. In cluster type language these are $A_{n-3}$, $D_4$, and $E_6$. [OUP Academic+1](https://academic.oup.com/plms/article/92/2/345/1501350?utm_source=chatgpt.com)\n18622: \n18623: So stop expanding the top-cell finite-type tree. The engineering target is this:\n18624: \n18625: $$\\boxed{\\text{realize the static residue base, the root-bundle transport, and the top interaction coefficients on }A,\\ D_4,\\ E_6.}$$\n18626: \n18627: Everything essential we derived collapses to three layers.\n18628: \n18629: First layer: static geometry.\n18630: \n18631: $$Gr_+(0,n):\\ \\Omega=1,  "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 18638,
+      "rows": [
+        "R1",
+        "R8"
+      ],
+      "score": 16,
+      "snippet": "18634: \n18635: This is the non-negotiable base. Any substrate that cannot realize the terminal atom and the simplex residue recursion is already below the object.\n18636: \n18637: Second layer: intrinsic root bundle.  \n18638: For a local ordered seed with $m$ mutable families, the first faithful obstruction layer is the rank-$m$ orthogonal bundle of oriented codim-1 residue-family lines. Local adjacent $A_2$ moves act by quarter-turns on the corresponding $2$-planes. On the solved finite-type top-cell branches this carries the exact Weyl-type holonomy we already isolated:\n18639: \n18640: * $A$-branch via the transported static chain model,\n18641: * $D_4$ branch as the first nonabelian intrinsic case,\n18642: * $E_6$ branch as the first multi-component exceptional case.\n18643: \n18644: Third layer: top interaction class.  "
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 18665,
+      "rows": [
+        "R5",
+        "R8"
+      ],
+      "score": 16,
+      "snippet": "18661: Pass condition: the system realizes the two boundary states, the oriented residue sign split $+1/-1$, and the basic logarithmic recursion. This is the static substrate atom.\n18662: \n18663: $$\\boxed{\\text{Benchmark 1: }Gr_+(3,6)\\ (\\text{type }D_4)}$$\n18664: \n18665: Pass condition: the system realizes a rank-$4$ intrinsic root bundle with local quarter-turn transport and the triality-symmetric top interaction coefficient $4$. This is the first faithful nonabelian obstruction layer.\n18666: \n18667: $$\\boxed{\\text{Benchmark 2: }Gr_+(3,7)\\ (\\text{type }E_6)}$$\n18668: \n18669: Pass condition: the system realizes the first genuinely multi-component top interaction class, with the fixed-node/paired-node split\n18670: \n18671: $$7:14.$$"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 19632,
+      "rows": [
+        "R6",
+        "R8"
+      ],
+      "score": 16,
+      "snippet": "19628: ## 2. What is settled vs unsettled\n19629: \n19630: Settled enough to use as constraints:\n19631: \n19632: $$Gr_+(0,n),\\ Gr_+(1,n)\\text{ static residue base}$$ $$\\text{intrinsic root-bundle layer}$$ $$\\text{local quarter-turn }A_2\\text{ transport}$$ $$\\text{fixed-vs-paired support coefficient law on the solved finite-type top-cell branches}$$\n19633: \n19634: Not settled enough to commit engineering around:\n19635: \n19636: $$\\text{whether CRBSM is the right realization class}$$ $$\\text{whether scattering-native realizations satisfy the same constraints better}$$ $$\\text{how the persistent support/relay ledger is physically realized}$$ $$\\text{whether higher / continuous branches force a different substrate picture}$$\n19637: \n19638: So the commitment boundary is clear: **we are still pre-substrate-selection.**"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 22487,
+      "rows": [
+        "R5",
+        "R7"
+      ],
+      "score": 16,
+      "snippet": "22483: * * *\n22484: \n22485: **ChatGPT:**\n22486: \n22487: I’ve added class-level coefficient representatives and coefficient-level residue recursion. I’m wiring those into the umbrella import and updating the status file so the repo itself reflects the new formalization boundary exactly.\n22488: \n22489: * * *\n22490: \n22491: **ChatGPT:**\n22492: \n22493: Continued."
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 22571,
+      "rows": [
+        "R1",
+        "R7"
+      ],
+      "score": 16,
+      "snippet": "22567: \n22568: What is **still not finished**:\n22569: \n22570: * full cohomology-class formalization of $$[\\mu_{Gr_+(2,n)}],\\quad [\\mu_{Gr_+(3,6)}],\\quad [\\mu_{Gr_+(3,7)}]$$ as actual class objects rather than coefficient-bearing representatives\n22571: * full geometry-level residue recursion $$\\operatorname{Res}_Y(\\mu_\\Gamma)=\\pm\\mu_{\\Gamma'}$$ against a concrete Lean model of facets/residues/supporting parabolics\n22572: * surfaceology on equal global footing\n22573: \n22574: So this is **not** “full theorem formalization complete.”  \n22575: It is:\n22576: \n22577: $$\\boxed{\\text{theorem spine formalization pushed one real layer deeper}}$$"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 22718,
+      "rows": [
+        "R1",
+        "R7"
+      ],
+      "score": 16,
+      "snippet": "22714: \n22715: What is **still not finished**:\n22716: \n22717: 1. full ambient cohomology-class formalization of $$[\\mu_{Gr_+(2,n)}],\\quad [\\mu_{Gr_+(3,6)}],\\quad [\\mu_{Gr_+(3,7)}]$$ as actual class objects rather than coefficient-bearing representatives\n22718: 2. full geometry-level parabolic residue recursion $$\\operatorname{Res}_Y(\\mu_\\Gamma)=\\pm\\mu_{\\Gamma'}$$ against an explicit Lean model of facets, supporting parabolics, and top interaction geometry\n22719: 3. surfaceology on equal global footing\n22720: \n22721: So the honest status is:\n22722: \n22723: $$\\boxed{\\text{the theorem spine is stronger, but still not fully finished}}$$\n22724: "
+    },
+    {
+      "source_file": "research_ledger/FORMATION_MEDIUM_LAYER_0_SPEC.md",
+      "line": 137,
+      "rows": [
+        "R7",
+        "R8"
+      ],
+      "score": 15,
+      "snippet": "133: \n134: Current repo relation:\n135: \n136: - Candidate S2*: intrinsic canonical boundary semantics with unique recursive readout.\n137: - Partial anchors: `EXT-SCAT-FORMS-001`, `EXT-INTO-AMP-2013-001`, R7, R8.\n138: - R7 supports parabolic residue recursion inside solved exact branch.\n139: - R8 may provide a future local transport/readout binding, but does not promote S2* alone.\n140: \n141: Current status:\n142: \n143: ```text"
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_EQUATION_MINING_PASS_001.json",
+      "line": 1091,
+      "rows": [
+        "R1",
+        "R5"
+      ],
+      "score": 15,
+      "snippet": "1087:       \"line\": 17091,\n1088:       \"roles\": [],\n1089:       \"score\": 7,\n1090:       \"content\": \"\\\\mu=\\\\sum_{Y\\\\in\\\\mathcal F_{\\\\mathrm{full}}}\\\\epsilon(Y)[Y]^*,  \\n\\\\qquad  \\nC_X=\\\\sum_{Y\\\\in\\\\mathcal F_{\\\\mathrm{full}}}\\\\epsilon(Y).\",\n1091:       \"context\": \" the exact algorithm.\\n\\n* * *\\n\\n## 7. First real consequence beyond the solved cases\\n\\nFor any new finite-type top-cell sphere $X_\\\\Gamma$, the first top interaction coefficient is determined once you know the fully supporting facets.\\n\\nSo the real frontier is no longer “what kind of obstruction exists?” That is settled.\\n\\nThe real frontier is:\\n\\n$$\\\\boxed{\\\\text{which facets are fully supporting in the next unsolved finite-type atlas?}}$$\\n\\nThat is a combinatorial-geometric counting problem, not a new conceptual problem.\\n\\n* * *\\n\\n## 8. What was produced\\n\\nThis step produced the exact general reduction:\\n\\n$$\\\\mu=\\\\sum_{Y\\\\in\\\\mathcal F_{\\\\mathrm{full}}}\\\\epsilon(Y)[Y]^*,  \\n\\\\qquad  \\nC_X=\\\\sum_{Y\\\\in\\\\mathcal F_{\\\\mathrm{full}}}\\\\epsilon(Y).$$\\n\\nIt unified:\\n\\n* $Gr_+(2,n)$: $C_X=n$,\\n* $Gr_+(3,6)$: $C_X=4$ on each $S_3$-component.\\n\\nThat is actual work.\\n\\n* * *\\n\\n**You:**\\n\\nWORK\\n\\n* * *\\n\\n**ChatGPT:**\\n\\nI’m taking the first unsolved finite-type branch and computing its coefficient by the support law, not guessing it from the earlier numbers.\\n\\n* * *\\n\\n**ChatGPT:**\\n\\nWork.\\n\\nTake the first unsolved finite-type branch beyond the solved $A$- and $D_4$-cases:\\n\\n$$Gr_+(3,7).$$\\n\\nScott’s finite-type classification identifies $Gr(3,7)$ with cluster type $E_6$, and the Grassmannian cluster-category picture is described as having slices of shape $E_6$. [Sp\",\n1092:       \"status\": [\n1093:         \"GENERATED\",\n1094:         \"OPEN\",\n1095:         \"RAW_EQUATION_ORE\",\n1096:         \"NOT_SOURCE_EXTRACTED\",\n1097:         \"NOT_CHECKED\""
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 159,
+      "rows": [
+        "R6",
+        "R8"
+      ],
+      "score": 15,
+      "snippet": "155:         \"transport\",\n156:         \"readout_boundary\"\n157:       ],\n158:       \"score\": 26,\n159:       \"snippet\": \"19627: \\n19628: ## 2. What is settled vs unsettled\\n19629: \\n19630: Settled enough to use as constraints:\\n19631: \\n19632: $$Gr_+(0,n),\\\\ Gr_+(1,n)\\\\text{ static residue base}$$ $$\\\\text{intrinsic root-bundle layer}$$ $$\\\\text{local quarter-turn }A_2\\\\text{ transport}$$ $$\\\\text{fixed-vs-paired support coefficient law on the solved finite-type top-cell branches}$$\\n19633: \\n19634: Not settled enough to commit engineering around:\\n19635: \\n19636: $$\\\\text{whether CRBSM is the right realization class}$$ $$\\\\text{whether scattering-native realizations satisfy the same constraints better}$$ $$\\\\text{how the persistent support/relay ledger is physically realized}$$ $$\\\\text{whether higher / continuous branches force a different substrate picture}$$\\n19637: \\n19638: So the commitment boundary is clear: **we are still pre-substrate-selection.**\\n19639: \"\n160:     },\n161:     {\n162:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n163:       \"line\": 20246,\n164:       \"categories\": [\n165:         \"Vm\","
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 171,
+      "rows": [
+        "R6",
+        "R8"
+      ],
+      "score": 15,
+      "snippet": "167:         \"transport\",\n168:         \"readout_boundary\"\n169:       ],\n170:       \"score\": 26,\n171:       \"snippet\": \"20241: \\n20242: Answer: mostly the **interpretation**, but there is one place where it may have fed back into the math-selection layer.\\n20243: \\n20244: What still stands mathematically:\\n20245: \\n20246: $$Gr_+(0,n),\\\\ Gr_+(1,n)\\\\text{ static residue base;}$$ $$\\\\text{intrinsic root-bundle layer;}$$ $$A_2\\\\text{ quarter-turn transport;}$$ $$\\\\text{fixed-vs-paired support law in the solved finite-type top-cell branches.}$$\\n20247: \\n20248: Those are not artifacts of bad vocabulary.\\n20249: \\n20250: What needs re-audit mathematically is anything that may have been elevated because of the old machine frame. The main suspect is:\\n20251: \\n20252: $$\\\\boxed{\\\\text{the “persistent relay/support ledger” requirement}}$$\\n20253: \"\n172:     },\n173:     {\n174:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n175:       \"line\": 21571,\n176:       \"categories\": [\n177:         \"Vm\","
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 482,
+      "rows": [
+        "R5",
+        "R8"
+      ],
+      "score": 15,
+      "snippet": "478:         \"engineering_transport\",\n479:         \"readout_boundary\"\n480:       ],\n481:       \"score\": 17,\n482:       \"snippet\": \"19216: a final readout layer that computes the top interaction coefficient only after all local support data has been accumulated.\\n19217: \\n19218: In compressed form:\\n19219: \\n19220: $$\\\\boxed{  \\n19221: \\\\text{cell} \\\\to \\\\text{family} \\\\to \\\\text{quarter-turn coupler} \\\\to \\\\text{support ledger} \\\\to \\\\text{top-class readout}.  \\n19222: }$$\\n19223: \\n19224: That is the first buildable architecture shape abstracted from the math.\\n19225: \\n19226: # 8. The actual next move\\n19227: \\n19228: The next move is no longer extracting more geometry.\"\n483:     },\n484:     {\n485:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n486:       \"line\": 19293,\n487:       \"categories\": [\n488:         \"Ji\","
+    },
+    {
+      "source_file": "research_ledger/PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_PASS_001.json",
+      "line": 573,
+      "rows": [
+        "R7",
+        "R8"
+      ],
+      "score": 15,
+      "snippet": "569:         \"readout_boundary\",\n570:         \"formation\"\n571:       ],\n572:       \"score\": 14,\n573:       \"snippet\": \"134: Current repo relation:\\n135: \\n136: - Candidate S2*: intrinsic canonical boundary semantics with unique recursive readout.\\n137: - Partial anchors: `EXT-SCAT-FORMS-001`, `EXT-INTO-AMP-2013-001`, R7, R8.\\n138: - R7 supports parabolic residue recursion inside solved exact branch.\\n139: - R8 may provide a future local transport/readout binding, but does not promote S2* alone.\\n140: \\n141: Current status:\\n142: \\n143: ```text\\n144: PARTIAL / SOURCE_COVERAGE_IMPLEMENTED / NEEDS_FORMALIZATION / NOT_THEOREM\\n145: ```\\n146: \"\n574:     },\n575:     {\n576:       \"source_file\": \"Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md\",\n577:       \"line\": 2604,\n578:       \"categories\": [\n579:         \"engineering_transport\","
+    },
+    {
+      "source_file": "research_ledger/R1_R14_DISCRIMINATOR_LEDGER.json",
+      "line": 107,
+      "rows": [
+        "R1",
+        "R7"
+      ],
+      "score": 15,
+      "snippet": "103:     },\n104:     {\n105:       \"id\": \"R7\",\n106:       \"name\": \"Parabolic residue recursion\",\n107:       \"predicate\": \"Fully supporting parabolic facets carry lower top-interaction class as residue: Res_Y(mu_Gamma)=±mu_Gamma'.\",\n108:       \"status\": [\"SOURCE_BACKED\"],\n109:       \"verdict\": \"Safe recursive descent through solved branch only.\",\n110:       \"known_families\": [\"PGfinite\"],\n111:       \"missing\": []\n112:     },\n113:     {"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 17324,
+      "rows": [
+        "R5",
+        "R6"
+      ],
+      "score": 12,
+      "snippet": "17320: For $Gr_+(3,7)$, the cluster type is $E_6$. I will use the standard $E_6$ Dynkin numbering in which the simple-root graph is\n17321: \n17322: $$1-3-4-5-6,\\qquad 2\\text{ attached to }4.$$\n17323: \n17324: In this numbering the nontrivial diagram involution fixes $2,4$ and swaps $1\\leftrightarrow 6$, $3\\leftrightarrow 5$. That is the right symmetry to use. Scott identifies $Gr(3,7)$ as finite cluster type $E_6$, and the standard $E_6$ involution data is explicit in the root-system literature. [OUP Academic+1](https://academic.oup.com/plms/article/92/2/345/1501350?utm_source=chatgpt.com)\n17325: \n17326: ## 1. The admissible top-channel wedges\n17327: \n17328: Use the five edge-channels\n17329: \n17330: $$a=(1,3),\\quad b=(3,4),\\quad c=(4,5),\\quad d=(5,6),\\quad e=(2,4).$$"
+    },
+    {
+      "source_file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+      "line": 3872,
+      "rows": [
+        "R5"
+      ],
+      "score": 10,
+      "snippet": "3868: ## Theorem R2\n3869: \n3870: The family $\\{\\Omega_x\\}_{x\\in P}$ is the unique family satisfying:\n3871: \n3872: 1. for each atom $a\\in A$, $$\\Omega_a=[a];$$\n3873: 2. for every cover $x\\gtrdot y$, $$\\operatorname{Res}_{x\\to y}\\Omega_x=c(x,y)\\Omega_y.$$\n3874: \n3875: ### Proof\n3876: \n3877: Existence is Theorem R1.\n3878: "
+    }
+  ]
+}
