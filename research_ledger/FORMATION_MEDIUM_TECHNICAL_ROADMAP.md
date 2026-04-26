@@ -83,7 +83,7 @@ Requires:
 | 2 | FM1 schema validation | T0 | Every FM1 constraint has slot, status, source leads, check targets/blockers, failure mode, and non-promotion boundary. | Schema validation is not physics validation. |
 | 3 | Surface finite model extension | T0 | Convex-polygon chord fixture check covers n=4..7 with 30 chords, 56 crossing edges, and 63 maximal-noncrossing witnesses; next is source-faithful surface curve data beyond polygon-chord abstraction. | Polygon chord fixtures are not a surfaceology theorem, full source-faithful curve enumeration, or positive-region solver. |
 | 4 | R12/R13 formalization plan | T0 | Bounded delta-domain/equality-layer fixture plan exists. | Fixture plan is not SMT proof. |
-| 5 | Physical-regime source-intake plan | T0 | Candidate regimes have source-intake criteria and rejection conditions. | Triage plan is not substrate selection. |
+| 5 | High-resonance / physical-regime source-intake plan | T0 | High-resonance comparator plan exists; next is source-intake criteria for mesoscopic resonance-native regimes, scattering-native regimes, and Route A proxy relevance without role flattening. | Intake is not substrate selection, CRBSM validation, Route A implementation, or winner declaration. |
 | 6 | Early diligence packet | T0 | Concise packet separates proven, checked, source-covered, open, and capital-dependent items. | Diligence packet is not product readiness. |
 
 ## Capital-Dependent Queue

@@ -94,8 +94,15 @@
     "source review starts sounding like feasibility",
     "validator starts sounding like understanding",
     "corporate sentence hides open technical risk",
-    "CRBSM/scattering/high-resonance/Route A discussed without role labels"
+    "CRBSM/scattering/high-resonance/Route A discussed without role labels",
+    "CRBSM, Route A, scattering-native, or high-resonance are flattened into one route/substrate/winner"
   ],
   "founder_correction_sanitized": "The assistant is not deeply aware of the project in the total/global sense during long tool work, and does not reliably hold the whole project in context while proceeding. This limitation must be explicit because it is critical.",
-  "assistant_total_awareness_limitation": "The assistant may preserve local ledger correctness while losing total awareness and global coherence; this registry is a forced control surface, not a guarantee of understanding."
+  "assistant_total_awareness_limitation": "The assistant may preserve local ledger correctness while losing total awareness and global coherence; this registry is a forced control surface, not a guarantee of understanding.",
+  "anti_flattening_rule": {
+    "CRBSM": "mechanism-language / generated proxy vocabulary; not just another route and not selected substrate",
+    "Route A": "hardware/proxy engineering route; not CRBSM implementation and not selected substrate",
+    "scattering_native": "mandatory law-native comparator; not default winner",
+    "high_resonance_native": "possible bridge comparator between CRBSM-like mechanism and buildable/harnessable hardware; not default winner"
+  }
 }

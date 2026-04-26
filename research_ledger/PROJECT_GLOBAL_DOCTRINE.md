@@ -360,6 +360,32 @@ The question is:
 Which candidate supplies native carrier, native admissibility, native relay/transport, persistent support identity, intrinsic readout, bulk/readout separation, and harnessability?
 ```
 
+
+
+## 7.1 Anti-Flattening Rule for CRBSM / Route A / Scattering / High-Resonance
+
+The following layer separation must be preserved every time these terms are used:
+
+```text
+CRBSM = mechanism-language / generated proxy vocabulary
+Route A = hardware/proxy engineering route
+scattering-native = mandatory law-native comparator, not default winner
+high-resonance = possible bridge comparator between CRBSM-like mechanism and buildable/harnessable hardware
+```
+
+Do not flatten these into one route, one substrate, one winner, or one corporate claim.
+
+Operationally:
+
+```text
+CRBSM asks how a medium might behave.
+Route A asks what hardware/proxy stack might instrument or bootstrap pieces.
+Scattering-native asks whether the law-native amplitude ontology already supplies the structure.
+High-resonance asks whether mesoscopic resonance-native systems can bridge mechanism-language and buildability.
+```
+
+Any artifact discussing these four without this separation is globally suspect even if it is locally well formatted.
+
 ## 8. What Validators Mean
 
 Validators mean:

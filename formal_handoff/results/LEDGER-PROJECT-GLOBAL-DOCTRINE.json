@@ -48,7 +48,7 @@
       "OPERATIONAL_CONTROL"
     ],
     "role_count": 14,
-    "stop_condition_count": 9
+    "stop_condition_count": 10
   },
   "target_id": "LEDGER-PROJECT-GLOBAL-DOCTRINE"
 }

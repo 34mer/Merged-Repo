@@ -1,0 +1,198 @@
+{
+  "schema": "high_resonance_native_comparator_plan_v1",
+  "artifact_roles": [
+    "COMPARATOR",
+    "MECHANISM",
+    "ROUTE",
+    "PROXY",
+    "GUARD",
+    "NEGATIVE_CONTROL"
+  ],
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_SUBSTRATE_SELECTION",
+    "NOT_ENGINEERING_READY"
+  ],
+  "purpose": "Keep CRBSM, Route A, scattering-native regimes, and high-resonance/mesoscopic resonance-native regimes separated while comparing them against Formation Medium gates. This is a mechanism/comparator/route discipline plan, not a source claim or substrate selection.",
+  "anti_flattening_rule": "CRBSM is mechanism-language, not just another route. Route A is hardware/proxy. Scattering-native is a mandatory comparator. High-resonance may be the bridge between CRBSM-like mechanism language and buildable/harnessable hardware. These layers must not be flattened into one route, one substrate, or one winner.",
+  "global_object": {
+    "name": "Formation Medium",
+    "role": "OBJECT",
+    "status": "OPEN / NOT_BUILT / NOT_PROVED / NOT_SELECTED_AS_SUBSTRATE",
+    "blocked_confusion": [
+      "CRBSM is the object",
+      "Route A is the object",
+      "scattering-native physics is the object",
+      "high-resonance physics is the object"
+    ]
+  },
+  "layered_candidates": [
+    {
+      "id": "CRBSM",
+      "name": "Chiral Relay Boundary-Sheet Medium",
+      "primary_role": "MECHANISM",
+      "secondary_roles": [
+        "PROXY",
+        "RESIDUAL_ORE"
+      ],
+      "layer_label": "mechanism-language / proxy vocabulary",
+      "positive_function": "names the candidate mechanism language: boundary sheets, chiral relay pockets, quarter-turn/A2-like local transport, persistent support/channel identity, and bulk/sheet separation.",
+      "hard_question": "Can persistent support/channel identity and relay-usage memory be physically native rather than constructed-by-assumption?",
+      "blocked_flattenings": [
+        "CRBSM as selected substrate",
+        "CRBSM as source-backed physics",
+        "CRBSM as Route A hardware",
+        "CRBSM as Formation Medium itself"
+      ],
+      "current_status": "GENERATED_ONLY / NOT_SOURCE_EXTRACTED / NOT_SELECTED_SUBSTRATE"
+    },
+    {
+      "id": "ROUTE_A",
+      "name": "topoelectrical + superconducting microwave stack",
+      "primary_role": "ROUTE",
+      "secondary_roles": [
+        "PROXY",
+        "SOURCE_REVIEW"
+      ],
+      "layer_label": "hardware/proxy engineering route",
+      "positive_function": "provides a source-reviewed instrumentable bootstrap stack: topoelectrical boundary/corner impedance readout plus tunable/coherent superconducting microwave transport/coupling.",
+      "hard_question": "Can hardware/proxy components support CRBSM-like mechanism primitives without collapsing into external routing, measurement, or ordinary simulation?",
+      "blocked_flattenings": [
+        "Route A as selected substrate",
+        "Route A as CRBSM implemented",
+        "Route A as Formation Medium implemented",
+        "Route A source review as engineering feasibility"
+      ],
+      "current_status": "SOURCE_REVIEWED_CONTINUE_AS_CANDIDATE / NOT_FEASIBLE_ENGINEERING / NOT_SELECTED_SUBSTRATE"
+    },
+    {
+      "id": "SCATTERING_NATIVE",
+      "name": "scattering-native / S-matrix regimes",
+      "primary_role": "COMPARATOR",
+      "secondary_roles": [
+        "NATIVE_LAW_COMPARATOR"
+      ],
+      "layer_label": "law-native comparator",
+      "positive_function": "keeps the closest amplitude/positive-geometry ontology in comparison; tests whether the native laws already carry the relevant readout more directly than engineered proxy mechanisms.",
+      "hard_question": "Can scattering-native structure be harnessed with carrier, transport, persistence, apparatus coupling, and intrinsic readout, rather than remaining only a mathematical/native-law comparator?",
+      "blocked_flattenings": [
+        "scattering-native as default winner",
+        "high-energy scattering as selected substrate by mathematical proximity",
+        "scattering comparator as engineering route",
+        "S-matrix ontology as Formation Medium proof"
+      ],
+      "current_status": "MANDATORY_COMPARATOR / NOT_DEFAULT_WINNER / NOT_ENGINEERING_READY"
+    },
+    {
+      "id": "HIGH_RESONANCE_NATIVE",
+      "name": "high-resonance / mesoscopic resonance-native regimes",
+      "primary_role": "COMPARATOR",
+      "secondary_roles": [
+        "BRIDGE_CANDIDATE",
+        "PROXY"
+      ],
+      "layer_label": "possible bridge comparator between mechanism-language and buildable hardware",
+      "positive_function": "keeps open the possibility that resonance-native mesoscopic regimes supply carrier, relay/transport, persistence, readout, and harnessability more naturally than high-energy scattering or ordinary hardware routing.",
+      "hard_question": "Can high-resonance regimes provide native carrier, native relay/transport, persistent support identity, intrinsic readout, and bulk/readout separation without being mere controlled resonance hardware?",
+      "blocked_flattenings": [
+        "high-resonance as default winner",
+        "high-resonance as selected substrate",
+        "Route A resonance hardware as high-resonance-native Formation Medium",
+        "tunable resonance as native settling law"
+      ],
+      "current_status": "OPEN / NOT_SCOPED / NOT_SELECTED_SUBSTRATE"
+    }
+  ],
+  "comparison_axes": [
+    "native carrier",
+    "native admissibility",
+    "native relay/transport",
+    "persistent support/channel identity",
+    "intrinsic readout",
+    "bulk/readout separation",
+    "harnessability/buildability",
+    "simulation/control/measurement failure mode",
+    "negative-control clarity"
+  ],
+  "preliminary_matrix": [
+    {
+      "candidate_id": "CRBSM",
+      "native_carrier": "GENERATED_BY_CONSTRUCTION / UNPROVED",
+      "native_admissibility": "GENERATED_BY_CONSTRUCTION / UNPROVED",
+      "native_relay_transport": "MECHANISM_LANGUAGE_STRONG / PHYSICS_OPEN",
+      "persistent_support_identity": "CENTRAL_HARD_BOTTLENECK",
+      "intrinsic_readout": "MECHANISM_LANGUAGE_PRESENT / SOURCE_OPEN",
+      "bulk_readout_separation": "MECHANISM_LANGUAGE_PRESENT / NOT_THEOREM",
+      "harnessability_buildability": "UNKNOWN / POSSIBLE_PROXY_ONLY",
+      "failure_mode": "constructed-by-assumption mechanism language treated as physics"
+    },
+    {
+      "candidate_id": "ROUTE_A",
+      "native_carrier": "PARTIAL_SOURCE_REVIEW_SUPPORT_FOR_CIRCUIT/RESONATOR_CARRIERS",
+      "native_admissibility": "OPEN / LIKELY_CONTROL_DESIGNED",
+      "native_relay_transport": "SOURCE_REVIEW_SUPPORT_FOR_TUNABLE_COHERENT_COUPLING_ONLY",
+      "persistent_support_identity": "OPEN / NOT_SOLVED",
+      "intrinsic_readout": "TOPOELECTRICAL_IMPEDANCE_READOUT_SUPPORTED_ONLY",
+      "bulk_readout_separation": "UNKNOWN / CAUTION_FROM_CLASSICAL_ANALOGY_BOUNDARY",
+      "harnessability_buildability": "STRONGEST_CURRENT_INSTRUMENTABILITY_CLUE",
+      "failure_mode": "external routing/readout stack mistaken for native Formation Medium"
+    },
+    {
+      "candidate_id": "SCATTERING_NATIVE",
+      "native_carrier": "LAW_NATIVE_PROMISING / APPARATUS_HARNESSING_OPEN",
+      "native_admissibility": "LAW_NATIVE_PROMISING / ENGINEERING_OPEN",
+      "native_relay_transport": "NATIVE_SCATTERING_STRUCTURE / PERSISTENCE_OPEN",
+      "persistent_support_identity": "OPEN",
+      "intrinsic_readout": "MATH_ONTOLOGY_CLOSEST / PHYSICAL_READOUT_OPEN",
+      "bulk_readout_separation": "COMPARATOR_NEEDED / NOT_ASSUMED",
+      "harnessability_buildability": "WEAK_OR_UNKNOWN_NEAR_TERM",
+      "failure_mode": "mathematical proximity treated as substrate selection"
+    },
+    {
+      "candidate_id": "HIGH_RESONANCE_NATIVE",
+      "native_carrier": "OPEN / POSSIBLY_MESOSCOPIC_RESONANT_MODES",
+      "native_admissibility": "OPEN",
+      "native_relay_transport": "OPEN / POSSIBLY_RESONANCE_NATIVE",
+      "persistent_support_identity": "OPEN / KEY_BRIDGE_TEST",
+      "intrinsic_readout": "OPEN",
+      "bulk_readout_separation": "OPEN",
+      "harnessability_buildability": "POSSIBLY_STRONGER_THAN_HIGH_ENERGY_IF_SOURCE_SUPPORTED",
+      "failure_mode": "tunable resonance/control hardware mistaken for native mechanism"
+    }
+  ],
+  "required_next_reviews": [
+    {
+      "id": "HR-N1",
+      "question": "Which mesoscopic high-resonance systems have long-lived or metastable channel/mode identity that is native rather than software-tracked?",
+      "required_output": "source-intake plan or source review, not source-extracted claim until sources are ingested"
+    },
+    {
+      "id": "HR-N2",
+      "question": "Can boundary/corner/resonant modes become boundary sheets or relay pockets rather than mere measured modes?",
+      "required_output": "negative-control comparison against Route A source review"
+    },
+    {
+      "id": "HR-N3",
+      "question": "Can high-resonance transport support chiral/quarter-turn-like relay behavior without programmed routing?",
+      "required_output": "mechanism/comparator note with kill conditions"
+    },
+    {
+      "id": "HR-N4",
+      "question": "Does scattering-native physics still dominate when scored against harnessability/buildability, persistence, and intrinsic readout?",
+      "required_output": "comparator matrix update, not winner declaration"
+    }
+  ],
+  "kill_conditions": [
+    "CRBSM is treated as selected substrate",
+    "Route A is treated as CRBSM implementation",
+    "scattering-native is treated as default winner",
+    "high-resonance is treated as default winner",
+    "tunable resonance is treated as native settling law",
+    "hardware readout is treated as intrinsic canonical readout",
+    "source review is treated as source extraction",
+    "comparison artifact becomes investor-facing proof"
+  ],
+  "non_promotion_rule": "This plan is role discipline and comparator planning only. It does not prove Formation Medium, validate CRBSM, select Route A, select scattering-native physics, select high-resonance regimes, prove a substrate, prove a settling law, or authorize corporate/investor claims."
+}

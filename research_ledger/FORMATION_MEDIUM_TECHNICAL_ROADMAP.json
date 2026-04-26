@@ -117,15 +117,18 @@
     },
     {
       "id": "Q5_PHYSICAL_REGIME_SOURCE_INTAKE_PLAN",
-      "title": "Create source-intake plan for physical-regime triage",
+      "title": "Create source-intake plans for high-resonance bridge and physical-regime triage",
       "priority": 5,
       "resource_tier": "T0_CURRENT_REPO_COMPUTE",
       "target_artifacts": [
-        "FORMATION_MEDIUM_LAYER_1_SPEC.md",
-        "FORMATION_MEDIUM_READINESS_LEDGER.json"
+        "HIGH_RESONANCE_NATIVE_COMPARATOR_PLAN.md",
+        "HIGH_RESONANCE_NATIVE_COMPARATOR_PLAN.json",
+        "FORMATION_MEDIUM_PHYSICAL_REGIME_RESIDUAL_SHORTLIST.md",
+        "ROUTE_A_SOURCE_REVIEW_001.md",
+        "CRBSM_REGIME_CANDIDATE_RECOVERY.md"
       ],
-      "exit_condition": "Scattering systems, integrable media, topological boundaries, and classical continua have source-intake criteria and rejection conditions.",
-      "blocked_promotion": "Physical-regime triage plan is not substrate selection."
+      "exit_condition": "High-resonance comparator plan exists; next exit is source-intake criteria for mesoscopic resonance-native regimes, scattering-native regimes, and Route A proxy relevance without flattening their roles.",
+      "blocked_promotion": "Physical-regime/comparator intake is not substrate selection, not CRBSM validation, not Route A implementation, and not high-resonance winner declaration."
     },
     {
       "id": "Q6_EARLY_DILIGENCE_PACKET",

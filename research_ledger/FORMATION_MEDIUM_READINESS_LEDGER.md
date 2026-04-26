@@ -33,7 +33,7 @@ The repo does not yet identify a physical substrate, prove a native settling law
 - Source-extraction integrity validator passes.
 - Formation-medium discipline validator passes.
 - Formal-check result validator passes.
-- Source-coverage guards cover the main overclaim zones.
+- Source-coverage and doctrine guards cover the main overclaim zones, including CRBSM / Route A / scattering-native / high-resonance role separation.
 - Finite checks exist for selected baseline structures within declared scopes, including generated graph fixtures and finite convex-polygon chord fixtures.
 
 ## Critical Gaps

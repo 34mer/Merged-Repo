@@ -1,0 +1,29 @@
+{
+  "checker": "high_resonance_native_comparator_plan_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/HIGH_RESONANCE_NATIVE_COMPARATOR_PLAN.json",
+    "research_ledger/HIGH_RESONANCE_NATIVE_COMPARATOR_PLAN.md",
+    "research_ledger/PROJECT_GLOBAL_DOCTRINE.md",
+    "research_ledger/PROJECT_GLOBAL_DOCTRINE_REGISTRY.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo preserves the layer separation CRBSM=mechanism-language, Route A=hardware/proxy, scattering-native=mandatory comparator, and high-resonance=possible bridge comparator. It is not a source claim, not a proof, not CRBSM validation, not Route A validation, not substrate selection, not engineering readiness, and not corporate readiness.",
+  "support_summary": {
+    "allowed_inference": "the repo now has an explicit anti-flattening plan and next-review queue for high-resonance/native comparator work",
+    "blocked_inference": "CRBSM validation, Route A implementation, scattering-native default victory, high-resonance default victory, substrate selection, settling-law proof, or engineering readiness",
+    "candidate_count": 4,
+    "candidate_roles": {
+      "CRBSM": "MECHANISM",
+      "HIGH_RESONANCE_NATIVE": "COMPARATOR",
+      "ROUTE_A": "ROUTE",
+      "SCATTERING_NATIVE": "COMPARATOR"
+    },
+    "checked_interface": "CRBSM / Route A / scattering-native / high-resonance role separation and high-resonance comparator planning",
+    "comparison_axis_count": 9,
+    "doctrine_anti_flattening_present": true,
+    "markdown_terms_present": true,
+    "required_review_count": 4
+  },
+  "target_id": "LEDGER-HIGH-RESONANCE-NATIVE-COMPARATOR-PLAN"
+}

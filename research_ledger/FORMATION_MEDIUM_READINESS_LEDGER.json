@@ -70,12 +70,16 @@
         "FORMATION_MEDIUM_LAYER_1_SPEC.md",
         "validate_formation_medium_discipline.py"
       ],
-      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated.",
+      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated. CRBSM, Route A, scattering-native, and high-resonance roles are separated for comparator discipline.",
       "blocked_claims": [
         "Formation Medium substrate has been identified",
         "positive geometry proves a substrate",
         "surfaceology is the substrate",
-        "scaffolded gluons are the substrate"
+        "scaffolded gluons are the substrate",
+        "CRBSM is selected substrate",
+        "Route A is selected substrate",
+        "scattering-native is default winner",
+        "high-resonance is selected substrate"
       ]
     },
     {
@@ -136,7 +140,8 @@
     "first tiny finite surfaceology two-curve fixture passes exact rational checks",
     "finite surfaceology fixture family passes exact rational checks, including a three-curve multi-neighbor product case",
     "generated surfaceology graph-fixture check passes for all 75 simple graphs on 1..4 vertices with 189 exact binary witnesses",
-    "finite polygon-chord surfaceology fixture check passes for n=4..7 with 30 chords, 56 crossing edges, and 63 maximal-noncrossing witnesses"
+    "finite polygon-chord surfaceology fixture check passes for n=4..7 with 30 chords, 56 crossing edges, and 63 maximal-noncrossing witnesses",
+    "high-resonance native comparator plan preserves CRBSM mechanism-language, Route A hardware/proxy, scattering-native comparator, and high-resonance bridge roles"
   ],
   "critical_gaps": [
     "no selected physical substrate",
