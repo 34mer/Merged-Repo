@@ -62,9 +62,9 @@
     },
     {
       "target_id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but symbolic shift/transmutation bridge checker is not implemented yet.",
-      "artifact": null
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented scaffold/kinematic-shift ledger guard. The checker verifies that hidden-zero, scalar-scaffolded-gluon shift, and W_e/transmutation claims remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION bridge material, while blocking promotion to Yang-Mills derivation, realization-class equivalence, Formation Medium substrate evidence, physical settling law, or engineering readiness.",
+      "artifact": "formal_handoff/results/CHK-SCAFFOLD-KINEMATIC-SHIFT.json"
     },
     {
       "target_id": "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION",

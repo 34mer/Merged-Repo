@@ -1,0 +1,45 @@
+{
+  "checker": "scaffold_kinematic_shift_ledger_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-BACKUS-2025-001",
+    "EXT-HIDDEN-ZEROS-2023-001",
+    "EXT-SCAFFOLD-001"
+  ],
+  "inspected_files": [
+    "research_ledger/COMPARATOR_PACKAGE_REGISTER.md",
+    "research_ledger/EXTRACTION_LEDGER.md",
+    "research_ledger/FORMAL_CHECK_TARGETS.json",
+    "research_ledger/FORMAL_CHECK_RESULTS.json"
+  ],
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the ledger preserves hidden-zero, scalar-scaffolded-gluon shift, and W_e/transmutation claims as source-bound bridge material. It is not a mathematical proof, not a theorem deriving Yang-Mills, not realization-class equivalence, not substrate evidence, not engineering readiness, and not a physical settling-law result.",
+  "support_summary": {
+    "allowed_inference": "the cited claims may be used as source-bound bridge material for scaffold/shift/transmutation roadmap work",
+    "blocked_inference": "Yang-Mills derivation, realization-class equivalence, Formation Medium substrate evidence, physical settling law, or engineering readiness",
+    "bridge_files_have_required_terms": true,
+    "checked_interface": "ledger/source discipline for hidden-zero, scaffolded-gluon shift, and W_e/transmutation bridge claims",
+    "claim_statuses": {
+      "EXT-BACKUS-2025-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-HIDDEN-ZEROS-2023-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-SCAFFOLD-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "forbidden_promotions_absent": true,
+    "paper_ids": {
+      "EXT-BACKUS-2025-001": "BACKUS_2025",
+      "EXT-HIDDEN-ZEROS-2023-001": "HIDDEN_ZEROS_2023",
+      "EXT-SCAFFOLD-001": "SCAFFOLD_GLUONS_2024"
+    },
+    "required_claim_count": 3
+  },
+  "target_id": "CHK-SCAFFOLD-KINEMATIC-SHIFT"
+}

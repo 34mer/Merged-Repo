@@ -198,12 +198,12 @@
         "S",
         "A"
       ],
-      "checker_layer": "Symbolic substitution / source consistency check",
+      "checker_layer": "implemented ledger/source bridge validator; later symbolic substitution checks",
       "predicate": "The scaffolded-gluon kinematic shift, hidden-zero bridge, and W_e/transmutation claims are represented as source-bound bridge claims without promoting them to equivalence of realization classes.",
       "failure_condition": "The shift/transmutation bridge is incomplete, index partition is inconsistent, or a bridge is promoted to realization equivalence without a separate comparator proof.",
       "status": [
         "DEFINED",
-        "NOT_IMPLEMENTED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     },
     {
