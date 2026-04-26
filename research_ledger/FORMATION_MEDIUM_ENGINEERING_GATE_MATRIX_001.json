@@ -18,7 +18,9 @@
     "FORMATION_MEDIUM_NEGATIVE_CONTROLS.md",
     "CRBSM_REGIME_CANDIDATE_RECOVERY.md",
     "PREVIOUS_GPT_CRBSM_REGIME_RECOVERY_001.json",
-    "exact_work/handoff/10_MACHINE_STATE.json"
+    "exact_work/handoff/10_MACHINE_STATE.json",
+    "ROUTE_A_SOURCE_REVIEW_001.md",
+    "ROUTE_A_SOURCE_REVIEW_001.json"
   ],
   "routes": [
     {
@@ -112,14 +114,15 @@
       "gate_id": "G1",
       "gate_name": "native_carrier",
       "gate_description": "Must provide native degrees of freedom, not merely externally imposed computational encoding.",
-      "status": "PARTIAL_PLAUSIBLE",
+      "status": "PARTIAL_SOURCE_REVIEW_SUPPORT",
       "evidence_needed": [
         "source review for native state-space / carrier semantics",
-        "rule out merely user-imposed encoding"
+        "rule out merely user-imposed encoding",
+        "Route A source review 001: continue as candidate only; sources not ingested into corpus; no feasibility/substrate promotion"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
-      "source_status": "EXTERNAL_SOURCE_NEEDED"
+      "source_status": "EXTERNAL_SOURCE_REVIEWED_NOT_INGESTED"
     },
     {
       "route_id": "ROUTE-A",
@@ -128,14 +131,15 @@
       "gate_id": "G2",
       "gate_name": "native_admissibility_local_ops",
       "gate_description": "Must provide native allowed configurations/local transformations.",
-      "status": "PARTIAL_PLAUSIBLE",
+      "status": "PARTIAL_SOURCE_REVIEW_SUPPORT",
       "evidence_needed": [
         "source review for native local operations",
-        "identify admissibility law or local constraints"
+        "identify admissibility law or local constraints",
+        "Route A source review 001: continue as candidate only; sources not ingested into corpus; no feasibility/substrate promotion"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
-      "source_status": "EXTERNAL_SOURCE_NEEDED"
+      "source_status": "EXTERNAL_SOURCE_REVIEWED_NOT_INGESTED"
     },
     {
       "route_id": "ROUTE-A",
@@ -144,14 +148,15 @@
       "gate_id": "G3",
       "gate_name": "intrinsic_boundary_readout",
       "gate_description": "Readout must be intrinsic boundary/canonical/observable structure, not only a user output register.",
-      "status": "STRONG_CANDIDATE",
+      "status": "STRONG_SOURCE_REVIEW_SUPPORT_FOR_TOPOLECTRICAL_IMPEDANCE_READOUT_ONLY",
       "evidence_needed": [
         "source review for boundary/readout observables",
-        "show readout is intrinsic not output-register convention"
+        "show readout is intrinsic not output-register convention",
+        "Route A source review 001: continue as candidate only; sources not ingested into corpus; no feasibility/substrate promotion"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
-      "source_status": "EXTERNAL_SOURCE_NEEDED"
+      "source_status": "EXTERNAL_SOURCE_REVIEWED_NOT_INGESTED"
     },
     {
       "route_id": "ROUTE-A",
@@ -163,11 +168,12 @@
       "status": "READOUT_FAITHFULNESS_UNKNOWN",
       "evidence_needed": [
         "declare readout map and bulk equivalence relation",
-        "look for same-readout/different-bulk or faithful reconstruction evidence"
+        "look for same-readout/different-bulk or faithful reconstruction evidence",
+        "Route A source review 001: continue as candidate only; sources not ingested into corpus; no feasibility/substrate promotion"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
-      "source_status": "EXTERNAL_SOURCE_NEEDED"
+      "source_status": "EXTERNAL_SOURCE_REVIEWED_NOT_INGESTED"
     },
     {
       "route_id": "ROUTE-A",
@@ -179,11 +185,12 @@
       "status": "OPEN",
       "evidence_needed": [
         "identify native dynamics or process",
-        "avoid importing positive-geometry target as dynamics"
+        "avoid importing positive-geometry target as dynamics",
+        "Route A source review 001: continue as candidate only; sources not ingested into corpus; no feasibility/substrate promotion"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
-      "source_status": "EXTERNAL_SOURCE_NEEDED"
+      "source_status": "EXTERNAL_SOURCE_REVIEWED_NOT_INGESTED"
     },
     {
       "route_id": "ROUTE-A",
@@ -192,14 +199,15 @@
       "gate_id": "G6",
       "gate_name": "lab_corporate_tractability",
       "gate_description": "Must plausibly connect to labs, instrumentation, staged demos, or partnerships.",
-      "status": "STRONG_CANDIDATE",
+      "status": "STRONG_SOURCE_REVIEW_SUPPORT",
       "evidence_needed": [
         "identify labs/instrumentation/prototype path",
-        "rank staged demo feasibility"
+        "rank staged demo feasibility",
+        "Route A source review 001: continue as candidate only; sources not ingested into corpus; no feasibility/substrate promotion"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
-      "source_status": "EXTERNAL_SOURCE_NEEDED"
+      "source_status": "EXTERNAL_SOURCE_REVIEWED_NOT_INGESTED"
     },
     {
       "route_id": "ROUTE-A",
@@ -211,11 +219,12 @@
       "status": "CAN_BE_DEFINED",
       "evidence_needed": [
         "write route-specific kill conditions",
-        "define negative controls"
+        "define negative controls",
+        "Route A source review 001: continue as candidate only; sources not ingested into corpus; no feasibility/substrate promotion"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
-      "source_status": "EXTERNAL_SOURCE_NEEDED"
+      "source_status": "EXTERNAL_SOURCE_REVIEWED_NOT_INGESTED"
     },
     {
       "route_id": "ROUTE-A",
@@ -224,14 +233,15 @@
       "gate_id": "G8",
       "gate_name": "transport_readout_separation",
       "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics.",
-      "status": "CENTRAL_OPEN_GATE",
+      "status": "CENTRAL_OPEN_GATE_WITH_SOURCE_CLUES",
       "evidence_needed": [
         "separate transport/coupling from canonical readout",
-        "show transport preserves/exposes readout rather than externally routing signals"
+        "show transport preserves/exposes readout rather than externally routing signals",
+        "Route A source review 001: continue as candidate only; sources not ingested into corpus; no feasibility/substrate promotion"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
-      "source_status": "EXTERNAL_SOURCE_NEEDED"
+      "source_status": "EXTERNAL_SOURCE_REVIEWED_NOT_INGESTED"
     },
     {
       "route_id": "ROUTE-B",
@@ -892,11 +902,12 @@
       "evidence_needed": [
         "declare equality_layer_status as ABSENT, GENERIC_INEQUALITY, DEGENERATIVE_EQUALITY, INTRINSIC_EQUALITY, or UNKNOWN",
         "identify whether constraints are native to the regime or imposed by external tuning/saturation/degeneration",
-        "provide source or experiment before assigning non-UNKNOWN status to physical routes"
+        "provide source or experiment before assigning non-UNKNOWN status to physical routes",
+        "Route A source review 001: continue as candidate only; sources not ingested into corpus; no feasibility/substrate promotion"
       ],
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
-      "source_status": "EXTERNAL_SOURCE_NEEDED"
+      "source_status": "EXTERNAL_SOURCE_REVIEWED_NOT_INGESTED"
     },
     {
       "route_id": "ROUTE-B",
@@ -1165,6 +1176,11 @@
     {
       "id": "EGM-NA5",
       "action": "Compare CRBSM generated proxy route against scattering-native Route E and high-resonance/mesoscopic resonance-native candidates before any substrate or engineering commitment.",
+      "status": "OPEN"
+    },
+    {
+      "id": "EGM-NA6",
+      "action": "Ingest Route A reviewed sources before adding source-extracted claims; keep Route A at SOURCE_REVIEWED_CONTINUE_AS_CANDIDATE only.",
       "status": "OPEN"
     }
   ]

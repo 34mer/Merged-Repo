@@ -1,0 +1,130 @@
+{
+  "schema": "route_a_source_review_v1",
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "EXTERNAL_SOURCE_REVIEW",
+    "NOT_SOURCE_EXTRACTED_TO_CORPUS",
+    "BLOCKED"
+  ],
+  "non_promotion_rule": "Route A is externally source-reviewed as a serious bootstrap/proxy engineering lead only. It is not source-extracted into the corpus, not engineering feasibility, not selected substrate, not prototype-ready, not Formation Medium implementation, not CRBSM implementation, and not investor/corporate language.",
+  "reviewed_sources": [
+    {
+      "id": "RA-SRC-001",
+      "title": "Topolectrical Circuits",
+      "doi": "10.1038/s42005-018-0035-2",
+      "layer": "topoelectrical_boundary_readout",
+      "supports": [
+        "circuit Laplacian/Hamiltonian analogy",
+        "topological insulating/semimetallic states in RLC circuits",
+        "topological boundary resonances in impedance readout",
+        "SSH midgap TBR measurement"
+      ],
+      "blocked_inferences": [
+        "TBRs prove canonical Formation Medium readout",
+        "TBRs prove S4",
+        "RLC circuits are selected substrate"
+      ]
+    },
+    {
+      "id": "RA-SRC-002",
+      "title": "Topolectrical-circuit realization of topological corner modes",
+      "doi": "10.1038/s41567-018-0246-1",
+      "layer": "topoelectrical_corner_readout",
+      "supports": [
+        "corner modes in topolectrical circuit",
+        "topological boundary resonances in corner impedance profile",
+        "explicit caveat that electronic quadrupole moment has no direct classical circuit analogue"
+      ],
+      "blocked_inferences": [
+        "corner impedance is canonical readout",
+        "full quantum bulk invariant reproduced",
+        "classical circuit is Formation Medium substrate"
+      ]
+    },
+    {
+      "id": "RA-SRC-003",
+      "title": "Tunable coupling of transmission-line microwave resonators mediated by an rf SQUID",
+      "doi": "10.1140/epjqt/s40507-016-0048-2",
+      "layer": "superconducting_microwave_transport",
+      "supports": [
+        "rf SQUID flux-tunable mutual inductance",
+        "couplings from about -320 MHz to 37 MHz",
+        "near-zero coupling reduces cross transmission by almost four orders",
+        "controllable photonic-state routing clue"
+      ],
+      "blocked_inferences": [
+        "tunable coupling equals Formation Medium transport",
+        "routing equals intrinsic readout",
+        "G8 solved"
+      ]
+    },
+    {
+      "id": "RA-SRC-004",
+      "title": "Tunable Superconducting Cavity using Superconducting Quantum Interference Device Metamaterials",
+      "doi": "10.1038/s41598-019-40891-1",
+      "layer": "high_resonance_tunable_cavity",
+      "supports": [
+        "rf SQUID array metamaterial in superconducting cavity",
+        "flux-tuned mode profile / >200 MHz detuning",
+        "high-Q low-temperature tunable cavity control"
+      ],
+      "blocked_inferences": [
+        "tunable resonance is native formation",
+        "high-resonance beats scattering by default",
+        "high-Q cavity is canonical readout"
+      ]
+    },
+    {
+      "id": "RA-SRC-005",
+      "title": "Coherent microwave-photon-mediated coupling between a semiconductor and a superconducting qubit",
+      "doi": "10.1038/s41467-019-10798-6",
+      "layer": "microwave_bus_transport_readout_separation",
+      "supports": [
+        "coherent coupling via virtual microwave photons",
+        "tunable high-impedance SQUID-array resonator as quantum bus",
+        "~21 MHz coupling exceeds linewidths",
+        "bus resonator/readout resonator separation clue"
+      ],
+      "blocked_inferences": [
+        "quantum bus equals Formation Medium transport",
+        "hybrid qubit coupling proves CRBSM relay",
+        "readout resonator is canonical readout"
+      ]
+    },
+    {
+      "id": "RA-SRC-006",
+      "title": "Tunable Coupling Architecture for Fixed-Frequency Transmon Superconducting Qubits",
+      "doi": "10.1103/PhysRevLett.127.080505",
+      "layer": "mature_superconducting_coupler_control",
+      "supports": [
+        "modified tunable bus architecture",
+        "fixed-frequency transmon coupling",
+        "reported high gate fidelity / calibration stability"
+      ],
+      "blocked_inferences": [
+        "high-fidelity gates are Formation Medium operations",
+        "quantum computing architecture is target",
+        "ordinary control proves native formation"
+      ]
+    }
+  ],
+  "gate_status_after_review": {
+    "G1": "PARTIAL_SOURCE_REVIEW_SUPPORT",
+    "G2": "PARTIAL_SOURCE_REVIEW_SUPPORT",
+    "G3": "STRONG_SOURCE_REVIEW_SUPPORT_FOR_TOPOLECTRICAL_IMPEDANCE_READOUT_ONLY",
+    "G4": "READOUT_FAITHFULNESS_UNKNOWN",
+    "G5": "OPEN",
+    "G6": "STRONG_SOURCE_REVIEW_SUPPORT",
+    "G7": "CAN_BE_DEFINED",
+    "G8": "CENTRAL_OPEN_GATE_WITH_SOURCE_CLUES",
+    "G9": "EQUALITY_UNKNOWN"
+  },
+  "route_verdict": "SOURCE_REVIEWED_CONTINUE_AS_CANDIDATE",
+  "required_next_work": [
+    "ingest sources before source-extracted claims",
+    "guard Route A review status",
+    "high-resonance comparator plan",
+    "minimal negative-control demo definition"
+  ]
+}
