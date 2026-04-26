@@ -1,23 +1,26 @@
 # Prime Local Carrier Candidate
 
 STATUS: GENERATED / OPEN / CANDIDATE  
-ARGUMENT_STATUS: SOURCE_RECHECK / GENERATED  
-CHECK_STATUS: NOT_CHECKED  
-SOURCE_STATUS: SOURCE_RECHECKED / NOT_SOURCE_EXTRACTED  
+ARGUMENT_STATUS: SOURCE_RECHECK / PARTIAL_SOURCE_EXTRACTION / GENERATED  
+CHECK_STATUS: PASS_SOURCE_COVERAGE / NOT_FORMAL_THEOREM  
+SOURCE_STATUS: PARTIAL_SOURCE_EXTRACTED / SOURCE_COVERAGE_GUARDED  
 PROMOTION_STATUS: BLOCKED  
 TARGET_LOCATION: research_ledger/  
 DO_NOT_PLACE_IN: SOURCE_EXTRACTED_CLAIMS.json
 
 ## 0. Non-Promotion Notice
 
-This artifact is a generated candidate derived from a direct source recheck of the Amplituhedron-Prime source and prior GPT equation mining.
+This artifact is a generated candidate derived from direct source recheck, partial direct source extraction, and prior GPT equation mining around the Amplituhedron-Prime source.
 
 It is not a source-extracted claim, not a theorem, not a validator result, not a Formation Medium substrate claim, not engineering evidence, and not a corporate/investor claim.
 
-Machine-readable source recheck:
+Machine-readable source recheck and direct extraction context:
 
 ```text
 research_ledger/PRIME_LOCAL_CARRIER_SOURCE_RECHECK_001.json
+research_ledger/PRIME_DIRECT_EXTRACTION_CONTEXT_001.json
+research_ledger/PRIME_DIRECT_SOURCE_EXTRACTION_SUMMARY_001.md
+formal_handoff/results/CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE.json
 ```
 
 Primary source file rechecked:
@@ -30,6 +33,16 @@ Related existing source anchor:
 
 ```text
 EXT-AMP-PRIME-001
+```
+
+New direct source-extracted Prime local-carrier anchors:
+
+```text
+EXT-AMP-PRIME-002 — sign-flip local positive spaces / maximal sign-flip finite one-loop octagons / chiral octagons
+EXT-AMP-PRIME-003 — sign-flip-four regions / chiral-octagon logarithmic forms / eight-boundary generic chiral components
+EXT-AMP-PRIME-004 — chiral octagon degeneration to pentagon/hexagon boundary cases
+EXT-AMP-PRIME-005 — chiral pentagon gluing into Amplituhedron-Prime and same-log-form/different-bulk caution
+CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE — PASS_SOURCE_COVERAGE guard
 ```
 
 ## 1. Purpose
@@ -45,7 +58,7 @@ pentagon/hexagon degenerations
 pentagon gluing into Amplituhedron-Prime
 ```
 
-This artifact records what the source recheck currently supports as a generated candidate carrier layer, while blocking promotion to source-extracted status.
+This artifact records what source recheck and partial source extraction currently support as a generated candidate carrier layer, while blocking promotion to theorem, substrate, engineering, or universal-carrier status.
 
 ## 2. Source-Rechecked Support
 
@@ -77,7 +90,7 @@ Prime local spaces may be treated as sign-flip-defined positive spaces for candi
 Status:
 
 ```text
-SOURCE_RECHECKED / CANDIDATE / NOT_SOURCE_EXTRACTED
+SOURCE_EXTRACTED_CONTACT / GENERATED_CANDIDATE / NOT_THEOREM
 ```
 
 ### SR2 — Maximal Sign-Flip Case Gives Finite One-Loop Octagons
@@ -95,7 +108,7 @@ The maximal local sign-flip sectors can be used as candidate finite local carrie
 Status:
 
 ```text
-SOURCE_RECHECKED / CANDIDATE / NOT_SOURCE_EXTRACTED
+SOURCE_EXTRACTED_CONTACT / GENERATED_CANDIDATE / NOT_THEOREM
 ```
 
 ### SR3 — Chiral Octagons and Degenerations
@@ -113,7 +126,7 @@ Prime local carrier candidates may include generic chiral octagon blocks and deg
 Status:
 
 ```text
-SOURCE_RECHECKED / CANDIDATE / NOT_SOURCE_EXTRACTED
+SOURCE_EXTRACTED_CONTACT / GENERATED_CANDIDATE / NOT_THEOREM
 ```
 
 ### SR4 — Chiral Pentagon Gluing into Amplituhedron-Prime
@@ -131,7 +144,7 @@ Prime carrier analysis should treat pentagon gluing as a global consistency laye
 Status:
 
 ```text
-SOURCE_RECHECKED / CANDIDATE / NOT_SOURCE_EXTRACTED
+SOURCE_EXTRACTED_CONTACT / GENERATED_CANDIDATE / NOT_THEOREM
 ```
 
 ### SR5 — Same Boundary / Same Logarithmic Form / Different Bulk
@@ -149,7 +162,7 @@ Prime remains the main positive-geometry witness source for the bulk/readout cau
 Status:
 
 ```text
-SOURCE_RECHECKED / EXISTING_ANCHOR / NOT_GENERAL_THEOREM
+SOURCE_EXTRACTED_CONTACT / SOURCE_ANCHORED_CAUTION / NOT_GENERAL_THEOREM
 ```
 
 ## 3. Conservative Candidate Carrier Signature
@@ -160,7 +173,7 @@ The prior GPT mined signature was:
 O_Prime,local = { S^{(2),chi}_{ij}, S^{(4),chi}_{ikellj} }
 ```
 
-The source recheck supports a more conservative schema at this stage:
+The source recheck plus partial direct extraction support a conservative schema at this stage:
 
 ```text
 PrimeLocalCarrierCandidate = (
@@ -184,7 +197,7 @@ Amplituhedron-Prime gluing combination
 
 Reason for conservatism:
 
-The first regex pass did not reliably recover the exact notation `S^{(2),chi}_{ij}` / `S^{(4),chi}_{ikellj}` directly from the Markdown extraction. The source does support sign-flip-zero/two/four hierarchy language and sign-flip-four/chiral-octagon language, but this artifact should not pretend the mined notation has been source-extracted unless a focused equation-level source extraction verifies it.
+Direct extraction now source-binds sign-flip local spaces, sign-flip-four/chiral-octagon regions, chiral-octagon degenerations, and Prime gluing/bulk caution. The exact prior-GPT shorthand `O_Prime,local = { S^{(2),chi}_{ij}, S^{(4),chi}_{ikellj} }` remains generated shorthand unless separately formalized or extracted with exact notation.
 
 ## 4. Formation Medium Relevance
 
@@ -256,64 +269,48 @@ Status:
 SOURCE_ANCHORED_CAUTION / GENERATED_FORMAL_TEMPLATE
 ```
 
-## 5. Candidate Rows for Future Extraction
+## 5. Directly Extracted Claim Contacts
 
-Do not add these to `SOURCE_EXTRACTED_CLAIMS.json` yet. They are extraction candidates only.
+The following formerly candidate rows now have direct source-extracted claim contacts. They remain `NEEDS_FORMALIZATION` and do not imply theorem, substrate, or engineering status.
 
-### PC-EXT-001 — Sign-Flip Local Positive Spaces
+### EXT-AMP-PRIME-002 — Sign-Flip Local Positive Spaces
 
-Candidate claim:
-
-```text
-One-loop MHV local positive spaces are characterized by sign-flip conditions.
-```
-
-Extraction requirement:
-
-Directly extract exact wording from abstract/introduction/sections 3-4.
-
-### PC-EXT-002 — Maximal Sign-Flip Octagons
-
-Candidate claim:
+Source-extracted contact:
 
 ```text
-In the maximal sign-flip case, the spaces are finite one-loop octagons / sign-flip-four spaces have logarithmic forms linked to chiral octagons.
+Local positive spaces relevant for one-loop MHV amplitudes are characterized by sign-flip conditions; in the maximal sign-flip case the spaces are finite one-loop octagons, and the logarithmic forms of maximal sign-flip spaces are chiral octagons.
 ```
 
-Extraction requirement:
+### EXT-AMP-PRIME-003 — Sign-Flip-Four / Chiral Octagon Regions
 
-Directly extract exact wording around sign-flip-four spaces and equation 4.28 context.
-
-### PC-EXT-003 — Chiral Octagon Degenerations
-
-Candidate claim:
+Source-extracted contact:
 
 ```text
-Chiral octagons degenerate to simpler pentagon/hexagon spaces when labels become adjacent.
+The paper defines sign-flip-four regions labelled by the four sign-flip positions and states that sign-flip-four spaces have logarithmic forms linked to chiral octagon integrals, with chiral components having eight boundaries in the generic case.
 ```
 
-Extraction requirement:
+### EXT-AMP-PRIME-004 — Chiral Octagon Degenerations
 
-Directly extract exact wording around the degeneration passage.
-
-### PC-EXT-004 — Gluing into Amplituhedron-Prime
-
-Candidate claim:
+Source-extracted contact:
 
 ```text
-Particular combinations of chiral pentagon/box/sign-flip spaces glue into Amplituhedron-Prime with only physical boundaries and no spurious boundaries under the stated assumptions.
+Chiral octagons naturally degenerate to simpler spaces when labels become adjacent; the paper identifies pentagon and hexagon examples as boundary cases of the generic octagon.
 ```
 
-Extraction requirement:
+### EXT-AMP-PRIME-005 — Gluing into Amplituhedron-Prime
 
-Directly extract exact wording around section 5.3 and equation 5.32.
+Source-extracted contact:
+
+```text
+Chiral pentagons externally triangulate a new Amplituhedron-Prime space, a non-overlapping twin of the original Amplituhedron with only physical boundaries and the same logarithmic form; the source also states that the Amplituhedron-Prime has the same boundary structure/logarithmic form as the Amplituhedron but differs in the bulk as a geometric space.
+```
 
 ## 6. Blockers
 
-This candidate may not be promoted until:
+This candidate may not be promoted beyond source-coverage status until:
 
-1. Direct source-extracted claims are created for the specific local-carrier claims.
-2. The exact notation for two/four sign-flip regions is recovered from source and not only prior GPT memory.
+1. A formal sign-flip/chiral-octagon finite model is scoped and implemented.
+2. The exact shorthand notation for two/four sign-flip carrier regions is recovered/formalized if needed, rather than inferred from prior GPT memory.
 3. A formal/check target is defined if the carrier layer affects Formation Medium claims.
 4. The distinction between local positive-geometry carrier and physical substrate carrier remains explicit.
 5. The Prime-specific scope is preserved.
@@ -332,39 +329,29 @@ Reject or rewrite this candidate if:
 
 ## 8. Recommended Next Work
 
-### N1 — Source-Extract Prime Local Carrier Claims
-
-Add exact source-extracted claims only after a focused direct extraction around:
-
-```text
-sign-flip local positive spaces
-maximal sign-flip finite one-loop octagons
-sign-flip-four / chiral octagons
-pentagon/hexagon degenerations
-Amplituhedron-Prime gluing / equation 5.32
-```
-
-### N2 — Add Formal Check Target
+### N1 — Formalize or Finite-Model Prime Local Carrier Scope
 
 Possible future target:
 
 ```text
-CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE
+finite sign-flip/chiral-octagon model scoped to extracted Prime claims
+```
+
+### N2 — Keep Source-Coverage Guard Passing
+
+Current implemented target:
+
+```text
+CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE — PASS_SOURCE_COVERAGE
 ```
 
 Purpose:
 
 Guard against promoting Prime local-carrier language into Formation Medium substrate claims.
 
-### N3 — Update Bulk/Readout Witness Schema
+### N3 — Maintain Bulk/Readout Witness Schema Contact
 
-If source extraction succeeds, update:
-
-```text
-FORMATION_MEDIUM_BULK_READOUT_WITNESS_SCHEMA.md
-```
-
-with a Prime-scoped witness profile.
+Prime source extraction now strengthens the Prime-scoped witness profile, but only in positive-geometry scope.
 
 ## 9. Non-Promotion Footer
 

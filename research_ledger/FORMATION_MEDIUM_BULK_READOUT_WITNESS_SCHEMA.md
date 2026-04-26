@@ -365,10 +365,13 @@ same_readout(x, y)
 different_bulk(x, y)
 ```
 
-Source contact:
+Source contacts:
 
 ```text
-EXT-AMP-PRIME-001
+EXT-AMP-PRIME-001 — same boundary/logarithmic form but different bulk caution
+EXT-AMP-PRIME-005 — chiral pentagon gluing into Amplituhedron-Prime, same logarithmic form, different bulk
+CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION — PASS_SOURCE_COVERAGE
+CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE — PASS_SOURCE_COVERAGE
 ```
 
 Allowed use:
@@ -382,7 +385,7 @@ It may not be used as proof that physical substrates, all positive geometries, o
 Status:
 
 ```text
-SOURCE_ANCHORED_CAUTION / GENERATED_FORMAL_TEMPLATE
+SOURCE_ANCHORED_CAUTION / PARTIAL_SOURCE_EXTRACTED_CONTACT / GENERATED_FORMAL_TEMPLATE
 ```
 
 ## 7. Engineering Interpretation Gate
@@ -411,31 +414,41 @@ READOUT_FAITHFULNESS_UNKNOWN
 
 unless external source review or experiment supports stronger classification.
 
-## 8. Future Checker Path
+## 8. Checker Path
 
-A future checker could be added only after source recheck and formal scoping.
-
-Candidate future target:
+Implemented guard target:
 
 ```text
 CHK-FM-BULK-READOUT-WITNESS-SCHEMA
 ```
 
-Candidate checker duties:
+Current result:
 
-1. Verify every witness declares a readout map.
-2. Verify every witness declares a bulk equivalence relation.
-3. Verify every witness distinguishes source-level, representation-level, and physical-substrate-level bulk.
+```text
+PASS_SOURCE_COVERAGE / LEDGER-SCHEMA GUARD ONLY
+```
+
+Implemented checker duties:
+
+1. Verify the schema declares `same_readout`, `different_bulk`, `boundary_determined`, and `bulk_sensitive` vocabulary.
+2. Verify `same_readout` requires an explicit readout map.
+3. Verify `different_bulk` requires scoped bulk/equivalence interpretation.
+4. Verify engineering routes remain at `READOUT_FAITHFULNESS_UNKNOWN` unless separately evidenced.
+5. Prevent use as S4 theorem, substrate evidence, engineering readiness, or physical realization.
+
+Future formal checker duties, if ever created:
+
+1. Verify concrete witnesses declare a readout map.
+2. Verify concrete witnesses declare a bulk equivalence relation.
+3. Verify concrete witnesses distinguish source-level, representation-level, and physical-substrate-level bulk.
 4. Prevent generalization beyond source scope.
 5. Prevent engineering routes from claiming readout non-faithfulness without evidence.
 
 Status:
 
 ```text
-NOT_CREATED / FUTURE_TARGET
+SOURCE_COVERAGE_IMPLEMENTED / NOT_THEOREM / NOT_SUBSTRATE_EVIDENCE
 ```
-
-No formal check target is created by this artifact.
 
 ## 9. Kill Conditions
 
