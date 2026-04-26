@@ -34,7 +34,7 @@ The repo does not yet identify a physical substrate, prove a native settling law
 - Formation-medium discipline validator passes.
 - Formal-check result validator passes.
 - Source-coverage guards cover the main overclaim zones.
-- Finite checks exist for selected baseline structures within declared scopes, including the first tiny two-curve surfaceology fixture.
+- Finite checks exist for selected baseline structures within declared scopes, including the first small surfaceology fixture family.
 
 ## Critical Gaps
 
@@ -42,7 +42,7 @@ The repo does not yet identify a physical substrate, prove a native settling law
 - No native settling law.
 - No S2* theorem.
 - No R12/R13 formal theorem.
-- No general surfaceology finite curve-intersection family or SMT model; only a tiny two-curve fixture exists.
+- No generated/general surfaceology finite curve-intersection family or SMT model; only a small hand-declared fixture family exists.
 - No lab protocol.
 - No engineering prototype.
 

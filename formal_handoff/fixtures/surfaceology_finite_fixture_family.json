@@ -1,0 +1,111 @@
+{
+  "schema": "surfaceology_finite_fixture_family_v1",
+  "family_id": "SURF-FINITE-U-EQUATION-FAMILY-001",
+  "status": [
+    "GENERATED",
+    "FINITE_FIXTURE_FAMILY",
+    "HAND_CHECKABLE",
+    "NOT_THEOREM",
+    "NOT_SOURCE_EXTRACTED"
+  ],
+  "purpose": "First finite family of tiny surfaceology-style u-equation fixtures. Each fixture is a declared crossing graph with equations u_C + product_D u_D^I(C,D) = 1, exact rational sample solutions in 0 <= u <= 1, and boundary-forcing checks.",
+  "source_claim_ids": [
+    "EXT-SURF-COUNT-2023-001",
+    "EXT-SURF-001"
+  ],
+  "equation_template": "u_C + product_D u_D^I(C,D) = 1, with D ranging over curves crossing C in the fixture crossing graph.",
+  "positive_region": {
+    "lower_bound": "0",
+    "upper_bound": "1"
+  },
+  "fixtures": [
+    {
+      "fixture_id": "SURF-TINY-TWO-CURVE-CROSSING",
+      "description": "Single crossing pair. This is the seed fixture also stored separately in surfaceology_tiny_two_curve_fixture.json.",
+      "curves": [
+        {"id": "a", "variable": "u_a"},
+        {"id": "b", "variable": "u_b"}
+      ],
+      "crossing_edges": [["a", "b"]],
+      "intersection_exponents": {
+        "a": {"b": 1},
+        "b": {"a": 1}
+      },
+      "expected_equations": [
+        {"curve": "a", "normalized_equation": "u_a + u_b - 1 = 0"},
+        {"curve": "b", "normalized_equation": "u_b + u_a - 1 = 0"}
+      ],
+      "sample_solutions": [
+        {"label": "boundary_a_zero", "values": {"u_a": "0", "u_b": "1"}},
+        {"label": "interior_midpoint", "values": {"u_a": "1/2", "u_b": "1/2"}},
+        {"label": "boundary_b_zero", "values": {"u_a": "1", "u_b": "0"}}
+      ],
+      "boundary_limits": [
+        {"when_zero": "u_a", "forces_one": ["u_b"], "witness_sample": "boundary_a_zero"},
+        {"when_zero": "u_b", "forces_one": ["u_a"], "witness_sample": "boundary_b_zero"}
+      ]
+    },
+    {
+      "fixture_id": "SURF-TINY-DISJOINT-TWO-PAIRS",
+      "description": "Two independent crossing pairs. This tests product factorization across disconnected crossing components without adding theorem status.",
+      "curves": [
+        {"id": "a", "variable": "u_a"},
+        {"id": "b", "variable": "u_b"},
+        {"id": "c", "variable": "u_c"},
+        {"id": "d", "variable": "u_d"}
+      ],
+      "crossing_edges": [["a", "b"], ["c", "d"]],
+      "intersection_exponents": {
+        "a": {"b": 1},
+        "b": {"a": 1},
+        "c": {"d": 1},
+        "d": {"c": 1}
+      },
+      "expected_equations": [
+        {"curve": "a", "normalized_equation": "u_a + u_b - 1 = 0"},
+        {"curve": "b", "normalized_equation": "u_b + u_a - 1 = 0"},
+        {"curve": "c", "normalized_equation": "u_c + u_d - 1 = 0"},
+        {"curve": "d", "normalized_equation": "u_d + u_c - 1 = 0"}
+      ],
+      "sample_solutions": [
+        {"label": "interior_all_midpoint", "values": {"u_a": "1/2", "u_b": "1/2", "u_c": "1/2", "u_d": "1/2"}},
+        {"label": "boundary_a_zero", "values": {"u_a": "0", "u_b": "1", "u_c": "1/2", "u_d": "1/2"}},
+        {"label": "boundary_c_zero", "values": {"u_a": "1/2", "u_b": "1/2", "u_c": "0", "u_d": "1"}}
+      ],
+      "boundary_limits": [
+        {"when_zero": "u_a", "forces_one": ["u_b"], "witness_sample": "boundary_a_zero"},
+        {"when_zero": "u_c", "forces_one": ["u_d"], "witness_sample": "boundary_c_zero"}
+      ]
+    },
+    {
+      "fixture_id": "SURF-TINY-THREE-CURVE-CHAIN",
+      "description": "Three-curve chain a-b-c. The middle curve crosses two others, giving the first nontrivial multi-neighbor product fixture in this repo.",
+      "curves": [
+        {"id": "a", "variable": "u_a"},
+        {"id": "b", "variable": "u_b"},
+        {"id": "c", "variable": "u_c"}
+      ],
+      "crossing_edges": [["a", "b"], ["b", "c"]],
+      "intersection_exponents": {
+        "a": {"b": 1},
+        "b": {"a": 1, "c": 1},
+        "c": {"b": 1}
+      },
+      "expected_equations": [
+        {"curve": "a", "normalized_equation": "u_a + u_b - 1 = 0"},
+        {"curve": "b", "normalized_equation": "u_b + u_a * u_c - 1 = 0"},
+        {"curve": "c", "normalized_equation": "u_c + u_b - 1 = 0"}
+      ],
+      "sample_solutions": [
+        {"label": "middle_zero", "values": {"u_a": "1", "u_b": "0", "u_c": "1"}},
+        {"label": "middle_one", "values": {"u_a": "0", "u_b": "1", "u_c": "0"}}
+      ],
+      "boundary_limits": [
+        {"when_zero": "u_b", "forces_one": ["u_a", "u_c"], "witness_sample": "middle_zero"},
+        {"when_zero": "u_a", "forces_one": ["u_b"], "witness_sample": "middle_one"},
+        {"when_zero": "u_c", "forces_one": ["u_b"], "witness_sample": "middle_one"}
+      ]
+    }
+  ],
+  "non_promotion_boundary": "This fixture family checks only declared tiny crossing graphs. It is not a surfaceology theorem, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness."
+}

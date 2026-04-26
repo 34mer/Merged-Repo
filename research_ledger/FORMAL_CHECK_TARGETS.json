@@ -206,6 +206,27 @@
       ]
     },
     {
+      "id": "CHK-SURF-FINITE-FIXTURE-FAMILY",
+      "claim_ids": [
+        "EXT-SURF-COUNT-2023-001",
+        "EXT-SURF-001"
+      ],
+      "rows": [
+        "R1",
+        "R9"
+      ],
+      "families": [
+        "S"
+      ],
+      "checker_layer": "implemented finite fixture-family validator; later generated finite curve-intersection families",
+      "predicate": "For the declared finite family of crossing-graph fixtures, intersection exponents derive the listed u-equations; exact rational sample points satisfy those equations in the positive region; and boundary witnesses force crossing variables to one.",
+      "failure_condition": "A declared fixture equation, crossing exponent, sample solution, or boundary-forcing witness fails under exact rational evaluation, or the family is promoted beyond finite fixture scope.",
+      "status": [
+        "DEFINED",
+        "FINITE_CHECK_IMPLEMENTED"
+      ]
+    },
+    {
       "id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
       "claim_ids": [
         "EXT-HIDDEN-ZEROS-2023-001",

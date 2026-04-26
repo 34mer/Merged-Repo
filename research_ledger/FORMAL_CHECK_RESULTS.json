@@ -67,6 +67,12 @@
       "artifact": "formal_handoff/results/CHK-SURF-TINY-TWO-CURVE-FIXTURE.json"
     },
     {
+      "target_id": "CHK-SURF-FINITE-FIXTURE-FAMILY",
+      "result_status": "PASS_FINITE_CHECK",
+      "result_summary": "Implemented finite surfaceology fixture-family check. The checker validates three declared crossing-graph fixtures with exact rational arithmetic, including a two-curve crossing pair, two disconnected crossing pairs, and a three-curve chain whose middle curve has a two-neighbor product equation u_b + u_a * u_c - 1 = 0. This is finite fixture-family evidence only, not a surfaceology theorem, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness.",
+      "artifact": "formal_handoff/results/CHK-SURF-FINITE-FIXTURE-FAMILY.json"
+    },
+    {
       "target_id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
       "result_status": "PASS_SOURCE_COVERAGE",
       "result_summary": "Implemented scaffold/kinematic-shift ledger guard. The checker verifies that hidden-zero, scalar-scaffolded-gluon shift, and W_e/transmutation claims remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION bridge material, while blocking promotion to Yang-Mills derivation, realization-class equivalence, Formation Medium substrate evidence, physical settling law, or engineering readiness.",
