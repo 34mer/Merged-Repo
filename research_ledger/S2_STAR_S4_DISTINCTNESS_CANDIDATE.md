@@ -3,7 +3,7 @@
 STATUS: GENERATED / OPEN / CANDIDATE  
 ARGUMENT_STATUS: THREAD_SUPPORTED / GENERATED  
 CHECK_STATUS: NOT_CHECKED  
-SOURCE_STATUS: PARTIAL / SOURCE_GAP  
+SOURCE_STATUS: PARTIAL / SOURCE_COVERAGE_IMPLEMENTED  
 PROMOTION_STATUS: BLOCKED  
 TARGET_LOCATION: research_ledger/  
 DO_NOT_PLACE_IN: SOURCE_EXTRACTED_CLAIMS.json
@@ -58,7 +58,7 @@ Repo status:
 - Partially supported by source-extracted/corpus material on canonical forms, cuts/faces, residue recursion, and the R8 root-bundle / local transport layer.
 - Full source authority now has initial POS_GEOM_2017 source-intake records in the corpus, but remains not checked; the relevant source-coverage target is CHK-S2STAR-READOUT-SOURCE-COVERAGE.
 
-Allowed use: generated shorthand for the B1-B3 package below, marked PARTIAL / SOURCE_GAP until 2017 Positive Geometry intake is complete.
+Allowed use: generated shorthand for the B1-B3 package below, marked PARTIAL / SOURCE_COVERAGE_IMPLEMENTED after POS_GEOM_2017 intake, but still NOT_THEOREM and NOT_SUBSTRATE.
 
 ### S3 — Candidate Only
 
@@ -81,7 +81,7 @@ Repo status:
 - Not repo-native.
 - Directly anchored by `EXT-AMP-PRIME-001`, which reports same boundary structure and logarithmic form with different bulk geometry.
 - Related check target exists: `CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION`.
-- That check target is currently `DEFINED_NOT_RUN` / `NOT_IMPLEMENTED` in the repo check-target layer.
+- That check target is now `PASS_SOURCE_COVERAGE`; this is still not theorem status or substrate evidence.
 
 Allowed use: generated candidate label anchored to `EXT-AMP-PRIME-001`; must not be promoted beyond the source-supported statement.
 
@@ -108,7 +108,7 @@ Support status:
 ```text
 SOURCE_EXTRACTED anchor exists.
 Candidate interpretation remains GENERATED / OPEN.
-Related check target is DEFINED_NOT_RUN / NOT_IMPLEMENTED.
+Related check target is PASS_SOURCE_COVERAGE only.
 ```
 
 Required caution:
@@ -168,19 +168,19 @@ Candidate statement:
 Support status:
 
 ```text
-PARTIAL / SOURCE_GAP
+PARTIAL / SOURCE_COVERAGE_IMPLEMENTED / NOT_THEOREM
 ```
 
 Current support:
 
 - Partial support from scattering forms / canonical form material.
 - R8 may provide a future binding for intrinsic local transport/readout structure, but is not enough by itself to promote B1.
-- Stronger authority requires 2017 Positive Geometry intake.
+- Stronger authority now requires formalization beyond POS_GEOM_2017 source coverage.
 
 Blocker:
 
 ```text
-2017 Positive Geometry source not ingested.
+POS_GEOM_2017 source ingested; theorem/formalization remains open.
 ```
 
 ### B2 — Unique Recursive Readout
@@ -192,19 +192,19 @@ Candidate statement:
 Support status:
 
 ```text
-PARTIAL / SOURCE_GAP
+PARTIAL / SOURCE_COVERAGE_IMPLEMENTED / NOT_THEOREM
 ```
 
 Current support:
 
 - Partial support from R7 parabolic residue recursion for a solved finite branch.
 - Possible future local-transport support from R8.
-- General positive-geometry canonical-form recursion requires 2017 Positive Geometry intake.
+- General positive-geometry canonical-form recursion now has POS_GEOM_2017 source coverage but still requires formalization.
 
 Blocker:
 
 ```text
-2017 Positive Geometry source not ingested.
+POS_GEOM_2017 source ingested; theorem/formalization remains open.
 No general validator for S2* readout uniqueness.
 ```
 
@@ -257,7 +257,7 @@ Related check target:
 
 ```text
 CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION
-Status: DEFINED_NOT_RUN / NOT_IMPLEMENTED
+Status: PASS_SOURCE_COVERAGE / NOT_THEOREM
 ```
 
 Allowed formulation:
@@ -392,7 +392,7 @@ CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION
 Current status:
 
 ```text
-DEFINED_NOT_RUN / NOT_IMPLEMENTED
+PASS_SOURCE_COVERAGE / NOT_THEOREM
 ```
 
 Required action:
@@ -522,7 +522,8 @@ check_status:
   - NOT_CHECKED
 source_status:
   - PARTIAL
-  - SOURCE_GAP
+  - SOURCE_COVERAGE_IMPLEMENTED
+  - NOT_THEOREM
 claim_type: formation_medium_candidate
 families:
   - A
@@ -548,7 +549,7 @@ promotion_status: BLOCKED
 ```text
 The S2* + S4 distinction is a generated formation-medium design caution:
 
-A substrate may expose intrinsic canonical boundary/readout semantics while its internal bulk realization remains non-faithful relative to that readout. Existing repo anchors partially support this distinction through canonical form / cuts / faces / recursion / local-transport material, and directly support the same-boundary/same-form/different-bulk caution through EXT-AMP-PRIME-001. However, the distinction is not checked, not formalized, and not source-complete. It remains GENERATED / OPEN / CANDIDATE pending 2017 Positive Geometry intake, source verification, and checker/formal development.
+A substrate may expose intrinsic canonical boundary/readout semantics while its internal bulk realization remains non-faithful relative to that readout. Existing repo anchors partially support this distinction through canonical form / cuts / faces / recursion / local-transport material, and directly support the same-boundary/same-form/different-bulk caution through EXT-AMP-PRIME-001. However, the distinction is not a theorem, not formalized as substrate physics, and not source-complete as a Formation Medium result. It remains GENERATED / OPEN / CANDIDATE pending formal development beyond source coverage.
 ```
 
 ## 13. Non-Promotion Footer

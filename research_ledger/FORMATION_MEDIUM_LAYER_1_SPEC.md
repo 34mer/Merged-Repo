@@ -149,7 +149,7 @@ A candidate fails this constraint if it only describes a target mathematical obj
 
 Candidate constraint:
 
-> Readout should be boundary/canonical-form-like and recursively constrained, but S2* remains partial/source-gap until 2017 Positive Geometry intake and readout validators exist.
+> Readout should be boundary/canonical-form-like and recursively constrained. S2* now has source-coverage guards, but remains non-theorem, non-substrate, and not repo-native.
 
 Slot:
 
@@ -160,7 +160,7 @@ BoundaryReadout
 Status:
 
 ```text
-GENERATED / OPEN / SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
+GENERATED / OPEN / SOURCE_EXTRACTED / NEEDS_FORMALIZATION / PASS_SOURCE_COVERAGE / NOT_THEOREM
 ```
 
 Source leads:
@@ -173,8 +173,8 @@ Source leads:
 
 Promotion blockers:
 
-- POS_GEOM_2017 source coverage not checked
-- no S2* validator
+- POS_GEOM_2017 source coverage is implemented as PASS_SOURCE_COVERAGE only
+- no S2* theorem or substrate-readout proof exists
 - S2* is not repo-native
 - R8 cannot promote S2* alone
 
@@ -210,8 +210,8 @@ Source leads:
 
 Promotion blockers:
 
-- `CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION` is not implemented
-- same-boundary/different-bulk is not yet a general formation-medium theorem
+- `CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION` is implemented as PASS_SOURCE_COVERAGE only
+- same-boundary/different-bulk is not a general formation-medium theorem
 - S4 is not repo-native
 
 Failure mode:
@@ -318,7 +318,7 @@ Current support profile:
 NativeCarrier:             GENERATED / OPEN
 NativeAdmissibility:       THREAD_SUPPORTED / PARTIAL
 NativeLocalOps:            THREAD_SUPPORTED / PARTIAL
-CanonicalBoundaryReadout:  PARTIAL / SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
+CanonicalBoundaryReadout:  PARTIAL / SOURCE_EXTRACTED / NEEDS_FORMALIZATION / PASS_SOURCE_COVERAGE / NOT_THEOREM
 NonFaithfulBulkRelation:   SOURCE_ANCHORED_CAUTION / GENERATED
 NativeSettlingLaw:         GENERATED / OPEN
 ExplicitFailureInterface:  PARTIAL
@@ -483,12 +483,12 @@ SOURCE_NEEDED / GENERATED / OPEN
 
 ### FM1-W3 — 2017 Positive Geometry Intake
 
-Still required as checked source coverage/formalization for B1/B2 and S2* authority; source intake alone is insufficient.
+Source coverage is now implemented; further formalization remains required for B1/B2 and S2* authority because source coverage alone is insufficient.
 
 Status:
 
 ```text
-SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION / PASS_SOURCE_COVERAGE / NOT_THEOREM
 ```
 
 ### FM1-W4 — Bulk/Readout Witness Checker
@@ -514,7 +514,7 @@ FORMAL_CANDIDATE only after source/check review
 
 ### FM1-W5 — Formation-Medium Validator Skeleton
 
-Create a validator that checks only ledger discipline, not physics truth:
+Extend the existing validator/checker apparatus that checks only ledger discipline, not physics truth:
 
 - every FM claim has status;
 - every FM claim has blocker/failure mode;
@@ -525,7 +525,7 @@ Create a validator that checks only ledger discipline, not physics truth:
 Status:
 
 ```text
-NOT_IMPLEMENTED
+PARTIAL / IMPLEMENTED_FOR_DISCIPLINE_AND_READINESS / NOT_PHYSICS_VALIDATOR
 ```
 
 ## 7. Kill Conditions
@@ -535,7 +535,7 @@ Reject or narrow this Layer 1 spec if:
 1. prior GPT conversation intake is treated as source authority;
 2. FM1 constraints are used as checked physics;
 3. physical-regime leads are presented as selected substrates;
-4. the POS_GEOM_2017 source-coverage gap is ignored;
+4. the difference between POS_GEOM_2017 source coverage and formal theorem status is ignored;
 5. S1-S4 are treated as repo-native;
 6. S2* is promoted without source/check support;
 7. S4 is generalized beyond Amplituhedron-Prime caution without support;

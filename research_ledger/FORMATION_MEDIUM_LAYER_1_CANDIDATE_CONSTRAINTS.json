@@ -7,7 +7,7 @@
     "NOT_SOURCE_EXTRACTED",
     "NOT_CHECKED"
   ],
-  "non_promotion_rule": "These constraints are mined from prior GPT conversation source intake. They are design leads only until independently source-bound, repo-bound, or checked. Formation Medium Layer 1 constraints are not a theorem, not physics proof, and not engineering readiness evidence.",
+  "non_promotion_rule": "These constraints are mined from prior GPT conversation source intake. They are design leads only until independently source-bound, repo-bound, or checked. Formation Medium Layer 1 constraints are not a theorem, not physics proof, and not engineering readiness evidence. PASS_SOURCE_COVERAGE does not promote FM1 constraints to theorem, physics, substrate, or engineering status.",
   "depends_on": [
     "research_ledger/FORMATION_MEDIUM_LAYER_0_SPEC.md",
     "research_ledger/PREVIOUS_GPT_CONVERSATION_INTAKE.json",
@@ -69,11 +69,13 @@
     {
       "id": "FM1-C4",
       "slot": "readout",
-      "constraint": "Readout should be boundary/canonical-form-like and recursively constrained, but S2* remains partial/source-gap until 2017 Positive Geometry intake and readout validators exist.",
+      "constraint": "Readout should be boundary/canonical-form-like and recursively constrained. S2* has source-coverage guards, but remains non-theorem, non-substrate, and not repo-native.",
       "status": [
         "GENERATED",
         "OPEN",
-        "SOURCE_GAP"
+        "SOURCE_COVERAGE_IMPLEMENTED",
+        "NEEDS_FORMALIZATION",
+        "NOT_THEOREM"
       ],
       "source_leads": [
         "S2_STAR_S4_DISTINCTNESS_CANDIDATE.md",
@@ -81,8 +83,10 @@
         "R8"
       ],
       "promotion_blockers": [
-        "2017 Positive Geometry missing",
-        "no S2* validator"
+        "source coverage is not theorem status",
+        "no S2* theorem or substrate-readout proof",
+        "S2* is not repo-native",
+        "R8 cannot promote S2* alone"
       ]
     },
     {
@@ -99,7 +103,9 @@
         "S2_STAR_S4_DISTINCTNESS_CANDIDATE.md"
       ],
       "promotion_blockers": [
-        "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION not implemented"
+        "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION is PASS_SOURCE_COVERAGE only",
+        "same-boundary/different-bulk is not a general formation-medium theorem",
+        "S4 is not repo-native"
       ]
     },
     {

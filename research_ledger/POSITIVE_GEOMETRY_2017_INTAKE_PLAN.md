@@ -263,11 +263,11 @@ CHK-POS-GEOM-TRIANGULATION-PUSHFORWARD: PASS_SOURCE_COVERAGE
 After initial source extraction:
 
 ```text
-B1: may move from SOURCE_GAP to PARTIAL/SOURCE_ANCHORED
-B2: may move from SOURCE_GAP to PARTIAL/SOURCE_ANCHORED
+B1: moved past SOURCE_GAP to SOURCE_COVERAGE_IMPLEMENTED / PARTIAL, but remains NOT_THEOREM
+B2: moved past SOURCE_GAP to SOURCE_COVERAGE_IMPLEMENTED / PARTIAL, but remains NOT_THEOREM
 S2*: may remain CANDIDATE but with stronger source anchor
-FM0.4: may update source_status from SOURCE_GAP to PARTIAL/SOURCE_ANCHORED
-FM1-C4: may update source_status from SOURCE_GAP to PARTIAL/SOURCE_ANCHORED
+FM0.4: source_status updated from SOURCE_GAP to PARTIAL / SOURCE_COVERAGE_IMPLEMENTED, but remains not theorem/substrate status
+FM1-C4: source_status updated from SOURCE_GAP to PARTIAL / SOURCE_COVERAGE_IMPLEMENTED, but remains not theorem/substrate status
 ```
 
 No automatic promotion to CHECKED occurs.

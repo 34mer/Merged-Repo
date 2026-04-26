@@ -3,7 +3,7 @@
 STATUS: GENERATED / OPEN / CANDIDATE  
 ARGUMENT_STATUS: THREAD_SUPPORTED / GENERATED  
 CHECK_STATUS: NOT_CHECKED  
-SOURCE_STATUS: PARTIAL  
+SOURCE_STATUS: PARTIAL / SOURCE_COVERAGE_IMPLEMENTED  
 PROMOTION_STATUS: BLOCKED  
 TARGET_LOCATION: research_ledger/  
 DO_NOT_PLACE_IN: SOURCE_EXTRACTED_CLAIMS.json
@@ -141,13 +141,14 @@ Current repo relation:
 Current status:
 
 ```text
-PARTIAL / SOURCE_GAP
+PARTIAL / SOURCE_COVERAGE_IMPLEMENTED / NEEDS_FORMALIZATION / NOT_THEOREM
 ```
 
 Promotion blocker:
 
-- POS_GEOM_2017 source-intake records now exist, but no general S2* readout validator result exists.
-- No general S2* readout validator exists.
+- POS_GEOM_2017 source-intake records now exist and source-coverage guards pass.
+- `CHK-S2STAR-READOUT-SOURCE-COVERAGE`, `CHK-POS-GEOM-CANONICAL-BOUNDARY-RECURSION`, and `CHK-POS-GEOM-TRIANGULATION-PUSHFORWARD` are PASS_SOURCE_COVERAGE only.
+- No S2* theorem, substrate readout proof, or physical realization validator exists.
 
 ### FM0.5 Bulk / Readout Non-Faithfulness
 
@@ -160,7 +161,7 @@ Current repo relation:
 - Candidate S4: bulk non-faithfulness relative to readout.
 - Direct anchor: `EXT-AMP-PRIME-001`.
 - Related check target: `CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION`.
-- Check target status: DEFINED_NOT_RUN / NOT_IMPLEMENTED.
+- Check target status: PASS_SOURCE_COVERAGE only; still not a general Formation Medium theorem.
 
 Current status:
 
@@ -333,7 +334,7 @@ Current status of the tuple:
 Carrier:          GENERATED / OPEN
 Admissibility:    THREAD_SUPPORTED / PARTIAL
 LocalOps:         THREAD_SUPPORTED / PARTIAL
-BoundaryReadout:  PARTIAL / SOURCE_GAP
+BoundaryReadout:  PARTIAL / SOURCE_COVERAGE_IMPLEMENTED / NOT_THEOREM
 BulkRelation:     SOURCE_ANCHORED CAUTION / GENERATED
 SettlingLaw:      GENERATED / OPEN
 FailureInterface: PARTIAL
@@ -360,12 +361,12 @@ It does not say:
 
 ### W0.1 Source Intake: 2017 Positive Geometry
 
-Continue POS_GEOM_2017 source-coverage work required for B1/B2 authority.
+Continue POS_GEOM_2017 formalization work beyond source coverage for B1/B2 authority.
 
 Expected status:
 
 ```text
-SOURCE_EXTRACTED / NEEDS_FORMALIZATION / NOT_CHECKED
+SOURCE_EXTRACTED / NEEDS_FORMALIZATION / PASS_SOURCE_COVERAGE / NOT_THEOREM
 ```
 
 ### W0.2 Formation Vocabulary Registry
@@ -418,7 +419,7 @@ This Layer 0 scaffold must be rejected, narrowed, or rewritten if:
 4. It treats positive-geometry rows as substrate evidence.
 5. It treats partial comparators as theorem status.
 6. It treats framework comparisons as checked separations.
-7. It ignores the S2* source gap.
+7. It ignores the distinction between S2* source coverage and theorem/substrate status.
 8. It ignores R14 as OPEN / DEFICIT.
 9. It requires bulk faithfulness contrary to the S4/Amplituhedron-Prime caution.
 10. It claims a settling law without new source/check/engineering evidence.
