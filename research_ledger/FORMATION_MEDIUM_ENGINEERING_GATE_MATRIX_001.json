@@ -12,7 +12,10 @@
     "FORMATION_MEDIUM_ENGINEERING_TRIAGE_001.md",
     "PREVIOUS_GPT_TRANSPORT_SYMBOL_MINING_SYNTHESIS_001.md",
     "FORMATION_MEDIUM_BULK_READOUT_WITNESS_SCHEMA.md",
-    "FORMATION_MEDIUM_LAYER_1_SPEC.md"
+    "FORMATION_MEDIUM_LAYER_1_SPEC.md",
+    "R13_EQUALITY_LAYER_REALIZATION_CANDIDATE.md",
+    "PREVIOUS_GPT_SYMBOL_RECOVERY_SYNTHESIS_001.md",
+    "FORMATION_MEDIUM_NEGATIVE_CONTROLS.md"
   ],
   "routes": [
     {
@@ -86,6 +89,11 @@
       "gate_id": "G8",
       "gate_name": "transport_readout_separation",
       "gate_description": "Must distinguish transport/coupling/routing from canonical readout semantics."
+    },
+    {
+      "gate_id": "G9",
+      "gate_name": "equality_layer_intrinsicness",
+      "gate_description": "Must declare whether relevant constraints/equality layers are intrinsic to the route, imposed by tuning/saturation/degeneration, absent, or unknown."
     }
   ],
   "matrix": [
@@ -856,6 +864,108 @@
       "promotion_status": "BLOCKED",
       "check_status": "NOT_CHECKED",
       "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-A",
+      "route_name": "Topoelectrical + superconducting microwave hybrid",
+      "route_role": "primary_engineering_lead",
+      "gate_id": "G9",
+      "gate_name": "equality_layer_intrinsicness",
+      "gate_description": "Must declare whether relevant constraints/equality layers are intrinsic to the route, imposed by tuning/saturation/degeneration, absent, or unknown.",
+      "status": "EQUALITY_UNKNOWN",
+      "evidence_needed": [
+        "declare equality_layer_status as ABSENT, GENERIC_INEQUALITY, DEGENERATIVE_EQUALITY, INTRINSIC_EQUALITY, or UNKNOWN",
+        "identify whether constraints are native to the regime or imposed by external tuning/saturation/degeneration",
+        "provide source or experiment before assigning non-UNKNOWN status to physical routes"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-B",
+      "route_name": "Topological photonics / microwave-photonic hybrid",
+      "route_role": "secondary_engineering_lead",
+      "gate_id": "G9",
+      "gate_name": "equality_layer_intrinsicness",
+      "gate_description": "Must declare whether relevant constraints/equality layers are intrinsic to the route, imposed by tuning/saturation/degeneration, absent, or unknown.",
+      "status": "EQUALITY_UNKNOWN",
+      "evidence_needed": [
+        "declare equality_layer_status as ABSENT, GENERIC_INEQUALITY, DEGENERATIVE_EQUALITY, INTRINSIC_EQUALITY, or UNKNOWN",
+        "identify whether constraints are native to the regime or imposed by external tuning/saturation/degeneration",
+        "provide source or experiment before assigning non-UNKNOWN status to physical routes"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-C",
+      "route_name": "Mechanical topological metamaterials",
+      "route_role": "analog_static_testbed",
+      "gate_id": "G9",
+      "gate_name": "equality_layer_intrinsicness",
+      "gate_description": "Must declare whether relevant constraints/equality layers are intrinsic to the route, imposed by tuning/saturation/degeneration, absent, or unknown.",
+      "status": "EQUALITY_UNKNOWN",
+      "evidence_needed": [
+        "declare equality_layer_status as ABSENT, GENERIC_INEQUALITY, DEGENERATIVE_EQUALITY, INTRINSIC_EQUALITY, or UNKNOWN",
+        "identify whether constraints are native to the regime or imposed by external tuning/saturation/degeneration",
+        "provide source or experiment before assigning non-UNKNOWN status to physical routes"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-D",
+      "route_name": "Topological order / anyonic substrates",
+      "route_role": "physics_near_fit",
+      "gate_id": "G9",
+      "gate_name": "equality_layer_intrinsicness",
+      "gate_description": "Must declare whether relevant constraints/equality layers are intrinsic to the route, imposed by tuning/saturation/degeneration, absent, or unknown.",
+      "status": "EQUALITY_UNKNOWN",
+      "evidence_needed": [
+        "declare equality_layer_status as ABSENT, GENERIC_INEQUALITY, DEGENERATIVE_EQUALITY, INTRINSIC_EQUALITY, or UNKNOWN",
+        "identify whether constraints are native to the regime or imposed by external tuning/saturation/degeneration",
+        "provide source or experiment before assigning non-UNKNOWN status to physical routes"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "EXTERNAL_SOURCE_NEEDED"
+    },
+    {
+      "route_id": "ROUTE-E",
+      "route_name": "Scattering / S-matrix regimes",
+      "route_role": "physics_ontology_benchmark",
+      "gate_id": "G9",
+      "gate_name": "equality_layer_intrinsicness",
+      "gate_description": "Must declare whether relevant constraints/equality layers are intrinsic to the route, imposed by tuning/saturation/degeneration, absent, or unknown.",
+      "status": "EQUALITY_UNKNOWN",
+      "evidence_needed": [
+        "declare equality_layer_status as ABSENT, GENERIC_INEQUALITY, DEGENERATIVE_EQUALITY, INTRINSIC_EQUALITY, or UNKNOWN",
+        "identify whether constraints are native to the regime or imposed by external tuning/saturation/degeneration",
+        "provide source or experiment before assigning non-UNKNOWN status to physical routes"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
+    },
+    {
+      "route_id": "ROUTE-F",
+      "route_name": "Ordinary circuits / annealing / solver hardware",
+      "route_role": "negative_control",
+      "gate_id": "G9",
+      "gate_name": "equality_layer_intrinsicness",
+      "gate_description": "Must declare whether relevant constraints/equality layers are intrinsic to the route, imposed by tuning/saturation/degeneration, absent, or unknown.",
+      "status": "EQUALITY_NOT_NATIVE_OR_EXTERNALLY_IMPOSED_BY_DEFAULT",
+      "evidence_needed": [
+        "declare equality_layer_status as ABSENT, GENERIC_INEQUALITY, DEGENERATIVE_EQUALITY, INTRINSIC_EQUALITY, or UNKNOWN",
+        "identify whether constraints are native to the regime or imposed by external tuning/saturation/degeneration",
+        "provide source or experiment before assigning non-UNKNOWN status to physical routes"
+      ],
+      "promotion_status": "BLOCKED",
+      "check_status": "NOT_CHECKED",
+      "source_status": "SOURCE_NEEDED_OR_THEORY_REVIEW"
     }
   ],
   "current_ranking": {
@@ -887,6 +997,11 @@
       "id": "EGM-NA3",
       "action": "Keep all route readout-faithfulness classifications UNKNOWN unless source/check evidence supports stronger status.",
       "status": "ONGOING"
+    },
+    {
+      "id": "EGM-NA4",
+      "action": "Use G9 equality-layer intrinsicness to keep physical routes UNKNOWN until external source review; align with R13 and symbol recovery artifacts.",
+      "status": "OPEN"
     }
   ]
 }
