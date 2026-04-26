@@ -1,0 +1,166 @@
+{
+  "schema": "formation_medium_technical_roadmap_v1",
+  "purpose": "Convergent technical roadmap for Formation Medium work. This is an execution queue and scope-control artifact, not a pitch deck, not source-extracted, and not a proof.",
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "ROADMAP_ONLY",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_THEOREM",
+    "NOT_ENGINEERING_READY"
+  ],
+  "operating_rule": "Advance only work that improves source completeness, formal/checker support, physical-regime triage, or non-promotion discipline. Do not expand into broad substrate speculation without a registered intake/check target.",
+  "resource_tiers": [
+    {
+      "id": "T0_CURRENT_REPO_COMPUTE",
+      "budget_profile": "current local repo and lightweight scripts",
+      "do_now": [
+        "ledger/source guards",
+        "small finite Python checkers",
+        "status/readiness artifacts",
+        "source-intake plans",
+        "validator hardening"
+      ],
+      "avoid_now": [
+        "large symbolic searches",
+        "full Lean formalization campaigns",
+        "physics lab protocol design",
+        "hardware substrate optimization"
+      ]
+    },
+    {
+      "id": "T1_MODEST_RESEARCH_SUPPORT",
+      "budget_profile": "small contractor/advisor budget or limited cloud compute",
+      "unlock": [
+        "targeted source intake by domain specialists",
+        "bounded SMT/Z3 models for R12/R13/surfaceology",
+        "selected Lean theorem skeletons",
+        "first-principles physical-regime triage memos"
+      ],
+      "still_not_enough_for": [
+        "validated physical medium",
+        "lab prototype",
+        "full formal theorem coverage"
+      ]
+    },
+    {
+      "id": "T2_CAPITALIZED_RESEARCH_PROGRAM",
+      "budget_profile": "funded corporation/lab collaboration",
+      "unlock": [
+        "formalization team",
+        "physics/engineering substrate triage",
+        "simulation campaigns",
+        "prototype-oriented experiments after substrate narrowing"
+      ],
+      "depends_on": [
+        "validated technical roadmap",
+        "formal/source gap inventory",
+        "domain advisor review",
+        "clear no-overclaim diligence packet"
+      ]
+    }
+  ],
+  "near_term_queue": [
+    {
+      "id": "Q1_STALE_STATUS_SWEEP",
+      "title": "Keep Formation Medium status language synchronized with check results",
+      "priority": 1,
+      "resource_tier": "T0_CURRENT_REPO_COMPUTE",
+      "target_artifacts": [
+        "FORMATION_MEDIUM_LAYER_0_SPEC.md",
+        "FORMATION_MEDIUM_LAYER_1_SPEC.md",
+        "S2_STAR_S4_DISTINCTNESS_CANDIDATE.md",
+        "POSITIVE_GEOMETRY_2017_INTAKE_PLAN.md"
+      ],
+      "exit_condition": "No stale SOURCE_GAP/NOT_IMPLEMENTED language remains for already implemented source-coverage guards.",
+      "blocked_promotion": "Status synchronization is not theorem progress."
+    },
+    {
+      "id": "Q2_FM1_SCHEMA_VALIDATION",
+      "title": "Strengthen machine-readable FM1 constraint schema and validator",
+      "priority": 2,
+      "resource_tier": "T0_CURRENT_REPO_COMPUTE",
+      "target_artifacts": [
+        "FORMATION_MEDIUM_LAYER_1_CANDIDATE_CONSTRAINTS.json",
+        "validate_formation_medium_discipline.py"
+      ],
+      "exit_condition": "Every FM1 constraint has slot, status, source leads, check targets or blockers, failure mode, and non-promotion boundary.",
+      "blocked_promotion": "FM1 schema validation does not make FM1 physics-checked."
+    },
+    {
+      "id": "Q3_SURFACE_FINITE_MODEL_PLAN",
+      "title": "Plan finite curve-intersection model for surfaceology u-equation",
+      "priority": 3,
+      "resource_tier": "T0_CURRENT_REPO_COMPUTE",
+      "target_artifacts": [
+        "CHK-SURF-U-EQUATION",
+        "CHK-SURF-BINARY-BOUNDARY"
+      ],
+      "exit_condition": "A finite fixture schema and first tiny hand-checkable curve family are registered without claiming theorem status.",
+      "blocked_promotion": "A finite fixture is not a general surfaceology theorem."
+    },
+    {
+      "id": "Q4_R12_R13_FORMALIZATION_PLAN",
+      "title": "Plan bounded SMT/typed-predicate model for cosmohedron R12/R13",
+      "priority": 4,
+      "resource_tier": "T0_CURRENT_REPO_COMPUTE",
+      "target_artifacts": [
+        "CHK-R12-SUBMODULAR-LAW",
+        "CHK-R13-EQUALITY-LAYER"
+      ],
+      "exit_condition": "A bounded delta-domain/equality-layer fixture plan exists with explicit domain assumptions and expected counterexample policy.",
+      "blocked_promotion": "A fixture plan is not an SMT proof or theorem."
+    },
+    {
+      "id": "Q5_PHYSICAL_REGIME_SOURCE_INTAKE_PLAN",
+      "title": "Create source-intake plan for physical-regime triage",
+      "priority": 5,
+      "resource_tier": "T0_CURRENT_REPO_COMPUTE",
+      "target_artifacts": [
+        "FORMATION_MEDIUM_LAYER_1_SPEC.md",
+        "FORMATION_MEDIUM_READINESS_LEDGER.json"
+      ],
+      "exit_condition": "Scattering systems, integrable media, topological boundaries, and classical continua have source-intake criteria and rejection conditions.",
+      "blocked_promotion": "Physical-regime triage plan is not substrate selection."
+    },
+    {
+      "id": "Q6_EARLY_DILIGENCE_PACKET",
+      "title": "Assemble an early technical diligence packet from repo evidence",
+      "priority": 6,
+      "resource_tier": "T0_CURRENT_REPO_COMPUTE",
+      "target_artifacts": [
+        "FORMATION_MEDIUM_READINESS_LEDGER.md",
+        "FORMAL_CHECK_RESULTS.json",
+        "SOURCE_EXTRACTED_CLAIMS.json"
+      ],
+      "exit_condition": "A concise packet says what is proven, checked, source-covered, open, and capital/resource-dependent.",
+      "blocked_promotion": "Diligence packet is not a pitch claiming engineering readiness."
+    }
+  ],
+  "capital_dependent_queue": [
+    {
+      "id": "C1_DOMAIN_ADVISOR_REVIEW",
+      "requires": "domain expert time",
+      "purpose": "Review source-extracted claims and physical-regime triage for correctness and omissions."
+    },
+    {
+      "id": "C2_FORMALIZATION_SPRINT",
+      "requires": "Lean/Z3/formal methods support",
+      "purpose": "Convert selected source-coverage guards into bounded formal checks or theorem skeletons."
+    },
+    {
+      "id": "C3_SUBSTRATE_TRIAGE_PROGRAM",
+      "requires": "physics/engineering collaborators",
+      "purpose": "Evaluate candidate physical regimes after source and formal constraints are stable enough to avoid overclaiming."
+    }
+  ],
+  "do_not_do_yet": [
+    "claim a physical substrate",
+    "claim a native settling law",
+    "start hardware design",
+    "pitch product readiness",
+    "expand into broad metaphysics without repo check targets",
+    "treat source coverage as theorem status"
+  ],
+  "success_definition_for_current_phase": "A clean repo-backed technical spine that can support disciplined diligence conversations while honestly marking theorem, physics, substrate, and engineering gaps."
+}

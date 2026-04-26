@@ -107,6 +107,12 @@
       "result_status": "PASS_LEDGER_VALIDATION",
       "result_summary": "Implemented Formation Medium readiness ledger guard. The checker verifies that source/finite-check progress is separated from formal theorem, physical substrate, native settling-law, engineering prototype, product-readiness, and capital-readiness claims. This is a scope-control validation artifact only, not a proof, not a substrate selection, not engineering readiness, and not a product-readiness claim.",
       "artifact": "formal_handoff/results/LEDGER-FORMATION-MEDIUM-READINESS.json"
+    },
+    {
+      "target_id": "LEDGER-FORMATION-MEDIUM-TECHNICAL-ROADMAP",
+      "result_status": "PASS_LEDGER_VALIDATION",
+      "result_summary": "Implemented Formation Medium technical roadmap guard. The checker verifies that the roadmap is a bounded T0/T1/T2 execution queue aligned with readiness limits, with explicit do-now, capital-dependent, and do-not-do-yet boundaries. This is not a proof, not a substrate selection, not engineering readiness, not capital readiness, and not a pitch deck.",
+      "artifact": "formal_handoff/results/LEDGER-FORMATION-MEDIUM-TECHNICAL-ROADMAP.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."

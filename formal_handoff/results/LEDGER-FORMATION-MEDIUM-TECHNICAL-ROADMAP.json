@@ -1,0 +1,24 @@
+{
+  "checker": "formation_medium_technical_roadmap_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/FORMATION_MEDIUM_TECHNICAL_ROADMAP.json",
+    "research_ledger/FORMATION_MEDIUM_TECHNICAL_ROADMAP.md",
+    "research_ledger/FORMATION_MEDIUM_READINESS_LEDGER.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the roadmap is a bounded execution queue aligned with readiness limits. It is not a proof, not a substrate selection, not engineering readiness, not capital readiness, and not a pitch deck.",
+  "support_summary": {
+    "allowed_inference": "the repo has a bounded execution queue for the current low-compute phase",
+    "blocked_inference": "pitch readiness, substrate selection, native settling-law proof, lab prototype readiness, or product readiness",
+    "capital_dependent_count": 3,
+    "markdown_terms_present": true,
+    "near_term_queue_count": 6,
+    "readiness_capital": "EARLY_TECHNICAL_ROADMAP_ONLY",
+    "readiness_engineering": "NOT_READY",
+    "readiness_physical_substrate": "NOT_READY",
+    "readiness_settling_law": "NOT_READY",
+    "resource_tier_count": 3
+  },
+  "target_id": "LEDGER-FORMATION-MEDIUM-TECHNICAL-ROADMAP"
+}
