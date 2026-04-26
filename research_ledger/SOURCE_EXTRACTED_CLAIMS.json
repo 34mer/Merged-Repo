@@ -489,6 +489,99 @@
       "formal_check_targets": [
         "CHK-POS-GEOM-TRIANGULATION-PUSHFORWARD"
       ]
+    },
+    {
+      "id": "EXT-AMP-PRIME-002",
+      "paper_id": "AMP_PRIME_2020",
+      "source_file": "Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.pdf",
+      "source_anchor": "abstract and introduction; extracted Markdown lines 21 and 205-207",
+      "claim_text": "Local positive spaces relevant for one-loop MHV amplitudes are characterized by sign-flip conditions; in the maximal sign-flip case the spaces are finite one-loop octagons, and the logarithmic forms of maximal sign-flip spaces are chiral octagons.",
+      "families": [
+        "M1",
+        "Prime"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
+      "claim_type": "prime_sign_flip_local_positive_spaces",
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE"
+      ]
+    },
+    {
+      "id": "EXT-AMP-PRIME-003",
+      "paper_id": "AMP_PRIME_2020",
+      "source_file": "Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.pdf",
+      "source_anchor": "section 4 sign-flip-four regions; extracted Markdown lines 2125, 2297-2299, 2445-2473, 4529",
+      "claim_text": "The paper defines sign-flip-four regions labelled by the four sign-flip positions and states that sign-flip-four spaces have logarithmic forms linked to chiral octagon integrals, with chiral components having eight boundaries in the generic case.",
+      "families": [
+        "M1",
+        "Prime"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
+      "claim_type": "prime_sign_flip_four_chiral_octagon_regions",
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE"
+      ]
+    },
+    {
+      "id": "EXT-AMP-PRIME-004",
+      "paper_id": "AMP_PRIME_2020",
+      "source_file": "Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.pdf",
+      "source_anchor": "section 4 chiral octagons; extracted Markdown lines 2493-2497",
+      "claim_text": "Chiral octagons naturally degenerate to simpler spaces when labels become adjacent; the paper identifies pentagon and hexagon examples as boundary cases of the generic octagon.",
+      "families": [
+        "M1",
+        "Prime"
+      ],
+      "rows": [
+        "R1",
+        "R7"
+      ],
+      "claim_type": "prime_chiral_octagon_degenerations",
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE"
+      ]
+    },
+    {
+      "id": "EXT-AMP-PRIME-005",
+      "paper_id": "AMP_PRIME_2020",
+      "source_file": "Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.pdf",
+      "source_anchor": "abstract, introduction, and conclusion; extracted Markdown lines 21-23, 217-221, 3901-3903",
+      "claim_text": "Chiral pentagons externally triangulate a new Amplituhedron-Prime space, a non-overlapping twin of the original Amplituhedron with only physical boundaries and the same logarithmic form; the source also states that the Amplituhedron-Prime has the same boundary structure/logarithmic form as the Amplituhedron but differs in the bulk as a geometric space.",
+      "families": [
+        "M1",
+        "Prime"
+      ],
+      "rows": [
+        "R7",
+        "R13"
+      ],
+      "claim_type": "prime_pentagon_gluing_same_log_form_different_bulk",
+      "status": [
+        "SOURCE_EXTRACTED",
+        "NEEDS_FORMALIZATION"
+      ],
+      "formal_check_targets": [
+        "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE",
+        "CHK-SAME-BOUNDARY-DIFFERENT-BULK-CAUTION"
+      ]
     }
   ]
 }

@@ -137,6 +137,12 @@
       "result_status": "PASS_LEDGER_VALIDATION",
       "result_summary": "Implemented Formation Medium technical roadmap guard. The checker verifies that the roadmap is a bounded T0/T1/T2 execution queue aligned with readiness limits, with explicit do-now, capital-dependent, and do-not-do-yet boundaries. This is not a proof, not a substrate selection, not engineering readiness, not capital readiness, and not a pitch deck.",
       "artifact": "formal_handoff/results/LEDGER-FORMATION-MEDIUM-TECHNICAL-ROADMAP.json"
+    },
+    {
+      "target_id": "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE",
+      "result_status": "DEFINED_NOT_RUN",
+      "result_summary": "Prime local-carrier source coverage target is defined after direct extraction of sign-flip, chiral-octagon, degeneration, and Amplituhedron-Prime gluing claims. No checker has been implemented yet; this is not a formal carrier theorem, not Formation Medium substrate evidence, and not engineering readiness.",
+      "artifact": null
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."

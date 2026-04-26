@@ -395,6 +395,31 @@
         "DEFINED",
         "SOURCE_COVERAGE_IMPLEMENTED"
       ]
+    },
+    {
+      "id": "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE",
+      "claim_ids": [
+        "EXT-AMP-PRIME-002",
+        "EXT-AMP-PRIME-003",
+        "EXT-AMP-PRIME-004",
+        "EXT-AMP-PRIME-005"
+      ],
+      "rows": [
+        "R1",
+        "R7",
+        "R13"
+      ],
+      "families": [
+        "M1",
+        "Prime"
+      ],
+      "checker_layer": "ledger/source coverage guard planned; later finite sign-flip/chiral-octagon model if scoped",
+      "predicate": "Prime local-carrier source claims about sign-flip local positive spaces, sign-flip-four/chiral-octagon regions, degenerations, and pentagon gluing are recorded as source-extracted positive-geometry facts only, without promotion to Formation Medium substrate, engineering feasibility, or universal carrier theorem.",
+      "failure_condition": "A Prime sign-flip/chiral-octagon/gluing claim is used as physical substrate evidence, generalized beyond one-loop MHV/Prime scope, or treated as a formal carrier theorem without a separate checker.",
+      "status": [
+        "DEFINED",
+        "NOT_IMPLEMENTED"
+      ]
     }
   ]
 }
