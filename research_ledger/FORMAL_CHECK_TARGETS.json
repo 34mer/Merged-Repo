@@ -420,6 +420,29 @@
         "DEFINED",
         "SOURCE_COVERAGE_IMPLEMENTED"
       ]
+    },
+    {
+      "id": "CHK-FM-BULK-READOUT-WITNESS-SCHEMA",
+      "claim_ids": [
+        "EXT-AMP-PRIME-001",
+        "EXT-AMP-PRIME-005"
+      ],
+      "rows": [
+        "R7",
+        "R13"
+      ],
+      "families": [
+        "M1",
+        "Prime",
+        "FM"
+      ],
+      "checker_layer": "implemented ledger/schema guard; later formal witness model if scoped",
+      "predicate": "Formation Medium bulk/readout witness schema requires explicit readout maps, scoped bulk equivalence relations, and keeps physical/engineering route readout-faithfulness statuses unknown unless separately evidenced.",
+      "failure_condition": "same_readout or different_bulk is used without declared readout/bulk scope, S4 is promoted to theorem status, or engineering routes claim readout non-faithfulness without source/check evidence.",
+      "status": [
+        "DEFINED",
+        "SOURCE_COVERAGE_IMPLEMENTED"
+      ]
     }
   ]
 }

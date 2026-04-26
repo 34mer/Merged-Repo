@@ -143,6 +143,12 @@
       "result_status": "PASS_SOURCE_COVERAGE",
       "result_summary": "Implemented Prime local-carrier source-coverage guard. The checker verifies that EXT-AMP-PRIME-002/003/004/005 remain source-extracted positive-geometry facts about sign-flip local positive spaces, sign-flip-four/chiral-octagon regions, degenerations, and Amplituhedron-Prime gluing/bulk caution, while blocking promotion to universal carrier theorem, Formation Medium substrate evidence, physical realization, engineering feasibility, or corporate/investor proof.",
       "artifact": "formal_handoff/results/CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE.json"
+    },
+    {
+      "target_id": "CHK-FM-BULK-READOUT-WITNESS-SCHEMA",
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented Formation Medium bulk/readout witness-schema guard. The checker verifies that same_readout/different_bulk vocabulary remains scoped by explicit readout maps and bulk equivalence relations, and that engineering routes remain at READOUT_FAITHFULNESS_UNKNOWN unless separately evidenced. This is not an S4 theorem, not substrate evidence, not engineering readiness, and not a physical realization claim.",
+      "artifact": "formal_handoff/results/CHK-FM-BULK-READOUT-WITNESS-SCHEMA.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."

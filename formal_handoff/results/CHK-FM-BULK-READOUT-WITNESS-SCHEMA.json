@@ -1,0 +1,54 @@
+{
+  "checker": "fm_bulk_readout_witness_schema_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger\\FORMATION_MEDIUM_BULK_READOUT_WITNESS_SCHEMA.md",
+    "research_ledger\\FORMATION_MEDIUM_ENGINEERING_GATE_MATRIX_001.json",
+    "research_ledger/FORMAL_CHECK_TARGETS.json",
+    "research_ledger/FORMAL_CHECK_RESULTS.json"
+  ],
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the repo preserves a scoped generated witness-schema interface for same_readout/different_bulk and keeps physical engineering routes at READOUT_FAITHFULNESS_UNKNOWN unless separate evidence exists. It is not a mathematical proof, not an S4 theorem, not substrate evidence, not engineering readiness, not product readiness, and not a physical realization claim.",
+  "support_summary": {
+    "allowed_inference": "Formation Medium artifacts define a generated formal-candidate interface requiring explicit readout maps and scoped bulk equivalence relations",
+    "blocked_inference": "S4 theorem, physical substrate non-faithfulness, engineering route non-faithfulness, product readiness, or investor proof",
+    "checked_interface": "ledger/schema guard for same_readout/different_bulk witness vocabulary and route readout-faithfulness discipline",
+    "readout_statuses": {
+      "ROUTE-A": "READOUT_FAITHFULNESS_UNKNOWN",
+      "ROUTE-B": "READOUT_FAITHFULNESS_UNKNOWN",
+      "ROUTE-C": "READOUT_FAITHFULNESS_UNKNOWN",
+      "ROUTE-D": "AMBIGUOUS_POSSIBLY_FAILS_S4",
+      "ROUTE-E": "STRONG_CANDIDATE",
+      "ROUTE-F": "WEAK_OR_IRRELEVANT"
+    },
+    "result_present": true,
+    "result_status": "PASS_SOURCE_COVERAGE",
+    "routes_with_g4": [
+      "ROUTE-A",
+      "ROUTE-B",
+      "ROUTE-C",
+      "ROUTE-D",
+      "ROUTE-E",
+      "ROUTE-F"
+    ],
+    "schema_terms_present": [
+      "same_readout(x, y) := readout(x) = readout(y)",
+      "different_bulk(x, y) := bulk(x) != bulk(y)",
+      "the readout map must be specified",
+      "bulk equivalence relation",
+      "positive-geometric bulk",
+      "physical substrate",
+      "boundary_determined(C)",
+      "bulk_sensitive(C)",
+      "READOUT_FAITHFULNESS_UNKNOWN",
+      "not a source-extracted claim",
+      "not a theorem"
+    ],
+    "target_present": true,
+    "target_status": [
+      "DEFINED",
+      "SOURCE_COVERAGE_IMPLEMENTED"
+    ]
+  },
+  "target_id": "CHK-FM-BULK-READOUT-WITNESS-SCHEMA"
+}
