@@ -89,15 +89,16 @@
     },
     {
       "id": "Q3_SURFACE_FINITE_MODEL_PLAN",
-      "title": "Plan finite curve-intersection model for surfaceology u-equation",
+      "title": "Extend finite curve-intersection fixtures for surfaceology u-equation",
       "priority": 3,
       "resource_tier": "T0_CURRENT_REPO_COMPUTE",
       "target_artifacts": [
         "CHK-SURF-U-EQUATION",
-        "CHK-SURF-BINARY-BOUNDARY"
+        "CHK-SURF-BINARY-BOUNDARY",
+        "CHK-SURF-TINY-TWO-CURVE-FIXTURE"
       ],
-      "exit_condition": "A finite fixture schema and first tiny hand-checkable curve family are registered without claiming theorem status.",
-      "blocked_promotion": "A finite fixture is not a general surfaceology theorem."
+      "exit_condition": "First tiny two-curve fixture is implemented; next exit is a larger finite fixture family with at least one nontrivial multi-curve crossing graph.",
+      "blocked_promotion": "Tiny finite fixture is not a general surfaceology theorem or positive-region solver."
     },
     {
       "id": "Q4_R12_R13_FORMALIZATION_PLAN",

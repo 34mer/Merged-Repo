@@ -8,7 +8,8 @@
     "FINITE_CHECK_PLANNED",
     "SMT_CHECK_PLANNED",
     "LEAN_CHECK_PLANNED",
-    "OPEN"
+    "OPEN",
+    "FINITE_CHECK_IMPLEMENTED"
   ],
   "targets": [
     {
@@ -181,6 +182,27 @@
       "status": [
         "DEFINED",
         "SOURCE_COVERAGE_IMPLEMENTED"
+      ]
+    },
+    {
+      "id": "CHK-SURF-TINY-TWO-CURVE-FIXTURE",
+      "claim_ids": [
+        "EXT-SURF-COUNT-2023-001",
+        "EXT-SURF-001"
+      ],
+      "rows": [
+        "R1",
+        "R9"
+      ],
+      "families": [
+        "S"
+      ],
+      "checker_layer": "implemented finite two-curve fixture validator; later larger finite curve-intersection families",
+      "predicate": "For the declared two-curve crossing fixture, the encoded intersection exponents derive u_a + u_b - 1 = 0 and u_b + u_a - 1 = 0, sample points satisfy the equations in the positive region, and boundary limits force the crossing variable to one.",
+      "failure_condition": "The tiny fixture equations, sample solutions, or boundary-forcing behavior fail under exact rational evaluation, or the fixture is promoted beyond its two-curve finite scope.",
+      "status": [
+        "DEFINED",
+        "FINITE_CHECK_IMPLEMENTED"
       ]
     },
     {

@@ -1,0 +1,89 @@
+{
+  "schema": "surfaceology_tiny_curve_fixture_v1",
+  "fixture_id": "SURF-TINY-TWO-CURVE-CROSSING",
+  "status": [
+    "GENERATED",
+    "FINITE_FIXTURE",
+    "HAND_CHECKABLE",
+    "NOT_THEOREM",
+    "NOT_SOURCE_EXTRACTED"
+  ],
+  "purpose": "First tiny finite fixture for checking the source-inspired surfaceology u-equation and positive-region binary-boundary behavior in the smallest crossing-pair case.",
+  "source_claim_ids": [
+    "EXT-SURF-COUNT-2023-001",
+    "EXT-SURF-001"
+  ],
+  "equation_template": "u_C + product_D u_D^I(C,D) = 1, with D ranging over curves crossing C in this fixture.",
+  "positive_region": {
+    "lower_bound": "0",
+    "upper_bound": "1"
+  },
+  "curves": [
+    {
+      "id": "a",
+      "variable": "u_a"
+    },
+    {
+      "id": "b",
+      "variable": "u_b"
+    }
+  ],
+  "intersection_exponents": {
+    "a": {
+      "b": 1
+    },
+    "b": {
+      "a": 1
+    }
+  },
+  "expected_equations": [
+    {
+      "curve": "a",
+      "normalized_equation": "u_a + u_b - 1 = 0"
+    },
+    {
+      "curve": "b",
+      "normalized_equation": "u_b + u_a - 1 = 0"
+    }
+  ],
+  "sample_solutions": [
+    {
+      "label": "boundary_a_zero",
+      "values": {
+        "u_a": "0",
+        "u_b": "1"
+      }
+    },
+    {
+      "label": "interior_midpoint",
+      "values": {
+        "u_a": "1/2",
+        "u_b": "1/2"
+      }
+    },
+    {
+      "label": "boundary_b_zero",
+      "values": {
+        "u_a": "1",
+        "u_b": "0"
+      }
+    }
+  ],
+  "boundary_limits": [
+    {
+      "when_zero": "u_a",
+      "forces_one": [
+        "u_b"
+      ],
+      "reason": "In the positive region, u_a = 0 in u_a + u_b = 1 forces u_b = 1."
+    },
+    {
+      "when_zero": "u_b",
+      "forces_one": [
+        "u_a"
+      ],
+      "reason": "In the positive region, u_b = 0 in u_b + u_a = 1 forces u_a = 1."
+    }
+  ],
+  "non_promotion_boundary": "This fixture checks only the two-curve crossing case. It is not a surfaceology theorem, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness."
+}

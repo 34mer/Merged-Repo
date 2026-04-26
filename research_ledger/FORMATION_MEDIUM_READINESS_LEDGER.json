@@ -32,11 +32,12 @@
       "repo_basis": [
         "PASS_FINITE_CHECK and PASS_PARTIAL_FINITE_CHECK result records"
       ],
-      "allowed_claim": "The repo contains finite/partial finite checks for selected baseline structures within declared scopes.",
+      "allowed_claim": "The repo contains finite/partial finite checks for selected baseline structures and a first tiny surfaceology two-curve fixture within declared scopes.",
       "blocked_claims": [
         "finite checks prove all-n theorems",
         "partial finite checks prove Formation Medium",
-        "finite checks identify a physical substrate"
+        "finite checks identify a physical substrate",
+        "tiny fixture checks prove surfaceology"
       ]
     },
     {
@@ -126,7 +127,8 @@
     "formation-medium discipline validator passes",
     "formal-check result validator passes",
     "source-coverage guards now cover major overclaim zones",
-    "working tree is expected to remain clean before presenting status"
+    "working tree is expected to remain clean before presenting status",
+    "first tiny finite surfaceology two-curve fixture passes exact rational checks"
   ],
   "critical_gaps": [
     "no selected physical substrate",

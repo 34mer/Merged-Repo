@@ -61,6 +61,12 @@
       "artifact": "formal_handoff/results/CHK-SURF-BINARY-BOUNDARY.json"
     },
     {
+      "target_id": "CHK-SURF-TINY-TWO-CURVE-FIXTURE",
+      "result_status": "PASS_FINITE_CHECK",
+      "result_summary": "Implemented the first tiny finite surfaceology fixture check. The checker validates the two-curve crossing fixture with exact rational arithmetic: symmetric intersection exponents derive u_a + u_b - 1 = 0 and u_b + u_a - 1 = 0; three sample points satisfy the equations inside 0 <= u <= 1; and boundary samples force the crossing variable to one. This is finite fixture evidence only, not a surfaceology theorem, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness.",
+      "artifact": "formal_handoff/results/CHK-SURF-TINY-TWO-CURVE-FIXTURE.json"
+    },
+    {
       "target_id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
       "result_status": "PASS_SOURCE_COVERAGE",
       "result_summary": "Implemented scaffold/kinematic-shift ledger guard. The checker verifies that hidden-zero, scalar-scaffolded-gluon shift, and W_e/transmutation claims remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION bridge material, while blocking promotion to Yang-Mills derivation, realization-class equivalence, Formation Medium substrate evidence, physical settling law, or engineering readiness.",

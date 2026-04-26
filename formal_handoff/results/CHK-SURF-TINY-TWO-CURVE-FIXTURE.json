@@ -1,0 +1,33 @@
+{
+  "checker": "surf_tiny_two_curve_fixture_check_v1",
+  "counterexamples": [],
+  "fixture_id": "SURF-TINY-TWO-CURVE-CROSSING",
+  "inspected_files": [
+    "formal_handoff/fixtures/surfaceology_tiny_two_curve_fixture.json"
+  ],
+  "status": "PASS",
+  "status_boundary": "PASS means only the declared two-curve crossing fixture satisfies its finite u-equations, positive-region samples, and boundary-forcing checks. It is not a mathematical proof of surfaceology, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling-law result, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "the tiny two-curve fixture exactly satisfies its declared u-equations and boundary samples",
+    "blocked_inference": "general surfaceology theorem, general positive-region solver, Formation Medium substrate evidence, physical settling law, or engineering readiness",
+    "boundary_limit_count": 2,
+    "checked_interface": "finite two-curve crossing fixture for u_C + product_D u_D^I(C,D) = 1 and boundary forcing in the positive region",
+    "curve_count": 2,
+    "derived_equations": {
+      "a": "u_a + u_b - 1 = 0",
+      "b": "u_b + u_a - 1 = 0"
+    },
+    "fixture_id": "SURF-TINY-TWO-CURVE-CROSSING",
+    "sample_solution_count": 3,
+    "sample_solution_labels": [
+      "boundary_a_zero",
+      "interior_midpoint",
+      "boundary_b_zero"
+    ],
+    "source_claim_ids": [
+      "EXT-SURF-001",
+      "EXT-SURF-COUNT-2023-001"
+    ]
+  },
+  "target_id": "CHK-SURF-TINY-TWO-CURVE-FIXTURE"
+}

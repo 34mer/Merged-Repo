@@ -179,7 +179,8 @@
       ],
       "formal_check_targets": [
         "CHK-SURF-U-EQUATION",
-        "CHK-SURF-BINARY-BOUNDARY"
+        "CHK-SURF-BINARY-BOUNDARY",
+        "CHK-SURF-TINY-TWO-CURVE-FIXTURE"
       ]
     },
     {
@@ -248,7 +249,8 @@
       ],
       "formal_check_targets": [
         "CHK-SURF-U-EQUATION",
-        "CHK-SURF-BINARY-BOUNDARY"
+        "CHK-SURF-BINARY-BOUNDARY",
+        "CHK-SURF-TINY-TWO-CURVE-FIXTURE"
       ]
     },
     {
