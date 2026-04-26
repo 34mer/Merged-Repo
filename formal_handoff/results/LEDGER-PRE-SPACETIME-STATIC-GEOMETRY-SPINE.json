@@ -1,0 +1,36 @@
+{
+  "checker": "pre_spacetime_static_geometry_spine_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/PRE_SPACETIME_STATIC_GEOMETRY_SPINE.json",
+    "research_ledger/PRE_SPACETIME_STATIC_GEOMETRY_SPINE.md",
+    "research_ledger/PHYSICAL_REGIME_SOURCE_INTAKE_CRITERIA.json",
+    "research_ledger/FORMATION_MEDIUM_TECHNICAL_ROADMAP.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo contains a mission-level static-spine correction: Gr_+(0,n) terminal atom, Gr_+(1,n) static simplex tower, ordered residue signs, product Gr_+(1,2) static blocks, and mutation as transported static reflection. It is not source extraction, not a theorem, not proof of Formation Medium, not substrate selection, not physical implementation, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "future physical/comparator work must be red-teamed against SG0-SG4 before Formation Medium relevance is claimed",
+    "blocked_inference": "source extraction, theorem status, proof of Formation Medium, substrate selection, physical implementation, engineering readiness, or automatic validation of S-matrix/Ising/high-resonance/Route A/CRBSM",
+    "checked_interface": "pre-spacetime static geometry spine: Gr_+(0,n), Gr_+(1,n), ordered residues, product static blocks, and mutation as transported static reflection",
+    "impact_targets": [
+      "CRBSM",
+      "HR_C3",
+      "PRI005_ISING",
+      "Route_A",
+      "SN_C3"
+    ],
+    "markdown_terms_present": true,
+    "physical_criteria_static_gate_present": true,
+    "prior_gpt_line_ranges": [
+      "9658-9972",
+      "9990-10268",
+      "19985-20013"
+    ],
+    "red_team_finding_count": 4,
+    "roadmap_static_gate_present": true,
+    "static_gate_question_count": 7,
+    "static_layer_count": 5
+  },
+  "target_id": "LEDGER-PRE-SPACETIME-STATIC-GEOMETRY-SPINE"
+}

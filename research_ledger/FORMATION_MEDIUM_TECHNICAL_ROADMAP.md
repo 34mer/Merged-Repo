@@ -75,6 +75,10 @@ Requires:
 - domain advisor review;
 - clear no-overclaim diligence packet.
 
+## Pre-spacetime static geometry gate
+
+Before physical-regime/comparator review claims Formation Medium relevance, score against `PRE_SPACETIME_STATIC_GEOMETRY_SPINE` SG0-SG4: `Gr_+(0,n)`, `Gr_+(1,n)`, ordered residue signs, `Gr_+(1,2)^m` product static blocks, and mutation as transported static reflection.
+
 ## Near-Term Queue
 
 | Priority | Work item | Resource tier | Exit condition | Blocked promotion |
@@ -83,7 +87,7 @@ Requires:
 | 2 | FM1 schema validation | T0 | Every FM1 constraint has slot, status, source leads, check targets/blockers, failure mode, and non-promotion boundary. | Schema validation is not physics validation. |
 | 3 | Surface finite model extension | T0 | Convex-polygon chord fixture check covers n=4..7 with 30 chords, 56 crossing edges, and 63 maximal-noncrossing witnesses; next is source-faithful surface curve data beyond polygon-chord abstraction. | Polygon chord fixtures are not a surfaceology theorem, full source-faithful curve enumeration, or positive-region solver. |
 | 4 | R12/R13 formalization plan | T0 | Bounded delta-domain/equality-layer fixture plan exists. | Fixture plan is not SMT proof. |
-| 5 | Physical-regime source-intake reviews | T0 | PRI-001 high-resonance, PRI-002 scattering-native, and PRI-005 Ising-machine source-intake candidate queues exist; next is one narrow PG1-PG8 source review: HR-C3 persistent support/channel identity, SN-C3 physical scattering-matrix observables, or IM-C1/IM-C3 combinatorial machine settling, without flattening roles. | PRI queues are not source ingestion, source extraction, high-resonance/scattering-native/Ising-machine validation, substrate selection, CRBSM validation, Route A implementation, or winner declaration. |
+| 5 | Physical-regime source-intake reviews | T0 | PRI-001 high-resonance, PRI-002 scattering-native, and PRI-005 Ising-machine source-intake candidate queues exist; next is one narrow PG1-PG8 plus SG0-SG4 static-spine source review: SN-C3 physical scattering-matrix observables or IM-C1/IM-C3 combinatorial machine settling, without flattening roles. | PRI queues are not source ingestion, source extraction, high-resonance/scattering-native/Ising-machine validation, substrate selection, CRBSM validation, Route A implementation, or winner declaration; no candidate may bypass Gr_+(0,n)/Gr_+(1,n) static-spine scoring. |
 | 6 | Early diligence packet | T0 | Concise packet separates proven, checked, source-covered, open, and capital-dependent items. | Diligence packet is not product readiness. |
 
 ## Capital-Dependent Queue

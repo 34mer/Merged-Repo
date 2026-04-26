@@ -9,7 +9,7 @@
     "research_ledger/MISSION_GRADE_CRITICAL_REVIEW_DOCTRINE.json"
   ],
   "status": "PASS_LEDGER_VALIDATION",
-  "status_boundary": "PASS_LEDGER_VALIDATION means the repo contains role-separated physical-regime source-intake criteria and kill gates. It is not source ingestion, not source extraction, not CRBSM validation, not Route A feasibility, not scattering-native or high-resonance winner status, not Ising-machine validation, not substrate selection, not a settling-law proof, and not engineering readiness.",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo contains role-separated physical-regime source-intake criteria and kill gates. It includes a required SG0-SG4 static-spine gate. It is not source ingestion, not source extraction, not CRBSM validation, not Route A feasibility, not scattering-native or high-resonance winner status, not Ising-machine validation, not substrate selection, not a settling-law proof, and not engineering readiness.",
   "support_summary": {
     "allowed_inference": "future source review has role-separated criteria, PG1-PG8 gates, review queue, and promotion policy",
     "blocked_inference": "source ingestion, source extraction, CRBSM validation, Route A feasibility, scattering/high-resonance/Ising winner declaration, substrate selection, settling-law proof, or engineering readiness",

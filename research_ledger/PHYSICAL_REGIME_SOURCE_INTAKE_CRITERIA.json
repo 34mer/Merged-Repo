@@ -15,7 +15,7 @@
     "NOT_SUBSTRATE_SELECTION",
     "NOT_ENGINEERING_READY"
   ],
-  "purpose": "Define source-intake criteria and rejection gates for physical-regime triage without flattening CRBSM, Route A, scattering-native, high-resonance, or Ising-machine roles. This attacks the no-selected-substrate bottleneck by making future source review falsifiable and role-separated.",
+  "purpose": "Define source-intake criteria and rejection gates for physical-regime triage without flattening CRBSM, Route A, scattering-native, high-resonance, or Ising-machine roles. This attacks the no-selected-substrate bottleneck by making future source review falsifiable and role-separated. All future physical-regime review must pass through the static Gr_+(0,n)/Gr_+(1,n) gate before Formation Medium relevance is claimed.",
   "critical_review_prework": {
     "hard_bottleneck_attacked": "physical-regime triage and substrate uncertainty, especially persistent support/channel identity and native readout versus external measurement",
     "thin_stick_risks": [
@@ -27,7 +27,7 @@
     "negative_progress_risk": "Negative-progress risk: could become a broad speculative shopping list unless it stays criteria-driven with explicit rejection gates.",
     "why_not_convenient_drift": "It constrains future source intake and can reject regimes before more artifacts are added."
   },
-  "anti_flattening_rule": "CRBSM is mechanism-language. Route A is hardware/proxy. Scattering-native is a mandatory comparator. High-resonance is a possible bridge comparator. Source intake must preserve these roles and must not declare a winner. Ising machines are hardware-combinatorial / combinatorial-machine comparators, not S-matrix, not high-resonance bridge by default, not CRBSM, not Formation Medium, and not selected substrate.",
+  "anti_flattening_rule": "CRBSM is mechanism-language. Route A is hardware/proxy. Scattering-native is a mandatory comparator. High-resonance is a possible bridge comparator. Source intake must preserve these roles and must not declare a winner. Ising machines are hardware-combinatorial / combinatorial-machine comparators, not S-matrix, not high-resonance bridge by default, not CRBSM, not Formation Medium, and not selected substrate. None of these candidates may bypass the pre-spacetime static geometry gate SG0-SG4.",
   "global_gate_axes": [
     {
       "id": "PG1_NATIVE_CARRIER",
@@ -94,14 +94,16 @@
         "CRBSM terminology as evidence",
         "constructed-by-assumption relay ledgers",
         "externally routed quarter-turn operations",
-        "Route A hardware convenience as CRBSM implementation"
+        "Route A hardware convenience as CRBSM implementation",
+        "candidate relevance without SG0-SG4 static-spine scoring"
       ],
       "minimum_review_output": "source review or source-intake memo that either identifies a plausible physical mechanism class or demotes CRBSM to mechanism-only vocabulary",
       "kill_conditions": [
         "persistent support identity remains only software/observer tracked",
         "boundary sheets are designer interfaces, not native state variables",
         "quarter-turn transport is only simulation or circuit routing",
-        "no physical source class can be named without analogy drift"
+        "no physical source class can be named without analogy drift",
+        "no analogue of Gr_+(0,n), Gr_+(1,n), ordered residues, product static blocks, or mutation transport can be named"
       ]
     },
     {
@@ -119,14 +121,16 @@
         "impedance readout as canonical readout",
         "tunable microwave coupling as native settling law",
         "high-fidelity qubit gates as Formation Medium operations",
-        "source review as engineering feasibility"
+        "source review as engineering feasibility",
+        "candidate relevance without SG0-SG4 static-spine scoring"
       ],
       "minimum_review_output": "narrow source-extraction plan for Route A sources plus negative-control demo spec, without feasibility or substrate promotion",
       "kill_conditions": [
         "readout remains externally chosen diagnostic",
         "transport remains ordinary routing/control",
         "no mechanism connects boundary readout and transport while preserving mode identity",
-        "Route A cannot avoid becoming analog simulation"
+        "Route A cannot avoid becoming analog simulation",
+        "no analogue of Gr_+(0,n), Gr_+(1,n), ordered residues, product static blocks, or mutation transport can be named"
       ]
     },
     {
@@ -144,14 +148,16 @@
         "mathematical proximity as substrate selection",
         "positive-geometry source support as physical realization",
         "scattering theory as engineering route by default",
-        "comparator status as winner status"
+        "comparator status as winner status",
+        "candidate relevance without SG0-SG4 static-spine scoring"
       ],
       "minimum_review_output": "comparator source-intake plan identifying which scattering-native sources could support carrier/readout/harnessability gates and which likely fail them",
       "kill_conditions": [
         "no plausible harnessing or apparatus-coupling path",
         "readout remains purely mathematical without physical observable bridge",
         "bulk/readout separation cannot be formulated physically",
-        "the route is only a theory comparator, not a regime candidate"
+        "the route is only a theory comparator, not a regime candidate",
+        "no analogue of Gr_+(0,n), Gr_+(1,n), ordered residues, product static blocks, or mutation transport can be named"
       ]
     },
     {
@@ -169,14 +175,16 @@
         "high-Q or tunable resonance as native settling law",
         "controlled resonance hardware as Formation Medium",
         "Route A resonance components as proof of high-resonance-native substrate",
-        "bridge-candidate status as winner status"
+        "bridge-candidate status as winner status",
+        "candidate relevance without SG0-SG4 static-spine scoring"
       ],
       "minimum_review_output": "source-intake review queue for mesoscopic resonance-native systems with kill conditions for mere tunable hardware",
       "kill_conditions": [
         "resonant identity is only instrument-defined",
         "transport is externally routed rather than native",
         "readout is only probe measurement with no intrinsic semantics",
-        "high-resonance cannot be separated from Route A-style hardware control"
+        "high-resonance cannot be separated from Route A-style hardware control",
+        "no analogue of Gr_+(0,n), Gr_+(1,n), ordered residues, product static blocks, or mutation transport can be named"
       ]
     },
     {
@@ -195,7 +203,8 @@
         "Ising Hamiltonian ground state as canonical positive-geometric readout",
         "programmable couplings as native admissibility without qualification",
         "annealing schedule or optimizer dynamics as native settling law",
-        "hardware solver status as substrate selection"
+        "hardware solver status as substrate selection",
+        "candidate relevance without SG0-SG4 static-spine scoring"
       ],
       "minimum_review_output": "source-candidate or source-review memo that scores Ising-machine classes against PG1-PG8 and explicitly separates combinatorial machine comparator status from S-matrix, CRBSM, Route A, high-resonance, and Formation Medium claims",
       "kill_conditions": [
@@ -203,7 +212,8 @@
         "problem graph/couplings are entirely user-programmed and no intrinsic admissibility remains",
         "readout is only the conventional Ising objective value or spin assignment with no Formation Medium semantics",
         "hardware advantage is benchmark performance rather than substrate/readout evidence",
-        "the track cannot be distinguished from ordinary analog/digital combinatorial optimization"
+        "the track cannot be distinguished from ordinary analog/digital combinatorial optimization",
+        "no analogue of Gr_+(0,n), Gr_+(1,n), ordered residues, product static blocks, or mutation transport can be named"
       ]
     }
   ],
@@ -294,5 +304,20 @@
       "non-promotion boundary stated"
     ]
   },
-  "non_promotion_rule": "This artifact defines criteria for future source intake only. It does not ingest sources, extract source claims, validate CRBSM, validate Route A, select scattering-native physics, select high-resonance regimes, prove a substrate, prove a settling law, or authorize engineering/corporate claims, validate Ising machines, select Ising machines, or treat combinatorial optimization hardware as Formation Medium substrate."
+  "non_promotion_rule": "This artifact defines criteria for future source intake only. It does not ingest sources, extract source claims, validate CRBSM, validate Route A, select scattering-native physics, select high-resonance regimes, prove a substrate, prove a settling law, or authorize engineering/corporate claims, validate Ising machines, select Ising machines, or treat combinatorial optimization hardware as Formation Medium substrate.",
+  "pre_physics_static_geometry_gate": {
+    "id": "STATIC_GEOMETRY_GATE_SG0_SG4",
+    "role": "PRE_PHYSICS_STATIC_SPINE_GATE",
+    "source": "research_ledger/PRE_SPACETIME_STATIC_GEOMETRY_SPINE.md",
+    "rule": "Before any physical-regime/comparator candidate is treated as Formation Medium-relevant, it must be scored against SG0-SG4: Gr_+(0,n) terminal atom, Gr_+(1,n) static simplex tower, ordered residue signs, Gr_+(1,2)^m product static blocks, and mutation as transported static reflection. This is the required static-spine gate.",
+    "required_questions": [
+      "What is the candidate analogue of Gr_+(0,n) as terminal residue atom, if any?",
+      "What is the candidate analogue of Gr_+(1,n) as static connected positive geometry / simplex residue tower, if any?",
+      "Does the candidate expose recursive boundary/readout semantics, or only a measured/optimized output?",
+      "Does the candidate carry ordered residue-route sign/coherence, or only path/control history?",
+      "Can local chart variables be interpreted as transported products of Gr_+(1,2) static blocks, or is that analogy unsupported?",
+      "Does the candidate implement mutation-like transport of static residue data, or merely hardware switching, scattering, or optimization update?"
+    ],
+    "kill_condition": "Candidate cannot name any SG0-SG4 analogue and is therefore useful only as negative control or unrelated physics/hardware; failure leaves the candidate outside static-spine relevance."
+  }
 }

@@ -52,6 +52,15 @@ REQUIRED_MD_TERMS = [
     "SOURCE_EXTRACTED without ingested source",
     "WINNER_DECLARED",
 ]
+REQUIRED_STATIC_GATE_TERMS = [
+    "Gr_+(0,n)",
+    "Gr_+(1,n)",
+    "ordered residue",
+    "Gr_+(1,2)",
+    "mutation",
+    "static-spine",
+]
+
 FORBIDDEN_PROMOTION_PHRASES = [
     "substrate selected",
     "winner declared",
@@ -149,6 +158,23 @@ def check_criteria_json() -> tuple[list[dict[str, Any]], dict[str, Any]]:
             if not review.get(field):
                 failures.append({"failure": "review_item_missing_field", "review_id": review.get("id"), "field": field})
 
+    static_gate = data.get("pre_physics_static_geometry_gate", {})
+    static_text = json.dumps(static_gate, ensure_ascii=False)
+    if static_gate.get("id") != "STATIC_GEOMETRY_GATE_SG0_SG4":
+        failures.append({"failure": "missing_static_geometry_gate"})
+    for term in REQUIRED_STATIC_GATE_TERMS:
+        if term.lower() not in static_text.lower():
+            failures.append({"failure": "static_geometry_gate_missing_term", "term": term})
+    if "SG0-SG4" not in str(static_gate.get("rule", "")):
+        failures.append({"failure": "static_geometry_gate_rule_missing_sg0_sg4"})
+    if "negative control" not in str(static_gate.get("kill_condition", "")).lower():
+        failures.append({"failure": "static_geometry_gate_kill_condition_missing_negative_control"})
+
+    for track_id, track in tracks.items():
+        track_text = json.dumps(track, ensure_ascii=False).lower()
+        if "sg0-sg4" not in track_text or "gr_+(0,n)" not in track_text or "gr_+(1,n)" not in track_text:
+            failures.append({"failure": "track_missing_static_spine_boundary", "track_id": track_id})
+
     policy = data.get("source_promotion_policy", {})
     blocked = set(policy.get("blocked_statuses", []))
     for blocked_status in ["SOURCE_EXTRACTED without ingested source", "CHECKED without validator", "SUBSTRATE_SELECTED", "ENGINEERING_READY", "WINNER_DECLARED"]:
@@ -243,7 +269,7 @@ def run_check() -> PhysicalRegimeSourceIntakeCriteriaResult:
         counterexamples=failures,
         status_boundary=(
             "PASS_LEDGER_VALIDATION means the repo contains role-separated physical-regime source-intake criteria and kill gates. "
-            "It is not source ingestion, not source extraction, not CRBSM validation, not Route A feasibility, not scattering-native "
+            "It includes a required SG0-SG4 static-spine gate. It is not source ingestion, not source extraction, not CRBSM validation, not Route A feasibility, not scattering-native "
             "or high-resonance winner status, not Ising-machine validation, not substrate selection, not a settling-law proof, and not engineering readiness."
         ),
     )

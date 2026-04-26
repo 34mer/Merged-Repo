@@ -1,0 +1,149 @@
+{
+  "schema": "pre_spacetime_static_geometry_spine_v1",
+  "artifact_roles": [
+    "RED_TEAM",
+    "STATIC_GEOMETRY",
+    "PRE_SPACETIME_SPINE",
+    "GUARD",
+    "NEGATIVE_CONTROL"
+  ],
+  "status": [
+    "GENERATED_FROM_PRIOR_GPT_INTAKE",
+    "OPEN",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_THEOREM",
+    "MISSION_LEVEL_CORRECTION"
+  ],
+  "purpose": "Restore the pre-spacetime/static positive-geometry spine exposed in prior GPT intake: Gr_+(0,n) and Gr_+(1,n) are foundational static geometry, not side cases. Physical-regime and comparator work must be checked against this static residue tower before being treated as Formation Medium-relevant.",
+  "critical_review_prework": {
+    "hard_bottleneck_attacked": "whether the project is still operating from pre-spacetime positive-geometric math, or drifting into physical-regime/comparator lists without proving relevance to the static residue spine",
+    "thin_stick_risks": [
+      "physical systems being compared before the static mathematical carrier/readout target is explicit",
+      "S-matrix proximity being treated as enough because amplitudes are nearby",
+      "Ising-machine combinatorics being treated as enough because it settles configurations",
+      "high-resonance persistence being treated as enough because modes are long-lived",
+      "repo validators being treated as substitute for static geometric understanding"
+    ],
+    "negative_progress_risk": "Physical-regime work can become a sophisticated shopping list if it does not answer the static Gr_+(0,n)/Gr_+(1,n) gate first.",
+    "why_not_convenient_drift": "This artifact constrains all later physical/comparator work by forcing a pre-spacetime static-geometry test before substrate or mechanism relevance is claimed."
+  },
+  "prior_gpt_local_source_basis": {
+    "file": "Previous Conversations with GPT/Samer Project X - Exact Cross-Family Analysis.md",
+    "local_source_status": "local source-intake material only, not authority",
+    "key_line_ranges_inspected": [
+      "9658-9972",
+      "9990-10268",
+      "19985-20013"
+    ],
+    "extracted_prior_claims_not_authority": [
+      "Gr_+(0,n) is the terminal residue atom with Omega=1.",
+      "Gr_+(1,n) is the universal static connected positive geometry.",
+      "The static branch already satisfies candidate S2* semantics by recursive residue to lower Gr_+(1,n-1) and terminal Gr_+(0,n).",
+      "Ordered residue routes in Gr_+(1,n) carry alternating sign representation of boundary-order permutations.",
+      "Local seed charts are products of Gr_+(1,2) static interval blocks.",
+      "Mutation transports/permutates the static ordered residue algebra rather than inventing new local residue algebra.",
+      "A substrate that cannot realize terminal atoms, static simplex recursion, and ordered residue sign structure is floating relative to the static base."
+    ]
+  },
+  "static_spine_layers": [
+    {
+      "id": "SG0_TERMINAL_ATOM",
+      "object": "Gr_+(0,n)",
+      "role": "terminal residue atom",
+      "semantic_content": "Omega=1; terminal of residue recursion; trivial but foundational",
+      "must_not_flatten_to": [
+        "physical vacuum",
+        "hardware ground state",
+        "Ising ground state",
+        "measurement null state"
+      ]
+    },
+    {
+      "id": "SG1_STATIC_SIMPLEX",
+      "object": "Gr_+(1,n)",
+      "role": "universal static connected positive geometry / simplex residue tower",
+      "semantic_content": "facets identified with Gr_+(1,n-1); canonical logarithmic form recursively residues to lower static geometries",
+      "must_not_flatten_to": [
+        "ordinary simplex visualization",
+        "probability simplex only",
+        "physical state simplex without canonical residue semantics"
+      ]
+    },
+    {
+      "id": "SG2_ORDERED_RESIDUE_SIGN",
+      "object": "ordered residue routes in Gr_+(1,n)",
+      "role": "static coherence / ordered-route sign structure",
+      "semantic_content": "different residue orders to a terminal face differ by alternating sign representation of boundary-order permutations",
+      "must_not_flatten_to": [
+        "arbitrary path holonomy",
+        "measurement ordering artifact",
+        "software bookkeeping only"
+      ]
+    },
+    {
+      "id": "SG3_PRODUCT_STATIC_BLOCK",
+      "object": "Gr_+(1,2)^m",
+      "role": "local seed chart static block",
+      "semantic_content": "an ordered mutable seed chart is a transported product of interval static geometries",
+      "must_not_flatten_to": [
+        "generic coordinate chart",
+        "ordinary mutable dynamics",
+        "physical oscillator array without residue semantics"
+      ]
+    },
+    {
+      "id": "SG4_MUTATION_TRANSPORT",
+      "object": "mutation / atlas transition",
+      "role": "transported static reflection",
+      "semantic_content": "mutation transports/permutates static boundary-frame and corner systems; it does not create the local residue algebra from scratch",
+      "must_not_flatten_to": [
+        "new physics interaction",
+        "hardware switching operation",
+        "optimization update rule"
+      ]
+    }
+  ],
+  "red_team_findings": [
+    {
+      "id": "RT-STATIC-001",
+      "finding": "Recent physical-regime queues are only weakly meaningful until each candidate is scored against the static Gr_+(0,n)/Gr_+(1,n) gate.",
+      "severity": "HIGH",
+      "repair": "Add static-geometry gate before SN-C3/HR-C3/PRI-005 narrow reviews."
+    },
+    {
+      "id": "RT-STATIC-002",
+      "finding": "S-matrix is closer to amplitude geometry, but it may still be further from the static pre-spacetime residue tower than a combinatorial machine in some engineering sense. This is open and cannot be settled by proximity language.",
+      "severity": "MEDIUM_HIGH",
+      "repair": "Compare S-matrix, Ising machines, high-resonance, and Route A by static-spine gates, not by aura or field proximity."
+    },
+    {
+      "id": "RT-STATIC-003",
+      "finding": "Ising machines must be included because they physically instantiate combinatorial settling; however Ising ground states are not automatically Gr_+(0,n) terminal residues or Gr_+(1,n) static simplex recursion.",
+      "severity": "MEDIUM_HIGH",
+      "repair": "Keep PRI-005 separate and score it against SG0-SG4 before treating it as Formation Medium-relevant."
+    },
+    {
+      "id": "RT-STATIC-004",
+      "finding": "A candidate medium that cannot express ordered residue sign behavior and static-to-mutation transport is not yet touching the actual pre-spacetime geometric target, even if it is interesting physics or hardware.",
+      "severity": "HIGH",
+      "repair": "Require SG2-SG4 evidence or an explicit failure/demotion note in all narrow source reviews."
+    }
+  ],
+  "static_gate_questions": [
+    "What is the candidate analogue of Gr_+(0,n) as terminal residue atom, if any?",
+    "What is the candidate analogue of Gr_+(1,n) as static connected positive geometry / simplex residue tower, if any?",
+    "Does the candidate expose recursive boundary/readout semantics, or only a measured/optimized output?",
+    "Does the candidate carry ordered residue-route sign/coherence, or only path/control history?",
+    "Can local chart variables be interpreted as transported products of Gr_+(1,2) static blocks, or is that analogy unsupported?",
+    "Does the candidate implement mutation-like transport of static residue data, or merely hardware switching, scattering, or optimization update?",
+    "If the answer is no, is the candidate still useful only as a negative control?"
+  ],
+  "impact_on_next_work": {
+    "SN_C3": "still useful, but must be framed as physical scattering-matrix observable review against SG0-SG4; not allowed to win by S-matrix/positive-geometry proximity",
+    "PRI005_ISING": "must remain separate combinatorial-machine comparator and be tested for terminal atom/static simplex/residue-order analogues rather than assumed relevant from combinatorics alone",
+    "HR_C3": "must test persistent mode identity against static residue identity, not just long-lived modes",
+    "Route_A": "must remain proxy/hardware route; impedance/readout or microwave transport is not static canonical readout unless SG gates are addressed",
+    "CRBSM": "mechanism-language must explicitly say how boundary sheets/relay pockets relate to static residue tower, or remain generated vocabulary"
+  },
+  "non_promotion_rule": "This artifact is a red-team/static-spine correction from prior GPT local source-intake material. It is not source-extracted authority, not a theorem, not proof of Formation Medium, not substrate selection, not physical implementation, and not engineering readiness."
+}
