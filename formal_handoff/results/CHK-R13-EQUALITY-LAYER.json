@@ -1,0 +1,39 @@
+{
+  "checker": "r13_equality_layer_source_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-COSMO-002",
+    "EXT-COSMO-COMB-001"
+  ],
+  "inspected_files": [
+    "research_ledger/COMPARATOR_PACKAGE_REGISTER.md",
+    "research_ledger/EXTRACTION_LEDGER.md",
+    "research_ledger/FORMAL_CHECK_TARGETS.json",
+    "research_ledger/FORMAL_CHECK_RESULTS.json"
+  ],
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the ledger preserves source-bound cosmohedron inequality-layer and face-lattice material needed by the R13 intrinsic/native vs degenerative/saturation equality-classification target. It is not a mathematical proof, not a typed predicate model, not an intrinsic-vs-degenerative theorem, not substrate evidence, not engineering readiness, and not a physical settling-law result.",
+  "support_summary": {
+    "allowed_inference": "R13 may cite source-bound inequality, shaving, grouped-delta, face-lattice, and Matryoshka-poset material as inputs to a later equality-classification model",
+    "blocked_inference": "typed predicate proof, intrinsic-vs-degenerative theorem, Lean/Z3 proof, Formation Medium substrate evidence, physical settling law, or engineering readiness",
+    "checked_interface": "ledger/source coverage for cosmohedron inequality-layer and face-lattice sources needed by the R13 equality-classification target",
+    "claim_statuses": {
+      "EXT-COSMO-002": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-COSMO-COMB-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "forbidden_promotions_absent": true,
+    "ledger_files_have_required_terms": true,
+    "paper_ids": {
+      "EXT-COSMO-002": "COSMO_2024",
+      "EXT-COSMO-COMB-001": "COSMO_COMB_2026"
+    },
+    "required_claim_count": 2
+  },
+  "target_id": "CHK-R13-EQUALITY-LAYER"
+}

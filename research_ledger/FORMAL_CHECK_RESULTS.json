@@ -32,9 +32,9 @@
     },
     {
       "target_id": "CHK-R13-EQUALITY-LAYER",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but intrinsic-vs-degenerative equality predicate has not been formally encoded yet.",
-      "artifact": null
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented R13 equality-layer source guard. The checker verifies that cosmohedron inequality-layer and face-lattice/Matryoshka-poset claims remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION source-bound inputs for a later intrinsic/native vs degenerative/saturation equality-classification model. This is not a typed predicate model, not a Lean/Z3 proof, not an intrinsic-vs-degenerative theorem, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness.",
+      "artifact": "formal_handoff/results/CHK-R13-EQUALITY-LAYER.json"
     },
     {
       "target_id": "CHK-ASSOCIAHEDRON-UNIT-DESCENT",

@@ -88,12 +88,12 @@
         "C",
         "GAssoc"
       ],
-      "checker_layer": "Z3/Python typed predicate model; later Lean",
+      "checker_layer": "implemented ledger/source equality-layer interface validator; later typed predicate / Lean-Z3 model",
       "predicate": "Classify equality status as intrinsic/native vs degenerative/saturation based on whether equality is part of the family definition or arises only by imposing extra constraints on a generic inequality layer.",
       "failure_condition": "The source-bound definitions do not support the intrinsic/degenerative distinction, or the distinction is representation-dependent.",
       "status": [
         "DEFINED",
-        "SMT_CHECK_PLANNED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     },
     {
