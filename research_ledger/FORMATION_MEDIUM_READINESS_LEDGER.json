@@ -1,0 +1,141 @@
+{
+  "schema": "formation_medium_readiness_ledger_v1",
+  "purpose": "Repo-native readiness summary for Formation Medium. This is a convergence and non-promotion artifact, not source-extracted, not a pitch deck, and not a proof.",
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_CHECKED_AS_PHYSICS",
+    "ROADMAP_ONLY"
+  ],
+  "readiness_layers": [
+    {
+      "id": "RL1_SOURCE_COVERAGE",
+      "label": "source coverage and ledger discipline",
+      "current_state": "ADVANCING",
+      "repo_basis": [
+        "FORMAL_CHECK_RESULTS.json",
+        "SOURCE_EXTRACTED_CLAIMS.json",
+        "source-coverage checker artifacts"
+      ],
+      "allowed_claim": "The repo has source-coverage guards around canonical readout, representation caution, surfaceology interfaces, scaffold/transmutation bridges, and cosmohedron R12/R13 interfaces.",
+      "blocked_claims": [
+        "source coverage is a theorem",
+        "source coverage is physical substrate evidence",
+        "source coverage is engineering readiness"
+      ]
+    },
+    {
+      "id": "RL2_FINITE_CHECKS",
+      "label": "finite mathematical checks",
+      "current_state": "PARTIAL",
+      "repo_basis": [
+        "PASS_FINITE_CHECK and PASS_PARTIAL_FINITE_CHECK result records"
+      ],
+      "allowed_claim": "The repo contains finite/partial finite checks for selected baseline structures within declared scopes.",
+      "blocked_claims": [
+        "finite checks prove all-n theorems",
+        "partial finite checks prove Formation Medium",
+        "finite checks identify a physical substrate"
+      ]
+    },
+    {
+      "id": "RL3_FORMAL_THEOREMS",
+      "label": "formal theorem status",
+      "current_state": "NOT_READY",
+      "repo_basis": [
+        "non_promotion_rule in FORMAL_CHECK_RESULTS.json",
+        "source-coverage status boundaries"
+      ],
+      "allowed_claim": "Formal theorem work remains a future workstream for selected check targets.",
+      "blocked_claims": [
+        "S2* theorem exists",
+        "R12/R13 theorem exists",
+        "surfaceology binary-boundary theorem exists",
+        "intrinsic readout theorem exists"
+      ]
+    },
+    {
+      "id": "RL4_PHYSICAL_SUBSTRATE",
+      "label": "physical substrate identification",
+      "current_state": "NOT_READY",
+      "repo_basis": [
+        "FORMATION_MEDIUM_LAYER_0_SPEC.md",
+        "FORMATION_MEDIUM_LAYER_1_SPEC.md",
+        "validate_formation_medium_discipline.py"
+      ],
+      "allowed_claim": "Physical-regime triage remains open; no substrate has been selected or validated.",
+      "blocked_claims": [
+        "Formation Medium substrate has been identified",
+        "positive geometry proves a substrate",
+        "surfaceology is the substrate",
+        "scaffolded gluons are the substrate"
+      ]
+    },
+    {
+      "id": "RL5_SETTLING_LAW",
+      "label": "native settling law",
+      "current_state": "NOT_READY",
+      "repo_basis": [
+        "Formation Medium Layer 0 settling-law slot",
+        "Formation Medium Layer 1 settling-law constraint"
+      ],
+      "allowed_claim": "The settling-law slot is explicit and remains open.",
+      "blocked_claims": [
+        "settling law is proven",
+        "settled state is experimentally realized",
+        "native dynamics have been validated"
+      ]
+    },
+    {
+      "id": "RL6_ENGINEERING_PROTOTYPE",
+      "label": "engineering prototype readiness",
+      "current_state": "NOT_READY",
+      "repo_basis": [
+        "absence of substrate specification",
+        "absence of settling-law proof",
+        "absence of lab protocol"
+      ],
+      "allowed_claim": "Engineering remains downstream of substrate triage, settling-law specification, and finite/formal validation.",
+      "blocked_claims": [
+        "prototype ready",
+        "lab-ready hardware path exists",
+        "engineering build plan is validated"
+      ]
+    },
+    {
+      "id": "RL7_CAPITAL_READINESS",
+      "label": "capital-readiness framing",
+      "current_state": "EARLY_TECHNICAL_ROADMAP_ONLY",
+      "repo_basis": [
+        "green validators",
+        "formal/source guard artifacts",
+        "explicit non-promotion ledger"
+      ],
+      "allowed_claim": "The repo can support an early technical diligence conversation about a disciplined research roadmap and evidence apparatus.",
+      "blocked_claims": [
+        "corporation-ready product proof",
+        "de-risked engineering platform",
+        "validated physical medium",
+        "revenue-ready technology"
+      ]
+    }
+  ],
+  "current_green_signals": [
+    "source-extraction integrity validator passes",
+    "formation-medium discipline validator passes",
+    "formal-check result validator passes",
+    "source-coverage guards now cover major overclaim zones",
+    "working tree is expected to remain clean before presenting status"
+  ],
+  "critical_gaps": [
+    "no selected physical substrate",
+    "no native settling law",
+    "no S2* theorem",
+    "no R12/R13 formal theorem",
+    "no surfaceology finite curve-intersection or SMT model",
+    "no lab protocol",
+    "no engineering prototype"
+  ],
+  "presentation_rule": "Use this ledger as a scope boundary. Present source coverage and finite checks as evidence apparatus only. Do not present Formation Medium as built, proven, physically realized, or engineering-ready."
+}

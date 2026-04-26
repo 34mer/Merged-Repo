@@ -1,0 +1,30 @@
+{
+  "checker": "formation_medium_readiness_scope_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/FORMATION_MEDIUM_READINESS_LEDGER.json",
+    "research_ledger/FORMATION_MEDIUM_READINESS_LEDGER.md",
+    "research_ledger/FORMAL_CHECK_RESULTS.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the readiness ledger consistently separates source/finite-check progress from formal theorem, physics, substrate, engineering, and capital-readiness claims. It is not a proof, not a substrate selection, not engineering readiness, and not a product-readiness claim.",
+  "support_summary": {
+    "allowed_inference": "repo can support an early technical diligence conversation about evidence apparatus and roadmap discipline",
+    "blocked_inference": "physical substrate readiness, native settling-law proof, engineering prototype readiness, product proof, or validated physical medium",
+    "critical_gap_count": 7,
+    "layer_states": {
+      "RL1_SOURCE_COVERAGE": "ADVANCING",
+      "RL2_FINITE_CHECKS": "PARTIAL",
+      "RL3_FORMAL_THEOREMS": "NOT_READY",
+      "RL4_PHYSICAL_SUBSTRATE": "NOT_READY",
+      "RL5_SETTLING_LAW": "NOT_READY",
+      "RL6_ENGINEERING_PROTOTYPE": "NOT_READY",
+      "RL7_CAPITAL_READINESS": "EARLY_TECHNICAL_ROADMAP_ONLY"
+    },
+    "markdown_terms_present": true,
+    "pass_finite_check_count": 1,
+    "pass_partial_finite_check_count": 3,
+    "pass_source_coverage_count": 10
+  },
+  "target_id": "LEDGER-FORMATION-MEDIUM-READINESS"
+}
