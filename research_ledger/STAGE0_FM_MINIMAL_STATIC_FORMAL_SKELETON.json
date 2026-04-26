@@ -1,0 +1,211 @@
+{
+  "schema": "stage0_fm_minimal_static_formal_skeleton_v1",
+  "target_id": "STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON",
+  "artifact_roles": [
+    "STAGE0",
+    "STATIC_GEOMETRY",
+    "FORMAL_SKELETON",
+    "RED_TEAM",
+    "NEGATIVE_CONTROL"
+  ],
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "MATH_FIRST",
+    "FINITE_STATIC_MODEL",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_THEOREM",
+    "NOT_PHYSICS"
+  ],
+  "purpose": "Define the smallest exact pre-physics formal skeleton currently available for Formation Medium over Gr_+(0,n)/Gr_+(1,n): terminal atom, labeled simplex faces, residue deletion, ordered residue signs, readout map, non-faithful bulk cover, settling relation, finite checks, falsifiers, and tool plan.",
+  "stage0_answers": {
+    "actual_mathematical_object": "A finite static support/residue surrogate for the Gr_+(1,n) positive simplex tower plus a Gr_+(0,n) terminal atom convention. It models canonical boundary/readout semantics before any physical substrate mapping.",
+    "definitions_to_fix_before_computation": [
+      "labels [n] = {1,...,n}",
+      "faces F_S for nonempty support subsets S subset [n]",
+      "terminal atom A_n representing the terminal Gr_+(0,n) residue convention",
+      "residue deletion Res_i(F_S) for i in S",
+      "ordered deletion route parity sign relative to ascending deletion order",
+      "readout rho(F_S)=S and rho(A_n)=terminal",
+      "bulk cover B_{S,a} with decoration a in a finite decoration set mapping non-faithfully to F_S",
+      "settling as directed residue descent decreasing support size"
+    ],
+    "smallest_literal_finite_object": "n=2 static interval/simplex with faces F_{1}, F_{2}, F_{1,2}, terminal atom A_2, two deletion routes to terminal through singleton faces. The first nontrivial route-parity comparison appears for n=3 when two deletion orders can reach the same target singleton.",
+    "project_changing_invariant_or_counterexample": "Coherence of ordered residue signs under adjacent swaps for all deletion routes n<=8; failure would mean the static skeleton cannot even encode SG2 ordered residue-route sign behavior.",
+    "wrong_or_irrelevant_condition": "If terminal atoms, recursive simplex faces, ordered residue signs, product static blocks, or mutation transport cannot be represented without arbitrary conventions, the current Formation Medium static spine must be demoted or rewritten before physical triage resumes.",
+    "thin_stick_dependencies": [
+      "The A_n terminal atom is a convention imported from prior GPT/local-intake framing and not source-extracted theorem status.",
+      "Route parity is a finite orientation surrogate, not yet proven to equal canonical-form residue signs in the source geometry.",
+      "The bulk cover is deliberately artificial; it tests non-faithfulness shape only, not a physical bulk.",
+      "Settling as residue descent is a pre-physics formal relation, not native dynamics."
+    ],
+    "delete_demote_or_quarantine_if_fails": [
+      "quarantine physical-regime reviews behind SG0-SG4 until the static model is repaired",
+      "demote any claim that readout/non-faithfulness is defined",
+      "delete or rewrite any artifact treating finite support-subset checks as theorem status",
+      "do not continue SN-C3/Ising/high-resonance comparison as Formation Medium-relevant"
+    ]
+  },
+  "formal_objects": [
+    {
+      "id": "OBJ_LABEL_SET",
+      "notation": "[n] = {1,...,n}",
+      "definition": "Finite ordered label set. Current Stage 0 finite range is 2 <= n <= 8.",
+      "status": "DEFINITION"
+    },
+    {
+      "id": "OBJ_TERMINAL_ATOM",
+      "notation": "A_n ~ Gr_+(0,n)",
+      "definition": "A unique terminal atom with canonical scalar readout Omega(A_n)=1. In this skeleton it is reached by terminal residue convention after all support labels have been deleted.",
+      "status": "CONVENTION / NOT_THEOREM"
+    },
+    {
+      "id": "OBJ_STATIC_SIMPLEX_FACE",
+      "notation": "F_S for empty != S subset [n]",
+      "definition": "A labeled face/support object representing the coordinate face of the Gr_+(1,n) simplex tower with positive support S. Dimension is |S|-1.",
+      "status": "FINITE_STATIC_MODEL"
+    },
+    {
+      "id": "OBJ_RESIDUE_DELETION",
+      "notation": "Res_i(F_S)",
+      "definition": "If i in S and |S|>1, Res_i(F_S)=F_{S\\{i}}. If S={i}, Res_i(F_S)=A_n by terminal atom convention. Undefined if i notin S.",
+      "status": "FINITE_STATIC_MODEL"
+    },
+    {
+      "id": "OBJ_ORDERED_ROUTE_SIGN",
+      "notation": "sign(D)=(-1)^{inv(D)}",
+      "definition": "For a deletion route D=(d_1,...,d_m), sign is the parity of the permutation D relative to ascending order on the deleted label set. Adjacent swaps flip sign.",
+      "status": "FINITE_ORIENTATION_SURROGATE / NOT_SOURCE_EXTRACTED"
+    },
+    {
+      "id": "OBJ_READOUT_MAP",
+      "notation": "rho(F_S)=S, rho(A_n)=terminal",
+      "definition": "The minimal canonical readout records the support subset / terminal atom, not coordinates or a physical measurement.",
+      "status": "MINIMAL_READOUT_DEFINITION"
+    },
+    {
+      "id": "OBJ_BULK_COVER",
+      "notation": "B_{S,a} -> F_S",
+      "definition": "For a finite decoration set D with |D|>=2, bulk states B_{S,a} map to the same readout F_S under pi(B_{S,a})=F_S. This is a toy non-faithful cover, not a physical bulk.",
+      "status": "NON_FAITHFUL_TOY_MODEL / NOT_PHYSICS"
+    },
+    {
+      "id": "OBJ_SETTLING_RELATION",
+      "notation": "F_S -> F_{S\\{i}} or A_n",
+      "definition": "Settling before physics is directed residue descent: each step deletes one support label and strictly decreases |S| until a requested readout face or terminal atom is reached.",
+      "status": "PRE_PHYSICS_RELATION / NOT_DYNAMICS"
+    }
+  ],
+  "finite_check_targets": [
+    {
+      "id": "FC1_FACE_COUNTS",
+      "range": "2 <= n <= 8",
+      "expected": "number of nonterminal faces is 2^n - 1 and number of d-dimensional faces is binomial(n,d+1)",
+      "falsifier": "Any count mismatch invalidates the support-subset simplex model."
+    },
+    {
+      "id": "FC2_RESIDUE_CLOSURE_AND_ACYCLICITY",
+      "range": "2 <= n <= 8",
+      "expected": "Every defined residue step lands in a smaller support face or terminal atom; no directed cycles exist.",
+      "falsifier": "A residue step that does not reduce support size destroys settling-as-residue-descent."
+    },
+    {
+      "id": "FC3_ROUTE_PARITY_COHERENCE",
+      "range": "2 <= n <= 8",
+      "expected": "Adjacent swaps of deletion routes flip sign; route signs match permutation parity relative to ascending deleted labels.",
+      "falsifier": "If adjacent swaps do not flip sign, SG2 ordered residue sign/coherence is not represented."
+    },
+    {
+      "id": "FC4_NON_FAITHFUL_BULK_COVER",
+      "range": "2 <= n <= 8 with decoration_count >= 2",
+      "expected": "Each nonterminal readout face has at least two bulk preimages under pi.",
+      "falsifier": "If fibers are singleton, the skeleton has no non-faithfulness even as a toy model."
+    },
+    {
+      "id": "FC5_TERMINAL_ROUTE_COUNT",
+      "range": "2 <= n <= 8",
+      "expected": "From full support [n] to terminal A_n there are n! deletion routes, split evenly by parity for n>=2.",
+      "falsifier": "Parity imbalance for n>=2 would indicate route-sign implementation error."
+    }
+  ],
+  "computed_stage0_results": {
+    "range_checked": "2 <= n <= 8",
+    "method": "exact Python enumeration of finite support subsets and deletion-route permutations",
+    "status": "PASS_FINITE_STATIC_MODEL_CHECKS",
+    "summary": {
+      "n_max": 8,
+      "face_count_formula": "2^n - 1",
+      "route_sign_rule": "permutation parity relative to ascending deletion order",
+      "terminal_parity_balance": "even_count = odd_count = n!/2 for all checked n>=2",
+      "bulk_decoration_count": 2
+    }
+  },
+  "tool_plan": [
+    {
+      "tool": "Python",
+      "next_use": "Exact finite enumeration for n<=8 and generation of witness tables.",
+      "status": "USED_IN_STAGE0_CHECKER"
+    },
+    {
+      "tool": "polymake",
+      "next_use": "Confirm face lattice counts of simplex(n-1) and compare with support-subset model.",
+      "status": "AVAILABLE / NOT_YET_REQUIRED_FOR_THIS_STAGE0_RESULT"
+    },
+    {
+      "tool": "Sage",
+      "next_use": "Symbolic/log-form sanity checks and small oriented simplex residue experiments once sign conventions are formalized.",
+      "status": "AVAILABLE / NOT_YET_REQUIRED_FOR_THIS_STAGE0_RESULT"
+    },
+    {
+      "tool": "Lean/Lake",
+      "next_use": "Stage 1 typed definitions for finite label sets, support faces, residue deletion, and route parity theorem skeleton.",
+      "status": "AVAILABLE / DEFER_UNTIL_STAGE1_STATEMENTS_STABILIZE"
+    },
+    {
+      "tool": "Z3",
+      "next_use": "Bounded consistency/counterexample search for non-faithful cover and residue descent predicates after Stage 1 schema extraction.",
+      "status": "AVAILABLE / OPTIONAL"
+    },
+    {
+      "tool": "Ax-Prover / Aristotle",
+      "next_use": "Only after Lean theorem statements exist; any output remains candidate until local Lean validation.",
+      "status": "DEFERRED"
+    }
+  ],
+  "next_stage1_formal_targets": [
+    {
+      "id": "STAGE1-STATIC-FACE-TYPE",
+      "statement": "Define a finite type of nonempty support faces F_S over Fin n plus terminal atom A_n."
+    },
+    {
+      "id": "STAGE1-RESIDUE-DECREASES-RANK",
+      "statement": "For every defined residue deletion Res_i(F_S), support size strictly decreases or reaches terminal."
+    },
+    {
+      "id": "STAGE1-ADJACENT-SWAP-FLIPS-SIGN",
+      "statement": "For deletion routes differing by one adjacent transposition, route parity signs differ by -1."
+    },
+    {
+      "id": "STAGE1-BULK-READOUT-NONFAITHFUL",
+      "statement": "For decoration_count >= 2, pi(B_{S,a})=F_S has fiber size decoration_count for each nonterminal face."
+    }
+  ],
+  "red_team_falsifiers": [
+    "The terminal atom convention may be mathematically wrong or too coarse compared with source-backed canonical residue semantics.",
+    "The support-subset model may capture only face combinatorics and not canonical forms, positivity, or amplitudes.",
+    "Route parity may be a bookkeeping sign rather than SG2 ordered residue sign/coherence.",
+    "The non-faithful bulk cover is artificial; it proves only that non-faithfulness can be typed, not that Formation Medium has a natural bulk.",
+    "Settling as residue descent may be the wrong pre-physics abstraction if native formation should settle to nonterminal readout rather than terminal residues.",
+    "If mutation transport SG4 cannot be added as a nontrivial atlas operation, this Stage 0 skeleton remains static-only and insufficient."
+  ],
+  "blocked_promotions": [
+    "finite support-subset checks are not source-extracted claims",
+    "route parity is not yet canonical form orientation theorem",
+    "bulk cover is not physical bulk",
+    "settling relation is not native dynamics",
+    "Stage 0 skeleton is not final Formation Medium definition",
+    "Stage 0 skeleton does not resume physical-regime winner claims"
+  ],
+  "recommended_next": "Move to Stage 1 typed formal target extraction for support faces/residue deletion/route parity, then run polymake simplex face-lattice confirmation as a Stage 2 cross-check. Do not resume SN-C3/Ising/high-resonance physical comparison until Stage 1 targets are at least stated.",
+  "non_promotion_rule": "This Stage 0 skeleton is a minimal formal attack artifact. It is not a theorem, not source extraction, not a final object definition, not a physical substrate, not engineering readiness, and not proof that Formation Medium exists."
+}

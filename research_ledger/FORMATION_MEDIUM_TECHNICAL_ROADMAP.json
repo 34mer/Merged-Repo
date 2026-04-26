@@ -63,17 +63,34 @@
   "near_term_queue": [
     {
       "id": "STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON",
-      "title": "Define minimal static formal skeleton before further physical review",
+      "title": "Maintain Stage 0 minimal static formal skeleton and finite witnesses",
       "priority": 0,
       "resource_tier": "T0_CURRENT_REPO_COMPUTE",
       "target_artifacts": [
         "FORMATION_MEDIUM_STAGE0_MATH_FIRST_PROTOCOL.md",
         "FORMATION_MEDIUM_STAGE0_MATH_FIRST_PROTOCOL.json",
         "PRE_SPACETIME_STATIC_GEOMETRY_SPINE.md",
-        "STAGE0_FM_MINIMAL_STATIC_FORMAL_SKELETON.md"
+        "STAGE0_FM_MINIMAL_STATIC_FORMAL_SKELETON.md",
+        "STAGE0_FM_MINIMAL_STATIC_FORMAL_SKELETON.json",
+        "scripts/check_stage0_fm_minimal_static_formal_skeleton.py",
+        "tests/test_stage0_fm_minimal_static_formal_skeleton_checker.py"
       ],
-      "exit_condition": "A tool-light Stage 0 math attack defines the smallest exact Formation Medium formal skeleton over Gr_+(0,n)/Gr_+(1,n), n <= 7 or 8, including readout/residue, ordered residue signs, bulk/readout map, non-faithfulness, settling relation, first finite computations, falsifiers, and tool plan.",
-      "blocked_promotion": "Stage 0 skeleton is not theorem status, not final object definition, not physical validation, not substrate selection, and not engineering readiness."
+      "exit_condition": "Completed: Stage 0 skeleton exists with support-subset Gr_+(1,n)/Gr_+(0,n) finite model, finite witnesses for n=2..8, route-parity checks, toy non-faithful bulk cover, and explicit falsifiers. Next live exit is Stage 1 typed target extraction.",
+      "blocked_promotion": "Completion is not theorem status, not final object definition, not source extraction, not physical validation, not substrate selection, and not engineering readiness."
+    },
+    {
+      "id": "STAGE1-FM-STATIC-TYPED-TARGETS",
+      "title": "Extract typed formal targets from Stage 0 static skeleton",
+      "priority": 1,
+      "resource_tier": "T0_CURRENT_REPO_COMPUTE",
+      "target_artifacts": [
+        "STAGE0_FM_MINIMAL_STATIC_FORMAL_SKELETON.md",
+        "STAGE0_FM_MINIMAL_STATIC_FORMAL_SKELETON.json",
+        "STAGE1_FM_STATIC_TYPED_TARGETS.md",
+        "STAGE1_FM_STATIC_TYPED_TARGETS.json"
+      ],
+      "exit_condition": "Typed definitions and theorem/counterexample targets exist for finite support faces, terminal atom, residue deletion, route parity, toy bulk/readout non-faithfulness, and residue-descent settling; Lean/Lake target skeletons are named but not overpromoted.",
+      "blocked_promotion": "Stage 1 typed targets are not proofs, not source extraction, not final Formation Medium definition, not physical validation, and not engineering readiness."
     },
     {
       "id": "Q1_STALE_STATUS_SWEEP",
@@ -196,9 +213,11 @@
     "treat source coverage as theorem status",
     "continue major work without mission-grade critical review prework",
     "continue SN-C3/Ising/high-resonance review before STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON exists or is explicitly deferred",
-    "use tools/source shopping to choose the mathematical plan"
+    "use tools/source shopping to choose the mathematical plan",
+    "resume SN-C3/Ising/high-resonance physical comparison before Stage 1 typed formal targets are stated",
+    "treat Stage 0 support-subset finite checks as all-n theorem or source-extracted canonical geometry"
   ],
   "success_definition_for_current_phase": "A clean repo-backed technical spine that can support disciplined diligence conversations while honestly marking theorem, physics, substrate, and engineering gaps.",
   "static_geometry_spine": "Before physical-regime/comparator review claims Formation Medium relevance, score against PRE_SPACETIME_STATIC_GEOMETRY_SPINE SG0-SG4: Gr_+(0,n), Gr_+(1,n), ordered residue signs, Gr_+(1,2)^m product static blocks, and mutation as transported static reflection.",
-  "stage0_math_first_protocol": "Before major source-review, physics-comparator, route, substrate, or repo-expansion work, run FORMATION_MEDIUM_STAGE0_MATH_FIRST_PROTOCOL. Tools serve the math plan; tools do not choose the plan."
+  "stage0_math_first_protocol": "Stage 0 minimal static formal skeleton now exists and passes finite static model checks for n<=8. Next work must move to Stage 1 formal target extraction before further physical/comparator triage."
 }

@@ -229,10 +229,10 @@ candidate proof-search only; must be Lean-validated locally
 Current status:
 
 ```text
-permission enabled but configured WSL Sage currently unavailable because no WSL distro is installed
+available: SageMath 9.5 through D-backed WSL distro Ubuntu-22.04-D
 ```
 
-Use when available for:
+Use for:
 
 ```text
 polyhedral / combinatorial algebra
@@ -245,10 +245,10 @@ Grassmannian / positive-geometry finite computations
 Current status:
 
 ```text
-permission enabled but configured WSL polymake currently unavailable because no WSL distro is installed
+available: polymake 4.11 through D-backed WSL distro Ubuntu-24.04-D
 ```
 
-Use when available for:
+Use for:
 
 ```text
 polytope / face-lattice / canonical combinatorics

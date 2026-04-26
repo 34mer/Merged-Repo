@@ -33,7 +33,7 @@
       "repo_basis": [
         "PASS_FINITE_CHECK and PASS_PARTIAL_FINITE_CHECK result records"
       ],
-      "allowed_claim": "The repo contains finite/partial finite checks for selected baseline structures, generated graph fixtures, and finite convex-polygon chord fixtures within declared scopes.",
+      "allowed_claim": "Finite checks now include a Stage 0 support-subset static skeleton for Gr_+(0,n)/Gr_+(1,n), passing internal-coherence checks for n=2..8. This remains finite-model support only.",
       "blocked_claims": [
         "finite checks prove all-n theorems",
         "partial finite checks prove Formation Medium",
@@ -44,7 +44,11 @@
         "generated graph fixtures are source-faithful curve enumeration",
         "polygon chord fixtures prove surfaceology",
         "polygon chord fixtures are full source-faithful surface curve enumeration",
-        "static-spine prior-GPT correction is a theorem"
+        "static-spine prior-GPT correction is a theorem",
+        "Stage 0 support-subset skeleton is all-n theorem",
+        "route parity finite check is canonical-form orientation theorem",
+        "toy bulk cover is physical bulk",
+        "residue descent is native dynamics"
       ]
     },
     {
@@ -55,14 +59,16 @@
         "non_promotion_rule in FORMAL_CHECK_RESULTS.json",
         "source-coverage status boundaries"
       ],
-      "allowed_claim": "Formal theorem work remains future work; the repo now requires a Stage 0 math-first attack before formal targets or proof engines are used.",
+      "allowed_claim": "Formal theorem work remains future work; Stage 0 now supplies typed Stage 1 targets for support faces, residue deletion, route parity, and toy bulk/readout non-faithfulness.",
       "blocked_claims": [
         "S2* theorem exists",
         "R12/R13 theorem exists",
         "surfaceology binary-boundary theorem exists",
         "intrinsic readout theorem exists",
         "tool use replaces Stage 0 math attack",
-        "Aristotle or Ax-Prover output is theorem status without Lean validation"
+        "Aristotle or Ax-Prover output is theorem status without Lean validation",
+        "Stage 0 finite checker is Lean theorem status",
+        "Stage 1 target extraction can be skipped because finite checks passed"
       ]
     },
     {
@@ -74,7 +80,7 @@
         "FORMATION_MEDIUM_LAYER_1_SPEC.md",
         "validate_formation_medium_discipline.py"
       ],
-      "allowed_claim": "Physical-regime triage remains open and is now blocked behind Stage 0 minimal static formal skeleton unless explicitly deferred.",
+      "allowed_claim": "Physical-regime triage remains open and blocked until at least Stage 1 typed formal targets are stated or explicitly deferred.",
       "blocked_claims": [
         "Formation Medium substrate has been identified",
         "positive geometry proves a substrate",
@@ -108,7 +114,9 @@
         "phase vortex charge is ordered residue sign/coherence",
         "SN-C3 defeats Ising or high-resonance comparison",
         "physical review proceeds before Stage 0 minimal static formal skeleton",
-        "source shopping chooses the mathematical plan"
+        "source shopping chooses the mathematical plan",
+        "Stage 0 skeleton resumes physical-regime winner claims",
+        "support-subset finite model selects a substrate"
       ]
     },
     {
@@ -178,7 +186,8 @@
     "PRI-005 Ising-machine source-candidate queue adds five combinatorial-machine classes and ten DOI-backed external candidates under PG1-PG8 without source extraction",
     "pre-spacetime static geometry spine guard restores Gr_+(0,n)/Gr_+(1,n) static residue gate before physical-regime relevance claims",
     "SN-C3 static-gated review demotes physical scattering-matrix topology to useful negative-control / weak observable comparator under SG0-SG4",
-    "Stage 0 math-first protocol requires tool-light formal skeleton before further source/physics/repo expansion"
+    "Stage 0 math-first protocol requires tool-light formal skeleton before further source/physics/repo expansion",
+    "Stage 0 minimal static formal skeleton passes finite static model checks for Gr_+(0,n)/Gr_+(1,n) support-residue surrogate n=2..8"
   ],
   "critical_gaps": [
     "no selected physical substrate",

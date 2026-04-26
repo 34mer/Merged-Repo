@@ -90,7 +90,24 @@ Current required attack:
 STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON
 ```
 
-No further SN-C3 / Ising / high-resonance physical review should proceed unless this skeleton exists or is explicitly deferred with a reason.
+Stage 0 skeleton now exists and passes finite checks; no further SN-C3 / Ising / high-resonance physical review should proceed until Stage 1 typed formal targets are stated or explicitly deferred with a reason.
+
+
+
+Current Stage 0 result:
+
+```text
+STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON
+PASS_FINITE_STATIC_MODEL_CHECKS for n=2..8
+```
+
+Next live target:
+
+```text
+STAGE1-FM-STATIC-TYPED-TARGETS
+```
+
+Stage 1 must extract typed definitions and theorem/counterexample targets for support faces, terminal atom, residue deletion, route parity, toy bulk/readout non-faithfulness, and residue-descent settling before any physical/comparator review resumes.
 
 ## Pre-spacetime static geometry gate
 

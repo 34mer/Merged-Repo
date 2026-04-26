@@ -9,7 +9,8 @@
     "DEFINED_NOT_RUN",
     "NOT_IMPLEMENTED",
     "OPEN",
-    "FAILED"
+    "FAILED",
+    "PASS_FINITE_STATIC_MODEL_CHECKS"
   ],
   "results": [
     {
@@ -227,7 +228,13 @@
       "result_status": "PASS_LEDGER_VALIDATION",
       "result_summary": "Implemented Stage 0 math-first protocol guard. The checker verifies that major source-review, physical-comparator, route, substrate, or broad repo-expansion work is blocked behind a tool-light mathematical attack pass. It enforces the stage sequence Stage 0 deep math attack, Stage 1 formal targets, Stage 2 literal computation/formal engines, Stage 3 physics/engineering emergence; records the tool escalation matrix for Python, Z3, Lean/Lake, Aristotle, Ax-Prover, Sage, polymake, and internet; and sets STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON as the next required math attack. This is not proof of Formation Medium, not a final mathematical definition, not physical validation, not substrate selection, not engineering readiness, and not a substitute for actual reasoning.",
       "artifact": "formal_handoff/results/LEDGER-STAGE0-MATH-FIRST-PROTOCOL.json"
+    },
+    {
+      "target_id": "LEDGER-STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON",
+      "result_status": "PASS_FINITE_STATIC_MODEL_CHECKS",
+      "result_summary": "Implemented Stage 0 minimal static formal skeleton for Formation Medium over Gr_+(0,n)/Gr_+(1,n). The checker verifies a finite support/residue surrogate for n=2..8, including face counts, residue descent, route-parity coherence, terminal route parity balance up to n=8 with 40320 terminal deletion routes, and a toy non-faithful bulk/readout cover. This is not source extraction, not theorem status, not a final Formation Medium definition, not a physical substrate, not native dynamics, not engineering readiness, and not permission to resume physical-regime winner claims.",
+      "artifact": "formal_handoff/results/LEDGER-STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON.json"
     }
   ],
-  "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."
+  "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence. PASS_FINITE_STATIC_MODEL_CHECKS means finite static-model evidence only; it is not theorem status, source extraction, physical substrate evidence, native dynamics, or engineering readiness."
 }

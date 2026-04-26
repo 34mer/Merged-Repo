@@ -139,14 +139,14 @@
     },
     {
       "tool_class": "Sage",
-      "use_for": "polyhedral/combinatorial algebra, exact symbolic experiments, Grassmannian/positive-geometry finite computations when installed",
-      "current_status": "permission enabled but configured WSL Sage currently unavailable because no WSL distro is installed",
+      "use_for": "polyhedral/combinatorial algebra, exact symbolic experiments, Grassmannian/positive-geometry finite computations",
+      "current_status": "available: SageMath 9.5 through D-backed WSL distro Ubuntu-22.04-D",
       "do_not_use_for": "blocking Stage 0 reasoning or pretending unavailable tools ran"
     },
     {
       "tool_class": "polymake",
-      "use_for": "polytope/face-lattice/canonical combinatorics and positive-geometry finite models when installed",
-      "current_status": "permission enabled but configured WSL polymake currently unavailable because no WSL distro is installed",
+      "use_for": "polytope/face-lattice/canonical combinatorics and positive-geometry finite models",
+      "current_status": "available: polymake 4.11 through D-backed WSL distro Ubuntu-24.04-D",
       "do_not_use_for": "blocking smaller Python/Z3 finite checks when polymake is unavailable"
     },
     {

@@ -1,0 +1,232 @@
+{
+  "checker": "stage0_fm_minimal_static_formal_skeleton_guard_v1",
+  "counterexamples": [],
+  "finite_witnesses": [
+    {
+      "adjacent_swap_failures": 0,
+      "expected_by_dimension": {
+        "0": 2,
+        "1": 1
+      },
+      "expected_face_count": 3,
+      "expected_terminal_route_count": 2,
+      "face_count": 3,
+      "face_count_by_dimension": {
+        "0": 2,
+        "1": 1
+      },
+      "max_bulk_fiber_size": 2,
+      "min_bulk_fiber_size": 2,
+      "n": 2,
+      "residue_step_count": 4,
+      "residue_step_failures": [],
+      "terminal_even_routes": 1,
+      "terminal_odd_routes": 1,
+      "terminal_route_count": 2
+    },
+    {
+      "adjacent_swap_failures": 0,
+      "expected_by_dimension": {
+        "0": 3,
+        "1": 3,
+        "2": 1
+      },
+      "expected_face_count": 7,
+      "expected_terminal_route_count": 6,
+      "face_count": 7,
+      "face_count_by_dimension": {
+        "0": 3,
+        "1": 3,
+        "2": 1
+      },
+      "max_bulk_fiber_size": 2,
+      "min_bulk_fiber_size": 2,
+      "n": 3,
+      "residue_step_count": 12,
+      "residue_step_failures": [],
+      "terminal_even_routes": 3,
+      "terminal_odd_routes": 3,
+      "terminal_route_count": 6
+    },
+    {
+      "adjacent_swap_failures": 0,
+      "expected_by_dimension": {
+        "0": 4,
+        "1": 6,
+        "2": 4,
+        "3": 1
+      },
+      "expected_face_count": 15,
+      "expected_terminal_route_count": 24,
+      "face_count": 15,
+      "face_count_by_dimension": {
+        "0": 4,
+        "1": 6,
+        "2": 4,
+        "3": 1
+      },
+      "max_bulk_fiber_size": 2,
+      "min_bulk_fiber_size": 2,
+      "n": 4,
+      "residue_step_count": 32,
+      "residue_step_failures": [],
+      "terminal_even_routes": 12,
+      "terminal_odd_routes": 12,
+      "terminal_route_count": 24
+    },
+    {
+      "adjacent_swap_failures": 0,
+      "expected_by_dimension": {
+        "0": 5,
+        "1": 10,
+        "2": 10,
+        "3": 5,
+        "4": 1
+      },
+      "expected_face_count": 31,
+      "expected_terminal_route_count": 120,
+      "face_count": 31,
+      "face_count_by_dimension": {
+        "0": 5,
+        "1": 10,
+        "2": 10,
+        "3": 5,
+        "4": 1
+      },
+      "max_bulk_fiber_size": 2,
+      "min_bulk_fiber_size": 2,
+      "n": 5,
+      "residue_step_count": 80,
+      "residue_step_failures": [],
+      "terminal_even_routes": 60,
+      "terminal_odd_routes": 60,
+      "terminal_route_count": 120
+    },
+    {
+      "adjacent_swap_failures": 0,
+      "expected_by_dimension": {
+        "0": 6,
+        "1": 15,
+        "2": 20,
+        "3": 15,
+        "4": 6,
+        "5": 1
+      },
+      "expected_face_count": 63,
+      "expected_terminal_route_count": 720,
+      "face_count": 63,
+      "face_count_by_dimension": {
+        "0": 6,
+        "1": 15,
+        "2": 20,
+        "3": 15,
+        "4": 6,
+        "5": 1
+      },
+      "max_bulk_fiber_size": 2,
+      "min_bulk_fiber_size": 2,
+      "n": 6,
+      "residue_step_count": 192,
+      "residue_step_failures": [],
+      "terminal_even_routes": 360,
+      "terminal_odd_routes": 360,
+      "terminal_route_count": 720
+    },
+    {
+      "adjacent_swap_failures": 0,
+      "expected_by_dimension": {
+        "0": 7,
+        "1": 21,
+        "2": 35,
+        "3": 35,
+        "4": 21,
+        "5": 7,
+        "6": 1
+      },
+      "expected_face_count": 127,
+      "expected_terminal_route_count": 5040,
+      "face_count": 127,
+      "face_count_by_dimension": {
+        "0": 7,
+        "1": 21,
+        "2": 35,
+        "3": 35,
+        "4": 21,
+        "5": 7,
+        "6": 1
+      },
+      "max_bulk_fiber_size": 2,
+      "min_bulk_fiber_size": 2,
+      "n": 7,
+      "residue_step_count": 448,
+      "residue_step_failures": [],
+      "terminal_even_routes": 2520,
+      "terminal_odd_routes": 2520,
+      "terminal_route_count": 5040
+    },
+    {
+      "adjacent_swap_failures": 0,
+      "expected_by_dimension": {
+        "0": 8,
+        "1": 28,
+        "2": 56,
+        "3": 70,
+        "4": 56,
+        "5": 28,
+        "6": 8,
+        "7": 1
+      },
+      "expected_face_count": 255,
+      "expected_terminal_route_count": 40320,
+      "face_count": 255,
+      "face_count_by_dimension": {
+        "0": 8,
+        "1": 28,
+        "2": 56,
+        "3": 70,
+        "4": 56,
+        "5": 28,
+        "6": 8,
+        "7": 1
+      },
+      "max_bulk_fiber_size": 2,
+      "min_bulk_fiber_size": 2,
+      "n": 8,
+      "residue_step_count": 1024,
+      "residue_step_failures": [],
+      "terminal_even_routes": 20160,
+      "terminal_odd_routes": 20160,
+      "terminal_route_count": 40320
+    }
+  ],
+  "inspected_files": [
+    "research_ledger/STAGE0_FM_MINIMAL_STATIC_FORMAL_SKELETON.json",
+    "research_ledger/STAGE0_FM_MINIMAL_STATIC_FORMAL_SKELETON.md",
+    "research_ledger/FORMATION_MEDIUM_STAGE0_MATH_FIRST_PROTOCOL.json",
+    "research_ledger/PRE_SPACETIME_STATIC_GEOMETRY_SPINE.json",
+    "research_ledger/FORMATION_MEDIUM_TECHNICAL_ROADMAP.json"
+  ],
+  "status": "PASS_FINITE_STATIC_MODEL_CHECKS",
+  "status_boundary": "PASS_FINITE_STATIC_MODEL_CHECKS means the Stage 0 support-subset skeleton for Gr_+(0,n)/Gr_+(1,n) passed finite internal-coherence checks for n<=8: face counts, residue descent, route parity, terminal route parity balance, and toy non-faithful bulk fibers. It is not source extraction, not theorem status, not a final Formation Medium definition, not physical substrate, not native dynamics, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "the Stage 0 support-subset skeleton is internally coherent for finite checks n<=8",
+    "blocked_inference": "source extraction, theorem status, final Formation Medium definition, physical substrate, native dynamics, engineering readiness, or physical-regime winner status",
+    "checked_interface": "minimal static support/residue skeleton for Gr_+(0,n)/Gr_+(1,n) before physics mapping",
+    "computed_status": "PASS_FINITE_STATIC_MODEL_CHECKS",
+    "finite_check_target_count": 5,
+    "finite_range_checked": "2 <= n <= 8",
+    "finite_witness_count": 7,
+    "formal_object_count": 8,
+    "markdown_terms_present": true,
+    "max_n_terminal_routes_checked": 40320,
+    "polymake_status_available": true,
+    "protocol_requires_stage0_attack": true,
+    "recommended_next": "Move to Stage 1 typed formal target extraction for support faces/residue deletion/route parity, then run polymake simplex face-lattice confirmation as a Stage 2 cross-check. Do not resume SN-C3/Ising/high-resonance physical comparison until Stage 1 targets are at least stated.",
+    "roadmap_mentions_skeleton": true,
+    "sage_status_available": true,
+    "stage1_target_count": 4,
+    "static_spine_layer_count": 5,
+    "target_id": "STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON"
+  },
+  "target_id": "LEDGER-STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON"
+}

@@ -136,7 +136,7 @@ def check_protocol_json() -> tuple[list[dict[str, Any]], dict[str, Any]]:
     if missing_tools:
         failures.append({"failure": "missing_tool_classes", "missing": missing_tools})
     tool_text = normalize(json.dumps(data.get("tool_escalation_matrix", []), ensure_ascii=False))
-    for term in ["z3 cli", "lean/lake", "configured but no submit tool exposed", "command not present", "wsl sage currently unavailable", "wsl polymake currently unavailable", "pattern-matching physics"]:
+    for term in ["z3 cli", "lean/lake", "configured but no submit tool exposed", "command not present", "sagemath 9.5", "polymake 4.11", "d-backed wsl", "pattern-matching physics"]:
         if term not in tool_text:
             failures.append({"failure": "tool_matrix_missing_status_or_boundary", "term": term})
 
