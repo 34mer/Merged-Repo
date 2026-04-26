@@ -1,0 +1,143 @@
+{
+  "checker": "surf_polygon_chord_fixtures_check_v1",
+  "counterexamples": [],
+  "fixture_id": "SURF-POLYGON-CHORDS-N4-7",
+  "inspected_files": [
+    "formal_handoff/fixtures/surfaceology_polygon_chord_fixture_spec.json"
+  ],
+  "status": "PASS",
+  "status_boundary": "PASS means only the finite convex-polygon chord fixtures for n=4..7 satisfy endpoint-interleaving crossing, maximal-noncrossing binary witness, and u-equation checks. It is not a mathematical proof of surfaceology, not full source-faithful surface curve enumeration, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling-law result, and not engineering readiness.",
+  "support_summary": {
+    "allowed_inference": "polygon chord fixtures on n=4..7 pass endpoint-interleaving crossing and binary maximal-noncrossing witness checks",
+    "blocked_inference": "surfaceology theorem, full source-faithful surface curve enumeration, general positive-region solver, Formation Medium substrate evidence, physical settling law, or engineering readiness",
+    "cases": {
+      "n_4": {
+        "chord_count": 2,
+        "crossing_edge_count": 1,
+        "example_chords": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "max_degree": 1,
+        "maximal_noncrossing_witness_count": 2
+      },
+      "n_5": {
+        "chord_count": 5,
+        "crossing_edge_count": 5,
+        "example_chords": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "max_degree": 2,
+        "maximal_noncrossing_witness_count": 5
+      },
+      "n_6": {
+        "chord_count": 9,
+        "crossing_edge_count": 15,
+        "example_chords": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "max_degree": 4,
+        "maximal_noncrossing_witness_count": 14
+      },
+      "n_7": {
+        "chord_count": 14,
+        "crossing_edge_count": 35,
+        "example_chords": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "max_degree": 6,
+        "maximal_noncrossing_witness_count": 42
+      }
+    },
+    "checked_interface": "finite convex-polygon chord-intersection fixtures for u_chord + product_crossing_chords u = 1 with binary maximal-noncrossing witnesses",
+    "fixture_id": "SURF-POLYGON-CHORDS-N4-7",
+    "max_degree_seen": 6,
+    "max_witness_count_per_polygon": 42,
+    "polygon_vertex_counts": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_claim_ids": [
+      "EXT-SURF-001",
+      "EXT-SURF-COUNT-2023-001"
+    ],
+    "total_chords": 30,
+    "total_crossing_edges": 56,
+    "total_maximal_noncrossing_witnesses": 63,
+    "total_polygon_cases": 4
+  },
+  "target_id": "CHK-SURF-POLYGON-CHORD-FIXTURES"
+}

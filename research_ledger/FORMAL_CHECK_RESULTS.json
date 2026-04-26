@@ -79,6 +79,12 @@
       "artifact": "formal_handoff/results/CHK-SURF-GENERATED-GRAPH-FIXTURES.json"
     },
     {
+      "target_id": "CHK-SURF-POLYGON-CHORD-FIXTURES",
+      "result_status": "PASS_FINITE_CHECK",
+      "result_summary": "Implemented finite polygon-chord surfaceology fixture check. The checker enumerates internal chords of convex polygons for n=4..7, derives crossing graphs by strict endpoint interleaving, computes maximal noncrossing binary witnesses, and verifies exactly that every witness satisfies u_chord + product_crossing_chords u = 1. The checked scope covers 30 chords, 56 crossing edges, and 63 maximal-noncrossing witnesses. This is finite polygon-chord fixture evidence only, not a surfaceology theorem, not full source-faithful surface curve enumeration, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness.",
+      "artifact": "formal_handoff/results/CHK-SURF-POLYGON-CHORD-FIXTURES.json"
+    },
+    {
       "target_id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
       "result_status": "PASS_SOURCE_COVERAGE",
       "result_summary": "Implemented scaffold/kinematic-shift ledger guard. The checker verifies that hidden-zero, scalar-scaffolded-gluon shift, and W_e/transmutation claims remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION bridge material, while blocking promotion to Yang-Mills derivation, realization-class equivalence, Formation Medium substrate evidence, physical settling law, or engineering readiness.",

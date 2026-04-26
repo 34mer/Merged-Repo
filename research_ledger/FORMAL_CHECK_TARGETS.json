@@ -248,6 +248,27 @@
       ]
     },
     {
+      "id": "CHK-SURF-POLYGON-CHORD-FIXTURES",
+      "claim_ids": [
+        "EXT-SURF-COUNT-2023-001",
+        "EXT-SURF-001"
+      ],
+      "rows": [
+        "R1",
+        "R9"
+      ],
+      "families": [
+        "S"
+      ],
+      "checker_layer": "implemented finite convex-polygon chord-intersection validator; later source-faithful surface curve generator",
+      "predicate": "For convex polygons with n=4..7, internal chord crossing graphs derived by endpoint interleaving have maximal-noncrossing binary witnesses that satisfy u_chord + product_crossing_chords u = 1 exactly, with boundary-zero chords forcing crossing variables to one.",
+      "failure_condition": "A generated polygon chord, crossing relation, maximal noncrossing witness, u-equation, or boundary-forcing condition fails under exact evaluation, or the polygon chord abstraction is promoted beyond finite fixture scope.",
+      "status": [
+        "DEFINED",
+        "FINITE_CHECK_IMPLEMENTED"
+      ]
+    },
+    {
       "id": "CHK-SCAFFOLD-KINEMATIC-SHIFT",
       "claim_ids": [
         "EXT-HIDDEN-ZEROS-2023-001",

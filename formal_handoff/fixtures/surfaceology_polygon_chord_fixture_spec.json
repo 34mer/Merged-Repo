@@ -1,0 +1,41 @@
+{
+  "schema": "surfaceology_polygon_chord_fixture_spec_v1",
+  "fixture_id": "SURF-POLYGON-CHORDS-N4-7",
+  "status": [
+    "GENERATED",
+    "FINITE_GENERATED_CHORD_FIXTURE_FAMILY",
+    "EXACT_RATIONAL_BINARY_WITNESSES",
+    "NOT_THEOREM",
+    "NOT_SOURCE_EXTRACTED"
+  ],
+  "purpose": "Finite polygon-chord fixture spec for moving surfaceology checks from arbitrary graph abstraction toward explicit curve-intersection data. The checker enumerates internal chords of convex n-gons for n=4..7, derives chord crossing graphs by endpoint interleaving, and checks binary witnesses induced by maximal noncrossing chord sets.",
+  "source_claim_ids": [
+    "EXT-SURF-COUNT-2023-001",
+    "EXT-SURF-001"
+  ],
+  "generator_scope": {
+    "curve_model": "internal chords in a convex polygon, used only as a finite curve-intersection fixture abstraction",
+    "polygon_vertex_counts": [4, 5, 6, 7],
+    "include_all_internal_chords": true,
+    "crossing_rule": "two chords cross when their endpoints strictly interleave around the polygon",
+    "witness_rule": "maximal noncrossing chord sets are maximal independent sets in the chord-crossing graph"
+  },
+  "equation_template": "u_chord + product_{crossing chords} u_crossing = 1, with empty product equal to 1.",
+  "expected_counts": {
+    "n_4_chords": 2,
+    "n_4_crossing_edges": 1,
+    "n_5_chords": 5,
+    "n_5_crossing_edges": 5,
+    "n_6_chords": 9,
+    "n_6_crossing_edges": 15,
+    "n_7_chords": 14,
+    "n_7_crossing_edges": 35
+  },
+  "required_features": [
+    "all checked polygons have at least one crossing edge",
+    "n=6 and n=7 include chords crossing at least four other chords",
+    "n=7 has more than ten internal chords",
+    "every maximal noncrossing witness satisfies every generated u-equation"
+  ],
+  "non_promotion_boundary": "This polygon-chord fixture family checks only finite convex-polygon chord intersections for n=4..7. It is not a surfaceology theorem, not full source-faithful surface curve enumeration, not a general positive-region solver, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness."
+}

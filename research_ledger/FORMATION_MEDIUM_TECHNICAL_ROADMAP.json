@@ -89,7 +89,7 @@
     },
     {
       "id": "Q3_SURFACE_FINITE_MODEL_PLAN",
-      "title": "Move surfaceology finite fixtures from graph abstraction toward source-faithful curve data",
+      "title": "Move surfaceology finite fixtures from polygon chords toward source-faithful surface curve data",
       "priority": 3,
       "resource_tier": "T0_CURRENT_REPO_COMPUTE",
       "target_artifacts": [
@@ -97,10 +97,11 @@
         "CHK-SURF-BINARY-BOUNDARY",
         "CHK-SURF-TINY-TWO-CURVE-FIXTURE",
         "CHK-SURF-FINITE-FIXTURE-FAMILY",
-        "CHK-SURF-GENERATED-GRAPH-FIXTURES"
+        "CHK-SURF-GENERATED-GRAPH-FIXTURES",
+        "CHK-SURF-POLYGON-CHORD-FIXTURES"
       ],
-      "exit_condition": "Generated simple-graph fixture check covers all graphs on 1..4 vertices; next exit is a source-faithful curve-intersection generator rather than abstract graph enumeration.",
-      "blocked_promotion": "Generated graph fixtures are not a general surfaceology theorem, not source-faithful curve enumeration, and not a positive-region solver."
+      "exit_condition": "Convex-polygon chord fixture check covers n=4..7 with 30 chords, 56 crossing edges, and 63 maximal-noncrossing witnesses; next exit is source-faithful surface curve data beyond polygon-chord abstraction.",
+      "blocked_promotion": "Polygon chord fixtures are not a surfaceology theorem, not full source-faithful surface curve enumeration, and not a positive-region solver."
     },
     {
       "id": "Q4_R12_R13_FORMALIZATION_PLAN",
