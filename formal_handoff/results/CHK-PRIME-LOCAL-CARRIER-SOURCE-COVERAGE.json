@@ -1,0 +1,71 @@
+{
+  "checker": "prime_local_carrier_source_coverage_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-AMP-PRIME-002",
+    "EXT-AMP-PRIME-003",
+    "EXT-AMP-PRIME-004",
+    "EXT-AMP-PRIME-005"
+  ],
+  "inspected_files": [
+    "research_ledger/PRIME_LOCAL_CARRIER_CANDIDATE.md",
+    "research_ledger/PRIME_DIRECT_SOURCE_EXTRACTION_SUMMARY_001.md",
+    "research_ledger/FORMATION_MEDIUM_BULK_READOUT_WITNESS_SCHEMA.md",
+    "research_ledger/FORMATION_MEDIUM_CANDIDATE_VOCABULARY.md"
+  ],
+  "source_file": "sources\\Markdowns\\_MConverter.eu_Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.md",
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the Prime source text and extracted claims support the scoped sign-flip, chiral-octagon, degeneration, and Amplituhedron-Prime gluing facts. It is not a mathematical proof, not a formal carrier theorem, not an S1/S2*/S3/S4 theorem, not substrate evidence, not Formation Medium substrate evidence, not engineering readiness, and not a physical realization claim.",
+  "support_summary": {
+    "allowed_inference": "Prime supplies source-extracted positive-geometry facts about local sign-flip spaces and a same-boundary/log-form/different-bulk caution",
+    "blocked_inference": "Formation Medium substrate, universal carrier theorem, physical realization, engineering feasibility, or corporate/investor proof",
+    "checked_interface": "Prime source coverage for sign-flip local positive spaces, chiral-octagon regions, degenerations, and Amplituhedron-Prime gluing/bulk caution",
+    "claim_statuses": {
+      "EXT-AMP-PRIME-002": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-AMP-PRIME-003": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-AMP-PRIME-004": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-AMP-PRIME-005": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "forbidden_promotions_absent": true,
+    "formal_results_non_promotion_rule_present": true,
+    "paper_ids": {
+      "EXT-AMP-PRIME-002": "AMP_PRIME_2020",
+      "EXT-AMP-PRIME-003": "AMP_PRIME_2020",
+      "EXT-AMP-PRIME-004": "AMP_PRIME_2020",
+      "EXT-AMP-PRIME-005": "AMP_PRIME_2020"
+    },
+    "required_claim_count": 4,
+    "scope_files_checked": [
+      "research_ledger/PRIME_LOCAL_CARRIER_CANDIDATE.md",
+      "research_ledger/PRIME_DIRECT_SOURCE_EXTRACTION_SUMMARY_001.md",
+      "research_ledger/FORMATION_MEDIUM_BULK_READOUT_WITNESS_SCHEMA.md",
+      "research_ledger/FORMATION_MEDIUM_CANDIDATE_VOCABULARY.md"
+    ],
+    "source_terms_present": [
+      "sign-flip conditions",
+      "maximal sign-flip",
+      "finite one-loop octagons",
+      "sign-flip-four",
+      "chiral octagons",
+      "degenerate to simpler spaces",
+      "pentagon and hexagon examples",
+      "Amplituhedron-Prime",
+      "same boundary structure",
+      "same logarithmic form",
+      "differs in the bulk"
+    ]
+  },
+  "target_id": "CHK-PRIME-LOCAL-CARRIER-SOURCE-COVERAGE"
+}
