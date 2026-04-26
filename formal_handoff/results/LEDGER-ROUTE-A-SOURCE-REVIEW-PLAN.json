@@ -1,0 +1,32 @@
+{
+  "checker": "route_a_source_review_plan_guard_v1",
+  "counterexamples": [],
+  "inspected_file": "research_ledger\\ROUTE_A_TOPOELECTRICAL_MICROWAVE_SOURCE_REVIEW_PLAN.md",
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the Route A source-review plan preserves review-only status, source-needed gates, explicit negative-control risks, and blocked promotion boundaries. It is not a mathematical proof, not substrate evidence, not engineering readiness, not prototype readiness, not product readiness, and not investor readiness.",
+  "support_summary": {
+    "allowed_inference": "Route A is a generated/open source-review queue with explicit review targets and negative-control risks",
+    "blocked_inference": "engineering feasibility, selected substrate, prototype readiness, product readiness, investor readiness, or Formation Medium proof",
+    "checked_interface": "Route A source-review plan guard for review-only status, source-needed gates, negative-control risks, and non-promotion boundaries",
+    "required_gates": [
+      "G4",
+      "G8",
+      "G9"
+    ],
+    "required_negative_controls": [
+      "NC-006",
+      "NC-007",
+      "NC-008"
+    ],
+    "required_terms_present_count": 27,
+    "required_terms_total": 27,
+    "review_targets_present_count": 6,
+    "review_targets_total": 6,
+    "source_review_layers": [
+      "topoelectrical boundary/readout",
+      "superconducting microwave transport/coupling",
+      "hybrid interface"
+    ]
+  },
+  "target_id": "LEDGER-ROUTE-A-SOURCE-REVIEW-PLAN"
+}
