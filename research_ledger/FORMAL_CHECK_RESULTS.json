@@ -50,9 +50,9 @@
     },
     {
       "target_id": "CHK-SURF-U-EQUATION",
-      "result_status": "DEFINED_NOT_RUN",
-      "result_summary": "Check target is defined but finite curve-intersection/u-equation checker is not implemented yet.",
-      "artifact": null
+      "result_status": "PASS_SOURCE_COVERAGE",
+      "result_summary": "Implemented surfaceology u-equation source guard. The checker verifies that surfaceology u-variable, curve-integral, all-multiplicity, scaffolded-gluon reuse, and colored-Yukawa extension claims remain SOURCE_EXTRACTED / NEEDS_FORMALIZATION source-bound interface material. This is not a finite curve-intersection model, not a proof of the u-equation, not Formation Medium substrate evidence, not a physical settling law, and not engineering readiness.",
+      "artifact": "formal_handoff/results/CHK-SURF-U-EQUATION.json"
     },
     {
       "target_id": "CHK-SURF-BINARY-BOUNDARY",

@@ -154,12 +154,12 @@
         "S",
         "YUKAWA"
       ],
-      "checker_layer": "Python symbolic/finite curve-intersection model",
+      "checker_layer": "implemented ledger/source u-equation interface validator; later finite curve-intersection model",
       "predicate": "For extracted curve sets, u_C + product_D u_D^{#int(C,D)} = 1 is encoded with the correct intersection exponents, and surfaceology extensions preserve the declared curve-integral interface where claimed.",
       "failure_condition": "A curve set has missing/interpreted intersection data, equation exponents do not match source-defined intersection numbers, or an extension claim lacks the needed curve-integral interface.",
       "status": [
         "DEFINED",
-        "FINITE_CHECK_PLANNED"
+        "SOURCE_COVERAGE_IMPLEMENTED"
       ]
     },
     {

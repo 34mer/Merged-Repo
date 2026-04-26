@@ -1,0 +1,51 @@
+{
+  "checker": "surf_u_equation_source_guard_v1",
+  "counterexamples": [],
+  "inspected_claim_ids": [
+    "EXT-SURF-001",
+    "EXT-SURF-ALLMULT-2023-001",
+    "EXT-SURF-COUNT-2023-001",
+    "EXT-YUKAWA-SURF-2024-001"
+  ],
+  "inspected_files": [
+    "research_ledger/COMPARATOR_PACKAGE_REGISTER.md",
+    "research_ledger/EXTRACTION_LEDGER.md",
+    "research_ledger/FORMAL_CHECK_TARGETS.json",
+    "research_ledger/FORMAL_CHECK_RESULTS.json"
+  ],
+  "status": "PASS_SOURCE_COVERAGE",
+  "status_boundary": "PASS_SOURCE_COVERAGE means the ledger preserves source-bound surfaceology u-variable, curve-integral, all-multiplicity, scaffolded-gluon reuse, and Yukawa-extension claims. It is not a mathematical proof, not a finite curve-intersection checker, not a proof of the u-equation, not substrate evidence, not engineering readiness, and not a physical settling-law result.",
+  "support_summary": {
+    "allowed_inference": "surfaceology u-variable and curve-integral material may be used as source-bound candidate interface for later finite/symbolic checks",
+    "blocked_inference": "implemented finite curve-intersection model, full u-equation proof, Formation Medium substrate evidence, physical settling law, or engineering readiness",
+    "checked_interface": "ledger/source coverage for surfaceology u-variable equation and curve-integral extension claims",
+    "claim_statuses": {
+      "EXT-SURF-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-SURF-ALLMULT-2023-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-SURF-COUNT-2023-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ],
+      "EXT-YUKAWA-SURF-2024-001": [
+        "NEEDS_FORMALIZATION",
+        "SOURCE_EXTRACTED"
+      ]
+    },
+    "forbidden_promotions_absent": true,
+    "paper_ids": {
+      "EXT-SURF-001": "SCAFFOLD_GLUONS_2024",
+      "EXT-SURF-ALLMULT-2023-001": "SURF_ALLMULT_2023",
+      "EXT-SURF-COUNT-2023-001": "SURF_COUNT_2023",
+      "EXT-YUKAWA-SURF-2024-001": "YUKAWA_SURF_2024"
+    },
+    "required_claim_count": 4,
+    "surface_files_have_required_terms": true
+  },
+  "target_id": "CHK-SURF-U-EQUATION"
+}
