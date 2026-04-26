@@ -1,0 +1,211 @@
+{
+  "schema": "prime_local_carrier_source_recheck_v1",
+  "purpose": "Direct source recheck of Amplituhedron-Prime local carrier language before using prior-GPT mined flip/chirality/octal carrier ideas in Formation Medium artifacts.",
+  "status": [
+    "GENERATED",
+    "OPEN",
+    "SOURCE_RECHECK",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_CHECKED"
+  ],
+  "source_file": "sources/Markdowns/_MConverter.eu_Herrmann_2020_Amplituhedron-Prime-Positive-Geometry_arXiv-2009.05607.pdf.md",
+  "source_sha256": "8d337a63566d513c9c2d60ae1a1b69f996bb4d7c19fbe4ba3583775fa7f3a623",
+  "non_promotion_rule": "This recheck does not create source-extracted claims by itself. It only identifies candidate passages for later extraction or candidate artifacts.",
+  "hit_count": 342,
+  "selected_count": 17,
+  "category_counts": {
+    "sign_flip": 127,
+    "octagon": 11,
+    "pentagon_hexagon": 129,
+    "chirality": 158,
+    "two_four_flip": 0,
+    "prime_boundary_bulk": 74,
+    "gluing": 48
+  },
+  "selected_hits": [
+    {
+      "line": 21,
+      "categories": [
+        "sign_flip",
+        "octagon",
+        "pentagon_hexagon",
+        "prime_boundary_bulk",
+        "gluing"
+      ],
+      "score": 24,
+      "snippet": "16: \n17: E-mail: eh10@stanford.edu, cklanger@ucdavis.edu, \n18: \n19: trnka@ucdavis.edu,mszheng@ucdavis.edu\n20: \n21: Abstract: We initiate the systematic study of local positive spaces which arise in the context of the Amplituhedron construction for scattering amplitudes in planar maximally supersymmetric Yang-Mills theory. We show that all local positive spaces relevant for one-loop MHV amplitudes are characterized by certain sign-flip conditions and are associated with surprisingly simple logarithmic forms. In the maximal sign-flip case they are finite one-loop octagons. Particular combinations of sign-flip spaces can be glued into new local positive geometries. These correspond to local pentagon integrands that appear in the local expansion of the MHV one-loop amplitude. We show that, geometrically, these pentagons do not triangulate the original Amplituhedron space but rather its twin “Amplituhedron-Prime.” This new geometry has the same boundary structure as the Amplituhedron \\(and therefore the same logarithmic form\\) arXiv:2009.05607v1 \\[hep-th\\] 11 Sep 2020\n22: \n23: but differs in the bulk as a geometric space. On certain two-dimensional boundaries, where the Amplituhedron geometry reduces to a polygon, we check that both spaces map to the same dual polygon. Interestingly, we find that the pentagons internally triangulate that dual space. This gives a direct evidence that the chiral pentagons are natural building blocks for a yet-to-be discovered dual Amplituhedron. \n24: \n25: Contents\n26: \n27: 1\n28: "
+    },
+    {
+      "line": 207,
+      "categories": [
+        "sign_flip",
+        "octagon",
+        "chirality",
+        "prime_boundary_bulk"
+      ],
+      "score": 21,
+      "snippet": "202: \n203: expansion of the amplitude \\[67, 68\\] was interpreted as a particular triangulation of this volume. This picture was later extended to all NMHV tree-level amplitudes \\[69\\]. In contrast, higher k tree-level amplitudes and loop integrands have not as of yet been directly identified as volumes. Instead, the Amplituhedron is defined in momentum twistor space, where tree-level amplitudes and all-loop integrands are differential forms rather than volumes. The existence of a dual Amplituhedron where amplitudes are interpreted as literal volumes is a very natural and important open problem. Nontrivial evidence for the existence of such a dual picture was given in \\[4, 70, 71\\]. In particular, it was shown for many examples that both tree-level amplitudes and loop integrands are positive when evaluated inside the Amplituhedron, which is reminiscent of the volume positivity. Interestingly, this property also seems to hold for some IR\n204: \n205: safe quantities post integration \\[35\\]. Here, we make a further major step in this direction. In particular, we show that the local expansion of the one-loop MHV amplitudes in terms of chiral pentagon integrals \\[72\\] can be naturally interpreted as the internal triangulation of the putative dual Amplituhedron. We make this statement precise on two-dimensional boundaries of the full geometry, where the space reduces to polygons and the dualization procedure is well-defined. Our main tool is the reformulation of the Amplituhedron using sign flips \\[19\\]. In the process of interpreting the chiral pentagons geometrically, we introduce more general positive spaces defined by sign-flip conditions. \n206: \n207: Surprisingly, the logarithmic forms of the maximal sign-flip spaces are chiral octagons, originally introduced in \\[72\\] as local building blocks for one-loop integrands. \n208: \n209: – 3 –\n210: \n211: Our paper is organized as follows: In section 2, we introduce the Amplituhedron geometry and then focus on the MHV one-loop case, where we discuss the projective geometry of lines in\n212: \n213: 3\n214: "
+    },
+    {
+      "line": 2465,
+      "categories": [
+        "sign_flip",
+        "octagon",
+        "chirality",
+        "prime_boundary_bulk"
+      ],
+      "score": 21,
+      "snippet": "2460: \n2461: for p < q ∈ \\{j, j\\+1, . . . i\\}, \n2462: \n2463: \\(4.27\\)\n2464: \n2465: are positive, whereas the analogous brackets in the “minus region” are negative. We give further details on the fixed sign structure in appendix C. Practically, this means that the only boundaries from each of these sectors are the ones adjacent to the sign-flip positions, so the logarithmic form has exactly eight boundaries in the general case. In fact, each chiral component can be identified with a chiral octagon integrand\n2466: \n2467: ←→\n2468: \n2469: , \n2470: \n2471: \\(4.28\\)\n2472: "
+    },
+    {
+      "line": 3907,
+      "categories": [
+        "sign_flip",
+        "octagon",
+        "chirality",
+        "prime_boundary_bulk"
+      ],
+      "score": 21,
+      "snippet": "3902: \n3903: \\(5.32\\) which is a non-overlapping twin of the original Amplituhedron with only physical boundaries and the same logarithmic form. Finally, in section 6, we made more precise the statement that the chiral pentagon expansion can also be interpreted as the internal triangulation of the yet-to-be found dual Amplituhedron. We were able to demonstrate the internal triangulation of the dual on certain two-dimensional boundaries of the full space where the geometry reduces to that of polygons for which a dualization prescription exists. \n3904: \n3905: Our work opens the door to various new research directions. The first question is how the stories about local geometries, as well as the study and classification of sign-flip spaces, extend to higher loops and to higher NkMHV degree, where the positive external data will play a more important rôle. We already briefly touched upon this issue in \\[77\\] and found that sign-flip-six and higher spaces are allowed beyond MHV\n3906: \n3907: kinematics. Another interesting angle is to use this framework to generate IR-finite integrands at two-loops and beyond. The logarithmic forms for sign-flip-four spaces were given by chiral octagons, which form an IR-friendly dual conformal basis \\[72\\] of integrands at one-loop—and separates naturally IR-divergent, IR-finite and parity-odd\n3908: \n3909: – 80 –\n3910: \n3911: integrands. It would be very interesting to replicate this at two-loops and find a basis of IR-finite dual conformal invariant integrands. These integrands would be perfect targets for modern integration methods \\[78\\] and could play an important rôle in the expansion of IR-finite quantities, such as remainder and ratio functions. \n3912: \n3913: Finally, the main open direction is the exploration of the dual Amplituhedron. \n3914: "
+    },
+    {
+      "line": 4529,
+      "categories": [
+        "sign_flip",
+        "octagon",
+        "chirality",
+        "prime_boundary_bulk"
+      ],
+      "score": 21,
+      "snippet": "4524: \n4525: C\n4526: \n4527: Fixed signs in sign-flip-zero, two and four spaces\n4528: \n4529: In this appendix, we discuss in more detail the sign-flip regions of section 4 and B. As shown in the main text, each achiral sign-flip region is defined by imposing fixed signs for certain hABii\\+1i brackets only. There is a nice hierarchy of these spaces based on the number of sign-flips in the \\{hABii\\+1i\\} sequence. The only non-empty spaces are the ones with zero, two, or four sign flips. As we argued in \\(4\\), the sign-flip-zero space is the most complicated, as measured by the number of boundaries and the complexity of the associated canonical form eqs. \\(4.7\\) and \\(B.18\\). The complexity of the sign-flip-two spaces is reduced \\(see section 4\\), and even more so for the sign-flip-four regions of section 4 which have at most eight boundaries. The corresponding logarithmic form is linked to the chiral octagon integrals, eq. \\(4.28\\), introduced in \\[72\\]. Besides the achiral spaces alluded to above, each geometry can be cut into two chiral components by imposing further constraints on additional brackets hABXi ≷ 0. \n4530: \n4531: Let us start our exposition with the achiral sign-flip-zero region S\\(0\\), eq. \\(4.7\\), \n4532: \n4533: S\\(0\\) : hABii\\+1i > 0, \n4534: \n4535: i = 1, . . . , n\n4536: "
+    },
+    {
+      "line": 217,
+      "categories": [
+        "sign_flip",
+        "pentagon_hexagon",
+        "chirality",
+        "prime_boundary_bulk"
+      ],
+      "score": 20,
+      "snippet": "212: \n213: 3\n214: \n215: P and the positions of physical and unphysical singularities. We\n216: \n217: also pose the question of the rôle of the chiral pentagon expansion in the context of the dual Amplituhedron. In sections 3 and 4, we discuss how to associate a geometric space to a d log form and classify all such one-loop geometries. We show that the set of these one-loop spaces is bounded by the number of sign flips in the propagator space, and we determine the logarithmic forms for all of these spaces. In section 5, we discuss the geometry of chiral pentagons in detail and show that they naturally triangulate a different positive space which we call the Amplituhedron-Prime. This space has an identical boundary structure as the original Amplituhedron and therefore corresponds to the same logarithmic form. \n218: \n219: In section 6, we show that on all two-dimensional\n220: \n221: boundaries both spaces map under dualization to the same geometry, and the chiral pentagons internally triangulate this dual Amplituhedron space. We finally conclude with some future directions in section 7. Various technical details are covered in four appendices. \n222: \n223: 2\n224: "
+    },
+    {
+      "line": 2509,
+      "categories": [
+        "sign_flip",
+        "chirality",
+        "prime_boundary_bulk",
+        "gluing"
+      ],
+      "score": 20,
+      "snippet": "2504: \n2505: and \\(3.19\\), two choices for the two-mass-hard boxes eqs. \\(3.22\\) and \\(3.23\\), and four choices for the one-mass boxes eqs. \\(3.27\\) and \\(3.28\\), respectively. \n2506: \n2507: In the next step we discuss how to glue these geometric regions together. We are going to show that only a single choice for the pentagon and box spaces is globally consistent \\(at all multiplicities\\) upon gluing. By consistency, we mean the requirement that there are no unphysical boundaries left in the resulting geometry akin to our discussion of faithful geometries in section 3.2. As a tool, we make use of the classification of all relevant positive geometries in terms of the sign-flip-two and four regions summarized in sections 4 and appendix B. This allows us to write a \\(conjectured\\) closed formula for the final geometric space in eq. \\(5.32\\). \n2508: \n2509: The primary result of this section is a new positive geometry, which we name the Amplituhedron-Prime, comprised of a particular collection of chiral sign-flip-two and four regions with only physical boundaries of all codimensions. While this new space has exactly the same singularity structure as the Amplituhedron, their bulk geometries are entirely non-overlapping. This follows directly from the fact that the original Amplituhedron is comprised of a single chiral sign-flip-zero space. \n2510: \n2511: – 45 –\n2512: \n2513: 5.1\n2514: \n2515: Chiral regions for boxes and pentagons\n2516: "
+    },
+    {
+      "line": 3901,
+      "categories": [
+        "sign_flip",
+        "pentagon_hexagon",
+        "chirality",
+        "prime_boundary_bulk"
+      ],
+      "score": 20,
+      "snippet": "3896: \n3897: 7\n3898: \n3899: Conclusion\n3900: \n3901: In this paper we discussed various positive geometries in the context of the one-loop Amplituhedron and its variants. We have shown that for external data satisfying the MHV positivity conditions \\(2.11\\), there are a number of further interesting positive geometries besides the original MHV and MHV Amplituhedra. In section 4, we classified all these spaces using topological sign-flip properties which are reminiscent of, but distinct from, the sign-flip definition of the Amplituhedron \\[19\\]. Furthermore, we showed that these positive spaces can be used to give a geometric interpretation of the chiral pentagon expansion of the one-loop MHV amplitude of eq. \\(2.45\\). In particular, the chiral pentagons externally triangulate a new Amplituhedron-Prime space\n3902: \n3903: \\(5.32\\) which is a non-overlapping twin of the original Amplituhedron with only physical boundaries and the same logarithmic form. Finally, in section 6, we made more precise the statement that the chiral pentagon expansion can also be interpreted as the internal triangulation of the yet-to-be found dual Amplituhedron. We were able to demonstrate the internal triangulation of the dual on certain two-dimensional boundaries of the full space where the geometry reduces to that of polygons for which a dualization prescription exists. \n3904: \n3905: Our work opens the door to various new research directions. The first question is how the stories about local geometries, as well as the study and classification of sign-flip spaces, extend to higher loops and to higher NkMHV degree, where the positive external data will play a more important rôle. We already briefly touched upon this issue in \\[77\\] and found that sign-flip-six and higher spaces are allowed beyond MHV\n3906: \n3907: kinematics. Another interesting angle is to use this framework to generate IR-finite integrands at two-loops and beyond. The logarithmic forms for sign-flip-four spaces were given by chiral octagons, which form an IR-friendly dual conformal basis \\[72\\] of integrands at one-loop—and separates naturally IR-divergent, IR-finite and parity-odd\n3908: "
+    },
+    {
+      "line": 2629,
+      "categories": [
+        "pentagon_hexagon",
+        "chirality",
+        "prime_boundary_bulk",
+        "gluing"
+      ],
+      "score": 19,
+      "snippet": "2624: \n2625: \\(5.5\\)\n2626: \n2627: 24\n2628: \n2629: As a result, considering a uniform choice for the one-mass boxes eqs. \\(5.2\\)–\\(5.3\\) together with the two choices for the chiral pentagon eqs. \\(5.4\\)–\\(5.5\\) yields eight possible global geometries as a result of gluing the individual spaces. Our task is to see which \\(if any\\) of these are consistent with the boundary structure of the original five-point MHV\n2630: \n2631: Amplituhedron. This is a nontrivial constraint in spite of the fact that each individual space is free of spurious boundaries from the perspective of the individual local integrals. \n2632: \n2633: As described in appendix A, each local integral has many unphysical cuts from the perspective of the MHV one-loop geometry; a codimension-four example of this is the point \\(AB\\) = \\(13\\), which is an allowed singularity of the one-mass box B45 and the pentagon P24 but is not an allowed singularity of the MHV Amplituhedron, not allowed in MHV:\n2634: \n2635: . \n2636: "
+    },
+    {
+      "line": 2807,
+      "categories": [
+        "pentagon_hexagon",
+        "chirality",
+        "prime_boundary_bulk",
+        "gluing"
+      ],
+      "score": 19,
+      "snippet": "2802: \n2803: Gluing regions\n2804: \n2805: While all codimension-two boundaries of the type \\(AB\\)⊂\\(i−1ii\\+1\\) or \\(AB\\)=\\(Ai\\) have the same geometry, in the context of the particular local expansion eq. \\(2.45\\) we have to consider each case separately. The reason is that our global choice of hAB1ni>0 for the local spaces introduced in section 3.2 breaks the cyclic symmetry of the integrand and the individual contributions are different depending on the boundary we consider. \n2806: \n2807: At five points we must consider ten two-dimensional projections of the form described in section 5.2. For each projection, we demand that the combination of all local integrals has exactly the same boundary \\(but not necessarily bulk\\) structure as the original Amplituhedron, i.e., there are no spurious boundaries. In this section, we first give the answer for the correct spaces for the boxes and pentagons at five and six points, and subsequently state the result for the general n-point geometries. We only schematically illustrate how all spurious boundaries cancel for the final correct choice of geometries for the boxes and chiral pentagons on some representative two-dimensional planes. The details on how we find a unique solution \\(under the assumptions discussed in subsection 5.1\\) that holds for an arbitrary number of external points requires a careful analysis of multiple two-dimensional projections which is deferred to appendix D. \n2808: \n2809: Let us briefly start with the five-point geometries, where further details are rele-gated to appendix D. From eq. \\(5.1\\), there are two box integrands, B12 , B45, and one chiral pentagon P24, which we can a priori associate with a number of valid geometric spaces, see \\(5.2\\)–\\(5.5\\). Now we would like to combine these individual pieces into a single geometric object which has the same singularity structure as the original Amplituhedron. In order to find the consistent gluings which cancel all spurious singularities for the eight possible combinations of the box and pentagon spaces \\{B\\(i\\), B\\(i\\), P \\(1\\), P \\(2\\)\\}, 12\n2810: \n2811: 45\n2812: \n2813: 24\n2814: "
+    },
+    {
+      "line": 3445,
+      "categories": [
+        "pentagon_hexagon",
+        "chirality",
+        "prime_boundary_bulk",
+        "gluing"
+      ],
+      "score": 19,
+      "snippet": "3440: \n3441: 16Note that in the sum on the second line the term where j = i\\+1 is an empty space as it simulta-neously requires both hABiji > 0 and hABiji < 0. \n3442: \n3443: – 63 –\n3444: \n3445: We have verified at seven points that all spurious boundaries of type \\(1\\) and \\(2\\) are absent from the final space. We also performed extensive numerical checks at eight \\(and higher\\) points that eq. \\(5.32\\) satisfies many nontrivial constraints. In principle, we could repeat the exercise of section 5 at higher points and attempt to find all positive geometries which consistently glue together. Our conjecture is that the unique spurious-boundary free combination is equivalent to \\(after cancelling overlapping regions\\) the result eq. \\(5.32\\). Note that it is clear by construction, that our new Amplituhedron-Prime space is externally triangulated by the chiral pentagon expansion. \n3446: \n3447: Since the spaces constituting the Amplituhedron-Prime are always defined by \\(at least\\) one inequality of the form hABii\\+1i<0, the bulk of this new geometry is entirely non-overlapping with the original Amplituhedron. At the same time, it has only physical boundaries and exactly the same integrand form as the Amplituhedron. This construction demonstrates there are multiple positive spaces which can be associated with loop integrands in planar N = 4 sYM and the Amplituhedron of \\[1\\] is only a particular example \\(albeit possibly the most canonical one\\). \n3448: \n3449: It is also interesting to note that while the chiral pentagon expansion externally triangulates the Amplituhedron-Prime, it also plays an even more natural rôle in the presumptive dual geometry. We will argue in section 6 that the chiral pentagons internally triangulate the \\(yet-to-be discovered\\) dual Amplituhedron. \n3450: \n3451: As an aside, investigating the structure of eq. \\(5.32\\) more carefully, we note the absence of certain sign-flip regions, such as\n3452: "
+    },
+    {
+      "line": 3903,
+      "categories": [
+        "pentagon_hexagon",
+        "chirality",
+        "prime_boundary_bulk",
+        "gluing"
+      ],
+      "score": 19,
+      "snippet": "3898: \n3899: Conclusion\n3900: \n3901: In this paper we discussed various positive geometries in the context of the one-loop Amplituhedron and its variants. We have shown that for external data satisfying the MHV positivity conditions \\(2.11\\), there are a number of further interesting positive geometries besides the original MHV and MHV Amplituhedra. In section 4, we classified all these spaces using topological sign-flip properties which are reminiscent of, but distinct from, the sign-flip definition of the Amplituhedron \\[19\\]. Furthermore, we showed that these positive spaces can be used to give a geometric interpretation of the chiral pentagon expansion of the one-loop MHV amplitude of eq. \\(2.45\\). In particular, the chiral pentagons externally triangulate a new Amplituhedron-Prime space\n3902: \n3903: \\(5.32\\) which is a non-overlapping twin of the original Amplituhedron with only physical boundaries and the same logarithmic form. Finally, in section 6, we made more precise the statement that the chiral pentagon expansion can also be interpreted as the internal triangulation of the yet-to-be found dual Amplituhedron. We were able to demonstrate the internal triangulation of the dual on certain two-dimensional boundaries of the full space where the geometry reduces to that of polygons for which a dualization prescription exists. \n3904: \n3905: Our work opens the door to various new research directions. The first question is how the stories about local geometries, as well as the study and classification of sign-flip spaces, extend to higher loops and to higher NkMHV degree, where the positive external data will play a more important rôle. We already briefly touched upon this issue in \\[77\\] and found that sign-flip-six and higher spaces are allowed beyond MHV\n3906: \n3907: kinematics. Another interesting angle is to use this framework to generate IR-finite integrands at two-loops and beyond. The logarithmic forms for sign-flip-four spaces were given by chiral octagons, which form an IR-friendly dual conformal basis \\[72\\] of integrands at one-loop—and separates naturally IR-divergent, IR-finite and parity-odd\n3908: \n3909: – 80 –\n3910: "
+    },
+    {
+      "line": 4355,
+      "categories": [
+        "sign_flip",
+        "octagon",
+        "chirality",
+        "gluing"
+      ],
+      "score": 19,
+      "snippet": "4350: \n4351: The most special case is the chiral sign-flip-two region with only a single minus sign eq. \\(4.13\\) which is an empty space with vanishing canonical form. \n4352: \n4353: In this degenerate case, for the opposite chirality S\\(2\\),−, we can triangulate the ij\n4354: \n4355: space using exactly the same procedure, only with different boundary data: the region where all n − 3 ‘\\+’ signs are replaced by ‘±’ has vanishing form \\(as it only has three boundaries\\) and also the sign-flip-four regions are achiral rather than chiral. Therefore, the forms which appear on the right hand side are parity odd combinations of octagons \\(and descendants\\). \n4356: \n4357: Triangulation of sign-flip-zero region\n4358: \n4359: As argued earlier in section 3.3, there is no external triangulation of MHV or MHV\n4360: \n4361: Amplituhedra in terms of simple building blocks. However, this is not true for the achiral sign-flip-zero region eq. \\(4.7\\) which is defined by hABii\\+1i > 0 inequalities only. There are many ways to triangulate the S\\(0\\) region externally. The simplest \\(though certainly not the most efficient\\) is to fix four plus signs and marginalize over all other signs. In light of our earlier discussions, such a region has vanishing canonical form, but when we expand ∗ = \\+ ⊕ − we find the sign-flip-zero region of interest\n4362: "
+    },
+    {
+      "line": 23,
+      "categories": [
+        "pentagon_hexagon",
+        "chirality",
+        "prime_boundary_bulk"
+      ],
+      "score": 15,
+      "snippet": "18: \n19: trnka@ucdavis.edu,mszheng@ucdavis.edu\n20: \n21: Abstract: We initiate the systematic study of local positive spaces which arise in the context of the Amplituhedron construction for scattering amplitudes in planar maximally supersymmetric Yang-Mills theory. We show that all local positive spaces relevant for one-loop MHV amplitudes are characterized by certain sign-flip conditions and are associated with surprisingly simple logarithmic forms. In the maximal sign-flip case they are finite one-loop octagons. Particular combinations of sign-flip spaces can be glued into new local positive geometries. These correspond to local pentagon integrands that appear in the local expansion of the MHV one-loop amplitude. We show that, geometrically, these pentagons do not triangulate the original Amplituhedron space but rather its twin “Amplituhedron-Prime.” This new geometry has the same boundary structure as the Amplituhedron \\(and therefore the same logarithmic form\\) arXiv:2009.05607v1 \\[hep-th\\] 11 Sep 2020\n22: \n23: but differs in the bulk as a geometric space. On certain two-dimensional boundaries, where the Amplituhedron geometry reduces to a polygon, we check that both spaces map to the same dual polygon. Interestingly, we find that the pentagons internally triangulate that dual space. This gives a direct evidence that the chiral pentagons are natural building blocks for a yet-to-be discovered dual Amplituhedron. \n24: \n25: Contents\n26: \n27: 1\n28: \n29: Introduction\n30: "
+    },
+    {
+      "line": 2797,
+      "categories": [
+        "chirality",
+        "prime_boundary_bulk",
+        "gluing"
+      ],
+      "score": 15,
+      "snippet": "2792: \n2793: \\(5.15\\)\n2794: \n2795: Geometrically, none of the physical leading singularities \\(vertices\\) lie on hAB45i=0. In the same spirit, the line hAB45i = 0 was unphysical for the MHV Amplituhedron in the previous two-dimensional picture eq. \\(5.11\\). \n2796: \n2797: All two-dimensional boundaries of the type where \\(AB\\) ⊂ \\(i−1ii\\+1\\) or \\(AB\\) passes through Zi have the same geometry, and the corresponding projections can be obtained by cyclically relabelling the above examples. In principle, there is one additional class of codimension-two boundaries where we set two non-adjacent hABii\\+1i brackets to zero, e.g. hAB12i=hAB34i=0. This boundary, while also two-dimensional, has a significantly more complicated stratification and is not easily visualized in the projective plane. While boundaries of this form can lead to spurious higher codimension cuts which a priori could place additional constraints on gluing together local integral spaces \\(discussed in the following subsection 5.3\\), we find in practice that matching all simple two-dimensional projections mentioned above is sufficient to fix a unique consistent gluing of spaces into the “Amplituhedron-Prime”. \n2798: \n2799: – 53 –\n2800: \n2801: 5.3\n2802: \n2803: Gluing regions\n2804: "
+    },
+    {
+      "line": 4257,
+      "categories": [
+        "sign_flip",
+        "octagon",
+        "chirality"
+      ],
+      "score": 15,
+      "snippet": "4252: \n4253: ×hABi4i4\\+1ihABi5i5\\+1i\n4254: \n4255: where ± indicates that either sign choice is acceptable and ∗ instructs us to marginalize over both sign choices. \n4256: \n4257: In the rest of the section we will relate different sign-flip spaces via external triangulations, which allows us to write the canonical forms for more complicated spaces with many boundaries. In our discussion, we use several important facts: 1. Canonical forms of sign-flip-four spaces are chiral octagons, eq. \\(4.28\\), and descendants. \n4258: \n4259: 2. The form for a chiral space with four boundaries is a box. \n4260: \n4261: 3. The form for an achiral space with five boundaries is a parity-odd pentagon, eq. \\(B.10\\). \n4262: \n4263: 4. Any chiral space with three or fewer boundaries has vanishing form. Any achiral space with four or fewer boundaries has vanishing form. \n4264: "
+    },
+    {
+      "line": 2497,
+      "categories": [
+        "octagon",
+        "pentagon_hexagon",
+        "chirality"
+      ],
+      "score": 14,
+      "snippet": "2492: \n2493: by flipping the wavy and dashed lines. The chiral octagons were introduced in \\[72\\]\n2494: \n2495: as the one-loop integrand basis elements which split the basis into parity-odd \\(which integrate to zero\\), IR-finite and IR-divergent integrands. While the expression for the integrand may look complicated, because of the special form of the numerator in the generic case the integrand is IR finite and evaluates to a simple combination of dilogarithms. It is very surprising that we see the same objects here in a very different setup as the integrand forms for maximal sign-flip regions. \n2496: \n2497: The chiral octagons naturally degenerate to simpler spaces when the labels i, k, \\`, j become adjacent. Exactly the same happens with our regions as well, and we can indeed identify the pentagon and hexagon examples discussed above as boundary cases of the generic octagon. \n2498: \n2499: 5\n2500: \n2501: Local geometries and the Amplituhedron-Prime\n2502: \n2503: Having discussed various aspects of more general sign-flip spaces, let us come back to the local integrands of section 3 that enter the chiral pentagon expansion of the one-loop MHV amplitude, eq. \\(2.45\\). After a careful analysis of consistent sign patterns for the individual local geometries, we concluded in section 3 that there are only two faithful geometric spaces which can be associated with the general chiral pentagon eqs. \\(3.17\\)\n2504: "
+    }
+  ]
+}
