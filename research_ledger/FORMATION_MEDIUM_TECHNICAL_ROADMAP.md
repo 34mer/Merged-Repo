@@ -12,7 +12,7 @@ It exists to keep the work convergent under current compute/resources.
 
 ## Operating Rule
 
-Advance only work that improves one of four things:
+Advance only work that survives mission-grade critical review and improves one of four things:
 
 1. source completeness,
 2. formal/checker support,
@@ -100,3 +100,4 @@ Requires:
 - Pitch product readiness.
 - Expand into broad metaphysics without repo check targets.
 - Treat source coverage as theorem status.
+- Continue major work without asking whether it attacks a hard bottleneck or is merely convenient drift.

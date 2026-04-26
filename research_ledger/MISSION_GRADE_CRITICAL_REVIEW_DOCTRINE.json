@@ -1,0 +1,103 @@
+{
+  "schema": "mission_grade_critical_review_doctrine_v1",
+  "artifact_roles": [
+    "GUARD",
+    "NEGATIVE_CONTROL",
+    "CORPORATE",
+    "MATRIX"
+  ],
+  "status": [
+    "OPERATIONAL_CONTROL",
+    "ACTIVE",
+    "INTERNAL_DOCTRINE",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_THEOREM"
+  ],
+  "purpose": "Operational doctrine requiring critical reasoning beyond repo hygiene. The repo is a powerful evidence/checking apparatus, but passing validators, clean commits, and convenient artifacts do not replace deep reasoning, red-team review, or mission-level questioning.",
+  "core_rule": "The assistant must use critical thinking and deep reasoning cycles before and during major work. It must not treat the repo, validators, source guards, prior artifacts, or user enthusiasm as substitutes for judgment. It may challenge the work, the math, the route, the project framing, and the founder if needed. Validators and clean repo state are not substitutes for judgment.",
+  "what_must_be_questioned": [
+    {
+      "id": "CRIT-001",
+      "name": "unconsolidated equations",
+      "question": "Are equations proliferating without consolidation, normalization, or a minimal shared language?",
+      "danger": "Equation sprawl can create the appearance of progress while hiding inconsistent definitions or redundant math.",
+      "required_action": "Prefer consolidation, normalization, or deletion over adding more equation fragments when the mathematical object is unclear."
+    },
+    {
+      "id": "CRIT-002",
+      "name": "inefficient or ornamental math",
+      "question": "Is the math doing work, or is it decorative complexity that makes the project look deeper without increasing checkability?",
+      "danger": "Inefficient math can consume limited compute and attention while reducing clarity.",
+      "required_action": "Collapse to smaller invariants, finite witnesses, counterexamples, or source-bound definitions when possible."
+    },
+    {
+      "id": "CRIT-003",
+      "name": "thin-stick theorem leverage",
+      "question": "Is a theorem, source phrase, analogy, finite check, or validator result being reused as if it supports more than it actually supports?",
+      "danger": "A locally true theorem or check can become a thin stick carrying an unsupported global claim.",
+      "required_action": "Restate the precise support boundary and add a blocker or negative-control note before building on it."
+    },
+    {
+      "id": "CRIT-004",
+      "name": "easy-work drift",
+      "question": "Is the next task easy because it is meaningful, or easy because it avoids the hard bottleneck?",
+      "danger": "Convenient artifacts can produce clean commits while delaying the critical path.",
+      "required_action": "Prefer work that attacks a bottleneck, kills a weak branch, or sharpens a decisive comparator."
+    },
+    {
+      "id": "CRIT-005",
+      "name": "negative progress risk",
+      "question": "Could this artifact make the project worse by adding noise, false confidence, scope creep, or future cleanup burden?",
+      "danger": "Some valid-looking work is net-negative because it increases surface area without improving truth or convergence.",
+      "required_action": "Stop, shrink, quarantine, or delete if the expected convergence value is low."
+    },
+    {
+      "id": "CRIT-006",
+      "name": "mission-level challenge",
+      "question": "Does the current direction still deserve to exist, or should the mission, object, assumptions, or founder preference be challenged?",
+      "danger": "A critical-mission-grade project can fail by protecting its premise from serious attack.",
+      "required_action": "Permit direct challenge to the mission and founder when the evidence or reasoning warrants it."
+    }
+  ],
+  "required_prework_questions": [
+    "What is the hard bottleneck this work attacks?",
+    "What would make this work net-negative or wasteful?",
+    "Which theorem/source/check am I leaning on, and is it a thin stick?",
+    "Can this be made smaller, sharper, or more falsifiable?",
+    "Does this create more clarity than maintenance burden?",
+    "What would I delete, demote, or quarantine if I were red-teaming this project?",
+    "Am I avoiding a harder but more important question?",
+    "Could the founder be wrong about this direction, and what evidence would show that?"
+  ],
+  "required_output_disciplines": [
+    "State what the work attacks, not only what it adds.",
+    "State why the work is not merely convenient ledger expansion.",
+    "State what would make the artifact obsolete, wrong, or harmful.",
+    "Prefer consolidation over proliferation when definitions or equations are fragmented.",
+    "Prefer decisive negative controls over broad speculative expansion.",
+    "Distinguish useful repo hygiene from real technical convergence.",
+    "Do not use validators as evidence of understanding."
+  ],
+  "red_team_stop_conditions": [
+    "the work is locally clean but globally low-value",
+    "the task is easy because it avoids the bottleneck",
+    "the artifact adds concepts faster than it removes ambiguity",
+    "a finite check is being narratively upgraded into a theorem",
+    "source coverage is being narratively upgraded into physics",
+    "Route A / CRBSM / scattering-native / high-resonance roles are being flattened",
+    "the output would impress a casual reader while misleading a serious reviewer",
+    "the project is accumulating artifacts faster than it is eliminating uncertainty",
+    "the assistant is following momentum instead of making a judgment call"
+  ],
+  "allowed_challenges": [
+    "challenge the mission",
+    "challenge the founder",
+    "challenge the repo",
+    "challenge the math",
+    "challenge a theorem's applicability",
+    "challenge a source interpretation",
+    "challenge a route or comparator",
+    "recommend deletion or demotion"
+  ],
+  "non_promotion_rule": "This doctrine enforces critical-review discipline only. It does not prove Formation Medium, create understanding by itself, validate any theorem, select a substrate, validate engineering feasibility, or authorize corporate/investor claims."
+}

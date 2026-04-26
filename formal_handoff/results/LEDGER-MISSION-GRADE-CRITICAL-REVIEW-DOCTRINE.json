@@ -1,0 +1,25 @@
+{
+  "checker": "mission_grade_critical_review_doctrine_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/MISSION_GRADE_CRITICAL_REVIEW_DOCTRINE.json",
+    "research_ledger/MISSION_GRADE_CRITICAL_REVIEW_DOCTRINE.md",
+    "research_ledger/PROJECT_GLOBAL_DOCTRINE.md",
+    "research_ledger/PROJECT_GLOBAL_DOCTRINE_REGISTRY.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo contains a mission-grade critical-review control surface requiring reasoning beyond repo hygiene and allowing challenge to the mission, founder, repo, math, theorem leverage, sources, routes, and artifacts. It is not understanding itself, not a proof, not substrate evidence, not engineering readiness, not corporate readiness, and not a substitute for actual judgment.",
+  "support_summary": {
+    "allowed_challenge_count": 8,
+    "allowed_inference": "future major work has an explicit red-team control surface for bottlenecks, thin-stick theorem leverage, easy-work drift, and negative progress risk",
+    "blocked_inference": "the doctrine itself guarantees deep reasoning, proves Formation Medium, validates any route, or makes validators evidence of understanding",
+    "checked_interface": "mission-grade critical review doctrine requiring reasoning beyond repo hygiene and permitting challenge to mission/founder/repo/math/routes",
+    "critical_item_count": 6,
+    "global_doctrine_has_critical_rule": true,
+    "markdown_terms_present": true,
+    "prework_question_count": 8,
+    "red_team_stop_count": 9,
+    "registry_has_critical_review_file": true
+  },
+  "target_id": "LEDGER-MISSION-GRADE-CRITICAL-REVIEW-DOCTRINE"
+}

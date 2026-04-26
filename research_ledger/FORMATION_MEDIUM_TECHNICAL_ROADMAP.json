@@ -9,7 +9,7 @@
     "NOT_THEOREM",
     "NOT_ENGINEERING_READY"
   ],
-  "operating_rule": "Advance only work that improves source completeness, formal/checker support, physical-regime triage, or non-promotion discipline. Do not expand into broad substrate speculation without a registered intake/check target.",
+  "operating_rule": "Advance only work that improves source completeness, formal/checker support, physical-regime triage, or non-promotion discipline. Do not expand into broad substrate speculation without a registered intake/check target. Before major work, apply the mission-grade critical review doctrine: identify the hard bottleneck, thin-stick dependencies, negative-progress risk, and whether the work is convenience drift.",
   "resource_tiers": [
     {
       "id": "T0_CURRENT_REPO_COMPUTE",
@@ -167,7 +167,8 @@
     "start hardware design",
     "pitch product readiness",
     "expand into broad metaphysics without repo check targets",
-    "treat source coverage as theorem status"
+    "treat source coverage as theorem status",
+    "continue major work without mission-grade critical review prework"
   ],
   "success_definition_for_current_phase": "A clean repo-backed technical spine that can support disciplined diligence conversations while honestly marking theorem, physics, substrate, and engineering gaps."
 }

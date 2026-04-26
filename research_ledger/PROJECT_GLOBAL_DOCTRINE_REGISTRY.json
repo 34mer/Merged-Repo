@@ -74,7 +74,11 @@
     "Does this work preserve the distinction between formation and computation?",
     "Does this work preserve the distinction between readout, transport, and substrate?",
     "Does this work preserve the distinction between source support and physical realization?",
-    "Does this work preserve founder-controlled technical spine rather than uncontrolled conceptual drift?"
+    "Does this work preserve founder-controlled technical spine rather than uncontrolled conceptual drift?",
+    "What hard bottleneck does this work attack?",
+    "Could this work be net-negative or merely convenient?",
+    "Which theorem/source/check is being leaned on, and is it a thin stick?",
+    "Could the founder be wrong about this direction?"
   ],
   "current_global_map": {
     "object": "Formation Medium",
@@ -95,7 +99,11 @@
     "validator starts sounding like understanding",
     "corporate sentence hides open technical risk",
     "CRBSM/scattering/high-resonance/Route A discussed without role labels",
-    "CRBSM, Route A, scattering-native, or high-resonance are flattened into one route/substrate/winner"
+    "CRBSM, Route A, scattering-native, or high-resonance are flattened into one route/substrate/winner",
+    "the work is locally clean but globally low-value",
+    "the task is easy because it avoids the bottleneck",
+    "the artifact adds concepts faster than it removes ambiguity",
+    "the assistant is following momentum instead of making a judgment call"
   ],
   "founder_correction_sanitized": "The assistant is not deeply aware of the project in the total/global sense during long tool work, and does not reliably hold the whole project in context while proceeding. This limitation must be explicit because it is critical.",
   "assistant_total_awareness_limitation": "The assistant may preserve local ledger correctness while losing total awareness and global coherence; this registry is a forced control surface, not a guarantee of understanding.",
@@ -104,5 +112,7 @@
     "Route A": "hardware/proxy engineering route; not CRBSM implementation and not selected substrate",
     "scattering_native": "mandatory law-native comparator; not default winner",
     "high_resonance_native": "possible bridge comparator between CRBSM-like mechanism and buildable/harnessable hardware; not default winner"
-  }
+  },
+  "critical_review_doctrine_file": "research_ledger/MISSION_GRADE_CRITICAL_REVIEW_DOCTRINE.md",
+  "critical_review_rule": "The assistant must use critical reasoning beyond repo hygiene and may challenge the mission, founder, repo, math, theorem applicability, source interpretation, route, comparator, or artifact value."
 }

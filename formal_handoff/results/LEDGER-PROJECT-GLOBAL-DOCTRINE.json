@@ -40,7 +40,7 @@
       "object",
       "open_comparator_branch"
     ],
-    "mandatory_question_count": 7,
+    "mandatory_question_count": 11,
     "registry_status": [
       "ACTIVE",
       "INTERNAL_DOCTRINE",
@@ -48,7 +48,7 @@
       "OPERATIONAL_CONTROL"
     ],
     "role_count": 14,
-    "stop_condition_count": 10
+    "stop_condition_count": 14
   },
   "target_id": "LEDGER-PROJECT-GLOBAL-DOCTRINE"
 }

@@ -179,6 +179,12 @@
       "result_status": "PASS_LEDGER_VALIDATION",
       "result_summary": "Implemented high-resonance native comparator / anti-flattening guard. The checker verifies that CRBSM remains mechanism-language, Route A remains hardware/proxy, scattering-native remains a mandatory comparator rather than default winner, and high-resonance remains a possible bridge comparator rather than selected substrate. This is role/comparator discipline only, not a source claim, not CRBSM validation, not Route A validation, not substrate selection, not engineering readiness, and not corporate readiness.",
       "artifact": "formal_handoff/results/LEDGER-HIGH-RESONANCE-NATIVE-COMPARATOR-PLAN.json"
+    },
+    {
+      "target_id": "LEDGER-MISSION-GRADE-CRITICAL-REVIEW-DOCTRINE",
+      "result_status": "PASS_LEDGER_VALIDATION",
+      "result_summary": "Implemented mission-grade critical review doctrine guard. The checker verifies that the repo explicitly requires critical reasoning beyond repo hygiene, including hard-bottleneck review, negative-progress risk, thin-stick theorem/source/check caution, easy-work drift detection, and permission to challenge the mission, founder, repo, math, source interpretation, route, comparator, or artifact value. This is not understanding itself, not proof, not substrate evidence, not engineering readiness, not corporate readiness, and not a substitute for actual judgment.",
+      "artifact": "formal_handoff/results/LEDGER-MISSION-GRADE-CRITICAL-REVIEW-DOCTRINE.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."

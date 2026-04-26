@@ -18,11 +18,12 @@
         "SOURCE_EXTRACTED_CLAIMS.json",
         "source-coverage checker artifacts"
       ],
-      "allowed_claim": "The repo has source-coverage guards around canonical readout, representation caution, surfaceology interfaces, scaffold/transmutation bridges, and cosmohedron R12/R13 interfaces.",
+      "allowed_claim": "The repo has source-coverage guards and mission-grade critical-review controls around canonical readout, representation caution, surfaceology interfaces, scaffold/transmutation bridges, and cosmohedron R12/R13 interfaces.",
       "blocked_claims": [
         "source coverage is a theorem",
         "source coverage is physical substrate evidence",
-        "source coverage is engineering readiness"
+        "source coverage is engineering readiness",
+        "validators or clean commits prove understanding"
       ]
     },
     {
@@ -141,7 +142,8 @@
     "finite surfaceology fixture family passes exact rational checks, including a three-curve multi-neighbor product case",
     "generated surfaceology graph-fixture check passes for all 75 simple graphs on 1..4 vertices with 189 exact binary witnesses",
     "finite polygon-chord surfaceology fixture check passes for n=4..7 with 30 chords, 56 crossing edges, and 63 maximal-noncrossing witnesses",
-    "high-resonance native comparator plan preserves CRBSM mechanism-language, Route A hardware/proxy, scattering-native comparator, and high-resonance bridge roles"
+    "high-resonance native comparator plan preserves CRBSM mechanism-language, Route A hardware/proxy, scattering-native comparator, and high-resonance bridge roles",
+    "mission-grade critical review doctrine guard requires reasoning beyond repo hygiene and permits challenge to mission/founder/repo/math/routes"
   ],
   "critical_gaps": [
     "no selected physical substrate",
