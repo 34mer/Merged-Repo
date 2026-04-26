@@ -22,6 +22,7 @@ REQUIRED_STATUSES = [
 ]
 
 REQUIRED_QUEUE_IDS = [
+    "STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON",
     "Q1_STALE_STATUS_SWEEP",
     "Q2_FM1_SCHEMA_VALIDATION",
     "Q3_SURFACE_FINITE_MODEL_PLAN",
@@ -163,7 +164,7 @@ def run_check() -> FormationMediumTechnicalRoadmapResult:
         **md_summary,
         **align_summary,
         "allowed_inference": "the repo has a bounded execution queue for the current low-compute phase",
-        "blocked_inference": "pitch readiness, substrate selection, native settling-law proof, lab prototype readiness, or product readiness",
+        "blocked_inference": "pitch readiness, substrate selection, native settling-law proof, lab prototype readiness, product readiness, or bypassing Stage 0 math-first attack",
     }
     return FormationMediumTechnicalRoadmapResult(
         target_id=TARGET_ID,
@@ -178,7 +179,8 @@ def run_check() -> FormationMediumTechnicalRoadmapResult:
         counterexamples=failures,
         status_boundary=(
             "PASS_LEDGER_VALIDATION means the roadmap is a bounded execution queue aligned with readiness limits. "
-            "It is not a proof, not a substrate selection, not engineering readiness, not capital readiness, and not a pitch deck."
+            "It is not a proof, not a substrate selection, not engineering readiness, not capital readiness, not a pitch deck, "
+            "and not a substitute for Stage 0 reasoning."
         ),
     )
 

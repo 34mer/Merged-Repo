@@ -78,7 +78,11 @@
     "What hard bottleneck does this work attack?",
     "Could this work be net-negative or merely convenient?",
     "Which theorem/source/check is being leaned on, and is it a thin stick?",
-    "Could the founder be wrong about this direction?"
+    "Could the founder be wrong about this direction?",
+    "What is the actual mathematical object before tools are used?",
+    "What is the smallest literal finite object to compute?",
+    "What theorem, counterexample, or invariant would change the project?",
+    "What tool is appropriate only after the math target is fixed?"
   ],
   "current_global_map": {
     "object": "Formation Medium",
@@ -103,7 +107,11 @@
     "the work is locally clean but globally low-value",
     "the task is easy because it avoids the bottleneck",
     "the artifact adds concepts faster than it removes ambiguity",
-    "the assistant is following momentum instead of making a judgment call"
+    "the assistant is following momentum instead of making a judgment call",
+    "major work begins without a Stage 0 math-first attack",
+    "tools are used to create motion before definitions are stable",
+    "source shopping or physics analogy precedes mathematical object definition",
+    "SN-C3/Ising/high-resonance review continues before STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON exists or is explicitly deferred"
   ],
   "founder_correction_sanitized": "The assistant is not deeply aware of the project in the total/global sense during long tool work, and does not reliably hold the whole project in context while proceeding. This limitation must be explicit because it is critical.",
   "assistant_total_awareness_limitation": "The assistant may preserve local ledger correctness while losing total awareness and global coherence; this registry is a forced control surface, not a guarantee of understanding.",
@@ -114,5 +122,7 @@
     "high_resonance_native": "possible bridge comparator between CRBSM-like mechanism and buildable/harnessable hardware; not default winner"
   },
   "critical_review_doctrine_file": "research_ledger/MISSION_GRADE_CRITICAL_REVIEW_DOCTRINE.md",
-  "critical_review_rule": "The assistant must use critical reasoning beyond repo hygiene and may challenge the mission, founder, repo, math, theorem applicability, source interpretation, route, comparator, or artifact value."
+  "critical_review_rule": "The assistant must use critical reasoning beyond repo hygiene and may challenge the mission, founder, repo, math, theorem applicability, source interpretation, route, comparator, or artifact value.",
+  "stage0_math_first_protocol_file": "research_ledger/FORMATION_MEDIUM_STAGE0_MATH_FIRST_PROTOCOL.md",
+  "stage0_math_first_rule": "Before major source-review, physical-comparator, route, substrate, or broad repo-expansion work, run a tool-light Stage 0 math-first attack. Tools serve the math plan; tools do not choose the plan."
 }

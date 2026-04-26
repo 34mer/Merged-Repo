@@ -1,0 +1,183 @@
+{
+  "schema": "formation_medium_stage0_math_first_protocol_v1",
+  "artifact_roles": [
+    "GUARD",
+    "RED_TEAM",
+    "STATIC_GEOMETRY",
+    "FORMAL_CHECK",
+    "NEGATIVE_CONTROL"
+  ],
+  "status": [
+    "OPERATIONAL_CONTROL",
+    "ACTIVE",
+    "MATH_FIRST_PROTOCOL",
+    "NOT_SOURCE_EXTRACTED",
+    "NOT_THEOREM"
+  ],
+  "purpose": "Force true mathematical attack before repo mutation, source shopping, physics matching, or candidate expansion. The protocol exists because full awareness degrades during long tool use; therefore major work must begin with a tool-light Stage 0 reasoning pass and only then select formal/computational tools.",
+  "core_rule": "No major source-review, physical-comparator, route, substrate, or broad repo-expansion work may proceed before a Stage 0 math-first attack pass that states the object, exact finite/static targets, definitions, possible computations, falsifiers, and tool plan. Tools serve the math plan; tools do not choose the plan.",
+  "scope": {
+    "primary_object": "Formation Medium as pre-spacetime positive-geometric / time-geometric formation/readout structure",
+    "current_static_spine": [
+      "Gr_+(0,n)",
+      "Gr_+(1,n)",
+      "ordered residue signs",
+      "Gr_+(1,2)^m product static blocks",
+      "mutation as transported static reflection"
+    ],
+    "initial_finite_range": "n <= 7 or 8 when feasible; start smaller if definitions are unclear",
+    "blocked_default_move": "pattern-match to S-matrix, Ising machines, high-resonance, Route A, or CRBSM before formal/static targets are stated"
+  },
+  "stage_sequence": [
+    {
+      "id": "STAGE0_DEEP_MATH_ATTACK",
+      "name": "tool-light deep mathematical attack pass",
+      "required_before": [
+        "new source queue",
+        "new physics comparator review",
+        "new broad validator",
+        "new candidate route",
+        "new corporate framing",
+        "major file mutation"
+      ],
+      "allowed_tools": [
+        "read_core_context",
+        "read relevant repo files",
+        "local scratch reasoning",
+        "small sanity grep",
+        "blackboard note if useful"
+      ],
+      "disallowed_by_default": [
+        "broad internet/source shopping",
+        "candidate regime expansion",
+        "validator-first work",
+        "physics analogy matching",
+        "large symbolic search",
+        "promotion/status mutation"
+      ],
+      "required_questions": [
+        "What is the actual mathematical object in this step?",
+        "Which definitions must be fixed before any computation?",
+        "What is the smallest literal finite object to compute?",
+        "What theorem, counterexample, or invariant would change the project?",
+        "What would show this direction is wrong or irrelevant?",
+        "Which existing theorem/source/check is a thin stick?",
+        "What should be deleted, demoted, or quarantined if this fails?"
+      ],
+      "required_output": "A concise Stage 0 attack note or embedded critical_review_prework block that answers the questions before tool-heavy work begins."
+    },
+    {
+      "id": "STAGE1_FORMAL_TARGETS",
+      "name": "formal target extraction",
+      "allowed_work": [
+        "definitions",
+        "typed predicates",
+        "finite object schemas",
+        "theorem/counterexample statements",
+        "formal check target definitions"
+      ],
+      "exit_condition": "Exact statements exist for what must be computed or proved, including failure conditions and non-promotion boundaries."
+    },
+    {
+      "id": "STAGE2_LITERAL_COMPUTATION",
+      "name": "literal computations / finite checks / formal engines",
+      "allowed_work": [
+        "Python exact finite checks",
+        "Z3/SMT fixtures",
+        "Sage or polymake when available",
+        "Lean/Lake theorem skeletons",
+        "Ax-Prover/Aristotle proof-search candidates validated only by Lean"
+      ],
+      "exit_condition": "A concrete check result, counterexample, theorem skeleton, or failed attempt with artifacted assumptions."
+    },
+    {
+      "id": "STAGE3_EMERGENCE_TRIAGE",
+      "name": "physics/engineering emergence after math",
+      "allowed_work": [
+        "physical-regime scoring",
+        "engineering route triage",
+        "source review",
+        "negative controls"
+      ],
+      "exit_condition": "Candidate physics/engineering is derived from or tested against Stage 0-2 math, not introduced by resemblance or convenience."
+    }
+  ],
+  "tool_escalation_matrix": [
+    {
+      "tool_class": "plain reasoning / scratch",
+      "use_for": "Stage 0 object definition, falsifier design, theorem/counterexample planning, deciding what not to do",
+      "do_not_use_for": "claiming proof, source extraction, or final check status"
+    },
+    {
+      "tool_class": "Python exact scripts",
+      "use_for": "small finite models, exact rational checks, graph/chord enumeration, residue-route combinatorics, artifact generation",
+      "do_not_use_for": "pretending finite checks are all-n theorems"
+    },
+    {
+      "tool_class": "Z3 / SMT",
+      "use_for": "bounded predicate consistency, satisfiability/counterexample search, finite logical schemas",
+      "current_status": "available: Z3 CLI and Python reported ok",
+      "do_not_use_for": "geometric theorem status without domain proof"
+    },
+    {
+      "tool_class": "Lean / Lake",
+      "use_for": "formal theorem skeletons, locally validated proofs, typed definitions once statements stabilize",
+      "current_status": "available: Lean/Lake reported ok",
+      "do_not_use_for": "early vague exploration before definitions are stable"
+    },
+    {
+      "tool_class": "Aristotle",
+      "use_for": "proof-search/formalization candidates only after Stage 1 statements exist",
+      "current_status": "configured but no submit tool exposed; output remains non-authoritative until Lean checks locally",
+      "do_not_use_for": "recording theorem status directly"
+    },
+    {
+      "tool_class": "Ax-Prover",
+      "use_for": "candidate proof search against tracked Lean/theorem files when command is available",
+      "current_status": "permission enabled but command not present; output would remain candidate until Lean validates",
+      "do_not_use_for": "bypassing Lean validation"
+    },
+    {
+      "tool_class": "Sage",
+      "use_for": "polyhedral/combinatorial algebra, exact symbolic experiments, Grassmannian/positive-geometry finite computations when installed",
+      "current_status": "permission enabled but configured WSL Sage currently unavailable because no WSL distro is installed",
+      "do_not_use_for": "blocking Stage 0 reasoning or pretending unavailable tools ran"
+    },
+    {
+      "tool_class": "polymake",
+      "use_for": "polytope/face-lattice/canonical combinatorics and positive-geometry finite models when installed",
+      "current_status": "permission enabled but configured WSL polymake currently unavailable because no WSL distro is installed",
+      "do_not_use_for": "blocking smaller Python/Z3 finite checks when polymake is unavailable"
+    },
+    {
+      "tool_class": "internet / external sources",
+      "use_for": "source verification, current tool/library status, external source candidates after Stage 0 states why source intake is needed",
+      "do_not_use_for": "pattern-matching physics before the math object and falsifier are stated"
+    }
+  ],
+  "required_stage0_math_targets": [
+    "minimal static object: Gr_+(0,n), Gr_+(1,n), n bounded explicitly",
+    "canonical readout/residue operation definition",
+    "ordered residue route and sign/coherence definition",
+    "candidate state/bulk object and readout map",
+    "non-faithfulness condition: many bulk states mapping to same readout",
+    "settling relation before physics: admissible state relation, fixed point, minimizer, residue terminal, or other exact definition",
+    "first literal finite checks and what would falsify them"
+  ],
+  "red_team_stop_conditions": [
+    "work begins with source shopping or physical analogy instead of a mathematical object",
+    "tools are used to create motion before definitions are stable",
+    "a finite script is easier than asking the hard theorem/counterexample question",
+    "physics or engineering is selected before SG0-SG4 relevance is tested",
+    "new artifacts increase vocabulary without reducing uncertainty",
+    "the repo records a guard where an actual computation was needed",
+    "Stage 0 says nothing that could falsify, demote, or delete the direction"
+  ],
+  "next_required_math_attack": {
+    "id": "STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON",
+    "question": "What is the smallest exact formal skeleton of Formation Medium over Gr_+(0,n)/Gr_+(1,n), n <= 7 or 8, including readout, residue, bulk/readout map, non-faithfulness, and settling relation before any physics mapping?",
+    "preferred_first_artifact": "research_ledger/STAGE0_FM_MINIMAL_STATIC_FORMAL_SKELETON.md",
+    "forbidden_shortcut": "Do not continue SN-C3/Ising/high-resonance physical review before this Stage 0 skeleton exists or is explicitly deferred with reason."
+  },
+  "non_promotion_rule": "This protocol enforces math-first workflow only. It does not prove Formation Medium, define the final mathematical object, validate any physical regime, select a substrate, establish engineering readiness, or replace actual reasoning."
+}

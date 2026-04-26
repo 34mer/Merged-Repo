@@ -434,6 +434,45 @@ Do not confuse convenience with convergence.
 
 A locally clean artifact may still be bad work.
 
+
+
+## 8.2 Stage 0 Math-First Rule
+
+Before major source-review, physical-comparator, route, substrate, or broad repo-expansion work, future workers must run a Stage 0 math-first attack pass.
+
+Core rule:
+
+```text
+Tools serve the math plan.
+Tools do not choose the plan.
+```
+
+Stage 0 must be tool-light and must ask:
+
+```text
+What is the actual mathematical object?
+What definitions must be fixed before computation?
+What is the smallest literal finite object to compute?
+What theorem, counterexample, or invariant would change the project?
+What would show this direction is wrong or irrelevant?
+```
+
+Only after Stage 0 may the worker escalate to:
+
+```text
+Stage 1 — formal target extraction
+Stage 2 — literal computation / finite checks / formal engines
+Stage 3 — physics or engineering emergence triage
+```
+
+The next required math attack is:
+
+```text
+STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON
+```
+
+No further SN-C3 / Ising / high-resonance physical review should proceed unless this skeleton exists or is explicitly deferred with a reason.
+
 ## 9. Corporate Rule
 
 The company is not built around a claim that the substrate is already known.

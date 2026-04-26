@@ -221,6 +221,12 @@
       "result_status": "PASS_LEDGER_VALIDATION",
       "result_summary": "Implemented SN-C3 static-gated source review. The checker verifies that physical scattering-matrix topology / phase-singularity observables were reviewed against PG1-PG8 and SG0-SG4. SN-C3 is classified only as USEFUL_NEGATIVE_CONTROL_AND_WEAK_OBSERVABLE_COMPARATOR: it has real physical observables, but currently fails or lacks support for Gr_+(0,n) terminal atom, Gr_+(1,n) static simplex tower, Gr_+(1,2)^m product static blocks, and mutation transport; ordered residue sign/coherence remains weak/open. This is not source extraction, not scattering-native validation, not S-matrix victory, not Ising/high-resonance defeat, not substrate selection, not settling-law proof, and not engineering readiness.",
       "artifact": "formal_handoff/results/LEDGER-SN-C3-STATIC-GATED-SOURCE-REVIEW.json"
+    },
+    {
+      "target_id": "LEDGER-STAGE0-MATH-FIRST-PROTOCOL",
+      "result_status": "PASS_LEDGER_VALIDATION",
+      "result_summary": "Implemented Stage 0 math-first protocol guard. The checker verifies that major source-review, physical-comparator, route, substrate, or broad repo-expansion work is blocked behind a tool-light mathematical attack pass. It enforces the stage sequence Stage 0 deep math attack, Stage 1 formal targets, Stage 2 literal computation/formal engines, Stage 3 physics/engineering emergence; records the tool escalation matrix for Python, Z3, Lean/Lake, Aristotle, Ax-Prover, Sage, polymake, and internet; and sets STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON as the next required math attack. This is not proof of Formation Medium, not a final mathematical definition, not physical validation, not substrate selection, not engineering readiness, and not a substitute for actual reasoning.",
+      "artifact": "formal_handoff/results/LEDGER-STAGE0-MATH-FIRST-PROTOCOL.json"
     }
   ],
   "non_promotion_rule": "Only PASS results from implemented mathematical checkers may promote a row within the declared finite scope. DEFINED_NOT_RUN is not evidence for the mathematical claim. PASS_PARTIAL_FINITE_CHECK is finite evidence within its declared scope, not theorem status. PASS_SOURCE_COVERAGE is source-coverage discipline only; it is not theorem status, not checked S2*, and not substrate or settling-law evidence."

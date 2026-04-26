@@ -75,6 +75,23 @@ Requires:
 - domain advisor review;
 - clear no-overclaim diligence packet.
 
+## Stage 0 math-first protocol
+
+Before major source-review, physical-comparator, route, substrate, or broad repo-expansion work, run `FORMATION_MEDIUM_STAGE0_MATH_FIRST_PROTOCOL`.
+
+```text
+Tools serve the math plan.
+Tools do not choose the plan.
+```
+
+Current required attack:
+
+```text
+STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON
+```
+
+No further SN-C3 / Ising / high-resonance physical review should proceed unless this skeleton exists or is explicitly deferred with a reason.
+
 ## Pre-spacetime static geometry gate
 
 Before physical-regime/comparator review claims Formation Medium relevance, score against `PRE_SPACETIME_STATIC_GEOMETRY_SPINE` SG0-SG4: `Gr_+(0,n)`, `Gr_+(1,n)`, ordered residue signs, `Gr_+(1,2)^m` product static blocks, and mutation as transported static reflection.
@@ -87,7 +104,7 @@ Before physical-regime/comparator review claims Formation Medium relevance, scor
 | 2 | FM1 schema validation | T0 | Every FM1 constraint has slot, status, source leads, check targets/blockers, failure mode, and non-promotion boundary. | Schema validation is not physics validation. |
 | 3 | Surface finite model extension | T0 | Convex-polygon chord fixture check covers n=4..7 with 30 chords, 56 crossing edges, and 63 maximal-noncrossing witnesses; next is source-faithful surface curve data beyond polygon-chord abstraction. | Polygon chord fixtures are not a surfaceology theorem, full source-faithful curve enumeration, or positive-region solver. |
 | 4 | R12/R13 formalization plan | T0 | Bounded delta-domain/equality-layer fixture plan exists. | Fixture plan is not SMT proof. |
-| 5 | Physical-regime source-intake reviews | T0 | SN-C3 static-gated review now classifies physical scattering-matrix topology as useful negative-control / weak observable comparator; next is a matching SG0-SG4 review for IM-C1/IM-C3 Ising-machine combinatorial settling, or a direct SN-C3 vs PRI-005 comparison matrix. | SN-C3 review is not source extraction, scattering-native validation, S-matrix victory, Ising/high-resonance defeat, substrate selection, CRBSM validation, Route A implementation, or engineering readiness. |
+| 5 | Physical-regime source-intake reviews | T0 | Further physical-regime source-intake review across high-resonance, scattering-native, Route A, CRBSM, and Ising-machine tracks is blocked until STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON exists or is explicitly deferred; after that, next is IM-C1/IM-C3 SG0-SG4 review or SN-C3 vs PRI-005 comparison, without flattening roles. | Q5 is not source extraction, high-resonance validation, scattering-native validation, Route A implementation, CRBSM validation, Ising-machine validation, physical validation, substrate selection, or engineering readiness, and must preserve role separation without flattening. |
 | 6 | Early diligence packet | T0 | Concise packet separates proven, checked, source-covered, open, and capital-dependent items. | Diligence packet is not product readiness. |
 
 ## Capital-Dependent Queue

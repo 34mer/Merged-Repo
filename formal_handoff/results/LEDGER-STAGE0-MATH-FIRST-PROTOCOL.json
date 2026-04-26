@@ -1,0 +1,33 @@
+{
+  "checker": "stage0_math_first_protocol_guard_v1",
+  "counterexamples": [],
+  "inspected_files": [
+    "research_ledger/FORMATION_MEDIUM_STAGE0_MATH_FIRST_PROTOCOL.json",
+    "research_ledger/FORMATION_MEDIUM_STAGE0_MATH_FIRST_PROTOCOL.md",
+    "research_ledger/PROJECT_GLOBAL_DOCTRINE.md",
+    "research_ledger/PROJECT_GLOBAL_DOCTRINE_REGISTRY.json",
+    "research_ledger/FORMATION_MEDIUM_TECHNICAL_ROADMAP.json"
+  ],
+  "status": "PASS_LEDGER_VALIDATION",
+  "status_boundary": "PASS_LEDGER_VALIDATION means the repo now requires a tool-light Stage 0 mathematical attack before major source, physics, route, or repo-expansion work. It is not proof of Formation Medium, not a final mathematical definition, not physical validation, not substrate selection, not engineering readiness, and not a substitute for actual reasoning.",
+  "support_summary": {
+    "allowed_inference": "future major work must begin with Stage 0 math attack and explicit tool plan before Stage 1-3 execution",
+    "blocked_inference": "proof of Formation Medium, final object definition, physical regime validation, substrate selection, engineering readiness, or replacement for actual reasoning",
+    "checked_interface": "Stage 0 math-first protocol requiring tool-light mathematical attack before repo/source/physics expansion",
+    "current_static_spine": [
+      "Gr_+(0,n)",
+      "Gr_+(1,n)",
+      "ordered residue signs",
+      "Gr_+(1,2)^m product static blocks",
+      "mutation as transported static reflection"
+    ],
+    "global_doctrine_stage0_present": true,
+    "markdown_terms_present": true,
+    "next_required_math_attack": "STAGE0-FM-MINIMAL-STATIC-FORMAL-SKELETON",
+    "registry_stage0_file_present": true,
+    "roadmap_stage0_present": true,
+    "stage_count": 4,
+    "tool_class_count": 9
+  },
+  "target_id": "LEDGER-STAGE0-MATH-FIRST-PROTOCOL"
+}
