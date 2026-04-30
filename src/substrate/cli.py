@@ -20,6 +20,7 @@ from .external.adhesion import (
     run_hh_neuroml_adhesion,
     verify_external_ephys,
 )
+from .external.adapters import import_allen_sweep_json, import_ephys_csv, import_nwb_file
 
 app = typer.Typer(help="Boundary-to-biology bootstrapping and external adhesion tools.")
 
@@ -130,6 +131,44 @@ def run_hh_neuroml_adhesion_command(out: Path = Path("reports/hh_neuroml_adhesio
     typer.echo(f"Held-out score: {adhesion['heldout_summary']['heldout_score']:.4f}")
     typer.echo(f"Migration: {adhesion['migration']['status']}")
     typer.echo(f"Honest controls failed: {adhesion['honest_controls_failed']}")
+
+
+@app.command("import-ephys-csv")
+def import_ephys_csv_command(
+    source: Path = typer.Option(..., help="CSV with protocol_id and voltage_mv columns."),
+    out: Path = typer.Option(..., help="Converted substrate-external-ephys-v1 JSON."),
+    source_name: str = typer.Option("external_csv_ephys", help="External source label."),
+    cell_id: str = typer.Option("unknown_cell", help="External cell/specimen id."),
+) -> None:
+    dataset = import_ephys_csv(source, out, source_name=source_name, cell_id=cell_id)
+    typer.echo("EXTERNAL EPHYS CSV IMPORTED")
+    typer.echo(f"Source hash: {dataset['source_hash']}")
+    typer.echo(f"Protocols: {len(dataset['protocols'])}")
+
+
+@app.command("import-allen-sweep-json")
+def import_allen_sweep_json_command(
+    source: Path = typer.Option(..., help="AllenSDK-style exported sweep JSON."),
+    out: Path = typer.Option(..., help="Converted substrate-external-ephys-v1 JSON."),
+) -> None:
+    dataset = import_allen_sweep_json(source, out)
+    typer.echo("ALLEN SWEEP JSON IMPORTED")
+    typer.echo(f"Cell id: {dataset['cell_id']}")
+    typer.echo(f"Source hash: {dataset['source_hash']}")
+    typer.echo(f"Protocols: {len(dataset['protocols'])}")
+
+
+@app.command("import-nwb")
+def import_nwb_command(
+    source: Path = typer.Option(..., help="NWB file path."),
+    out: Path = typer.Option(..., help="Converted substrate-external-ephys-v1 JSON."),
+    source_name: str = typer.Option("nwb_export", help="External source label."),
+    cell_id: str = typer.Option("unknown_cell", help="External cell/specimen id."),
+) -> None:
+    dataset = import_nwb_file(source, out, source_name=source_name, cell_id=cell_id)
+    typer.echo("NWB IMPORTED")
+    typer.echo(f"Source hash: {dataset['source_hash']}")
+    typer.echo(f"Protocols: {len(dataset['protocols'])}")
 
 
 if __name__ == "__main__":
