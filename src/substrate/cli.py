@@ -14,8 +14,14 @@ from .channel.verify import verify_channel
 from .neuron.primitive import extract_synthetic_neuron_primitive
 from .neuron.verify import verify_neuron
 from .reports import write_ladder_report
+from .external.adhesion import (
+    fit_primitive_to_ephys,
+    generate_hh_neuroml_fixture,
+    run_hh_neuroml_adhesion,
+    verify_external_ephys,
+)
 
-app = typer.Typer(help="Boundary-to-neuron substrate derivation ladder.")
+app = typer.Typer(help="Boundary-to-biology bootstrapping and external adhesion tools.")
 
 
 @app.command("build-ladder")
@@ -65,6 +71,65 @@ def verify_migration_command(a: Path, b: Path) -> None:
     report = verify_migration(a, b)
     typer.echo(report["status"])
     typer.echo(f"State divergence: {report['state_divergence']}")
+
+
+@app.command("generate-hh-neuroml-fixture")
+def generate_hh_neuroml_fixture_command(out: Path = Path("external/hh_neuroml_fixture.json")) -> None:
+    dataset = generate_hh_neuroml_fixture(out)
+    typer.echo("HH/NEUROML-STYLE FIXTURE WRITTEN")
+    typer.echo(f"Source hash: {dataset['source_hash']}")
+    typer.echo(f"Protocols: {len(dataset['protocols'])}")
+
+
+@app.command("fit-primitive-to-ephys")
+def fit_primitive_to_ephys_command(
+    source: Path = typer.Option(..., help="External ephys JSON source."),
+    out: Path = typer.Option(Path("primitives/external_ephys"), help="Primitive output directory."),
+) -> None:
+    primitive = fit_primitive_to_ephys(source, out)
+    typer.echo("EXTERNAL EPHYS PRIMITIVE FIT COMPLETE")
+    typer.echo(f"Primitive hash: {primitive['hash']}")
+    typer.echo(f"Source hash: {primitive['observables']['source_hash']}")
+
+
+@app.command("verify-external-ephys")
+def verify_external_ephys_command(
+    primitive: Path = typer.Option(..., help="Primitive directory or primitive.json."),
+    source: Path = typer.Option(..., help="External ephys JSON source."),
+    out: Path = typer.Option(Path("reports/external_ephys_adhesion"), help="Report output directory."),
+    voltage_threshold: float = typer.Option(0.70, help="Minimum held-out voltage fidelity."),
+    spike_threshold: float = typer.Option(0.50, help="Minimum spike and F-I threshold."),
+    heldout_threshold: float = typer.Option(0.80, help="Minimum combined held-out score."),
+    include_controls: bool = typer.Option(True, help="Run random/over-stable/leakage controls."),
+) -> None:
+    report = verify_external_ephys(
+        primitive=primitive,
+        source=source,
+        out=out,
+        voltage_threshold=voltage_threshold,
+        spike_threshold=spike_threshold,
+        heldout_threshold=heldout_threshold,
+        include_controls=include_controls,
+    )
+    typer.echo(report["status"])
+    typer.echo(f"Held-out score: {report['heldout_summary']['heldout_score']:.4f}")
+    typer.echo(f"Voltage fidelity: {report['heldout_summary']['voltage_fidelity']:.4f}")
+    typer.echo(f"Spike timing score: {report['heldout_summary']['spike_timing_score']:.4f}")
+    typer.echo(f"F-I similarity: {report['fi_curve_similarity']:.4f}")
+    typer.echo(f"Migration: {report['migration']['status']}")
+    typer.echo(f"Honest controls failed: {report['honest_controls_failed']}")
+
+
+@app.command("run-hh-neuroml-adhesion")
+def run_hh_neuroml_adhesion_command(out: Path = Path("reports/hh_neuroml_adhesion")) -> None:
+    report = run_hh_neuroml_adhesion(out)
+    adhesion = report["adhesion_report"]
+    typer.echo(report["status"])
+    typer.echo(f"Source hash: {report['source_hash']}")
+    typer.echo(f"Primitive hash: {report['primitive_hash']}")
+    typer.echo(f"Held-out score: {adhesion['heldout_summary']['heldout_score']:.4f}")
+    typer.echo(f"Migration: {adhesion['migration']['status']}")
+    typer.echo(f"Honest controls failed: {adhesion['honest_controls_failed']}")
 
 
 if __name__ == "__main__":
