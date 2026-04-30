@@ -6,8 +6,16 @@ from pathlib import Path
 
 import typer
 
+from .abstraction import (
+    benchmark_abstraction,
+    migrate_abstracted as migrate_abstracted_checkpoint,
+    run_abstracted as run_abstracted_model,
+    train_pca_ridge,
+    verify_abstracted_migration,
+)
 from .checkpoint import file_hash, load_checkpoint, save_checkpoint, verify_hash
 from .config import WormConfig
+from .dataset import collect_dataset
 from .dynamics import run_steps
 from .environment import initial_environment
 from .organism import initial_state
@@ -121,6 +129,100 @@ def compare(
     typer.echo(f"Config hash: {'matched' if report.config_hash_matched else 'mismatch'}")
     typer.echo(f"Trajectory divergence: {report.max_trajectory_error}")
     raise typer.Exit(0 if report.status == "MIGRATION VERIFIED" else 1)
+
+
+@app.command("collect-dataset")
+def collect_dataset_command(
+    tasks: str = typer.Option("food,harm,perturb,wall,mixed", help="Comma-separated task battery."),
+    episodes: int = typer.Option(100, help="Number of deterministic episodes."),
+    steps: int = typer.Option(2000, help="Steps per episode."),
+    seed: int = typer.Option(42, help="Base deterministic seed."),
+    out: Path = typer.Option(Path("datasets/source_302_v1"), help="Dataset output directory."),
+) -> None:
+    metadata = collect_dataset(out=out, tasks=tasks, episodes=episodes, steps=steps, seed=seed)
+    typer.echo("Dataset created")
+    typer.echo(f"Episodes: {metadata['episodes']}")
+    typer.echo(f"Total steps: {metadata['total_steps']}")
+    typer.echo(f"Neural shape: {metadata['neural_shape'][0]} x {metadata['neural_shape'][1]}")
+    typer.echo(f"Dataset hash: {metadata['dataset_hash']}")
+
+
+@app.command("train-abstraction")
+def train_abstraction_command(
+    method: str = typer.Option("pca-ridge", help="Abstraction method. Currently only pca-ridge."),
+    latent_dim: int = typer.Option(64, help="Latent dimensionality."),
+    dataset: Path = typer.Option(Path("datasets/source_302_v1"), help="Dataset directory or dataset.npz."),
+    out: Path = typer.Option(Path("abstractions/pca64"), help="Model output directory."),
+) -> None:
+    if method != "pca-ridge":
+        raise typer.BadParameter("Only method='pca-ridge' is implemented in the MVP")
+    metadata = train_pca_ridge(dataset=dataset, out=out, latent_dim=latent_dim)
+    typer.echo("Abstraction trained")
+    typer.echo(f"Method: {metadata['method']}")
+    typer.echo(f"Latent dim: {metadata['latent_dim']}")
+    typer.echo(f"Compression ratio: {metadata['compression_ratio']:.2f}x")
+    typer.echo(f"Model hash: {metadata['model_hash']}")
+
+
+@app.command("run-abstracted")
+def run_abstracted_command(
+    model: Path = typer.Option(..., help="Abstraction model directory."),
+    task: str = typer.Option("mixed", help="Task name."),
+    steps: int = typer.Option(10000, help="Live closed-loop steps."),
+    seed: int = typer.Option(42, help="Deterministic seed."),
+    out: Path = typer.Option(Path("runs/pca64_live"), help="Run output directory."),
+) -> None:
+    report = run_abstracted_model(model_path=model, out=out, task_name=task, steps=steps, seed=seed)
+    typer.echo(report["status"])
+    typer.echo(f"Model hash: {report['model_hash']}")
+    typer.echo(f"Checkpoint hash: {report['checkpoint_hash']}")
+    typer.echo(f"Mean viability: {report['mean_viability']:.4f}")
+
+
+@app.command("migrate-abstracted")
+def migrate_abstracted_command(
+    checkpoint: Path = typer.Option(..., help="Abstracted checkpoint to migrate."),
+    out: Path = typer.Option(Path("runs/pca64_migrated"), help="Destination folder."),
+) -> None:
+    manifest = migrate_abstracted_checkpoint(checkpoint=checkpoint, out=out)
+    typer.echo(f"copied checkpoint to {manifest['target']}")
+    typer.echo("hash verified" if manifest["hash_matched"] else "hash mismatch")
+    raise typer.Exit(0 if manifest["hash_matched"] else 1)
+
+
+@app.command("verify-abstracted-migration")
+def verify_abstracted_migration_command(
+    model: Path = typer.Option(..., help="Abstraction model directory."),
+    checkpoint_a: Path = typer.Option(..., help="Original abstract checkpoint."),
+    checkpoint_b: Path = typer.Option(..., help="Migrated abstract checkpoint."),
+    steps: int = typer.Option(1000, help="Post-migration comparison steps."),
+    out: Path = typer.Option(Path("reports/abstracted_migration_report.json"), help="Report path."),
+) -> None:
+    report = verify_abstracted_migration(model_path=model, checkpoint_a=checkpoint_a, checkpoint_b=checkpoint_b, steps=steps)
+    _write_json(out, report.to_dict())
+    typer.echo(report.status)
+    typer.echo(f"Model hash: {report.model_hash}")
+    typer.echo(f"Checkpoint hash: {'matched' if report.checkpoint_hash_matched else 'mismatch'}")
+    typer.echo(f"Latent trajectory divergence: {report.latent_trajectory_divergence}")
+    typer.echo(f"Behavior continuation: {report.behavior_continuation}")
+    raise typer.Exit(0 if report.status == "ABSTRACTED MIGRATION VERIFIED" else 1)
+
+
+@app.command("benchmark-abstraction")
+def benchmark_abstraction_command(
+    model: Path = typer.Option(..., help="Abstraction model directory."),
+    task: str = typer.Option("mixed", help="Task name."),
+    steps: int = typer.Option(1000, help="Benchmark steps."),
+    seed: int = typer.Option(42, help="Deterministic seed."),
+    out: Path = typer.Option(Path("reports/pca64_report"), help="Report directory."),
+) -> None:
+    report = benchmark_abstraction(model_path=model, out=out, task_name=task, steps=steps, seed=seed)
+    typer.echo(report["status"])
+    typer.echo(f"Source: {report['source']}")
+    typer.echo(f"Abstraction: {report['abstraction']}")
+    typer.echo(f"Compression ratio: {report['compression_ratio']:.2f}x")
+    typer.echo(f"Behavior fidelity: {report['behavior_fidelity']:.4f}")
+    typer.echo(f"Self-maintenance retained: {report['self_maintenance_retained']:.4f}")
 
 
 if __name__ == "__main__":
