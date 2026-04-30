@@ -45,7 +45,8 @@ def test_synthetic_neuron_and_migration(tmp_path: Path) -> None:
 
 def test_write_ladder_report(tmp_path: Path) -> None:
     report = write_ladder_report(tmp_path)
-    assert report["status"] == "BOUNDARY TO NEURON LADDER COMPLETE"
+    assert report["status"] == "BOUNDARY TO BIOLOGY BOOTSTRAPPING LADDER COMPLETE"
     assert report["primitive_count"] >= 8
     assert (tmp_path / "boundary_to_neuron_ladder_report.json").exists()
     assert (tmp_path / "BOUNDARY_TO_NEURON_LADDER.md").exists()
+    assert (tmp_path / "BOUNDARY_TO_BIOLOGY_BOOTSTRAPPING_LADDER_v0.1.md").exists()
