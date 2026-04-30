@@ -1,0 +1,11 @@
+{
+  "constraint_packet_hash": "d0571a5fd48fc4cfa90f5e673ac3449c0ff92b4ef82a08463d8c1a6af3bed5d9",
+  "protocol": "HSM-v0",
+  "source_manifest_hash": "aea4e4a00c1d98a83d636d26a2bf97418c77991d27f68a6e49b119c3192e8604",
+  "sources": {
+    "allen_human": "Allen Cell Types Database / Allen human neuronal cell resources",
+    "h01": "Harvard/Google H01 human cortex dataset",
+    "hcp": "Human Connectome Project Young Adult release",
+    "microns": "MICrONS mammalian structure-function bridge"
+  }
+}

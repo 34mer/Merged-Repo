@@ -1,0 +1,41 @@
+{
+  "checkpoint_hash": "c9dccf6ef3a1fb43fb1a7e7cfb1330f64936b3d1badf9192f8639cb0530a0ca3",
+  "claim": "Human substrate migration is empirically possible",
+  "constraint_packet_hash": "d0571a5fd48fc4cfa90f5e673ac3449c0ff92b4ef82a08463d8c1a6af3bed5d9",
+  "controls": [
+    {
+      "control": "broken-constraint-hash",
+      "failed_as_expected": true,
+      "passed": false
+    },
+    {
+      "control": "random-substrate",
+      "failed_as_expected": true,
+      "passed": false
+    },
+    {
+      "control": "corrupt-checkpoint",
+      "failed_as_expected": true,
+      "passed": false
+    },
+    {
+      "control": "missing-parent-chain",
+      "failed_as_expected": true,
+      "passed": false
+    }
+  ],
+  "controls_failed_as_expected": true,
+  "human_constraints_verified": true,
+  "migration_verified": true,
+  "parent_chain_hash": "cca41a54a4623e8af5e9a98c8969ff64259fcdf0faed0862c9df86dac8dae038",
+  "parent_primitive_chain_verified": true,
+  "post_migration_constraints_preserved": true,
+  "protocol": "HSM-v0",
+  "source_substrate_constructed": true,
+  "source_substrate_hash": "7089569930ae318283603871f71a50999e6b2a837a4551a213b509e472ff8290",
+  "state_divergence": 0.0,
+  "status": "PASS",
+  "synthetic_substrate_constructed": true,
+  "synthetic_substrate_hash": "45945f3330c9d4a72a6f4778a9b251d475c3dbe188f46fdb559010780344fd1c",
+  "verification_hash": "5d4670da14cdd777de2cbf0db371e90632d316720bca36641fd5174cc31bb8a5"
+}

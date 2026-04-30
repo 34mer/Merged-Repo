@@ -1,0 +1,166 @@
+{
+  "bridge_constraint_count": 2,
+  "constraint_count": 15,
+  "constraint_packet_hash": "d0571a5fd48fc4cfa90f5e673ac3449c0ff92b4ef82a08463d8c1a6af3bed5d9",
+  "constraints": [
+    {
+      "constraint_plane": "human",
+      "expected": "bounded_excitability_family",
+      "hash": "ebc006ba82969cc8959eaaf9e6747589a27263405b8a54c43366f6d1ff6f7bf9",
+      "id": "human_neuron_excitability_class",
+      "parent_hashes": [],
+      "required": true,
+      "source": "Allen Cell Types Database",
+      "type": "operator_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "bounded_adaptation_family",
+      "hash": "227e4f6aeda133803473b58665994da40c157300ffc3ee534faa73b7d28d0563",
+      "id": "human_neuron_adaptation_class",
+      "parent_hashes": [],
+      "required": true,
+      "source": "Allen Cell Types Database",
+      "type": "operator_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_threshold_envelope",
+      "hash": "3c4c94f6c577d491c2d72b7c8c7b171d99700ffd4745db6b525bd100d88bdf9e",
+      "id": "human_neuron_threshold_regime",
+      "parent_hashes": [],
+      "required": true,
+      "source": "Allen Cell Types Database",
+      "type": "operator_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_morphology_envelope",
+      "hash": "affc6468ca1564d5dbf0c8c06a0f72864cb929f958dc0b9e9e03669eda389519",
+      "id": "human_neuron_morphology_envelope",
+      "parent_hashes": [],
+      "required": true,
+      "source": "Allen Cell Types Database",
+      "type": "geometry_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_cell_type_signature",
+      "hash": "fc54b6a00e95c6faa37a89900320adc763faa59a1a69e32d233ac282a7d39a3c",
+      "id": "human_neuron_cell_type_signature",
+      "parent_hashes": [],
+      "required": true,
+      "source": "Allen Cell Types Database",
+      "type": "metadata_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_synapse_density_range",
+      "hash": "7385e4620ef8c5b05676fc7e353c7cf91c7a531f1d2414c741a8b07e2405df98",
+      "id": "human_micro_synapse_density_range",
+      "parent_hashes": [],
+      "required": true,
+      "source": "H01 human cortex dataset",
+      "type": "microstructure_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_cell_density_range",
+      "hash": "ef79832fa49e8e0922f7581467123343078be9d556fac04148128283b1981fac",
+      "id": "human_micro_cell_density_range",
+      "parent_hashes": [],
+      "required": true,
+      "source": "H01 human cortex dataset",
+      "type": "microstructure_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_cortical_motif_signature",
+      "hash": "d64667c95c8ac8debd4aab0b4d7070bfa3a193ae16f6ba262e8d694f7f8b875e",
+      "id": "human_micro_motif_signature",
+      "parent_hashes": [],
+      "required": true,
+      "source": "H01 human cortex dataset",
+      "type": "motif_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_micro_boundary_geometry_signature",
+      "hash": "0e1a231f2cf4ea4db0a443e241ac9469879eae0583c2b350bd758cff52547249",
+      "id": "human_micro_boundary_geometry_signature",
+      "parent_hashes": [],
+      "required": true,
+      "source": "H01 human cortex dataset",
+      "type": "boundary_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_network_modularity_envelope",
+      "hash": "7973270a1678d39e4d64300e76333dc4927196f134d5d093c5b49995b8ae884a",
+      "id": "human_macro_network_modularity",
+      "parent_hashes": [],
+      "required": true,
+      "source": "Human Connectome Project",
+      "type": "macro_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_rest_task_state_structure",
+      "hash": "b8bdb49ae8e4b0cfba4bd3c320c08e626df52b7675c75bc3315a06e697b19d71",
+      "id": "human_macro_rest_task_state_structure",
+      "parent_hashes": [],
+      "required": true,
+      "source": "Human Connectome Project",
+      "type": "macro_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_connectivity_signature",
+      "hash": "756811b9460584238e90583f421ab93a84deb5ce6f0546b32235ed9150712a25",
+      "id": "human_macro_connectivity_signature",
+      "parent_hashes": [],
+      "required": true,
+      "source": "Human Connectome Project",
+      "type": "macro_constraint"
+    },
+    {
+      "constraint_plane": "human",
+      "expected": "human_state_transition_envelope",
+      "hash": "101d460ec10056d41087b72c0a4d5fa64f06e1c93954a1c40721907c4659ecfa",
+      "id": "human_macro_state_transition_envelope",
+      "parent_hashes": [],
+      "required": true,
+      "source": "Human Connectome Project",
+      "type": "macro_constraint"
+    },
+    {
+      "constraint_plane": "bridge",
+      "expected": "microconnectome_activity_coupling",
+      "hash": "e7cff0fea960994ed42fd65c688f9d761aa5acf953d6c647b68e0f6cdb68f7ee",
+      "id": "mammalian_structure_function_coupling",
+      "parent_hashes": [],
+      "required": true,
+      "source": "MICrONS",
+      "type": "bridge_constraint"
+    },
+    {
+      "constraint_plane": "bridge",
+      "expected": "structure_function_bridge_signature",
+      "hash": "74becc0d7c470aaeacb250d9420b12a38dc534d5d5b56781fbef51b0850ff280",
+      "id": "microconnectome_to_activity_signature",
+      "parent_hashes": [],
+      "required": true,
+      "source": "MICrONS",
+      "type": "bridge_constraint"
+    }
+  ],
+  "human_constraint_count": 13,
+  "protocol": "HSM-v0",
+  "schema": "hsm-constraint-packet-v0",
+  "sources": {
+    "allen_human": "Allen Cell Types Database / Allen human neuronal cell resources",
+    "h01": "Harvard/Google H01 human cortex dataset",
+    "hcp": "Human Connectome Project Young Adult release",
+    "microns": "MICrONS mammalian structure-function bridge"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "constraint_satisfaction": {
+    "human_macrostate_constraints": true,
+    "human_microstructure_constraints": true,
+    "human_neuron_constraints": true,
+    "structure_function_bridge_constraints": true
+  },
+  "constraint_signature": {
+    "constraint_packet_hash": "d0571a5fd48fc4cfa90f5e673ac3449c0ff92b4ef82a08463d8c1a6af3bed5d9",
+    "parent_chain_hash": "cca41a54a4623e8af5e9a98c8969ff64259fcdf0faed0862c9df86dac8dae038",
+    "parent_hashes": [
+      "5775f7a9f919b295d72836f6d7e22cbb60cad931c27a0c44ce16524278b7712d",
+      "eee517a670b2ad3c007828a3a82a3453a8e7cc635d7a17010c42376d37ccdbbd",
+      "6adf55189a102e92a1bc5994865262e4cac3537fb6e7bd903dce0884b9f65c12",
+      "df2911366e64430fa22adcc3505e4236402646e5ad95046f8a6d5af5c8cfb7d0",
+      "82d1f082fa0a06419c10968b3ff6179eccf460637227e32c4d64c33be9eb0202",
+      "46b2800f1fade4d12e4e765439eebbc49d4cb2082c879bcc37abb8c09378aa19",
+      "31636a34c56d08bba7a84c1cadc50585a278a417361e81e9338517817587b9ed",
+      "a77e89279fa69606ddcd1de820db5fcf41217cf9ed71d5189e2e3caa7a0b5deb"
+    ],
+    "required_constraint_ids": [
+      "human_neuron_excitability_class",
+      "human_neuron_adaptation_class",
+      "human_neuron_threshold_regime",
+      "human_neuron_morphology_envelope",
+      "human_neuron_cell_type_signature",
+      "human_micro_synapse_density_range",
+      "human_micro_cell_density_range",
+      "human_micro_motif_signature",
+      "human_micro_boundary_geometry_signature",
+      "human_macro_network_modularity",
+      "human_macro_rest_task_state_structure",
+      "human_macro_connectivity_signature",
+      "human_macro_state_transition_envelope",
+      "mammalian_structure_function_coupling",
+      "microconnectome_to_activity_signature"
+    ]
+  },
+  "deterministic_update_rule": "hsm_v0_operator_update",
+  "kind": "HumanConstrainedSourceSubstrate",
+  "migratable_state_boundary": [
+    "macrostate_operator_state",
+    "microstructure_operator_state",
+    "migration_state",
+    "neuron_operator_state",
+    "structure_function_bridge_state"
+  ],
+  "protocol": "HSM-v0",
+  "schema": "human-constrained-source-substrate-v0",
+  "source_substrate_hash": "7089569930ae318283603871f71a50999e6b2a837a4551a213b509e472ff8290",
+  "state": {
+    "macrostate_operator_state": 0.5462868769074263,
+    "microstructure_operator_state": 0.09788092835519677,
+    "migration_state": 0.0,
+    "neuron_operator_state": 0.8134403209628887,
+    "structure_function_bridge_state": 0.8167860798362334
+  }
+}
