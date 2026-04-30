@@ -8,7 +8,7 @@ import numpy as np
 
 from .checkpoint import file_hash
 from .config import WormConfig
-from .dynamics import _muscle_projection, run_steps, step
+from .dynamics import step
 from .environment import sensory_vector
 from .organism import initial_state
 from .tasks import (
@@ -18,6 +18,7 @@ from .tasks import (
     get_task,
     parse_tasks,
     task_metrics,
+    update_environment_for_task,
 )
 
 DATASET_SCHEMA = "wormsim-source-trace-v1"
@@ -69,11 +70,12 @@ def collect_dataset(
     for episode in range(episodes):
         task_name = task_names[episode % len(task_names)]
         task = get_task(task_name, config)
-        env = environment_for_task(task)
+        env = environment_for_task(task, config=config, step=0)
         state = apply_task_start(task, initial_state(WormConfig(seed=seed + episode, neurons=neurons)))
         for local_step in range(steps):
+            env = update_environment_for_task(config, task, env, local_step)
             sensory = sensory_vector(config, env, state.position, state.orientation)
-            metrics = task_metrics(config, task, state.position)
+            metrics = task_metrics(config, task, state.position, step=local_step)
             neural_rows.append(state.neuron_state.copy())
             sensory_rows.append(sensory[:7].copy())
             motor_rows.append(motor_from_muscles(state.muscle_state))
@@ -122,18 +124,19 @@ def load_dataset(path: str | Path) -> dict[str, np.ndarray]:
 
 def source_behavior_reference(config: WormConfig, task_name: str, steps: int, seed: int = 42) -> dict[str, Any]:
     task = get_task(task_name, config)
-    env = environment_for_task(task)
+    env = environment_for_task(task, config=config, step=0)
     state = apply_task_start(task, initial_state(WormConfig(seed=seed, neurons=config.neurons)))
     viability: list[float] = []
     positions: list[np.ndarray] = []
-    for _ in range(steps):
+    for local_step in range(steps):
+        env = update_environment_for_task(config, task, env, local_step)
         state = apply_perturbation(task, state)
         env, state = step(config, env, state)
-        viability.append(task_metrics(config, task, state.position).viability)
+        viability.append(task_metrics(config, task, state.position, step=local_step).viability)
         positions.append(state.position.copy())
     positions_array = np.vstack(positions)
     return {
         "mean_viability": float(np.mean(viability)),
-        "final_distance_to_food": float(task_metrics(config, task, state.position).distance_to_food),
+        "final_distance_to_food": float(task_metrics(config, task, state.position, step=max(steps - 1, 0)).distance_to_food),
         "positions": positions_array,
     }

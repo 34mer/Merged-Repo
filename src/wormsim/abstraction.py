@@ -10,11 +10,16 @@ import numpy as np
 
 from .checkpoint import _canonical_json, file_hash
 from .config import WormConfig
-from .dataset import load_dataset, motor_from_muscles, source_behavior_reference
-from .dynamics import step as full_step
+from .dataset import load_dataset, source_behavior_reference
 from .environment import EnvironmentState, clamp_to_world, sensory_vector
-from .organism import WormState, initial_state
-from .tasks import apply_perturbation, apply_task_start, environment_for_task, get_task, task_metrics
+from .organism import initial_state
+from .tasks import (
+    apply_task_start,
+    environment_for_task,
+    get_task,
+    task_metrics,
+    update_environment_for_task,
+)
 
 ABSTRACTION_SCHEMA = "wormsim-pca-ridge-abstraction-v1"
 ABSTRACT_CHECKPOINT_SCHEMA = "wormsim-abstract-checkpoint-v1"
@@ -128,7 +133,7 @@ class PCARidgeModel:
 
 def initial_abstract_state(model: PCARidgeModel, config: WormConfig, task_name: str, seed: int = 42) -> tuple[EnvironmentState, AbstractState]:
     task = get_task(task_name, config)
-    env = environment_for_task(task)
+    env = environment_for_task(task, config=config, step=0)
     source_state = apply_task_start(task, initial_state(WormConfig(seed=seed, neurons=config.neurons)))
     return env, AbstractState(
         step=0,
@@ -144,12 +149,25 @@ def _body_from_abstract(state: AbstractState) -> np.ndarray:
     return np.array([state.position[0], state.position[1], state.velocity[0], state.velocity[1], state.orientation], dtype=np.float64)
 
 
+def _perturb_abstract(config: WormConfig, task_name: str, state: AbstractState) -> AbstractState:
+    task = get_task(task_name, config)
+    if task.perturb_every <= 0 or state.step <= 0 or state.step % task.perturb_every != 0:
+        return state
+    orientation = float((state.orientation + task.perturb_angle + np.pi) % (2.0 * np.pi) - np.pi)
+    velocity = np.array([-state.velocity[1], state.velocity[0]], dtype=np.float64)
+    position = state.position.copy()
+    if task.displacement_magnitude > 0.0:
+        heading = np.array([np.cos(orientation), np.sin(orientation)], dtype=np.float64)
+        sideways = np.array([-heading[1], heading[0]], dtype=np.float64)
+        sign = -1.0 if (state.step // task.perturb_every) % 2 else 1.0
+        position = np.clip(position + sign * task.displacement_magnitude * sideways, 0.0, config.world_size)
+    return AbstractState(state.step, state.latent_state, position, velocity, orientation, state.rng_state)
+
+
 def abstract_step(config: WormConfig, model: PCARidgeModel, task_name: str, env: EnvironmentState, state: AbstractState) -> tuple[EnvironmentState, AbstractState, np.ndarray]:
     task = get_task(task_name, config)
-    if task.perturb_every > 0 and state.step > 0 and state.step % task.perturb_every == 0:
-        orientation = float((state.orientation + task.perturb_angle + np.pi) % (2.0 * np.pi) - np.pi)
-        velocity = np.array([-state.velocity[1], state.velocity[0]], dtype=np.float64)
-        state = AbstractState(state.step, state.latent_state, state.position, velocity, orientation, state.rng_state)
+    env = update_environment_for_task(config, task, env, state.step)
+    state = _perturb_abstract(config, task_name, state)
 
     sensory = sensory_vector(config, env, state.position, state.orientation)[:7]
     body = _body_from_abstract(state)
@@ -181,9 +199,10 @@ def run_abstracted(model_path: str | Path, out: str | Path, task_name: str = "mi
     env, state = initial_abstract_state(model, config, task_name, seed=seed)
     trajectory: list[list[float]] = []
     viability: list[float] = []
+    task = get_task(task_name, config)
     for _ in range(steps):
         env, state, motor = abstract_step(config, model, task_name, env, state)
-        metrics = task_metrics(config, get_task(task_name, config), state.position)
+        metrics = task_metrics(config, task, state.position, step=max(state.step - 1, 0))
         trajectory.append([float(state.step), float(state.position[0]), float(state.position[1]), float(state.orientation), float(np.sum(state.latent_state))])
         viability.append(metrics.viability)
     out_path = Path(out)
@@ -197,7 +216,7 @@ def run_abstracted(model_path: str | Path, out: str | Path, task_name: str = "mi
         "task": task_name,
         "steps": steps,
         "mean_viability": float(np.mean(viability)) if viability else 0.0,
-        "final_distance_to_food": float(task_metrics(config, get_task(task_name, config), state.position).distance_to_food),
+        "final_distance_to_food": float(task_metrics(config, task, state.position, step=max(state.step - 1, 0)).distance_to_food),
     }
     (out_path / "run_report.json").write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return report
@@ -262,6 +281,7 @@ def verify_abstracted_migration(model_path: str | Path, checkpoint_a: str | Path
     model = PCARidgeModel(model_path)
     config_a, task_a, env_a, state_a, model_hash_a = load_abstract_checkpoint(checkpoint_a)
     config_b, task_b, env_b, state_b, model_hash_b = load_abstract_checkpoint(checkpoint_b)
+    task = get_task(task_a, config_a)
     traj_a: list[np.ndarray] = []
     traj_b: list[np.ndarray] = []
     viability: list[float] = []
@@ -270,7 +290,7 @@ def verify_abstracted_migration(model_path: str | Path, checkpoint_a: str | Path
         env_b, state_b, _ = abstract_step(config_b, model, task_b, env_b, state_b)
         traj_a.append(np.concatenate([state_a.latent_state, state_a.position, state_a.velocity, [state_a.orientation]]))
         traj_b.append(np.concatenate([state_b.latent_state, state_b.position, state_b.velocity, [state_b.orientation]]))
-        viability.append(task_metrics(config_a, get_task(task_a, config_a), state_a.position).viability)
+        viability.append(task_metrics(config_a, task, state_a.position, step=max(state_a.step - 1, 0)).viability)
     divergence = float(np.max(np.abs(np.vstack(traj_a) - np.vstack(traj_b)))) if traj_a else 0.0
     hash_match = file_hash(checkpoint_a) == file_hash(checkpoint_b)
     model_match = model.model_hash == model_hash_a == model_hash_b
@@ -281,7 +301,7 @@ def verify_abstracted_migration(model_path: str | Path, checkpoint_a: str | Path
         checkpoint_hash_matched=hash_match,
         latent_trajectory_divergence=divergence,
         mean_viability=float(np.mean(viability)) if viability else 0.0,
-        final_distance_to_food=float(task_metrics(config_a, get_task(task_a, config_a), state_a.position).distance_to_food),
+        final_distance_to_food=float(task_metrics(config_a, task, state_a.position, step=max(state_a.step - 1, 0)).distance_to_food),
         behavior_continuation="passed" if status == "ABSTRACTED MIGRATION VERIFIED" else "failed",
     )
 

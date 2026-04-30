@@ -92,3 +92,7 @@ This does not claim biological C. elegans migration. It is a controlled digital 
 ## Public-readiness extension
 
 The public-readiness layer adds a benchmark curve across latent dimensions and controls. The curve runner trains each PCA-Ridge abstraction, runs it live in closed loop, migrates the abstracted checkpoint, verifies zero post-migration latent divergence, and writes JSON/CSV curve artifacts. It also includes random-latent and behavior-only controls to test whether retained behavior is nontrivial.
+
+## Harder benchmark extension
+
+The hard benchmark layer adds dynamic and held-out task variants: `dynamic_food`, `time_harm`, `memory`, `switch`, and `hard_mixed`. These introduce moving food, time-varying harm zones, stronger perturbations, delayed harm, task switches, and memory-like post-switch scoring so simple behavior-only controls have a harder path to pass.
