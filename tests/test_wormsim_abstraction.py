@@ -55,3 +55,36 @@ def test_pca_ridge_abstraction_migrates_and_benchmarks(tmp_path: Path) -> None:
     assert verification.latent_trajectory_divergence == 0.0
     assert 0.0 <= benchmark["behavior_fidelity"] <= 1.0
     assert benchmark["compression_ratio"] == 302 / 16
+
+
+def test_abstraction_curve_includes_controls(tmp_path: Path) -> None:
+    dataset_dir = tmp_path / "dataset"
+    curve_dir = tmp_path / "curve"
+
+    collect_dataset(dataset_dir, tasks="food,harm,perturb,wall,mixed", episodes=5, steps=18, seed=17)
+    from wormsim.curve import generate_abstraction_curve
+
+    summary = generate_abstraction_curve(
+        dataset=dataset_dir,
+        out=curve_dir,
+        latent_dims=[8, 4],
+        task_name="mixed",
+        steps=20,
+        seed=17,
+        migration_steps=10,
+        include_controls=True,
+    )
+
+    rows_path = curve_dir / "abstraction_curve.json"
+    assert summary["status"] == "ABSTRACTION CURVE COMPLETE"
+    assert rows_path.exists()
+    assert (curve_dir / "abstraction_curve.csv").exists()
+    import json
+
+    rows = json.loads(rows_path.read_text(encoding="utf-8"))
+    methods = {row["method"] for row in rows}
+    assert "source-reference" in methods
+    assert "pca-ridge" in methods
+    assert "random-latent-control" in methods
+    assert "behavior-only-mean-control" in methods
+    assert all(row["migration_verified"] for row in rows)

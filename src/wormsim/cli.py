@@ -15,6 +15,7 @@ from .abstraction import (
 )
 from .checkpoint import file_hash, load_checkpoint, save_checkpoint, verify_hash
 from .config import WormConfig
+from .curve import generate_abstraction_curve
 from .dataset import collect_dataset
 from .dynamics import run_steps
 from .environment import initial_environment
@@ -223,6 +224,38 @@ def benchmark_abstraction_command(
     typer.echo(f"Compression ratio: {report['compression_ratio']:.2f}x")
     typer.echo(f"Behavior fidelity: {report['behavior_fidelity']:.4f}")
     typer.echo(f"Self-maintenance retained: {report['self_maintenance_retained']:.4f}")
+
+
+@app.command("benchmark-curve")
+def benchmark_curve_command(
+    dataset: Path = typer.Option(Path("datasets/source_302_v1"), help="Dataset directory or dataset.npz."),
+    latent_dims: str = typer.Option("150,64,32,16,8", help="Comma-separated latent dimensions."),
+    task: str = typer.Option("mixed", help="Task name."),
+    steps: int = typer.Option(1000, help="Live benchmark steps per model."),
+    migration_steps: int = typer.Option(250, help="Post-migration verification steps per model."),
+    seed: int = typer.Option(42, help="Deterministic seed."),
+    include_controls: bool = typer.Option(True, help="Include random and behavior-only controls."),
+    out: Path = typer.Option(Path("reports/abstraction_curve"), help="Curve report directory."),
+) -> None:
+    dims = [int(item.strip()) for item in latent_dims.split(",") if item.strip()]
+    summary = generate_abstraction_curve(
+        dataset=dataset,
+        out=out,
+        latent_dims=dims,
+        task_name=task,
+        steps=steps,
+        seed=seed,
+        migration_steps=migration_steps,
+        include_controls=include_controls,
+    )
+    typer.echo(summary["status"])
+    typer.echo(f"Task: {summary['task']}")
+    typer.echo(f"Latent dims: {summary['latent_dims']}")
+    typer.echo(f"Curve JSON: {summary['curve_json']}")
+    typer.echo(f"Curve CSV: {summary['curve_csv']}")
+    best = summary.get("best_pca_model")
+    if best:
+        typer.echo(f"Best PCA: {best['model']} behavior={best['behavior_fidelity']:.4f} self-maintenance={best['self_maintenance_retained']:.4f}")
 
 
 if __name__ == "__main__":
