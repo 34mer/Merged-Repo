@@ -30,5 +30,5 @@ line-length = 100
 
 [tool.setuptools.packages.find]
 where = [".", "src"]
-include = ["projectx*", "pg_pipeline*", "wormsim*"]
+include = ["projectx*", "pg_pipeline*", "wormsim*", "substrate*"]
 
