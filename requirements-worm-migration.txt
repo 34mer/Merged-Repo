@@ -1,0 +1,7 @@
+numpy>=1.26
+blake3>=0.4
+typer>=0.12
+pytest>=8.0
+matplotlib>=3.8
+pygame>=2.5
+imageio>=2.34
