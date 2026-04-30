@@ -19,7 +19,10 @@ from .curve import generate_abstraction_curve
 from .dataset import collect_dataset
 from .dynamics import run_steps
 from .environment import initial_environment
+from .improvement import ImprovedSubstrateConfig, benchmark_improved_substrate, train_improved_substrate
 from .organism import initial_state
+from .repair import run_repair_test
+from .reports import generate_improved_substrate_report
 from .verify import compare_from_checkpoints, write_report
 
 app = typer.Typer(help="Deterministic worm-inspired substrate migration demo.")
@@ -256,6 +259,113 @@ def benchmark_curve_command(
     best = summary.get("best_pca_model")
     if best:
         typer.echo(f"Best PCA: {best['model']} behavior={best['behavior_fidelity']:.4f} self-maintenance={best['self_maintenance_retained']:.4f}")
+
+
+@app.command("train-improved-substrate")
+def train_improved_substrate_command(
+    dataset: Path = typer.Option(..., help="Dataset directory or dataset.npz."),
+    base_abstraction: Path | None = typer.Option(None, help="Optional existing PCA-Ridge model directory."),
+    latent_dim: int = typer.Option(8, help="Latent dimensionality if fitting a base model."),
+    method: str = typer.Option("robust-regularized", help="Improvement method label."),
+    equivalence_threshold: float = typer.Option(0.90, help="Equivalence gate used in reports."),
+    transition_shrink: float = typer.Option(0.92, help="Shrink factor for transition dynamics."),
+    motor_smoothing: float = typer.Option(0.08, help="Motor smoothing factor."),
+    alpha: float = typer.Option(1e-3, help="Ridge regularization if fitting a base model."),
+    out: Path = typer.Option(Path("abstractions/pca8_improved"), help="Improved model output directory."),
+) -> None:
+    cfg = ImprovedSubstrateConfig(
+        method=method,
+        equivalence_threshold=equivalence_threshold,
+        transition_shrink=transition_shrink,
+        motor_smoothing=motor_smoothing,
+        alpha=alpha,
+    )
+    metadata = train_improved_substrate(base_abstraction, dataset, out, latent_dim=latent_dim, config=cfg)
+    typer.echo("Improved substrate trained")
+    typer.echo(f"Method: {metadata['method']}")
+    typer.echo(f"Latent dim: {metadata['latent_dim']}")
+    typer.echo(f"Compression ratio: {metadata['compression_ratio']:.2f}x")
+    typer.echo(f"Model hash: {metadata['model_hash']}")
+
+
+@app.command("run-improved-substrate")
+def run_improved_substrate_command(
+    model: Path = typer.Option(..., help="Improved substrate model directory."),
+    task: str = typer.Option("hard_mixed", help="Task name."),
+    steps: int = typer.Option(5000, help="Live closed-loop steps."),
+    seed: int = typer.Option(42, help="Deterministic seed."),
+    out: Path = typer.Option(Path("runs/pca8_improved_live"), help="Run output directory."),
+) -> None:
+    report = run_abstracted_model(model_path=model, out=out, task_name=task, steps=steps, seed=seed)
+    typer.echo(report["status"])
+    typer.echo(f"Model hash: {report['model_hash']}")
+    typer.echo(f"Checkpoint hash: {report['checkpoint_hash']}")
+    typer.echo(f"Mean viability: {report['mean_viability']:.4f}")
+
+
+@app.command("migrate-improved-substrate")
+def migrate_improved_substrate_command(
+    checkpoint: Path = typer.Option(..., help="Improved-substrate checkpoint to migrate."),
+    out: Path = typer.Option(Path("runs/pca8_improved_migrated"), help="Destination folder."),
+) -> None:
+    manifest = migrate_abstracted_checkpoint(checkpoint=checkpoint, out=out)
+    typer.echo(f"copied checkpoint to {manifest['target']}")
+    typer.echo("hash verified" if manifest["hash_matched"] else "hash mismatch")
+    raise typer.Exit(0 if manifest["hash_matched"] else 1)
+
+
+@app.command("benchmark-improved-substrate")
+def benchmark_improved_substrate_command(
+    dataset: Path = typer.Option(..., help="Source hard dataset used for controls."),
+    base: Path = typer.Option(..., help="Base PCA-Ridge model directory."),
+    improved: Path = typer.Option(..., help="Improved substrate model directory."),
+    task: str = typer.Option("hard_mixed", help="Held-out/hard task name."),
+    steps: int = typer.Option(1000, help="Benchmark steps."),
+    migration_steps: int = typer.Option(250, help="Post-migration verification steps."),
+    seed: int = typer.Option(42, help="Deterministic seed."),
+    equivalence_threshold: float = typer.Option(0.90, help="Equivalence gate."),
+    include_controls: bool = typer.Option(True, help="Include controls."),
+    out: Path = typer.Option(Path("reports/process_preserving_substrate_optimization"), help="Report directory."),
+) -> None:
+    report = benchmark_improved_substrate(
+        source_dataset=dataset,
+        base_model=base,
+        improved_model=improved,
+        out=out,
+        task_name=task,
+        steps=steps,
+        migration_steps=migration_steps,
+        seed=seed,
+        equivalence_threshold=equivalence_threshold,
+        include_controls=include_controls,
+    )
+    paths = generate_improved_substrate_report(report, out)
+    typer.echo(report["status"])
+    typer.echo(f"Equivalence passed: {report['improved']['scores']['equivalence_passed']}")
+    typer.echo(f"Equivalence score: {report['improved']['scores']['equivalence_score']:.4f}")
+    typer.echo(f"Improvement score: {report['improved']['scores']['improvement_score']:.4f}")
+    typer.echo(f"Efficiency score: {report['improved']['scores']['efficiency_score']:.4f}")
+    typer.echo(f"Repairability score: {report['improved']['scores']['repairability_score']:.4f}")
+    typer.echo(f"Total score: {report['improved']['scores']['total_score']:.4f}")
+    typer.echo(f"Report JSON: {paths['json']}")
+    typer.echo(f"Summary: {paths['markdown']}")
+
+
+@app.command("repair-test")
+def repair_test_command(
+    model: Path = typer.Option(..., help="Model directory."),
+    corruption: str = typer.Option("zero_10_percent,gaussian_noise,sign_flip", help="Comma-separated corruption types."),
+    task: str = typer.Option("hard_mixed", help="Task name."),
+    steps_before: int = typer.Option(20, help="Steps before corruption."),
+    steps_after: int = typer.Option(60, help="Steps after corruption."),
+    seed: int = typer.Option(42, help="Deterministic seed."),
+    out: Path = typer.Option(Path("reports/repair_test"), help="Repair report directory."),
+) -> None:
+    corruptions = [item.strip() for item in corruption.split(",") if item.strip()]
+    report = run_repair_test(model, out, corruptions=corruptions, task_name=task, steps_before=steps_before, steps_after=steps_after, seed=seed)
+    typer.echo(report["status"])
+    typer.echo(f"Mean repair score: {report['mean_repair_score']:.4f}")
+    typer.echo(f"Report: {out / 'repair_report.json'}")
 
 
 if __name__ == "__main__":
