@@ -187,7 +187,7 @@ def md_summary(args: argparse.Namespace, agg: list[dict[str, Any]]) -> str:
     for r in agg:
         lines.append(
             f"| {r['latent_dim']} | {float(r['compression_ratio']):.2f}x | {r['n_runs']} | "
-            f"{r['improved_equivalence_mean']:.4f}±{r['improved_equivalence_std']:.4f} | "
+            f"{r['improved_equivalence_mean']:.4f}+/-{r['improved_equivalence_std']:.4f} | "
             f"{r['improved_pass_rate']:.2f} | {r['base_equivalence_mean']:.4f} | {r['base_pass_rate']:.2f} | "
             f"{r['repairability_mean']:.4f} | {r['total_mean']:.4f} | {r['migration_pass_rate']:.2f} | "
             f"{r['control_fail_rate']:.2f} | {r['scientific_pass']} |"

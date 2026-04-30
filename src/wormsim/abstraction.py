@@ -23,6 +23,14 @@ from .tasks import (
 
 ABSTRACTION_SCHEMA = "wormsim-pca-ridge-abstraction-v1"
 ABSTRACT_CHECKPOINT_SCHEMA = "wormsim-abstract-checkpoint-v1"
+LATENT_CLIP = 1_000.0
+MOTOR_CLIP = 10.0
+
+
+def _safe_vector(values: np.ndarray, clip: float) -> np.ndarray:
+    """Keep stress-test dynamics finite without hiding instability from metrics."""
+
+    return np.nan_to_num(values, nan=0.0, posinf=clip, neginf=-clip).clip(-clip, clip).astype(np.float64)
 
 
 @dataclass(frozen=True)
@@ -120,15 +128,19 @@ class PCARidgeModel:
         self.model_hash = file_hash(model_path)
 
     def encode(self, neuron_state: np.ndarray) -> np.ndarray:
-        return (neuron_state - self.mean) @ self.components.T
+        return _safe_vector((neuron_state - self.mean) @ self.components.T, LATENT_CLIP)
 
     def decode_motor(self, latent_state: np.ndarray) -> np.ndarray:
-        design = np.concatenate([latent_state, np.ones(1, dtype=np.float64)])
-        return design @ self.motor_weights
+        safe_latent = _safe_vector(latent_state, LATENT_CLIP)
+        design = np.concatenate([safe_latent, np.ones(1, dtype=np.float64)])
+        return _safe_vector(design @ self.motor_weights, MOTOR_CLIP)
 
     def transition(self, latent_state: np.ndarray, sensory: np.ndarray, body: np.ndarray) -> np.ndarray:
-        design = np.concatenate([latent_state, sensory, body, np.ones(1, dtype=np.float64)])
-        return design @ self.transition_weights
+        safe_latent = _safe_vector(latent_state, LATENT_CLIP)
+        safe_sensory = _safe_vector(sensory, LATENT_CLIP)
+        safe_body = _safe_vector(body, LATENT_CLIP)
+        design = np.concatenate([safe_latent, safe_sensory, safe_body, np.ones(1, dtype=np.float64)])
+        return _safe_vector(design @ self.transition_weights, LATENT_CLIP)
 
 
 def initial_abstract_state(model: PCARidgeModel, config: WormConfig, task_name: str, seed: int = 42) -> tuple[EnvironmentState, AbstractState]:
@@ -238,7 +250,7 @@ def save_abstract_checkpoint(path: str | Path, config: WormConfig, model: PCARid
     np.savez_compressed(
         path,
         metadata=np.array(_canonical_json(metadata)),
-        latent_state=state.latent_state.astype(np.float64),
+        latent_state=_safe_vector(state.latent_state, LATENT_CLIP),
         position=state.position.astype(np.float64),
         velocity=state.velocity.astype(np.float64),
     )
