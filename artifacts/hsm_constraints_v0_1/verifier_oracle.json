@@ -1,0 +1,120 @@
+{
+  "constraints": [
+    {
+      "feature": "threshold_norm",
+      "hash": "916f4b32a6ef21735fe76d74863a143473c7506a62fb0aaea5566c6c79827e0e",
+      "id": "human_neuron_threshold_regime",
+      "plane": "human_neuron",
+      "range": [
+        0.3,
+        0.7
+      ],
+      "required": true,
+      "source": "Allen human neuronal electrophysiology constraints",
+      "split": "heldout_verifier_oracle",
+      "units": "normalized_operator"
+    },
+    {
+      "feature": "adaptation_norm",
+      "hash": "486e8810f744c5899098e444705954375ba0648378ac77c78947a4f547610168",
+      "id": "human_neuron_adaptation_class",
+      "plane": "human_neuron",
+      "range": [
+        0.28,
+        0.72
+      ],
+      "required": true,
+      "source": "Allen human neuronal electrophysiology constraints",
+      "split": "heldout_verifier_oracle",
+      "units": "normalized_operator"
+    },
+    {
+      "feature": "excitability_norm",
+      "hash": "66edd896727e534690b44c6b25396f97eeae646678c02e488c7b60656dfb154c",
+      "id": "human_neuron_excitability_class",
+      "plane": "human_neuron",
+      "range": [
+        0.32,
+        0.76
+      ],
+      "required": true,
+      "source": "Allen human neuronal electrophysiology constraints",
+      "split": "heldout_verifier_oracle",
+      "units": "normalized_operator"
+    },
+    {
+      "feature": "synapse_density_norm",
+      "hash": "5f29a3feb2e76a7f1898b1d8087e968a5d3a8b7a4179b694a4fe6414caa5e46c",
+      "id": "human_micro_synapse_density_range",
+      "plane": "human_microstructure",
+      "range": [
+        0.26,
+        0.74
+      ],
+      "required": true,
+      "source": "H01 human cortex microstructure constraints",
+      "split": "heldout_verifier_oracle",
+      "units": "normalized_density"
+    },
+    {
+      "feature": "micro_motif_norm",
+      "hash": "047ef1640b9a4f592ab366d0959ddf5c31e9a27e853d58feda312adee9cb821e",
+      "id": "human_micro_motif_signature",
+      "plane": "human_microstructure",
+      "range": [
+        0.24,
+        0.78
+      ],
+      "required": true,
+      "source": "H01 human cortex motif constraints",
+      "split": "heldout_verifier_oracle",
+      "units": "normalized_motif_score"
+    },
+    {
+      "feature": "macro_modularity_norm",
+      "hash": "ff6312432a14e908ecf066ff28d5124e81bd8142b09e801cf6fbafc5c9339136",
+      "id": "human_macro_network_modularity",
+      "plane": "human_macro",
+      "range": [
+        0.25,
+        0.8
+      ],
+      "required": true,
+      "source": "Human Connectome Project macro-connectivity constraints",
+      "split": "heldout_verifier_oracle",
+      "units": "normalized_graph_statistic"
+    },
+    {
+      "feature": "state_transition_norm",
+      "hash": "4afa0432495c372a863cb228638cdc16f35bb0bd75ab64e00a749934e280c971",
+      "id": "human_macro_state_transition_envelope",
+      "plane": "human_macro",
+      "range": [
+        0.22,
+        0.72
+      ],
+      "required": true,
+      "source": "Human Connectome Project rest/task dynamics constraints",
+      "split": "heldout_verifier_oracle",
+      "units": "normalized_transition_statistic"
+    },
+    {
+      "feature": "structure_function_coupling_norm",
+      "hash": "da4c0dcee707ffca154e16a73c776b3f21a450df18e5e69abe048bf560613ee5",
+      "id": "mammalian_structure_function_coupling",
+      "plane": "bridge",
+      "range": [
+        0.3,
+        0.7
+      ],
+      "required": true,
+      "source": "MICrONS structure-function bridge constraints",
+      "split": "heldout_verifier_oracle",
+      "units": "normalized_coupling_score"
+    }
+  ],
+  "description": "Independently frozen held-out numeric verifier constraints not consumed by builders.",
+  "oracle_packet_hash": "5bc6bef82d143e9737d38a8751f9abb7485a0477033a6f5d3f8f189ba2312260",
+  "protocol": "HSM-v0.1",
+  "schema": "hsm-v0.1-independent-verifier-oracle"
+}

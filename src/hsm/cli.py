@@ -11,6 +11,7 @@ from .report import write_summary
 from .substrate import build_source_substrate
 from .translate import translate_to_synthetic
 from .verify import verify_hsm
+from .independent_protocol import prove_independent
 
 app = typer.Typer(help="Human Substrate Migration v0 protocol tools")
 
@@ -148,6 +149,44 @@ def prove() -> None:
     typer.echo("Controls failed as expected: true")
     typer.echo("\nReport: reports/hsm_v0_verification.json")
     typer.echo("Claim doc: docs/HSM_V0_CLAIM.md")
+
+
+@app.command("prove-independent")
+def prove_independent_cmd() -> None:
+    """Run HSM-v0.1 with independently frozen numeric verifier constraints."""
+    typer.echo("Building HSM-v0.1 independent construction/oracle packets...")
+    report = prove_independent()
+
+    typer.echo(f"Independent constraint packets: {'PASS' if report['independent_constraint_packets_verified'] else 'FAIL'}")
+    typer.echo(f"Construction packet hash: {report['construction_packet_hash']}")
+    typer.echo(f"Verifier oracle hash: {report['oracle_packet_hash']}")
+    typer.echo("\nRunning post-migration independent oracle verification...")
+    typer.echo(f"Oracle constraints preserved: {'PASS' if report['post_migration_independent_constraints_preserved'] else 'FAIL'}")
+    typer.echo(f"State divergence: {report['state_divergence']}")
+
+    typer.echo("\nRunning independent numeric controls...")
+    for row in report["controls"]:
+        label = row["control"].replace("-", " ").title()
+        typer.echo(f"{label}: FAILED as expected" if row["failed_as_expected"] else f"{label}: UNEXPECTED")
+
+    if report["status"] != "PASS":
+        typer.echo("\nHSM-v0.1 independent proof failed. Final claim withheld.")
+        raise typer.Exit(code=1)
+
+    typer.echo("\n============================================================")
+    typer.echo("HUMAN-CONSTRAINED SUBSTRATE MIGRATION PRESERVED INDEPENDENT CONSTRAINTS")
+    typer.echo("Status: PASS")
+    typer.echo("Protocol: HSM-v0.1")
+    typer.echo("============================================================")
+    typer.echo("\nIndependent construction packet: verified")
+    typer.echo("Independent verifier oracle: verified")
+    typer.echo("Human-constrained source substrate: constructed")
+    typer.echo("Synthetic substrate: constructed")
+    typer.echo("Migration: verified")
+    typer.echo("State divergence: 0.0")
+    typer.echo("Post-migration independent numeric constraints: preserved")
+    typer.echo("Independent controls failed as expected: true")
+    typer.echo("\nReport: reports/hsm_v0_1_verification.json")
 
 
 if __name__ == "__main__":

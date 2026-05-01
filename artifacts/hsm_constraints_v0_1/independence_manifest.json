@@ -1,0 +1,8 @@
+{
+  "construction_packet_hash": "e44adc7026720cc373dd4069bb33f3b5baed6004c8a5e4e1c08c905e4f080fbb",
+  "independence_rule": "Builders consume construction_constraints.json only; final verifier consumes verifier_oracle.json.",
+  "manifest_hash": "895e9420e45afe0e4a2456ccca56dbdadc59bc5d7b776b4d5d782667e56ea3d9",
+  "oracle_packet_hash": "5bc6bef82d143e9737d38a8751f9abb7485a0477033a6f5d3f8f189ba2312260",
+  "protocol": "HSM-v0.1",
+  "schema": "hsm-v0.1-independent-constraint-manifest"
+}

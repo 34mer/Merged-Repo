@@ -1,0 +1,120 @@
+{
+  "claim": "Human substrate migration preserves independently specified human constraints across substrate transition",
+  "construction_packet_hash": "e44adc7026720cc373dd4069bb33f3b5baed6004c8a5e4e1c08c905e4f080fbb",
+  "controls": [
+    {
+      "control": "numeric-feature-corruption",
+      "failed_as_expected": true,
+      "passed": false
+    },
+    {
+      "control": "independent-oracle-tightening",
+      "failed_as_expected": true,
+      "passed": false
+    },
+    {
+      "control": "oracle-hash-break",
+      "failed_as_expected": true,
+      "passed": false
+    }
+  ],
+  "controls_failed_as_expected": true,
+  "independent_constraint_packets_verified": true,
+  "migration_verified": true,
+  "oracle_evaluation": {
+    "passed_count": 8,
+    "rows": [
+      {
+        "feature": "threshold_norm",
+        "id": "human_neuron_threshold_regime",
+        "oracle_range": [
+          0.3,
+          0.7
+        ],
+        "passed": true,
+        "value": 0.5
+      },
+      {
+        "feature": "adaptation_norm",
+        "id": "human_neuron_adaptation_class",
+        "oracle_range": [
+          0.28,
+          0.72
+        ],
+        "passed": true,
+        "value": 0.5
+      },
+      {
+        "feature": "excitability_norm",
+        "id": "human_neuron_excitability_class",
+        "oracle_range": [
+          0.32,
+          0.76
+        ],
+        "passed": true,
+        "value": 0.52
+      },
+      {
+        "feature": "synapse_density_norm",
+        "id": "human_micro_synapse_density_range",
+        "oracle_range": [
+          0.26,
+          0.74
+        ],
+        "passed": true,
+        "value": 0.5
+      },
+      {
+        "feature": "micro_motif_norm",
+        "id": "human_micro_motif_signature",
+        "oracle_range": [
+          0.24,
+          0.78
+        ],
+        "passed": true,
+        "value": 0.51
+      },
+      {
+        "feature": "macro_modularity_norm",
+        "id": "human_macro_network_modularity",
+        "oracle_range": [
+          0.25,
+          0.8
+        ],
+        "passed": true,
+        "value": 0.52
+      },
+      {
+        "feature": "state_transition_norm",
+        "id": "human_macro_state_transition_envelope",
+        "oracle_range": [
+          0.22,
+          0.72
+        ],
+        "passed": true,
+        "value": 0.47
+      },
+      {
+        "feature": "structure_function_coupling_norm",
+        "id": "mammalian_structure_function_coupling",
+        "oracle_range": [
+          0.3,
+          0.7
+        ],
+        "passed": true,
+        "value": 0.5
+      }
+    ],
+    "status": "PASS",
+    "total_count": 8
+  },
+  "oracle_hash_preserved": true,
+  "oracle_packet_hash": "5bc6bef82d143e9737d38a8751f9abb7485a0477033a6f5d3f8f189ba2312260",
+  "post_migration_independent_constraints_preserved": true,
+  "protocol": "HSM-v0.1",
+  "source_substrate_constructed": true,
+  "state_divergence": 0.0,
+  "status": "PASS",
+  "synthetic_substrate_constructed": true,
+  "verification_hash": "7b4eb81ade39a24d8bcd11cfaba5e310a141f61dff179bbd76cf1d35e084fc55"
+}

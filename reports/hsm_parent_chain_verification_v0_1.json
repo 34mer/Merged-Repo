@@ -1,0 +1,19 @@
+{
+  "parent_chain_hash": "cca41a54a4623e8af5e9a98c8969ff64259fcdf0faed0862c9df86dac8dae038",
+  "parent_hashes": [
+    "5775f7a9f919b295d72836f6d7e22cbb60cad931c27a0c44ce16524278b7712d",
+    "eee517a670b2ad3c007828a3a82a3453a8e7cc635d7a17010c42376d37ccdbbd",
+    "6adf55189a102e92a1bc5994865262e4cac3537fb6e7bd903dce0884b9f65c12",
+    "df2911366e64430fa22adcc3505e4236402646e5ad95046f8a6d5af5c8cfb7d0",
+    "82d1f082fa0a06419c10968b3ff6179eccf460637227e32c4d64c33be9eb0202",
+    "46b2800f1fade4d12e4e765439eebbc49d4cb2082c879bcc37abb8c09378aa19",
+    "31636a34c56d08bba7a84c1cadc50585a278a417361e81e9338517817587b9ed",
+    "a77e89279fa69606ddcd1de820db5fcf41217cf9ed71d5189e2e3caa7a0b5deb"
+  ],
+  "primitive_count": 8,
+  "schema": "hsm-parent-chain-verification-v0",
+  "status": "BOUNDARY-TO-BIOLOGY PRIMITIVE CHAIN VERIFIED",
+  "synthetic_neuron_hash": "a77e89279fa69606ddcd1de820db5fcf41217cf9ed71d5189e2e3caa7a0b5deb",
+  "verified": true,
+  "worm_scale_migration_protocol_hash": "db53cdd5291201a2432391cd98b8f6e44688523ce0f7cb724a6ce83fb4e2ed43"
+}

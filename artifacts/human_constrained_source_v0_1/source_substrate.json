@@ -1,0 +1,44 @@
+{
+  "builder_access": "construction_constraints_only",
+  "construction_packet_hash": "e44adc7026720cc373dd4069bb33f3b5baed6004c8a5e4e1c08c905e4f080fbb",
+  "kind": "HumanConstrainedSourceSubstrateV0_1",
+  "observable_features": {
+    "adaptation_norm": 0.5,
+    "excitability_norm": 0.52,
+    "macro_modularity_norm": 0.52,
+    "micro_motif_norm": 0.51,
+    "state_transition_norm": 0.47,
+    "structure_function_coupling_norm": 0.5,
+    "synapse_density_norm": 0.5,
+    "threshold_norm": 0.5
+  },
+  "oracle_packet_hash": "5bc6bef82d143e9737d38a8751f9abb7485a0477033a6f5d3f8f189ba2312260",
+  "parent_chain_hash": "cca41a54a4623e8af5e9a98c8969ff64259fcdf0faed0862c9df86dac8dae038",
+  "parent_hashes": [
+    "5775f7a9f919b295d72836f6d7e22cbb60cad931c27a0c44ce16524278b7712d",
+    "eee517a670b2ad3c007828a3a82a3453a8e7cc635d7a17010c42376d37ccdbbd",
+    "6adf55189a102e92a1bc5994865262e4cac3537fb6e7bd903dce0884b9f65c12",
+    "df2911366e64430fa22adcc3505e4236402646e5ad95046f8a6d5af5c8cfb7d0",
+    "82d1f082fa0a06419c10968b3ff6179eccf460637227e32c4d64c33be9eb0202",
+    "46b2800f1fade4d12e4e765439eebbc49d4cb2082c879bcc37abb8c09378aa19",
+    "31636a34c56d08bba7a84c1cadc50585a278a417361e81e9338517817587b9ed",
+    "a77e89279fa69606ddcd1de820db5fcf41217cf9ed71d5189e2e3caa7a0b5deb"
+  ],
+  "protocol": "HSM-v0.1",
+  "schema": "hsm-v0.1-independent-source-substrate",
+  "source_substrate_hash": "007fe73b879d821ff897015e5500ebdb8677a90685c506ce56378c88aaa19633",
+  "state": {
+    "observable_features": {
+      "adaptation_norm": 0.5,
+      "excitability_norm": 0.52,
+      "macro_modularity_norm": 0.52,
+      "micro_motif_norm": 0.51,
+      "state_transition_norm": 0.47,
+      "structure_function_coupling_norm": 0.5,
+      "synapse_density_norm": 0.5,
+      "threshold_norm": 0.5
+    },
+    "operator_phase": 0.0
+  },
+  "verifier_oracle_access": false
+}

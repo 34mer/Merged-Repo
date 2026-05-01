@@ -1,0 +1,112 @@
+{
+  "constraints": [
+    {
+      "feature": "threshold_norm",
+      "hash": "a2c42d9eed60b8d35177452021ac8b3bb3a43a5bc0e05ba0841412b7a426b79f",
+      "id": "human_neuron_threshold_regime",
+      "plane": "human_neuron",
+      "range": [
+        0.22,
+        0.78
+      ],
+      "required": true,
+      "source": "Allen human neuronal electrophysiology constraints",
+      "units": "normalized_operator"
+    },
+    {
+      "feature": "adaptation_norm",
+      "hash": "617183e398809bc9c57a491b7835a0594bfcffc86d5655104a112820d76a08b3",
+      "id": "human_neuron_adaptation_class",
+      "plane": "human_neuron",
+      "range": [
+        0.18,
+        0.82
+      ],
+      "required": true,
+      "source": "Allen human neuronal electrophysiology constraints",
+      "units": "normalized_operator"
+    },
+    {
+      "feature": "excitability_norm",
+      "hash": "cd549d13723ea22d42eb89d9c5bad87cd57510bde00dcac3bc76b47c3914c3a7",
+      "id": "human_neuron_excitability_class",
+      "plane": "human_neuron",
+      "range": [
+        0.2,
+        0.84
+      ],
+      "required": true,
+      "source": "Allen human neuronal electrophysiology constraints",
+      "units": "normalized_operator"
+    },
+    {
+      "feature": "synapse_density_norm",
+      "hash": "5195f86c980494d5ea04133cae01ecf1ccd1f3841eaaca392aac4b2f32e43ad9",
+      "id": "human_micro_synapse_density_range",
+      "plane": "human_microstructure",
+      "range": [
+        0.12,
+        0.88
+      ],
+      "required": true,
+      "source": "H01 human cortex microstructure constraints",
+      "units": "normalized_density"
+    },
+    {
+      "feature": "micro_motif_norm",
+      "hash": "f5568a7ce8819f97f1de37ece0fb1a77c93a0f454664dd9887fd3abe39cc5032",
+      "id": "human_micro_motif_signature",
+      "plane": "human_microstructure",
+      "range": [
+        0.16,
+        0.86
+      ],
+      "required": true,
+      "source": "H01 human cortex motif constraints",
+      "units": "normalized_motif_score"
+    },
+    {
+      "feature": "macro_modularity_norm",
+      "hash": "c4fbca88f1c72dd290530ac4cb46cd5529cd520dfd24b60c4fcc181606f03f7a",
+      "id": "human_macro_network_modularity",
+      "plane": "human_macro",
+      "range": [
+        0.14,
+        0.9
+      ],
+      "required": true,
+      "source": "Human Connectome Project macro-connectivity constraints",
+      "units": "normalized_graph_statistic"
+    },
+    {
+      "feature": "state_transition_norm",
+      "hash": "aacff12ccd6f3bfe9c92850539440f520c688b816fafa3aac2d857fe5b1126d1",
+      "id": "human_macro_state_transition_envelope",
+      "plane": "human_macro",
+      "range": [
+        0.1,
+        0.84
+      ],
+      "required": true,
+      "source": "Human Connectome Project rest/task dynamics constraints",
+      "units": "normalized_transition_statistic"
+    },
+    {
+      "feature": "structure_function_coupling_norm",
+      "hash": "8425a4b64ffd6025330d5a5ad8b8d16c92d2d374da4aeed3888918876fde93e4",
+      "id": "mammalian_structure_function_coupling",
+      "plane": "bridge",
+      "range": [
+        0.18,
+        0.82
+      ],
+      "required": true,
+      "source": "MICrONS structure-function bridge constraints",
+      "units": "normalized_coupling_score"
+    }
+  ],
+  "construction_packet_hash": "e44adc7026720cc373dd4069bb33f3b5baed6004c8a5e4e1c08c905e4f080fbb",
+  "description": "Numeric construction constraints consumed by substrate builders.",
+  "protocol": "HSM-v0.1",
+  "schema": "hsm-v0.1-construction-constraints"
+}
