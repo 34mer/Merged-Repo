@@ -1,0 +1,129 @@
+{
+  "capture_origin": "real_dataset",
+  "claim": "The CEF runtime can generate held-out predictions from construction-only constraints and be evaluated by a separate oracle.",
+  "construction_packet_hash": "fff2fc0986fffc7065c629550e0ae3b2bf2cd2ffe217546565deb6a1aa02889d",
+  "construction_verifier_independence": {
+    "construction_hash_ok": true,
+    "distinct_hashes": true,
+    "oracle_hash_ok": true,
+    "same_feature_set": true,
+    "split_ok": true,
+    "status": "PASS"
+  },
+  "controls": [
+    {
+      "control": "random-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "random observables should not satisfy held-out individual-worm oracle"
+    },
+    {
+      "control": "over-stable-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "over-stable runtime should fail held-out perturbation response"
+    },
+    {
+      "control": "behavior-only-output",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "behavior-only output must fail if internal individual constraints fail"
+    },
+    {
+      "control": "missing-construction-verifier-split",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "construction and verifier packets must be independent splits"
+    },
+    {
+      "control": "runtime-cannot-absorb-construction-only-constraints",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "blind runtime must carry construction-fit model and absorbed internal constraints"
+    },
+    {
+      "control": "verifier-oracle-leakage",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "blind projection must not use verifier oracle for generation"
+    }
+  ],
+  "controls_failed_as_expected": true,
+  "dataset_source": "Dryad DOI 10.5061/dryad.w9ghx3g4v copper-boundary H5",
+  "heldout_driver_hash": "5f35440ed26a4431ae0dd71d586b4f7808ce4d372a940f5a2d6f9c4ee365ea78",
+  "heldout_driver_loaded": true,
+  "heldout_perturbation_verification": {
+    "passed_count": 5,
+    "rows": [
+      {
+        "feature": "neural_mean",
+        "oracle_range": [
+          0.28657336816987417,
+          0.6800698098771387
+        ],
+        "passed": true,
+        "value": 0.37213548579059236
+      },
+      {
+        "feature": "posture_mean",
+        "oracle_range": [
+          0.1475231690760972,
+          0.30333965974500393
+        ],
+        "passed": true,
+        "value": 0.21371005113492272
+      },
+      {
+        "feature": "stimulus_mean",
+        "oracle_range": [
+          0.5319262038774233,
+          0.9658849280800501
+        ],
+        "passed": false,
+        "value": 0.2492182614133834
+      },
+      {
+        "feature": "motor_mean",
+        "oracle_range": [
+          0.2587174895345259,
+          0.41241337604130685
+        ],
+        "passed": true,
+        "value": 0.3458046954964466
+      },
+      {
+        "feature": "perturbation_response",
+        "oracle_range": [
+          0.5482013717120189,
+          0.785461265722963
+        ],
+        "passed": true,
+        "value": 0.6102866301582268
+      },
+      {
+        "feature": "body_loop_coupling",
+        "oracle_range": [
+          0.20312032930531154,
+          0.35204946981453794
+        ],
+        "passed": true,
+        "value": 0.2797573733156846
+      }
+    ],
+    "status": "FAIL",
+    "total_count": 6
+  },
+  "individual_capture_packet_loaded": true,
+  "individual_id": "dryad_real_copper_001",
+  "oracle_hash": "10073f1e8117a7e77a3e9ffb8a5f414d92b137b060b385d3e48d70a7feffcb0a",
+  "projection_hash": "9e056881f5c113264d43beb19e63c7cf53a1c3aca36d7ae5511e9222b6ed6f2d",
+  "protocol": "CEF-v0.2",
+  "real_organism_constraints_loaded": true,
+  "report_hash": "f2461e2a4d2d74a1d46ed9d3f7141d1ed2491a290ee690dd5c6b9e6ac845ffd8",
+  "runtime_hash": "04e4fb3f60c2de1c576ab6bc32a9f20f7875ed062df1b39abc32f3aebc4d4528",
+  "runtime_used_oracle_for_generation": false,
+  "schema": "cef-v0.1-blind-forcing-readiness-report",
+  "status": "FAIL",
+  "synthetic_worm_runtime_constrained": true,
+  "verifier_blind_projection": true
+}
