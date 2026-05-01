@@ -1,0 +1,9 @@
+{
+  "construction_packet_hash": "673069b98d94de004d803cbf83155f3832112807eac60957a8da7901bbbcfd92",
+  "independence_rule": "Synthetic runtime construction consumes construction_packet.json; held-out verification consumes verifier_oracle.json.",
+  "individual_id": "fixture_worm_A",
+  "manifest_hash": "ff60b419d60a41ee4ece5ceb9647b529e39b6d6a3719abf0b4325208b56dc7a2",
+  "oracle_hash": "cf948b7f9568d7e25a86d595c25586ce58ae68df3f9f04649f476e6659ed0cea",
+  "protocol": "CEF-v0",
+  "schema": "cef-v0-independence-manifest"
+}

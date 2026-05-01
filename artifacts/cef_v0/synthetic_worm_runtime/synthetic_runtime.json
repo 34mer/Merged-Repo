@@ -1,0 +1,35 @@
+{
+  "absorbed_constraints": {
+    "body_loop_coupling": 0.435,
+    "motor_mean": 0.4124999999999999,
+    "neural_mean": 0.3833333333333333,
+    "perturbation_response": 0.49999999999999994,
+    "posture_mean": 0.3475,
+    "stimulus_mean": 0.375
+  },
+  "construction_packet_hash": "673069b98d94de004d803cbf83155f3832112807eac60957a8da7901bbbcfd92",
+  "individual_id": "fixture_worm_A",
+  "internal_constraint_channels": [
+    "neural_mean",
+    "posture_mean",
+    "stimulus_mean",
+    "motor_mean",
+    "perturbation_response",
+    "body_loop_coupling"
+  ],
+  "protocol": "CEF-v0",
+  "runtime": "wormsim-compatible-destination",
+  "runtime_hash": "904c1301d89481aef83b6b2a980868da97f3d2cb5a5b20d5430066031facea9d",
+  "schema": "cef-v0-synthetic-worm-runtime",
+  "state": {
+    "latent_internal_state": {
+      "body_loop_coupling": 0.435,
+      "motor_mean": 0.4124999999999999,
+      "neural_mean": 0.3833333333333333,
+      "perturbation_response": 0.49999999999999994,
+      "posture_mean": 0.3475,
+      "stimulus_mean": 0.375
+    },
+    "runtime_step": 0
+  }
+}

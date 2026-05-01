@@ -1,0 +1,116 @@
+{
+  "claim": "The computational migration stack can be forced by one individual-organism capture packet.",
+  "construction_packet_hash": "673069b98d94de004d803cbf83155f3832112807eac60957a8da7901bbbcfd92",
+  "construction_verifier_independence": {
+    "construction_hash_ok": true,
+    "distinct_hashes": true,
+    "oracle_hash_ok": true,
+    "same_feature_set": true,
+    "split_ok": true,
+    "status": "PASS"
+  },
+  "controls": [
+    {
+      "control": "random-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "random observables should not satisfy held-out individual-worm oracle"
+    },
+    {
+      "control": "over-stable-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "over-stable runtime should fail held-out perturbation response"
+    },
+    {
+      "control": "behavior-only-output",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "behavior-only output must fail if internal individual constraints fail"
+    },
+    {
+      "control": "missing-construction-verifier-split",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "construction and verifier packets must be independent splits"
+    },
+    {
+      "control": "runtime-cannot-absorb-real-data-constraints",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "runtime must carry absorbed construction constraints, not only oracle outputs"
+    }
+  ],
+  "controls_failed_as_expected": true,
+  "heldout_perturbation_verification": {
+    "passed_count": 6,
+    "rows": [
+      {
+        "feature": "neural_mean",
+        "oracle_range": [
+          0.39333333333333337,
+          0.6333333333333334
+        ],
+        "passed": true,
+        "value": 0.4678333333333334
+      },
+      {
+        "feature": "posture_mean",
+        "oracle_range": [
+          0.3075,
+          0.455
+        ],
+        "passed": true,
+        "value": 0.3694375
+      },
+      {
+        "feature": "stimulus_mean",
+        "oracle_range": [
+          0.4,
+          0.675
+        ],
+        "passed": true,
+        "value": 0.48062499999999997
+      },
+      {
+        "feature": "motor_mean",
+        "oracle_range": [
+          0.36125,
+          0.51875
+        ],
+        "passed": true,
+        "value": 0.430375
+      },
+      {
+        "feature": "perturbation_response",
+        "oracle_range": [
+          0.7,
+          0.9000000000000001
+        ],
+        "passed": true,
+        "value": 0.7400000000000001
+      },
+      {
+        "feature": "body_loop_coupling",
+        "oracle_range": [
+          0.33125,
+          0.51125
+        ],
+        "passed": true,
+        "value": 0.42606249999999996
+      }
+    ],
+    "status": "PASS",
+    "total_count": 6
+  },
+  "individual_id": "fixture_worm_A",
+  "oracle_hash": "cf948b7f9568d7e25a86d595c25586ce58ae68df3f9f04649f476e6659ed0cea",
+  "projection_hash": "9027d41397ba7493c877bbd49c0219fb871fcc35c214a304523cb5cd41da3cf6",
+  "protocol": "CEF-v0",
+  "real_organism_constraints_loaded": true,
+  "report_hash": "13e16a4d773d1e4f73a5aa5d320c62b4e27c4ee1fad6c6287960a8fda356b634",
+  "runtime_hash": "904c1301d89481aef83b6b2a980868da97f3d2cb5a5b20d5430066031facea9d",
+  "schema": "cef-v0-protocol-readiness-report",
+  "status": "PASS",
+  "synthetic_worm_runtime_constrained": true
+}

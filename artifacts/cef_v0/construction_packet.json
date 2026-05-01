@@ -1,0 +1,77 @@
+{
+  "capture_hash": "033845fcfe56e2529c653aebd266e47220a4cded05582f4459b13036daec0798",
+  "construction_packet_hash": "673069b98d94de004d803cbf83155f3832112807eac60957a8da7901bbbcfd92",
+  "features": [
+    {
+      "center": 0.3833333333333333,
+      "episode_count": 3,
+      "feature": "neural_mean",
+      "hash": "45ba16a95fcf0274fb4ee0f6c3e89f28d0da8af06c4bf2ce4123036cc5059948",
+      "range": [
+        0.16333333333333333,
+        0.6033333333333333
+      ],
+      "required": true
+    },
+    {
+      "center": 0.3475,
+      "episode_count": 3,
+      "feature": "posture_mean",
+      "hash": "8855637824ba85d9bd3f3ef807a3d36b410ea9fc0390ceeafafc5f625d3a07ba",
+      "range": [
+        0.22000000000000003,
+        0.47500000000000003
+      ],
+      "required": true
+    },
+    {
+      "center": 0.375,
+      "episode_count": 3,
+      "feature": "stimulus_mean",
+      "hash": "b4ff93077a8e61a7913b6a299ba78b200c62aee8b29ae45c4f212c7428a5ae78",
+      "range": [
+        0.12000000000000001,
+        0.63
+      ],
+      "required": true
+    },
+    {
+      "center": 0.4124999999999999,
+      "episode_count": 3,
+      "feature": "motor_mean",
+      "hash": "71bfce7f3414b740f90ef0d55916af18e9b3691fc0396dac5eac9f270b3342a4",
+      "range": [
+        0.27499999999999997,
+        0.5499999999999999
+      ],
+      "required": true
+    },
+    {
+      "center": 0.49999999999999994,
+      "episode_count": 3,
+      "feature": "perturbation_response",
+      "hash": "59bf61faf74cd36d303912085047e64499be266f9a33902ecfa2bb861ebb5852",
+      "range": [
+        0.31999999999999995,
+        0.6799999999999998
+      ],
+      "required": true
+    },
+    {
+      "center": 0.435,
+      "episode_count": 3,
+      "feature": "body_loop_coupling",
+      "hash": "e6251fdf92aa5f29f343c72acb122794c1419f42d4626cde317b5e942eaba1b2",
+      "range": [
+        0.27499999999999997,
+        0.5949999999999999
+      ],
+      "required": true
+    }
+  ],
+  "individual_id": "fixture_worm_A",
+  "protocol": "CEF-v0",
+  "schema": "cef-v0-construction-packet",
+  "source_packet_hash": "cb70be59e989ca3822c7385b09712afb963663fffc97575226b931e681902af9",
+  "split": "construction"
+}
