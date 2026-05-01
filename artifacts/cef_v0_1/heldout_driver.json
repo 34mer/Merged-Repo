@@ -1,0 +1,47 @@
+{
+  "capture_hash": "439ba412ff3c90ae62db1cf42b13402ba009ddfb762fa06813725e40ff7f8ae1",
+  "driver_rows": [
+    {
+      "driver_channels": {
+        "environment_stimulus_state": [
+          0.35,
+          0.55
+        ],
+        "perturbation_events": [
+          {
+            "kind": "touch",
+            "magnitude": 0.55,
+            "timestep": 10
+          }
+        ]
+      },
+      "episode_id": "worm_A_holdout_0",
+      "perturbation_magnitude": 0.55,
+      "stimulus_mean": 0.45
+    },
+    {
+      "driver_channels": {
+        "environment_stimulus_state": [
+          0.6,
+          0.65
+        ],
+        "perturbation_events": [
+          {
+            "kind": "touch",
+            "magnitude": 0.65,
+            "timestep": 10
+          }
+        ]
+      },
+      "episode_id": "worm_A_holdout_1",
+      "perturbation_magnitude": 0.65,
+      "stimulus_mean": 0.625
+    }
+  ],
+  "heldout_driver_hash": "5676fe63546b0e97c3044544f4b6eeb8b41fcabb6c03c1e2143e05015c4197c9",
+  "individual_id": "fixture_worm_A",
+  "oracle_excluded_from_generation": true,
+  "protocol": "CEF-v0.1",
+  "schema": "cef-v0.1-heldout-driver",
+  "split": "heldout_driver"
+}

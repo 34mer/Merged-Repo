@@ -1,0 +1,47 @@
+{
+  "body_loop_constraints": [
+    "posture_mean",
+    "body_loop_coupling"
+  ],
+  "capture_hash": "439ba412ff3c90ae62db1cf42b13402ba009ddfb762fa06813725e40ff7f8ae1",
+  "capture_origin": "fixture",
+  "coupling_constraints": [
+    "body_loop_coupling",
+    "neural_mean",
+    "motor_mean"
+  ],
+  "dataset_source": "cef_internal_fixture",
+  "failure_boundaries": [
+    "missing construction/verifier split",
+    "held-out perturbation response outside oracle",
+    "internal constraints absent while behavior-only output passes",
+    "random or over-stable control passes"
+  ],
+  "individual_id": "fixture_worm_A",
+  "packet_hash": "7b402ff20e0ead2ca0fd70dfb021c2367f34f30739d652e661c88e65d650c3ba",
+  "perturbation_response_constraints": [
+    "perturbation_response"
+  ],
+  "protocol": "CEF-v0",
+  "real_organism_constraints_loaded": false,
+  "required_channels": [
+    "neural_activity",
+    "posture_body_state",
+    "environment_stimulus_state",
+    "motor_output",
+    "perturbation_events"
+  ],
+  "schema": "cef-v0-individual-worm-constraint-packet",
+  "state_variables": [
+    "neural_mean",
+    "posture_mean",
+    "stimulus_mean",
+    "motor_mean",
+    "perturbation_response",
+    "body_loop_coupling"
+  ],
+  "stimulus_response_constraints": [
+    "stimulus_mean",
+    "motor_mean"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "capture_hash": "6693cf2163ecfd3d38522fce0e534756fda20c5e1074415d58abf47c85d1b092",
+  "driver_rows": [
+    {
+      "driver_channels": {
+        "environment_stimulus_state": [
+          0.35,
+          0.55
+        ],
+        "perturbation_events": [
+          {
+            "kind": "external_dataset_event",
+            "magnitude": 0.55,
+            "timestep": 10
+          }
+        ]
+      },
+      "episode_id": "real_holdout_0",
+      "perturbation_magnitude": 0.55,
+      "stimulus_mean": 0.35
+    },
+    {
+      "driver_channels": {
+        "environment_stimulus_state": [
+          0.6,
+          0.65
+        ],
+        "perturbation_events": [
+          {
+            "kind": "external_dataset_event",
+            "magnitude": 0.65,
+            "timestep": 10
+          }
+        ]
+      },
+      "episode_id": "real_holdout_1",
+      "perturbation_magnitude": 0.65,
+      "stimulus_mean": 0.6
+    }
+  ],
+  "heldout_driver_hash": "285c5d7e81c0844e2077a245fa823d5f051d00e6d867c06ee14b112b8f195a23",
+  "individual_id": "real_dataset_shape_worm_A",
+  "oracle_excluded_from_generation": true,
+  "protocol": "CEF-v0.1",
+  "schema": "cef-v0.1-heldout-driver",
+  "split": "heldout_driver"
+}

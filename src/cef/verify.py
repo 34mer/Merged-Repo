@@ -5,7 +5,7 @@ from typing import Any
 
 from .compiler import verify_packet_independence
 from .core import read_json, stable_hash, write_json
-from .runtime import run_heldout_projection
+from .runtime import run_heldout_projection, run_blind_heldout_projection
 
 
 def _feature_ranges(rows: list[dict[str, Any]]) -> dict[str, list[float]]:
@@ -138,7 +138,10 @@ def verify_forcing(
         "protocol": "CEF-v0",
         "claim": "The computational migration stack can be forced by one individual-organism capture packet.",
         "status": "PASS" if passed else "FAIL",
-        "real_organism_constraints_loaded": True,
+        "individual_capture_packet_loaded": True,
+        "capture_origin": construction.get("capture_origin", "unknown"),
+        "dataset_source": construction.get("dataset_source", "unknown"),
+        "real_organism_constraints_loaded": bool(construction.get("real_organism_constraints_loaded", False)),
         "individual_id": construction.get("individual_id"),
         "construction_verifier_independence": independence,
         "synthetic_worm_runtime_constrained": runtime_constrained,
@@ -146,6 +149,100 @@ def verify_forcing(
         "controls_failed_as_expected": controls["controls_failed_as_expected"],
         "controls": controls["controls"],
         "construction_packet_hash": construction.get("construction_packet_hash"),
+        "oracle_hash": oracle.get("oracle_hash"),
+        "runtime_hash": runtime.get("runtime_hash"),
+        "projection_hash": stable_hash(projection),
+    }
+    report["report_hash"] = stable_hash(report)
+    write_json(out, report)
+    return report
+
+
+
+def _blind_runtime_absorption_control(runtime: dict[str, Any]) -> dict[str, Any]:
+    has_model = bool(runtime.get("projection_model"))
+    has_absorbed = bool(runtime.get("state", {}).get("latent_internal_state"))
+    return {
+        "control": "runtime-cannot-absorb-construction-only-constraints",
+        "passed": False,
+        "failed_as_expected": has_model and has_absorbed,
+        "reason": "blind runtime must carry construction-fit model and absorbed internal constraints",
+    }
+
+
+def run_blind_controls(construction_packet: dict[str, Any], verifier_oracle: dict[str, Any], runtime: dict[str, Any], projection: dict[str, Any]) -> dict[str, Any]:
+    controls = [
+        _random_control(verifier_oracle),
+        _over_stable_control(verifier_oracle),
+        _behavior_only_control(projection, verifier_oracle),
+        _missing_split_control(construction_packet, verifier_oracle),
+        _blind_runtime_absorption_control(runtime),
+    ]
+    oracle_leak = bool(projection.get("oracle_used_for_generation", True))
+    controls.append({
+        "control": "verifier-oracle-leakage",
+        "passed": oracle_leak,
+        "failed_as_expected": not oracle_leak,
+        "reason": "blind projection must not use verifier oracle for generation",
+    })
+    return {
+        "controls": controls,
+        "controls_failed_as_expected": all((not row["passed"]) and row["failed_as_expected"] for row in controls),
+        "controls_hash": stable_hash(controls),
+    }
+
+
+def verify_blind_forcing(
+    construction_packet: str | Path = "artifacts/cef_v0/construction_packet.json",
+    verifier_oracle: str | Path = "artifacts/cef_v0/verifier_oracle.json",
+    heldout_driver: str | Path = "artifacts/cef_v0/heldout_driver.json",
+    runtime_path: str | Path = "artifacts/cef_v0/synthetic_worm_runtime/synthetic_runtime.json",
+    out: str | Path = "reports/cef_v0_1_protocol_readiness.json",
+    protocol: str = "CEF-v0.1",
+) -> dict[str, Any]:
+    construction = read_json(construction_packet)
+    oracle = read_json(verifier_oracle)
+    driver = read_json(heldout_driver)
+    runtime = read_json(runtime_path)
+    independence = verify_packet_independence(construction, oracle)
+    projection = run_blind_heldout_projection(runtime, driver)
+    oracle_eval = evaluate_oracle(projection["projected_observables"], oracle)
+    controls = run_blind_controls(construction, oracle, runtime, projection)
+    runtime_constrained = (
+        runtime.get("construction_packet_hash") == construction.get("construction_packet_hash")
+        and bool(runtime.get("state", {}).get("latent_internal_state"))
+        and bool(runtime.get("projection_model"))
+    )
+    driver_ok = driver.get("oracle_excluded_from_generation") is True and driver.get("heldout_driver_hash") == projection.get("heldout_driver_hash")
+    blind_ok = projection.get("oracle_used_for_generation") is False
+    passed = all([
+        independence["status"] == "PASS",
+        runtime_constrained,
+        driver_ok,
+        blind_ok,
+        oracle_eval["status"] == "PASS",
+        controls["controls_failed_as_expected"],
+    ])
+    report = {
+        "schema": "cef-v0.1-blind-forcing-readiness-report",
+        "protocol": protocol,
+        "claim": "The CEF runtime can generate held-out predictions from construction-only constraints and be evaluated by a separate oracle.",
+        "status": "PASS" if passed else "FAIL",
+        "individual_capture_packet_loaded": True,
+        "capture_origin": construction.get("capture_origin", "unknown"),
+        "dataset_source": construction.get("dataset_source", "unknown"),
+        "real_organism_constraints_loaded": bool(construction.get("real_organism_constraints_loaded", False)),
+        "individual_id": construction.get("individual_id"),
+        "construction_verifier_independence": independence,
+        "synthetic_worm_runtime_constrained": runtime_constrained,
+        "verifier_blind_projection": blind_ok,
+        "runtime_used_oracle_for_generation": bool(projection.get("oracle_used_for_generation", True)),
+        "heldout_driver_loaded": driver_ok,
+        "heldout_perturbation_verification": oracle_eval,
+        "controls_failed_as_expected": controls["controls_failed_as_expected"],
+        "controls": controls["controls"],
+        "construction_packet_hash": construction.get("construction_packet_hash"),
+        "heldout_driver_hash": driver.get("heldout_driver_hash"),
         "oracle_hash": oracle.get("oracle_hash"),
         "runtime_hash": runtime.get("runtime_hash"),
         "projection_hash": stable_hash(projection),

@@ -1,0 +1,169 @@
+{
+  "capture_hash": "6693cf2163ecfd3d38522fce0e534756fda20c5e1074415d58abf47c85d1b092",
+  "capture_origin": "real_dataset",
+  "construction_packet_hash": "b2311992f75f7b5f4dbe06b1361c19dcf6df592e309fbb4c9fb0fa0f3c849373",
+  "dataset_source": "cef_v0_2_real_dataset_shape_fixture",
+  "features": [
+    {
+      "center": 0.45,
+      "episode_count": 3,
+      "feature": "neural_mean",
+      "hash": "53faba752612c8c75e4b3dec03fc81801ef7ded7b4036efa062b148c497d966a",
+      "range": [
+        0.15999999999999998,
+        0.6699999999999999
+      ],
+      "required": true
+    },
+    {
+      "center": 0.4266666666666667,
+      "episode_count": 3,
+      "feature": "posture_mean",
+      "hash": "9bf5f146a34fc7109e91e336c1e6ef2ecfac8b5a299674a71ef47bc424cecf25",
+      "range": [
+        0.25,
+        0.57
+      ],
+      "required": true
+    },
+    {
+      "center": 0.45,
+      "episode_count": 3,
+      "feature": "stimulus_mean",
+      "hash": "9c6f05c13ee996f3154ee8a927a3282f8640e0bd69386c35f7e79e3add355313",
+      "range": [
+        0.12000000000000001,
+        0.7799999999999999
+      ],
+      "required": true
+    },
+    {
+      "center": 0.5033333333333333,
+      "episode_count": 3,
+      "feature": "motor_mean",
+      "hash": "c5a3ffb81ad62833145be82727ee713931c3313b30b3b535d7bf4fb9a218174a",
+      "range": [
+        0.32999999999999996,
+        0.6499999999999999
+      ],
+      "required": true
+    },
+    {
+      "center": 0.6966666666666667,
+      "episode_count": 3,
+      "feature": "perturbation_response",
+      "hash": "70c5dffd1432ea0a4927d38a500c5866405c0c1ca9371212c606dce652daedc7",
+      "range": [
+        0.42,
+        0.94
+      ],
+      "required": true
+    },
+    {
+      "center": 0.4666666666666666,
+      "episode_count": 3,
+      "feature": "body_loop_coupling",
+      "hash": "362bf9a4c8d6c65898b57abd8ad654daad1af407a7e866c6c5994f475a85bd53",
+      "range": [
+        0.29,
+        0.61
+      ],
+      "required": true
+    }
+  ],
+  "individual_id": "real_dataset_shape_worm_A",
+  "protocol": "CEF-v0",
+  "real_organism_constraints_loaded": true,
+  "schema": "cef-v0-construction-packet",
+  "source_packet_hash": "25d4b04a593c071a07050ca457fee9d9302e9a3a1916ecbf29660947f2508a02",
+  "split": "construction",
+  "training_examples": [
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.2,
+            0.2
+          ],
+          "perturbation_events": [
+            {
+              "kind": "external_dataset_event",
+              "magnitude": 0.2,
+              "timestep": 10
+            }
+          ]
+        },
+        "episode_id": "real_train_0",
+        "perturbation_magnitude": 0.2,
+        "stimulus_mean": 0.2
+      },
+      "episode_id": "real_train_0",
+      "observables": {
+        "body_loop_coupling": 0.37,
+        "motor_mean": 0.41,
+        "neural_mean": 0.24,
+        "perturbation_response": 0.5,
+        "posture_mean": 0.33,
+        "stimulus_mean": 0.2
+      }
+    },
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.7,
+            0.3
+          ],
+          "perturbation_events": [
+            {
+              "kind": "external_dataset_event",
+              "magnitude": 0.3,
+              "timestep": 10
+            }
+          ]
+        },
+        "episode_id": "real_train_1",
+        "perturbation_magnitude": 0.3,
+        "stimulus_mean": 0.7
+      },
+      "episode_id": "real_train_1",
+      "observables": {
+        "body_loop_coupling": 0.53,
+        "motor_mean": 0.57,
+        "neural_mean": 0.59,
+        "perturbation_response": 0.73,
+        "posture_mean": 0.49,
+        "stimulus_mean": 0.7
+      }
+    },
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.45,
+            0.7
+          ],
+          "perturbation_events": [
+            {
+              "kind": "external_dataset_event",
+              "magnitude": 0.7,
+              "timestep": 10
+            }
+          ]
+        },
+        "episode_id": "real_train_2",
+        "perturbation_magnitude": 0.7,
+        "stimulus_mean": 0.45
+      },
+      "episode_id": "real_train_2",
+      "observables": {
+        "body_loop_coupling": 0.5,
+        "motor_mean": 0.53,
+        "neural_mean": 0.52,
+        "perturbation_response": 0.86,
+        "posture_mean": 0.46,
+        "stimulus_mean": 0.45
+      }
+    }
+  ]
+}

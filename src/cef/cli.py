@@ -5,10 +5,12 @@ from pathlib import Path
 import typer
 
 from .capture import make_fixture_capture
+from .adapters import import_real_dataset_csv, import_real_dataset_json
+from .dryad import import_dryad_copper_h5
 from .compiler import compile_capture_to_packets
 from .report import write_summary
 from .runtime import constrain_synthetic_runtime
-from .verify import verify_forcing
+from .verify import verify_forcing, verify_blind_forcing
 
 app = typer.Typer(help="CEF-v0 C. elegans forcing-function protocol tools")
 
@@ -90,13 +92,101 @@ def prove_forcing(
 
     typer.echo("C. ELEGANS FORCING FUNCTION PROTOCOL COMPLETE")
     typer.echo("Status: PASS")
-    typer.echo("Real organism constraints: loaded")
+    typer.echo(f"Capture origin: {packets['individual_packet'].get('capture_origin', 'unknown')}")
+    typer.echo(f"Real organism constraints loaded: {str(packets['individual_packet'].get('real_organism_constraints_loaded', False)).lower()}")
     typer.echo(f"Individual id: {packets['individual_packet']['individual_id']}")
     typer.echo(f"Capture hash: {packets['individual_packet']['capture_hash']}")
     typer.echo(f"Construction packet hash: {packets['construction_packet']['construction_packet_hash']}")
     typer.echo(f"Verifier oracle hash: {packets['verifier_oracle']['oracle_hash']}")
     typer.echo("Construction/verifier independence: PASS")
     typer.echo("Synthetic worm runtime constrained: PASS")
+    typer.echo("Held-out perturbation verification: PASS")
+    typer.echo("Controls failed as expected: true")
+    typer.echo(f"Report: {report_path}")
+
+
+@app.command("import-real-json")
+def import_real_json(
+    source: Path = typer.Option(..., help="Real C. elegans dataset JSON with rows/episodes."),
+    out: Path = typer.Option(Path("external/celegans_real_capture_v0_2.json"), help="CEF capture output JSON."),
+    individual_id: str | None = typer.Option(None, help="Individual worm id override."),
+    dataset_source: str | None = typer.Option(None, help="Dataset/source label override."),
+) -> None:
+    capture = import_real_dataset_json(source, out, individual_id=individual_id, dataset_source=dataset_source)
+    typer.echo("CEF-v0.2 REAL DATASET JSON IMPORTED")
+    typer.echo(f"Individual id: {capture['individual_id']}")
+    typer.echo(f"Capture origin: {capture['capture_origin']}")
+    typer.echo(f"Real organism constraints loaded: {str(capture['real_organism_constraints_loaded']).lower()}")
+    typer.echo(f"Capture hash: {capture['capture_hash']}")
+
+
+@app.command("import-real-csv")
+def import_real_csv(
+    source: Path = typer.Option(..., help="Row-per-episode real C. elegans CSV."),
+    out: Path = typer.Option(Path("external/celegans_real_capture_v0_2.json"), help="CEF capture output JSON."),
+    individual_id: str = typer.Option("real_celegans_individual", help="Individual worm id."),
+    dataset_source: str = typer.Option("external_celegans_dataset_csv", help="Dataset/source label."),
+) -> None:
+    capture = import_real_dataset_csv(source, out, individual_id=individual_id, dataset_source=dataset_source)
+    typer.echo("CEF-v0.2 REAL DATASET CSV IMPORTED")
+    typer.echo(f"Individual id: {capture['individual_id']}")
+    typer.echo(f"Capture origin: {capture['capture_origin']}")
+    typer.echo(f"Real organism constraints loaded: {str(capture['real_organism_constraints_loaded']).lower()}")
+    typer.echo(f"Capture hash: {capture['capture_hash']}")
+
+
+@app.command("import-dryad-copper-h5")
+def import_dryad_copper_h5_cmd(
+    source: Path = typer.Option(..., help="Dryad copper-boundary per-worm H5 file."),
+    out: Path = typer.Option(Path("external/celegans_dryad_copper_capture_v0_2.json"), help="CEF capture output JSON."),
+    individual_id: str | None = typer.Option(None, help="Individual worm id override."),
+    windows: int = typer.Option(6, help="Number of temporal windows to convert into construction/heldout episodes."),
+) -> None:
+    capture = import_dryad_copper_h5(source, out, individual_id=individual_id, windows=windows)
+    typer.echo("CEF-v0.2 DRYAD COPPER H5 IMPORTED")
+    typer.echo(f"Individual id: {capture['individual_id']}")
+    typer.echo(f"Capture origin: {capture['capture_origin']}")
+    typer.echo(f"Dataset source: {capture['dataset_source']}")
+    typer.echo(f"Real organism constraints loaded: {str(capture['real_organism_constraints_loaded']).lower()}")
+    typer.echo(f"Episodes: {len(capture['episodes'])}")
+    typer.echo(f"Capture hash: {capture['capture_hash']}")
+
+
+@app.command("prove-forcing-blind")
+def prove_forcing_blind(
+    source: Path = typer.Option(..., help="CEF individual worm capture JSON."),
+    out: Path = typer.Option(Path("reports/cef_v0_1"), help="CEF-v0.1/v0.2 report directory."),
+) -> None:
+    # Compile once to determine capture origin, then use a versioned artifact root.
+    probe_packets = compile_capture_to_packets(source, Path("artifacts/cef_probe"))
+    protocol = "CEF-v0.2" if probe_packets['individual_packet'].get('real_organism_constraints_loaded') else "CEF-v0.1"
+    artifacts = Path("artifacts/cef_v0_2") if protocol == "CEF-v0.2" else Path("artifacts/cef_v0_1")
+    packets = compile_capture_to_packets(source, artifacts)
+    constrain_synthetic_runtime(artifacts / "construction_packet.json", artifacts / "synthetic_worm_runtime")
+    out.mkdir(parents=True, exist_ok=True)
+    report_name = "cef_v0_2_protocol_readiness.json" if protocol == "CEF-v0.2" else "cef_v0_1_protocol_readiness.json"
+    report_path = out / report_name
+    report = verify_blind_forcing(
+        artifacts / "construction_packet.json",
+        artifacts / "verifier_oracle.json",
+        artifacts / "heldout_driver.json",
+        artifacts / "synthetic_worm_runtime" / "synthetic_runtime.json",
+        report_path,
+        protocol=protocol,
+    )
+    write_summary(report, out / "cef_v0_1_summary.md")
+    if report["status"] != "PASS":
+        typer.echo("CEF blind forcing protocol failed. Final completion line withheld.")
+        raise typer.Exit(code=1)
+
+    typer.echo("C. ELEGANS BLIND FORCING PROTOCOL COMPLETE")
+    typer.echo("Status: PASS")
+    typer.echo(f"Protocol: {protocol}")
+    typer.echo(f"Capture origin: {report['capture_origin']}")
+    typer.echo(f"Real organism constraints loaded: {str(report['real_organism_constraints_loaded']).lower()}")
+    typer.echo("Construction/verifier independence: PASS")
+    typer.echo("Verifier-blind runtime projection: PASS")
+    typer.echo("Runtime used oracle for generation: false")
     typer.echo("Held-out perturbation verification: PASS")
     typer.echo("Controls failed as expected: true")
     typer.echo(f"Report: {report_path}")

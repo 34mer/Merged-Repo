@@ -1,0 +1,10 @@
+{
+  "construction_packet_hash": "94878e81c380ca794880a1737d0ab88e8892dfdc76af72291d0a4eb8f072aba6",
+  "heldout_driver_hash": "5676fe63546b0e97c3044544f4b6eeb8b41fcabb6c03c1e2143e05015c4197c9",
+  "independence_rule": "Synthetic runtime construction consumes construction_packet.json; blind projection consumes heldout_driver.json; held-out verification consumes verifier_oracle.json.",
+  "individual_id": "fixture_worm_A",
+  "manifest_hash": "7934e3d7112d797bae75e36035a67e54cde8160d3ef5f4580bd397cab38d5396",
+  "oracle_hash": "391ed61d289c2f5262adacec333922fcfbc7c5bd68ac4355ef54e329102f65bb",
+  "protocol": "CEF-v0",
+  "schema": "cef-v0-independence-manifest"
+}

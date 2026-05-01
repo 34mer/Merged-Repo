@@ -1,0 +1,68 @@
+{
+  "absorbed_constraints": {
+    "body_loop_coupling": 0.4275,
+    "motor_mean": 0.41999999999999993,
+    "neural_mean": 0.42333333333333334,
+    "perturbation_response": 0.6,
+    "posture_mean": 0.3575,
+    "stimulus_mean": 0.425
+  },
+  "construction_packet_hash": "94878e81c380ca794880a1737d0ab88e8892dfdc76af72291d0a4eb8f072aba6",
+  "individual_id": "fixture_worm_A",
+  "internal_constraint_channels": [
+    "neural_mean",
+    "posture_mean",
+    "stimulus_mean",
+    "motor_mean",
+    "perturbation_response",
+    "body_loop_coupling"
+  ],
+  "projection_model": {
+    "body_loop_coupling": [
+      0.7,
+      -0.4249999999999997,
+      0.29999999999999993
+    ],
+    "motor_mean": [
+      0.3999999999999997,
+      -0.12499999999999964,
+      0.29999999999999993
+    ],
+    "neural_mean": [
+      0.8000000000000002,
+      -2.7755575615628914e-17,
+      0.08333333333333327
+    ],
+    "perturbation_response": [
+      5.551115123125783e-17,
+      1.0,
+      0.19999999999999993
+    ],
+    "posture_mean": [
+      0.30000000000000004,
+      -0.049999999999999906,
+      0.25
+    ],
+    "stimulus_mean": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "projection_model_source": "construction_packet_training_examples_only",
+  "protocol": "CEF-v0",
+  "runtime": "wormsim-compatible-destination",
+  "runtime_hash": "dfcad51c193697d4166520e2896f6c692b9c1bc7849c537a505ce9c96795a700",
+  "schema": "cef-v0-synthetic-worm-runtime",
+  "state": {
+    "latent_internal_state": {
+      "body_loop_coupling": 0.4275,
+      "motor_mean": 0.41999999999999993,
+      "neural_mean": 0.42333333333333334,
+      "perturbation_response": 0.6,
+      "posture_mean": 0.3575,
+      "stimulus_mean": 0.425
+    },
+    "runtime_step": 0
+  }
+}

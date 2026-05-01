@@ -16,6 +16,37 @@ OBSERVABLES = [
 ]
 
 
+
+
+def _driver_rows(episodes: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    rows = []
+    for ep in episodes:
+        env = ep.get("channels", {}).get("environment_stimulus_state", [0.0, 0.0])
+        perturbations = ep.get("channels", {}).get("perturbation_events", [])
+        perturbation = max([float(p.get("magnitude", 0.0)) for p in perturbations] or [float(env[1]) if len(env) > 1 else 0.0])
+        rows.append({
+            "episode_id": ep["episode_id"],
+            "stimulus_mean": float(ep["observables"].get("stimulus_mean", sum(env) / max(len(env), 1))),
+            "perturbation_magnitude": perturbation,
+            "driver_channels": {
+                "environment_stimulus_state": env,
+                "perturbation_events": perturbations,
+            },
+        })
+    return rows
+
+
+def _training_examples(episodes: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    drivers = _driver_rows(episodes)
+    examples = []
+    for ep, driver in zip(episodes, drivers):
+        examples.append({
+            "episode_id": ep["episode_id"],
+            "driver": driver,
+            "observables": {feature: float(ep["observables"][feature]) for feature in OBSERVABLES},
+        })
+    return examples
+
 def _feature_rows(episodes: list[dict[str, Any]], margin: float) -> list[dict[str, Any]]:
     rows = []
     for feature in OBSERVABLES:
@@ -53,6 +84,9 @@ def compile_capture_to_packets(
         "schema": "cef-v0-individual-worm-constraint-packet",
         "protocol": "CEF-v0",
         "individual_id": capture["individual_id"],
+        "capture_origin": capture.get("capture_origin", "unknown"),
+        "dataset_source": capture.get("dataset_source", "unknown"),
+        "real_organism_constraints_loaded": bool(capture.get("real_organism_constraints_loaded", False)),
         "capture_hash": capture["capture_hash"],
         "required_channels": capture["capture_channels"],
         "state_variables": OBSERVABLES,
@@ -73,10 +107,14 @@ def compile_capture_to_packets(
         "schema": "cef-v0-construction-packet",
         "protocol": "CEF-v0",
         "individual_id": capture["individual_id"],
+        "capture_origin": capture.get("capture_origin", "unknown"),
+        "dataset_source": capture.get("dataset_source", "unknown"),
+        "real_organism_constraints_loaded": bool(capture.get("real_organism_constraints_loaded", False)),
         "capture_hash": capture["capture_hash"],
         "source_packet_hash": individual_packet["packet_hash"],
         "split": "construction",
         "features": _feature_rows(construction_eps, construction_margin),
+        "training_examples": _training_examples(construction_eps),
     }
     construction_packet["construction_packet_hash"] = stable_hash(construction_packet)
 
@@ -84,6 +122,9 @@ def compile_capture_to_packets(
         "schema": "cef-v0-heldout-verifier-oracle",
         "protocol": "CEF-v0",
         "individual_id": capture["individual_id"],
+        "capture_origin": capture.get("capture_origin", "unknown"),
+        "dataset_source": capture.get("dataset_source", "unknown"),
+        "real_organism_constraints_loaded": bool(capture.get("real_organism_constraints_loaded", False)),
         "capture_hash": capture["capture_hash"],
         "source_packet_hash": individual_packet["packet_hash"],
         "split": "heldout",
@@ -92,13 +133,25 @@ def compile_capture_to_packets(
     }
     verifier_oracle["oracle_hash"] = stable_hash(verifier_oracle)
 
+    heldout_driver = {
+        "schema": "cef-v0.1-heldout-driver",
+        "protocol": "CEF-v0.1",
+        "individual_id": capture["individual_id"],
+        "capture_hash": capture["capture_hash"],
+        "split": "heldout_driver",
+        "driver_rows": _driver_rows(heldout_eps),
+        "oracle_excluded_from_generation": True,
+    }
+    heldout_driver["heldout_driver_hash"] = stable_hash(heldout_driver)
+
     manifest = {
         "schema": "cef-v0-independence-manifest",
         "protocol": "CEF-v0",
         "individual_id": capture["individual_id"],
         "construction_packet_hash": construction_packet["construction_packet_hash"],
         "oracle_hash": verifier_oracle["oracle_hash"],
-        "independence_rule": "Synthetic runtime construction consumes construction_packet.json; held-out verification consumes verifier_oracle.json.",
+        "independence_rule": "Synthetic runtime construction consumes construction_packet.json; blind projection consumes heldout_driver.json; held-out verification consumes verifier_oracle.json.",
+        "heldout_driver_hash": heldout_driver["heldout_driver_hash"],
     }
     manifest["manifest_hash"] = stable_hash(manifest)
 
@@ -106,11 +159,13 @@ def compile_capture_to_packets(
     write_json(outp / "individual_worm_constraint_packet.json", individual_packet)
     write_json(outp / "construction_packet.json", construction_packet)
     write_json(outp / "verifier_oracle.json", verifier_oracle)
+    write_json(outp / "heldout_driver.json", heldout_driver)
     write_json(outp / "independence_manifest.json", manifest)
     return {
         "individual_packet": individual_packet,
         "construction_packet": construction_packet,
         "verifier_oracle": verifier_oracle,
+        "heldout_driver": heldout_driver,
         "manifest": manifest,
     }
 

@@ -1,0 +1,84 @@
+{
+  "capture_hash": "6693cf2163ecfd3d38522fce0e534756fda20c5e1074415d58abf47c85d1b092",
+  "capture_origin": "real_dataset",
+  "dataset_source": "cef_v0_2_real_dataset_shape_fixture",
+  "features": [
+    {
+      "center": 0.49,
+      "episode_count": 2,
+      "feature": "neural_mean",
+      "hash": "37ae926360f55903959681257ab68b769c1d0bb6cdd587dd72eb7a75d0ea1dcc",
+      "range": [
+        0.38,
+        0.6000000000000001
+      ],
+      "required": true
+    },
+    {
+      "center": 0.45499999999999996,
+      "episode_count": 2,
+      "feature": "posture_mean",
+      "hash": "d8d4a35a23201f2e9638756ce49d1fc3fe7c3654a2b9932f6c687f97717a7966",
+      "range": [
+        0.36,
+        0.55
+      ],
+      "required": true
+    },
+    {
+      "center": 0.475,
+      "episode_count": 2,
+      "feature": "stimulus_mean",
+      "hash": "70469c5a307fa0793a242dad266eb772a80b1db5c91af04f02d20e69781ce421",
+      "range": [
+        0.3,
+        0.65
+      ],
+      "required": true
+    },
+    {
+      "center": 0.54,
+      "episode_count": 2,
+      "feature": "motor_mean",
+      "hash": "d261771ec6e6010133cee063dfd9d4372dd936aef7fad7ad0039b58c7ee15bef",
+      "range": [
+        0.44,
+        0.64
+      ],
+      "required": true
+    },
+    {
+      "center": 0.81,
+      "episode_count": 2,
+      "feature": "perturbation_response",
+      "hash": "1c410447704df795e70f11d67502db4063a3a713fd6b79593099d0c9b6f17774",
+      "range": [
+        0.6699999999999999,
+        0.9500000000000001
+      ],
+      "required": true
+    },
+    {
+      "center": 0.495,
+      "episode_count": 2,
+      "feature": "body_loop_coupling",
+      "hash": "07f424abe4621270942cae3fe8604e3bb644e9e3cf4e73b4134ef66b4eef4afd",
+      "range": [
+        0.4,
+        0.5900000000000001
+      ],
+      "required": true
+    }
+  ],
+  "heldout_episode_ids": [
+    "real_holdout_0",
+    "real_holdout_1"
+  ],
+  "individual_id": "real_dataset_shape_worm_A",
+  "oracle_hash": "7ad6017bb30098d014dda2974768e40f598d8c0df8919a86f1bc5a4471b56b32",
+  "protocol": "CEF-v0",
+  "real_organism_constraints_loaded": true,
+  "schema": "cef-v0-heldout-verifier-oracle",
+  "source_packet_hash": "25d4b04a593c071a07050ca457fee9d9302e9a3a1916ecbf29660947f2508a02",
+  "split": "heldout"
+}

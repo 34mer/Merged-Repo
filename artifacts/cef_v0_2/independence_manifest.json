@@ -1,0 +1,10 @@
+{
+  "construction_packet_hash": "b2311992f75f7b5f4dbe06b1361c19dcf6df592e309fbb4c9fb0fa0f3c849373",
+  "heldout_driver_hash": "285c5d7e81c0844e2077a245fa823d5f051d00e6d867c06ee14b112b8f195a23",
+  "independence_rule": "Synthetic runtime construction consumes construction_packet.json; blind projection consumes heldout_driver.json; held-out verification consumes verifier_oracle.json.",
+  "individual_id": "real_dataset_shape_worm_A",
+  "manifest_hash": "b32c7db86a403994cde55d94422a99ef4923cbe5b79630da6b60b531c077553f",
+  "oracle_hash": "7ad6017bb30098d014dda2974768e40f598d8c0df8919a86f1bc5a4471b56b32",
+  "protocol": "CEF-v0",
+  "schema": "cef-v0-independence-manifest"
+}

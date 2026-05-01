@@ -53,8 +53,8 @@ def _episode(
 def make_fixture_capture(out: str | Path = "external/celegans_capture_v0.json") -> dict[str, Any]:
     episodes = [
         _episode("worm_A_train_0", "construction", 0.20, 0.20, 0.70, 0.25),
-        _episode("worm_A_train_1", "construction", 0.45, 0.30, 0.70, 0.25),
-        _episode("worm_A_train_2", "construction", 0.70, 0.40, 0.70, 0.25),
+        _episode("worm_A_train_1", "construction", 0.70, 0.30, 0.70, 0.25),
+        _episode("worm_A_train_2", "construction", 0.45, 0.70, 0.70, 0.25),
         _episode("worm_A_holdout_0", "heldout", 0.35, 0.55, 0.70, 0.25),
         _episode("worm_A_holdout_1", "heldout", 0.60, 0.65, 0.70, 0.25),
     ]
@@ -62,6 +62,9 @@ def make_fixture_capture(out: str | Path = "external/celegans_capture_v0.json") 
         "schema": CAPTURE_SCHEMA,
         "organism": "C. elegans",
         "individual_id": "fixture_worm_A",
+        "capture_origin": "fixture",
+        "dataset_source": "cef_internal_fixture",
+        "real_organism_constraints_loaded": False,
         "capture_channels": REQUIRED_CHANNELS,
         "optional_channels": ["anatomy_connectome_metadata"],
         "anatomy_connectome_metadata": {
@@ -89,3 +92,30 @@ def load_capture(path: str | Path) -> dict[str, Any]:
 
 def split_episodes(capture: dict[str, Any], split: str) -> list[dict[str, Any]]:
     return [episode for episode in capture.get("episodes", []) if episode.get("split") == split]
+
+
+
+def make_capture_from_episodes(
+    individual_id: str,
+    episodes: list[dict[str, Any]],
+    out: str | Path,
+    capture_origin: str,
+    dataset_source: str,
+    optional_metadata: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    """Write a CEF-v0 capture packet from externally supplied episodes."""
+    capture = {
+        "schema": CAPTURE_SCHEMA,
+        "organism": "C. elegans",
+        "individual_id": individual_id,
+        "capture_origin": capture_origin,
+        "dataset_source": dataset_source,
+        "real_organism_constraints_loaded": capture_origin == "real_dataset",
+        "capture_channels": REQUIRED_CHANNELS,
+        "optional_channels": ["anatomy_connectome_metadata"],
+        "anatomy_connectome_metadata": optional_metadata or {"available": False},
+        "episodes": episodes,
+    }
+    capture["capture_hash"] = stable_hash(capture)
+    write_json(out, capture)
+    return capture

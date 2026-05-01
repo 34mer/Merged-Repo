@@ -1,0 +1,129 @@
+{
+  "capture_origin": "real_dataset",
+  "claim": "The CEF runtime can generate held-out predictions from construction-only constraints and be evaluated by a separate oracle.",
+  "construction_packet_hash": "b2311992f75f7b5f4dbe06b1361c19dcf6df592e309fbb4c9fb0fa0f3c849373",
+  "construction_verifier_independence": {
+    "construction_hash_ok": true,
+    "distinct_hashes": true,
+    "oracle_hash_ok": true,
+    "same_feature_set": true,
+    "split_ok": true,
+    "status": "PASS"
+  },
+  "controls": [
+    {
+      "control": "random-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "random observables should not satisfy held-out individual-worm oracle"
+    },
+    {
+      "control": "over-stable-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "over-stable runtime should fail held-out perturbation response"
+    },
+    {
+      "control": "behavior-only-output",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "behavior-only output must fail if internal individual constraints fail"
+    },
+    {
+      "control": "missing-construction-verifier-split",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "construction and verifier packets must be independent splits"
+    },
+    {
+      "control": "runtime-cannot-absorb-construction-only-constraints",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "blind runtime must carry construction-fit model and absorbed internal constraints"
+    },
+    {
+      "control": "verifier-oracle-leakage",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "blind projection must not use verifier oracle for generation"
+    }
+  ],
+  "controls_failed_as_expected": true,
+  "dataset_source": "cef_v0_2_real_dataset_shape_fixture",
+  "heldout_driver_hash": "285c5d7e81c0844e2077a245fa823d5f051d00e6d867c06ee14b112b8f195a23",
+  "heldout_driver_loaded": true,
+  "heldout_perturbation_verification": {
+    "passed_count": 6,
+    "rows": [
+      {
+        "feature": "neural_mean",
+        "oracle_range": [
+          0.38,
+          0.6000000000000001
+        ],
+        "passed": true,
+        "value": 0.5130000000000001
+      },
+      {
+        "feature": "posture_mean",
+        "oracle_range": [
+          0.36,
+          0.55
+        ],
+        "passed": true,
+        "value": 0.45633333333333337
+      },
+      {
+        "feature": "stimulus_mean",
+        "oracle_range": [
+          0.3,
+          0.65
+        ],
+        "passed": true,
+        "value": 0.475
+      },
+      {
+        "feature": "motor_mean",
+        "oracle_range": [
+          0.44,
+          0.64
+        ],
+        "passed": true,
+        "value": 0.5286666666666666
+      },
+      {
+        "feature": "perturbation_response",
+        "oracle_range": [
+          0.6699999999999999,
+          0.9500000000000001
+        ],
+        "passed": true,
+        "value": 0.8143333333333334
+      },
+      {
+        "feature": "body_loop_coupling",
+        "oracle_range": [
+          0.4,
+          0.5900000000000001
+        ],
+        "passed": true,
+        "value": 0.4963333333333333
+      }
+    ],
+    "status": "PASS",
+    "total_count": 6
+  },
+  "individual_capture_packet_loaded": true,
+  "individual_id": "real_dataset_shape_worm_A",
+  "oracle_hash": "7ad6017bb30098d014dda2974768e40f598d8c0df8919a86f1bc5a4471b56b32",
+  "projection_hash": "6f71363dd3d61b2f9a58fb9f5ae800c4822b35f30874b84204e2e18f41aa5978",
+  "protocol": "CEF-v0.2",
+  "real_organism_constraints_loaded": true,
+  "report_hash": "8d2365feceb3e085d85d7d4797f8368c1cbd52e3efd4c63e8974702c4705ed55",
+  "runtime_hash": "04fb79f3d9eacb106ea3fefe4954f1f1b216a5c5048e5952063cd5b41f631f4a",
+  "runtime_used_oracle_for_generation": false,
+  "schema": "cef-v0.1-blind-forcing-readiness-report",
+  "status": "PASS",
+  "synthetic_worm_runtime_constrained": true,
+  "verifier_blind_projection": true
+}

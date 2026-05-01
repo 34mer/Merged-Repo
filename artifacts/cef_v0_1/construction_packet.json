@@ -1,0 +1,169 @@
+{
+  "capture_hash": "439ba412ff3c90ae62db1cf42b13402ba009ddfb762fa06813725e40ff7f8ae1",
+  "capture_origin": "fixture",
+  "construction_packet_hash": "94878e81c380ca794880a1737d0ab88e8892dfdc76af72291d0a4eb8f072aba6",
+  "dataset_source": "cef_internal_fixture",
+  "features": [
+    {
+      "center": 0.42333333333333334,
+      "episode_count": 3,
+      "feature": "neural_mean",
+      "hash": "c1ece7ed134d770ad485815d0acaa32625c27da2f524a46bb7e3817c1dd437f7",
+      "range": [
+        0.16333333333333333,
+        0.6233333333333333
+      ],
+      "required": true
+    },
+    {
+      "center": 0.3575,
+      "episode_count": 3,
+      "feature": "posture_mean",
+      "hash": "3ea4e37d271cdd4934f489683599c800c6b61ab713c79f845c1a6b4f45019ec8",
+      "range": [
+        0.22000000000000003,
+        0.4675
+      ],
+      "required": true
+    },
+    {
+      "center": 0.425,
+      "episode_count": 3,
+      "feature": "stimulus_mean",
+      "hash": "ee749dd0793350febb53c62c1a5993d45b1d750a70bc544337dc6f6fa5d6a63a",
+      "range": [
+        0.12000000000000001,
+        0.6549999999999999
+      ],
+      "required": true
+    },
+    {
+      "center": 0.41999999999999993,
+      "episode_count": 3,
+      "feature": "motor_mean",
+      "hash": "d730fa4c9c789272e958052c9bf669b7abd06770d971e672f77300345d527e21",
+      "range": [
+        0.27499999999999997,
+        0.5424999999999999
+      ],
+      "required": true
+    },
+    {
+      "center": 0.6,
+      "episode_count": 3,
+      "feature": "perturbation_response",
+      "hash": "1cbfbf36f223641b1e8e4226defa2caf598c5bbfa4796348d2b130cdcc4a1601",
+      "range": [
+        0.31999999999999995,
+        0.9799999999999999
+      ],
+      "required": true
+    },
+    {
+      "center": 0.4275,
+      "episode_count": 3,
+      "feature": "body_loop_coupling",
+      "hash": "b166f28cd45990e84267f99b2c6bb291b832dad28348ae89b54bd14cd7bc82d7",
+      "range": [
+        0.27499999999999997,
+        0.6024999999999999
+      ],
+      "required": true
+    }
+  ],
+  "individual_id": "fixture_worm_A",
+  "protocol": "CEF-v0",
+  "real_organism_constraints_loaded": false,
+  "schema": "cef-v0-construction-packet",
+  "source_packet_hash": "7b402ff20e0ead2ca0fd70dfb021c2367f34f30739d652e661c88e65d650c3ba",
+  "split": "construction",
+  "training_examples": [
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.2,
+            0.2
+          ],
+          "perturbation_events": [
+            {
+              "kind": "odor_shift",
+              "magnitude": 0.2,
+              "timestep": 10
+            }
+          ]
+        },
+        "episode_id": "worm_A_train_0",
+        "perturbation_magnitude": 0.2,
+        "stimulus_mean": 0.2
+      },
+      "episode_id": "worm_A_train_0",
+      "observables": {
+        "body_loop_coupling": 0.355,
+        "motor_mean": 0.355,
+        "neural_mean": 0.24333333333333332,
+        "perturbation_response": 0.39999999999999997,
+        "posture_mean": 0.30000000000000004,
+        "stimulus_mean": 0.2
+      }
+    },
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.7,
+            0.3
+          ],
+          "perturbation_events": [
+            {
+              "kind": "odor_shift",
+              "magnitude": 0.3,
+              "timestep": 10
+            }
+          ]
+        },
+        "episode_id": "worm_A_train_1",
+        "perturbation_magnitude": 0.3,
+        "stimulus_mean": 0.5
+      },
+      "episode_id": "worm_A_train_1",
+      "observables": {
+        "body_loop_coupling": 0.5225,
+        "motor_mean": 0.4624999999999999,
+        "neural_mean": 0.48333333333333334,
+        "perturbation_response": 0.49999999999999994,
+        "posture_mean": 0.385,
+        "stimulus_mean": 0.5
+      }
+    },
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.45,
+            0.7
+          ],
+          "perturbation_events": [
+            {
+              "kind": "touch",
+              "magnitude": 0.7,
+              "timestep": 10
+            }
+          ]
+        },
+        "episode_id": "worm_A_train_2",
+        "perturbation_magnitude": 0.7,
+        "stimulus_mean": 0.575
+      },
+      "episode_id": "worm_A_train_2",
+      "observables": {
+        "body_loop_coupling": 0.405,
+        "motor_mean": 0.4425,
+        "neural_mean": 0.5433333333333333,
+        "perturbation_response": 0.8999999999999999,
+        "posture_mean": 0.3875,
+        "stimulus_mean": 0.575
+      }
+    }
+  ]
+}
