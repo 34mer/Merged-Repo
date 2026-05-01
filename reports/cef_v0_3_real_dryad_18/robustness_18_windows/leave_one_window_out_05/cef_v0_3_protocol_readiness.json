@@ -1,0 +1,273 @@
+{
+  "capture_origin": "real_dataset",
+  "claim": "The CEF runtime can generate held-out predictions from construction-only constraints and be evaluated by a separate oracle.",
+  "construction_packet_hash": "dd2ceecb4073c641fa24fe434bcacf46f58d1096def12fbeba149111830f1612",
+  "construction_verifier_independence": {
+    "construction_hash_ok": true,
+    "distinct_hashes": true,
+    "oracle_hash_ok": true,
+    "same_feature_set": true,
+    "split_ok": true,
+    "status": "PASS"
+  },
+  "controls": [
+    {
+      "control": "random-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "random observables should not satisfy held-out individual-worm oracle"
+    },
+    {
+      "control": "over-stable-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "over-stable runtime should fail held-out perturbation response"
+    },
+    {
+      "control": "behavior-only-output",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "behavior-only output must fail if internal individual constraints fail"
+    },
+    {
+      "control": "missing-construction-verifier-split",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "construction and verifier packets must be independent splits"
+    },
+    {
+      "control": "runtime-cannot-absorb-construction-only-constraints",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "blind runtime must carry construction-fit model and absorbed internal constraints"
+    },
+    {
+      "control": "verifier-oracle-leakage",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "blind projection must not use verifier oracle for generation"
+    }
+  ],
+  "controls_failed_as_expected": true,
+  "dataset_source": "Dryad DOI 10.5061/dryad.w9ghx3g4v copper-boundary H5",
+  "heldout_driver_hash": "70868905cd9645513c732cae391f4749e1a42d2177656047181000a02c7865dc",
+  "heldout_driver_loaded": true,
+  "heldout_perturbation_verification": {
+    "passed_count": 16,
+    "rows": [
+      {
+        "feature": "neural_mean",
+        "oracle_range": [
+          0.2437635130886494,
+          0.3437635130886494
+        ],
+        "passed": false,
+        "value": 0.3690720245518949
+      },
+      {
+        "feature": "posture_mean",
+        "oracle_range": [
+          0.10492502076512443,
+          0.20492502076512442
+        ],
+        "passed": false,
+        "value": 0.22609815467719194
+      },
+      {
+        "feature": "stimulus_mean",
+        "oracle_range": [
+          0.2523764853033145,
+          0.3523764853033145
+        ],
+        "passed": true,
+        "value": 0.30237457059927947
+      },
+      {
+        "feature": "motor_mean",
+        "oracle_range": [
+          0.332805046441364,
+          0.43280504644136397
+        ],
+        "passed": true,
+        "value": 0.35070176750080356
+      },
+      {
+        "feature": "perturbation_response",
+        "oracle_range": [
+          0.5338322030973709,
+          0.633832203097371
+        ],
+        "passed": true,
+        "value": 0.6108055203755282
+      },
+      {
+        "feature": "body_loop_coupling",
+        "oracle_range": [
+          0.21886503360324422,
+          0.3188650336032442
+        ],
+        "passed": true,
+        "value": 0.2883999610890001
+      },
+      {
+        "feature": "delta_neural",
+        "oracle_range": [
+          0.4398057895609128,
+          0.5398057895609129
+        ],
+        "passed": true,
+        "value": 0.5004235263714599
+      },
+      {
+        "feature": "delta_perturbation_response",
+        "oracle_range": [
+          0.4512345139772996,
+          0.5512345139772996
+        ],
+        "passed": true,
+        "value": 0.501153134196157
+      },
+      {
+        "feature": "delta_stimulus",
+        "oracle_range": [
+          0.47751719824890554,
+          0.5775171982489056
+        ],
+        "passed": true,
+        "value": 0.5275154050794435
+      },
+      {
+        "feature": "motor_slope",
+        "oracle_range": [
+          0.46520295493066116,
+          0.5652029549306612
+        ],
+        "passed": true,
+        "value": 0.5020448770930116
+      },
+      {
+        "feature": "neural_lagged_response",
+        "oracle_range": [
+          0.38756334411571064,
+          0.4875633441157106
+        ],
+        "passed": false,
+        "value": 0.4887858612608031
+      },
+      {
+        "feature": "neural_peak",
+        "oracle_range": [
+          0.0,
+          0.05
+        ],
+        "passed": false,
+        "value": 0.2537425613418367
+      },
+      {
+        "feature": "neural_slope",
+        "oracle_range": [
+          0.44927798048344286,
+          0.5492779804834429
+        ],
+        "passed": true,
+        "value": 0.5111851171345942
+      },
+      {
+        "feature": "neural_variance",
+        "oracle_range": [
+          0.0,
+          0.053754171673236074
+        ],
+        "passed": true,
+        "value": 0.015273260811682066
+      },
+      {
+        "feature": "perturbation_response_auc",
+        "oracle_range": [
+          0.7419161015486855,
+          0.8419161015486856
+        ],
+        "passed": true,
+        "value": 0.8054029831810131
+      },
+      {
+        "feature": "perturbation_response_decay",
+        "oracle_range": [
+          0.4512345139772996,
+          0.5512345139772996
+        ],
+        "passed": true,
+        "value": 0.501153134196157
+      },
+      {
+        "feature": "perturbation_response_peak",
+        "oracle_range": [
+          0.95,
+          1.0
+        ],
+        "passed": false,
+        "value": 1.0000004459864955
+      },
+      {
+        "feature": "population_activity_dispersion",
+        "oracle_range": [
+          0.0,
+          0.053754171673236074
+        ],
+        "passed": true,
+        "value": 0.015273260811682066
+      },
+      {
+        "feature": "posture_slope",
+        "oracle_range": [
+          0.40526619699313765,
+          0.5052661969931377
+        ],
+        "passed": true,
+        "value": 0.5023045624288687
+      },
+      {
+        "feature": "previous_neural_mean",
+        "oracle_range": [
+          0.2641519339668238,
+          0.36415193396682377
+        ],
+        "passed": false,
+        "value": 0.3682254177954711
+      },
+      {
+        "feature": "previous_perturbation_response",
+        "oracle_range": [
+          0.5313631751427719,
+          0.631363175142772
+        ],
+        "passed": true,
+        "value": 0.6084996979697124
+      },
+      {
+        "feature": "previous_stimulus_mean",
+        "oracle_range": [
+          0.19734208880550347,
+          0.29734208880550345
+        ],
+        "passed": true,
+        "value": 0.24734420642688076
+      }
+    ],
+    "status": "FAIL",
+    "total_count": 22
+  },
+  "individual_capture_packet_loaded": true,
+  "individual_id": "dryad_real_copper_v0_3_18_v0_3_leave_one_window_out_05",
+  "oracle_hash": "359901a506bc78ea0d7ee16509d6a29280eb27784c8bbd0d877dd0e7cee8dbcf",
+  "projection_hash": "e15a770bca30b1f7d8e00ad1f06c89b3896982219e43a75f03ab559e909fb21d",
+  "protocol": "CEF-v0.3",
+  "real_organism_constraints_loaded": true,
+  "report_hash": "283d0ced7e4ae0048c512981970dbce638d7eb6099dfef1ffcc6fa8d3e0c2b30",
+  "runtime_hash": "fc4721c7c8861d5d3dd99029e2b33055003dd4bfb85829bb1337f2ac10448a15",
+  "runtime_used_oracle_for_generation": false,
+  "schema": "cef-v0.1-blind-forcing-readiness-report",
+  "status": "FAIL",
+  "synthetic_worm_runtime_constrained": true,
+  "verifier_blind_projection": true
+}

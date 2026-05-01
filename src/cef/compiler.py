@@ -15,7 +15,39 @@ OBSERVABLES = [
     "body_loop_coupling",
 ]
 
+DRIVER_OBSERVABLES = [
+    "stimulus_mean",
+    "previous_stimulus_mean",
+    "delta_stimulus",
+]
 
+
+def _is_number(value: Any) -> bool:
+    try:
+        float(value)
+        return True
+    except Exception:
+        return False
+
+
+def observable_features(episodes: list[dict[str, Any]]) -> list[str]:
+    """Return numeric observables present in every episode.
+
+    CEF-v0/v0.2 uses the six base observables. CEF-v0.3 captures may add
+    trajectory, transition, and population observables. The compiler treats those
+    as first-class verifier targets only when they are consistently present.
+    """
+
+    if not episodes:
+        return list(OBSERVABLES)
+    common: set[str] | None = None
+    for ep in episodes:
+        numeric = {key for key, value in ep.get("observables", {}).items() if _is_number(value)}
+        common = numeric if common is None else common & numeric
+    common = common or set()
+    ordered = [feature for feature in OBSERVABLES if feature in common]
+    ordered.extend(sorted(feature for feature in common if feature not in set(ordered)))
+    return ordered
 
 
 def _driver_rows(episodes: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -24,10 +56,20 @@ def _driver_rows(episodes: list[dict[str, Any]]) -> list[dict[str, Any]]:
         env = ep.get("channels", {}).get("environment_stimulus_state", [0.0, 0.0])
         perturbations = ep.get("channels", {}).get("perturbation_events", [])
         perturbation = max([float(p.get("magnitude", 0.0)) for p in perturbations] or [float(env[1]) if len(env) > 1 else 0.0])
+        observables = ep.get("observables", {})
+        stimulus = float(observables.get("stimulus_mean", sum(env) / max(len(env), 1)))
+        driver_values = {
+            "stimulus_mean": stimulus,
+            "perturbation_magnitude": perturbation,
+        }
+        for name in DRIVER_OBSERVABLES:
+            if name in observables and _is_number(observables[name]):
+                driver_values[name] = float(observables[name])
         rows.append({
             "episode_id": ep["episode_id"],
-            "stimulus_mean": float(ep["observables"].get("stimulus_mean", sum(env) / max(len(env), 1))),
+            "stimulus_mean": stimulus,
             "perturbation_magnitude": perturbation,
+            "driver_values": driver_values,
             "driver_channels": {
                 "environment_stimulus_state": env,
                 "perturbation_events": perturbations,
@@ -36,20 +78,21 @@ def _driver_rows(episodes: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return rows
 
 
-def _training_examples(episodes: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def _training_examples(episodes: list[dict[str, Any]], features: list[str]) -> list[dict[str, Any]]:
     drivers = _driver_rows(episodes)
     examples = []
     for ep, driver in zip(episodes, drivers):
         examples.append({
             "episode_id": ep["episode_id"],
             "driver": driver,
-            "observables": {feature: float(ep["observables"][feature]) for feature in OBSERVABLES},
+            "observables": {feature: float(ep["observables"][feature]) for feature in features},
         })
     return examples
 
-def _feature_rows(episodes: list[dict[str, Any]], margin: float) -> list[dict[str, Any]]:
+
+def _feature_rows(episodes: list[dict[str, Any]], margin: float, features: list[str]) -> list[dict[str, Any]]:
     rows = []
-    for feature in OBSERVABLES:
+    for feature in features:
         values = [float(ep["observables"][feature]) for ep in episodes]
         center = mean(values)
         lo = min(values) - margin
@@ -80,6 +123,13 @@ def compile_capture_to_packets(
     if not heldout_eps:
         raise ValueError("CEF-v0 requires at least one held-out verifier episode")
 
+    all_features = observable_features(capture.get("episodes", []))
+    construction_features = set(observable_features(construction_eps))
+    heldout_features = set(observable_features(heldout_eps))
+    features = [feature for feature in all_features if feature in construction_features and feature in heldout_features]
+    if not features:
+        raise ValueError("CEF capture has no common numeric observable features across construction and heldout splits")
+
     individual_packet = {
         "schema": "cef-v0-individual-worm-constraint-packet",
         "protocol": "CEF-v0",
@@ -89,16 +139,19 @@ def compile_capture_to_packets(
         "real_organism_constraints_loaded": bool(capture.get("real_organism_constraints_loaded", False)),
         "capture_hash": capture["capture_hash"],
         "required_channels": capture["capture_channels"],
-        "state_variables": OBSERVABLES,
-        "coupling_constraints": ["body_loop_coupling", "neural_mean", "motor_mean"],
-        "body_loop_constraints": ["posture_mean", "body_loop_coupling"],
-        "stimulus_response_constraints": ["stimulus_mean", "motor_mean"],
-        "perturbation_response_constraints": ["perturbation_response"],
+        "state_variables": features,
+        "base_state_variables": [feature for feature in OBSERVABLES if feature in features],
+        "dynamic_state_variables": [feature for feature in features if feature not in OBSERVABLES],
+        "coupling_constraints": [feature for feature in ["body_loop_coupling", "neural_mean", "motor_mean"] if feature in features],
+        "body_loop_constraints": [feature for feature in ["posture_mean", "body_loop_coupling"] if feature in features],
+        "stimulus_response_constraints": [feature for feature in ["stimulus_mean", "motor_mean", "delta_stimulus"] if feature in features],
+        "perturbation_response_constraints": [feature for feature in ["perturbation_response", "perturbation_response_peak", "perturbation_response_auc", "perturbation_response_decay"] if feature in features],
         "failure_boundaries": [
             "missing construction/verifier split",
             "held-out perturbation response outside oracle",
             "internal constraints absent while behavior-only output passes",
             "random or over-stable control passes",
+            "window-level dynamic feature outside oracle",
         ],
     }
     individual_packet["packet_hash"] = stable_hash(individual_packet)
@@ -113,8 +166,8 @@ def compile_capture_to_packets(
         "capture_hash": capture["capture_hash"],
         "source_packet_hash": individual_packet["packet_hash"],
         "split": "construction",
-        "features": _feature_rows(construction_eps, construction_margin),
-        "training_examples": _training_examples(construction_eps),
+        "features": _feature_rows(construction_eps, construction_margin, features),
+        "training_examples": _training_examples(construction_eps, features),
     }
     construction_packet["construction_packet_hash"] = stable_hash(construction_packet)
 
@@ -129,7 +182,7 @@ def compile_capture_to_packets(
         "source_packet_hash": individual_packet["packet_hash"],
         "split": "heldout",
         "heldout_episode_ids": [ep["episode_id"] for ep in heldout_eps],
-        "features": _feature_rows(heldout_eps, oracle_margin),
+        "features": _feature_rows(heldout_eps, oracle_margin, features),
     }
     verifier_oracle["oracle_hash"] = stable_hash(verifier_oracle)
 

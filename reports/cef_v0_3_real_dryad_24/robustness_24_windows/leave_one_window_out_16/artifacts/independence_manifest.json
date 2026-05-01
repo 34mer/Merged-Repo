@@ -1,0 +1,10 @@
+{
+  "construction_packet_hash": "7431733ad5f407f536a0bc6e146ead724e3e707db0e232ec81ba6e773fe465ec",
+  "heldout_driver_hash": "dd8bc525f38a4072ef2b4f45bf70e5e84c90cf00c16d0c1527fe4100c65fc101",
+  "independence_rule": "Synthetic runtime construction consumes construction_packet.json; blind projection consumes heldout_driver.json; held-out verification consumes verifier_oracle.json.",
+  "individual_id": "dryad_real_copper_v0_3_24_v0_3_leave_one_window_out_16",
+  "manifest_hash": "51a513a3b984c768aec8ce887636356d1b8e624834bb809d93a33b2eea06f33c",
+  "oracle_hash": "6a2ff3340c4fd67fd5bcce13a0dd537b387639c2493e730820288f7dc7173473",
+  "protocol": "CEF-v0",
+  "schema": "cef-v0-independence-manifest"
+}

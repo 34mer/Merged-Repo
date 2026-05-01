@@ -1,0 +1,241 @@
+{
+  "capture_hash": "5d69a66363f27ad04e037591491b4ff2f55fcf81060c049e6e0e23fab1c7e089",
+  "controls_failed_as_expected": true,
+  "failure_features": [
+    "previous_neural_mean",
+    "neural_mean",
+    "neural_lagged_response",
+    "posture_mean",
+    "previous_perturbation_response",
+    "body_loop_coupling",
+    "neural_peak"
+  ],
+  "heldout_index": 21,
+  "oracle_leakage": false,
+  "passed_features": "15/22",
+  "projection_fit_mode": "construction_packet_training_examples_named_driver_ridge_least_squares",
+  "ranked_invariant_gaps": [
+    {
+      "feature": "previous_neural_mean",
+      "gap": 0.11902553081852357,
+      "oracle_range": [
+        0.5645217952315381,
+        0.6645217952315382
+      ],
+      "passed": false,
+      "value": 0.44549626441301454
+    },
+    {
+      "feature": "neural_mean",
+      "gap": 0.053561312990578036,
+      "oracle_range": [
+        0.5444233321941707,
+        0.6444233321941708
+      ],
+      "passed": false,
+      "value": 0.4908620192035927
+    },
+    {
+      "feature": "neural_lagged_response",
+      "gap": 0.04209776247139485,
+      "oracle_range": [
+        0.612187967561651,
+        0.712187967561651
+      ],
+      "passed": false,
+      "value": 0.5700902050902561
+    },
+    {
+      "feature": "posture_mean",
+      "gap": 0.03698414782656667,
+      "oracle_range": [
+        0.09702069059688058,
+        0.1970206905968806
+      ],
+      "passed": false,
+      "value": 0.23400483842344727
+    },
+    {
+      "feature": "previous_perturbation_response",
+      "gap": 0.03063421195221283,
+      "oracle_range": [
+        0.6799526029291312,
+        0.7799526029291313
+      ],
+      "passed": false,
+      "value": 0.6493183909769183
+    },
+    {
+      "feature": "body_loop_coupling",
+      "gap": 0.012080187355797023,
+      "oracle_range": [
+        0.17220783749825574,
+        0.2722078374982557
+      ],
+      "passed": false,
+      "value": 0.28428802485405275
+    },
+    {
+      "feature": "neural_peak",
+      "gap": 0.009708160118969744,
+      "oracle_range": [
+        0.330504209719049,
+        0.43050420971904896
+      ],
+      "passed": false,
+      "value": 0.32079604960007924
+    },
+    {
+      "feature": "stimulus_mean",
+      "gap": 0.0,
+      "oracle_range": [
+        0.8371169480925578,
+        0.9371169480925579
+      ],
+      "passed": true,
+      "value": 0.8871183294794808
+    },
+    {
+      "feature": "motor_mean",
+      "gap": 0.0,
+      "oracle_range": [
+        0.24739498439963092,
+        0.3473949843996309
+      ],
+      "passed": true,
+      "value": 0.3345712112846588
+    },
+    {
+      "feature": "perturbation_response",
+      "gap": 0.0,
+      "oracle_range": [
+        0.6607605756866278,
+        0.7607605756866279
+      ],
+      "passed": true,
+      "value": 0.6705310703414582
+    },
+    {
+      "feature": "delta_neural",
+      "gap": 0.0,
+      "oracle_range": [
+        0.4399507684813163,
+        0.5399507684813163
+      ],
+      "passed": true,
+      "value": 0.5226827067980614
+    },
+    {
+      "feature": "delta_perturbation_response",
+      "gap": 0.0,
+      "oracle_range": [
+        0.44040398637874834,
+        0.5404039863787483
+      ],
+      "passed": true,
+      "value": 0.510606169085044
+    },
+    {
+      "feature": "delta_stimulus",
+      "gap": 0.0,
+      "oracle_range": [
+        0.4706378986866791,
+        0.5706378986866791
+      ],
+      "passed": true,
+      "value": 0.520639236496361
+    },
+    {
+      "feature": "motor_slope",
+      "gap": 0.0,
+      "oracle_range": [
+        0.4409579193644985,
+        0.5409579193644986
+      ],
+      "passed": true,
+      "value": 0.4958459563246818
+    },
+    {
+      "feature": "neural_slope",
+      "gap": 0.0,
+      "oracle_range": [
+        0.5031829036712228,
+        0.6031829036712228
+      ],
+      "passed": true,
+      "value": 0.5086018265633943
+    },
+    {
+      "feature": "neural_variance",
+      "gap": 0.0,
+      "oracle_range": [
+        0.0,
+        0.05686223640986646
+      ],
+      "passed": true,
+      "value": 0.0166398371826868
+    },
+    {
+      "feature": "perturbation_response_auc",
+      "gap": 0.0,
+      "oracle_range": [
+        0.8053802878433138,
+        0.9053802878433139
+      ],
+      "passed": true,
+      "value": 0.8352653645735109
+    },
+    {
+      "feature": "perturbation_response_decay",
+      "gap": 0.0,
+      "oracle_range": [
+        0.44040398637874834,
+        0.5404039863787483
+      ],
+      "passed": true,
+      "value": 0.510606169085044
+    },
+    {
+      "feature": "perturbation_response_peak",
+      "gap": 0.0,
+      "oracle_range": [
+        0.95,
+        1.0
+      ],
+      "passed": true,
+      "value": 0.9999996588055386
+    },
+    {
+      "feature": "population_activity_dispersion",
+      "gap": 0.0,
+      "oracle_range": [
+        0.0,
+        0.05686223640986646
+      ],
+      "passed": true,
+      "value": 0.0166398371826868
+    },
+    {
+      "feature": "posture_slope",
+      "gap": 0.0,
+      "oracle_range": [
+        0.4387807459188979,
+        0.5387807459188979
+      ],
+      "passed": true,
+      "value": 0.5026852850417038
+    },
+    {
+      "feature": "previous_stimulus_mean",
+      "gap": 0.0,
+      "oracle_range": [
+        0.7958411507191995,
+        0.8958411507191996
+      ],
+      "passed": true,
+      "value": 0.8458395152923215
+    }
+  ],
+  "report_hash": "210e42ce634e18858e2ae18c6eac51213d06a4ba49c32356bd1ee01188140626",
+  "status": "FAIL"
+}

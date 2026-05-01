@@ -1,0 +1,256 @@
+{
+  "absorbed_constraints": {
+    "body_loop_coupling": 0.28277056640505227,
+    "delta_neural": 0.5053012857160557,
+    "delta_perturbation_response": 0.5029396979697526,
+    "delta_stimulus": 0.5198493623732223,
+    "motor_mean": 0.341817712594456,
+    "motor_slope": 0.5000533129464931,
+    "neural_lagged_response": 0.5218912010260904,
+    "neural_mean": 0.4166734369833424,
+    "neural_peak": 0.27864137083307855,
+    "neural_slope": 0.4920159024500319,
+    "neural_variance": 0.01645622609719306,
+    "perturbation_response": 0.6329883610083435,
+    "perturbation_response_auc": 0.8164941805041718,
+    "perturbation_response_decay": 0.5029396979697526,
+    "perturbation_response_peak": 1.0,
+    "population_activity_dispersion": 0.01645622609719306,
+    "posture_mean": 0.22372342021564853,
+    "posture_slope": 0.5003911450640417,
+    "previous_neural_mean": 0.4060708655512312,
+    "previous_perturbation_response": 0.6271089650688385,
+    "previous_stimulus_mean": 0.4510291758435979,
+    "stimulus_mean": 0.4907279005900427
+  },
+  "construction_packet_hash": "de336d5063ac10232c6115ff84ab60fa8ed7196f302f25856f81308deed8cc30",
+  "individual_id": "dryad_real_copper_v0_3_24_v0_3_leave_one_window_out_14",
+  "internal_constraint_channels": [
+    "neural_mean",
+    "posture_mean",
+    "stimulus_mean",
+    "motor_mean",
+    "perturbation_response",
+    "body_loop_coupling",
+    "delta_neural",
+    "delta_perturbation_response",
+    "delta_stimulus",
+    "motor_slope",
+    "neural_lagged_response",
+    "neural_peak",
+    "neural_slope",
+    "neural_variance",
+    "perturbation_response_auc",
+    "perturbation_response_decay",
+    "perturbation_response_peak",
+    "population_activity_dispersion",
+    "posture_slope",
+    "previous_neural_mean",
+    "previous_perturbation_response",
+    "previous_stimulus_mean"
+  ],
+  "projection_model": {
+    "coefficient_order": [
+      "delta_stimulus",
+      "perturbation_magnitude",
+      "previous_stimulus_mean",
+      "stimulus_mean",
+      "intercept"
+    ],
+    "coefficients": {
+      "body_loop_coupling": [
+        0.04214064595772284,
+        0.13446052231271224,
+        0.01759166355873596,
+        -0.032587561243177465,
+        0.134460522312712
+      ],
+      "delta_neural": [
+        0.01618540413855718,
+        0.2439089012768806,
+        0.11985802500296465,
+        -0.09168006474638034,
+        0.24390890127687972
+      ],
+      "delta_perturbation_response": [
+        0.07510273554844799,
+        0.2303766409345108,
+        0.045114102710839515,
+        -0.03505706450947357,
+        0.23037664093451063
+      ],
+      "delta_stimulus": [
+        0.3843577374006808,
+        0.1539178551101523,
+        -0.3073964979676726,
+        0.30740112739476166,
+        0.15391785511015532
+      ],
+      "motor_mean": [
+        0.8526345024099484,
+        -0.05913194956014507,
+        -0.9015070709398456,
+        0.8628938818936155,
+        -0.0591319495601368
+      ],
+      "motor_slope": [
+        0.1471128082433916,
+        0.21383721138419656,
+        -0.04623957960698079,
+        0.03414882418527667,
+        0.213837211384197
+      ],
+      "neural_lagged_response": [
+        -0.04842661909330684,
+        0.2376300718995044,
+        0.25053794570669496,
+        -0.08394535783929027,
+        0.23763007189950414
+      ],
+      "neural_mean": [
+        -0.3372455529423625,
+        0.24885465646491933,
+        0.5812459907466152,
+        -0.3420997686762099,
+        0.2488546564649167
+      ],
+      "neural_peak": [
+        -7.664985120551526,
+        2.259553688800331,
+        8.893845188699718,
+        -8.695678680382711,
+        2.259553688800248
+      ],
+      "neural_slope": [
+        6.748727628033247,
+        -1.6620355788595593,
+        -7.5724620386270125,
+        7.58702875071922,
+        -1.6620355788594872
+      ],
+      "neural_variance": [
+        -0.5237747125060184,
+        0.15588440063416567,
+        0.6026287832547517,
+        -0.6008050381204189,
+        0.15588440057864877
+      ],
+      "perturbation_response": [
+        0.23667993528954295,
+        0.2256403015951992,
+        -0.06678268811889146,
+        0.1809368837866564,
+        0.22564029981884345
+      ],
+      "perturbation_response_auc": [
+        0.19529889360715383,
+        0.34357938443135555,
+        0.005029053385076303,
+        0.05204746164849512,
+        0.34357938443135594
+      ],
+      "perturbation_response_decay": [
+        0.07510273554844799,
+        0.2303766409345108,
+        0.045114102710839515,
+        -0.03505706450947357,
+        0.23037664093451063
+      ],
+      "perturbation_response_peak": [
+        0.15391785547443101,
+        0.46151846726820933,
+        0.07684079666017508,
+        -0.07684196226083634,
+        0.46151846726820867
+      ],
+      "population_activity_dispersion": [
+        -0.5237747125060184,
+        0.15588440063416567,
+        0.6026287832547517,
+        -0.6008050381204189,
+        0.15588440057864877
+      ],
+      "posture_mean": [
+        -0.7683532091257225,
+        0.32805299384335834,
+        0.9366903987407744,
+        -0.9280690050634371,
+        0.3280529938433495
+      ],
+      "posture_slope": [
+        -0.0158887089162362,
+        0.2552393812946336,
+        0.14761689470901843,
+        -0.13939989901225835,
+        0.25523938129463236
+      ],
+      "previous_neural_mean": [
+        -0.21569850903497823,
+        0.22255532200184788,
+        0.4183707357556825,
+        -0.23558159979910825,
+        0.2225553220018466
+      ],
+      "previous_perturbation_response": [
+        0.24039231665862965,
+        0.2264054868583336,
+        -0.08017009838373365,
+        0.17420905204811685,
+        0.2264054868583372
+      ],
+      "previous_stimulus_mean": [
+        -0.3073964979666021,
+        0.07684079647781983,
+        0.8458141387859822,
+        0.154180349204285,
+        0.07684079647781976
+      ],
+      "stimulus_mean": [
+        0.3074011274418071,
+        -0.07684196209051095,
+        0.15418034922842602,
+        0.8458245632166523,
+        -0.07684196209049651
+      ]
+    },
+    "driver_names": [
+      "delta_stimulus",
+      "perturbation_magnitude",
+      "previous_stimulus_mean",
+      "stimulus_mean"
+    ],
+    "schema": "cef-construction-ridge-projection-model"
+  },
+  "projection_model_source": "construction_packet_training_examples_named_driver_ridge_least_squares",
+  "protocol": "CEF-v0",
+  "runtime": "wormsim-compatible-destination",
+  "runtime_hash": "3aa217679f45002386610086ed5c848213effdfa0c61745250476903963fabd4",
+  "schema": "cef-v0-synthetic-worm-runtime",
+  "state": {
+    "latent_internal_state": {
+      "body_loop_coupling": 0.28277056640505227,
+      "delta_neural": 0.5053012857160557,
+      "delta_perturbation_response": 0.5029396979697526,
+      "delta_stimulus": 0.5198493623732223,
+      "motor_mean": 0.341817712594456,
+      "motor_slope": 0.5000533129464931,
+      "neural_lagged_response": 0.5218912010260904,
+      "neural_mean": 0.4166734369833424,
+      "neural_peak": 0.27864137083307855,
+      "neural_slope": 0.4920159024500319,
+      "neural_variance": 0.01645622609719306,
+      "perturbation_response": 0.6329883610083435,
+      "perturbation_response_auc": 0.8164941805041718,
+      "perturbation_response_decay": 0.5029396979697526,
+      "perturbation_response_peak": 1.0,
+      "population_activity_dispersion": 0.01645622609719306,
+      "posture_mean": 0.22372342021564853,
+      "posture_slope": 0.5003911450640417,
+      "previous_neural_mean": 0.4060708655512312,
+      "previous_perturbation_response": 0.6271089650688385,
+      "previous_stimulus_mean": 0.4510291758435979,
+      "stimulus_mean": 0.4907279005900427
+    },
+    "runtime_step": 0
+  }
+}

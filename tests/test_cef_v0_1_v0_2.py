@@ -15,6 +15,7 @@ from cef.compiler import compile_capture_to_packets
 from cef.dryad import import_dryad_copper_h5
 from cef.runtime import constrain_synthetic_runtime, run_blind_heldout_projection
 from cef.verify import evaluate_oracle, verify_blind_forcing
+from cef.v0_3 import enrich_capture_with_v0_3_dynamics, run_v0_3_robustness, V0_3_DYNAMIC_FEATURES
 
 
 def _real_rows() -> list[dict[str, float | str]]:
@@ -203,7 +204,7 @@ def test_cef_v0_2_split_ablation_matrix(tmp_path: Path) -> None:
 
     assert matrix["schema"] == "cef-v0.2-real-data-split-ablation-matrix"
     assert matrix["real_data_ingestion"] == "PASS"
-    assert matrix["projection_fit_mode"] == "construction_packet_training_examples_all_ridge_least_squares"
+    assert matrix["projection_fit_mode"] == "construction_packet_training_examples_named_driver_ridge_least_squares"
     assert len(matrix["cases"]) == 8
     assert all(case["oracle_leakage"] is False for case in matrix["cases"])
     assert all(case["controls_failed_as_expected"] is True for case in matrix["cases"])
@@ -223,3 +224,43 @@ def test_cef_v0_2_split_ablation_matrix(tmp_path: Path) -> None:
     )
     assert result.exit_code == 0, result.output
     assert "CEF-v0.2 SPLIT ABLATION MATRIX COMPLETE" in result.output
+
+
+def test_cef_v0_3_dynamic_observables_and_robustness(tmp_path: Path) -> None:
+    raw = tmp_path / "real_shape.json"
+    capture = tmp_path / "real_capture.json"
+    enriched = tmp_path / "real_capture_v0_3.json"
+    artifacts = tmp_path / "artifacts_v0_3"
+    robustness = tmp_path / "robustness_v0_3"
+    raw.write_text(
+        json.dumps({"individual_id": "real_shape_worm", "dataset_source": "unit_test_json_dataset", "episodes": _real_rows()}),
+        encoding="utf-8",
+    )
+    import_real_dataset_json(raw, capture)
+    v03 = enrich_capture_with_v0_3_dynamics(capture, enriched)
+    packets = compile_capture_to_packets(enriched, artifacts)
+
+    state_vars = packets["individual_packet"]["state_variables"]
+    assert "neural_slope" in state_vars
+    assert "delta_stimulus" in state_vars
+    assert packets["individual_packet"]["dynamic_state_variables"]
+    assert len(v03["anatomy_connectome_metadata"]["cef_v0_3_dynamic_features"]) == len(V0_3_DYNAMIC_FEATURES)
+
+    runtime = constrain_synthetic_runtime(artifacts / "construction_packet.json", artifacts / "runtime")
+    assert runtime["projection_model_source"] == "construction_packet_training_examples_named_driver_ridge_least_squares"
+    assert "driver_names" in runtime["projection_model"]
+    assert "delta_stimulus" in runtime["projection_model"]["driver_names"]
+
+    report = run_v0_3_robustness(enriched, robustness)
+    assert report["schema"] == "cef-v0.3-window-dynamics-robustness-report"
+    assert report["protocol"] == "CEF-v0.3"
+    assert report["real_data_ingestion"] == "PASS"
+    assert report["oracle_leakage"] is False
+    assert report["controls_failed_as_expected"] is True
+    assert report["status"] in {"PASS", "PARTIAL"}
+    assert "ranked_invariant_gap_report" in report
+
+    runner = CliRunner()
+    result = runner.invoke(app, ["run-v0-3-robustness", "--source", str(enriched), "--out", str(tmp_path / "cli_v0_3")])
+    assert result.exit_code == 0, result.output
+    assert "CEF-v0.3 WINDOW ROBUSTNESS COMPLETE" in result.output

@@ -1,0 +1,259 @@
+{
+  "capture_hash": "8949ef61a7de07346ac90fcd11b1c96507c6da8eb1e63874da28009d82c8521c",
+  "capture_origin": "real_dataset",
+  "dataset_source": "Dryad DOI 10.5061/dryad.w9ghx3g4v copper-boundary H5",
+  "features": [
+    {
+      "center": 0.362182041894518,
+      "episode_count": 1,
+      "feature": "neural_mean",
+      "hash": "49789cf8556040a086b20c2d0d7feb213fabb9109c7de5b3a82a5c3f5731aa29",
+      "range": [
+        0.31218204189451804,
+        0.412182041894518
+      ],
+      "required": true
+    },
+    {
+      "center": 0.17971578637107044,
+      "episode_count": 1,
+      "feature": "posture_mean",
+      "hash": "730d783f94a09c1283474d1191560a38cffbb28b15000b5cf34c025c5096ea85",
+      "range": [
+        0.12971578637107045,
+        0.22971578637107043
+      ],
+      "required": true
+    },
+    {
+      "center": 0.467479674796748,
+      "episode_count": 1,
+      "feature": "stimulus_mean",
+      "hash": "1468d1fd97ad6aa298a7fcd86f246febb7fd69a66cdb1d87326f623e8ee6db05",
+      "range": [
+        0.417479674796748,
+        0.5174796747967481
+      ],
+      "required": true
+    },
+    {
+      "center": 0.3376067197540622,
+      "episode_count": 1,
+      "feature": "motor_mean",
+      "hash": "e3936030ede18f50c89c7a9d2713d2618335429f6358087c9e8aa88952e7164e",
+      "range": [
+        0.2876067197540622,
+        0.3876067197540622
+      ],
+      "required": true
+    },
+    {
+      "center": 0.601123146931313,
+      "episode_count": 1,
+      "feature": "perturbation_response",
+      "hash": "dc9e0ecdb595f332737591c949c75aebdc3a8a056c6d0f6e9e664348002338a9",
+      "range": [
+        0.5511231469313129,
+        0.651123146931313
+      ],
+      "required": true
+    },
+    {
+      "center": 0.2586612530625663,
+      "episode_count": 1,
+      "feature": "body_loop_coupling",
+      "hash": "668f73da92bd2ebdafb90176af1150553803a8e4954b88dac66f4e7b5abc9e90",
+      "range": [
+        0.20866125306256633,
+        0.3086612530625663
+      ],
+      "required": true
+    },
+    {
+      "center": 0.5291537030424442,
+      "episode_count": 1,
+      "feature": "delta_neural",
+      "hash": "91f2ac2221a322732484b6040173aebbc16750a57faa38aacb79b7819effb51d",
+      "range": [
+        0.47915370304244426,
+        0.5791537030424443
+      ],
+      "required": true
+    },
+    {
+      "center": 0.5129380971037807,
+      "episode_count": 1,
+      "feature": "delta_perturbation_response",
+      "hash": "4354b45c3de5420acb1f962928e493ff03b326c5d9d08396dd48162120deb9a6",
+      "range": [
+        0.4629380971037807,
+        0.5629380971037807
+      ],
+      "required": true
+    },
+    {
+      "center": 0.5275171982489055,
+      "episode_count": 1,
+      "feature": "delta_stimulus",
+      "hash": "dd8cc9c2a8b5a47de352593e3ee6db28b0126303bfc751d362a78abf2f95ddc4",
+      "range": [
+        0.47751719824890554,
+        0.5775171982489056
+      ],
+      "required": true
+    },
+    {
+      "center": 0.4931190231787474,
+      "episode_count": 1,
+      "feature": "motor_slope",
+      "hash": "eb4cc6088dfafdadc8b626385375b3c1d6a8611a1b3bc905f795df0f74847661",
+      "range": [
+        0.4431190231787474,
+        0.5431190231787474
+      ],
+      "required": true
+    },
+    {
+      "center": 0.46871449730913484,
+      "episode_count": 1,
+      "feature": "neural_lagged_response",
+      "hash": "b58bb5434a6ba17c695ce6572adcd69140482784880fea191a9ef4feb6695132",
+      "range": [
+        0.41871449730913485,
+        0.5187144973091349
+      ],
+      "required": true
+    },
+    {
+      "center": 0.22459126972218343,
+      "episode_count": 1,
+      "feature": "neural_peak",
+      "hash": "0f3927055c0327a16fd64c91d526ca80ef18c4ef9e9d2336b110b1f0161c3b6b",
+      "range": [
+        0.17459126972218342,
+        0.27459126972218345
+      ],
+      "required": true
+    },
+    {
+      "center": 0.6260877993458641,
+      "episode_count": 1,
+      "feature": "neural_slope",
+      "hash": "292f2e4dbe7b141614cd173a2174a2b02162d3631e8ce44a100b5841970d7ea6",
+      "range": [
+        0.5760877993458641,
+        0.6760877993458642
+      ],
+      "required": true
+    },
+    {
+      "center": 0.013600166302165373,
+      "episode_count": 1,
+      "feature": "neural_variance",
+      "hash": "9cebb0ea357a8d164a66a45b7afe7e8fe29aa33ae2040207e184c11330dfc824",
+      "range": [
+        0.0,
+        0.06360016630216538
+      ],
+      "required": true
+    },
+    {
+      "center": 0.8005615734656565,
+      "episode_count": 1,
+      "feature": "perturbation_response_auc",
+      "hash": "92f83645780a6c412ecbf0f560fc353fb4b8b8826382140cef160a1881b8e824",
+      "range": [
+        0.7505615734656564,
+        0.8505615734656565
+      ],
+      "required": true
+    },
+    {
+      "center": 0.5129380971037807,
+      "episode_count": 1,
+      "feature": "perturbation_response_decay",
+      "hash": "ad0b939b3a4850d9c5fe4284cf02f3d1c18ee2947ceb06dc331ae60d5a5187fb",
+      "range": [
+        0.4629380971037807,
+        0.5629380971037807
+      ],
+      "required": true
+    },
+    {
+      "center": 1.0,
+      "episode_count": 1,
+      "feature": "perturbation_response_peak",
+      "hash": "50c20b31ff0c7d9dbb611d7f87ebfde6e1c8d9b000c7e2a26539c2502c971dff",
+      "range": [
+        0.95,
+        1.0
+      ],
+      "required": true
+    },
+    {
+      "center": 0.013600166302165373,
+      "episode_count": 1,
+      "feature": "population_activity_dispersion",
+      "hash": "3d7469f2b2cd158571afdef1e1a41d9d07987fe262ccc307d6cd10c375bb9bab",
+      "range": [
+        0.0,
+        0.06360016630216538
+      ],
+      "required": true
+    },
+    {
+      "center": 0.4937868639243241,
+      "episode_count": 1,
+      "feature": "posture_slope",
+      "hash": "9eaf46cd561491223ad5aa4fe44764ceb82550c2003677b9ca32f73c3871d7c5",
+      "range": [
+        0.4437868639243241,
+        0.5437868639243241
+      ],
+      "required": true
+    },
+    {
+      "center": 0.30387463580962953,
+      "episode_count": 1,
+      "feature": "previous_neural_mean",
+      "hash": "d1b7315a79f27f9a81a4cd6f07e287229240040260dc02d8b7ad1e25498652e4",
+      "range": [
+        0.25387463580962955,
+        0.3538746358096295
+      ],
+      "required": true
+    },
+    {
+      "center": 0.5752469527237516,
+      "episode_count": 1,
+      "feature": "previous_perturbation_response",
+      "hash": "3c96ddb7c6510374d6188e7c53704e6c0566f5d76a7eef2611ce6900b6c1861d",
+      "range": [
+        0.5252469527237515,
+        0.6252469527237516
+      ],
+      "required": true
+    },
+    {
+      "center": 0.41244527829893685,
+      "episode_count": 1,
+      "feature": "previous_stimulus_mean",
+      "hash": "a9deca5fccc3a3d9bacc6d6b7bb73574ff7d4bf7012eba42b36b56a3d1ccfbb3",
+      "range": [
+        0.36244527829893686,
+        0.46244527829893683
+      ],
+      "required": true
+    }
+  ],
+  "heldout_episode_ids": [
+    "2023-03-30-01-cudata_window_08"
+  ],
+  "individual_id": "dryad_real_copper_v0_3_18_v0_3_leave_one_window_out_08",
+  "oracle_hash": "2036b3aba34dcc04bf52e7b994e4409e57063d1e4792c42f8d27ee8c0b1c6714",
+  "protocol": "CEF-v0",
+  "real_organism_constraints_loaded": true,
+  "schema": "cef-v0-heldout-verifier-oracle",
+  "source_packet_hash": "2e9e1794f3aff9bf09797b998156575960178ac4b85d69fe1569fdaf7f48f645",
+  "split": "heldout"
+}

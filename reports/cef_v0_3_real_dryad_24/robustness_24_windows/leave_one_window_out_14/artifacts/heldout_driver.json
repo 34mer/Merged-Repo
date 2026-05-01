@@ -1,0 +1,35 @@
+{
+  "capture_hash": "a4e011106c7165833eb7c1af061616aea32782081edf88ca054cbf6420807dd7",
+  "driver_rows": [
+    {
+      "driver_channels": {
+        "environment_stimulus_state": [
+          0.5981863664790494,
+          1.0
+        ],
+        "perturbation_events": [
+          {
+            "kind": "copper_boundary",
+            "magnitude": 1.0,
+            "timestep": 523121.37267198943
+          }
+        ]
+      },
+      "driver_values": {
+        "delta_stimulus": 0.5206378986866792,
+        "perturbation_magnitude": 1.0,
+        "previous_stimulus_mean": 0.556910569105691,
+        "stimulus_mean": 0.5981863664790494
+      },
+      "episode_id": "2023-03-30-01-cudata_window_14",
+      "perturbation_magnitude": 1.0,
+      "stimulus_mean": 0.5981863664790494
+    }
+  ],
+  "heldout_driver_hash": "c6e140be82586b747ca8e0fff7159b49201fc5b2faa7e6a2c08c734e93a10f52",
+  "individual_id": "dryad_real_copper_v0_3_24_v0_3_leave_one_window_out_14",
+  "oracle_excluded_from_generation": true,
+  "protocol": "CEF-v0.1",
+  "schema": "cef-v0.1-heldout-driver",
+  "split": "heldout_driver"
+}

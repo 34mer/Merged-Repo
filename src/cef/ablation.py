@@ -194,7 +194,7 @@ def run_capture_split_ablation(
         "capture_origin": capture.get("capture_origin"),
         "real_data_ingestion": "PASS" if capture.get("real_organism_constraints_loaded") else "FAIL",
         "windows": windows,
-        "projection_fit_mode": "construction_packet_training_examples_all_ridge_least_squares",
+        "projection_fit_mode": "construction_packet_training_examples_named_driver_ridge_least_squares",
         "verifier_rule": "construction packet + heldout driver generate projection; verifier oracle is evaluation-only",
         "cases": cases,
     }

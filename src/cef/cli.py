@@ -12,6 +12,12 @@ from .compiler import compile_capture_to_packets
 from .report import write_summary
 from .runtime import constrain_synthetic_runtime
 from .verify import verify_forcing, verify_blind_forcing
+from .v0_3 import (
+    enrich_capture_with_v0_3_dynamics,
+    import_dryad_copper_h5_v0_3,
+    run_v0_3_robustness,
+    import_and_run_dryad_v0_3,
+)
 
 app = typer.Typer(help="CEF-v0 C. elegans forcing-function protocol tools")
 
@@ -212,6 +218,75 @@ def run_split_ablation_cmd(
             f"oracle_leakage={str(case['oracle_leakage']).lower()}"
         )
     typer.echo(f"Matrix: {out / 'split_ablation_matrix.json'}")
+
+
+@app.command("enrich-v0-3-dynamics")
+def enrich_v0_3_dynamics_cmd(
+    source: Path = typer.Option(..., help="Existing CEF capture JSON."),
+    out: Path = typer.Option(Path("external/celegans_capture_v0_3.json"), help="CEF-v0.3 enriched capture output."),
+) -> None:
+    capture = enrich_capture_with_v0_3_dynamics(source, out)
+    typer.echo("CEF-v0.3 DYNAMIC CAPTURE ENRICHED")
+    typer.echo(f"Individual id: {capture['individual_id']}")
+    typer.echo(f"Dynamic features: {len(capture['anatomy_connectome_metadata'].get('cef_v0_3_dynamic_features', []))}")
+    typer.echo(f"Capture hash: {capture['capture_hash']}")
+
+
+@app.command("import-dryad-copper-h5-v0-3")
+def import_dryad_copper_h5_v0_3_cmd(
+    source: Path = typer.Option(..., help="Dryad copper-boundary per-worm H5 file."),
+    out: Path = typer.Option(Path("external/celegans_dryad_copper_capture_v0_3.json"), help="CEF-v0.3 capture output JSON."),
+    individual_id: str | None = typer.Option(None, help="Individual worm id override."),
+    windows: int = typer.Option(12, help="CEF-v0.3 window count: 12, 18, or 24."),
+) -> None:
+    capture = import_dryad_copper_h5_v0_3(source, out, individual_id=individual_id, windows=windows)
+    typer.echo("CEF-v0.3 DRYAD COPPER H5 IMPORTED")
+    typer.echo(f"Individual id: {capture['individual_id']}")
+    typer.echo(f"Capture origin: {capture['capture_origin']}")
+    typer.echo(f"Real organism constraints loaded: {str(capture['real_organism_constraints_loaded']).lower()}")
+    typer.echo(f"Episodes: {len(capture['episodes'])}")
+    typer.echo(f"Dynamic features: {len(capture['anatomy_connectome_metadata'].get('cef_v0_3_dynamic_features', []))}")
+    typer.echo(f"Capture hash: {capture['capture_hash']}")
+
+
+@app.command("run-v0-3-robustness")
+def run_v0_3_robustness_cmd(
+    source: Path = typer.Option(..., help="CEF-v0.3 capture JSON."),
+    out: Path = typer.Option(Path("reports/cef_v0_3_robustness"), help="CEF-v0.3 robustness report directory."),
+) -> None:
+    report = run_v0_3_robustness(source, out)
+    typer.echo("CEF-v0.3 WINDOW ROBUSTNESS COMPLETE")
+    typer.echo(f"Status: {report['status']}")
+    typer.echo(f"Real data ingestion: {report['real_data_ingestion']}")
+    typer.echo(f"Windows: {report['windows']}")
+    typer.echo(f"Leave-one-window-out: {report['leave_one_window_out_status']}")
+    typer.echo(f"Passed cases: {report['passed_cases']}")
+    typer.echo(f"Failed cases: {report['failed_cases']}")
+    typer.echo(f"Oracle leakage: {str(report['oracle_leakage']).lower()}")
+    typer.echo(f"Controls failed as expected: {str(report['controls_failed_as_expected']).lower()}")
+    if report.get('ranked_invariant_gap_report'):
+        top = report['ranked_invariant_gap_report'][0]
+        typer.echo(f"Top invariant gap: window={top['heldout_index']} feature={top['feature']} gap={top['gap']}")
+    typer.echo(f"Report: {out / 'cef_v0_3_robustness_report.json'}")
+
+
+@app.command("import-and-run-dryad-v0-3")
+def import_and_run_dryad_v0_3_cmd(
+    source: Path = typer.Option(..., help="Dryad copper-boundary per-worm H5 file."),
+    out: Path = typer.Option(Path("reports/cef_v0_3_real_dryad"), help="CEF-v0.3 output/report root."),
+    individual_id: str | None = typer.Option(None, help="Individual worm id override."),
+    windows: int = typer.Option(12, help="CEF-v0.3 window count: 12, 18, or 24."),
+) -> None:
+    report = import_and_run_dryad_v0_3(source, out, windows=windows, individual_id=individual_id)
+    typer.echo("CEF-v0.3 DRYAD IMPORT AND ROBUSTNESS COMPLETE")
+    typer.echo(f"Status: {report['status']}")
+    typer.echo(f"Real data ingestion: {report['real_data_ingestion']}")
+    typer.echo(f"Windows: {report['windows']}")
+    typer.echo(f"Leave-one-window-out: {report['leave_one_window_out_status']}")
+    typer.echo(f"Passed cases: {report['passed_cases']}")
+    typer.echo(f"Failed cases: {report['failed_cases']}")
+    typer.echo(f"Oracle leakage: {str(report['oracle_leakage']).lower()}")
+    typer.echo(f"Controls failed as expected: {str(report['controls_failed_as_expected']).lower()}")
 
 
 if __name__ == "__main__":
