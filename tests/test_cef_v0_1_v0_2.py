@@ -8,6 +8,7 @@ from pathlib import Path
 from typer.testing import CliRunner
 
 from cef.adapters import import_real_dataset_csv, import_real_dataset_json
+from cef.ablation import run_capture_split_ablation
 from cef.capture import make_fixture_capture
 from cef.cli import app
 from cef.compiler import compile_capture_to_packets
@@ -186,3 +187,39 @@ def test_cef_v0_2_dryad_copper_h5_adapter_and_cli(tmp_path: Path, monkeypatch) -
     assert "CEF-v0.2 DRYAD COPPER H5 IMPORTED" in result.output
     assert "Real organism constraints loaded: true" in result.output
     assert Path("external/dryad_capture.json").exists()
+
+
+def test_cef_v0_2_split_ablation_matrix(tmp_path: Path) -> None:
+    raw = tmp_path / "real_shape.json"
+    capture = tmp_path / "real_capture.json"
+    out = tmp_path / "ablation"
+    raw.write_text(
+        json.dumps({"individual_id": "real_shape_worm", "dataset_source": "unit_test_json_dataset", "episodes": _real_rows()}),
+        encoding="utf-8",
+    )
+    import_real_dataset_json(raw, capture)
+
+    matrix = run_capture_split_ablation(capture, out, include_leave_one_out=True)
+
+    assert matrix["schema"] == "cef-v0.2-real-data-split-ablation-matrix"
+    assert matrix["real_data_ingestion"] == "PASS"
+    assert matrix["projection_fit_mode"] == "construction_packet_training_examples_all_ridge_least_squares"
+    assert len(matrix["cases"]) == 8
+    assert all(case["oracle_leakage"] is False for case in matrix["cases"])
+    assert all(case["controls_failed_as_expected"] is True for case in matrix["cases"])
+    assert (out / "split_ablation_matrix.json").exists()
+
+    runner = CliRunner()
+    result = runner.invoke(
+        app,
+        [
+            "run-split-ablation",
+            "--source",
+            str(capture),
+            "--out",
+            str(tmp_path / "cli_ablation"),
+            "--include-leave-one-out",
+        ],
+    )
+    assert result.exit_code == 0, result.output
+    assert "CEF-v0.2 SPLIT ABLATION MATRIX COMPLETE" in result.output

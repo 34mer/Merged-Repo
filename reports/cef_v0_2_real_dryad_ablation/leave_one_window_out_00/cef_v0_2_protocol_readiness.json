@@ -1,0 +1,129 @@
+{
+  "capture_origin": "real_dataset",
+  "claim": "The CEF runtime can generate held-out predictions from construction-only constraints and be evaluated by a separate oracle.",
+  "construction_packet_hash": "844f79638e215ea08a0e28488d3fcdab14b39d17b13a3aa8c6381dd5945574ec",
+  "construction_verifier_independence": {
+    "construction_hash_ok": true,
+    "distinct_hashes": true,
+    "oracle_hash_ok": true,
+    "same_feature_set": true,
+    "split_ok": true,
+    "status": "PASS"
+  },
+  "controls": [
+    {
+      "control": "random-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "random observables should not satisfy held-out individual-worm oracle"
+    },
+    {
+      "control": "over-stable-runtime",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "over-stable runtime should fail held-out perturbation response"
+    },
+    {
+      "control": "behavior-only-output",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "behavior-only output must fail if internal individual constraints fail"
+    },
+    {
+      "control": "missing-construction-verifier-split",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "construction and verifier packets must be independent splits"
+    },
+    {
+      "control": "runtime-cannot-absorb-construction-only-constraints",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "blind runtime must carry construction-fit model and absorbed internal constraints"
+    },
+    {
+      "control": "verifier-oracle-leakage",
+      "failed_as_expected": true,
+      "passed": false,
+      "reason": "blind projection must not use verifier oracle for generation"
+    }
+  ],
+  "controls_failed_as_expected": true,
+  "dataset_source": "Dryad DOI 10.5061/dryad.w9ghx3g4v copper-boundary H5",
+  "heldout_driver_hash": "edaa8614fc7898e25870b620e74948af628153bcd17053cac613c95021b2ade8",
+  "heldout_driver_loaded": true,
+  "heldout_perturbation_verification": {
+    "passed_count": 4,
+    "rows": [
+      {
+        "feature": "neural_mean",
+        "oracle_range": [
+          0.34405151188069355,
+          0.44405151188069353
+        ],
+        "passed": false,
+        "value": 0.23571145162149187
+      },
+      {
+        "feature": "posture_mean",
+        "oracle_range": [
+          0.179048310695256,
+          0.279048310695256
+        ],
+        "passed": true,
+        "value": 0.21617266020417458
+      },
+      {
+        "feature": "stimulus_mean",
+        "oracle_range": [
+          0.03286429018136343,
+          0.13286429018136342
+        ],
+        "passed": true,
+        "value": 0.08286608904271649
+      },
+      {
+        "feature": "motor_mean",
+        "oracle_range": [
+          0.29166290911975623,
+          0.3916629091197562
+        ],
+        "passed": true,
+        "value": 0.3669639109188485
+      },
+      {
+        "feature": "perturbation_response",
+        "oracle_range": [
+          0.5704766406382717,
+          0.6704766406382718
+        ],
+        "passed": false,
+        "value": 0.5447749023984989
+      },
+      {
+        "feature": "body_loop_coupling",
+        "oracle_range": [
+          0.2353556099075061,
+          0.33535560990750607
+        ],
+        "passed": true,
+        "value": 0.2915682855615116
+      }
+    ],
+    "status": "FAIL",
+    "total_count": 6
+  },
+  "individual_capture_packet_loaded": true,
+  "individual_id": "dryad_real_copper_001_leave_one_window_out_00",
+  "oracle_hash": "9287bd93c9d74601595621b029012d1c3b7a3e31a5fbccf9a69a85523b731dab",
+  "projection_hash": "f4344bb8a15f43aeed72111384e8e6f03d7e23d9ca3cf45385beb73a49139faf",
+  "protocol": "CEF-v0.2-ablation",
+  "real_organism_constraints_loaded": true,
+  "report_hash": "136c9faec59bd1348d11038c5bd564f8c8e420fc4f948750374a8d6393081898",
+  "runtime_hash": "8b1d364c9ced77cba9e49630e9b8f386596bef9e97f6f267930513d79f83394d",
+  "runtime_used_oracle_for_generation": false,
+  "schema": "cef-v0.1-blind-forcing-readiness-report",
+  "status": "FAIL",
+  "synthetic_worm_runtime_constrained": true,
+  "verifier_blind_projection": true
+}

@@ -1,0 +1,68 @@
+{
+  "absorbed_constraints": {
+    "body_loop_coupling": 0.2927188321483114,
+    "motor_mean": 0.3493582307806548,
+    "neural_mean": 0.36880410285370785,
+    "perturbation_response": 0.6100534604208341,
+    "posture_mean": 0.23607943351596797,
+    "stimulus_mean": 0.4155722326454034
+  },
+  "construction_packet_hash": "997a88f3660afe4511b3f00996852550cbbf664b93442ff589138d5dabc53009",
+  "individual_id": "dryad_real_copper_001_interleaved",
+  "internal_constraint_channels": [
+    "neural_mean",
+    "posture_mean",
+    "stimulus_mean",
+    "motor_mean",
+    "perturbation_response",
+    "body_loop_coupling"
+  ],
+  "projection_model": {
+    "body_loop_coupling": [
+      0.027115651231660185,
+      0.1407251426225253,
+      0.1407251426225253
+    ],
+    "motor_mean": [
+      0.01213787894881642,
+      0.17215701114353138,
+      0.17215701114353135
+    ],
+    "neural_mean": [
+      0.020900986320097417,
+      0.1800590941447002,
+      0.18005909414470017
+    ],
+    "perturbation_response": [
+      0.01695777571346253,
+      0.30150310216555737,
+      0.30150310216555737
+    ],
+    "posture_mean": [
+      0.04209342351450381,
+      0.10929327415703044,
+      0.10929327404600814
+    ],
+    "stimulus_mean": [
+      0.9999963864676307,
+      7.508417633598948e-07,
+      7.508417633598948e-07
+    ]
+  },
+  "projection_model_source": "construction_packet_training_examples_all_ridge_least_squares",
+  "protocol": "CEF-v0",
+  "runtime": "wormsim-compatible-destination",
+  "runtime_hash": "5deed829e458c4f90d9d341f59f0851204f660a21f6c40a1cb5f216a5ccfd35b",
+  "schema": "cef-v0-synthetic-worm-runtime",
+  "state": {
+    "latent_internal_state": {
+      "body_loop_coupling": 0.2927188321483114,
+      "motor_mean": 0.3493582307806548,
+      "neural_mean": 0.36880410285370785,
+      "perturbation_response": 0.6100534604208341,
+      "posture_mean": 0.23607943351596797,
+      "stimulus_mean": 0.4155722326454034
+    },
+    "runtime_step": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "body_loop_constraints": [
+    "posture_mean",
+    "body_loop_coupling"
+  ],
+  "capture_hash": "3a10e38db6ba82e457579f8098a7ff97dcb2a098858f7502a57f6ffc8ac8a0d5",
+  "capture_origin": "real_dataset",
+  "coupling_constraints": [
+    "body_loop_coupling",
+    "neural_mean",
+    "motor_mean"
+  ],
+  "dataset_source": "Dryad DOI 10.5061/dryad.w9ghx3g4v copper-boundary H5",
+  "failure_boundaries": [
+    "missing construction/verifier split",
+    "held-out perturbation response outside oracle",
+    "internal constraints absent while behavior-only output passes",
+    "random or over-stable control passes"
+  ],
+  "individual_id": "dryad_real_copper_001_leave_one_window_out_05",
+  "packet_hash": "e8ed0a984aa7f199d031e960cc73f9eb931481187da0e429fcd4f8c232de8823",
+  "perturbation_response_constraints": [
+    "perturbation_response"
+  ],
+  "protocol": "CEF-v0",
+  "real_organism_constraints_loaded": true,
+  "required_channels": [
+    "neural_activity",
+    "posture_body_state",
+    "environment_stimulus_state",
+    "motor_output",
+    "perturbation_events"
+  ],
+  "schema": "cef-v0-individual-worm-constraint-packet",
+  "state_variables": [
+    "neural_mean",
+    "posture_mean",
+    "stimulus_mean",
+    "motor_mean",
+    "perturbation_response",
+    "body_loop_coupling"
+  ],
+  "stimulus_response_constraints": [
+    "stimulus_mean",
+    "motor_mean"
+  ]
+}

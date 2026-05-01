@@ -1,0 +1,68 @@
+{
+  "absorbed_constraints": {
+    "body_loop_coupling": 0.288080302817142,
+    "motor_mean": 0.3489295302867757,
+    "neural_mean": 0.3726553306788825,
+    "perturbation_response": 0.6119787205024345,
+    "posture_mean": 0.22723107534750825,
+    "stimulus_mean": 0.41557223264540344
+  },
+  "construction_packet_hash": "451c8d92d037e3e86683e520dc0a39937c7735b51cbb49ebde837b9d4c2c430d",
+  "individual_id": "dryad_real_copper_001_leave_one_window_out_05",
+  "internal_constraint_channels": [
+    "neural_mean",
+    "posture_mean",
+    "stimulus_mean",
+    "motor_mean",
+    "perturbation_response",
+    "body_loop_coupling"
+  ],
+  "projection_model": {
+    "body_loop_coupling": [
+      0.027115647748863984,
+      0.13840588243067187,
+      0.13840588243067187
+    ],
+    "motor_mean": [
+      0.01213787862693618,
+      0.17194266528883395,
+      0.17194266528883392
+    ],
+    "neural_mean": [
+      0.02090098921176656,
+      0.18198471176535444,
+      0.1819847117653544
+    ],
+    "perturbation_response": [
+      0.016957777159038477,
+      0.30246573934730087,
+      0.3024657393473008
+    ],
+    "posture_mean": [
+      0.0420934168707909,
+      0.10486909957251003,
+      0.10486909957251002
+    ],
+    "stimulus_mean": [
+      0.9999963864676311,
+      7.508417820475724e-07,
+      7.508417820475723e-07
+    ]
+  },
+  "projection_model_source": "construction_packet_training_examples_all_ridge_least_squares",
+  "protocol": "CEF-v0",
+  "runtime": "wormsim-compatible-destination",
+  "runtime_hash": "65396f9785461afa319b48273da61a33331d69bb58b0997b04b6e3cfde001d67",
+  "schema": "cef-v0-synthetic-worm-runtime",
+  "state": {
+    "latent_internal_state": {
+      "body_loop_coupling": 0.288080302817142,
+      "motor_mean": 0.3489295302867757,
+      "neural_mean": 0.3726553306788825,
+      "perturbation_response": 0.6119787205024345,
+      "posture_mean": 0.22723107534750825,
+      "stimulus_mean": 0.41557223264540344
+    },
+    "runtime_step": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "capture_hash": "cc29e2aeb230a2570d52b92f94cf93afdfdaa031b7efee3cc0fdec7ec75a7240",
+  "case_dir": "reports\\cef_v0_2_real_dryad_ablation\\leave_one_window_out_01",
+  "construction_packet_hash": "4e0e88ef7debbb96bcfda7db84807371d0ecf83b0777a57e9341c069af961448",
+  "controls_failed_as_expected": true,
+  "failure_features": [],
+  "heldout_index": 1,
+  "heldout_status": "PASS",
+  "heldout_verification_status": "PASS",
+  "oracle_hash": "dcede38b4bc119058f9885194beae8022262d907dc3159d050b9fcab9b1a0cfa",
+  "oracle_leakage": false,
+  "passed_features": "6/6",
+  "projection_fit_mode": "construction_packet_training_examples_all_ridge_least_squares",
+  "real_data_ingestion": "PASS",
+  "report_hash": "51661d67ef25fd7413f85e37f163b15b1cffb7d531ff84d5d2221836ab500e6a",
+  "runtime_hash": "7460d5df2e6bfaaf29d94b967b1ad9ba65e6bee0326f52bd6e3983a464d4cc61",
+  "source_capture": "external\\celegans_dryad_copper_capture_v0_2.json",
+  "split_mode": "leave_one_window_out",
+  "windows": 6
+}

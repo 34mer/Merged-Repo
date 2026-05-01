@@ -11,6 +11,7 @@ def _features_to_dict(rows: list[dict[str, Any]]) -> dict[str, float]:
 
 
 
+
 def _solve3(matrix: list[list[float]], vector: list[float]) -> list[float]:
     """Solve a 3x3 linear system with Gaussian elimination."""
     a = [row[:] + [float(vector[i])] for i, row in enumerate(matrix)]
@@ -31,22 +32,42 @@ def _solve3(matrix: list[list[float]], vector: list[float]) -> list[float]:
     return [a[i][n] for i in range(n)]
 
 
+def _ridge_least_squares_3(x_rows: list[list[float]], y: list[float], ridge: float = 1e-6) -> list[float]:
+    """Fit y = a*x0 + b*x1 + c using all construction examples.
+
+    The original CEF-v0.1/v0.2 runtime used the first three construction rows as
+    an exact 3x3 solve. Real Dryad copper captures can have saturated
+    perturbation drivers, making that exact solve rank-deficient and causing a
+    mean-only fallback. This ridge normal-equation fit still uses construction
+    data only, but it lets all available construction examples contribute.
+    """
+    xtx = [[0.0, 0.0, 0.0] for _ in range(3)]
+    xty = [0.0, 0.0, 0.0]
+    for row, target in zip(x_rows, y):
+        vals = [float(row[0]), float(row[1]), float(row[2])]
+        for i in range(3):
+            xty[i] += vals[i] * float(target)
+            for j in range(3):
+                xtx[i][j] += vals[i] * vals[j]
+    for i in range(3):
+        xtx[i][i] += ridge
+    return _solve3(xtx, xty)
+
+
 def _fit_projection_model(training_examples: list[dict[str, Any]]) -> dict[str, list[float]]:
     """Fit feature = a*stimulus_mean + b*perturbation_magnitude + c from construction examples."""
     if len(training_examples) < 3:
         raise ValueError("CEF-v0.1 blind projection requires at least three construction examples")
-    examples = training_examples[:3]
     x = []
-    for row in examples:
+    for row in training_examples:
         driver = row["driver"]
         x.append([float(driver["stimulus_mean"]), float(driver["perturbation_magnitude"]), 1.0])
-    features = sorted(examples[0]["observables"].keys())
+    features = sorted(training_examples[0]["observables"].keys())
     model = {}
     for feature in features:
-        y = [float(row["observables"][feature]) for row in examples]
-        model[feature] = _solve3(x, y)
+        y = [float(row["observables"][feature]) for row in training_examples]
+        model[feature] = _ridge_least_squares_3(x, y)
     return model
-
 
 def _predict_features(model: dict[str, list[float]], driver_rows: list[dict[str, Any]]) -> dict[str, float]:
     predictions: dict[str, float] = {}
@@ -74,7 +95,7 @@ def constrain_synthetic_runtime(
         "construction_packet_hash": packet["construction_packet_hash"],
         "absorbed_constraints": features,
         "projection_model": projection_model,
-        "projection_model_source": "construction_packet_training_examples_only",
+        "projection_model_source": "construction_packet_training_examples_all_ridge_least_squares",
         "internal_constraint_channels": [
             "neural_mean",
             "posture_mean",

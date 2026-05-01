@@ -6,6 +6,7 @@ import typer
 
 from .capture import make_fixture_capture
 from .adapters import import_real_dataset_csv, import_real_dataset_json
+from .ablation import run_capture_split_ablation
 from .dryad import import_dryad_copper_h5
 from .compiler import compile_capture_to_packets
 from .report import write_summary
@@ -190,6 +191,27 @@ def prove_forcing_blind(
     typer.echo("Held-out perturbation verification: PASS")
     typer.echo("Controls failed as expected: true")
     typer.echo(f"Report: {report_path}")
+
+
+@app.command("run-split-ablation")
+def run_split_ablation_cmd(
+    source: Path = typer.Option(..., help="CEF capture JSON to resplit and evaluate."),
+    out: Path = typer.Option(Path("reports/cef_v0_2_split_ablation"), help="Split-ablation output directory."),
+    include_leave_one_out: bool = typer.Option(True, help="Also run leave-one-window-out cases."),
+) -> None:
+    matrix = run_capture_split_ablation(source, out, include_leave_one_out=include_leave_one_out)
+    typer.echo("CEF-v0.2 SPLIT ABLATION MATRIX COMPLETE")
+    typer.echo(f"Source capture: {matrix['source_capture']}")
+    typer.echo(f"Real data ingestion: {matrix['real_data_ingestion']}")
+    typer.echo(f"Projection fit mode: {matrix['projection_fit_mode']}")
+    for case in matrix["cases"]:
+        suffix = "" if case.get("heldout_index") is None else f"[{case['heldout_index']}]"
+        typer.echo(
+            f"{case['split_mode']}{suffix}: {case['heldout_status']} "
+            f"{case['passed_features']} failures={case['failure_features']} "
+            f"oracle_leakage={str(case['oracle_leakage']).lower()}"
+        )
+    typer.echo(f"Matrix: {out / 'split_ablation_matrix.json'}")
 
 
 if __name__ == "__main__":

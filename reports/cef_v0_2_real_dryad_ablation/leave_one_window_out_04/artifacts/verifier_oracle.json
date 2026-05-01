@@ -1,0 +1,83 @@
+{
+  "capture_hash": "eb3017c0d657542caaabdc99c29d9d07a15e1bc381cb6ad206dbf4004f46af1d",
+  "capture_origin": "real_dataset",
+  "dataset_source": "Dryad DOI 10.5061/dryad.w9ghx3g4v copper-boundary H5",
+  "features": [
+    {
+      "center": 0.4102968278527613,
+      "episode_count": 1,
+      "feature": "neural_mean",
+      "hash": "cd0b2526ccff9580cb7d771bd16b71eb7d5efa288cdf22531dff9f816fabf23e",
+      "range": [
+        0.3602968278527613,
+        0.46029682785276127
+      ],
+      "required": true
+    },
+    {
+      "center": 0.25333965974500394,
+      "episode_count": 1,
+      "feature": "posture_mean",
+      "hash": "d52bd80d245e6c7c3053e05c23688347a2743a2fa6280d9c09ff233faeaa0b61",
+      "range": [
+        0.20333965974500395,
+        0.30333965974500393
+      ],
+      "required": true
+    },
+    {
+      "center": 0.7482801751094434,
+      "episode_count": 1,
+      "feature": "stimulus_mean",
+      "hash": "7e7f806dc7b67cd16e3b14df49ae1b8621c9315089e00d3b49311efffaf4f0f0",
+      "range": [
+        0.6982801751094434,
+        0.7982801751094435
+      ],
+      "required": true
+    },
+    {
+      "center": 0.34482018890323185,
+      "episode_count": 1,
+      "feature": "motor_mean",
+      "hash": "6d3ab700f59b4e21fbc87b1dfc0eb66d26385ba998e778b872a2c86c357fe51c",
+      "range": [
+        0.29482018890323186,
+        0.39482018890323184
+      ],
+      "required": true
+    },
+    {
+      "center": 0.6308323403254731,
+      "episode_count": 1,
+      "feature": "perturbation_response",
+      "hash": "4986de494e1aec4b7a53d8f4ff42379e8a205f67cc1cd6d6eb3e364915d114f4",
+      "range": [
+        0.580832340325473,
+        0.6808323403254731
+      ],
+      "required": true
+    },
+    {
+      "center": 0.2990799243241179,
+      "episode_count": 1,
+      "feature": "body_loop_coupling",
+      "hash": "dc11658b62c4dacc28558d813cae83786c5fddbb35e564a23fb09600047c88ef",
+      "range": [
+        0.2490799243241179,
+        0.3490799243241179
+      ],
+      "required": true
+    }
+  ],
+  "heldout_episode_ids": [
+    "2023-03-30-01-cudata_window_04"
+  ],
+  "individual_id": "dryad_real_copper_001_leave_one_window_out_04",
+  "oracle_hash": "b2058ff4f3a1c697b23c0f894b37c9d5de57893456b190bec35ba8013d4e5fa8",
+  "protocol": "CEF-v0",
+  "real_organism_constraints_loaded": true,
+  "schema": "cef-v0-heldout-verifier-oracle",
+  "source_packet_hash": "a7c57c20e36b039e8f4a2697adc2a197de0b43bf037d2a1e7a6de596ac844ab9",
+  "split": "heldout"
+}

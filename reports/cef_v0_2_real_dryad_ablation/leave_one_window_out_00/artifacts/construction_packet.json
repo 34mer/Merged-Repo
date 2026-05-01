@@ -1,0 +1,227 @@
+{
+  "capture_hash": "76faac802738e4653aa412f73bc18e003a85b6f32f8cd600b81bcc1b14297203",
+  "capture_origin": "real_dataset",
+  "construction_packet_hash": "844f79638e215ea08a0e28488d3fcdab14b39d17b13a3aa8c6381dd5945574ec",
+  "dataset_source": "Dryad DOI 10.5061/dryad.w9ghx3g4v copper-boundary H5",
+  "features": [
+    {
+      "center": 0.41985899027817153,
+      "episode_count": 5,
+      "feature": "neural_mean",
+      "hash": "734bd85461e3f9288b3f302067066882186893b95af53a5610775352e8557f3b",
+      "range": [
+        0.25429470351150246,
+        0.7100698098771386
+      ],
+      "required": true
+    },
+    {
+      "center": 0.22092604702367652,
+      "episode_count": 5,
+      "feature": "posture_mean",
+      "hash": "b4bc3b2b1ad22679d62bbf97084ce94559d9e4228b42bc19e98e95a303672823",
+      "range": [
+        0.11183764267366943,
+        0.33333965974500396
+      ],
+      "required": true
+    },
+    {
+      "center": 0.5821763602251406,
+      "episode_count": 5,
+      "feature": "stimulus_mean",
+      "hash": "d8cac807fbcc5abe7fae4eed3fa428a48e1ea2cab96dec460f1153ff95df27e3",
+      "range": [
+        0.1692182614133833,
+        0.99588492808005
+      ],
+      "required": true
+    },
+    {
+      "center": 0.3423404463697296,
+      "episode_count": 5,
+      "feature": "motor_mean",
+      "hash": "3ef504fc16622d8b0613ac1d2ce86731aef35da09fd15a1bd68c01a189682ac1",
+      "range": [
+        0.22871748953452586,
+        0.44241337604130687
+      ],
+      "required": true
+    },
+    {
+      "center": 0.6349756455193727,
+      "episode_count": 5,
+      "feature": "perturbation_response",
+      "hash": "f25829e394cf881534609abba01c5dd63e35e9e6f1e5af46df325e6a4caaf7af",
+      "range": [
+        0.5107034890075723,
+        0.815461265722963
+      ],
+      "required": true
+    },
+    {
+      "center": 0.28163324669670303,
+      "episode_count": 5,
+      "feature": "body_loop_coupling",
+      "hash": "dc500c3578ba68968bf37c50ae6a7ab3baef991e6025391560eaf800568d839f",
+      "range": [
+        0.17312032930531152,
+        0.38204946981453797
+      ],
+      "required": true
+    }
+  ],
+  "individual_id": "dryad_real_copper_001_leave_one_window_out_00",
+  "protocol": "CEF-v0",
+  "real_organism_constraints_loaded": true,
+  "schema": "cef-v0-construction-packet",
+  "source_packet_hash": "c1655ade123533a97f43cbec61825b2a11bd5f882edff8be536351feacb0ef6c",
+  "split": "construction",
+  "training_examples": [
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.24921826141338332,
+            1.0
+          ],
+          "perturbation_events": [
+            {
+              "kind": "copper_boundary",
+              "magnitude": 1.0,
+              "timestep": 522725.5352429949
+            }
+          ]
+        },
+        "episode_id": "2023-03-30-01-cudata_window_01",
+        "perturbation_magnitude": 1.0,
+        "stimulus_mean": 0.24921826141338332
+      },
+      "episode_id": "2023-03-30-01-cudata_window_01",
+      "observables": {
+        "body_loop_coupling": 0.2843903245470836,
+        "motor_mean": 0.3485364490583243,
+        "neural_mean": 0.3342947035115025,
+        "perturbation_response": 0.5907034890075723,
+        "posture_mean": 0.22024420003584283,
+        "stimulus_mean": 0.24921826141338332
+      }
+    },
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.41557223264540344,
+            1.0
+          ],
+          "perturbation_events": [
+            {
+              "kind": "copper_boundary",
+              "magnitude": 1.0,
+              "timestep": 522885.5402669702
+            }
+          ]
+        },
+        "episode_id": "2023-03-30-01-cudata_window_02",
+        "perturbation_magnitude": 1.0,
+        "stimulus_mean": 0.41557223264540344
+      },
+      "episode_id": "2023-03-30-01-cudata_window_02",
+      "observables": {
+        "body_loop_coupling": 0.26952618549246427,
+        "motor_mean": 0.3472147283112591,
+        "neural_mean": 0.38806024197958106,
+        "perturbation_response": 0.6196797608288362,
+        "posture_mean": 0.19183764267366943,
+        "stimulus_mean": 0.41557223264540344
+      }
+    },
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.5819262038774233,
+            1.0
+          ],
+          "perturbation_events": [
+            {
+              "kind": "copper_boundary",
+              "magnitude": 1.0,
+              "timestep": 523045.57029178407
+            }
+          ]
+        },
+        "episode_id": "2023-03-30-01-cudata_window_03",
+        "perturbation_magnitude": 1.0,
+        "stimulus_mean": 0.5819262038774233
+      },
+      "episode_id": "2023-03-30-01-cudata_window_03",
+      "observables": {
+        "body_loop_coupling": 0.30204946981453795,
+        "motor_mean": 0.36241337604130686,
+        "neural_mean": 0.33657336816987415,
+        "perturbation_response": 0.5982013717120189,
+        "posture_mean": 0.2416855635877691,
+        "stimulus_mean": 0.5819262038774233
+      }
+    },
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.7482801751094434,
+            1.0
+          ],
+          "perturbation_events": [
+            {
+              "kind": "copper_boundary",
+              "magnitude": 1.0,
+              "timestep": 523205.5903163608
+            }
+          ]
+        },
+        "episode_id": "2023-03-30-01-cudata_window_04",
+        "perturbation_magnitude": 1.0,
+        "stimulus_mean": 0.7482801751094434
+      },
+      "episode_id": "2023-03-30-01-cudata_window_04",
+      "observables": {
+        "body_loop_coupling": 0.2990799243241179,
+        "motor_mean": 0.34482018890323185,
+        "neural_mean": 0.4102968278527613,
+        "perturbation_response": 0.6308323403254731,
+        "posture_mean": 0.25333965974500394,
+        "stimulus_mean": 0.7482801751094434
+      }
+    },
+    {
+      "driver": {
+        "driver_channels": {
+          "environment_stimulus_state": [
+            0.9158849280800501,
+            1.0
+          ],
+          "perturbation_events": [
+            {
+              "kind": "copper_boundary",
+              "magnitude": 1.0,
+              "timestep": 523365.60534055735
+            }
+          ]
+        },
+        "episode_id": "2023-03-30-01-cudata_window_05",
+        "perturbation_magnitude": 1.0,
+        "stimulus_mean": 0.9158849280800501
+      },
+      "episode_id": "2023-03-30-01-cudata_window_05",
+      "observables": {
+        "body_loop_coupling": 0.25312032930531153,
+        "motor_mean": 0.3087174895345259,
+        "neural_mean": 0.6300698098771387,
+        "perturbation_response": 0.735461265722963,
+        "posture_mean": 0.19752316907609718,
+        "stimulus_mean": 0.9158849280800501
+      }
+    }
+  ]
+}

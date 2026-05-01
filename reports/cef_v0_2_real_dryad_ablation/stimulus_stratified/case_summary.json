@@ -1,0 +1,20 @@
+{
+  "capture_hash": "73f37268ba613e28d35a3360c474237105b0b308770aeb7c194af46736a344ed",
+  "case_dir": "reports\\cef_v0_2_real_dryad_ablation\\stimulus_stratified",
+  "construction_packet_hash": "d97770f962c993f3ec9839b79eac08641effa1b33f498f8ba9b44ffbe8873932",
+  "controls_failed_as_expected": true,
+  "failure_features": [],
+  "heldout_index": null,
+  "heldout_status": "PASS",
+  "heldout_verification_status": "PASS",
+  "oracle_hash": "921a365de9932124f73cf07908d8c0923fb4d2426d249ad08dae84d63f473b0f",
+  "oracle_leakage": false,
+  "passed_features": "6/6",
+  "projection_fit_mode": "construction_packet_training_examples_all_ridge_least_squares",
+  "real_data_ingestion": "PASS",
+  "report_hash": "93e52454f9b32a94f8f157bfbb9bde16b9b58bbc43e0e9734c1b96abac667324",
+  "runtime_hash": "f8f7836b3d367776a887671893c89cf659e45729e457e0f59c01987bd1049e5c",
+  "source_capture": "external\\celegans_dryad_copper_capture_v0_2.json",
+  "split_mode": "stimulus_stratified",
+  "windows": 6
+}

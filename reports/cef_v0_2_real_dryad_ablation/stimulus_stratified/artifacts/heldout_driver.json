@@ -1,0 +1,65 @@
+{
+  "capture_hash": "73f37268ba613e28d35a3360c474237105b0b308770aeb7c194af46736a344ed",
+  "driver_rows": [
+    {
+      "driver_channels": {
+        "environment_stimulus_state": [
+          0.08286429018136343,
+          1.0
+        ],
+        "perturbation_events": [
+          {
+            "kind": "copper_boundary",
+            "magnitude": 1.0,
+            "timestep": 522565.5234006742
+          }
+        ]
+      },
+      "episode_id": "2023-03-30-01-cudata_window_00",
+      "perturbation_magnitude": 1.0,
+      "stimulus_mean": 0.08286429018136343
+    },
+    {
+      "driver_channels": {
+        "environment_stimulus_state": [
+          0.5819262038774233,
+          1.0
+        ],
+        "perturbation_events": [
+          {
+            "kind": "copper_boundary",
+            "magnitude": 1.0,
+            "timestep": 523045.57029178407
+          }
+        ]
+      },
+      "episode_id": "2023-03-30-01-cudata_window_03",
+      "perturbation_magnitude": 1.0,
+      "stimulus_mean": 0.5819262038774233
+    },
+    {
+      "driver_channels": {
+        "environment_stimulus_state": [
+          0.9158849280800501,
+          1.0
+        ],
+        "perturbation_events": [
+          {
+            "kind": "copper_boundary",
+            "magnitude": 1.0,
+            "timestep": 523365.60534055735
+          }
+        ]
+      },
+      "episode_id": "2023-03-30-01-cudata_window_05",
+      "perturbation_magnitude": 1.0,
+      "stimulus_mean": 0.9158849280800501
+    }
+  ],
+  "heldout_driver_hash": "daa475f438d16f48768142611e79237d89b3d32a7105ac0b988d9ff0681ab223",
+  "individual_id": "dryad_real_copper_001_stimulus_stratified",
+  "oracle_excluded_from_generation": true,
+  "protocol": "CEF-v0.1",
+  "schema": "cef-v0.1-heldout-driver",
+  "split": "heldout_driver"
+}
